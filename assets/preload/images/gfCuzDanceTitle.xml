@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="gfCuzDanceTitle.png">
+	<!-- Created with Adobe Animate version 22.0.0.93 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="GFCuzBump instance 10000" x="0" y="0" width="866" height="683" frameX="-4" frameY="-1" frameWidth="870" frameHeight="684"/>
+	<SubTexture name="GFCuzBump instance 10001" x="876" y="0" width="870" height="683" frameX="0" frameY="-1" frameWidth="870" frameHeight="684"/>
+	<SubTexture name="GFCuzBump instance 10002" x="1756" y="0" width="867" height="682" frameX="0" frameY="-2" frameWidth="870" frameHeight="684"/>
+	<SubTexture name="GFCuzBump instance 10003" x="2633" y="0" width="861" height="683" frameX="-2" frameY="-1" frameWidth="870" frameHeight="684"/>
+	<SubTexture name="GFCuzBump instance 10004" x="0" y="693" width="859" height="684" frameX="-4" frameY="0" frameWidth="870" frameHeight="684"/>
+	<SubTexture name="GFCuzBump instance 10005" x="869" y="693" width="859" height="684" frameX="-4" frameY="0" frameWidth="870" frameHeight="684"/>
+	<SubTexture name="GFCuzBump instance 10006" x="1738" y="693" width="859" height="684" frameX="-4" frameY="0" frameWidth="870" frameHeight="684"/>
+	<SubTexture name="GFCuzBump instance 10007" x="2607" y="693" width="859" height="684" frameX="-4" frameY="0" frameWidth="870" frameHeight="684"/>
+	<SubTexture name="GFCuzBump instance 10008" x="2607" y="693" width="859" height="684" frameX="-4" frameY="0" frameWidth="870" frameHeight="684"/>
+	<SubTexture name="GFCuzBump instance 10009" x="2607" y="693" width="859" height="684" frameX="-4" frameY="0" frameWidth="870" frameHeight="684"/>
+	<SubTexture name="GFCuzBump instance 10010" x="0" y="1387" width="859" height="684" frameX="-4" frameY="0" frameWidth="870" frameHeight="684"/>
+	<SubTexture name="GFCuzBump instance 10011" x="0" y="1387" width="859" height="684" frameX="-4" frameY="0" frameWidth="870" frameHeight="684"/>
+	<SubTexture name="GFCuzBump instance 10012" x="0" y="1387" width="859" height="684" frameX="-4" frameY="0" frameWidth="870" frameHeight="684"/>
+	<SubTexture name="GFCuzBump instance 10013" x="869" y="1387" width="859" height="684" frameX="-4" frameY="0" frameWidth="870" frameHeight="684"/>
+	<SubTexture name="GFCuzBump instance 10014" x="869" y="1387" width="859" height="684" frameX="-4" frameY="0" frameWidth="870" frameHeight="684"/>
+	<SubTexture name="GFCuzBump instance 10015" x="1738" y="1387" width="866" height="683" frameX="-4" frameY="-1" frameWidth="870" frameHeight="684"/>
+	<SubTexture name="GFCuzBump instance 10016" x="2614" y="1387" width="870" height="683" frameX="0" frameY="-1" frameWidth="870" frameHeight="684"/>
+	<SubTexture name="GFCuzBump instance 10017" x="0" y="2081" width="867" height="682" frameX="0" frameY="-2" frameWidth="870" frameHeight="684"/>
+	<SubTexture name="GFCuzBump instance 10018" x="877" y="2081" width="861" height="683" frameX="-2" frameY="-1" frameWidth="870" frameHeight="684"/>
+	<SubTexture name="GFCuzBump instance 10019" x="1748" y="2081" width="859" height="684" frameX="-4" frameY="0" frameWidth="870" frameHeight="684"/>
+	<SubTexture name="GFCuzBump instance 10020" x="2617" y="2081" width="859" height="684" frameX="-4" frameY="0" frameWidth="870" frameHeight="684"/>
+	<SubTexture name="GFCuzBump instance 10021" x="0" y="2775" width="859" height="684" frameX="-4" frameY="0" frameWidth="870" frameHeight="684"/>
+	<SubTexture name="GFCuzBump instance 10022" x="869" y="2775" width="859" height="684" frameX="-4" frameY="0" frameWidth="870" frameHeight="684"/>
+	<SubTexture name="GFCuzBump instance 10023" x="869" y="2775" width="859" height="684" frameX="-4" frameY="0" frameWidth="870" frameHeight="684"/>
+	<SubTexture name="GFCuzBump instance 10024" x="869" y="2775" width="859" height="684" frameX="-4" frameY="0" frameWidth="870" frameHeight="684"/>
+	<SubTexture name="GFCuzBump instance 10025" x="1738" y="2775" width="859" height="684" frameX="-4" frameY="0" frameWidth="870" frameHeight="684"/>
+	<SubTexture name="GFCuzBump instance 10026" x="1738" y="2775" width="859" height="684" frameX="-4" frameY="0" frameWidth="870" frameHeight="684"/>
+	<SubTexture name="GFCuzBump instance 10027" x="1738" y="2775" width="859" height="684" frameX="-4" frameY="0" frameWidth="870" frameHeight="684"/>
+	<SubTexture name="GFCuzBump instance 10028" x="2607" y="2775" width="859" height="684" frameX="-4" frameY="0" frameWidth="870" frameHeight="684"/>
+	<SubTexture name="GFCuzBump instance 10029" x="2607" y="2775" width="859" height="684" frameX="-4" frameY="0" frameWidth="870" frameHeight="684"/>
+</TextureAtlas>

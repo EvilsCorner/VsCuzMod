@@ -1,0 +1,30 @@
+:SCENE:1
+:BF:r:Cheeky:sex
+:GF:l:Default:Lol, he said the funny word
+:SCENE:2
+:SCENE:3
+:GF:l:Shocked:holy shit dude! what was that?
+:BF:r:Shocked:SQUIDGAMES!!
+:SCENE:4
+:Cuz:l:Smug:Hey little man, long time no see...
+:Cuz:l:Enraged:Who the hell is THAT and why is she pretending to like you?
+:BF:r:Excited:beEEEp
+:Cuz:l:Shocked:What?
+:GF:r:Annoyed:He says your a bitch
+:GF:r:Default:Lol
+:Cuz:l:Pout:Oh.
+:Cuz:l:Stunned:Okay.
+:Cuz:l:Angry:Fuckin lil bastard, haven't even seen you in like... months
+:Cuz:l:Ticked Off:And you come around here, see me, and be like
+:Cuz:l:Laugh:Haha, ima call my big Cousin a BITCH and laugh!
+:GF:r:Laugh:ahahaha omg i was joking, don't have a fucking breakdown--
+:Cuz:l:Pleased:aHAhaHA i WaS jOkInG, dOn'T wHaVe a bWeaKdown mehmemmemmeeeH mY paNtIeS aRe twO siZes tOo smAll
+:Cuz:l:Default:bitch stfu i will pick you up and throw you
+:GF:r:Surprised:...
+:BF:r:Cheeky:bet
+:GF:r:Shocked:!!!
+:SCENE:8
+:Cuz:l:Smug:Lol, you'd wanna see that? I thought she was your girlfriend
+:BF:r:Knowitall:Beep, Boop
+:Cuz:l:Pissed:Fucking knew it
+:BF:r:Shocked:BEEEEEP!

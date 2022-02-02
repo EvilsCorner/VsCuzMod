@@ -5,7 +5,9 @@
     "needsVoices": true,
     "player1": "demongf",
     "player2": "cuzmad",
+    "gfVersion": "gf-bf",
     "speed": 1.0,
+    "stage": "downtown",
     "notes": [
       {
         "lengthInSteps": 16,

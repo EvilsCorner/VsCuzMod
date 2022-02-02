@@ -269,30 +269,19 @@
 	<SubTexture name="GF Game Over Dies0031" x="5967" y="1964" width="653" height="643"/>
 	<SubTexture name="GF Game Over Dies0032" x="5967" y="1964" width="653" height="643"/>
 	<SubTexture name="GF Game Over Dies0033" x="5967" y="1964" width="653" height="643"/>
-	<SubTexture name="GF Game Over Dies0034" x="5967" y="1964" width="653" height="643"/>
-	<SubTexture name="GF Game Over Dies0035" x="5967" y="1964" width="653" height="643"/>
-	<SubTexture name="GF Game Over Dies0036" x="5967" y="1964" width="653" height="643"/>
+	<SubTexture name="GF Game Over Dies0034" x="6630" y="1964" width="653" height="643"/>
+	<SubTexture name="GF Game Over Dies0035" x="6630" y="1964" width="653" height="643"/>
+	<SubTexture name="GF Game Over Dies0036" x="6630" y="1964" width="653" height="643"/>
 	<SubTexture name="GF Game Over Dies0037" x="6630" y="1964" width="653" height="643"/>
-	<SubTexture name="GF Game Over Dies0038" x="5967" y="1964" width="653" height="643"/>
-	<SubTexture name="GF Game Over Dies0039" x="6630" y="1964" width="653" height="643"/>
-	<SubTexture name="GF Game Over Dies0040" x="6630" y="1964" width="653" height="643"/>
-	<SubTexture name="GF Game Over Dies0041" x="6630" y="1964" width="653" height="643"/>
-	<SubTexture name="GF Game Over Dies0042" x="6630" y="1964" width="653" height="643"/>
-	<SubTexture name="GF Game Over Dies0043" x="6630" y="1964" width="653" height="643"/>
-	<SubTexture name="GF Game Over Dies0044" x="6630" y="1964" width="653" height="643"/>
-	<SubTexture name="GF Game Over Dies0045" x="6630" y="1964" width="653" height="643"/>
-	<SubTexture name="GF Game Over Dies0046" x="6630" y="1964" width="653" height="643"/>
-	<SubTexture name="GF Game Over Dies0047" x="6630" y="1964" width="653" height="643"/>
-	<SubTexture name="GF Game Over Dies0048" x="7293" y="1964" width="653" height="643"/>
-	<SubTexture name="GF Game Over Dies0049" x="6630" y="1964" width="653" height="643"/>
-	<SubTexture name="GF Game Over Dies0050" x="7293" y="1964" width="653" height="643"/>
-	<SubTexture name="GF Game Over Dies0051" x="7293" y="1964" width="653" height="643"/>
-	<SubTexture name="GF Game Over Dies0052" x="7293" y="1964" width="653" height="643"/>
-	<SubTexture name="GF Game Over Dies0053" x="7293" y="1964" width="653" height="643"/>
-	<SubTexture name="GF Game Over Dies0054" x="7293" y="1964" width="653" height="643"/>
-	<SubTexture name="GF Game Over Dies0055" x="7293" y="1964" width="653" height="643"/>
-	<SubTexture name="GF Game Over Dies0056" x="0" y="2617" width="653" height="643"/>
-	<SubTexture name="GF Game Over Dies0057" x="0" y="2617" width="653" height="643"/>
+	<SubTexture name="GF Game Over Dies0038" x="6630" y="1964" width="653" height="643"/>
+	<SubTexture name="GF Game Over Dies0039" x="7293" y="1964" width="653" height="643"/>
+	<SubTexture name="GF Game Over Dies0040" x="7293" y="1964" width="653" height="643"/>
+	<SubTexture name="GF Game Over Dies0041" x="7293" y="1964" width="653" height="643"/>
+	<SubTexture name="GF Game Over Dies0042" x="7293" y="1964" width="653" height="643"/>
+	<SubTexture name="GF Game Over Dies0043" x="0" y="2617" width="653" height="643"/>
+	<SubTexture name="GF Game Over Dies0044" x="0" y="2617" width="653" height="643"/>
+	<SubTexture name="GF Game Over Dies0045" x="0" y="2617" width="653" height="643"/>
+	<SubTexture name="GF Game Over Dies0046" x="0" y="2617" width="653" height="643"/>
 	<SubTexture name="LEFT MISS0000" x="663" y="2617" width="658" height="644"/>
 	<SubTexture name="LEFT MISS0001" x="1331" y="2617" width="652" height="644" frameX="-6" frameY="0" frameWidth="658" frameHeight="644"/>
 	<SubTexture name="LEFT MISS0002" x="1331" y="2617" width="652" height="644" frameX="-6" frameY="0" frameWidth="658" frameHeight="644"/>

@@ -437,6 +437,25 @@ class Character extends FlxSprite
 				addOffset("singDOWN");
 					
 				playAnim('idle');
+
+			case 'cuz4':
+					frames = Paths.getSparrowAtlas('Cuz/Cuz_Assets_Song4');
+					animation.addByPrefix('idle', 'CUZ POSE IDLE', 24, false);
+					animation.addByPrefix('singUP', 'CUZ POSE UP', 24, false);
+					animation.addByPrefix('singDOWN', 'CUZ POSE DOWN', 24, false);
+					animation.addByPrefix('singLEFT', 'CUZ POSE LEFT', 24, false);
+					animation.addByPrefix('singRIGHT', 'CUZ POSE RIGHT', 24, false);
+					animation.addByPrefix('stab1', 'Cuz First Swipe', 24, false);
+					animation.addByPrefix('stab2', 'Cuz Second Swipe', 24, false);
+					animation.addByPrefix('screamReact', 'CUZ SCREAM REACT', 24, false);
+						
+					addOffset('idle');
+					addOffset("singUP");
+					addOffset("singRIGHT");
+					addOffset("singLEFT");
+					addOffset("singDOWN");
+						
+					playAnim('idle');
 	
 	
 			case 'demongf':
@@ -459,6 +478,35 @@ class Character extends FlxSprite
 				animation.addByPrefix('deathLoop', "GF Game Over  LOOP", 24, false);
 				animation.addByPrefix('deathConfirm', "GF Dead Confirm", 24, false);
 		
+				loadOffsetFile(curCharacter);
+		
+				playAnim('idle');
+		
+				flipX = true;
+
+			case 'demongf4':
+				var tex = Paths.getSparrowAtlas('Cuz/GF_SingingSong4_assets');
+				frames = tex;
+		
+				trace(tex.frames.length);
+
+				// fix these dumb ass long stupid names later...
+				animation.addByPrefix('idle', 'GF Demon Idle instance 1', 24, false);
+				animation.addByPrefix('singUP', 'GF Demon Up instance 1', 24, false);
+				animation.addByPrefix('singLEFT', 'GF Demon left instance 1', 24, false);
+				animation.addByPrefix('singRIGHT', 'GF Demon Right instance 1', 24, false);
+				animation.addByPrefix('singDOWN', 'GF Demon Down instance 1', 24, false);
+				animation.addByPrefix('singUPmiss', 'GF Demon Up Miss  instance 1', 24, false);
+				animation.addByPrefix('singLEFTmiss', 'GF Demon Left Miss  instance 1', 24, false);
+				animation.addByPrefix('singRIGHTmiss', 'GF Demon Right Miss instance 1', 24, false);
+				animation.addByPrefix('singDOWNmiss', 'GF Demon Down Miss  instance 1', 24, false);
+		
+				animation.addByPrefix('firstDeath', 'GF Game Over Dies instance 1', 24, false);
+				animation.addByPrefix('deathLoop', 'GF Game Over  LOOP instance 1', 24, false);
+				animation.addByPrefix('deathConfirm', 'GF Dead Confirm instance 1', 24, false);
+
+				animation.addByPrefix('screech', 'GF Demon Screech instance 1', 24, false);
+				animation.addByPrefix('singLEFT-alt', 'GF Demon Flicker Scary Face instance 1', 24,false);
 		
 				loadOffsetFile(curCharacter);
 		

@@ -269,8 +269,12 @@ class PlayState extends MusicBeatState
 	public var executeModchart = false;
 
 	// Animation common suffixes
-	private var dataSuffix:Array<String> = ['LEFT', 'DOWN', 'UP', 'RIGHT'];
-	private var dataColor:Array<String> = ['purple', 'blue', 'green', 'red'];
+	private var dataSuffix:Array<String> = ['LEFT', 'DOWN', 'UP', 'RIGHT', 'STAB', 'SCREECH'];
+	private var dataColor:Array<String> = ['purple', 'blue', 'green', 'red', 'stab', 'scream'];
+	
+	// dumb public variables for stabbing people!
+	private var stabcounter:Int = 1;
+	private var missedStab:Bool = false;
 
 	public static var startTime = 0.0;
 
@@ -660,7 +664,7 @@ class PlayState extends MusicBeatState
 				gf.x += offSet + 160;
 				gf.y += -95;
 				gf.scrollFactor.set(1, 1);
-			case 'cuzmad':
+			case 'cuzmad' | 'cuz4':
 				var offSet = 53;
 				dad.x += offSet + -60;
 				dad.y += -390;
@@ -1472,7 +1476,7 @@ class PlayState extends MusicBeatState
 			ana.hit = false;
 			ana.hitJudge = "shit";
 			ana.nearestNote = [];
-			health -= 0.20;
+			//health -= 0.20;
 		}
 	}
 
@@ -1720,6 +1724,9 @@ class PlayState extends MusicBeatState
 		#end
 		var daBeats:Int = 0; // Not exactly representative of 'daBeats' lol, just how much it has looped
 
+		/// -------------------------- NOTES ----------------------------------------------------------------
+		/// this is where the note data is parsed / read
+		/// -------------------------------------------------------------------------------------------------
 
 		for (section in noteData)
 		{
@@ -1730,23 +1737,38 @@ class PlayState extends MusicBeatState
 				var daStrumTime:Float = songNotes[0] - FlxG.save.data.offset - songOffset;
 				if (daStrumTime < 0)
 					daStrumTime = 0;
-				var daNoteData:Int = Std.int(songNotes[1] % 4);
+				
+				var daNoteData:Int = Std.int(songNotes[1] % 4); // 4
 
 				var gottaHitNote:Bool = true;
 
-				if (songNotes[1] > 3 && section.mustHitSection)
+				// its not reading this ever????
+				// WHY????
+				trace("--- songNotes[1]:" + songNotes[1]);
+				trace("--- songNotes[3]:" + songNotes[5]);
+				var daNoteType:Int = Std.int(songNotes[5]); // shout outs to NinjaMuffin99
+
+				if (songNotes[1] > 3 && section.mustHitSection) // 3
 					gottaHitNote = false;
 				else if (songNotes[1] < 4 && !section.mustHitSection)
 					gottaHitNote = false;
-				
 
+				//if(songNotes.length >= 4)
+				//daNoteType = Std.int(songNotes[3]);
+
+					
 				var oldNote:Note;
 				if (unspawnNotes.length > 0)
 					oldNote = unspawnNotes[Std.int(unspawnNotes.length - 1)];
 				else
 					oldNote = null;
 
-				var swagNote:Note = new Note(daStrumTime, daNoteData, oldNote,false,false,false,songNotes[4]);
+				/// note gets created
+				//trace("--- about to create the note...");
+				/// here I have added a variable called noteType to the end of the constructor.
+				/// passing songNotes[3] will tell the note if its one of the custom types or not
+				var swagNote:Note = new Note(daStrumTime, daNoteData, oldNote,false,false,false,0,daNoteType);
+				//trace("---> past creating the note.");
 
 				if (!gottaHitNote && PlayStateChangeables.Optimize)
 					continue;
@@ -1759,6 +1781,7 @@ class PlayState extends MusicBeatState
 				susLength = susLength / Conductor.stepCrochet;
 				unspawnNotes.push(swagNote);
 
+				///actually useful!
 				swagNote.isAlt = songNotes[3];
 
 				if (susLength > 0)
@@ -1769,10 +1792,14 @@ class PlayState extends MusicBeatState
 				for (susNote in 0...Math.floor(susLength))
 				{
 					oldNote = unspawnNotes[Std.int(unspawnNotes.length - 1)];
-
-					var sustainNote:Note = new Note(daStrumTime + (Conductor.stepCrochet * susNote) + Conductor.stepCrochet, daNoteData, oldNote, true);
+					//trace("--- about to create the sussy note...");
+					/// the sustained notes get the same treatment to be custom types or not
+					var sustainNote:Note = new Note(daStrumTime + (Conductor.stepCrochet * susNote) + Conductor.stepCrochet, 
+													daNoteData, oldNote, true,false,false,0,daNoteType);
+					//trace("---> past creating the amogus note.");
 					sustainNote.scrollFactor.set();
 					unspawnNotes.push(sustainNote);
+
 					sustainNote.isAlt = songNotes[3];
 
 					sustainNote.mustPress = gottaHitNote;
@@ -2698,7 +2725,7 @@ class PlayState extends MusicBeatState
 					case 'senpai' | 'senpai-angry':
 						camFollow.y = dad.getMidpoint().y - 430;
 						camFollow.x = dad.getMidpoint().x - 100;
-					case 'cuz' | 'cuzmad':
+					case 'cuz' | 'cuzmad' | 'cuz4':
 						camFollow.y = dad.getMidpoint().y - 0;
 						camFollow.x = dad.getMidpoint().x + 350;
 				}
@@ -3028,6 +3055,8 @@ class PlayState extends MusicBeatState
 						{
 							var singData:Int = Std.int(Math.abs(daNote.noteData));
 							dad.playAnim('sing' + dataSuffix[singData] + altAnim, true);
+							/// reset stabs
+							stabcounter = 1;
 
 							if (FlxG.save.data.cpuStrums)
 							{
@@ -3062,6 +3091,8 @@ class PlayState extends MusicBeatState
 					{
 						var singData:Int = Std.int(Math.abs(daNote.noteData));
 							dad.playAnim('sing' + dataSuffix[singData] + altAnim, true);
+							/// reset stabs redundantly
+							stabcounter = 1;
 
 							if (FlxG.save.data.cpuStrums)
 							{
@@ -3150,6 +3181,7 @@ class PlayState extends MusicBeatState
 						{
 							daNote.kill();
 							notes.remove(daNote, true);
+							
 						}
 						else
 						{
@@ -3167,7 +3199,7 @@ class PlayState extends MusicBeatState
 									}
 									if (daNote.isParent)
 									{
-										health -= 0.15; // give a health punishment for failing a LN
+										if(daNote.noteType != 1) health -= 0.15; // give a health punishment for failing a LN
 										trace("hold fell over at the start");
 										for (i in daNote.children)
 										{
@@ -3196,7 +3228,7 @@ class PlayState extends MusicBeatState
 										else if (!daNote.wasGoodHit
 											&& !daNote.isSustainNote)
 										{
-											health -= 0.15;
+											if(daNote.noteType != 1) health -= 0.15; // omit stab notes
 										}
 									}
 								}
@@ -3217,7 +3249,7 @@ class PlayState extends MusicBeatState
 
 								if (daNote.isParent && daNote.visible)
 								{
-									health -= 0.15; // give a health punishment for failing a LN
+									if(daNote.noteType != 1) health -= 0.15; // give a health punishment for failing a LN
 									trace("hold fell over at the start");
 									for (i in daNote.children)
 									{
@@ -3246,7 +3278,7 @@ class PlayState extends MusicBeatState
 									else if (!daNote.wasGoodHit
 										&& !daNote.isSustainNote)
 									{
-										health -= 0.15;
+										if(daNote.noteType != 1) health -= 0.15;
 									}
 								}
 							}
@@ -3291,6 +3323,22 @@ class PlayState extends MusicBeatState
 		#end
 
 		super.update(elapsed);
+
+		// stabbing time...
+		if(missedStab && (dad.animation.curAnim.name.startsWith("stab")))
+		{
+			// timing is still off...
+			if(dad.animation.curAnim.curFrame == 5) 
+			{
+				//OW!
+				new FlxTimer().start(0.01, function(tmr:FlxTimer)
+					{
+						health -= 0.1;
+					}, 10);
+				missedStab = false;
+			}
+		}
+
 	}
 
 	public function getSectionByTime(ms:Float):SwagSection
@@ -3583,7 +3631,7 @@ class PlayState extends MusicBeatState
 				score = -300;
 				combo = 0;
 				misses++;
-				health -= 0.1;
+				if(daNote.noteType != 1) health -= 0.1; // omit stab notes
 				ss = false;
 				shits++;
 				if (FlxG.save.data.accuracyMod == 0)
@@ -3591,7 +3639,7 @@ class PlayState extends MusicBeatState
 			case 'bad':
 				daRating = 'bad';
 				score = 0;
-				health -= 0.06;
+				if(daNote.noteType != 1) health -= 0.06; // omit stab notes
 				ss = false;
 				bads++;
 				if (FlxG.save.data.accuracyMod == 0)
@@ -4220,7 +4268,6 @@ class PlayState extends MusicBeatState
 	{
 		if (!boyfriend.stunned)
 		{
-			//health -= 0.2;
 			if (combo > 5 && gf.animOffsets.exists('sad'))
 			{
 				gf.playAnim('sad');
@@ -4273,9 +4320,32 @@ class PlayState extends MusicBeatState
 					// FlxG.log.add('played imss note');
 				}
 
+			
 
-			// Hole switch statement replaced with a single line :)
-			boyfriend.playAnim('sing' + dataSuffix[direction] + 'miss', true);
+			switch (daNote.noteType) {
+				case 1:
+					// miss stab
+					dad.playAnim('stab' + stabcounter, true);
+					// this should probably activate a boolean instead... do the animation lower in the code
+					// have a counter for howmany swings in a row we've done too.
+
+					stabcounter = (stabcounter%2) + 1; // this always equates to 1 or 2
+					// this gets reset if cuz sings a note,
+					// or the first stab animation ends (waited too long for another swing)
+					boyfriend.playAnim('sing' + dataSuffix[direction] + 'miss', true);
+					// code that takes away health is else where
+					missedStab = true;
+					
+
+				case 2:
+					// miss screech
+					boyfriend.playAnim('sing' + dataSuffix[direction] + 'miss', true);
+				default:
+					boyfriend.playAnim('sing' + dataSuffix[direction] + 'miss', true);
+					health -= 0.2;
+					
+			}
+			
 
 			#if cpp
 			if (luaModchart != null)
@@ -4427,8 +4497,23 @@ class PlayState extends MusicBeatState
 					altAnim = '-alt';
 					trace("Alt note on BF");
 				}
-
-			boyfriend.playAnim('sing' + dataSuffix[note.noteData] + altAnim, true);
+			
+			// custom note handeling 
+			switch (note.noteType)
+			{
+				case 1:
+					//stab
+					dad.playAnim('stab' + stabcounter, true);
+					boyfriend.playAnim('sing' + dataSuffix[note.noteData] + altAnim, true);
+					stabcounter = (stabcounter%2) + 1;
+				case 2:
+					//scream
+					boyfriend.playAnim('screech', true);
+					dad.playAnim('screamReact', true);
+				default:
+					boyfriend.playAnim('sing' + dataSuffix[note.noteData] + altAnim, true);
+			}
+			
 
 			#if cpp
 			if (luaModchart != null)
@@ -4673,7 +4758,8 @@ class PlayState extends MusicBeatState
 			// Conductor.changeBPM(SONG.bpm);
 
 			// Dad doesnt interupt his own notes
-			if ((!dad.animation.curAnim.name.startsWith("sing")) && dad.curCharacter != 'gf')
+			/// gotta add condition so that when cuz swings, the idle does not interrupt it
+			if ((!dad.animation.curAnim.name.startsWith("sing")) && dad.curCharacter != 'gf' && (!dad.animation.curAnim.name.startsWith("stab")))
 				if ((curBeat % idleBeat == 0 || !idleToBeat) || dad.curCharacter == "spooky")
 					dad.dance(idleToBeat, currentSection.CPUAltAnim);
 		}

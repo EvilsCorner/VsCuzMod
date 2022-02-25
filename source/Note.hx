@@ -23,7 +23,7 @@ class Note extends FlxSprite
 	public var rStrumTime:Float = 0;
 
 	public var mustPress:Bool = false;
-	public var noteData:Int = 0;
+	public var noteData:Int = 0; /// this is expected to be numbers from 
 	public var rawNoteData:Int = 0;
 	public var canBeHit:Bool = false;
 	public var tooLate:Bool = false;
@@ -34,6 +34,8 @@ class Note extends FlxSprite
 	public var isSustainNote:Bool = false;
 	public var originColor:Int = 0; // The sustain note's original note's color
 	public var noteSection:Int = 0;
+	/// custom variable for note types
+	public var noteType:Int = 0;
 
 	public var luaID:Int = 0;
 
@@ -48,10 +50,16 @@ class Note extends FlxSprite
 	public var beat:Float = 0;
 
 	public static var swagWidth:Float = 160 * 0.7;
-	public static var PURP_NOTE:Int = 0;
-	public static var GREEN_NOTE:Int = 2;
-	public static var BLUE_NOTE:Int = 1;
-	public static var RED_NOTE:Int = 3;
+	public static var PURP_NOTE:Int = 0; /// left
+	public static var GREEN_NOTE:Int = 2; /// up
+	public static var BLUE_NOTE:Int = 1; /// down
+	public static var RED_NOTE:Int = 3; /// right
+	/// custom types
+	/*
+	public static var STAB_NOTE:Int = 4; /// both of these are left
+	public static var SCREAM_NOTE:Int = 5;
+	*/
+
 
 	public var rating:String = "shit";
 
@@ -59,7 +67,7 @@ class Note extends FlxSprite
 	public var localAngle:Float = 0; // The angle to be edited inside Note.hx
 	public var originAngle:Float = 0; // The angle the OG note of the sus note had (?)
 
-	public var dataColor:Array<String> = ['purple', 'blue', 'green', 'red'];
+	public var dataColor:Array<String> = ['purple', 'blue', 'green', 'red', 'stab', 'scream'];
 	public var quantityColor:Array<Int> = [RED_NOTE, 2, BLUE_NOTE, 2, PURP_NOTE, 2, GREEN_NOTE, 2];
 	public var arrowAngles:Array<Int> = [180, 90, 270, 0];
 
@@ -70,7 +78,7 @@ class Note extends FlxSprite
 
 	public var children:Array<Note> = [];
 
-	public function new(strumTime:Float, noteData:Int, ?prevNote:Note, ?sustainNote:Bool = false, ?inCharter:Bool = false, ?isAlt:Bool = false, ?bet:Float = 0)
+	public function new(strumTime:Float, noteData:Int, ?prevNote:Note, ?sustainNote:Bool = false, ?inCharter:Bool = false, ?isAlt:Bool = false, ?bet:Float = 0, ?noteType:Int = 0)
 	{
 		super();
 
@@ -78,11 +86,11 @@ class Note extends FlxSprite
 			prevNote = this;
 
 		beat = bet;
-
 		this.isAlt = isAlt;
-
 		this.prevNote = prevNote;
 		isSustainNote = sustainNote;
+		this.noteData = noteData;
+		this.noteType = noteType;
 
 		x += 50;
 		// MAKE SURE ITS DEFINITELY OFF SCREEN?
@@ -108,14 +116,12 @@ class Note extends FlxSprite
 			#end
 		}
 
-
 		if (this.strumTime < 0 )
 			this.strumTime = 0;
 
 		if (!inCharter)
 			y += FlxG.save.data.offset + PlayState.songOffset;
 
-		this.noteData = noteData;
 
 		var daStage:String = PlayState.Stage.curStage;
 
@@ -139,12 +145,25 @@ class Note extends FlxSprite
 		}
 		else
 		{
-			if (PlayState.SONG.noteStyle == null) {
-				switch(PlayState.storyWeek) {case 6: noteTypeCheck = 'pixel';}
-			} else {noteTypeCheck = PlayState.SONG.noteStyle;}
+			noteTypeCheck = PlayState.SONG.noteStyle;
 			
 			switch (noteTypeCheck)
 			{
+				case 'stab':
+					frames = Paths.getSparrowAtlas('STABNOTE_assets');
+
+					for (i in 0...6)
+					{
+						animation.addByPrefix(dataColor[i] + 'Scroll', dataColor[i] + ' alone'); // Normal notes
+						animation.addByPrefix(dataColor[i] + 'hold', dataColor[i] + ' hold'); // Hold
+						animation.addByPrefix(dataColor[i] + 'holdend', dataColor[i] + ' tail'); // Tails
+					}
+
+					setGraphicSize(Std.int(width * 0.7));
+					updateHitbox();
+					
+					antialiasing = FlxG.save.data.antialiasing;
+
 				case 'pixel':
 					loadGraphic(Paths.image('weeb/pixelUI/arrows-pixels', 'week6'), true, 17, 17);
 					if (isSustainNote)
@@ -177,9 +196,30 @@ class Note extends FlxSprite
 		}
 
 		x += swagWidth * noteData;
-		animation.play(dataColor[noteData] + 'Scroll');
-		originColor = noteData; // The note's origin color will be checked by its sustain notes
+		
+		/// distinguish between regular notes and wAcKy NOtEs HAHA!
+		/// im not going to make this super elaborate,
+		/// im only dealing with one set of custom types
 
+		switch(noteType)
+		{
+			case 0:
+				// regular note
+				animation.play(dataColor[noteData] + 'Scroll');
+				originColor = noteData; // The note's origin color will be checked by its sustain notes
+			case 1:
+				// stab
+				animation.play(dataColor[4] + 'Scroll');
+				originColor = 4;
+			case 2:
+				// scream (like this: aaaaaaahhhhhhhhhh)
+				animation.play(dataColor[5] + 'Scroll');
+				originColor = 5;
+		}
+
+
+		/// wtf is all this??
+		/*
 		if (FlxG.save.data.stepMania && !isSustainNote && !PlayState.instance.executeModchart)
 		{
 			var col:Int = 0;
@@ -208,6 +248,7 @@ class Note extends FlxSprite
 			originAngle = localAngle;
 			originColor = col;
 		}
+		*/
 		
 		// we make sure its downscroll and its a SUSTAIN NOTE (aka a trail, not a note)
 		// and flip it so it doesn't look weird.

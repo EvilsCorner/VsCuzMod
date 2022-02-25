@@ -197,7 +197,7 @@ class Song
 			{
 				if (song.chartVersion == null)
 				{
-					ii[3] = false;
+					//ii[3] = false; /// fuck off...
 					ii[4] = TimingStruct.getBeatFromTime(ii[0]);
 				}
 

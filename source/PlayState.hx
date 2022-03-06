@@ -137,6 +137,7 @@ class PlayState extends MusicBeatState
 
 	public static var dad:Character;
 	public static var gf:Character;
+	public static var gf2:Character; //TEMP hopefully..
 	public static var boyfriend:Boyfriend;
 
 	public var notes:FlxTypedGroup<Note>;
@@ -472,7 +473,7 @@ class PlayState extends MusicBeatState
 		switch(songLowercase)
 		{
 			//if the song has dialogue, so we don't accidentally try to load a nonexistant file and crash the game
-			case 'senpai' | 'roses' | 'thorns' | 'grappler' | 'imminence' | 'equivocation':
+			case 'grappler' | 'imminence' | 'equivocation':
 				dialogue = CoolUtil.coolTextFile(Paths.txt('data/$songLowercase/dialogue'));
 		}
 
@@ -584,6 +585,13 @@ class PlayState extends MusicBeatState
 					{
 						case 0:
 							add(gf);
+							// adding more spaghetti to an already spaghetti code base
+							if(SONG.song == "Imminence") 
+								{
+									gf2 = new Character(613, 35, 'gf-bushes-gleam');
+									add(gf2); 
+									gf2.visible = false;
+								}
 							gf.scrollFactor.set(0.95, 0.95);
 							for (bg in array)
 								add(bg);
@@ -703,10 +711,11 @@ class PlayState extends MusicBeatState
 				boyfriend.y += 220;
 				gf.x += 180;
 				gf.y += 300;
-			case 'downtown':
+			case 'downtown' | 'liminalHell':
 				// offsets per stage are handled in the previous switch
-
 				camPos.set(960,510);
+				//spag!
+
 		}
 
 		if (loadRep)
@@ -910,7 +919,7 @@ class PlayState extends MusicBeatState
               healthBar.createFilledBar(0xFFAD0505, 0xFF0097C4);
 			 case 'cuz': // vs bf
               healthBar.createFilledBar(0xFF7AD1E9, 0xFF0097C4);
-			 case 'cuzmad': // vs gf
+			 case 'cuzmad' | 'cuz4': // vs gf
               healthBar.createFilledBar(0xFF7AD1E9, 0xFFA5004D);
             }
         }
@@ -925,7 +934,8 @@ class PlayState extends MusicBeatState
 			SONG.song
 			+ " - "
 			+ CoolUtil.difficultyFromInt(storyDifficulty)
-			+ (Main.watermarks ? " | KE " + MainMenuState.kadeEngineVer : ""), 16);
+			//+ (Main.watermarks ? " | KE " + MainMenuState.kadeEngineVer : "")
+			, 16);
 		kadeEngineWatermark.setFormat(Paths.font("vcr.ttf"), 16, FlxColor.WHITE, RIGHT, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
 		kadeEngineWatermark.scrollFactor.set();
 		add(kadeEngineWatermark);
@@ -1095,8 +1105,14 @@ class PlayState extends MusicBeatState
 		if ((dialogueBox != null))
 			{
 				inCutscene = true;
+				
+				 // trick for cutscene flashes
+				//var camCutscene:FlxCamera = camGame;
+				//FlxG.cameras.add(camCutscene);
+				//FlxCamera.defaultCameras = [camHUD];
 				add(dialogueBox);
 			} else {
+				//FlxCamera.defaultCameras = [camGame];
 				startCountdown();
 			}
 		
@@ -1217,6 +1233,7 @@ class PlayState extends MusicBeatState
 		{
 			dad.dance();
 			gf.dance();
+			if(gf2 != null) gf2.dance();
 			boyfriend.playAnim('idle');
 
 			var introAssets:Map<String, Array<String>> = new Map<String, Array<String>>();
@@ -1744,8 +1761,9 @@ class PlayState extends MusicBeatState
 
 				// its not reading this ever????
 				// WHY????
-				trace("--- songNotes[1]:" + songNotes[1]);
-				trace("--- songNotes[3]:" + songNotes[5]);
+				/// dw, it works :)
+				//trace("--- songNotes[1]:" + songNotes[1]);
+				//trace("--- songNotes[3]:" + songNotes[5]);
 				var daNoteType:Int = Std.int(songNotes[5]); // shout outs to NinjaMuffin99
 
 				if (songNotes[1] > 3 && section.mustHitSection) // 3
@@ -1915,8 +1933,8 @@ class PlayState extends MusicBeatState
 			if (!isStoryMode)
 			{
 				babyArrow.y -= 10;
-				//babyArrow.alpha = 0;
-				FlxTween.tween(babyArrow, {y: babyArrow.y + 10, alpha: 1}, 1, {ease: FlxEase.circOut, startDelay: 0.5 + (0.2 * i)});
+				//babyArrow.alpha = 0.7;
+				FlxTween.tween(babyArrow, {y: babyArrow.y + 10, alpha: 0.7}, 1, {ease: FlxEase.circOut, startDelay: 0.5 + (0.2 * i)});
 			}
 
 			babyArrow.ID = i;
@@ -1950,7 +1968,7 @@ class PlayState extends MusicBeatState
 		strumLineNotes.forEach(function(babyArrow:FlxSprite)
 		{
 			if (isStoryMode)
-				babyArrow.alpha = 1;
+				babyArrow.alpha = 0.7;
 		});
 	}
 
@@ -2332,6 +2350,8 @@ class PlayState extends MusicBeatState
 
 		if (FlxG.keys.justPressed.NINE)
 				iconP1.swapOldIcon();
+
+		//stage updates
 		if (!PlayStateChangeables.Optimize)
 		switch (Stage.curStage)
 		{
@@ -4804,6 +4824,7 @@ class PlayState extends MusicBeatState
 			if (curBeat % gfSpeed == 0)
 			{
 				gf.dance();
+				if(gf2 != null) gf2.dance();
 			}
 
 			if (!boyfriend.animation.curAnim.name.startsWith("sing") && (curBeat % idleBeat == 0 || !idleToBeat))
@@ -4894,6 +4915,7 @@ class PlayState extends MusicBeatState
 					// shout outs to ninjamuffin
 					if (FlxG.save.data.distractions)
 					{
+						// windows
 						var downtownWindows = Stage.swagGroup['downtownWindows'];
 						// start with one window
 						downtownWindows.members[0].visible = true;
@@ -4918,6 +4940,54 @@ class PlayState extends MusicBeatState
 							downtownWindows.members[curWindow].visible = true;
 						}
 					}
+					//shade cinematic
+					if(curSong == 'Imminence')
+					{
+						switch (curBeat)
+						{
+							case 152:
+							{
+								FlxG.camera.flash(0xFFA70010, 0.5, true); //red flash
+								Stage.swagBacks['shade'].visible = true;
+								//boyfriend.playAnim('scared', true); // not updated yet
+								// to many things depend on gf being a static variables
+								// so i cannot change the sprites mid-song without 'cheating'
+								// and creating an entire new object to hide/unhide when needed.
+								// oh well, 
+								// there go my hopes and dreams of trying to make this code clean!
+								gf2.x = gf.x;
+								gf2.y = gf.y;
+								gf2.visible = true;
+								gf.visible = false;
+								//gf = new Character(gf.x,gf.y,'gf-bushes-gleam'); // nope
+								/* nope!
+								var gfTemp = gf;
+								remove(gf);
+								gf = gf2;
+								gf2 = gfTemp;
+								add(gf);
+								gf2 = gfTemp;
+								*/
+								
+							}
+							case 216:
+							{
+								FlxG.camera.flash(0xAF000CA7, 0.5, true); // blue flash
+								Stage.swagBacks['shade'].visible = false;
+								gf2.visible = false;
+								gf.visible = true;
+								//gf = new Character(gf.x,gf.y,'gf-bushes'); // nfg!
+								/*
+								remove(gf);
+								gf = gf2;
+								add(gf);
+								*/
+							}
+							default:
+								//meh
+						}
+					}
+					
 			}
 
 			if (!PlayStateChangeables.Optimize)

@@ -121,6 +121,21 @@ class Character extends FlxSprite
 				loadOffsetFile(curCharacter);
 	
 				playAnim('danceRight');
+			case 'gf-bushes-gleam':
+				tex = Paths.getSparrowAtlas('GF_assets_EyeGleam','shared',true);
+				frames = tex;
+				animation.addByPrefix('singLEFT', 'GF left note', 24, false);
+				animation.addByPrefix('singRIGHT', 'GF Right Note', 24, false);
+				animation.addByPrefix('singUP', 'GF Up Note', 24, false);
+				animation.addByPrefix('singDOWN', 'GF Down Note', 24, false);
+				animation.addByIndices('sad', 'gf sad', [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12], "", 24, false);
+				animation.addByIndices('danceLeft', 'GF Dancing Beat', [30, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14], "", 24, false);
+				animation.addByIndices('danceRight', 'GF Dancing Beat', [15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29], "", 24, false);
+				animation.addByPrefix('duck', 'GF FEAR', 24);
+
+				loadOffsetFile(curCharacter);
+	
+				playAnim('danceRight');
 
 			case 'dad':
 				// DAD ANIMATION LOADING CODE
@@ -595,7 +610,7 @@ class Character extends FlxSprite
 		{
 			switch (curCharacter)
 			{
-				case 'gf' | 'gf-christmas' | 'gf-car' | 'gf-pixel' | 'gf-bf' | 'gf-bushes':
+				case 'gf' | 'gf-christmas' | 'gf-car' | 'gf-pixel' | 'gf-bf' | 'gf-bushes' | 'gf-bushes-gleam':
 					if (!animation.curAnim.name.startsWith('hair'))
 					{
 						danced = !danced;

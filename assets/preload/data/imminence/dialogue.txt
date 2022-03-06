@@ -1,5 +1,6 @@
-:dad:Your words are as empty as your soul!
-:dad:Mankind ill needs a saviour such as you!
-:bf:What is a man?
-:bf:A miserable little pile of secrets!
-:bf:I mean, Bee Ba Beep Ba Bo Bop!
+:SCENE:8
+:GF:l:Pleased:Nice.
+:Cuz:l:Pout:Urgh. I forgot how good you are at this.
+:BF:r:Knowitall:Wouldn't've challendged you if I thought I'd lose!
+:Cuz:l:Angry:Just shut up and start the next song!
+:Cuz:l:Enraged:I'm not gonna fail this time.

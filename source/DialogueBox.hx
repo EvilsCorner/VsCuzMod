@@ -41,6 +41,8 @@ class DialogueBox extends FlxSpriteGroup
 
 	var sound:FlxSound;
 	var tempPortrait:FlxSprite;
+	
+	var isEnding:Bool = false;
 
 	public function new(talkingRight:Bool = true, ?dialogueList:Array<String>)
 	{
@@ -97,19 +99,15 @@ class DialogueBox extends FlxSpriteGroup
 				box.y = 425;
 
 				dropText = new FlxText(252, 477, Std.int(FlxG.width * 0.6), "", 32);
-				dropText.font = 'Pixel Arial 11 Bold';
+				dropText.setFormat(Paths.font("Dominican.TTF"), 60);
 				dropText.color = 0xFF000000;
 
 				swagDialogue = new FlxTypeText(250, 475, Std.int(FlxG.width * 0.6), "", 32);
-				swagDialogue.font = 'Pixel Arial 11 Bold';
+				swagDialogue.setFormat(Paths.font("Dominican.TTF"), 60);
 				swagDialogue.color = 0xFF000000;
 				swagDialogue.sounds = [FlxG.sound.load(Paths.sound('pixelText'), 0.6)];
-			
 		}
-			
-				
 		
-
 		this.dialogueList = dialogueList;
 		//break if no dialogue
 		if (!hasDialog)
@@ -130,8 +128,8 @@ class DialogueBox extends FlxSpriteGroup
 		add(box);
 		box.screenCenter(X);
 
-		handSelect = new FlxSprite(FlxG.width * 0.9, FlxG.height * 0.9).loadGraphic(Paths.image('weeb/pixelUI/hand_textbox'));
-		add(handSelect);
+		//handSelect = new FlxSprite(FlxG.width * 0.9, FlxG.height * 0.9).loadGraphic(Paths.image('weeb/pixelUI/hand_textbox'));
+		//add(handSelect);
 			
 		//add(dropText); // copy of actual dialouge for drop shadow
 		add(swagDialogue); // actual dialouge
@@ -167,47 +165,19 @@ class DialogueBox extends FlxSpriteGroup
 			dialogueStarted = true;
 		}
 
+		if (FlxG.keys.justPressed.ESCAPE && dialogueStarted == true)
+			isEnding = true;
+
+
 		if (PlayerSettings.player1.controls.ACCEPT && dialogueStarted == true)
 		{
 				
-			FlxG.sound.play(Paths.sound('clickText'), 0.8);
+			FlxG.sound.play(Paths.sound('SNAP'), 0.8);
 
 			//if (dialogueList[1] == null && dialogueList[0] != null) /// what?
 			if (dialogueList[1] == null) // if the next bit of dialouge is null, end the dialoge
 			{
-				if (!isEnding)
-				{
-					isEnding = true;
-					tempPortrait.visible = false;
-					//cutSceneBG.visible = false;
-
-					//fade out of background music thats hardcoded
-					//lol
-					/*
-					if (PlayState.SONG.song.toLowerCase() == 'senpai' || PlayState.SONG.song.toLowerCase() == 'thorns')
-						sound.fadeOut(2.2, 0);
-					*/
-
-					// fade out graphics
-					new FlxTimer().start(0.1, function(tmr:FlxTimer)
-					{
-						box.alpha -= 1 / 10;
-						bgFade.alpha -= 1 / 10;
-						cutSceneBG.alpha -= 1 / 10;
-						//portraitLeft.visible = false;
-						//portraitRight.visible = false;
-						
-						swagDialogue.alpha -= 1 / 10;
-						dropText.alpha = swagDialogue.alpha;
-					}, 10);
-
-					// wait a few moments before destroying the instance
-					new FlxTimer().start(1.2, function(tmr:FlxTimer)
-					{
-						finishThing();
-						kill();
-					});
-				}
+				isEnding = true;
 			}
 			else
 			{
@@ -218,12 +188,43 @@ class DialogueBox extends FlxSpriteGroup
 				dialogueList.remove(dialogueList[0]);
 				startDialogue();
 			}
+
 		}
-		
+		if (isEnding)
+			{
+				isEnding = false;
+				tempPortrait.visible = false;
+				//cutSceneBG.visible = false;
+
+				//fade out of background music thats hardcoded
+				//lol
+				/*
+				if (PlayState.SONG.song.toLowerCase() == 'senpai' || PlayState.SONG.song.toLowerCase() == 'thorns')
+					sound.fadeOut(2.2, 0);
+				*/
+
+				// fade out graphics
+				new FlxTimer().start(0.1, function(tmr:FlxTimer)
+				{
+					box.alpha -= 1 / 10;
+					bgFade.alpha -= 1 / 10;
+					cutSceneBG.alpha -= 1 / 10;
+					//portraitLeft.visible = false;
+					//portraitRight.visible = false;
+					
+					swagDialogue.alpha -= 1 / 10;
+					dropText.alpha = swagDialogue.alpha;
+				}, 10);
+
+				// wait a few moments before destroying the instance
+				new FlxTimer().start(1.2, function(tmr:FlxTimer)
+				{
+					finishThing();
+					kill();
+				});
+			}
 		super.update(elapsed);
 	}
-
-	var isEnding:Bool = false;
 
 	/*
 		TO DO LIST
@@ -243,6 +244,11 @@ class DialogueBox extends FlxSpriteGroup
 		// staging and drawing portraits
 		var portraitName:String = '' + curCharacter + ' ' + curEmote;
 		tempPortrait.frames = Paths.getSparrowAtlas('Talk Sprites/' + portraitName, 'shared');
+		if(tempPortrait.frames == null)
+		{
+			tempPortrait.frames = Paths.getSparrowAtlas('Talk Sprites/' + curCharacter + ' Unknown', 'shared');
+			trace("portrait " + portraitName + " was not found");
+		}
 		tempPortrait.animation.addByPrefix('enter', portraitName, 24, false);
 		tempPortrait.setGraphicSize(Std.int(tempPortrait.width * 1));
 		tempPortrait.updateHitbox();
@@ -252,10 +258,10 @@ class DialogueBox extends FlxSpriteGroup
 		{
 			case 'r':
 				tempPortrait.flipX = false;
-				tempPortrait.setPosition(750, 150);
+				tempPortrait.setPosition(675, -65);
 			case 'l':
 				tempPortrait.flipX = true;
-				tempPortrait.setPosition(200, 100); // this Y value should be changed lmaog?
+				tempPortrait.setPosition(80, -65); // this Y value should be changed lmaog?
 		}
 
 		tempPortrait.animation.play('enter');
@@ -286,16 +292,60 @@ class DialogueBox extends FlxSpriteGroup
 		// this works pretty decently
 		if(splits[1] == 'SCENE')
 			{
-				//To Do:
-					// hide portatis and textbox on a scene change
-					// add room for sound effects
 				cutSceneBG.loadGraphic(Paths.image('scenes/'+splits[2], 'weekCuz'));
 				//cutSceneBG.setGraphicSize(FlxG.width);
 				cutSceneBG.setGraphicSize(Std.int(cutSceneBG.width * 1)); // ??!
-				dialogueList[0] = splits[2]; //temp for testing. also makes it not null
+				dialogueList[0] = ' '; // makes it not null
 				cutSceneBG.visible = true;
 				tempPortrait.visible = false;
-				box.visible = false; //temp
+				box.visible = false;
+
+				// name of sound effect
+				//trace("splits[3] =" + splits[3]);
+				if(splits[3] != null) {
+					var sound_ = new FlxSound().loadEmbedded(Paths.sound(splits[3]));
+					sound_.play();
+					//trace("sound = " + sound);
+					//trace("path = " + Paths.sound(splits[3]));
+					
+				}
+				// transition
+				// format:
+				// SCENE:1:sound:flash:0xFFFFFFFF:1.0
+				// SCENE:1::fade:0xFF000000:1.0:in // example with no sound
+
+				///this works, but all the effects are BEHIND the fucking cutscene sprite
+				/// how tf did this layering issue happen??
+				/// why are the camera effects behind everything in this damn class?
+				//// DONT USE FlxG.camera (non plural) FOR EFFECTS!
+				//// WORST MISTAKE OF MY LIFE!!!!!
+				if(splits[4] != null) {
+					var colour:FlxColor = new FlxColor(FlxColor.fromString(splits[5]));
+					var time:Float = Std.parseFloat(splits[6]);
+					trace("colour = " + colour);
+					trace("time = " + time);
+					switch(splits[4]){
+						case 'flash':
+						{
+							trace("---in flash");
+							FlxG.cameras.flash(colour, time);
+						}
+
+						case 'fade':
+						{
+							trace("---in fade");
+							var type = splits[7];
+							var fade = false;
+								switch(type){
+									case 'in':
+										fade = true;
+									case 'out':
+										fade = false;
+								}
+							FlxG.cameras.fade(colour, time, fade);
+						}
+					}
+				}
 			}
 		else {
 			// normal dialogue
@@ -304,110 +354,12 @@ class DialogueBox extends FlxSpriteGroup
 			curCharacter = splits[1];
 			curPosition = splits[2];
 			curEmote = splits[3];
+			//sound
+			if(splits[5] != null) {
+				FlxG.sound.play(Paths.sound(splits[5]), 0.8);
+			}
 			
 			dialogueList[0] = splits[4];
 		}
 	}
-
-			// asset switch
-		// what portraits am i using for the dialogue?
-		// old lmao
-		/*
-		trace("portrait switch");
-		switch (PlayState.SONG.song.toLowerCase()) 
-			case 'grappler' :
-				{
-				//cuz
-				
-				portraitLeft.frames = Paths.getSparrowAtlas('Talk Sprites/Cuz Default', 'shared');
-				portraitLeft.animation.addByPrefix('enter', 'Cuz Default', 24, false);
-				portraitLeft.setGraphicSize(Std.int(portraitLeft.width * PlayState.daPixelZoom * 0.15));
-				portraitLeft.updateHitbox();
-				portraitLeft.scrollFactor.set();
-				add(portraitLeft);
-				portraitLeft.visible = false;
-
-				//bf
-				portraitRight = new FlxSprite(750, 200);
-				portraitRight.frames = Paths.getSparrowAtlas('Talk Sprites/BF Default', 'shared');
-				portraitRight.animation.addByPrefix('enter', 'BF Default', 24, false);
-				portraitRight.setGraphicSize(Std.int(portraitRight.width * PlayState.daPixelZoom * 0.15));
-				portraitRight.updateHitbox();
-				portraitRight.scrollFactor.set();
-				add(portraitRight);
-				portraitRight.visible = false;
-
-				dropText = new FlxText(252, 477, Std.int(FlxG.width * 0.6), "", 32);
-				dropText.font = 'Pixel Arial 11 Bold';
-				dropText.color = 0xFF000000;
-
-				swagDialogue = new FlxTypeText(250, 475, Std.int(FlxG.width * 0.6), "", 32);
-				swagDialogue.font = 'Pixel Arial 11 Bold';
-				swagDialogue.color = 0xFF000000;
-				swagDialogue.sounds = [FlxG.sound.load(Paths.sound('pixelText'), 0.6)];
-				}
-			case 'imminence':
-				{
-				//cuz
-				portraitLeft = new FlxSprite(200, 150);
-				portraitLeft.frames = Paths.getSparrowAtlas('Talk Sprites/Cuz Ticked Off', 'shared');
-				portraitLeft.animation.addByPrefix('enter', 'Cuz Cuz Ticked Off', 24, false);
-				portraitLeft.setGraphicSize(Std.int(portraitLeft.width * PlayState.daPixelZoom * 0.15));
-				portraitLeft.updateHitbox();
-				portraitLeft.scrollFactor.set();
-				add(portraitLeft);
-				portraitLeft.visible = false;
-
-				//bf
-				portraitRight = new FlxSprite(750, 200);
-				portraitRight.frames = Paths.getSparrowAtlas('Talk Sprites/BF Mad', 'shared');
-				portraitRight.animation.addByPrefix('enter', 'BF Mad', 24, false);
-				portraitRight.setGraphicSize(Std.int(portraitRight.width * PlayState.daPixelZoom * 0.15));
-				portraitRight.updateHitbox();
-				portraitRight.scrollFactor.set();
-				add(portraitRight);
-				portraitRight.visible = false;
-
-				dropText = new FlxText(252, 477, Std.int(FlxG.width * 0.6), "", 32);
-				dropText.font = 'Pixel Arial 11 Bold';
-				dropText.color = 0xFF000000;
-
-				swagDialogue = new FlxTypeText(250, 475, Std.int(FlxG.width * 0.6), "", 32);
-				swagDialogue.font = 'Pixel Arial 11 Bold';
-				swagDialogue.color = 0xFF000000;
-				swagDialogue.sounds = [FlxG.sound.load(Paths.sound('pixelText'), 0.6)];
-				}
-			case 'equivocation':
-				{
-				//cuz
-				portraitLeft = new FlxSprite(200, 150);
-				portraitLeft.frames = Paths.getSparrowAtlas('Talk Sprites/Cuz Angry', 'shared');
-				portraitLeft.animation.addByPrefix('enter', 'Cuz Angry', 24, false);
-				portraitLeft.setGraphicSize(Std.int(portraitLeft.width * PlayState.daPixelZoom * 0.15));
-				portraitLeft.updateHitbox();
-				portraitLeft.scrollFactor.set();
-				add(portraitLeft);
-				portraitLeft.visible = false;
-
-				//gf
-				
-				portraitRight.frames = Paths.getSparrowAtlas('Talk Sprites/GF Smug Demon', 'shared');
-				portraitRight.animation.addByPrefix('enter', 'GF Smug Demon', 24, false);
-				portraitRight.setGraphicSize(Std.int(portraitRight.width * PlayState.daPixelZoom * 0.15));
-				portraitRight.updateHitbox();
-				portraitRight.scrollFactor.set();
-				add(portraitRight);
-				portraitRight.visible = false;
-
-				dropText = new FlxText(252, 477, Std.int(FlxG.width * 0.6), "", 32);
-				dropText.font = 'Pixel Arial 11 Bold';
-				dropText.color = 0xFF000000;
-
-				swagDialogue = new FlxTypeText(250, 475, Std.int(FlxG.width * 0.6), "", 32);
-				swagDialogue.font = 'Pixel Arial 11 Bold';
-				swagDialogue.color = 0xFF000000;
-				swagDialogue.sounds = [FlxG.sound.load(Paths.sound('pixelText'), 0.6)];
-				}
-			
-		}*/
 }

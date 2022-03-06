@@ -360,7 +360,7 @@ class Stage
 						curStage = 'downtown';
 
 						var offSet = 53;
-
+						// magic numbers (-768,-692)
 						//setup (in order)
 						var skybox:FlxSprite = new FlxSprite(-768,-692).loadGraphic(Paths.image('downtown/Skybox2','weekCuz'));
 						var buildings:FlxSprite = new FlxSprite(-768,-592).loadGraphic(Paths.image('downtown/Buildings','weekCuz'));
@@ -371,6 +371,7 @@ class Stage
 						var ground:FlxSprite = new FlxSprite(-768+offSet,-592).loadGraphic(Paths.image('downtown/Ground','weekCuz'));
 						var streetlight:FlxSprite = new FlxSprite(-768+offSet,-592).loadGraphic(Paths.image('downtown/Streetlight','weekCuz'));
 						var frontBushes:FlxSprite = new FlxSprite(-768+offSet,-592).loadGraphic(Paths.image('downtown/Front-Bushes','weekCuz'));
+						var shadeOverlay:FlxSprite = new FlxSprite(-768+offSet,-592).loadGraphic(Paths.image('downtown/Overlay','weekCuz'));
 
 						//skybox
 						skybox.setGraphicSize(Std.int(skybox.width * 1));
@@ -384,8 +385,6 @@ class Stage
 						toAdd.push(buildings);
 
 						//windows go here
-
-
 						if (FlxG.save.data.distractions)
 						{
 							swagGroup['downtownWindows'] = downtownWindows;
@@ -423,12 +422,22 @@ class Stage
 						streetlight.active = false;
 						streetlight.alpha = 0.5;
 						layInFront[2].push(streetlight);
-
+						
+						//Bushes
 						frontBushes.setGraphicSize(Std.int(frontBushes.width * 1));
 						frontBushes.scrollFactor.set(1.1, 1.1);
 						frontBushes.active = false;
 						layInFront[2].push(frontBushes);
-
+						
+						//Shade
+						shadeOverlay.setGraphicSize(Std.int(shadeOverlay.width * 1));
+						shadeOverlay.scrollFactor.set(1, 1);
+						shadeOverlay.active = false;
+						shadeOverlay.alpha = 1.0;
+						shadeOverlay.visible = false;
+						layInFront[2].push(shadeOverlay);
+						swagBacks['shade'] = shadeOverlay;
+						
 
 						//test
 						/*
@@ -452,6 +461,55 @@ class Stage
 						//toAdd.push(grid);
 
 					}
+
+				case 'liminalHell':
+					{
+						camZoom = 0.5;
+						curStage = 'liminalHell';
+						// x 1.895
+						// div 0.528
+						// x 0.6618
+
+						// magic numbers: (-1597, -1395)
+						// scale: x 0.6618
+
+						//setup
+						//var skybox:FlxSprite = new FlxSprite(-768,-692).loadGraphic(Paths.image('liminal/liminal-Skybox-Normal','weekCuzHell'));
+						//var Ground:FlxSprite = new FlxSprite(-768,-592).loadGraphic(Paths.image('liminal/liminal-ground-normal','weekCuzHell'));
+
+						//going to need to use swagBacks['']
+						// so that we can change the background
+
+						//Testing
+						// i was off on x by 100???
+						var liminalHill:FlxSprite = new FlxSprite(-1497, -1395).loadGraphic(Paths.image('liminal/liminalHill_test','weekCuzHell'));
+						var liminalHell:FlxSprite = new FlxSprite(-1522, -1395).loadGraphic(Paths.image('liminal/liminalHell_test','weekCuzHell'));
+
+						liminalHill.setGraphicSize(Std.int(liminalHill.width * 1));
+						liminalHill.scrollFactor.set(1, 1);
+						//liminalHill.scale.set(0.6618, 0.6618);
+						liminalHill.active = false;
+						//toAdd.push(liminalHill);
+
+						liminalHell.setGraphicSize(Std.int(liminalHell.width * 1));
+						liminalHell.scrollFactor.set(1, 1);
+						//liminalHill.scale.set(0.6618, 0.6618);
+						liminalHell.active = false;
+						toAdd.push(liminalHell);
+						
+						//ref
+						var grid:FlxSprite = new FlxSprite(0,0).loadGraphic(Paths.image('downtown/superGrid','weekCuz'));
+						grid.antialiasing = true;
+						grid.setGraphicSize(Std.int(grid.width * 1));
+						grid.scrollFactor.set(1, 1);
+						grid.active = false;
+						grid.updateHitbox();
+						grid.alpha = 0.5;
+						//toAdd.push(grid);
+
+						// to do
+					}
+					
 				default:
 					{
 						camZoom = 0.9;

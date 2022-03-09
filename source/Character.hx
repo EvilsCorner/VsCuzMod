@@ -435,6 +435,22 @@ class Character extends FlxSprite
 				addOffset("singDOWN");
 				
 				playAnim('idle');
+
+			case 'cuz2':
+				frames = Paths.getSparrowAtlas('Cuz/CuzSong2_Assets');
+				animation.addByPrefix('idle', 'Cuz Idle', 24, false);
+				animation.addByPrefix('singUP', 'Cuz Up', 24, false);
+				animation.addByPrefix('singDOWN', 'Cuz Down', 24, false);
+				animation.addByPrefix('singLEFT', 'Cuz Left', 24, false);
+				animation.addByPrefix('singRIGHT', 'Cuz Right', 24, false);
+			
+				addOffset('idle');
+				addOffset("singUP");
+				addOffset("singRIGHT");
+				addOffset("singLEFT");
+				addOffset("singDOWN");
+				
+				playAnim('idle');
 		
 		
 			case 'cuzmad':

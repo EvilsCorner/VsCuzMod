@@ -479,10 +479,10 @@
 	<SubTexture name="v  lowercase0001" x="239" y="472" width="32" height="31"/>
 	<SubTexture name="v  lowercase0002" x="59" y="478" width="31" height="31" frameX="0" frameY="0" frameWidth="32" frameHeight="31"/>
 	<SubTexture name="v  lowercase0003" x="59" y="478" width="31" height="31" frameX="0" frameY="0" frameWidth="32" frameHeight="31"/>
-	<SubTexture name="w  lowercase0000" x="915" y="436" width="42" height="31" pivotX="0" pivotY="0"/>
-	<SubTexture name="w  lowercase0001" x="915" y="436" width="42" height="31"/>
-	<SubTexture name="w  lowercase0002" x="773" y="441" width="42" height="31"/>
-	<SubTexture name="w  lowercase0003" x="773" y="441" width="42" height="31"/>
+	<SubTexture name="width  lowercase0000" x="915" y="436" width="42" height="31" pivotX="0" pivotY="0"/>
+	<SubTexture name="width  lowercase0001" x="915" y="436" width="42" height="31"/>
+	<SubTexture name="width  lowercase0002" x="773" y="441" width="42" height="31"/>
+	<SubTexture name="width  lowercase0003" x="773" y="441" width="42" height="31"/>
 	<SubTexture name="x  lowercase0000" x="879" y="452" width="33" height="33" pivotX="0" pivotY="0"/>
 	<SubTexture name="x  lowercase0001" x="879" y="452" width="33" height="33"/>
 	<SubTexture name="x  lowercase0002" x="371" y="454" width="33" height="33"/>

@@ -192,7 +192,8 @@ class DialogueBox extends FlxSpriteGroup
 		}
 		if (isEnding)
 			{
-				isEnding = false;
+				isEnding = false; // run this code more than once at your peril
+				
 				tempPortrait.visible = false;
 				//cutSceneBG.visible = false;
 

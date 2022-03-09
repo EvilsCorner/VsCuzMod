@@ -663,7 +663,7 @@ class PlayState extends MusicBeatState
 				dad.y += 100;
 				camPos.set(dad.getGraphicMidpoint().x + 300, dad.getGraphicMidpoint().y);
 
-			case 'cuz':
+			case 'cuz' | 'cuz2':
 				var offSet = 53;
 				dad.x += offSet + 40;
 				dad.y += -35;
@@ -2745,7 +2745,7 @@ class PlayState extends MusicBeatState
 					case 'senpai' | 'senpai-angry':
 						camFollow.y = dad.getMidpoint().y - 430;
 						camFollow.x = dad.getMidpoint().x - 100;
-					case 'cuz' | 'cuzmad' | 'cuz4':
+					case 'cuz' | 'cuz2' | 'cuzmad' | 'cuz4':
 						camFollow.y = dad.getMidpoint().y - 0;
 						camFollow.x = dad.getMidpoint().x + 350;
 				}
@@ -3409,6 +3409,8 @@ class PlayState extends MusicBeatState
 
 	function endSong():Void
 	{
+		//die gf2
+		gf2 = null;
 		endingSong = true;
 		FlxG.stage.removeEventListener(KeyboardEvent.KEY_DOWN, handleInput);
 		FlxG.stage.removeEventListener(KeyboardEvent.KEY_UP, releaseInput);

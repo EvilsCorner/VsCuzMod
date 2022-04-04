@@ -1821,7 +1821,7 @@ HXLINE(1109)		 ::flixel::FlxSprite white =  ::flixel::FlxSprite_obj::__alloc( HX
 HXDLIN(1109)		 ::flixel::FlxSprite white1 = white->makeGraphic((::flixel::FlxG_obj::width * 3),(::flixel::FlxG_obj::height * 3),-1,null(),null());
 HXLINE(1110)		white1->scrollFactor->set(null(),null());
 HXLINE(1111)		this->add(white1);
-HXLINE(1114)		if ((this->curSong == HX_("exertion",74,11,ad,61))) {
+HXLINE(1114)		if ((this->curSong == HX_("Exertion",94,cd,5e,3b))) {
             			HX_BEGIN_LOCAL_FUNC_S3(::hx::LocalFunc,_hx_Closure_1, ::PlayState,_gthis, ::DialogueBox,dialogueBox, ::flixel::FlxSprite,white1) HXARGC(1)
             			void _hx_run( ::flixel::util::FlxTimer timer){
             				HX_BEGIN_LOCAL_FUNC_S2(::hx::LocalFunc,_hx_Closure_0, ::PlayState,_gthis, ::DialogueBox,dialogueBox) HXARGC(1)

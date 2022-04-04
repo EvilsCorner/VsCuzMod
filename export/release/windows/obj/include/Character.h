@@ -57,6 +57,7 @@ class HXCPP_CLASS_ATTRIBUTES Character_obj : public  ::flixel::FlxSprite_obj
 		::String curCharacter;
 		Float holdTimer;
 		bool isGF;
+		bool isBF;
 		void loadOffsetFile(::String character,::String library);
 		::Dynamic loadOffsetFile_dyn();
 

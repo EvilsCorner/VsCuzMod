@@ -131,8 +131,8 @@ null
 @:keep @:bind @:noCompletion #if display private #end class __ASSET__assets_data_equivocation_equivocation_json extends null { }
 @:keep @:bind @:noCompletion #if display private #end class __ASSET__assets_data_exertion_dialogue_txt extends null { }
 @:keep @:bind @:noCompletion #if display private #end class __ASSET__assets_data_exertion_dialogue_txt_bak extends null { }
-@:keep @:bind @:noCompletion #if display private #end class __ASSET__assets_data_exertion_exertion___easy_json extends null { }
-@:keep @:bind @:noCompletion #if display private #end class __ASSET__assets_data_exertion_exertion___hard_json extends null { }
+@:keep @:bind @:noCompletion #if display private #end class __ASSET__assets_data_exertion_exertion_easy_json extends null { }
+@:keep @:bind @:noCompletion #if display private #end class __ASSET__assets_data_exertion_exertion_hard_json extends null { }
 @:keep @:bind @:noCompletion #if display private #end class __ASSET__assets_data_exertion_exertion_json extends null { }
 @:keep @:bind @:noCompletion #if display private #end class __ASSET__assets_data_freeplaysonglist_txt extends null { }
 @:keep @:bind @:noCompletion #if display private #end class __ASSET__assets_data_gfversionlist_txt extends null { }
@@ -159,7 +159,6 @@ null
 @:keep @:bind @:noCompletion #if display private #end class __ASSET__assets_data_main_view_xml extends null { }
 @:keep @:bind @:noCompletion #if display private #end class __ASSET__assets_data_notestylelist_txt extends null { }
 @:keep @:bind @:noCompletion #if display private #end class __ASSET__assets_data_offsettest_offsettest_json extends null { }
-@:keep @:bind @:noCompletion #if display private #end class __ASSET__assets_data_song4_song4_json extends null { }
 @:keep @:bind @:noCompletion #if display private #end class __ASSET__assets_data_specialthanks_txt extends null { }
 @:keep @:bind @:noCompletion #if display private #end class __ASSET__assets_data_stagelist_txt extends null { }
 @:keep @:bind @:noCompletion #if display private #end class __ASSET__assets_data_test_test___copy_json extends null { }

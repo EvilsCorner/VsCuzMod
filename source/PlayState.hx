@@ -1111,7 +1111,7 @@ class PlayState extends MusicBeatState
 		add(white);
 		//white.alpha = 1;
 
-		if(curSong == 'exertion') {
+		if(curSong == 'Exertion') {
 			new FlxTimer().start(1, function(timer) 
 				{
 					//gimme 3 seconds of white.

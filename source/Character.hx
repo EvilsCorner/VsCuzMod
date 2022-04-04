@@ -18,6 +18,7 @@ class Character extends FlxSprite
 	public var holdTimer:Float = 0;
 
 	private var isGF:Bool = false;
+	private var isBF:Bool = false;
 
 	public function new(x:Float, y:Float, ?character:String = "bf", ?isPlayer:Bool = false)
 	{
@@ -295,6 +296,7 @@ class Character extends FlxSprite
 				loadOffsetFile(curCharacter);
 
 				playAnim('idle');
+				isBF = true;
 
 				flipX = true;
 
@@ -315,6 +317,7 @@ class Character extends FlxSprite
 				loadOffsetFile(curCharacter);
 
 				playAnim('idle');
+				isBF = true;
 
 				flipX = true;
 			case 'bf-car':
@@ -352,6 +355,7 @@ class Character extends FlxSprite
 				updateHitbox();
 
 				playAnim('idle');
+				isBF = true;
 
 				width -= 100;
 				height -= 100;
@@ -369,6 +373,7 @@ class Character extends FlxSprite
 
 				loadOffsetFile(curCharacter);
 				playAnim('firstDeath');
+				isBF = true;
 				// pixel bullshit
 				setGraphicSize(Std.int(width * 6));
 				updateHitbox();
@@ -519,7 +524,7 @@ class Character extends FlxSprite
 		
 				animation.addByPrefix('idle', 'GF Demon Idle', 24, false);
 				animation.addByPrefix('singUP', 'GF Demon Up', 24, false);
-				animation.addByPrefix('singLEFT', 'GF Demon left', 24, false);
+				animation.addByPrefix('singLEFT', 'GF Demon Left', 24, false);
 				animation.addByPrefix('singRIGHT', 'GF Demon Right', 24, false);
 				animation.addByPrefix('singDOWN', 'GF Demon Down', 24, false);
 				animation.addByPrefix('singUPmiss', 'UP MISS', 24, false);
@@ -534,6 +539,7 @@ class Character extends FlxSprite
 				loadOffsetFile(curCharacter);
 		
 				playAnim('idle');
+				isBF = true;
 		
 				flipX = true;
 
@@ -564,6 +570,7 @@ class Character extends FlxSprite
 				loadOffsetFile(curCharacter);
 		
 				playAnim('idle');
+				isBF = true;
 		
 				flipX = true;
 		}
@@ -575,7 +582,8 @@ class Character extends FlxSprite
 			flipX = !flipX;
 
 			// Doesn't flip for BF, since his are already in the right place???
-			if (!curCharacter.startsWith('bf'))
+			//if (!curCharacter.startsWith('bf') || !curCharacter.startsWith('demongf')) // dumb
+			if(!isBF)
 			{
 				// var animArray
 				var oldRight = animation.getByName('singRIGHT').frames;

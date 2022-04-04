@@ -425,10 +425,14 @@ class FreeplayState extends MusicBeatState
 			{
 				hmm = songData.get(songs[curSelected].songName)[curDifficulty];
 				if (hmm == null)
+				{
+					trace('chart doesnt exist for:' + songs[curSelected].songName);
 					return;
+				}
 			}
 			catch(ex)
 			{
+				trace(ex.message);
 				return;
 			}
 
@@ -484,7 +488,8 @@ class FreeplayState extends MusicBeatState
 		intendedScore = Highscore.getScore(songHighscore, curDifficulty);
 		combo = Highscore.getCombo(songHighscore, curDifficulty);
 		#end
-		diffCalcText.text = 'RATING: ${DiffCalc.CalculateDiff(songData.get(songs[curSelected].songName)[curDifficulty])}';
+		//diffCalcText.text = 'RATING: ${DiffCalc.CalculateDiff(songData.get(songs[curSelected].songName)[curDifficulty])}';
+		diffCalcText.text = 'RATING: dont care lmao';
 		diffText.text = CoolUtil.difficultyFromInt(curDifficulty).toUpperCase();
 	}
 

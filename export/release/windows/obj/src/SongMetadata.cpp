@@ -8,21 +8,21 @@
 #include <smTools/SMFile.h>
 #endif
 
-HX_DEFINE_STACK_FRAME(_hx_pos_66f21fcacf595f6d_598_new,"SongMetadata","new",0x0585a376,"SongMetadata.new","FreeplayState.hx",598,0x0d86f62d)
+HX_DEFINE_STACK_FRAME(_hx_pos_66f21fcacf595f6d_603_new,"SongMetadata","new",0x0585a376,"SongMetadata.new","FreeplayState.hx",603,0x0d86f62d)
 
 void SongMetadata_obj::__construct(::String song,int week,::String songCharacter, ::smTools::SMFile sm,::String __o_path){
             		::String path = __o_path;
             		if (::hx::IsNull(__o_path)) path = HX_("",00,00,00,00);
-            	HX_STACKFRAME(&_hx_pos_66f21fcacf595f6d_598_new)
-HXLINE( 608)		this->diffs = ::Array_obj< ::String >::__new(0);
-HXLINE( 606)		this->songCharacter = HX_("",00,00,00,00);
-HXLINE( 601)		this->week = 0;
-HXLINE( 600)		this->songName = HX_("",00,00,00,00);
-HXLINE( 613)		this->songName = song;
-HXLINE( 614)		this->week = week;
-HXLINE( 615)		this->songCharacter = songCharacter;
-HXLINE( 616)		this->sm = sm;
-HXLINE( 617)		this->path = path;
+            	HX_STACKFRAME(&_hx_pos_66f21fcacf595f6d_603_new)
+HXLINE( 613)		this->diffs = ::Array_obj< ::String >::__new(0);
+HXLINE( 611)		this->songCharacter = HX_("",00,00,00,00);
+HXLINE( 606)		this->week = 0;
+HXLINE( 605)		this->songName = HX_("",00,00,00,00);
+HXLINE( 618)		this->songName = song;
+HXLINE( 619)		this->week = week;
+HXLINE( 620)		this->songCharacter = songCharacter;
+HXLINE( 621)		this->sm = sm;
+HXLINE( 622)		this->path = path;
             	}
 
 Dynamic SongMetadata_obj::__CreateEmpty() { return new SongMetadata_obj; }

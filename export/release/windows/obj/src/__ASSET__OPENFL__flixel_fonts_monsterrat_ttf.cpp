@@ -14,12 +14,12 @@
 #include <openfl/text/Font.h>
 #endif
 
-HX_DEFINE_STACK_FRAME(_hx_pos_aa3eaf4dd720a73e_765_new,"__ASSET__OPENFL__flixel_fonts_monsterrat_ttf","new",0x4d419742,"__ASSET__OPENFL__flixel_fonts_monsterrat_ttf.new","ManifestResources.hx",765,0xf77aa668)
+HX_DEFINE_STACK_FRAME(_hx_pos_aa3eaf4dd720a73e_764_new,"__ASSET__OPENFL__flixel_fonts_monsterrat_ttf","new",0x4d419742,"__ASSET__OPENFL__flixel_fonts_monsterrat_ttf.new","ManifestResources.hx",764,0xf77aa668)
 
 void __ASSET__OPENFL__flixel_fonts_monsterrat_ttf_obj::__construct(){
-            	HX_GC_STACKFRAME(&_hx_pos_aa3eaf4dd720a73e_765_new)
-HXDLIN( 765)		this->_hx___fromLimeFont( ::__ASSET__flixel_fonts_monsterrat_ttf_obj::__alloc( HX_CTX ));
-HXDLIN( 765)		super::__construct(null());
+            	HX_GC_STACKFRAME(&_hx_pos_aa3eaf4dd720a73e_764_new)
+HXDLIN( 764)		this->_hx___fromLimeFont( ::__ASSET__flixel_fonts_monsterrat_ttf_obj::__alloc( HX_CTX ));
+HXDLIN( 764)		super::__construct(null());
             	}
 
 Dynamic __ASSET__OPENFL__flixel_fonts_monsterrat_ttf_obj::__CreateEmpty() { return new __ASSET__OPENFL__flixel_fonts_monsterrat_ttf_obj; }

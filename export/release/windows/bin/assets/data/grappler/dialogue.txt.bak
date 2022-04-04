@@ -1,0 +1,74 @@
+:SCENE:1::fade:0xFF000000:2.0:in
+:GF:l:Pleased:I had a fun time tonight, I think you picked a great place to eat.
+:BF:r:Default:Yeah, the food was awesome. 
+:BF:r:Default:I was hoping we could maybe go and see a movie or somethin' afterwards, 
+:BF:r:Default:but we ended up staying at the restaurant a bit longer than I expected. 
+:GF:l:Default:Yeah, it's getting pretty late. Do you wanna just head back to my place?
+:BF:r:Default:Sounds like a good idea.
+:BF:r:Embarrassed:I don't wanna make your dad angry...again...
+:GF:l:Flirty:Well, it's funny you mention that because...my parents actually won't be home tonight...
+:BF:r:Excited:Oh, that's lucky! We don't have to hurry then!
+:BF:r:Excited:We could probably take a shortcut and get there in time for that one movie you've been wantin' to see. 
+:BF:r:Excited:Thing's been replaying every hour and a half, yeah?  
+:GF:l:Troubled:Boyfriend.
+:BF:r:Default:Eh?
+:GF:l:Annoyed:...
+:GF:l:Annoyed:My parents won't be HOME tonight...
+:BF:r:Default:Yeah?
+:GF:l:Flirty:I was hoping we could...?
+:BF:r:Surprised:Oh...?
+:BF:r:Surprised:...
+:BF:r:Shocked:OOOOHHHH!
+:GF:l:Flirty:Mmhmm~...
+:BF:r:Cheeky:Damn, that's, like, a way better plan. Let's hurry back and-
+:SCENE:2:whoosh:flash:0xFFFFFFFF:0.5
+:SCENE:3:knifeHitWall:flash:0xFFFFFFFF:0.5
+:GF:l:Shocked:...
+:BF:r:Shocked:...
+:Cuz:l:Default:You gotta be kidding me- 
+:SCENE:4::flash:0xFFFFFFFF:0.5
+:Cuz:l:Ticked Off:Finally found you after all this time and I miss...Christ...
+:Cuz:l:Smug:Ah well... Doesn't matter.
+:SCENE:5
+:Cuz:l:Smug:It's not like you can leave now that I know you're here. 
+:Cuz:l:Smug:I haven't seen you in months, Girlfriend. 
+:Cuz:l:Laugh:Have you been hiding or something?  
+:GF:r:Dismissive:Ugh...You really think I'd waste my time doing that? You just suck at your job.
+:Cuz:l:Ticked Off:Okay, that's bull-
+:GF:r:Annoyed:Listen, can you move or what? I don't have time for this tonight, I'm trying to get home.
+:Cuz:l:Enraged:Yeah, like hell you are-
+:SCENE:6
+:BF:r:Shocked:Wait, wait, wait-!
+:SCENE:7
+:Cuz:l:Shocked:Wh-...Boyfriend? What the hell are you doing here?
+:GF:r:Surprised:Hold on, you know him? 
+:Cuz:l:Default:...
+:Cuz:l:Ticked Off:...Oh my god, you're joking. You LITERALLY knew I was hunting her, you idiot!
+:GF:r:Surprised:What.
+:BF:r:Embarrassed:I thought it'd sort itself out!
+:GF:r:Troubled:Hold on, hold on...what the hell is going on here?
+:BF:r:Embarrassed:Uh, yeah, so...like, don't be mad though, but...Cuz might be my cousin?
+:GF:r:Annoyed:...
+:GF:r:Dismissive:...:mightBe
+:BF:r:Nervous:O-okay, they're my cousin!
+:BF:r:Embarrassed:I knew they were hunting you, 
+:BF:r:Embarrassed:but I didn't wanna say anything at first cause I thought it might cause problems. 
+:BF:r:Embarrassed:And then, y'know, I kinda just...like...forgot after a while? Eheh...
+:BF:r:Embarrassed:But hey! Long time no see Cuz! How you been?
+:Cuz:l:Default:I legit hate you so much.
+:SCENE:8::fade:0xFF000000:1.5:in
+:Cuz:l:Ticked Off:...Well, what the hell am I supposed to do now, Boyfriend? 
+:Cuz:l:Ticked Off:I'm not leaving 'til one of us is dead, and it's not gonna be me. 
+:Cuz:l:Ticked Off:I don't care that you two are together or whatever-... 
+:BF:r:Nervous:Wait, wait! Okay, uh....how about we, like, rap battle or something? 
+:BF:r:Nervous:If I win, you gotta leave us alone, and if you win, GF has to fight you?
+:GF:r:Annoyed:You're joking-...
+:Cuz:l:Angry:I'm not rap battling you! God, you're, like, 
+:Cuz:l:Angry:the ONLY person in the family who solves problems that way! 
+:Cuz:l:Angry:I'm taking my damn prize! 
+:BF:r:Worried With Fist:Oh, c'mon, man! This is the only way I know how to deal with things! Cut me some slack!
+:Cuz:l:Pout:...
+:Cuz:l:Default:...Ugh...fine. 
+:Cuz:l:Default:But just because you're family doesn't mean I'll go easy on you. 
+:Cuz:l:Default:You better be confident in your skills. 
+:BF:r:Embarrassed:Eheh...

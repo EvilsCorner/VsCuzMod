@@ -1,0 +1,26 @@
+:SCENE:8
+:BF:r:Excited:Damn, not bad! This has actually been pretty fun-
+:Cuz:l:Angry:UGH! ENOUGH OF THIS!
+:Cuz:l:Ticked Off:I feel like an idiot, letting you waste my time. Why did I even think it would be a good idea to indulge you?
+:BF:r:Mad:Hey, you said-
+:Cuz:l:Pleased:Did you honestly think I was considering letting her leave, even if you won?
+:Cuz:l:Ticked Off:You knew I was hunting her this entire time and you STILL chose to ignore that! How's that MY problem? 
+:BF:r:Mad:Dude, you just-
+:Cuz:l:Ticked Off:She's not even special! Her and her family are menaces, I bet they don't even like you!
+:Cuz:l:Angry:You're gonna end up getting your ass killed. I know you know that, you can't be THAT stupid!
+:BF:r:Mad:What the hell is your problem? Why'd you even agree to this if you were just planning on doing what you wanted anyway?
+:Cuz:l:Default:Ugh, It doesn't matter, I'm done with this. You're not getting away this time, Girlfriend.
+:Cuz:l:Enraged:Not again.
+:GF:r:Pleased:Hey, Boyfriend. You know I love watching you sing, but maybe I should just handle this. 
+:BF:r:Mad:Forget it, GF. Let's just leave. 
+:GF:r:Pleased:Listen, I know they're your cousin BF, but believe me, they're not gonna leave us alone if we leave now.
+:BF:r:Worried With Fist:Well, what are you gonna do? I don't want you getting hurt or anything...
+:GF:r:Laugh:You of all people should know I don't have to worry about that. There's no way they can hurt me.
+:GF:r:Pleased:Also, hey Cuz, 
+:GF:r:Pleased:Don't act like you haven't been "getting close" with one of my dad's henchmen. 
+:GF:r:Pleased:Y'know, the one with a cigarette curse or something? 
+:GF:r:Pleased:Did you really think you were being subtle about that? 
+:GF:r:Flirty:Kinda hypocritical given your job, don't you think? 
+:Cuz:l:Pissed:YOU-.....YOU'VE MADE AN ASS OUT OF ME FOR THE LAST TIME, GIRLFRIEND! 
+:GF:r:Laugh:Here, Boyfriend, just let me deal with this. You know I never get to sing!
+:GF:r:Smug Demon:Alright Cuz, you got what you wanted. Let's get this over with. 

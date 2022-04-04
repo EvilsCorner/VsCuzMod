@@ -1,0 +1,35 @@
+text
+:character:r or l to indicate right or left:emotion:speech text dialouge blah blah blah:filename of sound to play if desired
+
+do not break lines with blank space
+like
+
+this
+
+--------------
+example
+:BF:r:Angry:My Balls Itch!:clownnoise
+
+example, no sound
+:BF:r:Angry:My Balls Itch!
+
+character list (case sensitive):
+BF
+GF
+Cuz
+
+scenes
+:SCENE:image name, usually a number:file of sound(leave blank if none):effect(fade,flash):colour(in hex):duration(decimal number):in or out(only used for fades)
+
+example, no sound, white flash
+:SCENE:1::flash:0xFFFFFFFF:0.5
+
+example, sound, red flash
+:SCENE:2:SNAP:flash:0xFFFF0000:0.5
+
+example, no sound, black fade out
+:SCENE:3::fade:0xFF000000:2.0
+
+colour hexs are usually 6 numbers: 0xFF00FF
+
+but FNF uses 8. the first two denote the alpha value: 0xFFFF00FF

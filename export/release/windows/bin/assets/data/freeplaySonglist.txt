@@ -1,0 +1,6 @@
+Tutorial:gf:0
+Test:bf:1
+Grappler:cuz:7
+Imminence:cuz2:7
+Equivocation:cuzmad:7
+Exertion:cuzmad:8

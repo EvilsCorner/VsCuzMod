@@ -17,6 +17,8 @@ class Character extends FlxSprite
 
 	public var holdTimer:Float = 0;
 
+	private var isGF:Bool = false;
+
 	public function new(x:Float, y:Float, ?character:String = "bf", ?isPlayer:Bool = false)
 	{
 		super(x, y);
@@ -49,6 +51,7 @@ class Character extends FlxSprite
 				loadOffsetFile(curCharacter);
 
 				playAnim('danceRight');
+				isGF = true;
 
 			case 'gf-christmas':
 				tex = Paths.getSparrowAtlas('gfChristmas','shared',true);
@@ -80,6 +83,7 @@ class Character extends FlxSprite
 				loadOffsetFile(curCharacter);
 
 				playAnim('danceRight');
+				isGF = true;
 
 			case 'gf-pixel':
 				tex = Paths.getSparrowAtlas('gfPixel','shared',true);
@@ -91,6 +95,7 @@ class Character extends FlxSprite
 				loadOffsetFile(curCharacter);
 
 				playAnim('danceRight');
+				isGF = true;
 
 				setGraphicSize(Std.int(width * PlayState.daPixelZoom));
 				updateHitbox();
@@ -106,6 +111,7 @@ class Character extends FlxSprite
 				loadOffsetFile(curCharacter);
 	
 				playAnim('danceRight');
+				isGF = true;
 			case 'gf-bushes':
 				tex = Paths.getSparrowAtlas('GF_ass_sets_bushes','shared',true);
 				frames = tex;
@@ -121,6 +127,7 @@ class Character extends FlxSprite
 				loadOffsetFile(curCharacter);
 	
 				playAnim('danceRight');
+				isGF = true;
 			case 'gf-bushes-gleam':
 				tex = Paths.getSparrowAtlas('GF_assets_EyeGleam','shared',true);
 				frames = tex;
@@ -136,6 +143,21 @@ class Character extends FlxSprite
 				loadOffsetFile(curCharacter);
 	
 				playAnim('danceRight');
+				isGF = true;
+			case 'emptySpeaker':
+				tex = Paths.getSparrowAtlas('Empty_Speaker','shared',true);
+				frames = tex;
+				//animation.addByIndices('danceLeft', 'Speaker Beat', [30, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14], "", 24, false);
+				//animation.addByIndices('danceRight', 'Speaker Beat', [15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29], "", 24, false);
+				animation.addByPrefix('danceLeft', 'speakers', 24, false);
+				animation.addByPrefix('danceRight', 'speakers', 24, false);
+				updateHitbox();
+				setGraphicSize(Std.int(width * 1.2));
+
+				loadOffsetFile(curCharacter);
+	
+				playAnim('danceRight');
+				isGF = true;
 
 			case 'dad':
 				// DAD ANIMATION LOADING CODE
@@ -624,18 +646,21 @@ class Character extends FlxSprite
 	{
 		if (!debugMode)
 		{
+			if(isGF)
+			{
+				if (!animation.curAnim.name.startsWith('hair'))
+				{
+					danced = !danced;
+
+					if (danced)
+						playAnim('danceRight');
+					else
+						playAnim('danceLeft');
+				}
+			}
+			
 			switch (curCharacter)
 			{
-				case 'gf' | 'gf-christmas' | 'gf-car' | 'gf-pixel' | 'gf-bf' | 'gf-bushes' | 'gf-bushes-gleam':
-					if (!animation.curAnim.name.startsWith('hair'))
-					{
-						danced = !danced;
-
-						if (danced)
-							playAnim('danceRight');
-						else
-							playAnim('danceLeft');
-					}
 				case 'spooky':
 					danced = !danced;
 

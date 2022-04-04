@@ -470,13 +470,24 @@ class PlayState extends MusicBeatState
 		trace('INFORMATION ABOUT WHAT U PLAYIN WIT:\nFRAMES: ' + PlayStateChangeables.safeFrames + '\nZONE: ' + Conductor.safeZoneOffset + '\nTS: '
 			+ Conductor.timeScale + '\nBotPlay : ' + PlayStateChangeables.botPlay);
 
+		
+		// better dialouge check
+		try { 
+			dialogue = CoolUtil.coolTextFile(Paths.txt('data/$songLowercase/dialogue')); 
+		}
+		catch(e) {
+			// no dialouge found :(
+			trace(e.message);
+			FlxG.log.add(e.message);
+		}
+		/*
 		switch(songLowercase)
 		{
 			//if the song has dialogue, so we don't accidentally try to load a nonexistant file and crash the game
-			case 'grappler' | 'imminence' | 'equivocation':
+			case 'grappler' | 'imminence' | 'equivocation' | 'exertion':
 				dialogue = CoolUtil.coolTextFile(Paths.txt('data/$songLowercase/dialogue'));
 		}
-
+		*/
 		// defaults if no stage was found in chart
 		var stageCheck:String = 'stage';
 
@@ -711,10 +722,15 @@ class PlayState extends MusicBeatState
 				boyfriend.y += 220;
 				gf.x += 180;
 				gf.y += 300;
-			case 'downtown' | 'liminalHell':
+			case 'downtown':
 				// offsets per stage are handled in the previous switch
 				camPos.set(960,510);
 				//spag!
+			case 'liminalHell':
+				camPos.set(960,510);
+				gf.y += 200; // scale it up
+				gf.x += -20; // "center" of screen
+				boyfriend.x += -50;
 
 		}
 
@@ -917,7 +933,7 @@ class PlayState extends MusicBeatState
               healthBar.createFilledBar(0xFFF76D6D, 0xFF0097C4);
              case 'spirit':
               healthBar.createFilledBar(0xFFAD0505, 0xFF0097C4);
-			 case 'cuz': // vs bf
+			 case 'cuz' | 'cuz2': // vs bf
               healthBar.createFilledBar(0xFF7AD1E9, 0xFF0097C4);
 			 case 'cuzmad' | 'cuz4': // vs gf
               healthBar.createFilledBar(0xFF7AD1E9, 0xFFA5004D);
@@ -977,10 +993,13 @@ class PlayState extends MusicBeatState
 
 		iconP1 = new HealthIcon(boyfriend.curCharacter, true);
 		iconP1.y = healthBar.y - (iconP1.height / 2);
+		iconP1.updateHitbox();
+
 		add(iconP1);
 
 		iconP2 = new HealthIcon(dad.curCharacter, false);
 		iconP2.y = healthBar.y - (iconP2.height / 2);
+		iconP2.updateHitbox();
 		add(iconP2);
 
 		strumLineNotes.cameras = [camHUD];
@@ -1049,7 +1068,7 @@ class PlayState extends MusicBeatState
 					schoolIntro(doof);
 				case 'thorns':
 					schoolIntro(doof);
-				case 'grappler' | 'imminence' | 'equivocation':
+				case 'grappler' | 'imminence' | 'equivocation' | 'exertion':
 					cuzIntros(doof);
 				default:
 					new FlxTimer().start(1, function(timer) {
@@ -1076,6 +1095,7 @@ class PlayState extends MusicBeatState
 	{
 		//trace("intro function...");
 		FlxG.sound.play(Paths.sound('SNAP'));
+		// this was just to understand how timers work
 		/*
 		new FlxTimer().start(3, function(timer) 
 			{
@@ -1085,37 +1105,46 @@ class PlayState extends MusicBeatState
 		);
 		*/
 
-		//black fade
-		var black:FlxSprite = new FlxSprite(-100, -100).makeGraphic(FlxG.width * 2, FlxG.height * 2, FlxColor.BLACK);
-		black.scrollFactor.set();
-		add(black);
-		new FlxTimer().start(0.15, function(tmr:FlxTimer)
-			{
-				black.alpha -= 0.05;
-	
-				if (black.alpha > 0)
+		//white fade
+		var white:FlxSprite = new FlxSprite(-700, -700).makeGraphic(FlxG.width * 3, FlxG.height * 3, FlxColor.WHITE);
+		white.scrollFactor.set();
+		add(white);
+		//white.alpha = 1;
+
+		if(curSong == 'exertion') {
+			new FlxTimer().start(1, function(timer) 
 				{
-					tmr.reset(0.15);
+					//gimme 3 seconds of white.
+					FlxG.camera.fade(FlxColor.WHITE, 3, true);
+					white.alpha = 0;
+					new FlxTimer().start(3, function(timer) 
+					{
+						if ((dialogueBox != null))
+						{
+							inCutscene = true;
+							
+							// trick for cutscene flashes
+							/// NFG!!!
+							//var camCutscene:FlxCamera = camGame;
+							//FlxG.cameras.add(camCutscene);
+							//FlxCamera.defaultCameras = [camHUD];
+							add(dialogueBox);
+						} else {
+							startCountdown();
+						}
+					}
+					);
 				}
-				else
-					remove(black);
-				
-			}
-		);
-		if ((dialogueBox != null))
+			);
+		} else {
+			if ((dialogueBox != null))
 			{
 				inCutscene = true;
-				
-				 // trick for cutscene flashes
-				//var camCutscene:FlxCamera = camGame;
-				//FlxG.cameras.add(camCutscene);
-				//FlxCamera.defaultCameras = [camHUD];
 				add(dialogueBox);
 			} else {
-				//FlxCamera.defaultCameras = [camGame];
 				startCountdown();
 			}
-		
+		}
 	}
 
 
@@ -2422,11 +2451,12 @@ class PlayState extends MusicBeatState
 		// FlxG.watch.addQuick('VOL', vocals.amplitudeLeft);
 		// FlxG.watch.addQuick('VOLRight', vocals.amplitudeRight);
 
-		iconP1.setGraphicSize(Std.int(FlxMath.lerp(150, iconP1.width, 0.50)));
+		/// TO DO
+		iconP1.setGraphicSize(Std.int(FlxMath.lerp(150, iconP1.width, 0.50))); /// come back and fix this
 		iconP2.setGraphicSize(Std.int(FlxMath.lerp(150, iconP2.width, 0.50)));
 
-		iconP1.updateHitbox();
-		iconP2.updateHitbox();
+		//iconP1.updateHitbox();
+		//iconP2.updateHitbox();
 
 		var iconOffset:Int = 26;
 
@@ -4531,6 +4561,7 @@ class PlayState extends MusicBeatState
 				case 2:
 					//scream
 					boyfriend.playAnim('screech', true);
+					FlxG.camera.shake(0.01,1.5);
 					dad.playAnim('screamReact', true);
 				default:
 					boyfriend.playAnim('sing' + dataSuffix[note.noteData] + altAnim, true);
@@ -4808,8 +4839,8 @@ class PlayState extends MusicBeatState
 			iconP1.setGraphicSize(Std.int(iconP1.width + 30));
 			iconP2.setGraphicSize(Std.int(iconP2.width + 30));
 
-			iconP1.updateHitbox();
-			iconP2.updateHitbox();
+			//iconP1.updateHitbox();
+			//iconP2.updateHitbox();
 		}
 		else
 		{
@@ -4817,8 +4848,8 @@ class PlayState extends MusicBeatState
 			iconP1.setGraphicSize(Std.int(iconP1.width + 4));
 			iconP2.setGraphicSize(Std.int(iconP2.width + 4));
 	
-			iconP1.updateHitbox();
-			iconP2.updateHitbox();
+			//iconP1.updateHitbox();
+			//iconP2.updateHitbox();
 		}
 
 		if (!endingSong && currentSection != null)
@@ -4989,6 +5020,16 @@ class PlayState extends MusicBeatState
 								//meh
 						}
 					}
+				case "liminalHell":
+					switch (curBeat)
+						{
+							case 288:
+								// change to hell
+								Stage.swagBacks['Hill'].visible = false;
+								Stage.swagBacks['Hell'].visible = true;
+								FlxG.camera.flash(FlxColor.RED, 2);
+						}
+
 					
 			}
 

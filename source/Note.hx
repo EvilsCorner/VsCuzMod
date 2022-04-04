@@ -130,13 +130,28 @@ class Note extends FlxSprite
 
 		if (inCharter)
 		{
+			noteTypeCheck = PlayState.SONG.noteStyle;
 			frames = Paths.getSparrowAtlas('NOTE_assets');
 
-			for (i in 0...4)
+			switch (noteTypeCheck)
 			{
-				animation.addByPrefix(dataColor[i] + 'Scroll', dataColor[i] + ' alone'); // Normal notes
-				animation.addByPrefix(dataColor[i] + 'hold', dataColor[i] + ' hold'); // Hold
-				animation.addByPrefix(dataColor[i] + 'holdend', dataColor[i] + ' tail'); // Tails
+				case 'stab':
+					frames = Paths.getSparrowAtlas('STABNOTE_assets');
+
+					for (i in 0...6)
+					{
+						animation.addByPrefix(dataColor[i] + 'Scroll', dataColor[i] + ' alone'); // Normal notes
+						animation.addByPrefix(dataColor[i] + 'hold', dataColor[i] + ' hold'); // Hold
+						animation.addByPrefix(dataColor[i] + 'holdend', dataColor[i] + ' tail'); // Tails
+					}
+					
+				default:
+					for (i in 0...4)
+						{
+							animation.addByPrefix(dataColor[i] + 'Scroll', dataColor[i] + ' alone'); // Normal notes
+							animation.addByPrefix(dataColor[i] + 'hold', dataColor[i] + ' hold'); // Hold
+							animation.addByPrefix(dataColor[i] + 'holdend', dataColor[i] + ' tail'); // Tails
+						}
 			}
 
 			setGraphicSize(Std.int(width * 0.7));

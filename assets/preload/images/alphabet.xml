@@ -310,10 +310,10 @@
 	<SubTexture name="[0001" x="215" y="140" width="25" height="61"/>
 	<SubTexture name="[0002" x="248" y="411" width="24" height="61" frameX="0" frameY="0" frameWidth="25" frameHeight="61"/>
 	<SubTexture name="[0003" x="248" y="411" width="24" height="61" frameX="0" frameY="0" frameWidth="25" frameHeight="61"/>
-	<SubTexture name="\0000" x="0" y="201" width="43" height="59" pivotX="0" pivotY="0"/>
-	<SubTexture name="\0001" x="0" y="201" width="43" height="59"/>
-	<SubTexture name="\0002" x="328" y="202" width="42" height="59" frameX="0" frameY="0" frameWidth="43" frameHeight="59"/>
-	<SubTexture name="\0003" x="328" y="202" width="42" height="59" frameX="0" frameY="0" frameWidth="43" frameHeight="59"/>
+	<SubTexture name="/0000" x="0" y="201" width="43" height="59" pivotX="0" pivotY="0"/>
+	<SubTexture name="/0001" x="0" y="201" width="43" height="59"/>
+	<SubTexture name="/0002" x="328" y="202" width="42" height="59" frameX="0" frameY="0" frameWidth="43" frameHeight="59"/>
+	<SubTexture name="/0003" x="328" y="202" width="42" height="59" frameX="0" frameY="0" frameWidth="43" frameHeight="59"/>
 	<SubTexture name="]0000" x="78" y="367" width="25" height="63" pivotX="0" pivotY="0.05"/>
 	<SubTexture name="]0001" x="78" y="367" width="25" height="63"/>
 	<SubTexture name="]0002" x="854" y="407" width="25" height="63"/>

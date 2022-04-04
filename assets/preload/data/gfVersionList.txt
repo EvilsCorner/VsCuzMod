@@ -5,3 +5,4 @@ gf-pixel
 gf-bf
 gf-bushes
 gf-bushes-gleam
+emptySpeaker

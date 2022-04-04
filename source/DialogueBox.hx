@@ -43,6 +43,7 @@ class DialogueBox extends FlxSpriteGroup
 	var tempPortrait:FlxSprite;
 	
 	var isEnding:Bool = false;
+	var noAdvance:Bool = false;
 
 	public function new(talkingRight:Bool = true, ?dialogueList:Array<String>)
 	{
@@ -70,43 +71,40 @@ class DialogueBox extends FlxSpriteGroup
 		bgFade = new FlxSprite(-200, -200).makeGraphic(Std.int(FlxG.width * 1.3), Std.int(FlxG.height * 1.3), 0xFFB3DFd8);
 		bgFade.scrollFactor.set();
 		bgFade.alpha = 0;
-		add(bgFade);
-
+		// add(bgFade);
+		/*
 		new FlxTimer().start(0.83, function(tmr:FlxTimer)
 		{
 			bgFade.alpha += (1 / 5) * 0.7;
 			if (bgFade.alpha > 0.7)
 				bgFade.alpha = 0.7;
 		}, 5);
+		*/
 
 		// dialog box sprite
 		box = new FlxSprite(-20, 45);
 		
 		var hasDialog = false;
+		hasDialog = true;
+		///lmaog
 
-		// does my stage have dialogue?
-		// whats my UI elements if i do?
-		switch (PlayState.SONG.song.toLowerCase())
-		{
-			case 'grappler' | 'imminence' | 'equivocation':
-				hasDialog = true;
-				box.frames = Paths.getSparrowAtlas('speech_bubble_talkingALT', 'shared');
-				box.animation.addByPrefix('normalOpen', 'Speech Bubble Normal Open', 24, false);
-				box.animation.addByPrefix('normal', 'speech bubble normal', 24, false);
-				box.width = 200;
-				box.height = 200;
-				box.x = -90;
-				box.y = 425;
+		// whats my UI elements
+		box.frames = Paths.getSparrowAtlas('speech_bubble_talkingALT', 'shared');
+		box.animation.addByPrefix('normalOpen', 'Speech Bubble Normal Open', 24, false);
+		box.animation.addByPrefix('normal', 'speech bubble normal', 24, true);
+		box.width = 200;
+		box.height = 200;
+		box.x = 100;
+		box.y = 425;
 
-				dropText = new FlxText(252, 477, Std.int(FlxG.width * 0.6), "", 32);
-				dropText.setFormat(Paths.font("Dominican.TTF"), 60);
-				dropText.color = 0xFF000000;
+		swagDialogue = new FlxTypeText(200, 465, Std.int(FlxG.width * 0.7), "", 32);
+		swagDialogue.setFormat(Paths.font("Dominican.TTF"), 60);
+		swagDialogue.color = 0xFF000000;
+		swagDialogue.sounds = [FlxG.sound.load(Paths.sound('pixelText'), 0.6)];
 
-				swagDialogue = new FlxTypeText(250, 475, Std.int(FlxG.width * 0.6), "", 32);
-				swagDialogue.setFormat(Paths.font("Dominican.TTF"), 60);
-				swagDialogue.color = 0xFF000000;
-				swagDialogue.sounds = [FlxG.sound.load(Paths.sound('pixelText'), 0.6)];
-		}
+		dropText = new FlxText(swagDialogue.x+2, swagDialogue.y+2, Std.int(FlxG.width * 0.6), "", 32);
+		dropText.setFormat(Paths.font("Dominican.TTF"), 60);
+		dropText.color = 0xFF000000;
 		
 		this.dialogueList = dialogueList;
 		//break if no dialogue
@@ -127,6 +125,7 @@ class DialogueBox extends FlxSpriteGroup
 		box.updateHitbox();
 		add(box);
 		box.screenCenter(X);
+		box.x += 25;
 
 		//handSelect = new FlxSprite(FlxG.width * 0.9, FlxG.height * 0.9).loadGraphic(Paths.image('weeb/pixelUI/hand_textbox'));
 		//add(handSelect);
@@ -165,11 +164,11 @@ class DialogueBox extends FlxSpriteGroup
 			dialogueStarted = true;
 		}
 
-		if (FlxG.keys.justPressed.ESCAPE && dialogueStarted == true)
+		if (FlxG.keys.justPressed.ESCAPE && dialogueStarted)
 			isEnding = true;
 
 
-		if (PlayerSettings.player1.controls.ACCEPT && dialogueStarted == true)
+		if (PlayerSettings.player1.controls.ACCEPT && dialogueStarted && !noAdvance)
 		{
 				
 			FlxG.sound.play(Paths.sound('SNAP'), 0.8);
@@ -193,7 +192,8 @@ class DialogueBox extends FlxSpriteGroup
 		if (isEnding)
 			{
 				isEnding = false; // run this code more than once at your peril
-				
+				noAdvance = true;
+
 				tempPortrait.visible = false;
 				//cutSceneBG.visible = false;
 
@@ -205,22 +205,35 @@ class DialogueBox extends FlxSpriteGroup
 				*/
 
 				// fade out graphics
-				new FlxTimer().start(0.1, function(tmr:FlxTimer)
+				new FlxTimer().start(0.01, function(tmr:FlxTimer)
 				{
-					box.alpha -= 1 / 10;
-					bgFade.alpha -= 1 / 10;
-					cutSceneBG.alpha -= 1 / 10;
+					box.alpha -= 1 / 100;
+					//bgFade.alpha -= 1 / 10;
+					cutSceneBG.alpha -= 1 / 100;
 					//portraitLeft.visible = false;
 					//portraitRight.visible = false;
 					
-					swagDialogue.alpha -= 1 / 10;
+					swagDialogue.alpha -= 1 / 100;
 					dropText.alpha = swagDialogue.alpha;
-				}, 10);
+				}, 100);
+				
+				/*
+				if (PlayState.SONG.song.toLowerCase() == 'song4') 
+				{
+					new FlxTimer().start(1, 
+					function(tmr:FlxTimer)
+					{
+						PlayState.Stage.swagBacks['Hill'].visible = false; // bastard
+						PlayState.Stage.swagBacks['Hell'].visible = true;
+						FlxG.camera.flash(FlxColor.RED, 2);
+					});
+				}
+				*/
 
 				// wait a few moments before destroying the instance
 				new FlxTimer().start(1.2, function(tmr:FlxTimer)
 				{
-					finishThing();
+					finishThing(); // you can pass a function here, whatever you want.
 					kill();
 				});
 			}

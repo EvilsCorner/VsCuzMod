@@ -105,9 +105,12 @@ class Alphabet extends FlxSpriteGroup
 
 	public function addText()
 	{
+		//trace("-----text:" + text);
 		doSplitWords();
+		//trace("-----splitWords:" + splitWords);
 
 		var xPos:Float = 0;
+		var loopNum:Int = 0;
 		for (character in splitWords)
 		{
 			// if (character.fastCodeAt() == " ")
@@ -119,7 +122,9 @@ class Alphabet extends FlxSpriteGroup
 				lastWasSpace = true;
 			}
 
-			if (AlphaCharacter.alphabet.indexOf(character.toLowerCase()) != -1)
+			if ((AlphaCharacter.alphabet.indexOf(character.toLowerCase()) != -1)
+				|| (AlphaCharacter.symbols.indexOf(character.toLowerCase()) != -1)
+				|| (AlphaCharacter.numbers.indexOf(character.toLowerCase()) != -1))
 				// if (AlphaCharacter.alphabet.contains(character.toLowerCase()))
 			{
 				if (lastSprite != null)
@@ -127,25 +132,45 @@ class Alphabet extends FlxSpriteGroup
 					// ThatGuy: This is the line that fixes the spacing error when the x position of this class's objects was anything other than 0
 					xPos = lastSprite.x - pastX + lastSprite.width;
 				}
-
+				/*
 				if (lastWasSpace)
 				{
 					// ThatGuy: Also this line
 					xPos += 40 * xScale;
 					lastWasSpace = false;
 				}
-
+				*/
+				
 				// var letter:AlphaCharacter = new AlphaCharacter(30 * loopNum, 0);
 				var letter:AlphaCharacter = new AlphaCharacter(xPos, 0);
-				
+				var isNumber:Bool = AlphaCharacter.numbers.contains(splitWords[loopNum]);
+				var isSymbol:Bool = AlphaCharacter.symbols.contains(splitWords[loopNum]);
+				//trace("----isSymbol: " + isSymbol);
+				//trace("----isSymbol: " + isNumber);
+
 				// ThatGuy: These are the lines that change the individual scaling of each character
 				letter.scale.set(xScale, yScale);
 				letter.updateHitbox();
 
 				listOAlphabets.add(letter);
 
-				if (isBold)
+				if(isSymbol) // doesnt work?
+				{
+					letter.createSymbol(character);
+					//trace("------------SLASH2");
+				}
+				else if (isNumber)
+				{
+					//trace("------------number: " + character);
+					letter.y += 6; // offset
+					letter.x += 6;
+					letter.createNumber(character);
+				}
+				else if (isBold)
+				{
 					letter.createBold(character);
+					//trace("------------SLASH- nope" + character);
+				}
 				else
 				{
 					letter.createLetter(character);
@@ -155,8 +180,7 @@ class Alphabet extends FlxSpriteGroup
 
 				lastSprite = letter;
 			}
-
-			// loopNum += 1;
+			loopNum += 1;
 		}
 	}
 
@@ -320,7 +344,7 @@ class AlphaCharacter extends FlxSprite
 
 	public static var numbers:String = "1234567890";
 
-	public static var symbols:String = "|~#$%()*+-:;<=>@[]^_.,'!? ";
+	public static var symbols:String = "|~#$%()*+-:;<=>@[]^_.,'!? /";
 
 	public var row:Int = 0;
 
@@ -428,6 +452,10 @@ class AlphaCharacter extends FlxSprite
 			case ' ':
 				animation.addByPrefix(letter, 'space', 24);
 				animation.play(letter);
+			case '/':
+				animation.addByPrefix(letter, '/', 24);
+				animation.play(letter);
+				trace("------------SLASH");
 		}
 
 		updateHitbox();

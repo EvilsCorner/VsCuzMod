@@ -485,17 +485,22 @@ class Stage
 						var liminalHill:FlxSprite = new FlxSprite(-1497, -1395).loadGraphic(Paths.image('liminal/liminalHill_test','weekCuzHell'));
 						var liminalHell:FlxSprite = new FlxSprite(-1522, -1395).loadGraphic(Paths.image('liminal/liminalHell_test','weekCuzHell'));
 
-						liminalHill.setGraphicSize(Std.int(liminalHill.width * 1));
-						liminalHill.scrollFactor.set(1, 1);
-						//liminalHill.scale.set(0.6618, 0.6618);
-						liminalHill.active = false;
-						//toAdd.push(liminalHill);
-
 						liminalHell.setGraphicSize(Std.int(liminalHell.width * 1));
 						liminalHell.scrollFactor.set(1, 1);
 						//liminalHill.scale.set(0.6618, 0.6618);
-						liminalHell.active = false;
+						//liminalHell.active = false;
+						liminalHell.visible = false;
+						swagBacks['Hell'] = liminalHell;
 						toAdd.push(liminalHell);
+
+						liminalHill.setGraphicSize(Std.int(liminalHill.width * 1));
+						liminalHill.scrollFactor.set(1, 1);
+						//liminalHill.scale.set(0.6618, 0.6618);
+						//liminalHill.active = false;
+						liminalHill.visible = true;
+						swagBacks['Hill'] = liminalHill;
+						toAdd.push(liminalHill);
+						
 						
 						//ref
 						var grid:FlxSprite = new FlxSprite(0,0).loadGraphic(Paths.image('downtown/superGrid','weekCuz'));

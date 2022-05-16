@@ -8,7 +8,7 @@
 :BF:r:Embarrassed:I don't wanna make your dad angry...again...
 :GF:l:Flirty:Well, it's funny you mention that because...my parents actually won't be home tonight...
 :BF:r:Excited:Oh, that's lucky! We don't have to hurry then!
-:BF:r:Excited:We could probably take a shortcut and get there in time for that one movie you've been wantin' to see. 
+:BF:r:Excited:We could probably take a shortcut and get there in time for that one movie you wanna see. 
 :BF:r:Excited:Thing's been replaying every hour and a half, yeah?  
 :GF:l:Troubled:Boyfriend.
 :BF:r:Default:Eh?

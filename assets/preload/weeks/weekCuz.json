@@ -1,0 +1,22 @@
+{
+	"songs": [
+		["Grappler", "cuz", [52, 52, 121]],
+		["Imminence", "cuz2", [52, 52, 121]],
+		["Equivocation", "cuzmad", [79, 52, 121]]
+	],
+
+	"weekCharacters": [
+		"",
+		"bf",
+		"gf"
+	],
+	"weekBackground": "",
+
+	"storyName": "Kick Ass Kin",
+	"weekBefore": "tutorial",
+	"weekName": "Tutorial",
+	"startUnlocked": true,
+
+	"hideStoryMode": false,
+	"hideFreeplay": false
+}

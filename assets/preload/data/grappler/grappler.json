@@ -3,7 +3,7 @@
         "song": "Grappler",
         "bpm": 130.0,
         "needsVoices": true,
-        "player1": "bf",
+        "player1": "bf-dressed",
         "player2": "cuz",
         "gfVersion": "gf-bushes",
         "stage": "downtown",

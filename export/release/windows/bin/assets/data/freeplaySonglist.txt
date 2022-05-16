@@ -1,6 +1,0 @@
-Tutorial:gf:0
-Test:bf:0
-Grappler:cuz:1
-Imminence:cuz2:1
-Equivocation:cuzmad:1
-Exertion:cuzmad:2

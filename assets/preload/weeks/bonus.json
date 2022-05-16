@@ -1,0 +1,20 @@
+{
+	"songs": [
+		["Exertion", "gf", [0, 255, 0]]
+	],
+
+	"weekCharacters": [
+		"",
+		"",
+		"gf"
+	],
+	"weekBackground": "stage",
+
+	"storyName": "CRASH WRITE SOME DIALOGUE HERE",
+	"weekBefore": "weekCuz",
+	"weekName": "Bonus",
+	"startUnlocked": true,
+
+	"hideStoryMode": false,
+	"hideFreeplay": false
+}

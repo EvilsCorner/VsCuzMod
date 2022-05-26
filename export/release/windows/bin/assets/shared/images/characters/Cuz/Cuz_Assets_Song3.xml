@@ -1,0 +1,81 @@
+﻿<TextureAtlas imagePath="Cuz_Assets_Song3.png">
+	<SubTexture name="Cuz Down0000" x="3" y="3" width="1283" height="1188"/>
+	<SubTexture name="Cuz Down0001" x="3" y="3" width="1283" height="1188"/>
+	<SubTexture name="Cuz Down0002" x="1296" y="3" width="1283" height="1188"/>
+	<SubTexture name="Cuz Down0003" x="1296" y="3" width="1283" height="1188"/>
+	<SubTexture name="Cuz Down0004" x="1296" y="3" width="1283" height="1188"/>
+	<SubTexture name="Cuz Down0005" x="1296" y="3" width="1283" height="1188"/>
+	<SubTexture name="Cuz Down0006" x="1296" y="3" width="1283" height="1188"/>
+	<SubTexture name="Cuz Down0007" x="1296" y="3" width="1283" height="1188"/>
+	<SubTexture name="Cuz Down0008" x="1296" y="3" width="1283" height="1188"/>
+	<SubTexture name="Cuz Down0009" x="1296" y="3" width="1283" height="1188"/>
+	<SubTexture name="Cuz Down0010" x="1296" y="3" width="1283" height="1188"/>
+	<SubTexture name="Cuz Down0011" x="1296" y="3" width="1283" height="1188"/>
+	<SubTexture name="Cuz First Swipe0000" x="2589" y="3" width="1283" height="1186"/>
+	<SubTexture name="Cuz First Swipe0001" x="2589" y="3" width="1283" height="1186"/>
+	<SubTexture name="Cuz First Swipe0002" x="3882" y="3" width="1283" height="1186"/>
+	<SubTexture name="Cuz First Swipe0003" x="3882" y="3" width="1283" height="1186"/>
+	<SubTexture name="Cuz First Swipe0004" x="5175" y="3" width="1283" height="1186"/>
+	<SubTexture name="Cuz First Swipe0005" x="6468" y="3" width="1283" height="1186"/>
+	<SubTexture name="Cuz First Swipe0006" x="6468" y="3" width="1283" height="1186"/>
+	<SubTexture name="Cuz First Swipe0007" x="6468" y="3" width="1283" height="1186"/>
+	<SubTexture name="Cuz First Swipe0008" x="6468" y="3" width="1283" height="1186"/>
+	<SubTexture name="Cuz First Swipe0009" x="6468" y="3" width="1283" height="1186"/>
+	<SubTexture name="Cuz Idle0000" x="3" y="1201" width="1283" height="1186"/>
+	<SubTexture name="Cuz Idle0001" x="3" y="1201" width="1283" height="1186"/>
+	<SubTexture name="Cuz Idle0002" x="1296" y="1201" width="1283" height="1186"/>
+	<SubTexture name="Cuz Idle0003" x="1296" y="1201" width="1283" height="1186"/>
+	<SubTexture name="Cuz Idle0004" x="2589" y="1201" width="1283" height="1186"/>
+	<SubTexture name="Cuz Idle0005" x="2589" y="1201" width="1283" height="1186"/>
+	<SubTexture name="Cuz Idle0006" x="3882" y="1201" width="1283" height="1186"/>
+	<SubTexture name="Cuz Idle0007" x="3882" y="1201" width="1283" height="1186"/>
+	<SubTexture name="Cuz Idle0008" x="3882" y="1201" width="1283" height="1186"/>
+	<SubTexture name="Cuz Idle0009" x="3882" y="1201" width="1283" height="1186"/>
+	<SubTexture name="Cuz Idle0010" x="3882" y="1201" width="1283" height="1186"/>
+	<SubTexture name="Cuz Left0000" x="5175" y="1201" width="1284" height="1186"/>
+	<SubTexture name="Cuz Left0001" x="5175" y="1201" width="1284" height="1186"/>
+	<SubTexture name="Cuz Left0002" x="6469" y="1201" width="1284" height="1186"/>
+	<SubTexture name="Cuz Left0003" x="6469" y="1201" width="1284" height="1186"/>
+	<SubTexture name="Cuz Left0004" x="6469" y="1201" width="1284" height="1186"/>
+	<SubTexture name="Cuz Left0005" x="6469" y="1201" width="1284" height="1186"/>
+	<SubTexture name="Cuz Left0006" x="6469" y="1201" width="1284" height="1186"/>
+	<SubTexture name="Cuz Left0007" x="6469" y="1201" width="1284" height="1186"/>
+	<SubTexture name="Cuz Left0008" x="6469" y="1201" width="1284" height="1186"/>
+	<SubTexture name="Cuz Left0009" x="6469" y="1201" width="1284" height="1186"/>
+	<SubTexture name="Cuz Left0010" x="6469" y="1201" width="1284" height="1186"/>
+	<SubTexture name="Cuz Left0011" x="6469" y="1201" width="1284" height="1186"/>
+	<SubTexture name="Cuz Right0000" x="3" y="2397" width="1284" height="1188"/>
+	<SubTexture name="Cuz Right0001" x="3" y="2397" width="1284" height="1188"/>
+	<SubTexture name="Cuz Right0002" x="1297" y="2397" width="1284" height="1188"/>
+	<SubTexture name="Cuz Right0003" x="1297" y="2397" width="1284" height="1188"/>
+	<SubTexture name="Cuz Right0004" x="1297" y="2397" width="1284" height="1188"/>
+	<SubTexture name="Cuz Right0005" x="1297" y="2397" width="1284" height="1188"/>
+	<SubTexture name="Cuz Right0006" x="1297" y="2397" width="1284" height="1188"/>
+	<SubTexture name="Cuz Right0007" x="1297" y="2397" width="1284" height="1188"/>
+	<SubTexture name="Cuz Right0008" x="1297" y="2397" width="1284" height="1188"/>
+	<SubTexture name="Cuz Right0009" x="1297" y="2397" width="1284" height="1188"/>
+	<SubTexture name="Cuz Right0010" x="1297" y="2397" width="1284" height="1188"/>
+	<SubTexture name="Cuz Right0011" x="1297" y="2397" width="1284" height="1188"/>
+	<SubTexture name="Cuz Second Swipe0000" x="2591" y="2397" width="1284" height="1186"/>
+	<SubTexture name="Cuz Second Swipe0001" x="2591" y="2397" width="1284" height="1186"/>
+	<SubTexture name="Cuz Second Swipe0002" x="3885" y="2397" width="1284" height="1186"/>
+	<SubTexture name="Cuz Second Swipe0003" x="3885" y="2397" width="1284" height="1186"/>
+	<SubTexture name="Cuz Second Swipe0004" x="5179" y="2397" width="1284" height="1186"/>
+	<SubTexture name="Cuz Second Swipe0005" x="6473" y="2397" width="1284" height="1186"/>
+	<SubTexture name="Cuz Second Swipe0006" x="3" y="3595" width="1284" height="1186"/>
+	<SubTexture name="Cuz Second Swipe0007" x="3" y="3595" width="1284" height="1186"/>
+	<SubTexture name="Cuz Second Swipe0008" x="3" y="3595" width="1284" height="1186"/>
+	<SubTexture name="Cuz Second Swipe0009" x="3" y="3595" width="1284" height="1186"/>
+	<SubTexture name="Cuz Up0000" x="1297" y="3595" width="1284" height="1187"/>
+	<SubTexture name="Cuz Up0001" x="1297" y="3595" width="1284" height="1187"/>
+	<SubTexture name="Cuz Up0002" x="2591" y="3595" width="1284" height="1187"/>
+	<SubTexture name="Cuz Up0003" x="2591" y="3595" width="1284" height="1187"/>
+	<SubTexture name="Cuz Up0004" x="2591" y="3595" width="1284" height="1187"/>
+	<SubTexture name="Cuz Up0005" x="2591" y="3595" width="1284" height="1187"/>
+	<SubTexture name="Cuz Up0006" x="2591" y="3595" width="1284" height="1187"/>
+	<SubTexture name="Cuz Up0007" x="2591" y="3595" width="1284" height="1187"/>
+	<SubTexture name="Cuz Up0008" x="2591" y="3595" width="1284" height="1187"/>
+	<SubTexture name="Cuz Up0009" x="2591" y="3595" width="1284" height="1187"/>
+	<SubTexture name="Cuz Up0010" x="2591" y="3595" width="1284" height="1187"/>
+	<SubTexture name="Cuz Up0011" x="2591" y="3595" width="1284" height="1187"/>
+</TextureAtlas>

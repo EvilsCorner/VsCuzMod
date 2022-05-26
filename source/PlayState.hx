@@ -2356,21 +2356,27 @@ class PlayState extends MusicBeatState
 		{
 			if(dad.animation.curAnim.name.startsWith("stab"))
 			{
-				switch(dad.animation.curAnim.curFrame)
+				var steb = dad.animation.curAnim.curFrame;
+				switch(steb)
 				{
-					case 5:
+					case 4:
 						if(missedStab)
 						{
 							//OW!
+							boyfriend.color = 0xFF0000;
 							new FlxTimer().start(0.01, function(tmr:FlxTimer)
 							{
-								health -= 0.1;
-							}, 4);
-							missedStab = false;
+								//trace("steb!!! = " + steb);
+								health -= 0.05;
+							}, 5);
 						}
 					case 7:
 						isStabbing = false;
+						missedStab = false;
 						stabcounter = 1;
+						boyfriend.color = 0xFFFFFF;
+					default:
+						//trace("steb = " + steb + "miss? : " + missedStab);
 				}
 			}
 
@@ -3931,6 +3937,7 @@ class PlayState extends MusicBeatState
 
 		if(daNote.noteType == 'Stab Note') {
 			missedStab = true;
+			isStabbing = true;
 			if(dad.animation.getByName('stab' + stabcounter) != null) {
 				dad.playAnim('stab'+stabcounter, true);
 				dad.specialAnim = true;
@@ -4138,6 +4145,12 @@ class PlayState extends MusicBeatState
 				}
 
 				switch(note.noteType) {
+					case 'Scream Note':
+						boyfriend.playAnim('screamSolo', true);
+						boyfriend.specialAnim = true;
+						dad.playAnim("screamReact", true);
+						FlxG.camera.shake(0.01, 0.1, null, true);
+
 					case 'Stab Note':
 						if(dad.animation.getByName('stab' + stabcounter) != null) {
 							dad.playAnim('stab'+stabcounter, true);

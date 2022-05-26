@@ -1,0 +1,11 @@
+{
+	
+	"image": "Menu_Cuz",
+	"position": [
+		180,
+		185
+	],
+	"scale": 0.5,
+	"idle_anim": "M Cuz Idle",
+	"confirm_anim": "M Cuz Idle"
+}

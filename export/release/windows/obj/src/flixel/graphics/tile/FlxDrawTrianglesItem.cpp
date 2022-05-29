@@ -198,16 +198,16 @@ HXLINE(  71)			::Dynamic this1 = this->vertices;
 HXDLIN(  71)			( ( ::openfl::_Vector::FloatVector)(this1) )->splice(0,this->vertices->get_length());
             		}
 HXLINE(  72)		{
-HXLINE(  72)			::Dynamic this2 = this->indices;
-HXDLIN(  72)			( ( ::openfl::_Vector::IntVector)(this2) )->splice(0,this->indices->get_length());
+HXLINE(  72)			::Dynamic this11 = this->indices;
+HXDLIN(  72)			( ( ::openfl::_Vector::IntVector)(this11) )->splice(0,this->indices->get_length());
             		}
 HXLINE(  73)		{
-HXLINE(  73)			::Dynamic this3 = this->uvtData;
-HXDLIN(  73)			( ( ::openfl::_Vector::FloatVector)(this3) )->splice(0,this->uvtData->get_length());
+HXLINE(  73)			::Dynamic this12 = this->uvtData;
+HXDLIN(  73)			( ( ::openfl::_Vector::FloatVector)(this12) )->splice(0,this->uvtData->get_length());
             		}
 HXLINE(  74)		{
-HXLINE(  74)			::Dynamic this4 = this->colors;
-HXDLIN(  74)			( ( ::openfl::_Vector::IntVector)(this4) )->splice(0,this->colors->get_length());
+HXLINE(  74)			::Dynamic this13 = this->colors;
+HXDLIN(  74)			( ( ::openfl::_Vector::IntVector)(this13) )->splice(0,this->colors->get_length());
             		}
 HXLINE(  76)		this->verticesPosition = 0;
 HXLINE(  77)		this->indicesPosition = 0;

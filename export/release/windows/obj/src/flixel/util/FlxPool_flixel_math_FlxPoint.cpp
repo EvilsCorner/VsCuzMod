@@ -118,7 +118,7 @@ void FlxPool_flixel_math_FlxPoint_obj::preAllocate(int numObjects){
             	HX_STACKFRAME(&_hx_pos_3dc7f803120ba5a4_65_preAllocate)
 HXDLIN(  65)		while(true){
 HXDLIN(  65)			numObjects = (numObjects - 1);
-HXDLIN(  65)			if (!(((numObjects + 1) > 0))) {
+HXDLIN(  65)			if (((numObjects + 1) <= 0)) {
 HXDLIN(  65)				goto _hx_goto_4;
             			}
 HXLINE(  67)			this->_pool[this->_count++] = ( ( ::flixel::math::FlxPoint)(::Type_obj::createInstance(this->_class,::cpp::VirtualArray_obj::__new(0))) );

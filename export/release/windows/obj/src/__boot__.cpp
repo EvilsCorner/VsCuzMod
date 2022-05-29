@@ -16,6 +16,9 @@
 #ifndef INCLUDED_lime_utils_CompressionAlgorithm
 #include <lime/utils/CompressionAlgorithm.h>
 #endif
+#ifndef INCLUDED_lime_utils_TAError
+#include <lime/utils/TAError.h>
+#endif
 #ifndef INCLUDED_lime_ui_MouseWheelMode
 #include <lime/ui/MouseWheelMode.h>
 #endif
@@ -33,9 +36,6 @@
 #endif
 #ifndef INCLUDED_lime_system_Endian
 #include <lime/system/Endian.h>
-#endif
-#ifndef INCLUDED_lime_utils_TAError
-#include <lime/utils/TAError.h>
 #endif
 #ifndef INCLUDED_lime_graphics_ImageType
 #include <lime/graphics/ImageType.h>
@@ -733,23 +733,17 @@
 #ifndef INCLUDED_openfl_display_Application
 #include <openfl/display/Application.h>
 #endif
-#ifndef INCLUDED_openfl__Vector_ObjectVector
-#include <openfl/_Vector/ObjectVector.h>
-#endif
 #ifndef INCLUDED_openfl__Vector_IntVector
 #include <openfl/_Vector/IntVector.h>
 #endif
 #ifndef INCLUDED_openfl__Vector_FunctionVector
 #include <openfl/_Vector/FunctionVector.h>
 #endif
-#ifndef INCLUDED_openfl__Vector_FloatVector
-#include <openfl/_Vector/FloatVector.h>
-#endif
 #ifndef INCLUDED_openfl__Vector_BoolVector
 #include <openfl/_Vector/BoolVector.h>
 #endif
-#ifndef INCLUDED_openfl__Vector_IVector
-#include <openfl/_Vector/IVector.h>
+#ifndef INCLUDED_openfl__Vector_Vector_Impl_
+#include <openfl/_Vector/Vector_Impl_.h>
 #endif
 #ifndef INCLUDED_openfl_Lib
 #include <openfl/Lib.h>
@@ -1255,6 +1249,9 @@
 #ifndef INCLUDED_flixel_math_FlxPoint
 #include <flixel/math/FlxPoint.h>
 #endif
+#ifndef INCLUDED_openfl__Vector_FloatVector
+#include <openfl/_Vector/FloatVector.h>
+#endif
 #ifndef INCLUDED_editors_WeekEditorState
 #include <editors/WeekEditorState.h>
 #endif
@@ -1516,8 +1513,11 @@
 #ifndef INCLUDED_openfl_display_DisplayObject
 #include <openfl/display/DisplayObject.h>
 #endif
-#ifndef INCLUDED_openfl__Vector_Vector_Impl_
-#include <openfl/_Vector/Vector_Impl_.h>
+#ifndef INCLUDED_openfl__Vector_ObjectVector
+#include <openfl/_Vector/ObjectVector.h>
+#endif
+#ifndef INCLUDED_openfl__Vector_IVector
+#include <openfl/_Vector/IVector.h>
 #endif
 #ifndef INCLUDED_ApplicationMain
 #include <ApplicationMain.h>
@@ -2803,17 +2803,11 @@
 #ifndef INCLUDED_haxe_ds__GenericStack_GenericStackIterator_hscript_Token
 #include <haxe/ds/_GenericStack/GenericStackIterator_hscript_Token.h>
 #endif
-#ifndef INCLUDED_haxe_ds_StringMap
-#include <haxe/ds/StringMap.h>
-#endif
 #ifndef INCLUDED_haxe_ds__List_ListIterator
 #include <haxe/ds/_List/ListIterator.h>
 #endif
 #ifndef INCLUDED_haxe_ds__List_ListNode
 #include <haxe/ds/_List/ListNode.h>
-#endif
-#ifndef INCLUDED_haxe_ds_IntMap
-#include <haxe/ds/IntMap.h>
 #endif
 #ifndef INCLUDED_haxe_ds_GenericStack_hscript_Token
 #include <haxe/ds/GenericStack_hscript_Token.h>
@@ -2845,9 +2839,6 @@
 #ifndef INCLUDED_haxe_crypto_Adler32
 #include <haxe/crypto/Adler32.h>
 #endif
-#ifndef INCLUDED_haxe_ValueException
-#include <haxe/ValueException.h>
-#endif
 #ifndef INCLUDED_haxe__Unserializer_NullResolver
 #include <haxe/_Unserializer/NullResolver.h>
 #endif
@@ -2856,12 +2847,6 @@
 #endif
 #ifndef INCLUDED_haxe_Resource
 #include <haxe/Resource.h>
-#endif
-#ifndef INCLUDED_haxe_NativeStackTrace
-#include <haxe/NativeStackTrace.h>
-#endif
-#ifndef INCLUDED_haxe_Exception
-#include <haxe/Exception.h>
 #endif
 #ifndef INCLUDED_haxe__CallStack_CallStack_Impl_
 #include <haxe/_CallStack/CallStack_Impl_.h>
@@ -3159,6 +3144,9 @@
 #endif
 #ifndef INCLUDED_flixel_input_gamepad_lists_FlxBaseGamepadList
 #include <flixel/input/gamepad/lists/FlxBaseGamepadList.h>
+#endif
+#ifndef INCLUDED_haxe_ds_IntMap
+#include <haxe/ds/IntMap.h>
 #endif
 #ifndef INCLUDED_flixel_input_gamepad_FlxGamepadButton
 #include <flixel/input/gamepad/FlxGamepadButton.h>
@@ -3529,9 +3517,6 @@
 #ifndef INCLUDED_StringBuf
 #include <StringBuf.h>
 #endif
-#ifndef INCLUDED_Std
-#include <Std.h>
-#endif
 #ifndef INCLUDED_Song
 #include <Song.h>
 #endif
@@ -3730,11 +3715,14 @@
 #ifndef INCLUDED_haxe_ds_ObjectMap
 #include <haxe/ds/ObjectMap.h>
 #endif
-#ifndef INCLUDED_haxe_IMap
-#include <haxe/IMap.h>
-#endif
 #ifndef INCLUDED_lime_utils_ObjectPool
 #include <lime/utils/ObjectPool.h>
+#endif
+#ifndef INCLUDED_haxe_ds_StringMap
+#include <haxe/ds/StringMap.h>
+#endif
+#ifndef INCLUDED_haxe_IMap
+#include <haxe/IMap.h>
 #endif
 #ifndef INCLUDED_openfl_display_IBitmapDrawable
 #include <openfl/display/IBitmapDrawable.h>
@@ -3744,6 +3732,18 @@
 #endif
 #ifndef INCLUDED_openfl_events_IEventDispatcher
 #include <openfl/events/IEventDispatcher.h>
+#endif
+#ifndef INCLUDED_haxe_NativeStackTrace
+#include <haxe/NativeStackTrace.h>
+#endif
+#ifndef INCLUDED_haxe_ValueException
+#include <haxe/ValueException.h>
+#endif
+#ifndef INCLUDED_Std
+#include <Std.h>
+#endif
+#ifndef INCLUDED_haxe_Exception
+#include <haxe/Exception.h>
 #endif
 #ifndef INCLUDED_cpp_Prime
 #include <cpp/Prime.h>
@@ -3790,13 +3790,13 @@ __files__boot();
 ::openfl::display::_internal::DrawCommandType_obj::__register();
 ::openfl::display::_internal::Context3DElementType_obj::__register();
 ::lime::utils::CompressionAlgorithm_obj::__register();
+::lime::utils::TAError_obj::__register();
 ::lime::ui::MouseWheelMode_obj::__register();
 ::lime::ui::MouseCursor_obj::__register();
 ::lime::ui::FileDialogType_obj::__register();
 ::lime::_hx_system::_ThreadPool::ThreadPoolMessageType_obj::__register();
 ::lime::_hx_system::SensorType_obj::__register();
 ::lime::_hx_system::Endian_obj::__register();
-::lime::utils::TAError_obj::__register();
 ::lime::graphics::ImageType_obj::__register();
 ::lime::graphics::ImageFileFormat_obj::__register();
 ::lime::graphics::ImageChannel_obj::__register();
@@ -4029,12 +4029,10 @@ __files__boot();
 ::openfl::display::DisplayObjectRenderer_obj::__register();
 ::openfl::display::_BlendMode::BlendMode_Impl__obj::__register();
 ::openfl::display::Application_obj::__register();
-::openfl::_Vector::ObjectVector_obj::__register();
 ::openfl::_Vector::IntVector_obj::__register();
 ::openfl::_Vector::FunctionVector_obj::__register();
-::openfl::_Vector::FloatVector_obj::__register();
 ::openfl::_Vector::BoolVector_obj::__register();
-::openfl::_Vector::IVector_obj::__register();
+::openfl::_Vector::Vector_Impl__obj::__register();
 ::openfl::Lib_obj::__register();
 ::llua::Lua_helper_obj::__register();
 ::lime::utils::_UInt8ClampedArray::UInt8ClampedArray_Impl__obj::__register();
@@ -4203,6 +4201,7 @@ __files__boot();
 ::flixel::FlxCamera_obj::__register();
 ::openfl::geom::ColorTransform_obj::__register();
 ::flixel::math::FlxPoint_obj::__register();
+::openfl::_Vector::FloatVector_obj::__register();
 ::editors::WeekEditorState_obj::__register();
 ::editors::EditorLua_obj::__register();
 ::editors::DialogueEditorState_obj::__register();
@@ -4290,7 +4289,8 @@ __files__boot();
 ::ClientPrefs_obj::__register();
 ::Character_obj::__register();
 ::openfl::display::DisplayObject_obj::__register();
-::openfl::_Vector::Vector_Impl__obj::__register();
+::openfl::_Vector::ObjectVector_obj::__register();
+::openfl::_Vector::IVector_obj::__register();
 ::ApplicationMain_obj::__register();
 ::lime::app::Application_obj::__register();
 ::lime::_internal::backend::native::NativeApplication_obj::__register();
@@ -4719,10 +4719,8 @@ __files__boot();
 ::haxe::format::JsonPrinter_obj::__register();
 ::haxe::format::JsonParser_obj::__register();
 ::haxe::ds::_GenericStack::GenericStackIterator_hscript_Token_obj::__register();
-::haxe::ds::StringMap_obj::__register();
 ::haxe::ds::_List::ListIterator_obj::__register();
 ::haxe::ds::_List::ListNode_obj::__register();
-::haxe::ds::IntMap_obj::__register();
 ::haxe::ds::GenericStack_hscript_Token_obj::__register();
 ::haxe::ds::_GenericStack::GenericStackIterator_obj::__register();
 ::haxe::ds::GenericCell_obj::__register();
@@ -4733,12 +4731,9 @@ __files__boot();
 ::haxe::ds::ArraySort_obj::__register();
 ::haxe::crypto::BaseCode_obj::__register();
 ::haxe::crypto::Adler32_obj::__register();
-::haxe::ValueException_obj::__register();
 ::haxe::_Unserializer::NullResolver_obj::__register();
 ::haxe::_Unserializer::DefaultResolver_obj::__register();
 ::haxe::Resource_obj::__register();
-::haxe::NativeStackTrace_obj::__register();
-::haxe::Exception_obj::__register();
 ::haxe::_CallStack::CallStack_Impl__obj::__register();
 ::flixel::util::helpers::FlxRange_obj::__register();
 ::flixel::util::_FlxUnicodeUtil::UnicodeBuffer_Impl__obj::__register();
@@ -4838,6 +4833,7 @@ __files__boot();
 ::flixel::input::gamepad::lists::FlxGamepadAnalogStateList_obj::__register();
 ::flixel::input::gamepad::lists::FlxGamepadAnalogList_obj::__register();
 ::flixel::input::gamepad::lists::FlxBaseGamepadList_obj::__register();
+::haxe::ds::IntMap_obj::__register();
 ::flixel::input::gamepad::FlxGamepadButton_obj::__register();
 ::flixel::input::gamepad::FlxGamepadAnalogStick_obj::__register();
 ::flixel::input::gamepad::FlxGamepad_obj::__register();
@@ -4961,7 +4957,6 @@ __files__boot();
 ::StrumNote_obj::__register();
 ::StringTools_obj::__register();
 ::StringBuf_obj::__register();
-::Std_obj::__register();
 ::Song_obj::__register();
 ::ResetScoreSubState_obj::__register();
 ::Reflect_obj::__register();
@@ -5028,11 +5023,16 @@ __files__boot();
 ::openfl::display::InteractiveObject_obj::__register();
 ::haxe::ds::List_obj::__register();
 ::haxe::ds::ObjectMap_obj::__register();
-::haxe::IMap_obj::__register();
 ::lime::utils::ObjectPool_obj::__register();
+::haxe::ds::StringMap_obj::__register();
+::haxe::IMap_obj::__register();
 ::openfl::display::IBitmapDrawable_obj::__register();
 ::openfl::events::EventDispatcher_obj::__register();
 ::openfl::events::IEventDispatcher_obj::__register();
+::haxe::NativeStackTrace_obj::__register();
+::haxe::ValueException_obj::__register();
+::Std_obj::__register();
+::haxe::Exception_obj::__register();
 ::cpp::Prime_obj::__register();
 ::lime::app::Module_obj::__register();
 ::lime::app::IModule_obj::__register();
@@ -5049,13 +5049,13 @@ __files__boot();
 ::openfl::display::_internal::DrawCommandType_obj::__boot();
 ::openfl::display::_internal::Context3DElementType_obj::__boot();
 ::lime::utils::CompressionAlgorithm_obj::__boot();
+::lime::utils::TAError_obj::__boot();
 ::lime::ui::MouseWheelMode_obj::__boot();
 ::lime::ui::MouseCursor_obj::__boot();
 ::lime::ui::FileDialogType_obj::__boot();
 ::lime::_hx_system::_ThreadPool::ThreadPoolMessageType_obj::__boot();
 ::lime::_hx_system::SensorType_obj::__boot();
 ::lime::_hx_system::Endian_obj::__boot();
-::lime::utils::TAError_obj::__boot();
 ::lime::graphics::ImageType_obj::__boot();
 ::lime::graphics::ImageFileFormat_obj::__boot();
 ::lime::graphics::ImageChannel_obj::__boot();
@@ -5127,7 +5127,8 @@ __files__boot();
 ::lime::_internal::backend::native::NativeApplication_obj::__boot();
 ::lime::app::Application_obj::__boot();
 ::ApplicationMain_obj::__boot();
-::openfl::_Vector::Vector_Impl__obj::__boot();
+::openfl::_Vector::IVector_obj::__boot();
+::openfl::_Vector::ObjectVector_obj::__boot();
 ::openfl::display::DisplayObject_obj::__boot();
 ::Character_obj::__boot();
 ::ClientPrefs_obj::__boot();
@@ -5215,6 +5216,7 @@ __files__boot();
 ::editors::DialogueEditorState_obj::__boot();
 ::editors::EditorLua_obj::__boot();
 ::editors::WeekEditorState_obj::__boot();
+::openfl::_Vector::FloatVector_obj::__boot();
 ::flixel::math::FlxPoint_obj::__boot();
 ::openfl::geom::ColorTransform_obj::__boot();
 ::flixel::FlxCamera_obj::__boot();
@@ -5382,12 +5384,10 @@ __files__boot();
 ::lime::utils::_UInt8ClampedArray::UInt8ClampedArray_Impl__obj::__boot();
 ::llua::Lua_helper_obj::__boot();
 ::openfl::Lib_obj::__boot();
-::openfl::_Vector::IVector_obj::__boot();
+::openfl::_Vector::Vector_Impl__obj::__boot();
 ::openfl::_Vector::BoolVector_obj::__boot();
-::openfl::_Vector::FloatVector_obj::__boot();
 ::openfl::_Vector::FunctionVector_obj::__boot();
 ::openfl::_Vector::IntVector_obj::__boot();
-::openfl::_Vector::ObjectVector_obj::__boot();
 ::openfl::display::Application_obj::__boot();
 ::openfl::display::_BlendMode::BlendMode_Impl__obj::__boot();
 ::openfl::display::DisplayObjectRenderer_obj::__boot();

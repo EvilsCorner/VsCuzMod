@@ -128,10 +128,7 @@ HXLINE(  88)			return true;
             			if (_hx_e.IsClass<  ::Dynamic >() ){
             				HX_STACK_BEGIN_CATCH
             				 ::Dynamic _g = _hx_e;
-HXLINE(   1)				{
-HXLINE(   1)					null();
-            				}
-HXLINE(  86)				if (::Std_obj::isOfType(::haxe::Exception_obj::caught(_g)->unwrap(),::hx::ClassOf< ::String >())) {
+HXDLIN(  86)				if (::Std_obj::isOfType(::haxe::Exception_obj::caught(_g)->unwrap(),::hx::ClassOf< ::String >())) {
 HXLINE(  90)					return false;
             				}
             				else {

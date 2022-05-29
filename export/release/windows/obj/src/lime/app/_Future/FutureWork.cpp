@@ -67,10 +67,7 @@ HXLINE( 344)			::lime::app::_Future::FutureWork_obj::threadPool->sendComplete( :
             			if (_hx_e.IsClass<  ::Dynamic >() ){
             				HX_STACK_BEGIN_CATCH
             				 ::Dynamic _g = _hx_e;
-HXLINE(   1)				{
-HXLINE(   1)					null();
-            				}
-HXDLIN(   1)				 ::Dynamic e = ::haxe::Exception_obj::caught(_g)->unwrap();
+HXLINE(   1)				 ::Dynamic e = ::haxe::Exception_obj::caught(_g)->unwrap();
 HXLINE( 348)				::lime::app::_Future::FutureWork_obj::threadPool->sendError( ::Dynamic(::hx::Anon_obj::Create(2)
             					->setFixed(0,HX_("promise",9b,cd,e9,f7), ::Dynamic(state->__Field(HX_("promise",9b,cd,e9,f7),::hx::paccDynamic)))
             					->setFixed(1,HX_("error",c8,cb,29,73),e)));

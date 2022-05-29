@@ -611,6 +611,8 @@ null
 @:keep @:bind @:noCompletion #if display private #end class __ASSET__assets_songs_imminence_voices___old_ogg extends null { }
 @:keep @:bind @:noCompletion #if display private #end class __ASSET__assets_songs_imminence_voices_ogg extends null { }
 @:keep @:bind @:noCompletion #if display private #end class __ASSET__assets_songs_test_inst_ogg extends null { }
+@:keep @:bind @:noCompletion #if display private #end class __ASSET__assets_songs_test_old_inst_ogg extends null { }
+@:keep @:bind @:noCompletion #if display private #end class __ASSET__assets_songs_test_old_voices_ogg extends null { }
 @:keep @:bind @:noCompletion #if display private #end class __ASSET__assets_songs_test_voices_ogg extends null { }
 @:keep @:bind @:noCompletion #if display private #end class __ASSET__assets_songs_tutorial_inst_ogg extends null { }
 @:keep @:bind @:noCompletion #if display private #end class __ASSET__assets_shared_images_bad_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }

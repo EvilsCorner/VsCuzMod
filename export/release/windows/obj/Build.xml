@@ -3560,11 +3560,6 @@
    <depend name="include/openfl/events/IEventDispatcher.h"/>
    <depend name="include/openfl/utils/_internal/Lib.h"/>
   </file>
-  <file name="src/openfl/_Vector/ObjectVector.cpp" tags="haxe,release">
-   <depend name="include/haxe/iterators/ArrayIterator.h"/>
-   <depend name="include/openfl/_Vector/IVector.h"/>
-   <depend name="include/openfl/_Vector/ObjectVector.h"/>
-  </file>
   <file name="src/openfl/_Vector/IntVector.cpp" tags="haxe,release">
    <depend name="include/haxe/iterators/ArrayIterator.h"/>
    <depend name="include/openfl/_Vector/IVector.h"/>
@@ -3576,18 +3571,19 @@
    <depend name="include/openfl/_Vector/FunctionVector.h"/>
    <depend name="include/openfl/_Vector/IVector.h"/>
   </file>
-  <file name="src/openfl/_Vector/FloatVector.cpp" tags="haxe,release">
-   <depend name="include/haxe/iterators/ArrayIterator.h"/>
-   <depend name="include/openfl/_Vector/FloatVector.h"/>
-   <depend name="include/openfl/_Vector/IVector.h"/>
-  </file>
   <file name="src/openfl/_Vector/BoolVector.cpp" tags="haxe,release">
    <depend name="include/haxe/iterators/ArrayIterator.h"/>
    <depend name="include/openfl/_Vector/BoolVector.h"/>
    <depend name="include/openfl/_Vector/IVector.h"/>
   </file>
-  <file name="src/openfl/_Vector/IVector.cpp" >
+  <file name="src/openfl/_Vector/Vector_Impl_.cpp" >
+   <depend name="include/openfl/_Vector/BoolVector.h"/>
+   <depend name="include/openfl/_Vector/FloatVector.h"/>
+   <depend name="include/openfl/_Vector/FunctionVector.h"/>
    <depend name="include/openfl/_Vector/IVector.h"/>
+   <depend name="include/openfl/_Vector/IntVector.h"/>
+   <depend name="include/openfl/_Vector/ObjectVector.h"/>
+   <depend name="include/openfl/_Vector/Vector_Impl_.h"/>
   </file>
   <file name="src/openfl/Lib.cpp" tags="haxe,release">
    <depend name="include/Reflect.h"/>
@@ -3907,6 +3903,9 @@
   <file name="src/lime/utils/ArrayBufferIO.cpp" >
    <depend name="include/haxe/io/Bytes.h"/>
    <depend name="include/lime/utils/ArrayBufferIO.h"/>
+  </file>
+  <file name="src/lime/utils/TAError.cpp" >
+   <depend name="include/lime/utils/TAError.h"/>
   </file>
   <file name="src/lime/utils/_ArrayBuffer/ArrayBuffer_Impl_.cpp" >
    <depend name="include/Std.h"/>
@@ -4407,9 +4406,6 @@
    <depend name="include/lime/utils/ArrayBufferView.h"/>
    <depend name="include/openfl/_Vector/IVector.h"/>
    <depend name="include/openfl/_Vector/IntVector.h"/>
-  </file>
-  <file name="src/lime/utils/TAError.cpp" >
-   <depend name="include/lime/utils/TAError.h"/>
   </file>
   <file name="src/lime/utils/ArrayBufferView.cpp" tags="haxe,release">
    <depend name="include/Std.h"/>
@@ -5771,24 +5767,12 @@
    <depend name="include/haxe/ds/_GenericStack/GenericStackIterator_hscript_Token.h"/>
    <depend name="include/hscript/Token.h"/>
   </file>
-  <file name="src/haxe/ds/StringMap.cpp" >
-   <depend name="include/haxe/IMap.h"/>
-   <depend name="include/haxe/ds/StringMap.h"/>
-   <depend name="include/haxe/iterators/ArrayIterator.h"/>
-   <depend name="include/haxe/iterators/MapKeyValueIterator.h"/>
-  </file>
   <file name="src/haxe/ds/_List/ListIterator.cpp" >
    <depend name="include/haxe/ds/_List/ListIterator.h"/>
    <depend name="include/haxe/ds/_List/ListNode.h"/>
   </file>
   <file name="src/haxe/ds/_List/ListNode.cpp" >
    <depend name="include/haxe/ds/_List/ListNode.h"/>
-  </file>
-  <file name="src/haxe/ds/IntMap.cpp" >
-   <depend name="include/haxe/IMap.h"/>
-   <depend name="include/haxe/ds/IntMap.h"/>
-   <depend name="include/haxe/iterators/ArrayIterator.h"/>
-   <depend name="include/haxe/iterators/MapKeyValueIterator.h"/>
   </file>
   <file name="src/haxe/ds/GenericStack_hscript_Token.cpp" >
    <depend name="include/haxe/ds/GenericCell_hscript_Token.h"/>
@@ -5847,11 +5831,6 @@
    <depend name="include/haxe/io/Bytes.h"/>
    <depend name="include/haxe/io/Input.h"/>
   </file>
-  <file name="src/haxe/ValueException.cpp" >
-   <depend name="include/Std.h"/>
-   <depend name="include/haxe/Exception.h"/>
-   <depend name="include/haxe/ValueException.h"/>
-  </file>
   <file name="src/haxe/_Unserializer/NullResolver.cpp" >
    <depend name="include/haxe/_Unserializer/NullResolver.h"/>
   </file>
@@ -5902,17 +5881,6 @@
   <file name="src/haxe/Resource.cpp" >
    <depend name="include/haxe/Resource.h"/>
    <depend name="include/haxe/io/Bytes.h"/>
-  </file>
-  <file name="src/haxe/NativeStackTrace.cpp" >
-   <depend name="include/Std.h"/>
-   <depend name="include/haxe/NativeStackTrace.h"/>
-   <depend name="include/haxe/StackItem.h"/>
-  </file>
-  <file name="src/haxe/Exception.cpp" >
-   <depend name="include/Std.h"/>
-   <depend name="include/haxe/Exception.h"/>
-   <depend name="include/haxe/NativeStackTrace.h"/>
-   <depend name="include/haxe/ValueException.h"/>
   </file>
   <file name="src/haxe/_CallStack/CallStack_Impl_.cpp" >
    <depend name="include/Std.h"/>
@@ -8111,6 +8079,12 @@
    <depend name="include/haxe/IMap.h"/>
    <depend name="include/haxe/ds/IntMap.h"/>
    <depend name="include/haxe/ds/StringMap.h"/>
+  </file>
+  <file name="src/haxe/ds/IntMap.cpp" >
+   <depend name="include/haxe/IMap.h"/>
+   <depend name="include/haxe/ds/IntMap.h"/>
+   <depend name="include/haxe/iterators/ArrayIterator.h"/>
+   <depend name="include/haxe/iterators/MapKeyValueIterator.h"/>
   </file>
   <file name="src/flixel/input/gamepad/FlxGamepadButton.cpp" >
    <depend name="include/flixel/input/FlxInput.h"/>
@@ -10972,6 +10946,11 @@
    <depend name="include/flixel/util/IFlxPool.h"/>
    <depend name="include/flixel/util/IFlxPooled.h"/>
   </file>
+  <file name="src/openfl/_Vector/FloatVector.cpp" tags="haxe,release">
+   <depend name="include/haxe/iterators/ArrayIterator.h"/>
+   <depend name="include/openfl/_Vector/FloatVector.h"/>
+   <depend name="include/openfl/_Vector/IVector.h"/>
+  </file>
   <file name="src/editors/WeekEditorFreeplayState.cpp" >
    <depend name="include/Alphabet.h"/>
    <depend name="include/ClientPrefs.h"/>
@@ -12243,9 +12222,6 @@
    <depend name="include/openfl/text/TextFormat.h"/>
    <depend name="include/sys/FileSystem.h"/>
    <depend name="include/sys/io/File.h"/>
-  </file>
-  <file name="src/Std.cpp" >
-   <depend name="include/Std.h"/>
   </file>
   <file name="src/StageData.cpp" >
    <depend name="include/Paths.h"/>
@@ -14720,9 +14696,6 @@
    <depend name="include/haxe/iterators/ArrayIterator.h"/>
    <depend name="include/haxe/iterators/MapKeyValueIterator.h"/>
   </file>
-  <file name="src/haxe/IMap.cpp" >
-   <depend name="include/haxe/IMap.h"/>
-  </file>
   <file name="src/lime/utils/ObjectPool.cpp" tags="haxe,release">
    <depend name="include/haxe/IMap.h"/>
    <depend name="include/haxe/ds/List.h"/>
@@ -14730,14 +14703,22 @@
    <depend name="include/haxe/ds/_List/ListNode.h"/>
    <depend name="include/lime/utils/ObjectPool.h"/>
   </file>
-  <file name="src/openfl/_Vector/Vector_Impl_.cpp" >
-   <depend name="include/openfl/_Vector/BoolVector.h"/>
-   <depend name="include/openfl/_Vector/FloatVector.h"/>
-   <depend name="include/openfl/_Vector/FunctionVector.h"/>
+  <file name="src/openfl/_Vector/ObjectVector.cpp" tags="haxe,release">
+   <depend name="include/haxe/iterators/ArrayIterator.h"/>
    <depend name="include/openfl/_Vector/IVector.h"/>
-   <depend name="include/openfl/_Vector/IntVector.h"/>
    <depend name="include/openfl/_Vector/ObjectVector.h"/>
-   <depend name="include/openfl/_Vector/Vector_Impl_.h"/>
+  </file>
+  <file name="src/openfl/_Vector/IVector.cpp" >
+   <depend name="include/openfl/_Vector/IVector.h"/>
+  </file>
+  <file name="src/haxe/ds/StringMap.cpp" >
+   <depend name="include/haxe/IMap.h"/>
+   <depend name="include/haxe/ds/StringMap.h"/>
+   <depend name="include/haxe/iterators/ArrayIterator.h"/>
+   <depend name="include/haxe/iterators/MapKeyValueIterator.h"/>
+  </file>
+  <file name="src/haxe/IMap.cpp" >
+   <depend name="include/haxe/IMap.h"/>
   </file>
   <file name="src/openfl/display/IBitmapDrawable.cpp" >
    <depend name="include/openfl/display/DisplayObject.h"/>
@@ -14893,6 +14874,25 @@
   <file name="src/lime/_internal/backend/native/NativeCFFI.cpp" tags="haxe,release">
    <depend name="include/cpp/Prime.h"/>
    <depend name="include/lime/_internal/backend/native/NativeCFFI.h"/>
+  </file>
+  <file name="src/haxe/NativeStackTrace.cpp" >
+   <depend name="include/Std.h"/>
+   <depend name="include/haxe/NativeStackTrace.h"/>
+   <depend name="include/haxe/StackItem.h"/>
+  </file>
+  <file name="src/haxe/ValueException.cpp" >
+   <depend name="include/Std.h"/>
+   <depend name="include/haxe/Exception.h"/>
+   <depend name="include/haxe/ValueException.h"/>
+  </file>
+  <file name="src/Std.cpp" >
+   <depend name="include/Std.h"/>
+  </file>
+  <file name="src/haxe/Exception.cpp" >
+   <depend name="include/Std.h"/>
+   <depend name="include/haxe/Exception.h"/>
+   <depend name="include/haxe/NativeStackTrace.h"/>
+   <depend name="include/haxe/ValueException.h"/>
   </file>
   <file name="src/cpp/Prime.cpp" >
    <depend name="include/cpp/Prime.h"/>
@@ -15134,13 +15134,13 @@
    <depend name="include/openfl/display/_internal/DrawCommandType.h"/>
    <depend name="include/openfl/display/_internal/Context3DElementType.h"/>
    <depend name="include/lime/utils/CompressionAlgorithm.h"/>
+   <depend name="include/lime/utils/TAError.h"/>
    <depend name="include/lime/ui/MouseWheelMode.h"/>
    <depend name="include/lime/ui/MouseCursor.h"/>
    <depend name="include/lime/ui/FileDialogType.h"/>
    <depend name="include/lime/system/_ThreadPool/ThreadPoolMessageType.h"/>
    <depend name="include/lime/system/SensorType.h"/>
    <depend name="include/lime/system/Endian.h"/>
-   <depend name="include/lime/utils/TAError.h"/>
    <depend name="include/lime/graphics/ImageType.h"/>
    <depend name="include/lime/graphics/ImageFileFormat.h"/>
    <depend name="include/lime/graphics/ImageChannel.h"/>
@@ -15373,12 +15373,10 @@
    <depend name="include/openfl/display/DisplayObjectRenderer.h"/>
    <depend name="include/openfl/display/_BlendMode/BlendMode_Impl_.h"/>
    <depend name="include/openfl/display/Application.h"/>
-   <depend name="include/openfl/_Vector/ObjectVector.h"/>
    <depend name="include/openfl/_Vector/IntVector.h"/>
    <depend name="include/openfl/_Vector/FunctionVector.h"/>
-   <depend name="include/openfl/_Vector/FloatVector.h"/>
    <depend name="include/openfl/_Vector/BoolVector.h"/>
-   <depend name="include/openfl/_Vector/IVector.h"/>
+   <depend name="include/openfl/_Vector/Vector_Impl_.h"/>
    <depend name="include/openfl/Lib.h"/>
    <depend name="include/llua/Lua_helper.h"/>
    <depend name="include/lime/utils/_UInt8ClampedArray/UInt8ClampedArray_Impl_.h"/>
@@ -15547,6 +15545,7 @@
    <depend name="include/flixel/FlxCamera.h"/>
    <depend name="include/openfl/geom/ColorTransform.h"/>
    <depend name="include/flixel/math/FlxPoint.h"/>
+   <depend name="include/openfl/_Vector/FloatVector.h"/>
    <depend name="include/editors/WeekEditorState.h"/>
    <depend name="include/editors/EditorLua.h"/>
    <depend name="include/editors/DialogueEditorState.h"/>
@@ -15634,7 +15633,8 @@
    <depend name="include/ClientPrefs.h"/>
    <depend name="include/Character.h"/>
    <depend name="include/openfl/display/DisplayObject.h"/>
-   <depend name="include/openfl/_Vector/Vector_Impl_.h"/>
+   <depend name="include/openfl/_Vector/ObjectVector.h"/>
+   <depend name="include/openfl/_Vector/IVector.h"/>
    <depend name="include/ApplicationMain.h"/>
    <depend name="include/lime/app/Application.h"/>
    <depend name="include/lime/_internal/backend/native/NativeApplication.h"/>

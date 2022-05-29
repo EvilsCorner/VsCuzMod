@@ -100,9 +100,6 @@ HXLINE(  78)			this->_sharedObject = ::openfl::net::SharedObject_obj::getLocal(t
             			if (_hx_e.IsClass<  ::Dynamic >() ){
             				HX_STACK_BEGIN_CATCH
             				 ::Dynamic _g = _hx_e;
-HXLINE(   1)				{
-HXLINE(   1)					null();
-            				}
 HXLINE(  76)				if (::Std_obj::isOfType(::haxe::Exception_obj::caught(_g)->unwrap(),::hx::ClassOf< ::openfl::errors::Error >())) {
 HXLINE(  83)					this->destroy();
 HXLINE(  84)					return false;
@@ -147,9 +144,6 @@ HXLINE( 122)			result = this->_sharedObject->flush(null());
             			if (_hx_e.IsClass<  ::Dynamic >() ){
             				HX_STACK_BEGIN_CATCH
             				 ::Dynamic _g = _hx_e;
-HXLINE(   1)				{
-HXLINE(   1)					null();
-            				}
 HXLINE( 120)				if (::Std_obj::isOfType(::haxe::Exception_obj::caught(_g)->unwrap(),::hx::ClassOf< ::openfl::errors::Error >())) {
 HXLINE( 126)					return this->onDone(::flixel::util::FlxSaveStatus_obj::ERROR_dyn());
             				}

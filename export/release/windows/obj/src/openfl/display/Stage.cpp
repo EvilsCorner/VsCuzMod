@@ -529,10 +529,7 @@ HXLINE(1159)							dispatcher->_hx___dispatch(event);
             							if (_hx_e.IsClass<  ::Dynamic >() ){
             								HX_STACK_BEGIN_CATCH
             								 ::Dynamic _g = _hx_e;
-HXLINE(   1)								{
-HXLINE(   1)									null();
-            								}
-HXDLIN(   1)								 ::Dynamic e = ::haxe::Exception_obj::caught(_g)->unwrap();
+HXLINE(   1)								 ::Dynamic e = ::haxe::Exception_obj::caught(_g)->unwrap();
 HXLINE(1163)								this->_hx___handleError(e);
             							}
             							else {
@@ -594,10 +591,7 @@ HXLINE(1238)			return this->super::_hx___dispatchEvent(event);
             			if (_hx_e.IsClass<  ::Dynamic >() ){
             				HX_STACK_BEGIN_CATCH
             				 ::Dynamic _g = _hx_e;
-HXLINE(   1)				{
-HXLINE(   1)					null();
-            				}
-HXDLIN(   1)				 ::Dynamic e = ::haxe::Exception_obj::caught(_g)->unwrap();
+HXLINE(   1)				 ::Dynamic e = ::haxe::Exception_obj::caught(_g)->unwrap();
 HXLINE(1244)				this->_hx___handleError(e);
 HXLINE(1245)				return false;
             			}
@@ -668,10 +662,7 @@ HXLINE(1314)						i = (i - 1);
             			if (_hx_e.IsClass<  ::Dynamic >() ){
             				HX_STACK_BEGIN_CATCH
             				 ::Dynamic _g = _hx_e;
-HXLINE(   1)				{
-HXLINE(   1)					null();
-            				}
-HXDLIN(   1)				 ::Dynamic e = ::haxe::Exception_obj::caught(_g)->unwrap();
+HXLINE(   1)				 ::Dynamic e = ::haxe::Exception_obj::caught(_g)->unwrap();
 HXLINE(1323)				this->_hx___handleError(e);
             			}
             			else {
@@ -692,10 +683,7 @@ HXLINE(1334)			return target->_hx___dispatchEvent(event);
             			if (_hx_e.IsClass<  ::Dynamic >() ){
             				HX_STACK_BEGIN_CATCH
             				 ::Dynamic _g = _hx_e;
-HXLINE(   1)				{
-HXLINE(   1)					null();
-            				}
-HXDLIN(   1)				 ::Dynamic e = ::haxe::Exception_obj::caught(_g)->unwrap();
+HXLINE(   1)				 ::Dynamic e = ::haxe::Exception_obj::caught(_g)->unwrap();
 HXLINE(1338)				this->_hx___handleError(e);
 HXLINE(1339)				return false;
             			}
@@ -780,9 +768,6 @@ HXLINE(1409)			::openfl::Lib_obj::get_current()->_hx___loaderInfo->uncaughtError
             			if (_hx_e.IsClass<  ::Dynamic >() ){
             				HX_STACK_BEGIN_CATCH
             				 ::Dynamic _g = _hx_e;
-HXLINE(   1)				{
-HXLINE(   1)					null();
-            				}
             			}
             			else {
             				HX_STACK_DO_THROW(_hx_e);
@@ -1881,10 +1866,7 @@ HXLINE(1728)			::openfl::ui::GameInput_obj::_hx___onGamepadAxisMove(gamepad,axis
             			if (_hx_e.IsClass<  ::Dynamic >() ){
             				HX_STACK_BEGIN_CATCH
             				 ::Dynamic _g = _hx_e;
-HXLINE(   1)				{
-HXLINE(   1)					null();
-            				}
-HXDLIN(   1)				 ::Dynamic e = ::haxe::Exception_obj::caught(_g)->unwrap();
+HXLINE(   1)				 ::Dynamic e = ::haxe::Exception_obj::caught(_g)->unwrap();
 HXLINE(1732)				this->_hx___handleError(e);
             			}
             			else {
@@ -1905,10 +1887,7 @@ HXLINE(1744)			::openfl::ui::GameInput_obj::_hx___onGamepadButtonDown(gamepad,bu
             			if (_hx_e.IsClass<  ::Dynamic >() ){
             				HX_STACK_BEGIN_CATCH
             				 ::Dynamic _g = _hx_e;
-HXLINE(   1)				{
-HXLINE(   1)					null();
-            				}
-HXDLIN(   1)				 ::Dynamic e = ::haxe::Exception_obj::caught(_g)->unwrap();
+HXLINE(   1)				 ::Dynamic e = ::haxe::Exception_obj::caught(_g)->unwrap();
 HXLINE(1748)				this->_hx___handleError(e);
             			}
             			else {
@@ -1929,10 +1908,7 @@ HXLINE(1760)			::openfl::ui::GameInput_obj::_hx___onGamepadButtonUp(gamepad,butt
             			if (_hx_e.IsClass<  ::Dynamic >() ){
             				HX_STACK_BEGIN_CATCH
             				 ::Dynamic _g = _hx_e;
-HXLINE(   1)				{
-HXLINE(   1)					null();
-            				}
-HXDLIN(   1)				 ::Dynamic e = ::haxe::Exception_obj::caught(_g)->unwrap();
+HXLINE(   1)				 ::Dynamic e = ::haxe::Exception_obj::caught(_g)->unwrap();
 HXLINE(1764)				this->_hx___handleError(e);
             			}
             			else {
@@ -1981,10 +1957,7 @@ HXLINE(1776)			::openfl::ui::GameInput_obj::_hx___onGamepadConnect(gamepad);
             			if (_hx_e.IsClass<  ::Dynamic >() ){
             				HX_STACK_BEGIN_CATCH
             				 ::Dynamic _g = _hx_e;
-HXLINE(   1)				{
-HXLINE(   1)					null();
-            				}
-HXDLIN(   1)				 ::Dynamic e = ::haxe::Exception_obj::caught(_g)->unwrap();
+HXLINE(   1)				 ::Dynamic e = ::haxe::Exception_obj::caught(_g)->unwrap();
 HXLINE(1780)				this->_hx___handleError(e);
             			}
             			else {
@@ -2021,10 +1994,7 @@ HXLINE(1797)			::openfl::ui::GameInput_obj::_hx___onGamepadDisconnect(gamepad);
             			if (_hx_e.IsClass<  ::Dynamic >() ){
             				HX_STACK_BEGIN_CATCH
             				 ::Dynamic _g = _hx_e;
-HXLINE(   1)				{
-HXLINE(   1)					null();
-            				}
-HXDLIN(   1)				 ::Dynamic e = ::haxe::Exception_obj::caught(_g)->unwrap();
+HXLINE(   1)				 ::Dynamic e = ::haxe::Exception_obj::caught(_g)->unwrap();
 HXLINE(1801)				this->_hx___handleError(e);
             			}
             			else {

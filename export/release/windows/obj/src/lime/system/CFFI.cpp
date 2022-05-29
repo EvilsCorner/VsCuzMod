@@ -97,9 +97,6 @@ HXLINE(  85)				result = ::cpp::Lib_obj::loadLazy(library,method,args);
             				if (_hx_e.IsClass<  ::Dynamic >() ){
             					HX_STACK_BEGIN_CATCH
             					 ::Dynamic _g = _hx_e;
-HXLINE(   1)					{
-HXLINE(   1)						null();
-            					}
             				}
             				else {
             					HX_STACK_DO_THROW(_hx_e);
@@ -164,9 +161,6 @@ HXLINE( 224)							return s;
             					if (_hx_e.IsClass<  ::Dynamic >() ){
             						HX_STACK_BEGIN_CATCH
             						 ::Dynamic _g = _hx_e;
-HXLINE(   1)						{
-HXLINE(   1)							null();
-            						}
             					}
             					else {
             						HX_STACK_DO_THROW(_hx_e);
@@ -179,9 +173,6 @@ HXLINE( 231)				proc->close();
             			if (_hx_e.IsClass<  ::Dynamic >() ){
             				HX_STACK_BEGIN_CATCH
             				 ::Dynamic _g = _hx_e;
-HXLINE(   1)				{
-HXLINE(   1)					null();
-            				}
             			}
             			else {
             				HX_STACK_DO_THROW(_hx_e);
@@ -227,9 +218,6 @@ HXLINE( 352)				return result;
             			if (_hx_e.IsClass<  ::Dynamic >() ){
             				HX_STACK_BEGIN_CATCH
             				 ::Dynamic _g = _hx_e;
-HXLINE(   1)				{
-HXLINE(   1)					null();
-            				}
 HXLINE( 357)				::lime::_hx_system::CFFI_obj::_hx___loaderTrace((HX_("Failed to load : ",1e,ca,38,9b) + name));
             			}
             			else {

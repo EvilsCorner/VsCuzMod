@@ -15,7 +15,7 @@
 #endif
 
 HX_DEFINE_STACK_FRAME(_hx_pos_82636e28ca3d0791_307_new,"__ASSET__assets_fonts_dominican_ttf","new",0xb8b59460,"__ASSET__assets_fonts_dominican_ttf.new","lime/_internal/macros/AssetsMacro.hx",307,0xc651f030)
-HX_LOCAL_STACK_FRAME(_hx_pos_5e174c87d754f87f_1181_boot,"__ASSET__assets_fonts_dominican_ttf","boot",0xde454032,"__ASSET__assets_fonts_dominican_ttf.boot","ManifestResources.hx",1181,0xf77aa668)
+HX_LOCAL_STACK_FRAME(_hx_pos_5e174c87d754f87f_1183_boot,"__ASSET__assets_fonts_dominican_ttf","boot",0xde454032,"__ASSET__assets_fonts_dominican_ttf.boot","ManifestResources.hx",1183,0xf77aa668)
 
 void __ASSET__assets_fonts_dominican_ttf_obj::__construct(){
             	HX_STACKFRAME(&_hx_pos_82636e28ca3d0791_307_new)
@@ -136,8 +136,8 @@ void __ASSET__assets_fonts_dominican_ttf_obj::__register()
 void __ASSET__assets_fonts_dominican_ttf_obj::__boot()
 {
 {
-            	HX_STACKFRAME(&_hx_pos_5e174c87d754f87f_1181_boot)
-HXDLIN(1181)		resourceName = HX_("LIME_font___ASSET__assets_fonts_dominican_ttf",68,90,48,b9);
+            	HX_STACKFRAME(&_hx_pos_5e174c87d754f87f_1183_boot)
+HXDLIN(1183)		resourceName = HX_("LIME_font___ASSET__assets_fonts_dominican_ttf",68,90,48,b9);
             	}
 }
 

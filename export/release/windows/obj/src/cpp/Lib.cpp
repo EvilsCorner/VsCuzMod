@@ -52,10 +52,7 @@ HXLINE(  67)			return  ::__loadprim(lib,prim,nargs);
             			if (_hx_e.IsClass<  ::Dynamic >() ){
             				HX_STACK_BEGIN_CATCH
             				 ::Dynamic _g = _hx_e;
-HXLINE(   1)				{
-HXLINE(   1)					null();
-            				}
-HXDLIN(   1)				 ::Dynamic e = ::haxe::Exception_obj::caught(_g)->unwrap();
+HXLINE(   1)				 ::Dynamic e = ::haxe::Exception_obj::caught(_g)->unwrap();
 HXLINE(  69)				switch((int)(nargs)){
             					case (int)0: {
             						HX_BEGIN_LOCAL_FUNC_S1(::hx::LocalFunc,_hx_Closure_1, ::Dynamic,e) HXARGC(0)

@@ -1,4 +1,6 @@
-﻿<TextureAtlas imagePath="Cuz_Assets_Song3.png">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Cuz_Assets_Song3.png">
+	<!-- Created with Elbow Grease -->
 	<SubTexture name="Cuz Down0000" x="3" y="3" width="1283" height="1188"/>
 	<SubTexture name="Cuz Down0001" x="3" y="3" width="1283" height="1188"/>
 	<SubTexture name="Cuz Down0002" x="1296" y="3" width="1283" height="1188"/>
@@ -11,16 +13,14 @@
 	<SubTexture name="Cuz Down0009" x="1296" y="3" width="1283" height="1188"/>
 	<SubTexture name="Cuz Down0010" x="1296" y="3" width="1283" height="1188"/>
 	<SubTexture name="Cuz Down0011" x="1296" y="3" width="1283" height="1188"/>
-	<SubTexture name="Cuz First Swipe0000" x="2589" y="3" width="1283" height="1186"/>
-	<SubTexture name="Cuz First Swipe0001" x="2589" y="3" width="1283" height="1186"/>
-	<SubTexture name="Cuz First Swipe0002" x="3882" y="3" width="1283" height="1186"/>
-	<SubTexture name="Cuz First Swipe0003" x="3882" y="3" width="1283" height="1186"/>
-	<SubTexture name="Cuz First Swipe0004" x="5175" y="3" width="1283" height="1186"/>
+	<SubTexture name="Cuz First Swipe0000" x="2589" y="3" width="1283" height="1186"/> 	<!-- these had 2 frames on the wind ups b4 -->
+	<SubTexture name="Cuz First Swipe0001" x="3882" y="3" width="1283" height="1186"/>
+	<SubTexture name="Cuz First Swipe0002" x="5175" y="3" width="1283" height="1186"/>
+	<SubTexture name="Cuz First Swipe0003" x="6468" y="3" width="1283" height="1186"/>
+	<SubTexture name="Cuz First Swipe0004" x="6468" y="3" width="1283" height="1186"/>
 	<SubTexture name="Cuz First Swipe0005" x="6468" y="3" width="1283" height="1186"/>
 	<SubTexture name="Cuz First Swipe0006" x="6468" y="3" width="1283" height="1186"/>
 	<SubTexture name="Cuz First Swipe0007" x="6468" y="3" width="1283" height="1186"/>
-	<SubTexture name="Cuz First Swipe0008" x="6468" y="3" width="1283" height="1186"/>
-	<SubTexture name="Cuz First Swipe0009" x="6468" y="3" width="1283" height="1186"/>
 	<SubTexture name="Cuz Idle0000" x="3" y="1201" width="1283" height="1186"/>
 	<SubTexture name="Cuz Idle0001" x="3" y="1201" width="1283" height="1186"/>
 	<SubTexture name="Cuz Idle0002" x="1296" y="1201" width="1283" height="1186"/>
@@ -57,15 +57,13 @@
 	<SubTexture name="Cuz Right0010" x="1297" y="2397" width="1284" height="1188"/>
 	<SubTexture name="Cuz Right0011" x="1297" y="2397" width="1284" height="1188"/>
 	<SubTexture name="Cuz Second Swipe0000" x="2591" y="2397" width="1284" height="1186"/>
-	<SubTexture name="Cuz Second Swipe0001" x="2591" y="2397" width="1284" height="1186"/>
-	<SubTexture name="Cuz Second Swipe0002" x="3885" y="2397" width="1284" height="1186"/>
-	<SubTexture name="Cuz Second Swipe0003" x="3885" y="2397" width="1284" height="1186"/>
-	<SubTexture name="Cuz Second Swipe0004" x="5179" y="2397" width="1284" height="1186"/>
-	<SubTexture name="Cuz Second Swipe0005" x="6473" y="2397" width="1284" height="1186"/>
+	<SubTexture name="Cuz Second Swipe0001" x="3885" y="2397" width="1284" height="1186"/>
+	<SubTexture name="Cuz Second Swipe0002" x="5179" y="2397" width="1284" height="1186"/>
+	<SubTexture name="Cuz Second Swipe0003" x="6473" y="2397" width="1284" height="1186"/>
+	<SubTexture name="Cuz Second Swipe0004" x="3" y="3595" width="1284" height="1186"/>
+	<SubTexture name="Cuz Second Swipe0005" x="3" y="3595" width="1284" height="1186"/>
 	<SubTexture name="Cuz Second Swipe0006" x="3" y="3595" width="1284" height="1186"/>
 	<SubTexture name="Cuz Second Swipe0007" x="3" y="3595" width="1284" height="1186"/>
-	<SubTexture name="Cuz Second Swipe0008" x="3" y="3595" width="1284" height="1186"/>
-	<SubTexture name="Cuz Second Swipe0009" x="3" y="3595" width="1284" height="1186"/>
 	<SubTexture name="Cuz Up0000" x="1297" y="3595" width="1284" height="1187"/>
 	<SubTexture name="Cuz Up0001" x="1297" y="3595" width="1284" height="1187"/>
 	<SubTexture name="Cuz Up0002" x="2591" y="3595" width="1284" height="1187"/>

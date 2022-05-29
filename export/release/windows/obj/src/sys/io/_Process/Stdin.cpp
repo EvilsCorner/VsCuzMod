@@ -73,9 +73,6 @@ HXLINE(  48)			return _hx_std_process_stdin_write(this->p,buf->b,pos,len);
             			if (_hx_e.IsClass<  ::Dynamic >() ){
             				HX_STACK_BEGIN_CATCH
             				 ::Dynamic _g = _hx_e;
-HXLINE(   1)				{
-HXLINE(   1)					null();
-            				}
 HXLINE(  50)				HX_STACK_DO_THROW(::haxe::Exception_obj::thrown( ::haxe::io::Eof_obj::__alloc( HX_CTX )));
             			}
             			else {

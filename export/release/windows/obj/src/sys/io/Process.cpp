@@ -38,9 +38,6 @@ HXLINE(  97)			_hx_tmp = _hx_std_process_run(cmd,args);
             			if (_hx_e.IsClass<  ::Dynamic >() ){
             				HX_STACK_BEGIN_CATCH
             				 ::Dynamic _g = _hx_e;
-HXLINE(   1)				{
-HXLINE(   1)					null();
-            				}
 HXLINE(  97)				HX_STACK_DO_THROW(::haxe::Exception_obj::thrown((HX_("Process creation failure : ",cc,fa,44,a5) + cmd)));
             			}
             			else {

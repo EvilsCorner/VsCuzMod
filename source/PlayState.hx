@@ -239,6 +239,7 @@ class PlayState extends MusicBeatState
 	public static var deathCounter:Int = 0;
 
 	public var defaultCamZoom:Float = 1.05;
+	public var zoomHelper:Float;
 
 	// how big to stretch the pixel art assets
 	public static var daPixelZoom:Float = 6;
@@ -281,6 +282,9 @@ class PlayState extends MusicBeatState
 	private var stabcounter:Int = 1;
 	private var missedStab:Bool = false;
 	private var isStabbing:Bool = false;
+	// temp stage
+	var liminalHill:BGSprite;
+	var liminalHell:BGSprite;
 	
 
 	override public function create()
@@ -406,6 +410,8 @@ class PlayState extends MusicBeatState
 		}
 
 		defaultCamZoom = stageData.defaultZoom;
+		zoomHelper = stageData.defaultZoom;
+
 		isPixelStage = stageData.isPixelStage;
 		BF_X = stageData.boyfriend[0];
 		BF_Y = stageData.boyfriend[1];
@@ -765,8 +771,8 @@ class PlayState extends MusicBeatState
 				//Testing
 				// i was off on x by 100???
 				//-1497, -1395
-				var liminalHill:BGSprite = new BGSprite('liminal/liminalHill_test',-1497, -1395,1,1);
-				var liminalHell:BGSprite = new BGSprite('liminal/liminalHell_test',-1522, -1395,1,1);
+				liminalHill = new BGSprite('liminal/liminalHill_test',-1497, -1395,1,1);
+				liminalHell = new BGSprite('liminal/liminalHell_test',-1522, -1395,1,1);
 
 				//liminalHell.setGraphicSize(Std.int(liminalHell.width * 1));
 				liminalHell.visible = false;
@@ -1615,6 +1621,20 @@ class PlayState extends MusicBeatState
 		});
 	}
 
+	function stabPlayer():Void
+	{	
+		//OW!
+		new FlxTimer().start((1/60), function(tmr:FlxTimer)
+		{
+			//trace("steb!!! = " + steb);
+			health -= 0.1000000001;
+			boyfriend.color = 0xFF0000;
+		}, 5);
+		new FlxTimer().start((6/60), function(tmr:FlxTimer)
+		{
+			boyfriend.color = 0xFFFFFF;
+		});
+	}
 	// cuz intros
 	function cuzIntros(?dialogueBox:DialogueBox):Void
 		{
@@ -2352,6 +2372,10 @@ class PlayState extends MusicBeatState
 			iconP1.swapOldIcon();
 		}*/
 
+
+		// figure out a better way to do this, probably using timers
+		// because 2 very close stab notes together do not function properly
+		// if you miss both, only one actually damages you
 		if(isStabbing)
 		{
 			if(dad.animation.curAnim.name.startsWith("stab"))
@@ -2359,22 +2383,25 @@ class PlayState extends MusicBeatState
 				var steb = dad.animation.curAnim.curFrame;
 				switch(steb)
 				{
-					case 4:
+					case 2:
 						if(missedStab)
 						{
 							//OW!
+							/*
 							boyfriend.color = 0xFF0000;
 							new FlxTimer().start(0.01, function(tmr:FlxTimer)
 							{
 								//trace("steb!!! = " + steb);
 								health -= 0.05;
 							}, 5);
+							*/
 						}
-					case 7:
+					case 4:
 						isStabbing = false;
 						missedStab = false;
+						//boyfriend.color = 0xFFFFFF;
+					case 7:
 						stabcounter = 1;
-						boyfriend.color = 0xFFFFFF;
 					default:
 						//trace("steb = " + steb + "miss? : " + missedStab);
 				}
@@ -2493,6 +2520,12 @@ class PlayState extends MusicBeatState
 						heyTimer = 0;
 					}
 				}
+
+			case 'liminalHell':
+				if(curBeat == 288)
+				{
+
+				}
 		}
 
 		if(!inCutscene) {
@@ -2511,9 +2544,9 @@ class PlayState extends MusicBeatState
 		super.update(elapsed);
 
 		if(ratingName == '?') {
-			scoreTxt.text = 'Score: ' + songScore + ' | Misses: ' + songMisses + ' | Rating: ' + ratingName;
+			scoreTxt.text = 'Score: ' + songScore + ' | Misses: ' + songMisses + ' | Rating: ' + ratingName + ' | Health: ' + health;
 		} else {
-			scoreTxt.text = 'Score: ' + songScore + ' | Misses: ' + songMisses + ' | Rating: ' + ratingName + ' (' + Highscore.floorDecimal(ratingPercent * 100, 2) + '%)' + ' - ' + ratingFC;//peeps wanted no integer rating
+			scoreTxt.text = 'Score: ' + songScore + ' | Misses: ' + songMisses + ' | Rating: ' + ratingName + ' (' + Highscore.floorDecimal(ratingPercent * 100, 2) + '%)' + ' - ' + ratingFC + ' | Health: ' + health;//peeps wanted no integer rating
 		}
 
 		if(botplayTxt.visible) {
@@ -2639,7 +2672,7 @@ class PlayState extends MusicBeatState
 
 		if (camZooming)
 		{
-			FlxG.camera.zoom = FlxMath.lerp(defaultCamZoom, FlxG.camera.zoom, CoolUtil.boundTo(1 - (elapsed * 3.125), 0, 1));
+			FlxG.camera.zoom = FlxMath.lerp(zoomHelper, FlxG.camera.zoom, CoolUtil.boundTo(1 - (elapsed * 3.125), 0, 1));
 			camHUD.zoom = FlxMath.lerp(1, camHUD.zoom, CoolUtil.boundTo(1 - (elapsed * 3.125), 0, 1));
 		}
 
@@ -3245,6 +3278,11 @@ class PlayState extends MusicBeatState
 						}
 					});
 				}
+
+			case 'Set Camera Zoom':
+				var camZoom:Float = Std.parseFloat(value1);
+				var motionType:String = value2;
+				customCamZoom(camZoom, motionType);
 		}
 		callOnLuas('onEvent', [eventName, value1, value2]);
 	}
@@ -3310,6 +3348,54 @@ class PlayState extends MusicBeatState
 				}
 			});
 		}
+	}
+
+	function customCamZoom(target:Float, motionData:String)
+	{
+		//camZooming = false;
+		if (cameraTwn == null && FlxG.camera.zoom != 1.3) {
+			//expoInOut nah
+			//linear nah
+
+			// i cannot get around this. 
+			// the event system wont let me pass an easetype 
+			// without needing me to reformat the whole thing
+			// so might as well bite the bullet here instead of up there
+
+			var splits:Array<String> = motionData.split(":");
+			var motionType:String = splits[0];
+			var motionSpeed:Int = Std.parseInt(splits[1]);
+
+			var swagEase:EaseFunction; //shout outs to ninjamuffin99
+			switch(motionType) 
+			{
+				case "linear":
+					swagEase = FlxEase.linear;
+				case "quadInOut":
+					swagEase = FlxEase.quadInOut;
+				case "cubeInOut":
+					swagEase = FlxEase.cubeInOut;
+				case "quartInOut":
+					swagEase = FlxEase.quartInOut;
+				case "smoothStepInOut":
+					swagEase = FlxEase.smoothStepInOut;
+				case "expoInOut":
+					swagEase = FlxEase.expoInOut;
+				case "backInOut":
+					swagEase = FlxEase.backInOut;
+				default:
+					swagEase = FlxEase.linear;
+			}
+
+			cameraTwn = FlxTween.tween(FlxG.camera, {zoom: target}, (60 / Conductor.bpm)*motionSpeed, {ease: swagEase, onComplete:
+				function (twn:FlxTween) {
+					cameraTwn = null;
+					camZooming = true;
+					zoomHelper = FlxG.camera.zoom;
+				}
+			});
+			
+		}		
 	}
 
 	function snapCamFollowToPos(x:Float, y:Float) {
@@ -3942,6 +4028,11 @@ class PlayState extends MusicBeatState
 				dad.playAnim('stab'+stabcounter, true);
 				dad.specialAnim = true;
 				stabcounter = (stabcounter%2) + 1; // this always equates to 1 or 2
+				//OW
+				new FlxTimer().start((3/24), function(tmr:FlxTimer)
+				{
+					stabPlayer();
+				});
 			}
 		}
 
@@ -4150,6 +4241,8 @@ class PlayState extends MusicBeatState
 						boyfriend.specialAnim = true;
 						dad.playAnim("screamReact", true);
 						FlxG.camera.shake(0.01, 0.1, null, true);
+						//screamIdle = true;
+						boyfriend.idleSuffix = 'Scary';
 
 					case 'Stab Note':
 						if(dad.animation.getByName('stab' + stabcounter) != null) {
@@ -4157,6 +4250,7 @@ class PlayState extends MusicBeatState
 							isStabbing = true;
 							dad.specialAnim = true;
 							stabcounter = (stabcounter%2) + 1; // this always equates to 1 or 2
+							boyfriend.idleSuffix = '';
 						}
 					case 'Hey!':
 						if(boyfriend.animOffsets.exists('hey')) {
@@ -4170,6 +4264,8 @@ class PlayState extends MusicBeatState
 							gf.specialAnim = true;
 							gf.heyTimer = 0.6;
 						}
+					default:
+						boyfriend.idleSuffix = '';
 				}
 			}
 		}
@@ -4489,6 +4585,7 @@ class PlayState extends MusicBeatState
 		}
 		if (camZooming && FlxG.camera.zoom < 1.35 && ClientPrefs.camZooms && curBeat % 4 == 0)
 		{
+			zoomHelper = FlxG.camera.zoom;
 			FlxG.camera.zoom += 0.015;
 			camHUD.zoom += 0.03;
 		}
@@ -4580,6 +4677,15 @@ class PlayState extends MusicBeatState
 							//meh
 					}
 				}
+			case "liminalHell":
+				switch (curBeat)
+				{
+					case 288:
+						FlxG.camera.flash(0xFFA70010, 0.5, true); //red flash
+						liminalHill.visible = false;
+						liminalHell.visible = true;
+				}
+
 		}
 
 		if (curStage == 'spooky' && FlxG.random.bool(10) && curBeat > lightningStrikeBeat + lightningOffset)

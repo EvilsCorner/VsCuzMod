@@ -2275,9 +2275,6 @@ HXLINE(1946)							HX_STACK_DO_THROW(::haxe::Exception_obj::thrown(((HX_("couldn
             						if (_hx_e.IsClass<  ::Dynamic >() ){
             							HX_STACK_BEGIN_CATCH
             							 ::Dynamic _g = _hx_e;
-HXLINE(   1)							{
-HXLINE(   1)								null();
-            							}
 HXLINE(1946)							if (!(::Std_obj::isOfType(::haxe::Exception_obj::caught(_g)->unwrap(),::hx::ClassOf< ::String >()))) {
 HXLINE(1946)								HX_STACK_DO_THROW(_g);
             							}
@@ -4195,9 +4192,6 @@ HXLINE(3374)				button_asset = ( ( ::flixel::addons::ui::FlxUISpriteButton)(this
             				if (_hx_e.IsClass<  ::Dynamic >() ){
             					HX_STACK_BEGIN_CATCH
             					 ::Dynamic _g = _hx_e;
-HXLINE(   1)					{
-HXLINE(   1)						null();
-            					}
 HXLINE(3372)					if (::Std_obj::isOfType(::haxe::Exception_obj::caught(_g)->unwrap(),::hx::ClassOf< ::openfl::errors::Error >())) {
 HXLINE(3379)						button_asset = null();
             					}
@@ -4218,9 +4212,6 @@ HXLINE(3387)				label_asset = ( ( ::flixel::addons::ui::FlxUIText)(this->_loadTe
             				if (_hx_e.IsClass<  ::Dynamic >() ){
             					HX_STACK_BEGIN_CATCH
             					 ::Dynamic _g = _hx_e;
-HXLINE(   1)					{
-HXLINE(   1)						null();
-            					}
 HXLINE(3385)					if (::Std_obj::isOfType(::haxe::Exception_obj::caught(_g)->unwrap(),::hx::ClassOf< ::openfl::errors::Error >())) {
 HXLINE(3392)						label_asset = null();
             					}
@@ -4279,9 +4270,6 @@ HXLINE(3429)						asset = ( ( ::flixel::addons::ui::FlxUIButton)(this->_loadButt
             						if (_hx_e.IsClass<  ::Dynamic >() ){
             							HX_STACK_BEGIN_CATCH
             							 ::Dynamic _g = _hx_e;
-HXLINE(   1)							{
-HXLINE(   1)								null();
-            							}
 HXLINE(3427)							if (!(::Std_obj::isOfType(::haxe::Exception_obj::caught(_g)->unwrap(),::hx::ClassOf< ::openfl::errors::Error >()))) {
 HXLINE(3427)								HX_STACK_DO_THROW(_g);
             							}
@@ -5443,9 +5431,6 @@ HXLINE(4371)						HX_STACK_DO_THROW(::haxe::Exception_obj::thrown(((HX_("couldn'
             					if (_hx_e.IsClass<  ::Dynamic >() ){
             						HX_STACK_BEGIN_CATCH
             						 ::Dynamic _g = _hx_e;
-HXLINE(   1)						{
-HXLINE(   1)							null();
-            						}
 HXLINE(4371)						if (!(::Std_obj::isOfType(::haxe::Exception_obj::caught(_g)->unwrap(),::hx::ClassOf< ::String >()))) {
 HXLINE(4371)							HX_STACK_DO_THROW(_g);
             						}
@@ -5566,9 +5551,6 @@ HXLINE(4456)						HX_STACK_DO_THROW(::haxe::Exception_obj::thrown(((HX_("couldn'
             					if (_hx_e.IsClass<  ::Dynamic >() ){
             						HX_STACK_BEGIN_CATCH
             						 ::Dynamic _g = _hx_e;
-HXLINE(   1)						{
-HXLINE(   1)							null();
-            						}
 HXLINE(4456)						if (!(::Std_obj::isOfType(::haxe::Exception_obj::caught(_g)->unwrap(),::hx::ClassOf< ::String >()))) {
 HXLINE(4456)							HX_STACK_DO_THROW(_g);
             						}
@@ -6194,9 +6176,6 @@ HXLINE(4971)						HX_STACK_DO_THROW(::haxe::Exception_obj::thrown(((HX_("couldn'
             					if (_hx_e.IsClass<  ::Dynamic >() ){
             						HX_STACK_BEGIN_CATCH
             						 ::Dynamic _g = _hx_e;
-HXLINE(   1)						{
-HXLINE(   1)							null();
-            						}
 HXLINE(4971)						if (!(::Std_obj::isOfType(::haxe::Exception_obj::caught(_g)->unwrap(),::hx::ClassOf< ::String >()))) {
 HXLINE(4971)							HX_STACK_DO_THROW(_g);
             						}

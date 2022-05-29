@@ -713,10 +713,7 @@ HXLINE( 259)			return this->expr(e);
             			if (_hx_e.IsClass<  ::Dynamic >() ){
             				HX_STACK_BEGIN_CATCH
             				 ::Dynamic _g = _hx_e;
-HXLINE(   1)				{
-HXLINE(   1)					null();
-            				}
-HXDLIN(   1)				 ::Dynamic _g1 = ::haxe::Exception_obj::caught(_g)->unwrap();
+HXLINE(   1)				 ::Dynamic _g1 = ::haxe::Exception_obj::caught(_g)->unwrap();
 HXLINE( 258)				if (::Std_obj::isOfType(_g1,::hx::ClassOf< ::hscript::_Interp::Stop >())) {
 HXLINE(   1)					 ::hscript::_Interp::Stop e = _g1;
 HXLINE( 261)					switch((int)(e->_hx_getIndex())){
@@ -1084,10 +1081,7 @@ HXLINE( 440)							r = me->exprReturn(fexpr);
             							if (_hx_e.IsClass<  ::Dynamic >() ){
             								HX_STACK_BEGIN_CATCH
             								 ::Dynamic _g = _hx_e;
-HXLINE(   1)								{
-HXLINE(   1)									null();
-            								}
-HXDLIN(   1)								 ::Dynamic e = ::haxe::Exception_obj::caught(_g)->unwrap();
+HXLINE(   1)								 ::Dynamic e = ::haxe::Exception_obj::caught(_g)->unwrap();
 HXLINE( 442)								me->locals = old;
 HXLINE( 443)								me->depth = depth;
 HXLINE( 447)								HX_STACK_DO_THROW(::haxe::Exception_obj::thrown(e));
@@ -1337,10 +1331,7 @@ HXLINE( 536)					return v;
             					if (_hx_e.IsClass<  ::Dynamic >() ){
             						HX_STACK_BEGIN_CATCH
             						 ::Dynamic _g = _hx_e;
-HXLINE(   1)						{
-HXLINE(   1)							null();
-            						}
-HXDLIN(   1)						 ::Dynamic _g1 = ::haxe::Exception_obj::caught(_g)->unwrap();
+HXLINE(   1)						 ::Dynamic _g1 = ::haxe::Exception_obj::caught(_g)->unwrap();
 HXLINE( 531)						if (::Std_obj::isOfType(_g1,::hx::ClassOf< ::hscript::_Interp::Stop >())) {
 HXLINE(   1)							 ::hscript::_Interp::Stop err = _g1;
 HXLINE( 538)							this->inTry = oldTry;
@@ -1474,10 +1465,7 @@ HXLINE( 587)				this->expr(e);
             				if (_hx_e.IsClass<  ::Dynamic >() ){
             					HX_STACK_BEGIN_CATCH
             					 ::Dynamic _g = _hx_e;
-HXLINE(   1)					{
-HXLINE(   1)						null();
-            					}
-HXDLIN(   1)					 ::Dynamic _g1 = ::haxe::Exception_obj::caught(_g)->unwrap();
+HXLINE(   1)					 ::Dynamic _g1 = ::haxe::Exception_obj::caught(_g)->unwrap();
 HXLINE( 586)					if (::Std_obj::isOfType(_g1,::hx::ClassOf< ::hscript::_Interp::Stop >())) {
 HXLINE(   1)						 ::hscript::_Interp::Stop err = _g1;
 HXLINE( 589)						switch((int)(err->_hx_getIndex())){
@@ -1524,10 +1512,7 @@ HXLINE( 604)				this->expr(e);
             				if (_hx_e.IsClass<  ::Dynamic >() ){
             					HX_STACK_BEGIN_CATCH
             					 ::Dynamic _g = _hx_e;
-HXLINE(   1)					{
-HXLINE(   1)						null();
-            					}
-HXDLIN(   1)					 ::Dynamic _g1 = ::haxe::Exception_obj::caught(_g)->unwrap();
+HXLINE(   1)					 ::Dynamic _g1 = ::haxe::Exception_obj::caught(_g)->unwrap();
 HXLINE( 603)					if (::Std_obj::isOfType(_g1,::hx::ClassOf< ::hscript::_Interp::Stop >())) {
 HXLINE(   1)						 ::hscript::_Interp::Stop err = _g1;
 HXLINE( 606)						switch((int)(err->_hx_getIndex())){
@@ -1569,9 +1554,6 @@ HXLINE( 620)			v = v->__Field(HX_("iterator",ee,49,9a,93),::hx::paccDynamic)();
             			if (_hx_e.IsClass<  ::Dynamic >() ){
             				HX_STACK_BEGIN_CATCH
             				 ::Dynamic _g = _hx_e;
-HXLINE(   1)				{
-HXLINE(   1)					null();
-            				}
             			}
             			else {
             				HX_STACK_DO_THROW(_hx_e);
@@ -1615,10 +1597,7 @@ HXLINE( 633)				this->expr(e);
             				if (_hx_e.IsClass<  ::Dynamic >() ){
             					HX_STACK_BEGIN_CATCH
             					 ::Dynamic _g = _hx_e;
-HXLINE(   1)					{
-HXLINE(   1)						null();
-            					}
-HXDLIN(   1)					 ::Dynamic _g1 = ::haxe::Exception_obj::caught(_g)->unwrap();
+HXLINE(   1)					 ::Dynamic _g1 = ::haxe::Exception_obj::caught(_g)->unwrap();
 HXLINE( 632)					if (::Std_obj::isOfType(_g1,::hx::ClassOf< ::hscript::_Interp::Stop >())) {
 HXLINE(   1)						 ::hscript::_Interp::Stop err = _g1;
 HXLINE( 635)						switch((int)(err->_hx_getIndex())){

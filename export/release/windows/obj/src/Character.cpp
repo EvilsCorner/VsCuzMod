@@ -96,10 +96,10 @@ static const Float _hx_array_data_e3a4bb89_5[] = {
 };
 HX_LOCAL_STACK_FRAME(_hx_pos_ae240c01d039da8e_250_update,"Character","update",0x0e18944e,"Character.update","Character.hx",250,0xf073a2d5)
 HX_LOCAL_STACK_FRAME(_hx_pos_ae240c01d039da8e_300_dance,"Character","dance",0xde4da48e,"Character.dance","Character.hx",300,0xf073a2d5)
-HX_LOCAL_STACK_FRAME(_hx_pos_ae240c01d039da8e_318_playAnim,"Character","playAnim",0xed2bd3aa,"Character.playAnim","Character.hx",318,0xf073a2d5)
-HX_LOCAL_STACK_FRAME(_hx_pos_ae240c01d039da8e_350_recalculateDanceIdle,"Character","recalculateDanceIdle",0x9672c319,"Character.recalculateDanceIdle","Character.hx",350,0xf073a2d5)
-HX_LOCAL_STACK_FRAME(_hx_pos_ae240c01d039da8e_373_addOffset,"Character","addOffset",0x6dc9376f,"Character.addOffset","Character.hx",373,0xf073a2d5)
-HX_LOCAL_STACK_FRAME(_hx_pos_ae240c01d039da8e_378_quickAnimAdd,"Character","quickAnimAdd",0x85c31d28,"Character.quickAnimAdd","Character.hx",378,0xf073a2d5)
+HX_LOCAL_STACK_FRAME(_hx_pos_ae240c01d039da8e_323_playAnim,"Character","playAnim",0xed2bd3aa,"Character.playAnim","Character.hx",323,0xf073a2d5)
+HX_LOCAL_STACK_FRAME(_hx_pos_ae240c01d039da8e_355_recalculateDanceIdle,"Character","recalculateDanceIdle",0x9672c319,"Character.recalculateDanceIdle","Character.hx",355,0xf073a2d5)
+HX_LOCAL_STACK_FRAME(_hx_pos_ae240c01d039da8e_378_addOffset,"Character","addOffset",0x6dc9376f,"Character.addOffset","Character.hx",378,0xf073a2d5)
+HX_LOCAL_STACK_FRAME(_hx_pos_ae240c01d039da8e_383_quickAnimAdd,"Character","quickAnimAdd",0x85c31d28,"Character.quickAnimAdd","Character.hx",383,0xf073a2d5)
 HX_LOCAL_STACK_FRAME(_hx_pos_ae240c01d039da8e_81_boot,"Character","boot",0xaac40737,"Character.boot","Character.hx",81,0xf073a2d5)
 
 void Character_obj::__construct(Float x,Float y,::String __o_character, ::Dynamic __o_isPlayer){
@@ -108,8 +108,8 @@ void Character_obj::__construct(Float x,Float y,::String __o_character, ::Dynami
             		 ::Dynamic isPlayer = __o_isPlayer;
             		if (::hx::IsNull(__o_isPlayer)) isPlayer = false;
             	HX_GC_STACKFRAME(&_hx_pos_ae240c01d039da8e_47_new)
-HXLINE( 349)		this->settingCharacterUp = true;
-HXLINE( 348)		this->danceEveryNumBeats = 2;
+HXLINE( 354)		this->settingCharacterUp = true;
+HXLINE( 353)		this->danceEveryNumBeats = 2;
 HXLINE( 293)		this->danced = false;
 HXLINE(  79)		this->healthColorArray = ::Array_obj< int >::fromData( _hx_array_data_e3a4bb89_3,3);
 HXLINE(  78)		this->originalFlipX = false;
@@ -483,8 +483,8 @@ HXLINE( 309)					this->playAnim((HX_("danceLeft",da,cc,f9,df) + this->idleSuffix
             				}
             			}
             			else {
-HXLINE( 311)				if (::hx::IsNotNull( this->animation->_animations->get((HX_("idle",14,a7,b3,45) + this->idleSuffix)) )) {
-HXLINE( 312)					this->playAnim((HX_("idle",14,a7,b3,45) + this->idleSuffix),null(),null(),null());
+HXLINE( 316)				if (::hx::IsNotNull( this->animation->_animations->get((HX_("idle",14,a7,b3,45) + this->idleSuffix)) )) {
+HXLINE( 317)					this->playAnim((HX_("idle",14,a7,b3,45) + this->idleSuffix),null(),null(),null());
             				}
             			}
             		}
@@ -497,34 +497,34 @@ void Character_obj::playAnim(::String AnimName,::hx::Null< bool >  __o_Force,::h
             		bool Force = __o_Force.Default(false);
             		bool Reversed = __o_Reversed.Default(false);
             		int Frame = __o_Frame.Default(0);
-            	HX_STACKFRAME(&_hx_pos_ae240c01d039da8e_318_playAnim)
-HXLINE( 319)		this->specialAnim = false;
-HXLINE( 320)		this->animation->play(AnimName,Force,Reversed,Frame);
-HXLINE( 322)		::cpp::VirtualArray daOffset = ( (::cpp::VirtualArray)(this->animOffsets->get(AnimName)) );
-HXLINE( 323)		if (this->animOffsets->exists(AnimName)) {
-HXLINE( 325)			this->offset->set(daOffset->__get(0),daOffset->__get(1));
+            	HX_STACKFRAME(&_hx_pos_ae240c01d039da8e_323_playAnim)
+HXLINE( 324)		this->specialAnim = false;
+HXLINE( 325)		this->animation->play(AnimName,Force,Reversed,Frame);
+HXLINE( 327)		::cpp::VirtualArray daOffset = ( (::cpp::VirtualArray)(this->animOffsets->get(AnimName)) );
+HXLINE( 328)		if (this->animOffsets->exists(AnimName)) {
+HXLINE( 330)			this->offset->set(daOffset->__get(0),daOffset->__get(1));
             		}
             		else {
-HXLINE( 328)			this->offset->set(0,0);
+HXLINE( 333)			this->offset->set(0,0);
             		}
-HXLINE( 330)		if (::StringTools_obj::startsWith(this->curCharacter,HX_("gf",1f,5a,00,00))) {
-HXLINE( 332)			if ((AnimName == HX_("singLEFT",d6,39,ef,3b))) {
-HXLINE( 334)				this->danced = true;
+HXLINE( 335)		if (::StringTools_obj::startsWith(this->curCharacter,HX_("gf",1f,5a,00,00))) {
+HXLINE( 337)			if ((AnimName == HX_("singLEFT",d6,39,ef,3b))) {
+HXLINE( 339)				this->danced = true;
             			}
             			else {
-HXLINE( 336)				if ((AnimName == HX_("singRIGHT",0d,6f,70,ac))) {
-HXLINE( 338)					this->danced = false;
+HXLINE( 341)				if ((AnimName == HX_("singRIGHT",0d,6f,70,ac))) {
+HXLINE( 343)					this->danced = false;
             				}
             			}
-HXLINE( 341)			bool _hx_tmp;
-HXDLIN( 341)			if ((AnimName != HX_("singUP",6a,52,21,b9))) {
-HXLINE( 341)				_hx_tmp = (AnimName == HX_("singDOWN",31,2a,ad,36));
+HXLINE( 346)			bool _hx_tmp;
+HXDLIN( 346)			if ((AnimName != HX_("singUP",6a,52,21,b9))) {
+HXLINE( 346)				_hx_tmp = (AnimName == HX_("singDOWN",31,2a,ad,36));
             			}
             			else {
-HXLINE( 341)				_hx_tmp = true;
+HXLINE( 346)				_hx_tmp = true;
             			}
-HXDLIN( 341)			if (_hx_tmp) {
-HXLINE( 343)				this->danced = !(this->danced);
+HXDLIN( 346)			if (_hx_tmp) {
+HXLINE( 348)				this->danced = !(this->danced);
             			}
             		}
             	}
@@ -533,39 +533,39 @@ HXLINE( 343)				this->danced = !(this->danced);
 HX_DEFINE_DYNAMIC_FUNC4(Character_obj,playAnim,(void))
 
 void Character_obj::recalculateDanceIdle(){
-            	HX_STACKFRAME(&_hx_pos_ae240c01d039da8e_350_recalculateDanceIdle)
-HXLINE( 351)		bool lastDanceIdle = this->danceIdle;
-HXLINE( 352)		bool _hx_tmp;
-HXDLIN( 352)		if (::hx::IsNotNull( this->animation->_animations->get((HX_("danceLeft",da,cc,f9,df) + this->idleSuffix)) )) {
-HXLINE( 352)			_hx_tmp = ::hx::IsNotNull( this->animation->_animations->get((HX_("danceRight",a9,7f,a6,91) + this->idleSuffix)) );
+            	HX_STACKFRAME(&_hx_pos_ae240c01d039da8e_355_recalculateDanceIdle)
+HXLINE( 356)		bool lastDanceIdle = this->danceIdle;
+HXLINE( 357)		bool _hx_tmp;
+HXDLIN( 357)		if (::hx::IsNotNull( this->animation->_animations->get((HX_("danceLeft",da,cc,f9,df) + this->idleSuffix)) )) {
+HXLINE( 357)			_hx_tmp = ::hx::IsNotNull( this->animation->_animations->get((HX_("danceRight",a9,7f,a6,91) + this->idleSuffix)) );
             		}
             		else {
-HXLINE( 352)			_hx_tmp = false;
+HXLINE( 357)			_hx_tmp = false;
             		}
-HXDLIN( 352)		this->danceIdle = _hx_tmp;
-HXLINE( 354)		if (this->settingCharacterUp) {
-HXLINE( 356)			int _hx_tmp;
-HXDLIN( 356)			if (this->danceIdle) {
-HXLINE( 356)				_hx_tmp = 1;
+HXDLIN( 357)		this->danceIdle = _hx_tmp;
+HXLINE( 359)		if (this->settingCharacterUp) {
+HXLINE( 361)			int _hx_tmp;
+HXDLIN( 361)			if (this->danceIdle) {
+HXLINE( 361)				_hx_tmp = 1;
             			}
             			else {
-HXLINE( 356)				_hx_tmp = 2;
+HXLINE( 361)				_hx_tmp = 2;
             			}
-HXDLIN( 356)			this->danceEveryNumBeats = _hx_tmp;
+HXDLIN( 361)			this->danceEveryNumBeats = _hx_tmp;
             		}
             		else {
-HXLINE( 358)			if ((lastDanceIdle != this->danceIdle)) {
-HXLINE( 360)				Float calc = ( (Float)(this->danceEveryNumBeats) );
-HXLINE( 361)				if (this->danceIdle) {
-HXLINE( 362)					calc = (calc / ( (Float)(2) ));
+HXLINE( 363)			if ((lastDanceIdle != this->danceIdle)) {
+HXLINE( 365)				Float calc = ( (Float)(this->danceEveryNumBeats) );
+HXLINE( 366)				if (this->danceIdle) {
+HXLINE( 367)					calc = (calc / ( (Float)(2) ));
             				}
             				else {
-HXLINE( 364)					calc = (calc * ( (Float)(2) ));
+HXLINE( 369)					calc = (calc * ( (Float)(2) ));
             				}
-HXLINE( 366)				this->danceEveryNumBeats = ::Math_obj::round(::Math_obj::max(calc,( (Float)(1) )));
+HXLINE( 371)				this->danceEveryNumBeats = ::Math_obj::round(::Math_obj::max(calc,( (Float)(1) )));
             			}
             		}
-HXLINE( 368)		this->settingCharacterUp = false;
+HXLINE( 373)		this->settingCharacterUp = false;
             	}
 
 
@@ -574,17 +574,17 @@ HX_DEFINE_DYNAMIC_FUNC0(Character_obj,recalculateDanceIdle,(void))
 void Character_obj::addOffset(::String name,::hx::Null< Float >  __o_x,::hx::Null< Float >  __o_y){
             		Float x = __o_x.Default(0);
             		Float y = __o_y.Default(0);
-            	HX_STACKFRAME(&_hx_pos_ae240c01d039da8e_373_addOffset)
-HXDLIN( 373)		::cpp::VirtualArray v = ::Array_obj< Float >::__new(2)->init(0,x)->init(1,y);
-HXDLIN( 373)		this->animOffsets->set(name,v);
+            	HX_STACKFRAME(&_hx_pos_ae240c01d039da8e_378_addOffset)
+HXDLIN( 378)		::cpp::VirtualArray v = ::Array_obj< Float >::__new(2)->init(0,x)->init(1,y);
+HXDLIN( 378)		this->animOffsets->set(name,v);
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC3(Character_obj,addOffset,(void))
 
 void Character_obj::quickAnimAdd(::String name,::String anim){
-            	HX_STACKFRAME(&_hx_pos_ae240c01d039da8e_378_quickAnimAdd)
-HXDLIN( 378)		this->animation->addByPrefix(name,anim,24,false,null(),null());
+            	HX_STACKFRAME(&_hx_pos_ae240c01d039da8e_383_quickAnimAdd)
+HXDLIN( 383)		this->animation->addByPrefix(name,anim,24,false,null(),null());
             	}
 
 

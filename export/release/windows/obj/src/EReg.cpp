@@ -218,9 +218,6 @@ HXDLIN( 122)						p = _hx_regexp_matched_pos(p1,(::Std_obj::_hx_int(( (Float)(c)
             						if (_hx_e.IsClass<  ::Dynamic >() ){
             							HX_STACK_BEGIN_CATCH
             							 ::Dynamic _g = _hx_e;
-HXLINE(   1)							{
-HXLINE(   1)								null();
-            							}
 HXLINE( 122)							if (::Std_obj::isOfType(::haxe::Exception_obj::caught(_g)->unwrap(),::hx::ClassOf< ::String >())) {
 HXLINE( 122)								p = null();
             							}

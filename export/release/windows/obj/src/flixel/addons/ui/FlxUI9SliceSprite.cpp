@@ -520,7 +520,7 @@ HXDLIN( 334)					rect->_inPool = false;
 HXDLIN( 334)					( ( ::haxe::ds::StringMap)(this1) )->set(HX_("top.left",80,54,c1,7e),rect);
             				}
 HXLINE( 335)				{
-HXLINE( 335)					::Dynamic this2 = ::flixel::addons::ui::FlxUI9SliceSprite_obj::_staticRects;
+HXLINE( 335)					::Dynamic this11 = ::flixel::addons::ui::FlxUI9SliceSprite_obj::_staticRects;
 HXDLIN( 335)					 ::flixel::math::FlxRect _this1 = ::flixel::math::FlxRect_obj::_pool->get();
 HXDLIN( 335)					_this1->x = ( (Float)(0) );
 HXDLIN( 335)					_this1->y = ( (Float)(0) );
@@ -528,10 +528,10 @@ HXDLIN( 335)					_this1->width = ( (Float)(0) );
 HXDLIN( 335)					_this1->height = ( (Float)(0) );
 HXDLIN( 335)					 ::flixel::math::FlxRect rect1 = _this1;
 HXDLIN( 335)					rect1->_inPool = false;
-HXDLIN( 335)					( ( ::haxe::ds::StringMap)(this2) )->set(HX_("top",95,66,58,00),rect1);
+HXDLIN( 335)					( ( ::haxe::ds::StringMap)(this11) )->set(HX_("top",95,66,58,00),rect1);
             				}
 HXLINE( 336)				{
-HXLINE( 336)					::Dynamic this3 = ::flixel::addons::ui::FlxUI9SliceSprite_obj::_staticRects;
+HXLINE( 336)					::Dynamic this12 = ::flixel::addons::ui::FlxUI9SliceSprite_obj::_staticRects;
 HXDLIN( 336)					 ::flixel::math::FlxRect _this2 = ::flixel::math::FlxRect_obj::_pool->get();
 HXDLIN( 336)					_this2->x = ( (Float)(0) );
 HXDLIN( 336)					_this2->y = ( (Float)(0) );
@@ -539,10 +539,10 @@ HXDLIN( 336)					_this2->width = ( (Float)(0) );
 HXDLIN( 336)					_this2->height = ( (Float)(0) );
 HXDLIN( 336)					 ::flixel::math::FlxRect rect2 = _this2;
 HXDLIN( 336)					rect2->_inPool = false;
-HXDLIN( 336)					( ( ::haxe::ds::StringMap)(this3) )->set(HX_("top.right",43,a9,75,e1),rect2);
+HXDLIN( 336)					( ( ::haxe::ds::StringMap)(this12) )->set(HX_("top.right",43,a9,75,e1),rect2);
             				}
 HXLINE( 337)				{
-HXLINE( 337)					::Dynamic this4 = ::flixel::addons::ui::FlxUI9SliceSprite_obj::_staticRects;
+HXLINE( 337)					::Dynamic this13 = ::flixel::addons::ui::FlxUI9SliceSprite_obj::_staticRects;
 HXDLIN( 337)					 ::flixel::math::FlxRect _this3 = ::flixel::math::FlxRect_obj::_pool->get();
 HXDLIN( 337)					_this3->x = ( (Float)(0) );
 HXDLIN( 337)					_this3->y = ( (Float)(0) );
@@ -550,10 +550,10 @@ HXDLIN( 337)					_this3->width = ( (Float)(0) );
 HXDLIN( 337)					_this3->height = ( (Float)(0) );
 HXDLIN( 337)					 ::flixel::math::FlxRect rect3 = _this3;
 HXDLIN( 337)					rect3->_inPool = false;
-HXDLIN( 337)					( ( ::haxe::ds::StringMap)(this4) )->set(HX_("left",07,08,b0,47),rect3);
+HXDLIN( 337)					( ( ::haxe::ds::StringMap)(this13) )->set(HX_("left",07,08,b0,47),rect3);
             				}
 HXLINE( 338)				{
-HXLINE( 338)					::Dynamic this5 = ::flixel::addons::ui::FlxUI9SliceSprite_obj::_staticRects;
+HXLINE( 338)					::Dynamic this14 = ::flixel::addons::ui::FlxUI9SliceSprite_obj::_staticRects;
 HXDLIN( 338)					 ::flixel::math::FlxRect _this4 = ::flixel::math::FlxRect_obj::_pool->get();
 HXDLIN( 338)					_this4->x = ( (Float)(0) );
 HXDLIN( 338)					_this4->y = ( (Float)(0) );
@@ -561,10 +561,10 @@ HXDLIN( 338)					_this4->width = ( (Float)(0) );
 HXDLIN( 338)					_this4->height = ( (Float)(0) );
 HXDLIN( 338)					 ::flixel::math::FlxRect rect4 = _this4;
 HXDLIN( 338)					rect4->_inPool = false;
-HXDLIN( 338)					( ( ::haxe::ds::StringMap)(this5) )->set(HX_("middle",55,d3,5e,4c),rect4);
+HXDLIN( 338)					( ( ::haxe::ds::StringMap)(this14) )->set(HX_("middle",55,d3,5e,4c),rect4);
             				}
 HXLINE( 339)				{
-HXLINE( 339)					::Dynamic this6 = ::flixel::addons::ui::FlxUI9SliceSprite_obj::_staticRects;
+HXLINE( 339)					::Dynamic this15 = ::flixel::addons::ui::FlxUI9SliceSprite_obj::_staticRects;
 HXDLIN( 339)					 ::flixel::math::FlxRect _this5 = ::flixel::math::FlxRect_obj::_pool->get();
 HXDLIN( 339)					_this5->x = ( (Float)(0) );
 HXDLIN( 339)					_this5->y = ( (Float)(0) );
@@ -572,10 +572,10 @@ HXDLIN( 339)					_this5->width = ( (Float)(0) );
 HXDLIN( 339)					_this5->height = ( (Float)(0) );
 HXDLIN( 339)					 ::flixel::math::FlxRect rect5 = _this5;
 HXDLIN( 339)					rect5->_inPool = false;
-HXDLIN( 339)					( ( ::haxe::ds::StringMap)(this6) )->set(HX_("right",dc,0b,64,e9),rect5);
+HXDLIN( 339)					( ( ::haxe::ds::StringMap)(this15) )->set(HX_("right",dc,0b,64,e9),rect5);
             				}
 HXLINE( 340)				{
-HXLINE( 340)					::Dynamic this7 = ::flixel::addons::ui::FlxUI9SliceSprite_obj::_staticRects;
+HXLINE( 340)					::Dynamic this16 = ::flixel::addons::ui::FlxUI9SliceSprite_obj::_staticRects;
 HXDLIN( 340)					 ::flixel::math::FlxRect _this6 = ::flixel::math::FlxRect_obj::_pool->get();
 HXDLIN( 340)					_this6->x = ( (Float)(0) );
 HXDLIN( 340)					_this6->y = ( (Float)(0) );
@@ -583,10 +583,10 @@ HXDLIN( 340)					_this6->width = ( (Float)(0) );
 HXDLIN( 340)					_this6->height = ( (Float)(0) );
 HXDLIN( 340)					 ::flixel::math::FlxRect rect6 = _this6;
 HXDLIN( 340)					rect6->_inPool = false;
-HXDLIN( 340)					( ( ::haxe::ds::StringMap)(this7) )->set(HX_("bottom.left",6a,dc,81,96),rect6);
+HXDLIN( 340)					( ( ::haxe::ds::StringMap)(this16) )->set(HX_("bottom.left",6a,dc,81,96),rect6);
             				}
 HXLINE( 341)				{
-HXLINE( 341)					::Dynamic this8 = ::flixel::addons::ui::FlxUI9SliceSprite_obj::_staticRects;
+HXLINE( 341)					::Dynamic this17 = ::flixel::addons::ui::FlxUI9SliceSprite_obj::_staticRects;
 HXDLIN( 341)					 ::flixel::math::FlxRect _this7 = ::flixel::math::FlxRect_obj::_pool->get();
 HXDLIN( 341)					_this7->x = ( (Float)(0) );
 HXDLIN( 341)					_this7->y = ( (Float)(0) );
@@ -594,10 +594,10 @@ HXDLIN( 341)					_this7->width = ( (Float)(0) );
 HXDLIN( 341)					_this7->height = ( (Float)(0) );
 HXDLIN( 341)					 ::flixel::math::FlxRect rect7 = _this7;
 HXDLIN( 341)					rect7->_inPool = false;
-HXDLIN( 341)					( ( ::haxe::ds::StringMap)(this8) )->set(HX_("bottom",eb,e6,78,65),rect7);
+HXDLIN( 341)					( ( ::haxe::ds::StringMap)(this17) )->set(HX_("bottom",eb,e6,78,65),rect7);
             				}
 HXLINE( 342)				{
-HXLINE( 342)					::Dynamic this9 = ::flixel::addons::ui::FlxUI9SliceSprite_obj::_staticRects;
+HXLINE( 342)					::Dynamic this18 = ::flixel::addons::ui::FlxUI9SliceSprite_obj::_staticRects;
 HXDLIN( 342)					 ::flixel::math::FlxRect _this8 = ::flixel::math::FlxRect_obj::_pool->get();
 HXDLIN( 342)					_this8->x = ( (Float)(0) );
 HXDLIN( 342)					_this8->y = ( (Float)(0) );
@@ -605,7 +605,7 @@ HXDLIN( 342)					_this8->width = ( (Float)(0) );
 HXDLIN( 342)					_this8->height = ( (Float)(0) );
 HXDLIN( 342)					 ::flixel::math::FlxRect rect8 = _this8;
 HXDLIN( 342)					rect8->_inPool = false;
-HXDLIN( 342)					( ( ::haxe::ds::StringMap)(this9) )->set(HX_("bottom.right",19,0e,2c,92),rect8);
+HXDLIN( 342)					( ( ::haxe::ds::StringMap)(this18) )->set(HX_("bottom.right",19,0e,2c,92),rect8);
             				}
             			}
 HXLINE( 345)			{

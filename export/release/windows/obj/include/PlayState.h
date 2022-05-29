@@ -218,6 +218,7 @@ class HXCPP_CLASS_ATTRIBUTES PlayState_obj : public  ::MusicBeatState_obj
 		 ::flixel::text::FlxText timeTxt;
 		 ::flixel::tweens::FlxTween scoreTxtTween;
 		Float defaultCamZoom;
+		Float zoomHelper;
 		::Array< ::String > singAnimations;
 		bool inCutscene;
 		bool skipCountdown;
@@ -240,6 +241,8 @@ class HXCPP_CLASS_ATTRIBUTES PlayState_obj : public  ::MusicBeatState_obj
 		int stabcounter;
 		bool missedStab;
 		bool isStabbing;
+		 ::BGSprite liminalHill;
+		 ::BGSprite liminalHell;
 		void create();
 
 		Float set_songSpeed(Float value);
@@ -273,6 +276,9 @@ class HXCPP_CLASS_ATTRIBUTES PlayState_obj : public  ::MusicBeatState_obj
 
 		void schoolIntro( ::DialogueBox dialogueBox);
 		::Dynamic schoolIntro_dyn();
+
+		void stabPlayer();
+		::Dynamic stabPlayer_dyn();
 
 		void cuzIntros( ::DialogueBox dialogueBox);
 		::Dynamic cuzIntros_dyn();
@@ -367,6 +373,9 @@ class HXCPP_CLASS_ATTRIBUTES PlayState_obj : public  ::MusicBeatState_obj
 
 		void tweenCamIn();
 		::Dynamic tweenCamIn_dyn();
+
+		void customCamZoom(Float target,::String motionData);
+		::Dynamic customCamZoom_dyn();
 
 		void snapCamFollowToPos(Float x,Float y);
 		::Dynamic snapCamFollowToPos_dyn();

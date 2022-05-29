@@ -115,7 +115,7 @@ void FlxPool_flixel_effects_FlxFlicker_obj::preAllocate(int numObjects){
             	HX_STACKFRAME(&_hx_pos_dc7d302d1976d073_65_preAllocate)
 HXDLIN(  65)		while(true){
 HXDLIN(  65)			numObjects = (numObjects - 1);
-HXDLIN(  65)			if (!(((numObjects + 1) > 0))) {
+HXDLIN(  65)			if (((numObjects + 1) <= 0)) {
 HXDLIN(  65)				goto _hx_goto_4;
             			}
 HXLINE(  67)			this->_pool[this->_count++] = ( ( ::flixel::effects::FlxFlicker)(::Type_obj::createInstance(this->_class,::cpp::VirtualArray_obj::__new(0))) );

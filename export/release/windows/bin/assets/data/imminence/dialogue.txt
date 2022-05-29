@@ -1,0 +1,6 @@
+:SCENE:8
+:GF:l:Pleased:Nice.
+:Cuz:l:Pout:Urgh. I forgot how good you are at this.
+:BF:r:Knowitall:Wouldn't've challendged you if I thought I'd lose!
+:Cuz:l:Angry:Just shut up and start the next song!
+:Cuz:l:Enraged:I'm not gonna fail this time.

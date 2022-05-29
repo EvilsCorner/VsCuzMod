@@ -121,7 +121,7 @@ void FlxPool_flixel_util_LabelValuePair_obj::preAllocate(int numObjects){
             	HX_STACKFRAME(&_hx_pos_a10ee8e234039862_65_preAllocate)
 HXDLIN(  65)		while(true){
 HXDLIN(  65)			numObjects = (numObjects - 1);
-HXDLIN(  65)			if (!(((numObjects + 1) > 0))) {
+HXDLIN(  65)			if (((numObjects + 1) <= 0)) {
 HXDLIN(  65)				goto _hx_goto_4;
             			}
 HXLINE(  67)			this->_pool[this->_count++] = ( ( ::flixel::util::LabelValuePair)(::Type_obj::createInstance(this->_class,::cpp::VirtualArray_obj::__new(0))) );

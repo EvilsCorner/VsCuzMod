@@ -747,7 +747,7 @@ class PlayState extends MusicBeatState
 				shadeOverlay.visible = false;
 
 				var grid:BGSprite = new BGSprite('downtown/superGrid', 0, 0,1,1);
-				//add(grid);
+				add(grid);
 				grid.alpha = 0.5; 
 
 				/*

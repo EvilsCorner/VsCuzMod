@@ -57,7 +57,10 @@ HXLINE(  38)			_hx_std_file_write_char(this->_hx___f,c);
             			if (_hx_e.IsClass<  ::Dynamic >() ){
             				HX_STACK_BEGIN_CATCH
             				 ::Dynamic _g = _hx_e;
-HXLINE(   1)				 ::Dynamic e = ::haxe::Exception_obj::caught(_g)->unwrap();
+HXLINE(   1)				{
+HXLINE(   1)					null();
+            				}
+HXDLIN(   1)				 ::Dynamic e = ::haxe::Exception_obj::caught(_g)->unwrap();
 HXLINE(  40)				HX_STACK_DO_THROW(::haxe::Exception_obj::thrown(::haxe::io::Error_obj::Custom(e)));
             			}
             			else {
@@ -76,7 +79,10 @@ HXDLIN(  44)			return _hx_std_file_write(this->_hx___f,s->b,p,l);
             			if (_hx_e.IsClass<  ::Dynamic >() ){
             				HX_STACK_BEGIN_CATCH
             				 ::Dynamic _g = _hx_e;
-HXLINE(   1)				 ::Dynamic e = ::haxe::Exception_obj::caught(_g)->unwrap();
+HXLINE(   1)				{
+HXLINE(   1)					null();
+            				}
+HXDLIN(   1)				 ::Dynamic e = ::haxe::Exception_obj::caught(_g)->unwrap();
 HXLINE(  44)				HX_STACK_DO_THROW(::haxe::Exception_obj::thrown(::haxe::io::Error_obj::Custom(e)));
             			}
             			else {

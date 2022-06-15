@@ -60,7 +60,10 @@ HXLINE(  38)			return _hx_std_file_read_char(this->_hx___f);
             			if (_hx_e.IsClass<  ::Dynamic >() ){
             				HX_STACK_BEGIN_CATCH
             				 ::Dynamic _g = _hx_e;
-HXLINE(   1)				 ::Dynamic e = ::haxe::Exception_obj::caught(_g)->unwrap();
+HXLINE(   1)				{
+HXLINE(   1)					null();
+            				}
+HXDLIN(   1)				 ::Dynamic e = ::haxe::Exception_obj::caught(_g)->unwrap();
 HXLINE(  40)				if (( (bool)(e->__IsArray()) )) {
 HXLINE(  41)					HX_STACK_DO_THROW(::haxe::Exception_obj::thrown( ::haxe::io::Eof_obj::__alloc( HX_CTX )));
             				}
@@ -85,7 +88,10 @@ HXLINE(  49)			return _hx_std_file_read(this->_hx___f,s->b,p,l);
             			if (_hx_e.IsClass<  ::Dynamic >() ){
             				HX_STACK_BEGIN_CATCH
             				 ::Dynamic _g = _hx_e;
-HXLINE(   1)				 ::Dynamic e = ::haxe::Exception_obj::caught(_g)->unwrap();
+HXLINE(   1)				{
+HXLINE(   1)					null();
+            				}
+HXDLIN(   1)				 ::Dynamic e = ::haxe::Exception_obj::caught(_g)->unwrap();
 HXLINE(  51)				if (( (bool)(e->__IsArray()) )) {
 HXLINE(  52)					HX_STACK_DO_THROW(::haxe::Exception_obj::thrown( ::haxe::io::Eof_obj::__alloc( HX_CTX )));
             				}

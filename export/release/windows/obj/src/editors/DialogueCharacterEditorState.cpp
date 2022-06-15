@@ -394,10 +394,10 @@ HXLINE(  82)		Float Alpha = ( (Float)(1) );
 HXDLIN(  82)		int color = ::flixel::util::_FlxColor::FlxColor_Impl__obj::_new(null());
 HXDLIN(  82)		Float chroma = ((( (Float)(1) ) - ::Math_obj::abs(((Float)0.))) * ( (Float)(0) ));
 HXDLIN(  82)		Float match = (((Float)0.5) - (chroma / ( (Float)(2) )));
-HXDLIN(  82)		Float Hue1 = ( (Float)(0) );
+HXDLIN(  82)		Float Hue = ( (Float)(0) );
 HXDLIN(  82)		Float Chroma = chroma;
-HXDLIN(  82)		Hue1 = ::hx::Mod(Hue1,360);
-HXDLIN(  82)		Float hueD = (Hue1 / ( (Float)(60) ));
+HXDLIN(  82)		Hue = ::hx::Mod(Hue,360);
+HXDLIN(  82)		Float hueD = (Hue / ( (Float)(60) ));
 HXDLIN(  82)		Float mid = ((Chroma * (( (Float)(1) ) - ::Math_obj::abs((::hx::Mod(hueD,2) - ( (Float)(1) ))))) + match);
 HXDLIN(  82)		Chroma = (Chroma + match);
 HXDLIN(  82)		switch((int)(::Std_obj::_hx_int(hueD))){

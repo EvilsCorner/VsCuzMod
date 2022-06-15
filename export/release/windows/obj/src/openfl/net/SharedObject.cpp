@@ -144,6 +144,9 @@ HXLINE( 342)				::sys::FileSystem_obj::deleteFile(path);
             			if (_hx_e.IsClass<  ::Dynamic >() ){
             				HX_STACK_BEGIN_CATCH
             				 ::Dynamic _g = _hx_e;
+HXLINE(   1)				{
+HXLINE(   1)					null();
+            				}
             			}
             			else {
             				HX_STACK_DO_THROW(_hx_e);
@@ -190,6 +193,9 @@ HXLINE( 484)			output->close();
             			if (_hx_e.IsClass<  ::Dynamic >() ){
             				HX_STACK_BEGIN_CATCH
             				 ::Dynamic _g = _hx_e;
+HXLINE(   1)				{
+HXLINE(   1)					null();
+            				}
 HXLINE( 489)				return 1;
             			}
             			else {
@@ -237,6 +243,9 @@ HXLINE(1013)			return ::haxe::io::Bytes_obj::ofString(d,null())->length;
             			if (_hx_e.IsClass<  ::Dynamic >() ){
             				HX_STACK_BEGIN_CATCH
             				 ::Dynamic _g = _hx_e;
+HXLINE(   1)				{
+HXLINE(   1)					null();
+            				}
 HXLINE(1017)				return 0;
             			}
             			else {
@@ -305,6 +314,9 @@ HXLINE( 713)					encodedData = ::sys::io::File_obj::getContent(path);
             				if (_hx_e.IsClass<  ::Dynamic >() ){
             					HX_STACK_BEGIN_CATCH
             					 ::Dynamic _g = _hx_e;
+HXLINE(   1)					{
+HXLINE(   1)						null();
+            					}
             				}
             				else {
             					HX_STACK_DO_THROW(_hx_e);
@@ -333,6 +345,9 @@ HXLINE( 730)					sharedObject->data = unserializer->unserialize();
             					if (_hx_e.IsClass<  ::Dynamic >() ){
             						HX_STACK_BEGIN_CATCH
             						 ::Dynamic _g = _hx_e;
+HXLINE(   1)						{
+HXLINE(   1)							null();
+            						}
             					}
             					else {
             						HX_STACK_DO_THROW(_hx_e);

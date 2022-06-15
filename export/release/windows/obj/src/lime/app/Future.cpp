@@ -66,7 +66,10 @@ HXLINE(  90)					this->isComplete = true;
             					if (_hx_e.IsClass<  ::Dynamic >() ){
             						HX_STACK_BEGIN_CATCH
             						 ::Dynamic _g = _hx_e;
-HXLINE(   1)						 ::Dynamic e = ::haxe::Exception_obj::caught(_g)->unwrap();
+HXLINE(   1)						{
+HXLINE(   1)							null();
+            						}
+HXDLIN(   1)						 ::Dynamic e = ::haxe::Exception_obj::caught(_g)->unwrap();
 HXLINE(  93)						{
 HXLINE(  94)							this->error = e;
 HXLINE(  95)							this->isError = true;

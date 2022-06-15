@@ -229,7 +229,10 @@ HXLINE( 154)					data = ( ( ::Xml)(::flixel::addons::ui::U_obj::xml(this->_xml_i
             					if (_hx_e.IsClass<  ::Dynamic >() ){
             						HX_STACK_BEGIN_CATCH
             						 ::Dynamic _g = _hx_e;
-HXLINE(   1)						 ::Dynamic _g1 = ::haxe::Exception_obj::caught(_g)->unwrap();
+HXLINE(   1)						{
+HXLINE(   1)							null();
+            						}
+HXDLIN(   1)						 ::Dynamic _g1 = ::haxe::Exception_obj::caught(_g)->unwrap();
 HXLINE( 152)						if (::Std_obj::isOfType(_g1,::hx::ClassOf< ::String >())) {
 HXLINE(   1)							::String msg = ( (::String)(_g1) );
 HXLINE( 158)							errorMsg = msg;
@@ -250,7 +253,10 @@ HXLINE( 164)						data = ( ( ::Xml)(::flixel::addons::ui::U_obj::xml(this->_xml_
             						if (_hx_e.IsClass<  ::Dynamic >() ){
             							HX_STACK_BEGIN_CATCH
             							 ::Dynamic _g = _hx_e;
-HXLINE(   1)							 ::Dynamic _g1 = ::haxe::Exception_obj::caught(_g)->unwrap();
+HXLINE(   1)							{
+HXLINE(   1)								null();
+            							}
+HXDLIN(   1)							 ::Dynamic _g1 = ::haxe::Exception_obj::caught(_g)->unwrap();
 HXLINE( 162)							if (::Std_obj::isOfType(_g1,::hx::ClassOf< ::String >())) {
 HXLINE(   1)								::String msg2 = ( (::String)(_g1) );
 HXLINE( 168)								errorMsg = (errorMsg + (HX_(", ",74,26,00,00) + msg2));

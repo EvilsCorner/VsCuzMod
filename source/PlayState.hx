@@ -1741,6 +1741,14 @@ class PlayState extends MusicBeatState
 			} else {
 				if ((dialogueBox != null))
 				{
+					var black:FlxSprite = new FlxSprite(-700, -700).makeGraphic(FlxG.width * 3, FlxG.height * 3, FlxColor.BLACK);
+					black.scrollFactor.set();
+					add(black);
+					new FlxTimer().start(1, function(timer) 
+						{
+						remove(black);
+						}
+					);
 					inCutscene = true;
 					add(dialogueBox);
 				} else {
@@ -2600,9 +2608,9 @@ class PlayState extends MusicBeatState
 		super.update(elapsed);
 
 		if(ratingName == '?') {
-			scoreTxt.text = 'Score: ' + songScore + ' | Misses: ' + songMisses + ' | Rating: ' + ratingName + ' | Health: ' + health;
+			scoreTxt.text = 'Score: ' + songScore + ' | Misses: ' + songMisses + ' | Rating: ' + ratingName; // + ' | Health: ' + health;
 		} else {
-			scoreTxt.text = 'Score: ' + songScore + ' | Misses: ' + songMisses + ' | Rating: ' + ratingName + ' (' + Highscore.floorDecimal(ratingPercent * 100, 2) + '%)' + ' - ' + ratingFC + ' | Health: ' + health;//peeps wanted no integer rating
+			scoreTxt.text = 'Score: ' + songScore + ' | Misses: ' + songMisses + ' | Rating: ' + ratingName + ' (' + Highscore.floorDecimal(ratingPercent * 100, 2) + '%)' + ' - ' + ratingFC; // + ' | Health: ' + health;//peeps wanted no integer rating
 		}
 
 		if(botplayTxt.visible) {
@@ -4091,6 +4099,8 @@ class PlayState extends MusicBeatState
 				});
 			}
 		}
+
+		gf.playAnim('sad', true);
 
 		health -= daNote.missHealth * healthLoss;
 		if(instakillOnMiss)

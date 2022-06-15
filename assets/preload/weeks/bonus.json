@@ -1,6 +1,6 @@
 {
 	"songs": [
-		["Exertion", "gf", [0, 255, 0]]
+		["Exertion", "cuz", [0, 255, 0]]
 	],
 
 	"weekCharacters": [
@@ -13,7 +13,7 @@
 	"storyName": "CRASH WRITE SOME DIALOGUE HERE",
 	"weekBefore": "weekCuz",
 	"weekName": "Bonus",
-	"startUnlocked": true,
+	"startUnlocked": false,
 
 	"hideStoryMode": false,
 	"hideFreeplay": false

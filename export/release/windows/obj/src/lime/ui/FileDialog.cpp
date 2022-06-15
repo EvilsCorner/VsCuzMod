@@ -190,6 +190,9 @@ HXLINE( 142)					return;
             					if (_hx_e.IsClass<  ::Dynamic >() ){
             						HX_STACK_BEGIN_CATCH
             						 ::Dynamic _g = _hx_e;
+HXLINE(   1)						{
+HXLINE(   1)							null();
+            						}
             					}
             					else {
             						HX_STACK_DO_THROW(_hx_e);
@@ -234,6 +237,9 @@ HXLINE( 187)					return;
             					if (_hx_e.IsClass<  ::Dynamic >() ){
             						HX_STACK_BEGIN_CATCH
             						 ::Dynamic _g = _hx_e;
+HXLINE(   1)						{
+HXLINE(   1)							null();
+            						}
             					}
             					else {
             						HX_STACK_DO_THROW(_hx_e);

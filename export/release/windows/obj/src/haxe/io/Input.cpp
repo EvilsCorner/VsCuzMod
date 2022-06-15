@@ -97,6 +97,9 @@ HXLINE(  81)				k = (k - 1);
             			if (_hx_e.IsClass<  ::Dynamic >() ){
             				HX_STACK_BEGIN_CATCH
             				 ::Dynamic _g = _hx_e;
+HXLINE(   1)				{
+HXLINE(   1)					null();
+            				}
 HXLINE(  69)				if (!(::Std_obj::isOfType(::haxe::Exception_obj::caught(_g)->unwrap(),::hx::ClassOf< ::haxe::io::Eof >()))) {
 HXLINE(  69)					HX_STACK_DO_THROW(_g);
             				}
@@ -174,7 +177,10 @@ HXLINE( 185)				s = s.substr(0,-1);
             			if (_hx_e.IsClass<  ::Dynamic >() ){
             				HX_STACK_BEGIN_CATCH
             				 ::Dynamic _g = _hx_e;
-HXLINE(   1)				 ::Dynamic _g1 = ::haxe::Exception_obj::caught(_g)->unwrap();
+HXLINE(   1)				{
+HXLINE(   1)					null();
+            				}
+HXDLIN(   1)				 ::Dynamic _g1 = ::haxe::Exception_obj::caught(_g)->unwrap();
 HXLINE( 180)				if (::Std_obj::isOfType(_g1,::hx::ClassOf< ::haxe::io::Eof >())) {
 HXLINE(   1)					 ::haxe::io::Eof e = ( ( ::haxe::io::Eof)(_g1) );
 HXLINE( 186)					{

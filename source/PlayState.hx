@@ -219,12 +219,25 @@ class PlayState extends MusicBeatState
 	var wiggleShit:WiggleEffect = new WiggleEffect();
 	var bgGhouls:BGSprite;
 
-	var downtownWindows:FlxTypedGroup<BGSprite>;
-
 	// cuz
+	var downtownWindows:FlxTypedGroup<BGSprite>;
 	var shadeOverlay:BGSprite;
 	var streetlight:BGSprite;
 	var frontBushes:BGSprite;
+	private static var curWindow:Int = 0;
+	private static var lastWindow:Int = 0;
+
+	//liminal cuz
+	var liminalSkyNorm:BGSprite;
+	var liminalHillNorm:BGSprite;
+	var liminalGroundNorm:BGSprite;
+
+	var liminalSkyHell:BGSprite;
+	var liminalHillHell:BGSprite;
+	var liminalGroundHell:BGSprite;
+	var liminalForegroundHell:BGSprite;
+	var liminalBenchHell:BGSprite;
+
 
 	public var songScore:Int = 0;
 	public var songHits:Int = 0;
@@ -734,6 +747,20 @@ class PlayState extends MusicBeatState
 				var windowTemp:BGSprite = new BGSprite('downtown/Win0', px, py, 0.5, 1);
 				add(windowTemp);
 
+				downtownWindows = new FlxTypedGroup<BGSprite>();
+				add(downtownWindows);
+
+				for (i in 0...5)
+					{
+						var windows:BGSprite = new BGSprite('downtown/Win' + i, px, py, 0.5, 1);
+						//skip first window so that one is visible before the song starts
+						if(i != 0) 
+							windows.visible = false;
+						windows.setGraphicSize(Std.int(windows.width * 1));
+						windows.updateHitbox();
+						downtownWindows.add(windows);
+					}
+
 				var ground:BGSprite = new BGSprite('downtown/Ground', px+offSet, py, 1, 1);
 				add(ground);
 
@@ -747,7 +774,7 @@ class PlayState extends MusicBeatState
 				shadeOverlay.visible = false;
 
 				var grid:BGSprite = new BGSprite('downtown/superGrid', 0, 0,1,1);
-				add(grid);
+				//add(grid);
 				grid.alpha = 0.5; 
 
 				/*
@@ -775,13 +802,42 @@ class PlayState extends MusicBeatState
 				liminalHell = new BGSprite('liminal/liminalHell_test',-1522, -1395,1,1);
 
 				//liminalHell.setGraphicSize(Std.int(liminalHell.width * 1));
-				liminalHell.visible = false;
-				add(liminalHell);
+
 
 				//liminalHill.setGraphicSize(Std.int(liminalHill.width * 1));
-				liminalHill.visible = true;
-				add(liminalHill);
+				//liminalHill.visible = true;
+				//add(liminalHill);
+
+				//liminalHell.visible = false;
+				//add(liminalHell);
+
+
+				//liminal Hill area
+				liminalSkyNorm = new BGSprite('liminal/liminal-Skybox-Normal',-1497,-618,0.45,0.45);
+				liminalHillNorm = new BGSprite('liminal/liminal-hill-normal',-1506,-492,0.5,1);
+				liminalGroundNorm = new BGSprite('liminal/liminal-ground-normal',-1497,-327,1,1);
 				
+				add(liminalSkyNorm);
+				add(liminalHillNorm);
+				add(liminalGroundNorm);
+
+				liminalSkyHell = new BGSprite('liminal/liminal-Skybox-Hellscape',-1609,-1192,0.5,0.45);
+				liminalHillHell = new BGSprite('liminal/liminal-hill-hellscape',-1530,-1395,0.75,1);
+				liminalGroundHell = new BGSprite('liminal/liminal-ground-hellscape',-1497,-418,1,1);
+				liminalForegroundHell = new BGSprite('liminal/liminal-foreground-rocks',-651,-39,1,1);
+				liminalBenchHell = new BGSprite('liminal/liminal-bench-test',849,-120,0.5,1);
+
+				add(liminalSkyHell);
+				add(liminalHillHell);
+				add(liminalGroundHell);
+				add(liminalForegroundHell);
+				add(liminalBenchHell);
+
+				liminalSkyHell.visible = false;
+				liminalHillHell.visible = false;
+				liminalGroundHell.visible = false;
+				liminalForegroundHell.visible = false;
+				liminalBenchHell.visible = false;
 				
 				//ref
 				var grid:BGSprite = new BGSprite('downtown/superGrid', 0, 0,1,1);
@@ -4658,6 +4714,24 @@ class PlayState extends MusicBeatState
 				}
 
 			case "downtown":
+				// start with one window
+				//downtownWindows.members[0].visible = true;
+				// change windows every 4 beats
+				if (curBeat % 4 == 0)
+				{
+					downtownWindows.forEach(function(windows:BGSprite)
+					{
+						windows.visible = false;
+					});
+					
+					lastWindow = curWindow;
+					while(curWindow == lastWindow)
+					{
+						// prevents the same window being shown
+						curWindow = FlxG.random.int(0, downtownWindows.length - 1);
+					}
+					downtownWindows.members[curWindow].visible = true;
+				}
 				if(curSong == "Imminence") {
 					switch (curBeat)
 					{
@@ -4682,8 +4756,18 @@ class PlayState extends MusicBeatState
 				{
 					case 288:
 						FlxG.camera.flash(0xFFA70010, 0.5, true); //red flash
-						liminalHill.visible = false;
-						liminalHell.visible = true;
+						//liminalHill.visible = false;
+						//liminalHell.visible = true;
+
+						liminalSkyNorm.visible = false;
+						liminalHillNorm.visible = false;
+						liminalGroundNorm.visible = false;
+
+						liminalSkyHell.visible = true;
+						liminalHillHell.visible = true;
+						liminalGroundHell.visible = true;
+						liminalForegroundHell.visible = true;
+						liminalBenchHell.visible = true;
 				}
 
 		}

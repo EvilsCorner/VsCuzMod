@@ -1,4 +1,4 @@
-:SCENE:9
+:SCENE:9::fade:0xFF000000:2.0:in
 :BF:r:Excited:Damn, not bad! This has actually been pretty fun-
 :Cuz:l:Angry:UGH! ENOUGH OF THIS!
 :Cuz:l:Ticked Off:I feel like an idiot, letting you waste my time. 
@@ -26,6 +26,8 @@
 :GF:r:Pleased:Y'know, the one with a cigarette curse or something? 
 :GF:r:Pleased:Did you really think you were being subtle about that? 
 :GF:r:Flirty:Kinda hypocritical given your job, don't you think? 
+:Cuz:l:Shocked:WH-.. ?! I-...!
 :Cuz:l:Pissed:YOU-.....YOU'VE MADE AN ASS OUT OF ME FOR THE LAST TIME, GIRLFRIEND! 
 :GF:r:Laugh:Here, Boyfriend, just let me deal with this. You know I never get to sing!
+:SCENE:9::flash:0xFFA043DE:0.5
 :GF:r:Smug Demon:Alright Cuz, you got what you wanted. Let's get this over with. 

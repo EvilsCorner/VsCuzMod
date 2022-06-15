@@ -379,7 +379,7 @@ static const ::String _hx_array_data_46c2835d_1[] = {
 static const ::String _hx_array_data_46c2835d_2[] = {
 	HX_("blah blah blah",d1,92,1f,27),HX_("coolswag",d3,7d,92,03),
 };
-HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_291_create,"PlayState","create",0x82220fed,"PlayState.create","PlayState.hx",291,0xb30d7781)
+HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_304_create,"PlayState","create",0x82220fed,"PlayState.create","PlayState.hx",304,0xb30d7781)
 static const Float _hx_array_data_46c2835d_16[] = {
 	(Float)0,(Float)0,
 };
@@ -437,154 +437,155 @@ static const ::String _hx_array_data_46c2835d_33[] = {
 static const ::String _hx_array_data_46c2835d_34[] = {
 	HX_("halloweem bg0",37,fc,3c,6c),HX_("halloweem bg lightning strike",af,54,50,5b),
 };
-HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_1236_create,"PlayState","create",0x82220fed,"PlayState.create","PlayState.hx",1236,0xb30d7781)
-HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_1256_create,"PlayState","create",0x82220fed,"PlayState.create","PlayState.hx",1256,0xb30d7781)
-HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_1272_create,"PlayState","create",0x82220fed,"PlayState.create","PlayState.hx",1272,0xb30d7781)
-HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_1265_create,"PlayState","create",0x82220fed,"PlayState.create","PlayState.hx",1265,0xb30d7781)
-HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_1328_set_songSpeed,"PlayState","set_songSpeed",0x6add5c84,"PlayState.set_songSpeed","PlayState.hx",1328,0xb30d7781)
-HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_1357_addTextToDebug,"PlayState","addTextToDebug",0x7f3922fb,"PlayState.addTextToDebug","PlayState.hx",1357,0xb30d7781)
-HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_1354_addTextToDebug,"PlayState","addTextToDebug",0x7f3922fb,"PlayState.addTextToDebug","PlayState.hx",1354,0xb30d7781)
-HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_1369_reloadHealthBarColors,"PlayState","reloadHealthBarColors",0xba7bbe7d,"PlayState.reloadHealthBarColors","PlayState.hx",1369,0xb30d7781)
-HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_1377_addCharacterToList,"PlayState","addCharacterToList",0x1af0ed52,"PlayState.addCharacterToList","PlayState.hx",1377,0xb30d7781)
-HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_1412_startCharacterLua,"PlayState","startCharacterLua",0xb9f87bc0,"PlayState.startCharacterLua","PlayState.hx",1412,0xb30d7781)
-HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_1437_startCharacterPos,"PlayState","startCharacterPos",0xb9fb7f9c,"PlayState.startCharacterPos","PlayState.hx",1437,0xb30d7781)
-HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_1447_startVideo,"PlayState","startVideo",0xdf2b622a,"PlayState.startVideo","PlayState.hx",1447,0xb30d7781)
-HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_1475_startVideo,"PlayState","startVideo",0xdf2b622a,"PlayState.startVideo","PlayState.hx",1475,0xb30d7781)
-HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_1492_startAndEnd,"PlayState","startAndEnd",0xe2348cb5,"PlayState.startAndEnd","PlayState.hx",1492,0xb30d7781)
-HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_1502_startDialogue,"PlayState","startDialogue",0x5fdf56c9,"PlayState.startDialogue","PlayState.hx",1502,0xb30d7781)
-HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_1513_startDialogue,"PlayState","startDialogue",0x5fdf56c9,"PlayState.startDialogue","PlayState.hx",1513,0xb30d7781)
-HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_1518_startDialogue,"PlayState","startDialogue",0x5fdf56c9,"PlayState.startDialogue","PlayState.hx",1518,0xb30d7781)
-HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_1569_schoolIntro,"PlayState","schoolIntro",0x509eaac7,"PlayState.schoolIntro","PlayState.hx",1569,0xb30d7781)
-HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_1585_schoolIntro,"PlayState","schoolIntro",0x509eaac7,"PlayState.schoolIntro","PlayState.hx",1585,0xb30d7781)
-HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_1599_schoolIntro,"PlayState","schoolIntro",0x509eaac7,"PlayState.schoolIntro","PlayState.hx",1599,0xb30d7781)
-HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_1595_schoolIntro,"PlayState","schoolIntro",0x509eaac7,"PlayState.schoolIntro","PlayState.hx",1595,0xb30d7781)
-HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_1606_schoolIntro,"PlayState","schoolIntro",0x509eaac7,"PlayState.schoolIntro","PlayState.hx",1606,0xb30d7781)
-HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_1538_schoolIntro,"PlayState","schoolIntro",0x509eaac7,"PlayState.schoolIntro","PlayState.hx",1538,0xb30d7781)
-HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_1628_stabPlayer,"PlayState","stabPlayer",0x8691f634,"PlayState.stabPlayer","PlayState.hx",1628,0xb30d7781)
-HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_1635_stabPlayer,"PlayState","stabPlayer",0x8691f634,"PlayState.stabPlayer","PlayState.hx",1635,0xb30d7781)
-HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_1625_stabPlayer,"PlayState","stabPlayer",0x8691f634,"PlayState.stabPlayer","PlayState.hx",1625,0xb30d7781)
-HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_1640_cuzIntros,"PlayState","cuzIntros",0x981be7de,"PlayState.cuzIntros","PlayState.hx",1640,0xb30d7781)
-HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_1668_cuzIntros,"PlayState","cuzIntros",0x981be7de,"PlayState.cuzIntros","PlayState.hx",1668,0xb30d7781)
-HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_1662_cuzIntros,"PlayState","cuzIntros",0x981be7de,"PlayState.cuzIntros","PlayState.hx",1662,0xb30d7781)
-HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_1706_startCountdown,"PlayState","startCountdown",0xf32ea1e0,"PlayState.startCountdown","PlayState.hx",1706,0xb30d7781)
-HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_1845_startCountdown,"PlayState","startCountdown",0xf32ea1e0,"PlayState.startCountdown","PlayState.hx",1845,0xb30d7781)
-HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_1744_startCountdown,"PlayState","startCountdown",0xf32ea1e0,"PlayState.startCountdown","PlayState.hx",1744,0xb30d7781)
+HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_1292_create,"PlayState","create",0x82220fed,"PlayState.create","PlayState.hx",1292,0xb30d7781)
+HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_1312_create,"PlayState","create",0x82220fed,"PlayState.create","PlayState.hx",1312,0xb30d7781)
+HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_1328_create,"PlayState","create",0x82220fed,"PlayState.create","PlayState.hx",1328,0xb30d7781)
+HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_1321_create,"PlayState","create",0x82220fed,"PlayState.create","PlayState.hx",1321,0xb30d7781)
+HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_1384_set_songSpeed,"PlayState","set_songSpeed",0x6add5c84,"PlayState.set_songSpeed","PlayState.hx",1384,0xb30d7781)
+HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_1413_addTextToDebug,"PlayState","addTextToDebug",0x7f3922fb,"PlayState.addTextToDebug","PlayState.hx",1413,0xb30d7781)
+HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_1410_addTextToDebug,"PlayState","addTextToDebug",0x7f3922fb,"PlayState.addTextToDebug","PlayState.hx",1410,0xb30d7781)
+HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_1425_reloadHealthBarColors,"PlayState","reloadHealthBarColors",0xba7bbe7d,"PlayState.reloadHealthBarColors","PlayState.hx",1425,0xb30d7781)
+HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_1433_addCharacterToList,"PlayState","addCharacterToList",0x1af0ed52,"PlayState.addCharacterToList","PlayState.hx",1433,0xb30d7781)
+HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_1468_startCharacterLua,"PlayState","startCharacterLua",0xb9f87bc0,"PlayState.startCharacterLua","PlayState.hx",1468,0xb30d7781)
+HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_1493_startCharacterPos,"PlayState","startCharacterPos",0xb9fb7f9c,"PlayState.startCharacterPos","PlayState.hx",1493,0xb30d7781)
+HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_1503_startVideo,"PlayState","startVideo",0xdf2b622a,"PlayState.startVideo","PlayState.hx",1503,0xb30d7781)
+HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_1531_startVideo,"PlayState","startVideo",0xdf2b622a,"PlayState.startVideo","PlayState.hx",1531,0xb30d7781)
+HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_1548_startAndEnd,"PlayState","startAndEnd",0xe2348cb5,"PlayState.startAndEnd","PlayState.hx",1548,0xb30d7781)
+HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_1558_startDialogue,"PlayState","startDialogue",0x5fdf56c9,"PlayState.startDialogue","PlayState.hx",1558,0xb30d7781)
+HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_1569_startDialogue,"PlayState","startDialogue",0x5fdf56c9,"PlayState.startDialogue","PlayState.hx",1569,0xb30d7781)
+HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_1574_startDialogue,"PlayState","startDialogue",0x5fdf56c9,"PlayState.startDialogue","PlayState.hx",1574,0xb30d7781)
+HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_1625_schoolIntro,"PlayState","schoolIntro",0x509eaac7,"PlayState.schoolIntro","PlayState.hx",1625,0xb30d7781)
+HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_1641_schoolIntro,"PlayState","schoolIntro",0x509eaac7,"PlayState.schoolIntro","PlayState.hx",1641,0xb30d7781)
+HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_1655_schoolIntro,"PlayState","schoolIntro",0x509eaac7,"PlayState.schoolIntro","PlayState.hx",1655,0xb30d7781)
+HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_1651_schoolIntro,"PlayState","schoolIntro",0x509eaac7,"PlayState.schoolIntro","PlayState.hx",1651,0xb30d7781)
+HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_1662_schoolIntro,"PlayState","schoolIntro",0x509eaac7,"PlayState.schoolIntro","PlayState.hx",1662,0xb30d7781)
+HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_1594_schoolIntro,"PlayState","schoolIntro",0x509eaac7,"PlayState.schoolIntro","PlayState.hx",1594,0xb30d7781)
+HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_1684_stabPlayer,"PlayState","stabPlayer",0x8691f634,"PlayState.stabPlayer","PlayState.hx",1684,0xb30d7781)
+HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_1691_stabPlayer,"PlayState","stabPlayer",0x8691f634,"PlayState.stabPlayer","PlayState.hx",1691,0xb30d7781)
+HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_1681_stabPlayer,"PlayState","stabPlayer",0x8691f634,"PlayState.stabPlayer","PlayState.hx",1681,0xb30d7781)
+HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_1696_cuzIntros,"PlayState","cuzIntros",0x981be7de,"PlayState.cuzIntros","PlayState.hx",1696,0xb30d7781)
+HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_1724_cuzIntros,"PlayState","cuzIntros",0x981be7de,"PlayState.cuzIntros","PlayState.hx",1724,0xb30d7781)
+HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_1718_cuzIntros,"PlayState","cuzIntros",0x981be7de,"PlayState.cuzIntros","PlayState.hx",1718,0xb30d7781)
+HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_1762_startCountdown,"PlayState","startCountdown",0xf32ea1e0,"PlayState.startCountdown","PlayState.hx",1762,0xb30d7781)
+HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_1901_startCountdown,"PlayState","startCountdown",0xf32ea1e0,"PlayState.startCountdown","PlayState.hx",1901,0xb30d7781)
+HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_1800_startCountdown,"PlayState","startCountdown",0xf32ea1e0,"PlayState.startCountdown","PlayState.hx",1800,0xb30d7781)
 static const ::String _hx_array_data_46c2835d_72[] = {
 	HX_("ready",63,a0,ba,e6),HX_("set",a2,9b,57,00),HX_("go",28,5a,00,00),
 };
 static const ::String _hx_array_data_46c2835d_73[] = {
 	HX_("pixelUI/ready-pixel",67,0d,b0,1a),HX_("pixelUI/set-pixel",26,79,64,dc),HX_("pixelUI/date-pixel",bc,ec,1d,b8),
 };
-HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_1796_startCountdown,"PlayState","startCountdown",0xf32ea1e0,"PlayState.startCountdown","PlayState.hx",1796,0xb30d7781)
-HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_1815_startCountdown,"PlayState","startCountdown",0xf32ea1e0,"PlayState.startCountdown","PlayState.hx",1815,0xb30d7781)
-HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_1836_startCountdown,"PlayState","startCountdown",0xf32ea1e0,"PlayState.startCountdown","PlayState.hx",1836,0xb30d7781)
+HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_1852_startCountdown,"PlayState","startCountdown",0xf32ea1e0,"PlayState.startCountdown","PlayState.hx",1852,0xb30d7781)
+HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_1871_startCountdown,"PlayState","startCountdown",0xf32ea1e0,"PlayState.startCountdown","PlayState.hx",1871,0xb30d7781)
+HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_1892_startCountdown,"PlayState","startCountdown",0xf32ea1e0,"PlayState.startCountdown","PlayState.hx",1892,0xb30d7781)
 static const int _hx_array_data_46c2835d_77[] = {
 	(int)0,
 };
-HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_1861_clearNotesBefore,"PlayState","clearNotesBefore",0x04f39344,"PlayState.clearNotesBefore","PlayState.hx",1861,0xb30d7781)
-HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_1896_setSongTime,"PlayState","setSongTime",0x748441b3,"PlayState.setSongTime","PlayState.hx",1896,0xb30d7781)
-HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_1910_startNextDialogue,"PlayState","startNextDialogue",0xe3136f5c,"PlayState.startNextDialogue","PlayState.hx",1910,0xb30d7781)
-HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_1916_skipDialogue,"PlayState","skipDialogue",0x2a998a68,"PlayState.skipDialogue","PlayState.hx",1916,0xb30d7781)
-HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_1924_startSong,"PlayState","startSong",0x419e6106,"PlayState.startSong","PlayState.hx",1924,0xb30d7781)
-HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_1963_generateSong,"PlayState","generateSong",0x3a61615b,"PlayState.generateSong","PlayState.hx",1963,0xb30d7781)
-HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_2135_eventPushed,"PlayState","eventPushed",0xcec8ade2,"PlayState.eventPushed","PlayState.hx",2135,0xb30d7781)
-HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_2158_eventNoteEarlyTrigger,"PlayState","eventNoteEarlyTrigger",0xf1448c50,"PlayState.eventNoteEarlyTrigger","PlayState.hx",2158,0xb30d7781)
-HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_2173_sortByShit,"PlayState","sortByShit",0xfa9f74a6,"PlayState.sortByShit","PlayState.hx",2173,0xb30d7781)
-HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_2178_sortByTime,"PlayState","sortByTime",0xfb4970f3,"PlayState.sortByTime","PlayState.hx",2178,0xb30d7781)
-HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_2184_generateStaticArrows,"PlayState","generateStaticArrows",0x65da515e,"PlayState.generateStaticArrows","PlayState.hx",2184,0xb30d7781)
-HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_2225_openSubState,"PlayState","openSubState",0x527dda0c,"PlayState.openSubState","PlayState.hx",2225,0xb30d7781)
-HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_2267_closeSubState,"PlayState","closeSubState",0xb7c1df78,"PlayState.closeSubState","PlayState.hx",2267,0xb30d7781)
-HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_2321_onFocus,"PlayState","onFocus",0xe5082828,"PlayState.onFocus","PlayState.hx",2321,0xb30d7781)
-HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_2340_onFocusLost,"PlayState","onFocusLost",0x4ad4322c,"PlayState.onFocusLost","PlayState.hx",2340,0xb30d7781)
-HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_2352_resyncVocals,"PlayState","resyncVocals",0x86228a3d,"PlayState.resyncVocals","PlayState.hx",2352,0xb30d7781)
-HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_2369_update,"PlayState","update",0x8d182efa,"PlayState.update","PlayState.hx",2369,0xb30d7781)
-HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_2434_update,"PlayState","update",0x8d182efa,"PlayState.update","PlayState.hx",2434,0xb30d7781)
+HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_1917_clearNotesBefore,"PlayState","clearNotesBefore",0x04f39344,"PlayState.clearNotesBefore","PlayState.hx",1917,0xb30d7781)
+HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_1952_setSongTime,"PlayState","setSongTime",0x748441b3,"PlayState.setSongTime","PlayState.hx",1952,0xb30d7781)
+HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_1966_startNextDialogue,"PlayState","startNextDialogue",0xe3136f5c,"PlayState.startNextDialogue","PlayState.hx",1966,0xb30d7781)
+HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_1972_skipDialogue,"PlayState","skipDialogue",0x2a998a68,"PlayState.skipDialogue","PlayState.hx",1972,0xb30d7781)
+HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_1980_startSong,"PlayState","startSong",0x419e6106,"PlayState.startSong","PlayState.hx",1980,0xb30d7781)
+HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_2019_generateSong,"PlayState","generateSong",0x3a61615b,"PlayState.generateSong","PlayState.hx",2019,0xb30d7781)
+HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_2191_eventPushed,"PlayState","eventPushed",0xcec8ade2,"PlayState.eventPushed","PlayState.hx",2191,0xb30d7781)
+HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_2214_eventNoteEarlyTrigger,"PlayState","eventNoteEarlyTrigger",0xf1448c50,"PlayState.eventNoteEarlyTrigger","PlayState.hx",2214,0xb30d7781)
+HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_2229_sortByShit,"PlayState","sortByShit",0xfa9f74a6,"PlayState.sortByShit","PlayState.hx",2229,0xb30d7781)
+HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_2234_sortByTime,"PlayState","sortByTime",0xfb4970f3,"PlayState.sortByTime","PlayState.hx",2234,0xb30d7781)
+HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_2240_generateStaticArrows,"PlayState","generateStaticArrows",0x65da515e,"PlayState.generateStaticArrows","PlayState.hx",2240,0xb30d7781)
+HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_2281_openSubState,"PlayState","openSubState",0x527dda0c,"PlayState.openSubState","PlayState.hx",2281,0xb30d7781)
+HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_2323_closeSubState,"PlayState","closeSubState",0xb7c1df78,"PlayState.closeSubState","PlayState.hx",2323,0xb30d7781)
+HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_2377_onFocus,"PlayState","onFocus",0xe5082828,"PlayState.onFocus","PlayState.hx",2377,0xb30d7781)
+HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_2396_onFocusLost,"PlayState","onFocusLost",0x4ad4322c,"PlayState.onFocusLost","PlayState.hx",2396,0xb30d7781)
+HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_2408_resyncVocals,"PlayState","resyncVocals",0x86228a3d,"PlayState.resyncVocals","PlayState.hx",2408,0xb30d7781)
+HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_2425_update,"PlayState","update",0x8d182efa,"PlayState.update","PlayState.hx",2425,0xb30d7781)
+HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_2490_update,"PlayState","update",0x8d182efa,"PlayState.update","PlayState.hx",2490,0xb30d7781)
 static const ::String _hx_array_data_46c2835d_118[] = {
 	HX_("blood",ba,7f,fc,b4),
 };
-HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_2718_update,"PlayState","update",0x8d182efa,"PlayState.update","PlayState.hx",2718,0xb30d7781)
-HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_2857_openChartEditor,"PlayState","openChartEditor",0x9d267270,"PlayState.openChartEditor","PlayState.hx",2857,0xb30d7781)
-HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_2870_doDeathCheck,"PlayState","doDeathCheck",0xe94ba810,"PlayState.doDeathCheck","PlayState.hx",2870,0xb30d7781)
-HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_2907_checkEventNote,"PlayState","checkEventNote",0xc90c9135,"PlayState.checkEventNote","PlayState.hx",2907,0xb30d7781)
-HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_2926_getControl,"PlayState","getControl",0xf4fb66d8,"PlayState.getControl","PlayState.hx",2926,0xb30d7781)
-HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_2932_triggerEventNote,"PlayState","triggerEventNote",0x6299e505,"PlayState.triggerEventNote","PlayState.hx",2932,0xb30d7781)
-HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_3002_triggerEventNote,"PlayState","triggerEventNote",0x6299e505,"PlayState.triggerEventNote","PlayState.hx",3002,0xb30d7781)
-HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_3011_triggerEventNote,"PlayState","triggerEventNote",0x6299e505,"PlayState.triggerEventNote","PlayState.hx",3011,0xb30d7781)
-HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_3036_triggerEventNote,"PlayState","triggerEventNote",0x6299e505,"PlayState.triggerEventNote","PlayState.hx",3036,0xb30d7781)
-HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_3049_triggerEventNote,"PlayState","triggerEventNote",0x6299e505,"PlayState.triggerEventNote","PlayState.hx",3049,0xb30d7781)
-HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_3056_triggerEventNote,"PlayState","triggerEventNote",0x6299e505,"PlayState.triggerEventNote","PlayState.hx",3056,0xb30d7781)
-HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_3059_triggerEventNote,"PlayState","triggerEventNote",0x6299e505,"PlayState.triggerEventNote","PlayState.hx",3059,0xb30d7781)
-HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_3070_triggerEventNote,"PlayState","triggerEventNote",0x6299e505,"PlayState.triggerEventNote","PlayState.hx",3070,0xb30d7781)
-HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_3080_triggerEventNote,"PlayState","triggerEventNote",0x6299e505,"PlayState.triggerEventNote","PlayState.hx",3080,0xb30d7781)
-HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_3277_triggerEventNote,"PlayState","triggerEventNote",0x6299e505,"PlayState.triggerEventNote","PlayState.hx",3277,0xb30d7781)
-HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_3290_moveCameraSection,"PlayState","moveCameraSection",0x3c29d69e,"PlayState.moveCameraSection","PlayState.hx",3290,0xb30d7781)
-HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_3317_moveCamera,"PlayState","moveCamera",0x93d33607,"PlayState.moveCamera","PlayState.hx",3317,0xb30d7781)
-HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_3336_moveCamera,"PlayState","moveCamera",0x93d33607,"PlayState.moveCamera","PlayState.hx",3336,0xb30d7781)
-HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_3343_tweenCamIn,"PlayState","tweenCamIn",0x8478acda,"PlayState.tweenCamIn","PlayState.hx",3343,0xb30d7781)
-HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_3347_tweenCamIn,"PlayState","tweenCamIn",0x8478acda,"PlayState.tweenCamIn","PlayState.hx",3347,0xb30d7781)
-HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_3354_customCamZoom,"PlayState","customCamZoom",0x39882640,"PlayState.customCamZoom","PlayState.hx",3354,0xb30d7781)
-HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_3391_customCamZoom,"PlayState","customCamZoom",0x39882640,"PlayState.customCamZoom","PlayState.hx",3391,0xb30d7781)
-HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_3401_snapCamFollowToPos,"PlayState","snapCamFollowToPos",0x64378a34,"PlayState.snapCamFollowToPos","PlayState.hx",3401,0xb30d7781)
-HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_3409_onSongComplete,"PlayState","onSongComplete",0xd6371f5e,"PlayState.onSongComplete","PlayState.hx",3409,0xb30d7781)
-HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_3412_finishSong,"PlayState","finishSong",0x64ab2b39,"PlayState.finishSong","PlayState.hx",3412,0xb30d7781)
-HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_3423_finishSong,"PlayState","finishSong",0x64ab2b39,"PlayState.finishSong","PlayState.hx",3423,0xb30d7781)
-HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_3431_endSong,"PlayState","endSong",0x78be073f,"PlayState.endSong","PlayState.hx",3431,0xb30d7781)
-HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_3435_endSong,"PlayState","endSong",0x78be073f,"PlayState.endSong","PlayState.hx",3435,0xb30d7781)
+HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_2774_update,"PlayState","update",0x8d182efa,"PlayState.update","PlayState.hx",2774,0xb30d7781)
+HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_2913_openChartEditor,"PlayState","openChartEditor",0x9d267270,"PlayState.openChartEditor","PlayState.hx",2913,0xb30d7781)
+HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_2926_doDeathCheck,"PlayState","doDeathCheck",0xe94ba810,"PlayState.doDeathCheck","PlayState.hx",2926,0xb30d7781)
+HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_2963_checkEventNote,"PlayState","checkEventNote",0xc90c9135,"PlayState.checkEventNote","PlayState.hx",2963,0xb30d7781)
+HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_2982_getControl,"PlayState","getControl",0xf4fb66d8,"PlayState.getControl","PlayState.hx",2982,0xb30d7781)
+HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_2988_triggerEventNote,"PlayState","triggerEventNote",0x6299e505,"PlayState.triggerEventNote","PlayState.hx",2988,0xb30d7781)
+HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_3058_triggerEventNote,"PlayState","triggerEventNote",0x6299e505,"PlayState.triggerEventNote","PlayState.hx",3058,0xb30d7781)
+HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_3067_triggerEventNote,"PlayState","triggerEventNote",0x6299e505,"PlayState.triggerEventNote","PlayState.hx",3067,0xb30d7781)
+HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_3092_triggerEventNote,"PlayState","triggerEventNote",0x6299e505,"PlayState.triggerEventNote","PlayState.hx",3092,0xb30d7781)
+HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_3105_triggerEventNote,"PlayState","triggerEventNote",0x6299e505,"PlayState.triggerEventNote","PlayState.hx",3105,0xb30d7781)
+HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_3112_triggerEventNote,"PlayState","triggerEventNote",0x6299e505,"PlayState.triggerEventNote","PlayState.hx",3112,0xb30d7781)
+HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_3115_triggerEventNote,"PlayState","triggerEventNote",0x6299e505,"PlayState.triggerEventNote","PlayState.hx",3115,0xb30d7781)
+HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_3126_triggerEventNote,"PlayState","triggerEventNote",0x6299e505,"PlayState.triggerEventNote","PlayState.hx",3126,0xb30d7781)
+HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_3136_triggerEventNote,"PlayState","triggerEventNote",0x6299e505,"PlayState.triggerEventNote","PlayState.hx",3136,0xb30d7781)
+HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_3333_triggerEventNote,"PlayState","triggerEventNote",0x6299e505,"PlayState.triggerEventNote","PlayState.hx",3333,0xb30d7781)
+HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_3346_moveCameraSection,"PlayState","moveCameraSection",0x3c29d69e,"PlayState.moveCameraSection","PlayState.hx",3346,0xb30d7781)
+HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_3373_moveCamera,"PlayState","moveCamera",0x93d33607,"PlayState.moveCamera","PlayState.hx",3373,0xb30d7781)
+HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_3392_moveCamera,"PlayState","moveCamera",0x93d33607,"PlayState.moveCamera","PlayState.hx",3392,0xb30d7781)
+HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_3399_tweenCamIn,"PlayState","tweenCamIn",0x8478acda,"PlayState.tweenCamIn","PlayState.hx",3399,0xb30d7781)
+HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_3403_tweenCamIn,"PlayState","tweenCamIn",0x8478acda,"PlayState.tweenCamIn","PlayState.hx",3403,0xb30d7781)
+HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_3410_customCamZoom,"PlayState","customCamZoom",0x39882640,"PlayState.customCamZoom","PlayState.hx",3410,0xb30d7781)
+HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_3447_customCamZoom,"PlayState","customCamZoom",0x39882640,"PlayState.customCamZoom","PlayState.hx",3447,0xb30d7781)
+HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_3457_snapCamFollowToPos,"PlayState","snapCamFollowToPos",0x64378a34,"PlayState.snapCamFollowToPos","PlayState.hx",3457,0xb30d7781)
+HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_3465_onSongComplete,"PlayState","onSongComplete",0xd6371f5e,"PlayState.onSongComplete","PlayState.hx",3465,0xb30d7781)
+HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_3468_finishSong,"PlayState","finishSong",0x64ab2b39,"PlayState.finishSong","PlayState.hx",3468,0xb30d7781)
+HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_3479_finishSong,"PlayState","finishSong",0x64ab2b39,"PlayState.finishSong","PlayState.hx",3479,0xb30d7781)
+HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_3487_endSong,"PlayState","endSong",0x78be073f,"PlayState.endSong","PlayState.hx",3487,0xb30d7781)
+HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_3491_endSong,"PlayState","endSong",0x78be073f,"PlayState.endSong","PlayState.hx",3491,0xb30d7781)
 static const ::String _hx_array_data_46c2835d_161[] = {
 	HX_("week1_nomiss",3f,c5,3b,fe),HX_("week2_nomiss",5e,37,6e,37),HX_("week3_nomiss",7d,a9,a0,70),HX_("week4_nomiss",9c,1b,d3,a9),HX_("week5_nomiss",bb,8d,05,e3),HX_("week6_nomiss",da,ff,37,1c),HX_("week7_nomiss",f9,71,6a,55),HX_("ur_bad",a3,4f,85,aa),HX_("ur_good",9f,19,79,8d),HX_("hype",46,63,1a,45),HX_("two_keys",c7,f4,0a,9b),HX_("toastie",43,0c,91,5f),HX_("debugger",21,24,eb,90),
 };
-HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_3559_endSong,"PlayState","endSong",0x78be073f,"PlayState.endSong","PlayState.hx",3559,0xb30d7781)
-HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_3586_startAchievement,"PlayState","startAchievement",0x360ffb5e,"PlayState.startAchievement","PlayState.hx",3586,0xb30d7781)
-HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_3593_achievementEnd,"PlayState","achievementEnd",0x1b8d2c9d,"PlayState.achievementEnd","PlayState.hx",3593,0xb30d7781)
-HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_3601_KillNotes,"PlayState","KillNotes",0x6b4eb352,"PlayState.KillNotes","PlayState.hx",3601,0xb30d7781)
-HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_3818_popUpScore,"PlayState","popUpScore",0xcc0b16d7,"PlayState.popUpScore","PlayState.hx",3818,0xb30d7781)
-HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_3622_popUpScore,"PlayState","popUpScore",0xcc0b16d7,"PlayState.popUpScore","PlayState.hx",3622,0xb30d7781)
-HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_3689_popUpScore,"PlayState","popUpScore",0xcc0b16d7,"PlayState.popUpScore","PlayState.hx",3689,0xb30d7781)
-HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_3797_popUpScore,"PlayState","popUpScore",0xcc0b16d7,"PlayState.popUpScore","PlayState.hx",3797,0xb30d7781)
-HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_3829_onKeyPress,"PlayState","onKeyPress",0x76c14314,"PlayState.onKeyPress","PlayState.hx",3829,0xb30d7781)
-HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_3852_onKeyPress,"PlayState","onKeyPress",0x76c14314,"PlayState.onKeyPress","PlayState.hx",3852,0xb30d7781)
-HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_3862_onKeyPress,"PlayState","onKeyPress",0x76c14314,"PlayState.onKeyPress","PlayState.hx",3862,0xb30d7781)
-HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_3912_onKeyRelease,"PlayState","onKeyRelease",0xbaee3b98,"PlayState.onKeyRelease","PlayState.hx",3912,0xb30d7781)
-HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_3929_getKeyFromEvent,"PlayState","getKeyFromEvent",0xb173e356,"PlayState.getKeyFromEvent","PlayState.hx",3929,0xb30d7781)
-HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_3948_keyShit,"PlayState","keyShit",0xf06d6aee,"PlayState.keyShit","PlayState.hx",3948,0xb30d7781)
-HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_3977_keyShit,"PlayState","keyShit",0xf06d6aee,"PlayState.keyShit","PlayState.hx",3977,0xb30d7781)
+HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_3615_endSong,"PlayState","endSong",0x78be073f,"PlayState.endSong","PlayState.hx",3615,0xb30d7781)
+HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_3642_startAchievement,"PlayState","startAchievement",0x360ffb5e,"PlayState.startAchievement","PlayState.hx",3642,0xb30d7781)
+HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_3649_achievementEnd,"PlayState","achievementEnd",0x1b8d2c9d,"PlayState.achievementEnd","PlayState.hx",3649,0xb30d7781)
+HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_3657_KillNotes,"PlayState","KillNotes",0x6b4eb352,"PlayState.KillNotes","PlayState.hx",3657,0xb30d7781)
+HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_3874_popUpScore,"PlayState","popUpScore",0xcc0b16d7,"PlayState.popUpScore","PlayState.hx",3874,0xb30d7781)
+HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_3678_popUpScore,"PlayState","popUpScore",0xcc0b16d7,"PlayState.popUpScore","PlayState.hx",3678,0xb30d7781)
+HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_3745_popUpScore,"PlayState","popUpScore",0xcc0b16d7,"PlayState.popUpScore","PlayState.hx",3745,0xb30d7781)
+HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_3853_popUpScore,"PlayState","popUpScore",0xcc0b16d7,"PlayState.popUpScore","PlayState.hx",3853,0xb30d7781)
+HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_3885_onKeyPress,"PlayState","onKeyPress",0x76c14314,"PlayState.onKeyPress","PlayState.hx",3885,0xb30d7781)
+HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_3908_onKeyPress,"PlayState","onKeyPress",0x76c14314,"PlayState.onKeyPress","PlayState.hx",3908,0xb30d7781)
+HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_3918_onKeyPress,"PlayState","onKeyPress",0x76c14314,"PlayState.onKeyPress","PlayState.hx",3918,0xb30d7781)
+HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_3968_onKeyRelease,"PlayState","onKeyRelease",0xbaee3b98,"PlayState.onKeyRelease","PlayState.hx",3968,0xb30d7781)
+HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_3985_getKeyFromEvent,"PlayState","getKeyFromEvent",0xb173e356,"PlayState.getKeyFromEvent","PlayState.hx",3985,0xb30d7781)
+HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_4004_keyShit,"PlayState","keyShit",0xf06d6aee,"PlayState.keyShit","PlayState.hx",4004,0xb30d7781)
+HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_4033_keyShit,"PlayState","keyShit",0xf06d6aee,"PlayState.keyShit","PlayState.hx",4033,0xb30d7781)
 static const ::String _hx_array_data_46c2835d_186[] = {
 	HX_("oversinging",1f,13,8f,78),
 };
-HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_4016_noteMiss,"PlayState","noteMiss",0x0652ff3f,"PlayState.noteMiss","PlayState.hx",4016,0xb30d7781)
-HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_4013_noteMiss,"PlayState","noteMiss",0x0652ff3f,"PlayState.noteMiss","PlayState.hx",4013,0xb30d7781)
-HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_4034_noteMiss,"PlayState","noteMiss",0x0652ff3f,"PlayState.noteMiss","PlayState.hx",4034,0xb30d7781)
-HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_4074_noteMissPress,"PlayState","noteMissPress",0x5da21fc4,"PlayState.noteMissPress","PlayState.hx",4074,0xb30d7781)
-HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_4118_opponentNoteHit,"PlayState","opponentNoteHit",0x3dbfa653,"PlayState.opponentNoteHit","PlayState.hx",4118,0xb30d7781)
-HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_4176_goodNoteHit,"PlayState","goodNoteHit",0x2c129b33,"PlayState.goodNoteHit","PlayState.hx",4176,0xb30d7781)
-HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_4282_goodNoteHit,"PlayState","goodNoteHit",0x2c129b33,"PlayState.goodNoteHit","PlayState.hx",4282,0xb30d7781)
-HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_4305_spawnNoteSplashOnNote,"PlayState","spawnNoteSplashOnNote",0x0fc41314,"PlayState.spawnNoteSplashOnNote","PlayState.hx",4305,0xb30d7781)
-HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_4313_spawnNoteSplash,"PlayState","spawnNoteSplash",0x572b9a03,"PlayState.spawnNoteSplash","PlayState.hx",4313,0xb30d7781)
-HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_4335_resetFastCar,"PlayState","resetFastCar",0x6b33ac7a,"PlayState.resetFastCar","PlayState.hx",4335,0xb30d7781)
-HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_4351_fastCarDrive,"PlayState","fastCarDrive",0xda080ac3,"PlayState.fastCarDrive","PlayState.hx",4351,0xb30d7781)
-HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_4344_fastCarDrive,"PlayState","fastCarDrive",0xda080ac3,"PlayState.fastCarDrive","PlayState.hx",4344,0xb30d7781)
-HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_4365_trainStart,"PlayState","trainStart",0x6a3d10eb,"PlayState.trainStart","PlayState.hx",4365,0xb30d7781)
-HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_4374_updateTrainPos,"PlayState","updateTrainPos",0x957683c6,"PlayState.updateTrainPos","PlayState.hx",4374,0xb30d7781)
-HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_4404_trainReset,"PlayState","trainReset",0xccf9e658,"PlayState.trainReset","PlayState.hx",4404,0xb30d7781)
-HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_4421_lightningStrikeShit,"PlayState","lightningStrikeShit",0xdc0ca52b,"PlayState.lightningStrikeShit","PlayState.hx",4421,0xb30d7781)
-HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_4455_killHenchmen,"PlayState","killHenchmen",0x4ddb718f,"PlayState.killHenchmen","PlayState.hx",4455,0xb30d7781)
+HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_4072_noteMiss,"PlayState","noteMiss",0x0652ff3f,"PlayState.noteMiss","PlayState.hx",4072,0xb30d7781)
+HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_4069_noteMiss,"PlayState","noteMiss",0x0652ff3f,"PlayState.noteMiss","PlayState.hx",4069,0xb30d7781)
+HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_4090_noteMiss,"PlayState","noteMiss",0x0652ff3f,"PlayState.noteMiss","PlayState.hx",4090,0xb30d7781)
+HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_4130_noteMissPress,"PlayState","noteMissPress",0x5da21fc4,"PlayState.noteMissPress","PlayState.hx",4130,0xb30d7781)
+HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_4174_opponentNoteHit,"PlayState","opponentNoteHit",0x3dbfa653,"PlayState.opponentNoteHit","PlayState.hx",4174,0xb30d7781)
+HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_4232_goodNoteHit,"PlayState","goodNoteHit",0x2c129b33,"PlayState.goodNoteHit","PlayState.hx",4232,0xb30d7781)
+HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_4338_goodNoteHit,"PlayState","goodNoteHit",0x2c129b33,"PlayState.goodNoteHit","PlayState.hx",4338,0xb30d7781)
+HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_4361_spawnNoteSplashOnNote,"PlayState","spawnNoteSplashOnNote",0x0fc41314,"PlayState.spawnNoteSplashOnNote","PlayState.hx",4361,0xb30d7781)
+HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_4369_spawnNoteSplash,"PlayState","spawnNoteSplash",0x572b9a03,"PlayState.spawnNoteSplash","PlayState.hx",4369,0xb30d7781)
+HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_4391_resetFastCar,"PlayState","resetFastCar",0x6b33ac7a,"PlayState.resetFastCar","PlayState.hx",4391,0xb30d7781)
+HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_4407_fastCarDrive,"PlayState","fastCarDrive",0xda080ac3,"PlayState.fastCarDrive","PlayState.hx",4407,0xb30d7781)
+HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_4400_fastCarDrive,"PlayState","fastCarDrive",0xda080ac3,"PlayState.fastCarDrive","PlayState.hx",4400,0xb30d7781)
+HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_4421_trainStart,"PlayState","trainStart",0x6a3d10eb,"PlayState.trainStart","PlayState.hx",4421,0xb30d7781)
+HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_4430_updateTrainPos,"PlayState","updateTrainPos",0x957683c6,"PlayState.updateTrainPos","PlayState.hx",4430,0xb30d7781)
+HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_4460_trainReset,"PlayState","trainReset",0xccf9e658,"PlayState.trainReset","PlayState.hx",4460,0xb30d7781)
+HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_4477_lightningStrikeShit,"PlayState","lightningStrikeShit",0xdc0ca52b,"PlayState.lightningStrikeShit","PlayState.hx",4477,0xb30d7781)
+HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_4511_killHenchmen,"PlayState","killHenchmen",0x4ddb718f,"PlayState.killHenchmen","PlayState.hx",4511,0xb30d7781)
 static const ::String _hx_array_data_46c2835d_205[] = {
 	HX_("roadkill_enthusiast",15,e2,55,56),
 };
-HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_4481_resetLimoKill,"PlayState","resetLimoKill",0xc408527b,"PlayState.resetLimoKill","PlayState.hx",4481,0xb30d7781)
-HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_4494_destroy,"PlayState","destroy",0x6ec756e9,"PlayState.destroy","PlayState.hx",4494,0xb30d7781)
-HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_4518_removeLua,"PlayState","removeLua",0x07403b83,"PlayState.removeLua","PlayState.hx",4518,0xb30d7781)
-HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_4525_stepHit,"PlayState","stepHit",0xcb82d856,"PlayState.stepHit","PlayState.hx",4525,0xb30d7781)
-HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_4551_beatHit,"PlayState","beatHit",0xbe46146c,"PlayState.beatHit","PlayState.hx",4551,0xb30d7781)
-HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_4561_beatHit,"PlayState","beatHit",0xbe46146c,"PlayState.beatHit","PlayState.hx",4561,0xb30d7781)
-HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_4631_beatHit,"PlayState","beatHit",0xbe46146c,"PlayState.beatHit","PlayState.hx",4631,0xb30d7781)
-HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_4645_beatHit,"PlayState","beatHit",0xbe46146c,"PlayState.beatHit","PlayState.hx",4645,0xb30d7781)
-HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_4702_callOnLuas,"PlayState","callOnLuas",0xa18e7d29,"PlayState.callOnLuas","PlayState.hx",4702,0xb30d7781)
-HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_4722_setOnLuas,"PlayState","setOnLuas",0x8640696b,"PlayState.setOnLuas","PlayState.hx",4722,0xb30d7781)
-HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_4728_StrumPlayAnim,"PlayState","StrumPlayAnim",0x3bcb0b9d,"PlayState.StrumPlayAnim","PlayState.hx",4728,0xb30d7781)
-HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_4745_RecalculateRating,"PlayState","RecalculateRating",0xed22565f,"PlayState.RecalculateRating","PlayState.hx",4745,0xb30d7781)
-HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_4794_checkForAchievement,"PlayState","checkForAchievement",0x823e9b3d,"PlayState.checkForAchievement","PlayState.hx",4794,0xb30d7781)
-HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_4510_cancelMusicFadeTween,"PlayState","cancelMusicFadeTween",0x78d8c5b5,"PlayState.cancelMusicFadeTween","PlayState.hx",4510,0xb30d7781)
+HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_4537_resetLimoKill,"PlayState","resetLimoKill",0xc408527b,"PlayState.resetLimoKill","PlayState.hx",4537,0xb30d7781)
+HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_4550_destroy,"PlayState","destroy",0x6ec756e9,"PlayState.destroy","PlayState.hx",4550,0xb30d7781)
+HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_4574_removeLua,"PlayState","removeLua",0x07403b83,"PlayState.removeLua","PlayState.hx",4574,0xb30d7781)
+HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_4581_stepHit,"PlayState","stepHit",0xcb82d856,"PlayState.stepHit","PlayState.hx",4581,0xb30d7781)
+HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_4607_beatHit,"PlayState","beatHit",0xbe46146c,"PlayState.beatHit","PlayState.hx",4607,0xb30d7781)
+HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_4617_beatHit,"PlayState","beatHit",0xbe46146c,"PlayState.beatHit","PlayState.hx",4617,0xb30d7781)
+HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_4724_beatHit,"PlayState","beatHit",0xbe46146c,"PlayState.beatHit","PlayState.hx",4724,0xb30d7781)
+HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_4687_beatHit,"PlayState","beatHit",0xbe46146c,"PlayState.beatHit","PlayState.hx",4687,0xb30d7781)
+HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_4701_beatHit,"PlayState","beatHit",0xbe46146c,"PlayState.beatHit","PlayState.hx",4701,0xb30d7781)
+HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_4786_callOnLuas,"PlayState","callOnLuas",0xa18e7d29,"PlayState.callOnLuas","PlayState.hx",4786,0xb30d7781)
+HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_4806_setOnLuas,"PlayState","setOnLuas",0x8640696b,"PlayState.setOnLuas","PlayState.hx",4806,0xb30d7781)
+HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_4812_StrumPlayAnim,"PlayState","StrumPlayAnim",0x3bcb0b9d,"PlayState.StrumPlayAnim","PlayState.hx",4812,0xb30d7781)
+HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_4829_RecalculateRating,"PlayState","RecalculateRating",0xed22565f,"PlayState.RecalculateRating","PlayState.hx",4829,0xb30d7781)
+HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_4878_checkForAchievement,"PlayState","checkForAchievement",0x823e9b3d,"PlayState.checkForAchievement","PlayState.hx",4878,0xb30d7781)
+HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_4566_cancelMusicFadeTween,"PlayState","cancelMusicFadeTween",0x78d8c5b5,"PlayState.cancelMusicFadeTween","PlayState.hx",4566,0xb30d7781)
 HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_66_boot,"PlayState","boot",0xa6fd5ee3,"PlayState.boot","PlayState.hx",66,0xb30d7781)
 HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_67_boot,"PlayState","boot",0xa6fd5ee3,"PlayState.boot","PlayState.hx",67,0xb30d7781)
 HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_69_boot,"PlayState","boot",0xa6fd5ee3,"PlayState.boot","PlayState.hx",69,0xb30d7781)
@@ -597,73 +598,75 @@ HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_119_boot,"PlayState","boot",0xa6fd
 HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_120_boot,"PlayState","boot",0xa6fd5ee3,"PlayState.boot","PlayState.hx",120,0xb30d7781)
 HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_168_boot,"PlayState","boot",0xa6fd5ee3,"PlayState.boot","PlayState.hx",168,0xb30d7781)
 HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_169_boot,"PlayState","boot",0xa6fd5ee3,"PlayState.boot","PlayState.hx",169,0xb30d7781)
-HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_236_boot,"PlayState","boot",0xa6fd5ee3,"PlayState.boot","PlayState.hx",236,0xb30d7781)
-HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_237_boot,"PlayState","boot",0xa6fd5ee3,"PlayState.boot","PlayState.hx",237,0xb30d7781)
-HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_238_boot,"PlayState","boot",0xa6fd5ee3,"PlayState.boot","PlayState.hx",238,0xb30d7781)
-HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_239_boot,"PlayState","boot",0xa6fd5ee3,"PlayState.boot","PlayState.hx",239,0xb30d7781)
-HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_245_boot,"PlayState","boot",0xa6fd5ee3,"PlayState.boot","PlayState.hx",245,0xb30d7781)
-HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_1703_boot,"PlayState","boot",0xa6fd5ee3,"PlayState.boot","PlayState.hx",1703,0xb30d7781)
+HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_227_boot,"PlayState","boot",0xa6fd5ee3,"PlayState.boot","PlayState.hx",227,0xb30d7781)
+HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_228_boot,"PlayState","boot",0xa6fd5ee3,"PlayState.boot","PlayState.hx",228,0xb30d7781)
+HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_249_boot,"PlayState","boot",0xa6fd5ee3,"PlayState.boot","PlayState.hx",249,0xb30d7781)
+HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_250_boot,"PlayState","boot",0xa6fd5ee3,"PlayState.boot","PlayState.hx",250,0xb30d7781)
+HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_251_boot,"PlayState","boot",0xa6fd5ee3,"PlayState.boot","PlayState.hx",251,0xb30d7781)
+HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_252_boot,"PlayState","boot",0xa6fd5ee3,"PlayState.boot","PlayState.hx",252,0xb30d7781)
+HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_258_boot,"PlayState","boot",0xa6fd5ee3,"PlayState.boot","PlayState.hx",258,0xb30d7781)
+HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_1759_boot,"PlayState","boot",0xa6fd5ee3,"PlayState.boot","PlayState.hx",1759,0xb30d7781)
 
 void PlayState_obj::__construct( ::flixel::addons::transition::TransitionData TransIn, ::flixel::addons::transition::TransitionData TransOut){
             	HX_GC_STACKFRAME(&_hx_pos_af23706db05c7feb_64_new)
-HXLINE(4878)		this->curLightEvent = 0;
-HXLINE(4877)		this->curLight = 0;
-HXLINE(4742)		this->ratingName = HX_("?",3f,00,00,00);
-HXLINE(4701)		this->closeLuas = ::Array_obj< ::Dynamic>::__new(0);
-HXLINE(4545)		this->lastBeatHit = -1;
-HXLINE(4543)		this->lightningOffset = 8;
-HXLINE(4542)		this->lightningStrikeBeat = 0;
-HXLINE(4523)		this->lastStepHit = -1;
-HXLINE(4493)		this->preventLuaRemove = false;
-HXLINE(4371)		this->startedMoving = false;
-HXLINE(4362)		this->trainCooldown = 0;
-HXLINE(4361)		this->trainFinishing = false;
-HXLINE(4360)		this->trainCars = 8;
-HXLINE(4358)		this->trainFrameTiming = ((Float)0);
-HXLINE(4357)		this->trainMoving = false;
-HXLINE(4332)		this->fastCarCanDrive = true;
-HXLINE(3619)		this->showRating = true;
-HXLINE(3618)		this->showCombo = true;
-HXLINE(3616)		this->totalNotesHit = ((Float)0.0);
-HXLINE(3615)		this->totalPlayed = 0;
-HXLINE(3585)		this->achievementObj = null();
-HXLINE(3429)		this->transitioning = false;
-HXLINE(2869)		this->isDead = false;
-HXLINE(2366)		this->limoSpeed = ((Float)0);
-HXLINE(2365)		this->canPause = true;
-HXLINE(2364)		this->startedCountdown = false;
-HXLINE(2363)		this->paused = false;
-HXLINE(2181)		this->skipArrowStartTween = false;
-HXLINE(1961)		this->eventPushedMap =  ::haxe::ds::StringMap_obj::__alloc( HX_CTX );
-HXLINE(1960)		this->noteTypeMap =  ::haxe::ds::StringMap_obj::__alloc( HX_CTX );
-HXLINE(1959)		this->debugNum = 0;
-HXLINE(1921)		this->songTime = ((Float)0);
-HXLINE(1920)		this->lastReportedPlayheadPosition = 0;
-HXLINE(1919)		this->previousFrameTime = 0;
-HXLINE(1697)		this->finishTimer = null();
-HXLINE(1498)		this->dialogueCount = 0;
-HXLINE( 284)		this->isStabbing = false;
-HXLINE( 283)		this->missedStab = false;
-HXLINE( 282)		this->stabcounter = 1;
-HXLINE( 272)		this->introSoundsSuffix = HX_("",00,00,00,00);
-HXLINE( 270)		this->luaArray = ::Array_obj< ::Dynamic>::__new(0);
-HXLINE( 266)		this->boyfriendIdled = false;
-HXLINE( 265)		this->boyfriendIdleTime = ((Float)0.0);
-HXLINE( 264)		this->keysPressed = ::Array_obj< bool >::__new(0);
-HXLINE( 260)		this->detailsPausedText = HX_("",00,00,00,00);
-HXLINE( 259)		this->detailsText = HX_("",00,00,00,00);
-HXLINE( 258)		this->storyDifficultyText = HX_("",00,00,00,00);
-HXLINE( 254)		this->girlfriendCameraOffset = null();
-HXLINE( 253)		this->opponentCameraOffset = null();
-HXLINE( 252)		this->boyfriendCameraOffset = null();
-HXLINE( 250)		this->songLength = ((Float)0);
-HXLINE( 249)		this->skipCountdown = false;
-HXLINE( 248)		this->inCutscene = false;
-HXLINE( 246)		this->singAnimations = ::Array_obj< ::String >::fromData( _hx_array_data_46c2835d_1,4);
-HXLINE( 241)		this->defaultCamZoom = ((Float)1.05);
-HXLINE( 231)		this->songMisses = 0;
-HXLINE( 230)		this->songHits = 0;
-HXLINE( 229)		this->songScore = 0;
+HXLINE(4962)		this->curLightEvent = 0;
+HXLINE(4961)		this->curLight = 0;
+HXLINE(4826)		this->ratingName = HX_("?",3f,00,00,00);
+HXLINE(4785)		this->closeLuas = ::Array_obj< ::Dynamic>::__new(0);
+HXLINE(4601)		this->lastBeatHit = -1;
+HXLINE(4599)		this->lightningOffset = 8;
+HXLINE(4598)		this->lightningStrikeBeat = 0;
+HXLINE(4579)		this->lastStepHit = -1;
+HXLINE(4549)		this->preventLuaRemove = false;
+HXLINE(4427)		this->startedMoving = false;
+HXLINE(4418)		this->trainCooldown = 0;
+HXLINE(4417)		this->trainFinishing = false;
+HXLINE(4416)		this->trainCars = 8;
+HXLINE(4414)		this->trainFrameTiming = ((Float)0);
+HXLINE(4413)		this->trainMoving = false;
+HXLINE(4388)		this->fastCarCanDrive = true;
+HXLINE(3675)		this->showRating = true;
+HXLINE(3674)		this->showCombo = true;
+HXLINE(3672)		this->totalNotesHit = ((Float)0.0);
+HXLINE(3671)		this->totalPlayed = 0;
+HXLINE(3641)		this->achievementObj = null();
+HXLINE(3485)		this->transitioning = false;
+HXLINE(2925)		this->isDead = false;
+HXLINE(2422)		this->limoSpeed = ((Float)0);
+HXLINE(2421)		this->canPause = true;
+HXLINE(2420)		this->startedCountdown = false;
+HXLINE(2419)		this->paused = false;
+HXLINE(2237)		this->skipArrowStartTween = false;
+HXLINE(2017)		this->eventPushedMap =  ::haxe::ds::StringMap_obj::__alloc( HX_CTX );
+HXLINE(2016)		this->noteTypeMap =  ::haxe::ds::StringMap_obj::__alloc( HX_CTX );
+HXLINE(2015)		this->debugNum = 0;
+HXLINE(1977)		this->songTime = ((Float)0);
+HXLINE(1976)		this->lastReportedPlayheadPosition = 0;
+HXLINE(1975)		this->previousFrameTime = 0;
+HXLINE(1753)		this->finishTimer = null();
+HXLINE(1554)		this->dialogueCount = 0;
+HXLINE( 297)		this->isStabbing = false;
+HXLINE( 296)		this->missedStab = false;
+HXLINE( 295)		this->stabcounter = 1;
+HXLINE( 285)		this->introSoundsSuffix = HX_("",00,00,00,00);
+HXLINE( 283)		this->luaArray = ::Array_obj< ::Dynamic>::__new(0);
+HXLINE( 279)		this->boyfriendIdled = false;
+HXLINE( 278)		this->boyfriendIdleTime = ((Float)0.0);
+HXLINE( 277)		this->keysPressed = ::Array_obj< bool >::__new(0);
+HXLINE( 273)		this->detailsPausedText = HX_("",00,00,00,00);
+HXLINE( 272)		this->detailsText = HX_("",00,00,00,00);
+HXLINE( 271)		this->storyDifficultyText = HX_("",00,00,00,00);
+HXLINE( 267)		this->girlfriendCameraOffset = null();
+HXLINE( 266)		this->opponentCameraOffset = null();
+HXLINE( 265)		this->boyfriendCameraOffset = null();
+HXLINE( 263)		this->songLength = ((Float)0);
+HXLINE( 262)		this->skipCountdown = false;
+HXLINE( 261)		this->inCutscene = false;
+HXLINE( 259)		this->singAnimations = ::Array_obj< ::String >::fromData( _hx_array_data_46c2835d_1,4);
+HXLINE( 254)		this->defaultCamZoom = ((Float)1.05);
+HXLINE( 244)		this->songMisses = 0;
+HXLINE( 243)		this->songHits = 0;
+HXLINE( 242)		this->songScore = 0;
 HXLINE( 219)		this->wiggleShit =  ::WiggleEffect_obj::__alloc( HX_CTX );
 HXLINE( 202)		this->limoKillingState = 0;
 HXLINE( 189)		this->dialogueJson = null();
@@ -748,154 +751,154 @@ bool PlayState_obj::_hx_isInstanceOf(int inClassId) {
 }
 
 void PlayState_obj::create(){
-            	HX_GC_STACKFRAME(&_hx_pos_af23706db05c7feb_291_create)
-HXLINE( 290)		 ::PlayState _gthis = ::hx::ObjectPtr<OBJ_>(this);
-HXLINE( 292)		::Paths_obj::clearStoredMemory(null());
-HXLINE( 295)		::PlayState_obj::instance = ::hx::ObjectPtr<OBJ_>(this);
-HXLINE( 297)		this->debugKeysChart = ::ClientPrefs_obj::copyKey(( (::Array< int >)(::ClientPrefs_obj::keyBinds->get(HX_("debug_1",05,20,57,5b))) ));
-HXLINE( 298)		this->debugKeysCharacter = ::ClientPrefs_obj::copyKey(( (::Array< int >)(::ClientPrefs_obj::keyBinds->get(HX_("debug_2",06,20,57,5b))) ));
-HXLINE( 299)		::PauseSubState_obj::songName = null();
-HXLINE( 302)		::Array< int > _hx_tmp = ::ClientPrefs_obj::copyKey(( (::Array< int >)(::ClientPrefs_obj::keyBinds->get(HX_("note_left",b4,fe,20,a5))) ));
-HXLINE( 303)		::Array< int > _hx_tmp1 = ::ClientPrefs_obj::copyKey(( (::Array< int >)(::ClientPrefs_obj::keyBinds->get(HX_("note_down",0f,ef,de,9f))) ));
-HXLINE( 304)		::Array< int > _hx_tmp2 = ::ClientPrefs_obj::copyKey(( (::Array< int >)(::ClientPrefs_obj::keyBinds->get(HX_("note_up",c8,67,5c,4d))) ));
-HXLINE( 301)		this->keysArray = ::cpp::VirtualArray_obj::__new(4)->init(0,_hx_tmp)->init(1,_hx_tmp1)->init(2,_hx_tmp2)->init(3,::ClientPrefs_obj::copyKey(( (::Array< int >)(::ClientPrefs_obj::keyBinds->get(HX_("note_right",8f,ec,ca,4e))) )));
-HXLINE( 309)		{
-HXLINE( 309)			int _g = 0;
-HXDLIN( 309)			int _g1 = this->keysArray->get_length();
-HXDLIN( 309)			while((_g < _g1)){
-HXLINE( 309)				_g = (_g + 1);
-HXDLIN( 309)				int i = (_g - 1);
-HXLINE( 311)				this->keysPressed->push(false);
+            	HX_GC_STACKFRAME(&_hx_pos_af23706db05c7feb_304_create)
+HXLINE( 303)		 ::PlayState _gthis = ::hx::ObjectPtr<OBJ_>(this);
+HXLINE( 305)		::Paths_obj::clearStoredMemory(null());
+HXLINE( 308)		::PlayState_obj::instance = ::hx::ObjectPtr<OBJ_>(this);
+HXLINE( 310)		this->debugKeysChart = ::ClientPrefs_obj::copyKey(( (::Array< int >)(::ClientPrefs_obj::keyBinds->get(HX_("debug_1",05,20,57,5b))) ));
+HXLINE( 311)		this->debugKeysCharacter = ::ClientPrefs_obj::copyKey(( (::Array< int >)(::ClientPrefs_obj::keyBinds->get(HX_("debug_2",06,20,57,5b))) ));
+HXLINE( 312)		::PauseSubState_obj::songName = null();
+HXLINE( 315)		::Array< int > _hx_tmp = ::ClientPrefs_obj::copyKey(( (::Array< int >)(::ClientPrefs_obj::keyBinds->get(HX_("note_left",b4,fe,20,a5))) ));
+HXLINE( 316)		::Array< int > _hx_tmp1 = ::ClientPrefs_obj::copyKey(( (::Array< int >)(::ClientPrefs_obj::keyBinds->get(HX_("note_down",0f,ef,de,9f))) ));
+HXLINE( 317)		::Array< int > _hx_tmp2 = ::ClientPrefs_obj::copyKey(( (::Array< int >)(::ClientPrefs_obj::keyBinds->get(HX_("note_up",c8,67,5c,4d))) ));
+HXLINE( 314)		this->keysArray = ::cpp::VirtualArray_obj::__new(4)->init(0,_hx_tmp)->init(1,_hx_tmp1)->init(2,_hx_tmp2)->init(3,::ClientPrefs_obj::copyKey(( (::Array< int >)(::ClientPrefs_obj::keyBinds->get(HX_("note_right",8f,ec,ca,4e))) )));
+HXLINE( 322)		{
+HXLINE( 322)			int _g = 0;
+HXDLIN( 322)			int _g1 = this->keysArray->get_length();
+HXDLIN( 322)			while((_g < _g1)){
+HXLINE( 322)				_g = (_g + 1);
+HXDLIN( 322)				int i = (_g - 1);
+HXLINE( 324)				this->keysPressed->push(false);
             			}
             		}
-HXLINE( 314)		if (::hx::IsNotNull( ::flixel::FlxG_obj::sound->music )) {
-HXLINE( 315)			 ::flixel::_hx_system::FlxSound _this = ::flixel::FlxG_obj::sound->music;
-HXDLIN( 315)			_this->cleanup(_this->autoDestroy,true);
+HXLINE( 327)		if (::hx::IsNotNull( ::flixel::FlxG_obj::sound->music )) {
+HXLINE( 328)			 ::flixel::_hx_system::FlxSound _this = ::flixel::FlxG_obj::sound->music;
+HXDLIN( 328)			_this->cleanup(_this->autoDestroy,true);
             		}
-HXLINE( 318)		 ::Dynamic _hx_tmp3;
-HXDLIN( 318)		if (::ClientPrefs_obj::gameplaySettings->exists(HX_("healthgain",1b,97,1b,16))) {
-HXLINE( 318)			_hx_tmp3 = ::ClientPrefs_obj::gameplaySettings->get(HX_("healthgain",1b,97,1b,16));
-            		}
-            		else {
-HXLINE( 318)			_hx_tmp3 = 1;
-            		}
-HXDLIN( 318)		this->healthGain = ( (Float)(_hx_tmp3) );
-HXLINE( 319)		 ::Dynamic _hx_tmp4;
-HXDLIN( 319)		if (::ClientPrefs_obj::gameplaySettings->exists(HX_("healthloss",7f,50,74,19))) {
-HXLINE( 319)			_hx_tmp4 = ::ClientPrefs_obj::gameplaySettings->get(HX_("healthloss",7f,50,74,19));
+HXLINE( 331)		 ::Dynamic _hx_tmp3;
+HXDLIN( 331)		if (::ClientPrefs_obj::gameplaySettings->exists(HX_("healthgain",1b,97,1b,16))) {
+HXLINE( 331)			_hx_tmp3 = ::ClientPrefs_obj::gameplaySettings->get(HX_("healthgain",1b,97,1b,16));
             		}
             		else {
-HXLINE( 319)			_hx_tmp4 = 1;
+HXLINE( 331)			_hx_tmp3 = 1;
             		}
-HXDLIN( 319)		this->healthLoss = ( (Float)(_hx_tmp4) );
-HXLINE( 320)		 ::Dynamic _hx_tmp5;
-HXDLIN( 320)		if (::ClientPrefs_obj::gameplaySettings->exists(HX_("instakill",f9,72,23,49))) {
-HXLINE( 320)			_hx_tmp5 = ::ClientPrefs_obj::gameplaySettings->get(HX_("instakill",f9,72,23,49));
-            		}
-            		else {
-HXLINE( 320)			_hx_tmp5 = false;
-            		}
-HXDLIN( 320)		this->instakillOnMiss = ( (bool)(_hx_tmp5) );
-HXLINE( 321)		 ::Dynamic _hx_tmp6;
-HXDLIN( 321)		if (::ClientPrefs_obj::gameplaySettings->exists(HX_("practice",bb,00,e7,a0))) {
-HXLINE( 321)			_hx_tmp6 = ::ClientPrefs_obj::gameplaySettings->get(HX_("practice",bb,00,e7,a0));
+HXDLIN( 331)		this->healthGain = ( (Float)(_hx_tmp3) );
+HXLINE( 332)		 ::Dynamic _hx_tmp4;
+HXDLIN( 332)		if (::ClientPrefs_obj::gameplaySettings->exists(HX_("healthloss",7f,50,74,19))) {
+HXLINE( 332)			_hx_tmp4 = ::ClientPrefs_obj::gameplaySettings->get(HX_("healthloss",7f,50,74,19));
             		}
             		else {
-HXLINE( 321)			_hx_tmp6 = false;
+HXLINE( 332)			_hx_tmp4 = 1;
             		}
-HXDLIN( 321)		this->practiceMode = ( (bool)(_hx_tmp6) );
-HXLINE( 322)		 ::Dynamic _hx_tmp7;
-HXDLIN( 322)		if (::ClientPrefs_obj::gameplaySettings->exists(HX_("botplay",7b,fb,a9,61))) {
-HXLINE( 322)			_hx_tmp7 = ::ClientPrefs_obj::gameplaySettings->get(HX_("botplay",7b,fb,a9,61));
-            		}
-            		else {
-HXLINE( 322)			_hx_tmp7 = false;
-            		}
-HXDLIN( 322)		this->cpuControlled = ( (bool)(_hx_tmp7) );
-HXLINE( 325)		this->camGame =  ::flixel::FlxCamera_obj::__alloc( HX_CTX ,null(),null(),null(),null(),null());
-HXLINE( 326)		this->camHUD =  ::flixel::FlxCamera_obj::__alloc( HX_CTX ,null(),null(),null(),null(),null());
-HXLINE( 327)		this->camOther =  ::flixel::FlxCamera_obj::__alloc( HX_CTX ,null(),null(),null(),null(),null());
-HXLINE( 328)		{
-HXLINE( 328)			 ::flixel::FlxCamera _hx_tmp8 = this->camHUD;
-HXDLIN( 328)			_hx_tmp8->bgColor = (_hx_tmp8->bgColor & 16777215);
-HXDLIN( 328)			 ::flixel::FlxCamera _hx_tmp9 = this->camHUD;
-HXDLIN( 328)			_hx_tmp9->bgColor = (_hx_tmp9->bgColor | 0);
-            		}
-HXLINE( 329)		{
-HXLINE( 329)			 ::flixel::FlxCamera _hx_tmp10 = this->camOther;
-HXDLIN( 329)			_hx_tmp10->bgColor = (_hx_tmp10->bgColor & 16777215);
-HXDLIN( 329)			 ::flixel::FlxCamera _hx_tmp11 = this->camOther;
-HXDLIN( 329)			_hx_tmp11->bgColor = (_hx_tmp11->bgColor | 0);
-            		}
-HXLINE( 331)		::flixel::FlxG_obj::cameras->reset(this->camGame);
-HXLINE( 332)		::flixel::FlxG_obj::cameras->add(this->camHUD,null()).StaticCast<  ::flixel::FlxCamera >();
-HXLINE( 333)		::flixel::FlxG_obj::cameras->add(this->camOther,null()).StaticCast<  ::flixel::FlxCamera >();
-HXLINE( 334)		this->grpNoteSplashes =  ::flixel::group::FlxTypedGroup_obj::__alloc( HX_CTX ,null());
-HXLINE( 336)		::flixel::FlxCamera_obj::_defaultCameras = ::Array_obj< ::Dynamic>::__new(1)->init(0,this->camGame);
-HXLINE( 337)		::CustomFadeTransition_obj::nextCamera = this->camOther;
-HXLINE( 340)		this->persistentUpdate = true;
-HXLINE( 341)		this->persistentDraw = true;
-HXLINE( 343)		if (::hx::IsNull( ::PlayState_obj::SONG )) {
-HXLINE( 344)			::PlayState_obj::SONG = ::Song_obj::loadFromJson(HX_("tutorial",9e,8f,b5,82),null());
-            		}
-HXLINE( 346)		::Conductor_obj::mapBPMChanges(::PlayState_obj::SONG);
-HXLINE( 347)		::Conductor_obj::changeBPM(( (Float)(::PlayState_obj::SONG->__Field(HX_("bpm",df,be,4a,00),::hx::paccDynamic)) ));
-HXLINE( 350)		this->storyDifficultyText = ::CoolUtil_obj::difficulties->__get(::PlayState_obj::storyDifficulty);
-HXLINE( 353)		if (::PlayState_obj::isStoryMode) {
-HXLINE( 355)			this->detailsText = (HX_("Story Mode: ",d4,01,86,36) + ::WeekData_obj::getCurrentWeek()->weekName);
+HXDLIN( 332)		this->healthLoss = ( (Float)(_hx_tmp4) );
+HXLINE( 333)		 ::Dynamic _hx_tmp5;
+HXDLIN( 333)		if (::ClientPrefs_obj::gameplaySettings->exists(HX_("instakill",f9,72,23,49))) {
+HXLINE( 333)			_hx_tmp5 = ::ClientPrefs_obj::gameplaySettings->get(HX_("instakill",f9,72,23,49));
             		}
             		else {
-HXLINE( 359)			this->detailsText = HX_("Freeplay",c0,4c,38,fc);
+HXLINE( 333)			_hx_tmp5 = false;
             		}
-HXLINE( 363)		this->detailsPausedText = (HX_("Paused - ",65,2f,92,fd) + this->detailsText);
-HXLINE( 366)		::GameOverSubstate_obj::resetVariables();
-HXLINE( 367)		::String songName = ::StringTools_obj::replace(( (::String)(::PlayState_obj::SONG->__Field(HX_("song",d5,23,58,4c),::hx::paccDynamic)) ).toLowerCase(),HX_(" ",20,00,00,00),HX_("-",2d,00,00,00));
-HXLINE( 369)		::PlayState_obj::curStage = ( (::String)(::PlayState_obj::SONG->__Field(HX_("stage",be,6a,0b,84),::hx::paccDynamic)) );
-HXLINE( 371)		bool _hx_tmp12;
-HXDLIN( 371)		if (::hx::IsNotNull( ::PlayState_obj::SONG->__Field(HX_("stage",be,6a,0b,84),::hx::paccDynamic) )) {
-HXLINE( 371)			_hx_tmp12 = (( (::String)(::PlayState_obj::SONG->__Field(HX_("stage",be,6a,0b,84),::hx::paccDynamic)) ).length < 1);
+HXDLIN( 333)		this->instakillOnMiss = ( (bool)(_hx_tmp5) );
+HXLINE( 334)		 ::Dynamic _hx_tmp6;
+HXDLIN( 334)		if (::ClientPrefs_obj::gameplaySettings->exists(HX_("practice",bb,00,e7,a0))) {
+HXLINE( 334)			_hx_tmp6 = ::ClientPrefs_obj::gameplaySettings->get(HX_("practice",bb,00,e7,a0));
             		}
             		else {
-HXLINE( 371)			_hx_tmp12 = true;
+HXLINE( 334)			_hx_tmp6 = false;
             		}
-HXDLIN( 371)		if (_hx_tmp12) {
-HXLINE( 372)			::String _hx_switch_0 = songName;
+HXDLIN( 334)		this->practiceMode = ( (bool)(_hx_tmp6) );
+HXLINE( 335)		 ::Dynamic _hx_tmp7;
+HXDLIN( 335)		if (::ClientPrefs_obj::gameplaySettings->exists(HX_("botplay",7b,fb,a9,61))) {
+HXLINE( 335)			_hx_tmp7 = ::ClientPrefs_obj::gameplaySettings->get(HX_("botplay",7b,fb,a9,61));
+            		}
+            		else {
+HXLINE( 335)			_hx_tmp7 = false;
+            		}
+HXDLIN( 335)		this->cpuControlled = ( (bool)(_hx_tmp7) );
+HXLINE( 338)		this->camGame =  ::flixel::FlxCamera_obj::__alloc( HX_CTX ,null(),null(),null(),null(),null());
+HXLINE( 339)		this->camHUD =  ::flixel::FlxCamera_obj::__alloc( HX_CTX ,null(),null(),null(),null(),null());
+HXLINE( 340)		this->camOther =  ::flixel::FlxCamera_obj::__alloc( HX_CTX ,null(),null(),null(),null(),null());
+HXLINE( 341)		{
+HXLINE( 341)			 ::flixel::FlxCamera _hx_tmp8 = this->camHUD;
+HXDLIN( 341)			_hx_tmp8->bgColor = (_hx_tmp8->bgColor & 16777215);
+HXDLIN( 341)			 ::flixel::FlxCamera _hx_tmp9 = this->camHUD;
+HXDLIN( 341)			_hx_tmp9->bgColor = (_hx_tmp9->bgColor | 0);
+            		}
+HXLINE( 342)		{
+HXLINE( 342)			 ::flixel::FlxCamera _hx_tmp10 = this->camOther;
+HXDLIN( 342)			_hx_tmp10->bgColor = (_hx_tmp10->bgColor & 16777215);
+HXDLIN( 342)			 ::flixel::FlxCamera _hx_tmp11 = this->camOther;
+HXDLIN( 342)			_hx_tmp11->bgColor = (_hx_tmp11->bgColor | 0);
+            		}
+HXLINE( 344)		::flixel::FlxG_obj::cameras->reset(this->camGame);
+HXLINE( 345)		::flixel::FlxG_obj::cameras->add(this->camHUD,null()).StaticCast<  ::flixel::FlxCamera >();
+HXLINE( 346)		::flixel::FlxG_obj::cameras->add(this->camOther,null()).StaticCast<  ::flixel::FlxCamera >();
+HXLINE( 347)		this->grpNoteSplashes =  ::flixel::group::FlxTypedGroup_obj::__alloc( HX_CTX ,null());
+HXLINE( 349)		::flixel::FlxCamera_obj::_defaultCameras = ::Array_obj< ::Dynamic>::__new(1)->init(0,this->camGame);
+HXLINE( 350)		::CustomFadeTransition_obj::nextCamera = this->camOther;
+HXLINE( 353)		this->persistentUpdate = true;
+HXLINE( 354)		this->persistentDraw = true;
+HXLINE( 356)		if (::hx::IsNull( ::PlayState_obj::SONG )) {
+HXLINE( 357)			::PlayState_obj::SONG = ::Song_obj::loadFromJson(HX_("tutorial",9e,8f,b5,82),null());
+            		}
+HXLINE( 359)		::Conductor_obj::mapBPMChanges(::PlayState_obj::SONG);
+HXLINE( 360)		::Conductor_obj::changeBPM(( (Float)(::PlayState_obj::SONG->__Field(HX_("bpm",df,be,4a,00),::hx::paccDynamic)) ));
+HXLINE( 363)		this->storyDifficultyText = ::CoolUtil_obj::difficulties->__get(::PlayState_obj::storyDifficulty);
+HXLINE( 366)		if (::PlayState_obj::isStoryMode) {
+HXLINE( 368)			this->detailsText = (HX_("Story Mode: ",d4,01,86,36) + ::WeekData_obj::getCurrentWeek()->weekName);
+            		}
+            		else {
+HXLINE( 372)			this->detailsText = HX_("Freeplay",c0,4c,38,fc);
+            		}
+HXLINE( 376)		this->detailsPausedText = (HX_("Paused - ",65,2f,92,fd) + this->detailsText);
+HXLINE( 379)		::GameOverSubstate_obj::resetVariables();
+HXLINE( 380)		::String songName = ::StringTools_obj::replace(( (::String)(::PlayState_obj::SONG->__Field(HX_("song",d5,23,58,4c),::hx::paccDynamic)) ).toLowerCase(),HX_(" ",20,00,00,00),HX_("-",2d,00,00,00));
+HXLINE( 382)		::PlayState_obj::curStage = ( (::String)(::PlayState_obj::SONG->__Field(HX_("stage",be,6a,0b,84),::hx::paccDynamic)) );
+HXLINE( 384)		bool _hx_tmp12;
+HXDLIN( 384)		if (::hx::IsNotNull( ::PlayState_obj::SONG->__Field(HX_("stage",be,6a,0b,84),::hx::paccDynamic) )) {
+HXLINE( 384)			_hx_tmp12 = (( (::String)(::PlayState_obj::SONG->__Field(HX_("stage",be,6a,0b,84),::hx::paccDynamic)) ).length < 1);
+            		}
+            		else {
+HXLINE( 384)			_hx_tmp12 = true;
+            		}
+HXDLIN( 384)		if (_hx_tmp12) {
+HXLINE( 385)			::String _hx_switch_0 = songName;
             			if (  (_hx_switch_0==HX_("cocoa",09,9d,55,4a)) ||  (_hx_switch_0==HX_("eggnog",61,04,ba,f4)) ){
-HXLINE( 381)				::PlayState_obj::curStage = HX_("mall",d4,3a,56,48);
-HXDLIN( 381)				goto _hx_goto_4;
+HXLINE( 394)				::PlayState_obj::curStage = HX_("mall",d4,3a,56,48);
+HXDLIN( 394)				goto _hx_goto_4;
             			}
             			if (  (_hx_switch_0==HX_("monster",1a,54,b0,b8)) ||  (_hx_switch_0==HX_("south",0d,92,cc,80)) ||  (_hx_switch_0==HX_("spookeez",0c,7a,2b,75)) ){
-HXLINE( 375)				::PlayState_obj::curStage = HX_("spooky",eb,bd,9e,c1);
-HXDLIN( 375)				goto _hx_goto_4;
+HXLINE( 388)				::PlayState_obj::curStage = HX_("spooky",eb,bd,9e,c1);
+HXDLIN( 388)				goto _hx_goto_4;
             			}
             			if (  (_hx_switch_0==HX_("blammed",96,02,00,3c)) ||  (_hx_switch_0==HX_("philly",28,77,5e,ef)) ||  (_hx_switch_0==HX_("philly-nice",22,2e,26,44)) ||  (_hx_switch_0==HX_("pico",e5,e8,57,4a)) ){
-HXLINE( 377)				::PlayState_obj::curStage = HX_("philly",28,77,5e,ef);
-HXDLIN( 377)				goto _hx_goto_4;
+HXLINE( 390)				::PlayState_obj::curStage = HX_("philly",28,77,5e,ef);
+HXDLIN( 390)				goto _hx_goto_4;
             			}
             			if (  (_hx_switch_0==HX_("high",62,37,0e,45)) ||  (_hx_switch_0==HX_("milf",d6,4c,5c,48)) ||  (_hx_switch_0==HX_("satin-panties",fe,64,00,d1)) ){
-HXLINE( 379)				::PlayState_obj::curStage = HX_("limo",1f,17,b3,47);
-HXDLIN( 379)				goto _hx_goto_4;
+HXLINE( 392)				::PlayState_obj::curStage = HX_("limo",1f,17,b3,47);
+HXDLIN( 392)				goto _hx_goto_4;
             			}
             			if (  (_hx_switch_0==HX_("roses",04,6c,64,ed)) ||  (_hx_switch_0==HX_("senpai",3c,df,8d,6b)) ){
-HXLINE( 385)				::PlayState_obj::curStage = HX_("school",74,b8,c8,40);
-HXDLIN( 385)				goto _hx_goto_4;
+HXLINE( 398)				::PlayState_obj::curStage = HX_("school",74,b8,c8,40);
+HXDLIN( 398)				goto _hx_goto_4;
             			}
             			if (  (_hx_switch_0==HX_("thorns",9c,bf,c7,8c)) ){
-HXLINE( 387)				::PlayState_obj::curStage = HX_("schoolEvil",28,a1,f5,f7);
-HXDLIN( 387)				goto _hx_goto_4;
+HXLINE( 400)				::PlayState_obj::curStage = HX_("schoolEvil",28,a1,f5,f7);
+HXDLIN( 400)				goto _hx_goto_4;
             			}
             			if (  (_hx_switch_0==HX_("winter-horrorland",9d,39,f4,1e)) ){
-HXLINE( 383)				::PlayState_obj::curStage = HX_("mallEvil",88,d3,e3,a7);
-HXDLIN( 383)				goto _hx_goto_4;
+HXLINE( 396)				::PlayState_obj::curStage = HX_("mallEvil",88,d3,e3,a7);
+HXDLIN( 396)				goto _hx_goto_4;
             			}
             			/* default */{
-HXLINE( 389)				::PlayState_obj::curStage = HX_("stage",be,6a,0b,84);
+HXLINE( 402)				::PlayState_obj::curStage = HX_("stage",be,6a,0b,84);
             			}
             			_hx_goto_4:;
             		}
-HXLINE( 393)		 ::Dynamic stageData = ::StageData_obj::getStageFile(::PlayState_obj::curStage);
-HXLINE( 394)		if (::hx::IsNull( stageData )) {
-HXLINE( 395)			stageData =  ::Dynamic(::hx::Anon_obj::Create(11)
+HXLINE( 406)		 ::Dynamic stageData = ::StageData_obj::getStageFile(::PlayState_obj::curStage);
+HXLINE( 407)		if (::hx::IsNull( stageData )) {
+HXLINE( 408)			stageData =  ::Dynamic(::hx::Anon_obj::Create(11)
             				->setFixed(0,HX_("camera_opponent",b7,ed,08,84),::Array_obj< Float >::fromData( _hx_array_data_46c2835d_16,2))
             				->setFixed(1,HX_("girlfriend",ba,91,48,98),::cpp::VirtualArray_obj::__new(2)->init(0,400)->init(1,130))
             				->setFixed(2,HX_("camera_girlfriend",54,80,21,bf),::Array_obj< Float >::fromData( _hx_array_data_46c2835d_17,2))
@@ -908,630 +911,684 @@ HXLINE( 395)			stageData =  ::Dynamic(::hx::Anon_obj::Create(11)
             				->setFixed(9,HX_("defaultZoom",74,9c,b7,22),((Float)0.9))
             				->setFixed(10,HX_("camera_boyfriend",10,8c,95,41),::Array_obj< Float >::fromData( _hx_array_data_46c2835d_18,2)));
             		}
-HXLINE( 412)		this->defaultCamZoom = ( (Float)(stageData->__Field(HX_("defaultZoom",74,9c,b7,22),::hx::paccDynamic)) );
-HXLINE( 413)		this->zoomHelper = ( (Float)(stageData->__Field(HX_("defaultZoom",74,9c,b7,22),::hx::paccDynamic)) );
-HXLINE( 415)		::PlayState_obj::isPixelStage = ( (bool)(stageData->__Field(HX_("isPixelStage",e2,d6,18,f5),::hx::paccDynamic)) );
-HXLINE( 416)		this->BF_X = ( (Float)( ::Dynamic(stageData->__Field(HX_("boyfriend",6a,29,b8,e6),::hx::paccDynamic))->__GetItem(0)) );
-HXLINE( 417)		this->BF_Y = ( (Float)( ::Dynamic(stageData->__Field(HX_("boyfriend",6a,29,b8,e6),::hx::paccDynamic))->__GetItem(1)) );
-HXLINE( 418)		this->GF_X = ( (Float)( ::Dynamic(stageData->__Field(HX_("girlfriend",ba,91,48,98),::hx::paccDynamic))->__GetItem(0)) );
-HXLINE( 419)		this->GF_Y = ( (Float)( ::Dynamic(stageData->__Field(HX_("girlfriend",ba,91,48,98),::hx::paccDynamic))->__GetItem(1)) );
-HXLINE( 420)		this->DAD_X = ( (Float)( ::Dynamic(stageData->__Field(HX_("opponent",9d,b9,b8,f8),::hx::paccDynamic))->__GetItem(0)) );
-HXLINE( 421)		this->DAD_Y = ( (Float)( ::Dynamic(stageData->__Field(HX_("opponent",9d,b9,b8,f8),::hx::paccDynamic))->__GetItem(1)) );
-HXLINE( 423)		if (::hx::IsNotNull( stageData->__Field(HX_("camera_speed",2d,2f,ab,11),::hx::paccDynamic) )) {
-HXLINE( 424)			this->cameraSpeed = ( (Float)(stageData->__Field(HX_("camera_speed",2d,2f,ab,11),::hx::paccDynamic)) );
+HXLINE( 425)		this->defaultCamZoom = ( (Float)(stageData->__Field(HX_("defaultZoom",74,9c,b7,22),::hx::paccDynamic)) );
+HXLINE( 426)		this->zoomHelper = ( (Float)(stageData->__Field(HX_("defaultZoom",74,9c,b7,22),::hx::paccDynamic)) );
+HXLINE( 428)		::PlayState_obj::isPixelStage = ( (bool)(stageData->__Field(HX_("isPixelStage",e2,d6,18,f5),::hx::paccDynamic)) );
+HXLINE( 429)		this->BF_X = ( (Float)( ::Dynamic(stageData->__Field(HX_("boyfriend",6a,29,b8,e6),::hx::paccDynamic))->__GetItem(0)) );
+HXLINE( 430)		this->BF_Y = ( (Float)( ::Dynamic(stageData->__Field(HX_("boyfriend",6a,29,b8,e6),::hx::paccDynamic))->__GetItem(1)) );
+HXLINE( 431)		this->GF_X = ( (Float)( ::Dynamic(stageData->__Field(HX_("girlfriend",ba,91,48,98),::hx::paccDynamic))->__GetItem(0)) );
+HXLINE( 432)		this->GF_Y = ( (Float)( ::Dynamic(stageData->__Field(HX_("girlfriend",ba,91,48,98),::hx::paccDynamic))->__GetItem(1)) );
+HXLINE( 433)		this->DAD_X = ( (Float)( ::Dynamic(stageData->__Field(HX_("opponent",9d,b9,b8,f8),::hx::paccDynamic))->__GetItem(0)) );
+HXLINE( 434)		this->DAD_Y = ( (Float)( ::Dynamic(stageData->__Field(HX_("opponent",9d,b9,b8,f8),::hx::paccDynamic))->__GetItem(1)) );
+HXLINE( 436)		if (::hx::IsNotNull( stageData->__Field(HX_("camera_speed",2d,2f,ab,11),::hx::paccDynamic) )) {
+HXLINE( 437)			this->cameraSpeed = ( (Float)(stageData->__Field(HX_("camera_speed",2d,2f,ab,11),::hx::paccDynamic)) );
             		}
-HXLINE( 426)		this->boyfriendCameraOffset = ( (::Array< Float >)(stageData->__Field(HX_("camera_boyfriend",10,8c,95,41),::hx::paccDynamic)) );
-HXLINE( 427)		if (::hx::IsNull( this->boyfriendCameraOffset )) {
-HXLINE( 428)			this->boyfriendCameraOffset = ::Array_obj< Float >::fromData( _hx_array_data_46c2835d_19,2);
+HXLINE( 439)		this->boyfriendCameraOffset = ( (::Array< Float >)(stageData->__Field(HX_("camera_boyfriend",10,8c,95,41),::hx::paccDynamic)) );
+HXLINE( 440)		if (::hx::IsNull( this->boyfriendCameraOffset )) {
+HXLINE( 441)			this->boyfriendCameraOffset = ::Array_obj< Float >::fromData( _hx_array_data_46c2835d_19,2);
             		}
-HXLINE( 430)		this->opponentCameraOffset = ( (::Array< Float >)(stageData->__Field(HX_("camera_opponent",b7,ed,08,84),::hx::paccDynamic)) );
-HXLINE( 431)		if (::hx::IsNull( this->opponentCameraOffset )) {
-HXLINE( 432)			this->opponentCameraOffset = ::Array_obj< Float >::fromData( _hx_array_data_46c2835d_20,2);
+HXLINE( 443)		this->opponentCameraOffset = ( (::Array< Float >)(stageData->__Field(HX_("camera_opponent",b7,ed,08,84),::hx::paccDynamic)) );
+HXLINE( 444)		if (::hx::IsNull( this->opponentCameraOffset )) {
+HXLINE( 445)			this->opponentCameraOffset = ::Array_obj< Float >::fromData( _hx_array_data_46c2835d_20,2);
             		}
-HXLINE( 434)		this->girlfriendCameraOffset = ( (::Array< Float >)(stageData->__Field(HX_("camera_girlfriend",54,80,21,bf),::hx::paccDynamic)) );
-HXLINE( 435)		if (::hx::IsNull( this->girlfriendCameraOffset )) {
-HXLINE( 436)			this->girlfriendCameraOffset = ::Array_obj< Float >::fromData( _hx_array_data_46c2835d_21,2);
+HXLINE( 447)		this->girlfriendCameraOffset = ( (::Array< Float >)(stageData->__Field(HX_("camera_girlfriend",54,80,21,bf),::hx::paccDynamic)) );
+HXLINE( 448)		if (::hx::IsNull( this->girlfriendCameraOffset )) {
+HXLINE( 449)			this->girlfriendCameraOffset = ::Array_obj< Float >::fromData( _hx_array_data_46c2835d_21,2);
             		}
-HXLINE( 438)		this->boyfriendGroup =  ::flixel::group::FlxTypedSpriteGroup_obj::__alloc( HX_CTX ,this->BF_X,this->BF_Y,null());
-HXLINE( 439)		this->dadGroup =  ::flixel::group::FlxTypedSpriteGroup_obj::__alloc( HX_CTX ,this->DAD_X,this->DAD_Y,null());
-HXLINE( 440)		this->gfGroup =  ::flixel::group::FlxTypedSpriteGroup_obj::__alloc( HX_CTX ,this->GF_X,this->GF_Y,null());
-HXLINE( 449)		::String _hx_switch_1 = ::PlayState_obj::curStage;
+HXLINE( 451)		this->boyfriendGroup =  ::flixel::group::FlxTypedSpriteGroup_obj::__alloc( HX_CTX ,this->BF_X,this->BF_Y,null());
+HXLINE( 452)		this->dadGroup =  ::flixel::group::FlxTypedSpriteGroup_obj::__alloc( HX_CTX ,this->DAD_X,this->DAD_Y,null());
+HXLINE( 453)		this->gfGroup =  ::flixel::group::FlxTypedSpriteGroup_obj::__alloc( HX_CTX ,this->GF_X,this->GF_Y,null());
+HXLINE( 462)		::String _hx_switch_1 = ::PlayState_obj::curStage;
             		if (  (_hx_switch_1==HX_("downtown",b4,33,10,97)) ){
-HXLINE( 722)			int offSet = 53;
-HXLINE( 724)			int px = -768;
-HXLINE( 725)			int py = -692;
-HXLINE( 727)			 ::BGSprite skybox =  ::BGSprite_obj::__alloc( HX_CTX ,HX_("downtown/Skybox2",6d,d4,38,41),px,py,((Float)0.45),((Float)0.45),null(),null());
-HXLINE( 728)			this->add(skybox);
-HXLINE( 730)			 ::BGSprite buildings =  ::BGSprite_obj::__alloc( HX_CTX ,HX_("downtown/Buildings",04,82,6e,e1),px,py,((Float)0.5),1,null(),null());
-HXLINE( 731)			this->add(buildings);
-HXLINE( 734)			 ::BGSprite windowTemp =  ::BGSprite_obj::__alloc( HX_CTX ,HX_("downtown/Win0",2f,c0,3a,44),px,py,((Float)0.5),1,null(),null());
-HXLINE( 735)			this->add(windowTemp);
-HXLINE( 737)			 ::BGSprite ground =  ::BGSprite_obj::__alloc( HX_CTX ,HX_("downtown/Ground",e2,ce,51,a2),(px + offSet),py,1,1,null(),null());
-HXLINE( 738)			this->add(ground);
-HXLINE( 741)			this->streetlight =  ::BGSprite_obj::__alloc( HX_CTX ,HX_("downtown/Streetlight",b8,37,2b,0e),(px + offSet),py,1,1,null(),null());
-HXLINE( 743)			this->frontBushes =  ::BGSprite_obj::__alloc( HX_CTX ,HX_("downtown/Front-Bushes",b5,7c,0e,20),(px + offSet),py,((Float)1.1),((Float)1.1),null(),null());
-HXLINE( 745)			this->shadeOverlay =  ::BGSprite_obj::__alloc( HX_CTX ,HX_("downtown/Overlay",d5,66,5d,87),(px + offSet),py,1,1,null(),null());
-HXLINE( 747)			this->shadeOverlay->set_visible(false);
-HXLINE( 749)			 ::BGSprite grid =  ::BGSprite_obj::__alloc( HX_CTX ,HX_("downtown/superGrid",86,3c,60,91),0,0,1,1,null(),null());
-HXLINE( 750)			this->add(grid);
-HXLINE( 751)			grid->set_alpha(((Float)0.5));
-HXLINE( 721)			goto _hx_goto_5;
+HXLINE( 735)			int offSet = 53;
+HXLINE( 737)			int px = -768;
+HXLINE( 738)			int py = -692;
+HXLINE( 740)			 ::BGSprite skybox =  ::BGSprite_obj::__alloc( HX_CTX ,HX_("downtown/Skybox2",6d,d4,38,41),px,py,((Float)0.45),((Float)0.45),null(),null());
+HXLINE( 741)			this->add(skybox);
+HXLINE( 743)			 ::BGSprite buildings =  ::BGSprite_obj::__alloc( HX_CTX ,HX_("downtown/Buildings",04,82,6e,e1),px,py,((Float)0.5),1,null(),null());
+HXLINE( 744)			this->add(buildings);
+HXLINE( 747)			 ::BGSprite windowTemp =  ::BGSprite_obj::__alloc( HX_CTX ,HX_("downtown/Win0",2f,c0,3a,44),px,py,((Float)0.5),1,null(),null());
+HXLINE( 748)			this->add(windowTemp);
+HXLINE( 750)			this->downtownWindows =  ::flixel::group::FlxTypedGroup_obj::__alloc( HX_CTX ,null());
+HXLINE( 751)			this->add(this->downtownWindows);
+HXLINE( 753)			{
+HXLINE( 754)				{
+HXLINE( 755)					 ::BGSprite windows =  ::BGSprite_obj::__alloc( HX_CTX ,(HX_("downtown/Win",e1,84,19,92) + 0),px,py,((Float)0.5),1,null(),null());
+HXLINE( 759)					windows->setGraphicSize(::Std_obj::_hx_int(windows->get_width()),null());
+HXLINE( 760)					windows->updateHitbox();
+HXLINE( 761)					this->downtownWindows->add(windows).StaticCast<  ::BGSprite >();
+            				}
+HXLINE( 754)				{
+HXLINE( 755)					 ::BGSprite windows1 =  ::BGSprite_obj::__alloc( HX_CTX ,(HX_("downtown/Win",e1,84,19,92) + 1),px,py,((Float)0.5),1,null(),null());
+HXLINE( 758)					windows1->set_visible(false);
+HXLINE( 759)					windows1->setGraphicSize(::Std_obj::_hx_int(windows1->get_width()),null());
+HXLINE( 760)					windows1->updateHitbox();
+HXLINE( 761)					this->downtownWindows->add(windows1).StaticCast<  ::BGSprite >();
+            				}
+HXLINE( 754)				{
+HXLINE( 755)					 ::BGSprite windows2 =  ::BGSprite_obj::__alloc( HX_CTX ,(HX_("downtown/Win",e1,84,19,92) + 2),px,py,((Float)0.5),1,null(),null());
+HXLINE( 758)					windows2->set_visible(false);
+HXLINE( 759)					windows2->setGraphicSize(::Std_obj::_hx_int(windows2->get_width()),null());
+HXLINE( 760)					windows2->updateHitbox();
+HXLINE( 761)					this->downtownWindows->add(windows2).StaticCast<  ::BGSprite >();
+            				}
+HXLINE( 754)				{
+HXLINE( 755)					 ::BGSprite windows3 =  ::BGSprite_obj::__alloc( HX_CTX ,(HX_("downtown/Win",e1,84,19,92) + 3),px,py,((Float)0.5),1,null(),null());
+HXLINE( 758)					windows3->set_visible(false);
+HXLINE( 759)					windows3->setGraphicSize(::Std_obj::_hx_int(windows3->get_width()),null());
+HXLINE( 760)					windows3->updateHitbox();
+HXLINE( 761)					this->downtownWindows->add(windows3).StaticCast<  ::BGSprite >();
+            				}
+HXLINE( 754)				{
+HXLINE( 755)					 ::BGSprite windows4 =  ::BGSprite_obj::__alloc( HX_CTX ,(HX_("downtown/Win",e1,84,19,92) + 4),px,py,((Float)0.5),1,null(),null());
+HXLINE( 758)					windows4->set_visible(false);
+HXLINE( 759)					windows4->setGraphicSize(::Std_obj::_hx_int(windows4->get_width()),null());
+HXLINE( 760)					windows4->updateHitbox();
+HXLINE( 761)					this->downtownWindows->add(windows4).StaticCast<  ::BGSprite >();
+            				}
+            			}
+HXLINE( 764)			 ::BGSprite ground =  ::BGSprite_obj::__alloc( HX_CTX ,HX_("downtown/Ground",e2,ce,51,a2),(px + offSet),py,1,1,null(),null());
+HXLINE( 765)			this->add(ground);
+HXLINE( 768)			this->streetlight =  ::BGSprite_obj::__alloc( HX_CTX ,HX_("downtown/Streetlight",b8,37,2b,0e),(px + offSet),py,1,1,null(),null());
+HXLINE( 770)			this->frontBushes =  ::BGSprite_obj::__alloc( HX_CTX ,HX_("downtown/Front-Bushes",b5,7c,0e,20),(px + offSet),py,((Float)1.1),((Float)1.1),null(),null());
+HXLINE( 772)			this->shadeOverlay =  ::BGSprite_obj::__alloc( HX_CTX ,HX_("downtown/Overlay",d5,66,5d,87),(px + offSet),py,1,1,null(),null());
+HXLINE( 774)			this->shadeOverlay->set_visible(false);
+HXLINE( 776)			 ::BGSprite grid =  ::BGSprite_obj::__alloc( HX_CTX ,HX_("downtown/superGrid",86,3c,60,91),0,0,1,1,null(),null());
+HXLINE( 778)			grid->set_alpha(((Float)0.5));
+HXLINE( 734)			goto _hx_goto_5;
             		}
             		if (  (_hx_switch_1==HX_("liminalHell",3d,fa,dc,88)) ){
-HXLINE( 774)			this->liminalHill =  ::BGSprite_obj::__alloc( HX_CTX ,HX_("liminal/liminalHill_test",1f,cc,b7,c3),-1497,-1395,1,1,null(),null());
-HXLINE( 775)			this->liminalHell =  ::BGSprite_obj::__alloc( HX_CTX ,HX_("liminal/liminalHell_test",a3,03,ee,de),-1522,-1395,1,1,null(),null());
-HXLINE( 778)			this->liminalHell->set_visible(false);
-HXLINE( 779)			this->add(this->liminalHell);
-HXLINE( 782)			this->liminalHill->set_visible(true);
-HXLINE( 783)			this->add(this->liminalHill);
-HXLINE( 787)			 ::BGSprite grid =  ::BGSprite_obj::__alloc( HX_CTX ,HX_("downtown/superGrid",86,3c,60,91),0,0,1,1,null(),null());
-HXLINE( 789)			grid->set_alpha(((Float)0.5));
-HXLINE( 770)			goto _hx_goto_5;
+HXLINE( 801)			this->liminalHill =  ::BGSprite_obj::__alloc( HX_CTX ,HX_("liminal/liminalHill_test",1f,cc,b7,c3),-1497,-1395,1,1,null(),null());
+HXLINE( 802)			this->liminalHell =  ::BGSprite_obj::__alloc( HX_CTX ,HX_("liminal/liminalHell_test",a3,03,ee,de),-1522,-1395,1,1,null(),null());
+HXLINE( 816)			this->liminalSkyNorm =  ::BGSprite_obj::__alloc( HX_CTX ,HX_("liminal/liminal-Skybox-Normal",6e,b9,ee,5f),-1497,-618,((Float)0.45),((Float)0.45),null(),null());
+HXLINE( 817)			this->liminalHillNorm =  ::BGSprite_obj::__alloc( HX_CTX ,HX_("liminal/liminal-hill-normal",57,55,77,0d),-1506,-492,((Float)0.5),1,null(),null());
+HXLINE( 818)			this->liminalGroundNorm =  ::BGSprite_obj::__alloc( HX_CTX ,HX_("liminal/liminal-ground-normal",51,74,94,5c),-1497,-327,1,1,null(),null());
+HXLINE( 820)			this->add(this->liminalSkyNorm);
+HXLINE( 821)			this->add(this->liminalHillNorm);
+HXLINE( 822)			this->add(this->liminalGroundNorm);
+HXLINE( 824)			this->liminalSkyHell =  ::BGSprite_obj::__alloc( HX_CTX ,HX_("liminal/liminal-Skybox-Hellscape",42,d1,10,24),-1609,-1192,((Float)0.5),((Float)0.45),null(),null());
+HXLINE( 825)			this->liminalHillHell =  ::BGSprite_obj::__alloc( HX_CTX ,HX_("liminal/liminal-hill-hellscape",f9,cc,9d,a9),-1530,-1395,((Float)0.75),1,null(),null());
+HXLINE( 826)			this->liminalGroundHell =  ::BGSprite_obj::__alloc( HX_CTX ,HX_("liminal/liminal-ground-hellscape",3f,c6,46,64),-1497,-418,1,1,null(),null());
+HXLINE( 827)			this->liminalForegroundHell =  ::BGSprite_obj::__alloc( HX_CTX ,HX_("liminal/liminal-foreground-rocks",80,07,af,4d),-651,-39,1,1,null(),null());
+HXLINE( 828)			this->liminalBenchHell =  ::BGSprite_obj::__alloc( HX_CTX ,HX_("liminal/liminal-bench-test",eb,03,e2,6a),849,-120,((Float)0.5),1,null(),null());
+HXLINE( 830)			this->add(this->liminalSkyHell);
+HXLINE( 831)			this->add(this->liminalHillHell);
+HXLINE( 832)			this->add(this->liminalGroundHell);
+HXLINE( 833)			this->add(this->liminalForegroundHell);
+HXLINE( 834)			this->add(this->liminalBenchHell);
+HXLINE( 836)			this->liminalSkyHell->set_visible(false);
+HXLINE( 837)			this->liminalHillHell->set_visible(false);
+HXLINE( 838)			this->liminalGroundHell->set_visible(false);
+HXLINE( 839)			this->liminalForegroundHell->set_visible(false);
+HXLINE( 840)			this->liminalBenchHell->set_visible(false);
+HXLINE( 843)			 ::BGSprite grid =  ::BGSprite_obj::__alloc( HX_CTX ,HX_("downtown/superGrid",86,3c,60,91),0,0,1,1,null(),null());
+HXLINE( 845)			grid->set_alpha(((Float)0.5));
+HXLINE( 797)			goto _hx_goto_5;
             		}
             		if (  (_hx_switch_1==HX_("limo",1f,17,b3,47)) ){
-HXLINE( 532)			 ::BGSprite skyBG =  ::BGSprite_obj::__alloc( HX_CTX ,HX_("limo/limoSunset",45,de,4f,6e),-120,-50,((Float)0.1),((Float)0.1),null(),null());
-HXLINE( 533)			this->add(skyBG);
-HXLINE( 535)			if (!(::ClientPrefs_obj::lowQuality)) {
-HXLINE( 536)				this->limoMetalPole =  ::BGSprite_obj::__alloc( HX_CTX ,HX_("gore/metalPole",6b,f5,62,65),-500,220,((Float)0.4),((Float)0.4),null(),null());
-HXLINE( 537)				this->add(this->limoMetalPole);
-HXLINE( 539)				this->bgLimo =  ::BGSprite_obj::__alloc( HX_CTX ,HX_("limo/bgLimo",b4,c7,45,2c),-150,480,((Float)0.4),((Float)0.4),::Array_obj< ::String >::fromData( _hx_array_data_46c2835d_22,1),true);
-HXLINE( 540)				this->add(this->bgLimo);
-HXLINE( 542)				this->limoCorpse =  ::BGSprite_obj::__alloc( HX_CTX ,HX_("gore/noooooo",da,20,24,22),-500,(this->limoMetalPole->y - ( (Float)(130) )),((Float)0.4),((Float)0.4),::Array_obj< ::String >::fromData( _hx_array_data_46c2835d_23,1),true);
-HXLINE( 543)				this->add(this->limoCorpse);
-HXLINE( 545)				this->limoCorpseTwo =  ::BGSprite_obj::__alloc( HX_CTX ,HX_("gore/noooooo",da,20,24,22),-500,this->limoMetalPole->y,((Float)0.4),((Float)0.4),::Array_obj< ::String >::fromData( _hx_array_data_46c2835d_24,1),true);
-HXLINE( 546)				this->add(this->limoCorpseTwo);
-HXLINE( 548)				this->grpLimoDancers =  ::flixel::group::FlxTypedGroup_obj::__alloc( HX_CTX ,null());
-HXLINE( 549)				this->add(this->grpLimoDancers);
-HXLINE( 551)				{
-HXLINE( 552)					{
-HXLINE( 553)						 ::BackgroundDancer dancer =  ::BackgroundDancer_obj::__alloc( HX_CTX ,( (Float)(130) ),(this->bgLimo->y - ( (Float)(400) )));
-HXLINE( 554)						dancer->scrollFactor->set(((Float)0.4),((Float)0.4));
-HXLINE( 555)						this->grpLimoDancers->add(dancer).StaticCast<  ::BackgroundDancer >();
+HXLINE( 545)			 ::BGSprite skyBG =  ::BGSprite_obj::__alloc( HX_CTX ,HX_("limo/limoSunset",45,de,4f,6e),-120,-50,((Float)0.1),((Float)0.1),null(),null());
+HXLINE( 546)			this->add(skyBG);
+HXLINE( 548)			if (!(::ClientPrefs_obj::lowQuality)) {
+HXLINE( 549)				this->limoMetalPole =  ::BGSprite_obj::__alloc( HX_CTX ,HX_("gore/metalPole",6b,f5,62,65),-500,220,((Float)0.4),((Float)0.4),null(),null());
+HXLINE( 550)				this->add(this->limoMetalPole);
+HXLINE( 552)				this->bgLimo =  ::BGSprite_obj::__alloc( HX_CTX ,HX_("limo/bgLimo",b4,c7,45,2c),-150,480,((Float)0.4),((Float)0.4),::Array_obj< ::String >::fromData( _hx_array_data_46c2835d_22,1),true);
+HXLINE( 553)				this->add(this->bgLimo);
+HXLINE( 555)				this->limoCorpse =  ::BGSprite_obj::__alloc( HX_CTX ,HX_("gore/noooooo",da,20,24,22),-500,(this->limoMetalPole->y - ( (Float)(130) )),((Float)0.4),((Float)0.4),::Array_obj< ::String >::fromData( _hx_array_data_46c2835d_23,1),true);
+HXLINE( 556)				this->add(this->limoCorpse);
+HXLINE( 558)				this->limoCorpseTwo =  ::BGSprite_obj::__alloc( HX_CTX ,HX_("gore/noooooo",da,20,24,22),-500,this->limoMetalPole->y,((Float)0.4),((Float)0.4),::Array_obj< ::String >::fromData( _hx_array_data_46c2835d_24,1),true);
+HXLINE( 559)				this->add(this->limoCorpseTwo);
+HXLINE( 561)				this->grpLimoDancers =  ::flixel::group::FlxTypedGroup_obj::__alloc( HX_CTX ,null());
+HXLINE( 562)				this->add(this->grpLimoDancers);
+HXLINE( 564)				{
+HXLINE( 565)					{
+HXLINE( 566)						 ::BackgroundDancer dancer =  ::BackgroundDancer_obj::__alloc( HX_CTX ,( (Float)(130) ),(this->bgLimo->y - ( (Float)(400) )));
+HXLINE( 567)						dancer->scrollFactor->set(((Float)0.4),((Float)0.4));
+HXLINE( 568)						this->grpLimoDancers->add(dancer).StaticCast<  ::BackgroundDancer >();
             					}
-HXLINE( 552)					{
-HXLINE( 553)						 ::BackgroundDancer dancer1 =  ::BackgroundDancer_obj::__alloc( HX_CTX ,( (Float)(500) ),(this->bgLimo->y - ( (Float)(400) )));
-HXLINE( 554)						dancer1->scrollFactor->set(((Float)0.4),((Float)0.4));
-HXLINE( 555)						this->grpLimoDancers->add(dancer1).StaticCast<  ::BackgroundDancer >();
+HXLINE( 565)					{
+HXLINE( 566)						 ::BackgroundDancer dancer1 =  ::BackgroundDancer_obj::__alloc( HX_CTX ,( (Float)(500) ),(this->bgLimo->y - ( (Float)(400) )));
+HXLINE( 567)						dancer1->scrollFactor->set(((Float)0.4),((Float)0.4));
+HXLINE( 568)						this->grpLimoDancers->add(dancer1).StaticCast<  ::BackgroundDancer >();
             					}
-HXLINE( 552)					{
-HXLINE( 553)						 ::BackgroundDancer dancer2 =  ::BackgroundDancer_obj::__alloc( HX_CTX ,( (Float)(870) ),(this->bgLimo->y - ( (Float)(400) )));
-HXLINE( 554)						dancer2->scrollFactor->set(((Float)0.4),((Float)0.4));
-HXLINE( 555)						this->grpLimoDancers->add(dancer2).StaticCast<  ::BackgroundDancer >();
+HXLINE( 565)					{
+HXLINE( 566)						 ::BackgroundDancer dancer2 =  ::BackgroundDancer_obj::__alloc( HX_CTX ,( (Float)(870) ),(this->bgLimo->y - ( (Float)(400) )));
+HXLINE( 567)						dancer2->scrollFactor->set(((Float)0.4),((Float)0.4));
+HXLINE( 568)						this->grpLimoDancers->add(dancer2).StaticCast<  ::BackgroundDancer >();
             					}
-HXLINE( 552)					{
-HXLINE( 553)						 ::BackgroundDancer dancer3 =  ::BackgroundDancer_obj::__alloc( HX_CTX ,( (Float)(1240) ),(this->bgLimo->y - ( (Float)(400) )));
-HXLINE( 554)						dancer3->scrollFactor->set(((Float)0.4),((Float)0.4));
-HXLINE( 555)						this->grpLimoDancers->add(dancer3).StaticCast<  ::BackgroundDancer >();
+HXLINE( 565)					{
+HXLINE( 566)						 ::BackgroundDancer dancer3 =  ::BackgroundDancer_obj::__alloc( HX_CTX ,( (Float)(1240) ),(this->bgLimo->y - ( (Float)(400) )));
+HXLINE( 567)						dancer3->scrollFactor->set(((Float)0.4),((Float)0.4));
+HXLINE( 568)						this->grpLimoDancers->add(dancer3).StaticCast<  ::BackgroundDancer >();
             					}
-HXLINE( 552)					{
-HXLINE( 553)						 ::BackgroundDancer dancer4 =  ::BackgroundDancer_obj::__alloc( HX_CTX ,( (Float)(1610) ),(this->bgLimo->y - ( (Float)(400) )));
-HXLINE( 554)						dancer4->scrollFactor->set(((Float)0.4),((Float)0.4));
-HXLINE( 555)						this->grpLimoDancers->add(dancer4).StaticCast<  ::BackgroundDancer >();
+HXLINE( 565)					{
+HXLINE( 566)						 ::BackgroundDancer dancer4 =  ::BackgroundDancer_obj::__alloc( HX_CTX ,( (Float)(1610) ),(this->bgLimo->y - ( (Float)(400) )));
+HXLINE( 567)						dancer4->scrollFactor->set(((Float)0.4),((Float)0.4));
+HXLINE( 568)						this->grpLimoDancers->add(dancer4).StaticCast<  ::BackgroundDancer >();
             					}
             				}
-HXLINE( 558)				this->limoLight =  ::BGSprite_obj::__alloc( HX_CTX ,HX_("gore/coldHeartKiller",79,ac,4a,05),(this->limoMetalPole->x - ( (Float)(180) )),(this->limoMetalPole->y - ( (Float)(80) )),((Float)0.4),((Float)0.4),null(),null());
-HXLINE( 559)				this->add(this->limoLight);
-HXLINE( 561)				this->grpLimoParticles =  ::flixel::group::FlxTypedGroup_obj::__alloc( HX_CTX ,null());
-HXLINE( 562)				this->add(this->grpLimoParticles);
-HXLINE( 565)				 ::BGSprite particle =  ::BGSprite_obj::__alloc( HX_CTX ,HX_("gore/stupidBlood",af,b8,f7,cb),-400,-400,((Float)0.4),((Float)0.4),::Array_obj< ::String >::fromData( _hx_array_data_46c2835d_25,1),false);
-HXLINE( 566)				particle->set_alpha(((Float)0.01));
-HXLINE( 567)				this->grpLimoParticles->add(particle).StaticCast<  ::BGSprite >();
-HXLINE( 568)				this->resetLimoKill();
-HXLINE( 571)				::CoolUtil_obj::precacheSound(HX_("dancerdeath",f5,1c,1c,c9),null());
+HXLINE( 571)				this->limoLight =  ::BGSprite_obj::__alloc( HX_CTX ,HX_("gore/coldHeartKiller",79,ac,4a,05),(this->limoMetalPole->x - ( (Float)(180) )),(this->limoMetalPole->y - ( (Float)(80) )),((Float)0.4),((Float)0.4),null(),null());
+HXLINE( 572)				this->add(this->limoLight);
+HXLINE( 574)				this->grpLimoParticles =  ::flixel::group::FlxTypedGroup_obj::__alloc( HX_CTX ,null());
+HXLINE( 575)				this->add(this->grpLimoParticles);
+HXLINE( 578)				 ::BGSprite particle =  ::BGSprite_obj::__alloc( HX_CTX ,HX_("gore/stupidBlood",af,b8,f7,cb),-400,-400,((Float)0.4),((Float)0.4),::Array_obj< ::String >::fromData( _hx_array_data_46c2835d_25,1),false);
+HXLINE( 579)				particle->set_alpha(((Float)0.01));
+HXLINE( 580)				this->grpLimoParticles->add(particle).StaticCast<  ::BGSprite >();
+HXLINE( 581)				this->resetLimoKill();
+HXLINE( 584)				::CoolUtil_obj::precacheSound(HX_("dancerdeath",f5,1c,1c,c9),null());
             			}
-HXLINE( 574)			this->limo =  ::BGSprite_obj::__alloc( HX_CTX ,HX_("limo/limoDrive",3b,67,64,e6),-120,550,1,1,::Array_obj< ::String >::fromData( _hx_array_data_46c2835d_26,1),true);
-HXLINE( 576)			this->fastCar =  ::BGSprite_obj::__alloc( HX_CTX ,HX_("limo/fastCarLol",c1,b0,ed,94),-300,160,null(),null(),null(),null());
-HXLINE( 577)			this->fastCar->set_active(true);
-HXLINE( 578)			this->limoKillingState = 0;
-HXLINE( 531)			goto _hx_goto_5;
+HXLINE( 587)			this->limo =  ::BGSprite_obj::__alloc( HX_CTX ,HX_("limo/limoDrive",3b,67,64,e6),-120,550,1,1,::Array_obj< ::String >::fromData( _hx_array_data_46c2835d_26,1),true);
+HXLINE( 589)			this->fastCar =  ::BGSprite_obj::__alloc( HX_CTX ,HX_("limo/fastCarLol",c1,b0,ed,94),-300,160,null(),null(),null(),null());
+HXLINE( 590)			this->fastCar->set_active(true);
+HXLINE( 591)			this->limoKillingState = 0;
+HXLINE( 544)			goto _hx_goto_5;
             		}
             		if (  (_hx_switch_1==HX_("mall",d4,3a,56,48)) ){
-HXLINE( 581)			 ::BGSprite bg =  ::BGSprite_obj::__alloc( HX_CTX ,HX_("christmas/bgWalls",57,9f,1b,51),-1000,-500,((Float)0.2),((Float)0.2),null(),null());
-HXLINE( 582)			bg->setGraphicSize(::Std_obj::_hx_int((bg->get_width() * ((Float)0.8))),null());
-HXLINE( 583)			bg->updateHitbox();
-HXLINE( 584)			this->add(bg);
-HXLINE( 586)			if (!(::ClientPrefs_obj::lowQuality)) {
-HXLINE( 587)				this->upperBoppers =  ::BGSprite_obj::__alloc( HX_CTX ,HX_("christmas/upperBop",2e,2f,6d,ac),-240,-90,((Float)0.33),((Float)0.33),::Array_obj< ::String >::fromData( _hx_array_data_46c2835d_27,1),null());
-HXLINE( 588)				 ::BGSprite _hx_tmp = this->upperBoppers;
-HXDLIN( 588)				_hx_tmp->setGraphicSize(::Std_obj::_hx_int((this->upperBoppers->get_width() * ((Float)0.85))),null());
-HXLINE( 589)				this->upperBoppers->updateHitbox();
-HXLINE( 590)				this->add(this->upperBoppers);
-HXLINE( 592)				 ::BGSprite bgEscalator =  ::BGSprite_obj::__alloc( HX_CTX ,HX_("christmas/bgEscalator",64,1f,c0,d5),-1100,-600,((Float)0.3),((Float)0.3),null(),null());
-HXLINE( 593)				bgEscalator->setGraphicSize(::Std_obj::_hx_int((bgEscalator->get_width() * ((Float)0.9))),null());
-HXLINE( 594)				bgEscalator->updateHitbox();
-HXLINE( 595)				this->add(bgEscalator);
+HXLINE( 594)			 ::BGSprite bg =  ::BGSprite_obj::__alloc( HX_CTX ,HX_("christmas/bgWalls",57,9f,1b,51),-1000,-500,((Float)0.2),((Float)0.2),null(),null());
+HXLINE( 595)			bg->setGraphicSize(::Std_obj::_hx_int((bg->get_width() * ((Float)0.8))),null());
+HXLINE( 596)			bg->updateHitbox();
+HXLINE( 597)			this->add(bg);
+HXLINE( 599)			if (!(::ClientPrefs_obj::lowQuality)) {
+HXLINE( 600)				this->upperBoppers =  ::BGSprite_obj::__alloc( HX_CTX ,HX_("christmas/upperBop",2e,2f,6d,ac),-240,-90,((Float)0.33),((Float)0.33),::Array_obj< ::String >::fromData( _hx_array_data_46c2835d_27,1),null());
+HXLINE( 601)				 ::BGSprite _hx_tmp = this->upperBoppers;
+HXDLIN( 601)				_hx_tmp->setGraphicSize(::Std_obj::_hx_int((this->upperBoppers->get_width() * ((Float)0.85))),null());
+HXLINE( 602)				this->upperBoppers->updateHitbox();
+HXLINE( 603)				this->add(this->upperBoppers);
+HXLINE( 605)				 ::BGSprite bgEscalator =  ::BGSprite_obj::__alloc( HX_CTX ,HX_("christmas/bgEscalator",64,1f,c0,d5),-1100,-600,((Float)0.3),((Float)0.3),null(),null());
+HXLINE( 606)				bgEscalator->setGraphicSize(::Std_obj::_hx_int((bgEscalator->get_width() * ((Float)0.9))),null());
+HXLINE( 607)				bgEscalator->updateHitbox();
+HXLINE( 608)				this->add(bgEscalator);
             			}
-HXLINE( 598)			 ::BGSprite tree =  ::BGSprite_obj::__alloc( HX_CTX ,HX_("christmas/christmasTree",73,57,6d,7b),370,-250,((Float)0.40),((Float)0.40),null(),null());
-HXLINE( 599)			this->add(tree);
-HXLINE( 601)			this->bottomBoppers =  ::BGSprite_obj::__alloc( HX_CTX ,HX_("christmas/bottomBop",cb,69,c5,59),-300,140,((Float)0.9),((Float)0.9),::Array_obj< ::String >::fromData( _hx_array_data_46c2835d_28,1),null());
-HXLINE( 602)			this->bottomBoppers->animation->addByPrefix(HX_("hey",dc,42,4f,00),HX_("Bottom Level Boppers HEY",64,78,db,13),24,false,null(),null());
-HXLINE( 603)			 ::BGSprite _hx_tmp = this->bottomBoppers;
-HXDLIN( 603)			_hx_tmp->setGraphicSize(::Std_obj::_hx_int(this->bottomBoppers->get_width()),null());
-HXLINE( 604)			this->bottomBoppers->updateHitbox();
-HXLINE( 605)			this->add(this->bottomBoppers);
-HXLINE( 607)			 ::BGSprite fgSnow =  ::BGSprite_obj::__alloc( HX_CTX ,HX_("christmas/fgSnow",91,40,e7,37),-600,700,null(),null(),null(),null());
-HXLINE( 608)			this->add(fgSnow);
-HXLINE( 610)			this->santa =  ::BGSprite_obj::__alloc( HX_CTX ,HX_("christmas/santa",00,86,f4,2d),-840,150,1,1,::Array_obj< ::String >::fromData( _hx_array_data_46c2835d_29,1),null());
-HXLINE( 611)			this->add(this->santa);
-HXLINE( 612)			::CoolUtil_obj::precacheSound(HX_("Lights_Shut_off",86,a9,43,29),null());
-HXLINE( 580)			goto _hx_goto_5;
+HXLINE( 611)			 ::BGSprite tree =  ::BGSprite_obj::__alloc( HX_CTX ,HX_("christmas/christmasTree",73,57,6d,7b),370,-250,((Float)0.40),((Float)0.40),null(),null());
+HXLINE( 612)			this->add(tree);
+HXLINE( 614)			this->bottomBoppers =  ::BGSprite_obj::__alloc( HX_CTX ,HX_("christmas/bottomBop",cb,69,c5,59),-300,140,((Float)0.9),((Float)0.9),::Array_obj< ::String >::fromData( _hx_array_data_46c2835d_28,1),null());
+HXLINE( 615)			this->bottomBoppers->animation->addByPrefix(HX_("hey",dc,42,4f,00),HX_("Bottom Level Boppers HEY",64,78,db,13),24,false,null(),null());
+HXLINE( 616)			 ::BGSprite _hx_tmp = this->bottomBoppers;
+HXDLIN( 616)			_hx_tmp->setGraphicSize(::Std_obj::_hx_int(this->bottomBoppers->get_width()),null());
+HXLINE( 617)			this->bottomBoppers->updateHitbox();
+HXLINE( 618)			this->add(this->bottomBoppers);
+HXLINE( 620)			 ::BGSprite fgSnow =  ::BGSprite_obj::__alloc( HX_CTX ,HX_("christmas/fgSnow",91,40,e7,37),-600,700,null(),null(),null(),null());
+HXLINE( 621)			this->add(fgSnow);
+HXLINE( 623)			this->santa =  ::BGSprite_obj::__alloc( HX_CTX ,HX_("christmas/santa",00,86,f4,2d),-840,150,1,1,::Array_obj< ::String >::fromData( _hx_array_data_46c2835d_29,1),null());
+HXLINE( 624)			this->add(this->santa);
+HXLINE( 625)			::CoolUtil_obj::precacheSound(HX_("Lights_Shut_off",86,a9,43,29),null());
+HXLINE( 593)			goto _hx_goto_5;
             		}
             		if (  (_hx_switch_1==HX_("mallEvil",88,d3,e3,a7)) ){
-HXLINE( 615)			 ::BGSprite bg =  ::BGSprite_obj::__alloc( HX_CTX ,HX_("christmas/evilBG",86,9d,17,83),-400,-500,((Float)0.2),((Float)0.2),null(),null());
-HXLINE( 616)			bg->setGraphicSize(::Std_obj::_hx_int((bg->get_width() * ((Float)0.8))),null());
-HXLINE( 617)			bg->updateHitbox();
-HXLINE( 618)			this->add(bg);
-HXLINE( 620)			 ::BGSprite evilTree =  ::BGSprite_obj::__alloc( HX_CTX ,HX_("christmas/evilTree",7f,5b,65,3a),300,-300,((Float)0.2),((Float)0.2),null(),null());
-HXLINE( 621)			this->add(evilTree);
-HXLINE( 623)			 ::BGSprite evilSnow =  ::BGSprite_obj::__alloc( HX_CTX ,HX_("christmas/evilSnow",a4,24,b9,39),-200,700,null(),null(),null(),null());
-HXLINE( 624)			this->add(evilSnow);
-HXLINE( 614)			goto _hx_goto_5;
+HXLINE( 628)			 ::BGSprite bg =  ::BGSprite_obj::__alloc( HX_CTX ,HX_("christmas/evilBG",86,9d,17,83),-400,-500,((Float)0.2),((Float)0.2),null(),null());
+HXLINE( 629)			bg->setGraphicSize(::Std_obj::_hx_int((bg->get_width() * ((Float)0.8))),null());
+HXLINE( 630)			bg->updateHitbox();
+HXLINE( 631)			this->add(bg);
+HXLINE( 633)			 ::BGSprite evilTree =  ::BGSprite_obj::__alloc( HX_CTX ,HX_("christmas/evilTree",7f,5b,65,3a),300,-300,((Float)0.2),((Float)0.2),null(),null());
+HXLINE( 634)			this->add(evilTree);
+HXLINE( 636)			 ::BGSprite evilSnow =  ::BGSprite_obj::__alloc( HX_CTX ,HX_("christmas/evilSnow",a4,24,b9,39),-200,700,null(),null(),null(),null());
+HXLINE( 637)			this->add(evilSnow);
+HXLINE( 627)			goto _hx_goto_5;
             		}
             		if (  (_hx_switch_1==HX_("philly",28,77,5e,ef)) ){
-HXLINE( 494)			if (!(::ClientPrefs_obj::lowQuality)) {
-HXLINE( 495)				 ::BGSprite bg =  ::BGSprite_obj::__alloc( HX_CTX ,HX_("philly/sky",3a,d3,d5,cc),-100,0,((Float)0.1),((Float)0.1),null(),null());
-HXLINE( 496)				this->add(bg);
+HXLINE( 507)			if (!(::ClientPrefs_obj::lowQuality)) {
+HXLINE( 508)				 ::BGSprite bg =  ::BGSprite_obj::__alloc( HX_CTX ,HX_("philly/sky",3a,d3,d5,cc),-100,0,((Float)0.1),((Float)0.1),null(),null());
+HXLINE( 509)				this->add(bg);
             			}
-HXLINE( 499)			 ::BGSprite city =  ::BGSprite_obj::__alloc( HX_CTX ,HX_("philly/city",32,0d,ae,63),-10,0,((Float)0.3),((Float)0.3),null(),null());
-HXLINE( 500)			city->setGraphicSize(::Std_obj::_hx_int((city->get_width() * ((Float)0.85))),null());
-HXLINE( 501)			city->updateHitbox();
-HXLINE( 502)			this->add(city);
-HXLINE( 504)			this->phillyCityLights =  ::flixel::group::FlxTypedGroup_obj::__alloc( HX_CTX ,null());
-HXLINE( 505)			this->add(this->phillyCityLights);
-HXLINE( 507)			{
-HXLINE( 508)				{
-HXLINE( 509)					 ::BGSprite light =  ::BGSprite_obj::__alloc( HX_CTX ,(HX_("philly/win",75,da,d8,cc) + 0),city->x,city->y,((Float)0.3),((Float)0.3),null(),null());
-HXLINE( 510)					light->set_visible(false);
-HXLINE( 511)					light->setGraphicSize(::Std_obj::_hx_int((light->get_width() * ((Float)0.85))),null());
-HXLINE( 512)					light->updateHitbox();
-HXLINE( 513)					this->phillyCityLights->add(light).StaticCast<  ::BGSprite >();
+HXLINE( 512)			 ::BGSprite city =  ::BGSprite_obj::__alloc( HX_CTX ,HX_("philly/city",32,0d,ae,63),-10,0,((Float)0.3),((Float)0.3),null(),null());
+HXLINE( 513)			city->setGraphicSize(::Std_obj::_hx_int((city->get_width() * ((Float)0.85))),null());
+HXLINE( 514)			city->updateHitbox();
+HXLINE( 515)			this->add(city);
+HXLINE( 517)			this->phillyCityLights =  ::flixel::group::FlxTypedGroup_obj::__alloc( HX_CTX ,null());
+HXLINE( 518)			this->add(this->phillyCityLights);
+HXLINE( 520)			{
+HXLINE( 521)				{
+HXLINE( 522)					 ::BGSprite light =  ::BGSprite_obj::__alloc( HX_CTX ,(HX_("philly/win",75,da,d8,cc) + 0),city->x,city->y,((Float)0.3),((Float)0.3),null(),null());
+HXLINE( 523)					light->set_visible(false);
+HXLINE( 524)					light->setGraphicSize(::Std_obj::_hx_int((light->get_width() * ((Float)0.85))),null());
+HXLINE( 525)					light->updateHitbox();
+HXLINE( 526)					this->phillyCityLights->add(light).StaticCast<  ::BGSprite >();
             				}
-HXLINE( 508)				{
-HXLINE( 509)					 ::BGSprite light1 =  ::BGSprite_obj::__alloc( HX_CTX ,(HX_("philly/win",75,da,d8,cc) + 1),city->x,city->y,((Float)0.3),((Float)0.3),null(),null());
-HXLINE( 510)					light1->set_visible(false);
-HXLINE( 511)					light1->setGraphicSize(::Std_obj::_hx_int((light1->get_width() * ((Float)0.85))),null());
-HXLINE( 512)					light1->updateHitbox();
-HXLINE( 513)					this->phillyCityLights->add(light1).StaticCast<  ::BGSprite >();
+HXLINE( 521)				{
+HXLINE( 522)					 ::BGSprite light1 =  ::BGSprite_obj::__alloc( HX_CTX ,(HX_("philly/win",75,da,d8,cc) + 1),city->x,city->y,((Float)0.3),((Float)0.3),null(),null());
+HXLINE( 523)					light1->set_visible(false);
+HXLINE( 524)					light1->setGraphicSize(::Std_obj::_hx_int((light1->get_width() * ((Float)0.85))),null());
+HXLINE( 525)					light1->updateHitbox();
+HXLINE( 526)					this->phillyCityLights->add(light1).StaticCast<  ::BGSprite >();
             				}
-HXLINE( 508)				{
-HXLINE( 509)					 ::BGSprite light2 =  ::BGSprite_obj::__alloc( HX_CTX ,(HX_("philly/win",75,da,d8,cc) + 2),city->x,city->y,((Float)0.3),((Float)0.3),null(),null());
-HXLINE( 510)					light2->set_visible(false);
-HXLINE( 511)					light2->setGraphicSize(::Std_obj::_hx_int((light2->get_width() * ((Float)0.85))),null());
-HXLINE( 512)					light2->updateHitbox();
-HXLINE( 513)					this->phillyCityLights->add(light2).StaticCast<  ::BGSprite >();
+HXLINE( 521)				{
+HXLINE( 522)					 ::BGSprite light2 =  ::BGSprite_obj::__alloc( HX_CTX ,(HX_("philly/win",75,da,d8,cc) + 2),city->x,city->y,((Float)0.3),((Float)0.3),null(),null());
+HXLINE( 523)					light2->set_visible(false);
+HXLINE( 524)					light2->setGraphicSize(::Std_obj::_hx_int((light2->get_width() * ((Float)0.85))),null());
+HXLINE( 525)					light2->updateHitbox();
+HXLINE( 526)					this->phillyCityLights->add(light2).StaticCast<  ::BGSprite >();
             				}
-HXLINE( 508)				{
-HXLINE( 509)					 ::BGSprite light3 =  ::BGSprite_obj::__alloc( HX_CTX ,(HX_("philly/win",75,da,d8,cc) + 3),city->x,city->y,((Float)0.3),((Float)0.3),null(),null());
-HXLINE( 510)					light3->set_visible(false);
-HXLINE( 511)					light3->setGraphicSize(::Std_obj::_hx_int((light3->get_width() * ((Float)0.85))),null());
-HXLINE( 512)					light3->updateHitbox();
-HXLINE( 513)					this->phillyCityLights->add(light3).StaticCast<  ::BGSprite >();
+HXLINE( 521)				{
+HXLINE( 522)					 ::BGSprite light3 =  ::BGSprite_obj::__alloc( HX_CTX ,(HX_("philly/win",75,da,d8,cc) + 3),city->x,city->y,((Float)0.3),((Float)0.3),null(),null());
+HXLINE( 523)					light3->set_visible(false);
+HXLINE( 524)					light3->setGraphicSize(::Std_obj::_hx_int((light3->get_width() * ((Float)0.85))),null());
+HXLINE( 525)					light3->updateHitbox();
+HXLINE( 526)					this->phillyCityLights->add(light3).StaticCast<  ::BGSprite >();
             				}
-HXLINE( 508)				{
-HXLINE( 509)					 ::BGSprite light4 =  ::BGSprite_obj::__alloc( HX_CTX ,(HX_("philly/win",75,da,d8,cc) + 4),city->x,city->y,((Float)0.3),((Float)0.3),null(),null());
-HXLINE( 510)					light4->set_visible(false);
-HXLINE( 511)					light4->setGraphicSize(::Std_obj::_hx_int((light4->get_width() * ((Float)0.85))),null());
-HXLINE( 512)					light4->updateHitbox();
-HXLINE( 513)					this->phillyCityLights->add(light4).StaticCast<  ::BGSprite >();
+HXLINE( 521)				{
+HXLINE( 522)					 ::BGSprite light4 =  ::BGSprite_obj::__alloc( HX_CTX ,(HX_("philly/win",75,da,d8,cc) + 4),city->x,city->y,((Float)0.3),((Float)0.3),null(),null());
+HXLINE( 523)					light4->set_visible(false);
+HXLINE( 524)					light4->setGraphicSize(::Std_obj::_hx_int((light4->get_width() * ((Float)0.85))),null());
+HXLINE( 525)					light4->updateHitbox();
+HXLINE( 526)					this->phillyCityLights->add(light4).StaticCast<  ::BGSprite >();
             				}
             			}
-HXLINE( 516)			if (!(::ClientPrefs_obj::lowQuality)) {
-HXLINE( 517)				 ::BGSprite streetBehind =  ::BGSprite_obj::__alloc( HX_CTX ,HX_("philly/behindTrain",07,a4,6d,d4),-40,50,null(),null(),null(),null());
-HXLINE( 518)				this->add(streetBehind);
+HXLINE( 529)			if (!(::ClientPrefs_obj::lowQuality)) {
+HXLINE( 530)				 ::BGSprite streetBehind =  ::BGSprite_obj::__alloc( HX_CTX ,HX_("philly/behindTrain",07,a4,6d,d4),-40,50,null(),null(),null(),null());
+HXLINE( 531)				this->add(streetBehind);
             			}
-HXLINE( 521)			this->phillyTrain =  ::BGSprite_obj::__alloc( HX_CTX ,HX_("philly/train",61,ce,51,a4),2000,360,null(),null(),null(),null());
-HXLINE( 522)			this->add(this->phillyTrain);
-HXLINE( 524)			 ::flixel::_hx_system::FlxSound _hx_tmp =  ::flixel::_hx_system::FlxSound_obj::__alloc( HX_CTX );
-HXDLIN( 524)			this->trainSound = _hx_tmp->loadEmbedded(::Paths_obj::sound(HX_("train_passes",56,da,5a,7f),null()),null(),null(),null());
-HXLINE( 525)			::CoolUtil_obj::precacheSound(HX_("train_passes",56,da,5a,7f),null());
-HXLINE( 526)			::flixel::FlxG_obj::sound->list->add(this->trainSound).StaticCast<  ::flixel::_hx_system::FlxSound >();
-HXLINE( 528)			 ::BGSprite street =  ::BGSprite_obj::__alloc( HX_CTX ,HX_("philly/street",4a,23,ee,ee),-40,50,null(),null(),null(),null());
-HXLINE( 529)			this->add(street);
-HXLINE( 493)			goto _hx_goto_5;
+HXLINE( 534)			this->phillyTrain =  ::BGSprite_obj::__alloc( HX_CTX ,HX_("philly/train",61,ce,51,a4),2000,360,null(),null(),null(),null());
+HXLINE( 535)			this->add(this->phillyTrain);
+HXLINE( 537)			 ::flixel::_hx_system::FlxSound _hx_tmp =  ::flixel::_hx_system::FlxSound_obj::__alloc( HX_CTX );
+HXDLIN( 537)			this->trainSound = _hx_tmp->loadEmbedded(::Paths_obj::sound(HX_("train_passes",56,da,5a,7f),null()),null(),null(),null());
+HXLINE( 538)			::CoolUtil_obj::precacheSound(HX_("train_passes",56,da,5a,7f),null());
+HXLINE( 539)			::flixel::FlxG_obj::sound->list->add(this->trainSound).StaticCast<  ::flixel::_hx_system::FlxSound >();
+HXLINE( 541)			 ::BGSprite street =  ::BGSprite_obj::__alloc( HX_CTX ,HX_("philly/street",4a,23,ee,ee),-40,50,null(),null(),null(),null());
+HXLINE( 542)			this->add(street);
+HXLINE( 506)			goto _hx_goto_5;
             		}
             		if (  (_hx_switch_1==HX_("school",74,b8,c8,40)) ){
-HXLINE( 627)			::GameOverSubstate_obj::deathSoundName = HX_("fnf_loss_sfx-pixel",23,e5,94,32);
-HXLINE( 628)			::GameOverSubstate_obj::loopSoundName = HX_("gameOver-pixel",1f,66,58,00);
-HXLINE( 629)			::GameOverSubstate_obj::endSoundName = HX_("gameOverEnd-pixel",0e,ae,3e,22);
-HXLINE( 630)			::GameOverSubstate_obj::characterName = HX_("bf-pixel-dead",34,d0,3d,c4);
-HXLINE( 632)			 ::BGSprite bgSky =  ::BGSprite_obj::__alloc( HX_CTX ,HX_("weeb/weebSky",52,34,cf,a4),0,0,((Float)0.1),((Float)0.1),null(),null());
-HXLINE( 633)			this->add(bgSky);
-HXLINE( 634)			bgSky->set_antialiasing(false);
-HXLINE( 636)			int repositionShit = -200;
-HXLINE( 638)			 ::BGSprite bgSchool =  ::BGSprite_obj::__alloc( HX_CTX ,HX_("weeb/weebSchool",a3,21,c0,f5),repositionShit,0,((Float)0.6),((Float)0.90),null(),null());
-HXLINE( 639)			this->add(bgSchool);
-HXLINE( 640)			bgSchool->set_antialiasing(false);
-HXLINE( 642)			 ::BGSprite bgStreet =  ::BGSprite_obj::__alloc( HX_CTX ,HX_("weeb/weebStreet",32,81,24,c6),repositionShit,0,((Float)0.95),((Float)0.95),null(),null());
-HXLINE( 643)			this->add(bgStreet);
-HXLINE( 644)			bgStreet->set_antialiasing(false);
-HXLINE( 646)			int widShit = ::Std_obj::_hx_int((bgSky->get_width() * ( (Float)(6) )));
-HXLINE( 647)			if (!(::ClientPrefs_obj::lowQuality)) {
-HXLINE( 648)				 ::BGSprite fgTrees =  ::BGSprite_obj::__alloc( HX_CTX ,HX_("weeb/weebTreesBack",4d,ac,bd,40),(repositionShit + 170),130,((Float)0.9),((Float)0.9),null(),null());
-HXLINE( 649)				fgTrees->setGraphicSize(::Std_obj::_hx_int((( (Float)(widShit) ) * ((Float)0.8))),null());
-HXLINE( 650)				fgTrees->updateHitbox();
-HXLINE( 651)				this->add(fgTrees);
-HXLINE( 652)				fgTrees->set_antialiasing(false);
+HXLINE( 640)			::GameOverSubstate_obj::deathSoundName = HX_("fnf_loss_sfx-pixel",23,e5,94,32);
+HXLINE( 641)			::GameOverSubstate_obj::loopSoundName = HX_("gameOver-pixel",1f,66,58,00);
+HXLINE( 642)			::GameOverSubstate_obj::endSoundName = HX_("gameOverEnd-pixel",0e,ae,3e,22);
+HXLINE( 643)			::GameOverSubstate_obj::characterName = HX_("bf-pixel-dead",34,d0,3d,c4);
+HXLINE( 645)			 ::BGSprite bgSky =  ::BGSprite_obj::__alloc( HX_CTX ,HX_("weeb/weebSky",52,34,cf,a4),0,0,((Float)0.1),((Float)0.1),null(),null());
+HXLINE( 646)			this->add(bgSky);
+HXLINE( 647)			bgSky->set_antialiasing(false);
+HXLINE( 649)			int repositionShit = -200;
+HXLINE( 651)			 ::BGSprite bgSchool =  ::BGSprite_obj::__alloc( HX_CTX ,HX_("weeb/weebSchool",a3,21,c0,f5),repositionShit,0,((Float)0.6),((Float)0.90),null(),null());
+HXLINE( 652)			this->add(bgSchool);
+HXLINE( 653)			bgSchool->set_antialiasing(false);
+HXLINE( 655)			 ::BGSprite bgStreet =  ::BGSprite_obj::__alloc( HX_CTX ,HX_("weeb/weebStreet",32,81,24,c6),repositionShit,0,((Float)0.95),((Float)0.95),null(),null());
+HXLINE( 656)			this->add(bgStreet);
+HXLINE( 657)			bgStreet->set_antialiasing(false);
+HXLINE( 659)			int widShit = ::Std_obj::_hx_int((bgSky->get_width() * ( (Float)(6) )));
+HXLINE( 660)			if (!(::ClientPrefs_obj::lowQuality)) {
+HXLINE( 661)				 ::BGSprite fgTrees =  ::BGSprite_obj::__alloc( HX_CTX ,HX_("weeb/weebTreesBack",4d,ac,bd,40),(repositionShit + 170),130,((Float)0.9),((Float)0.9),null(),null());
+HXLINE( 662)				fgTrees->setGraphicSize(::Std_obj::_hx_int((( (Float)(widShit) ) * ((Float)0.8))),null());
+HXLINE( 663)				fgTrees->updateHitbox();
+HXLINE( 664)				this->add(fgTrees);
+HXLINE( 665)				fgTrees->set_antialiasing(false);
             			}
-HXLINE( 655)			 ::flixel::FlxSprite bgTrees =  ::flixel::FlxSprite_obj::__alloc( HX_CTX ,(repositionShit - 380),-800,null());
-HXLINE( 656)			::String library = null();
-HXDLIN( 656)			 ::flixel::graphics::FlxGraphic imageLoaded = ::Paths_obj::returnGraphic(HX_("weeb/weebTrees",06,ab,3a,76),null());
-HXDLIN( 656)			bool txtExists = false;
-HXDLIN( 656)			if (::sys::FileSystem_obj::exists(::Paths_obj::modFolders(((HX_("images/",77,50,74,c1) + HX_("weeb/weebTrees",06,ab,3a,76)) + HX_(".txt",02,3f,c0,1e))))) {
-HXLINE( 656)				txtExists = true;
+HXLINE( 668)			 ::flixel::FlxSprite bgTrees =  ::flixel::FlxSprite_obj::__alloc( HX_CTX ,(repositionShit - 380),-800,null());
+HXLINE( 669)			::String library = null();
+HXDLIN( 669)			 ::flixel::graphics::FlxGraphic imageLoaded = ::Paths_obj::returnGraphic(HX_("weeb/weebTrees",06,ab,3a,76),null());
+HXDLIN( 669)			bool txtExists = false;
+HXDLIN( 669)			if (::sys::FileSystem_obj::exists(::Paths_obj::modFolders(((HX_("images/",77,50,74,c1) + HX_("weeb/weebTrees",06,ab,3a,76)) + HX_(".txt",02,3f,c0,1e))))) {
+HXLINE( 669)				txtExists = true;
             			}
-HXDLIN( 656)			 ::Dynamic _hx_tmp;
-HXDLIN( 656)			if (::hx::IsNotNull( imageLoaded )) {
-HXLINE( 656)				_hx_tmp = imageLoaded;
-            			}
-            			else {
-HXLINE( 656)				 ::flixel::graphics::FlxGraphic returnAsset = ::Paths_obj::returnGraphic(HX_("weeb/weebTrees",06,ab,3a,76),library);
-HXDLIN( 656)				_hx_tmp = returnAsset;
-            			}
-HXDLIN( 656)			::String _hx_tmp1;
-HXDLIN( 656)			if (txtExists) {
-HXLINE( 656)				_hx_tmp1 = ::sys::io::File_obj::getContent(::Paths_obj::modFolders(((HX_("images/",77,50,74,c1) + HX_("weeb/weebTrees",06,ab,3a,76)) + HX_(".txt",02,3f,c0,1e))));
+HXDLIN( 669)			 ::Dynamic _hx_tmp;
+HXDLIN( 669)			if (::hx::IsNotNull( imageLoaded )) {
+HXLINE( 669)				_hx_tmp = imageLoaded;
             			}
             			else {
-HXLINE( 656)				_hx_tmp1 = ::Paths_obj::getPath(((HX_("images/",77,50,74,c1) + HX_("weeb/weebTrees",06,ab,3a,76)) + HX_(".txt",02,3f,c0,1e)),HX_("TEXT",ad,94,ba,37),library);
+HXLINE( 669)				 ::flixel::graphics::FlxGraphic returnAsset = ::Paths_obj::returnGraphic(HX_("weeb/weebTrees",06,ab,3a,76),library);
+HXDLIN( 669)				_hx_tmp = returnAsset;
             			}
-HXDLIN( 656)			bgTrees->set_frames(::flixel::graphics::frames::FlxAtlasFrames_obj::fromSpriteSheetPacker(_hx_tmp,_hx_tmp1));
-HXLINE( 657)			bgTrees->animation->add(HX_("treeLoop",e2,72,7f,2b),::Array_obj< int >::fromData( _hx_array_data_46c2835d_30,19),12,null(),null(),null());
-HXLINE( 658)			bgTrees->animation->play(HX_("treeLoop",e2,72,7f,2b),null(),null(),null());
-HXLINE( 659)			bgTrees->scrollFactor->set(((Float)0.85),((Float)0.85));
-HXLINE( 660)			this->add(bgTrees);
-HXLINE( 661)			bgTrees->set_antialiasing(false);
-HXLINE( 663)			if (!(::ClientPrefs_obj::lowQuality)) {
-HXLINE( 664)				 ::BGSprite treeLeaves =  ::BGSprite_obj::__alloc( HX_CTX ,HX_("weeb/petals",8d,ca,2b,c2),repositionShit,-40,((Float)0.85),((Float)0.85),::Array_obj< ::String >::fromData( _hx_array_data_46c2835d_31,1),true);
-HXLINE( 665)				treeLeaves->setGraphicSize(widShit,null());
-HXLINE( 666)				treeLeaves->updateHitbox();
-HXLINE( 667)				this->add(treeLeaves);
-HXLINE( 668)				treeLeaves->set_antialiasing(false);
+HXDLIN( 669)			::String _hx_tmp1;
+HXDLIN( 669)			if (txtExists) {
+HXLINE( 669)				_hx_tmp1 = ::sys::io::File_obj::getContent(::Paths_obj::modFolders(((HX_("images/",77,50,74,c1) + HX_("weeb/weebTrees",06,ab,3a,76)) + HX_(".txt",02,3f,c0,1e))));
             			}
-HXLINE( 671)			bgSky->setGraphicSize(widShit,null());
-HXLINE( 672)			bgSchool->setGraphicSize(widShit,null());
-HXLINE( 673)			bgStreet->setGraphicSize(widShit,null());
-HXLINE( 674)			bgTrees->setGraphicSize(::Std_obj::_hx_int((( (Float)(widShit) ) * ((Float)1.4))),null());
-HXLINE( 676)			bgSky->updateHitbox();
-HXLINE( 677)			bgSchool->updateHitbox();
-HXLINE( 678)			bgStreet->updateHitbox();
-HXLINE( 679)			bgTrees->updateHitbox();
-HXLINE( 681)			if (!(::ClientPrefs_obj::lowQuality)) {
-HXLINE( 682)				this->bgGirls =  ::BackgroundGirls_obj::__alloc( HX_CTX ,( (Float)(-100) ),( (Float)(190) ));
-HXLINE( 683)				this->bgGirls->scrollFactor->set(((Float)0.9),((Float)0.9));
-HXLINE( 685)				 ::BackgroundGirls _hx_tmp = this->bgGirls;
-HXDLIN( 685)				Float _hx_tmp1 = this->bgGirls->get_width();
-HXDLIN( 685)				_hx_tmp->setGraphicSize(::Std_obj::_hx_int((_hx_tmp1 * ::PlayState_obj::daPixelZoom)),null());
-HXLINE( 686)				this->bgGirls->updateHitbox();
-HXLINE( 687)				this->add(this->bgGirls);
+            			else {
+HXLINE( 669)				_hx_tmp1 = ::Paths_obj::getPath(((HX_("images/",77,50,74,c1) + HX_("weeb/weebTrees",06,ab,3a,76)) + HX_(".txt",02,3f,c0,1e)),HX_("TEXT",ad,94,ba,37),library);
             			}
-HXLINE( 626)			goto _hx_goto_5;
+HXDLIN( 669)			bgTrees->set_frames(::flixel::graphics::frames::FlxAtlasFrames_obj::fromSpriteSheetPacker(_hx_tmp,_hx_tmp1));
+HXLINE( 670)			bgTrees->animation->add(HX_("treeLoop",e2,72,7f,2b),::Array_obj< int >::fromData( _hx_array_data_46c2835d_30,19),12,null(),null(),null());
+HXLINE( 671)			bgTrees->animation->play(HX_("treeLoop",e2,72,7f,2b),null(),null(),null());
+HXLINE( 672)			bgTrees->scrollFactor->set(((Float)0.85),((Float)0.85));
+HXLINE( 673)			this->add(bgTrees);
+HXLINE( 674)			bgTrees->set_antialiasing(false);
+HXLINE( 676)			if (!(::ClientPrefs_obj::lowQuality)) {
+HXLINE( 677)				 ::BGSprite treeLeaves =  ::BGSprite_obj::__alloc( HX_CTX ,HX_("weeb/petals",8d,ca,2b,c2),repositionShit,-40,((Float)0.85),((Float)0.85),::Array_obj< ::String >::fromData( _hx_array_data_46c2835d_31,1),true);
+HXLINE( 678)				treeLeaves->setGraphicSize(widShit,null());
+HXLINE( 679)				treeLeaves->updateHitbox();
+HXLINE( 680)				this->add(treeLeaves);
+HXLINE( 681)				treeLeaves->set_antialiasing(false);
+            			}
+HXLINE( 684)			bgSky->setGraphicSize(widShit,null());
+HXLINE( 685)			bgSchool->setGraphicSize(widShit,null());
+HXLINE( 686)			bgStreet->setGraphicSize(widShit,null());
+HXLINE( 687)			bgTrees->setGraphicSize(::Std_obj::_hx_int((( (Float)(widShit) ) * ((Float)1.4))),null());
+HXLINE( 689)			bgSky->updateHitbox();
+HXLINE( 690)			bgSchool->updateHitbox();
+HXLINE( 691)			bgStreet->updateHitbox();
+HXLINE( 692)			bgTrees->updateHitbox();
+HXLINE( 694)			if (!(::ClientPrefs_obj::lowQuality)) {
+HXLINE( 695)				this->bgGirls =  ::BackgroundGirls_obj::__alloc( HX_CTX ,( (Float)(-100) ),( (Float)(190) ));
+HXLINE( 696)				this->bgGirls->scrollFactor->set(((Float)0.9),((Float)0.9));
+HXLINE( 698)				 ::BackgroundGirls _hx_tmp = this->bgGirls;
+HXDLIN( 698)				Float _hx_tmp1 = this->bgGirls->get_width();
+HXDLIN( 698)				_hx_tmp->setGraphicSize(::Std_obj::_hx_int((_hx_tmp1 * ::PlayState_obj::daPixelZoom)),null());
+HXLINE( 699)				this->bgGirls->updateHitbox();
+HXLINE( 700)				this->add(this->bgGirls);
+            			}
+HXLINE( 639)			goto _hx_goto_5;
             		}
             		if (  (_hx_switch_1==HX_("schoolEvil",28,a1,f5,f7)) ){
-HXLINE( 691)			::GameOverSubstate_obj::deathSoundName = HX_("fnf_loss_sfx-pixel",23,e5,94,32);
-HXLINE( 692)			::GameOverSubstate_obj::loopSoundName = HX_("gameOver-pixel",1f,66,58,00);
-HXLINE( 693)			::GameOverSubstate_obj::endSoundName = HX_("gameOverEnd-pixel",0e,ae,3e,22);
-HXLINE( 694)			::GameOverSubstate_obj::characterName = HX_("bf-pixel-dead",34,d0,3d,c4);
-HXLINE( 700)			int posX = 400;
-HXLINE( 701)			int posY = 200;
-HXLINE( 702)			if (!(::ClientPrefs_obj::lowQuality)) {
-HXLINE( 703)				 ::BGSprite bg =  ::BGSprite_obj::__alloc( HX_CTX ,HX_("weeb/animatedEvilSchool",8f,dd,53,cd),posX,posY,((Float)0.8),((Float)0.9),::Array_obj< ::String >::fromData( _hx_array_data_46c2835d_32,1),true);
-HXLINE( 704)				bg->scale->set(6,6);
-HXLINE( 705)				bg->set_antialiasing(false);
-HXLINE( 706)				this->add(bg);
-HXLINE( 708)				this->bgGhouls =  ::BGSprite_obj::__alloc( HX_CTX ,HX_("weeb/bgGhouls",57,51,c2,ba),-100,190,((Float)0.9),((Float)0.9),::Array_obj< ::String >::fromData( _hx_array_data_46c2835d_33,1),false);
-HXLINE( 709)				 ::BGSprite _hx_tmp = this->bgGhouls;
-HXDLIN( 709)				Float _hx_tmp1 = this->bgGhouls->get_width();
-HXDLIN( 709)				_hx_tmp->setGraphicSize(::Std_obj::_hx_int((_hx_tmp1 * ::PlayState_obj::daPixelZoom)),null());
-HXLINE( 710)				this->bgGhouls->updateHitbox();
-HXLINE( 711)				this->bgGhouls->set_visible(false);
-HXLINE( 712)				this->bgGhouls->set_antialiasing(false);
-HXLINE( 713)				this->add(this->bgGhouls);
+HXLINE( 704)			::GameOverSubstate_obj::deathSoundName = HX_("fnf_loss_sfx-pixel",23,e5,94,32);
+HXLINE( 705)			::GameOverSubstate_obj::loopSoundName = HX_("gameOver-pixel",1f,66,58,00);
+HXLINE( 706)			::GameOverSubstate_obj::endSoundName = HX_("gameOverEnd-pixel",0e,ae,3e,22);
+HXLINE( 707)			::GameOverSubstate_obj::characterName = HX_("bf-pixel-dead",34,d0,3d,c4);
+HXLINE( 713)			int posX = 400;
+HXLINE( 714)			int posY = 200;
+HXLINE( 715)			if (!(::ClientPrefs_obj::lowQuality)) {
+HXLINE( 716)				 ::BGSprite bg =  ::BGSprite_obj::__alloc( HX_CTX ,HX_("weeb/animatedEvilSchool",8f,dd,53,cd),posX,posY,((Float)0.8),((Float)0.9),::Array_obj< ::String >::fromData( _hx_array_data_46c2835d_32,1),true);
+HXLINE( 717)				bg->scale->set(6,6);
+HXLINE( 718)				bg->set_antialiasing(false);
+HXLINE( 719)				this->add(bg);
+HXLINE( 721)				this->bgGhouls =  ::BGSprite_obj::__alloc( HX_CTX ,HX_("weeb/bgGhouls",57,51,c2,ba),-100,190,((Float)0.9),((Float)0.9),::Array_obj< ::String >::fromData( _hx_array_data_46c2835d_33,1),false);
+HXLINE( 722)				 ::BGSprite _hx_tmp = this->bgGhouls;
+HXDLIN( 722)				Float _hx_tmp1 = this->bgGhouls->get_width();
+HXDLIN( 722)				_hx_tmp->setGraphicSize(::Std_obj::_hx_int((_hx_tmp1 * ::PlayState_obj::daPixelZoom)),null());
+HXLINE( 723)				this->bgGhouls->updateHitbox();
+HXLINE( 724)				this->bgGhouls->set_visible(false);
+HXLINE( 725)				this->bgGhouls->set_antialiasing(false);
+HXLINE( 726)				this->add(this->bgGhouls);
             			}
             			else {
-HXLINE( 715)				 ::BGSprite bg =  ::BGSprite_obj::__alloc( HX_CTX ,HX_("weeb/animatedEvilSchool_low",a4,ea,70,96),posX,posY,((Float)0.8),((Float)0.9),null(),null());
-HXLINE( 716)				bg->scale->set(6,6);
-HXLINE( 717)				bg->set_antialiasing(false);
-HXLINE( 718)				this->add(bg);
+HXLINE( 728)				 ::BGSprite bg =  ::BGSprite_obj::__alloc( HX_CTX ,HX_("weeb/animatedEvilSchool_low",a4,ea,70,96),posX,posY,((Float)0.8),((Float)0.9),null(),null());
+HXLINE( 729)				bg->scale->set(6,6);
+HXLINE( 730)				bg->set_antialiasing(false);
+HXLINE( 731)				this->add(bg);
             			}
-HXLINE( 690)			goto _hx_goto_5;
+HXLINE( 703)			goto _hx_goto_5;
             		}
             		if (  (_hx_switch_1==HX_("spooky",eb,bd,9e,c1)) ){
-HXLINE( 477)			if (!(::ClientPrefs_obj::lowQuality)) {
-HXLINE( 478)				this->halloweenBG =  ::BGSprite_obj::__alloc( HX_CTX ,HX_("halloween_bg",77,a6,29,9b),-200,-100,null(),null(),::Array_obj< ::String >::fromData( _hx_array_data_46c2835d_34,2),null());
+HXLINE( 490)			if (!(::ClientPrefs_obj::lowQuality)) {
+HXLINE( 491)				this->halloweenBG =  ::BGSprite_obj::__alloc( HX_CTX ,HX_("halloween_bg",77,a6,29,9b),-200,-100,null(),null(),::Array_obj< ::String >::fromData( _hx_array_data_46c2835d_34,2),null());
             			}
             			else {
-HXLINE( 480)				this->halloweenBG =  ::BGSprite_obj::__alloc( HX_CTX ,HX_("halloween_bg_low",8c,47,c1,2b),-200,-100,null(),null(),null(),null());
+HXLINE( 493)				this->halloweenBG =  ::BGSprite_obj::__alloc( HX_CTX ,HX_("halloween_bg_low",8c,47,c1,2b),-200,-100,null(),null(),null(),null());
             			}
-HXLINE( 482)			this->add(this->halloweenBG);
-HXLINE( 484)			this->halloweenWhite =  ::BGSprite_obj::__alloc( HX_CTX ,null(),-(::flixel::FlxG_obj::width),-(::flixel::FlxG_obj::height),0,0,null(),null());
-HXLINE( 485)			 ::BGSprite _hx_tmp = this->halloweenWhite;
-HXDLIN( 485)			int _hx_tmp1 = ::Std_obj::_hx_int(( (Float)((::flixel::FlxG_obj::width * 3)) ));
-HXDLIN( 485)			_hx_tmp->makeGraphic(_hx_tmp1,::Std_obj::_hx_int(( (Float)((::flixel::FlxG_obj::height * 3)) )),-1,null(),null());
-HXLINE( 486)			this->halloweenWhite->set_alpha(( (Float)(0) ));
-HXLINE( 487)			this->halloweenWhite->set_blend(0);
-HXLINE( 490)			::CoolUtil_obj::precacheSound(HX_("thunder_1",16,4b,9e,a5),null());
-HXLINE( 491)			::CoolUtil_obj::precacheSound(HX_("thunder_2",17,4b,9e,a5),null());
-HXLINE( 476)			goto _hx_goto_5;
+HXLINE( 495)			this->add(this->halloweenBG);
+HXLINE( 497)			this->halloweenWhite =  ::BGSprite_obj::__alloc( HX_CTX ,null(),-(::flixel::FlxG_obj::width),-(::flixel::FlxG_obj::height),0,0,null(),null());
+HXLINE( 498)			 ::BGSprite _hx_tmp = this->halloweenWhite;
+HXDLIN( 498)			int _hx_tmp1 = ::Std_obj::_hx_int(( (Float)((::flixel::FlxG_obj::width * 3)) ));
+HXDLIN( 498)			_hx_tmp->makeGraphic(_hx_tmp1,::Std_obj::_hx_int(( (Float)((::flixel::FlxG_obj::height * 3)) )),-1,null(),null());
+HXLINE( 499)			this->halloweenWhite->set_alpha(( (Float)(0) ));
+HXLINE( 500)			this->halloweenWhite->set_blend(0);
+HXLINE( 503)			::CoolUtil_obj::precacheSound(HX_("thunder_1",16,4b,9e,a5),null());
+HXLINE( 504)			::CoolUtil_obj::precacheSound(HX_("thunder_2",17,4b,9e,a5),null());
+HXLINE( 489)			goto _hx_goto_5;
             		}
             		if (  (_hx_switch_1==HX_("stage",be,6a,0b,84)) ){
-HXLINE( 452)			 ::BGSprite bg =  ::BGSprite_obj::__alloc( HX_CTX ,HX_("stageback",e5,7b,3b,06),-600,-200,((Float)0.9),((Float)0.9),null(),null());
-HXLINE( 453)			this->add(bg);
-HXLINE( 455)			 ::BGSprite stageFront =  ::BGSprite_obj::__alloc( HX_CTX ,HX_("stagefront",2b,fd,b0,c6),-650,600,((Float)0.9),((Float)0.9),null(),null());
-HXLINE( 456)			stageFront->setGraphicSize(::Std_obj::_hx_int((stageFront->get_width() * ((Float)1.1))),null());
-HXLINE( 457)			stageFront->updateHitbox();
-HXLINE( 458)			this->add(stageFront);
-HXLINE( 459)			if (!(::ClientPrefs_obj::lowQuality)) {
-HXLINE( 460)				 ::BGSprite stageLight =  ::BGSprite_obj::__alloc( HX_CTX ,HX_("stage_light",55,e5,48,cf),-125,-100,((Float)0.9),((Float)0.9),null(),null());
-HXLINE( 461)				stageLight->setGraphicSize(::Std_obj::_hx_int((stageLight->get_width() * ((Float)1.1))),null());
-HXLINE( 462)				stageLight->updateHitbox();
-HXLINE( 463)				this->add(stageLight);
-HXLINE( 464)				 ::BGSprite stageLight1 =  ::BGSprite_obj::__alloc( HX_CTX ,HX_("stage_light",55,e5,48,cf),1225,-100,((Float)0.9),((Float)0.9),null(),null());
-HXLINE( 465)				stageLight1->setGraphicSize(::Std_obj::_hx_int((stageLight1->get_width() * ((Float)1.1))),null());
-HXLINE( 466)				stageLight1->updateHitbox();
-HXLINE( 467)				stageLight1->set_flipX(true);
-HXLINE( 468)				this->add(stageLight1);
-HXLINE( 470)				 ::BGSprite stageCurtains =  ::BGSprite_obj::__alloc( HX_CTX ,HX_("stagecurtains",df,ec,1a,4b),-500,-300,((Float)1.3),((Float)1.3),null(),null());
-HXLINE( 471)				stageCurtains->setGraphicSize(::Std_obj::_hx_int((stageCurtains->get_width() * ((Float)0.9))),null());
-HXLINE( 472)				stageCurtains->updateHitbox();
-HXLINE( 473)				this->add(stageCurtains);
+HXLINE( 465)			 ::BGSprite bg =  ::BGSprite_obj::__alloc( HX_CTX ,HX_("stageback",e5,7b,3b,06),-600,-200,((Float)0.9),((Float)0.9),null(),null());
+HXLINE( 466)			this->add(bg);
+HXLINE( 468)			 ::BGSprite stageFront =  ::BGSprite_obj::__alloc( HX_CTX ,HX_("stagefront",2b,fd,b0,c6),-650,600,((Float)0.9),((Float)0.9),null(),null());
+HXLINE( 469)			stageFront->setGraphicSize(::Std_obj::_hx_int((stageFront->get_width() * ((Float)1.1))),null());
+HXLINE( 470)			stageFront->updateHitbox();
+HXLINE( 471)			this->add(stageFront);
+HXLINE( 472)			if (!(::ClientPrefs_obj::lowQuality)) {
+HXLINE( 473)				 ::BGSprite stageLight =  ::BGSprite_obj::__alloc( HX_CTX ,HX_("stage_light",55,e5,48,cf),-125,-100,((Float)0.9),((Float)0.9),null(),null());
+HXLINE( 474)				stageLight->setGraphicSize(::Std_obj::_hx_int((stageLight->get_width() * ((Float)1.1))),null());
+HXLINE( 475)				stageLight->updateHitbox();
+HXLINE( 476)				this->add(stageLight);
+HXLINE( 477)				 ::BGSprite stageLight1 =  ::BGSprite_obj::__alloc( HX_CTX ,HX_("stage_light",55,e5,48,cf),1225,-100,((Float)0.9),((Float)0.9),null(),null());
+HXLINE( 478)				stageLight1->setGraphicSize(::Std_obj::_hx_int((stageLight1->get_width() * ((Float)1.1))),null());
+HXLINE( 479)				stageLight1->updateHitbox();
+HXLINE( 480)				stageLight1->set_flipX(true);
+HXLINE( 481)				this->add(stageLight1);
+HXLINE( 483)				 ::BGSprite stageCurtains =  ::BGSprite_obj::__alloc( HX_CTX ,HX_("stagecurtains",df,ec,1a,4b),-500,-300,((Float)1.3),((Float)1.3),null(),null());
+HXLINE( 484)				stageCurtains->setGraphicSize(::Std_obj::_hx_int((stageCurtains->get_width() * ((Float)0.9))),null());
+HXLINE( 485)				stageCurtains->updateHitbox();
+HXLINE( 486)				this->add(stageCurtains);
             			}
-HXLINE( 451)			goto _hx_goto_5;
+HXLINE( 464)			goto _hx_goto_5;
             		}
             		_hx_goto_5:;
-HXLINE( 794)		if (::PlayState_obj::isPixelStage) {
-HXLINE( 795)			this->introSoundsSuffix = HX_("-pixel",39,03,b3,c0);
+HXLINE( 850)		if (::PlayState_obj::isPixelStage) {
+HXLINE( 851)			this->introSoundsSuffix = HX_("-pixel",39,03,b3,c0);
             		}
-HXLINE( 798)		this->add(this->gfGroup);
-HXLINE( 801)		if ((::PlayState_obj::curStage == HX_("limo",1f,17,b3,47))) {
-HXLINE( 802)			this->add(this->limo);
+HXLINE( 854)		this->add(this->gfGroup);
+HXLINE( 857)		if ((::PlayState_obj::curStage == HX_("limo",1f,17,b3,47))) {
+HXLINE( 858)			this->add(this->limo);
             		}
-HXLINE( 804)		this->add(this->dadGroup);
-HXLINE( 805)		this->add(this->boyfriendGroup);
-HXLINE( 808)		if ((::PlayState_obj::curStage == HX_("downtown",b4,33,10,97))) {
-HXLINE( 809)			this->add(this->streetlight);
-HXLINE( 810)			this->add(this->frontBushes);
-HXLINE( 811)			this->add(this->shadeOverlay);
+HXLINE( 860)		this->add(this->dadGroup);
+HXLINE( 861)		this->add(this->boyfriendGroup);
+HXLINE( 864)		if ((::PlayState_obj::curStage == HX_("downtown",b4,33,10,97))) {
+HXLINE( 865)			this->add(this->streetlight);
+HXLINE( 866)			this->add(this->frontBushes);
+HXLINE( 867)			this->add(this->shadeOverlay);
             		}
-HXLINE( 814)		if ((::PlayState_obj::curStage == HX_("spooky",eb,bd,9e,c1))) {
-HXLINE( 815)			this->add(this->halloweenWhite);
+HXLINE( 870)		if ((::PlayState_obj::curStage == HX_("spooky",eb,bd,9e,c1))) {
+HXLINE( 871)			this->add(this->halloweenWhite);
             		}
-HXLINE( 819)		this->luaDebugGroup =  ::flixel::group::FlxTypedGroup_obj::__alloc( HX_CTX ,null());
-HXLINE( 820)		this->luaDebugGroup->set_cameras(::Array_obj< ::Dynamic>::__new(1)->init(0,this->camOther));
-HXLINE( 821)		this->add(this->luaDebugGroup);
-HXLINE( 824)		if ((::PlayState_obj::curStage == HX_("philly",28,77,5e,ef))) {
-HXLINE( 825)			this->phillyCityLightsEvent =  ::flixel::group::FlxTypedGroup_obj::__alloc( HX_CTX ,null());
-HXLINE( 826)			{
-HXLINE( 827)				{
-HXLINE( 828)					 ::BGSprite light =  ::BGSprite_obj::__alloc( HX_CTX ,(HX_("philly/win",75,da,d8,cc) + 0),-10,0,((Float)0.3),((Float)0.3),null(),null());
-HXLINE( 829)					light->set_visible(false);
-HXLINE( 830)					light->setGraphicSize(::Std_obj::_hx_int((light->get_width() * ((Float)0.85))),null());
-HXLINE( 831)					light->updateHitbox();
-HXLINE( 832)					this->phillyCityLightsEvent->add(light).StaticCast<  ::BGSprite >();
+HXLINE( 875)		this->luaDebugGroup =  ::flixel::group::FlxTypedGroup_obj::__alloc( HX_CTX ,null());
+HXLINE( 876)		this->luaDebugGroup->set_cameras(::Array_obj< ::Dynamic>::__new(1)->init(0,this->camOther));
+HXLINE( 877)		this->add(this->luaDebugGroup);
+HXLINE( 880)		if ((::PlayState_obj::curStage == HX_("philly",28,77,5e,ef))) {
+HXLINE( 881)			this->phillyCityLightsEvent =  ::flixel::group::FlxTypedGroup_obj::__alloc( HX_CTX ,null());
+HXLINE( 882)			{
+HXLINE( 883)				{
+HXLINE( 884)					 ::BGSprite light =  ::BGSprite_obj::__alloc( HX_CTX ,(HX_("philly/win",75,da,d8,cc) + 0),-10,0,((Float)0.3),((Float)0.3),null(),null());
+HXLINE( 885)					light->set_visible(false);
+HXLINE( 886)					light->setGraphicSize(::Std_obj::_hx_int((light->get_width() * ((Float)0.85))),null());
+HXLINE( 887)					light->updateHitbox();
+HXLINE( 888)					this->phillyCityLightsEvent->add(light).StaticCast<  ::BGSprite >();
             				}
-HXLINE( 827)				{
-HXLINE( 828)					 ::BGSprite light1 =  ::BGSprite_obj::__alloc( HX_CTX ,(HX_("philly/win",75,da,d8,cc) + 1),-10,0,((Float)0.3),((Float)0.3),null(),null());
-HXLINE( 829)					light1->set_visible(false);
-HXLINE( 830)					light1->setGraphicSize(::Std_obj::_hx_int((light1->get_width() * ((Float)0.85))),null());
-HXLINE( 831)					light1->updateHitbox();
-HXLINE( 832)					this->phillyCityLightsEvent->add(light1).StaticCast<  ::BGSprite >();
+HXLINE( 883)				{
+HXLINE( 884)					 ::BGSprite light1 =  ::BGSprite_obj::__alloc( HX_CTX ,(HX_("philly/win",75,da,d8,cc) + 1),-10,0,((Float)0.3),((Float)0.3),null(),null());
+HXLINE( 885)					light1->set_visible(false);
+HXLINE( 886)					light1->setGraphicSize(::Std_obj::_hx_int((light1->get_width() * ((Float)0.85))),null());
+HXLINE( 887)					light1->updateHitbox();
+HXLINE( 888)					this->phillyCityLightsEvent->add(light1).StaticCast<  ::BGSprite >();
             				}
-HXLINE( 827)				{
-HXLINE( 828)					 ::BGSprite light2 =  ::BGSprite_obj::__alloc( HX_CTX ,(HX_("philly/win",75,da,d8,cc) + 2),-10,0,((Float)0.3),((Float)0.3),null(),null());
-HXLINE( 829)					light2->set_visible(false);
-HXLINE( 830)					light2->setGraphicSize(::Std_obj::_hx_int((light2->get_width() * ((Float)0.85))),null());
-HXLINE( 831)					light2->updateHitbox();
-HXLINE( 832)					this->phillyCityLightsEvent->add(light2).StaticCast<  ::BGSprite >();
+HXLINE( 883)				{
+HXLINE( 884)					 ::BGSprite light2 =  ::BGSprite_obj::__alloc( HX_CTX ,(HX_("philly/win",75,da,d8,cc) + 2),-10,0,((Float)0.3),((Float)0.3),null(),null());
+HXLINE( 885)					light2->set_visible(false);
+HXLINE( 886)					light2->setGraphicSize(::Std_obj::_hx_int((light2->get_width() * ((Float)0.85))),null());
+HXLINE( 887)					light2->updateHitbox();
+HXLINE( 888)					this->phillyCityLightsEvent->add(light2).StaticCast<  ::BGSprite >();
             				}
-HXLINE( 827)				{
-HXLINE( 828)					 ::BGSprite light3 =  ::BGSprite_obj::__alloc( HX_CTX ,(HX_("philly/win",75,da,d8,cc) + 3),-10,0,((Float)0.3),((Float)0.3),null(),null());
-HXLINE( 829)					light3->set_visible(false);
-HXLINE( 830)					light3->setGraphicSize(::Std_obj::_hx_int((light3->get_width() * ((Float)0.85))),null());
-HXLINE( 831)					light3->updateHitbox();
-HXLINE( 832)					this->phillyCityLightsEvent->add(light3).StaticCast<  ::BGSprite >();
+HXLINE( 883)				{
+HXLINE( 884)					 ::BGSprite light3 =  ::BGSprite_obj::__alloc( HX_CTX ,(HX_("philly/win",75,da,d8,cc) + 3),-10,0,((Float)0.3),((Float)0.3),null(),null());
+HXLINE( 885)					light3->set_visible(false);
+HXLINE( 886)					light3->setGraphicSize(::Std_obj::_hx_int((light3->get_width() * ((Float)0.85))),null());
+HXLINE( 887)					light3->updateHitbox();
+HXLINE( 888)					this->phillyCityLightsEvent->add(light3).StaticCast<  ::BGSprite >();
             				}
-HXLINE( 827)				{
-HXLINE( 828)					 ::BGSprite light4 =  ::BGSprite_obj::__alloc( HX_CTX ,(HX_("philly/win",75,da,d8,cc) + 4),-10,0,((Float)0.3),((Float)0.3),null(),null());
-HXLINE( 829)					light4->set_visible(false);
-HXLINE( 830)					light4->setGraphicSize(::Std_obj::_hx_int((light4->get_width() * ((Float)0.85))),null());
-HXLINE( 831)					light4->updateHitbox();
-HXLINE( 832)					this->phillyCityLightsEvent->add(light4).StaticCast<  ::BGSprite >();
+HXLINE( 883)				{
+HXLINE( 884)					 ::BGSprite light4 =  ::BGSprite_obj::__alloc( HX_CTX ,(HX_("philly/win",75,da,d8,cc) + 4),-10,0,((Float)0.3),((Float)0.3),null(),null());
+HXLINE( 885)					light4->set_visible(false);
+HXLINE( 886)					light4->setGraphicSize(::Std_obj::_hx_int((light4->get_width() * ((Float)0.85))),null());
+HXLINE( 887)					light4->updateHitbox();
+HXLINE( 888)					this->phillyCityLightsEvent->add(light4).StaticCast<  ::BGSprite >();
             				}
             			}
             		}
-HXLINE( 839)		::Array< ::String > filesPushed = ::Array_obj< ::String >::__new(0);
-HXLINE( 840)		::String file = HX_("scripts/",27,8b,98,1a);
-HXDLIN( 840)		if (::hx::IsNull( file )) {
-HXLINE( 840)			file = HX_("",00,00,00,00);
+HXLINE( 895)		::Array< ::String > filesPushed = ::Array_obj< ::String >::__new(0);
+HXLINE( 896)		::String file = HX_("scripts/",27,8b,98,1a);
+HXDLIN( 896)		if (::hx::IsNull( file )) {
+HXLINE( 896)			file = HX_("",00,00,00,00);
             		}
-HXDLIN( 840)		::Array< ::String > foldersToCheck = ::Array_obj< ::String >::__new(1)->init(0,(HX_("assets/",4c,2a,dc,36) + file));
-HXLINE( 843)		::String key = HX_("scripts/",27,8b,98,1a);
-HXDLIN( 843)		if (::hx::IsNull( key )) {
-HXLINE( 843)			key = HX_("",00,00,00,00);
+HXDLIN( 896)		::Array< ::String > foldersToCheck = ::Array_obj< ::String >::__new(1)->init(0,(HX_("assets/",4c,2a,dc,36) + file));
+HXLINE( 899)		::String key = HX_("scripts/",27,8b,98,1a);
+HXDLIN( 899)		if (::hx::IsNull( key )) {
+HXLINE( 899)			key = HX_("",00,00,00,00);
             		}
-HXDLIN( 843)		foldersToCheck->insert(0,(HX_("mods/",9e,2f,58,0c) + key));
-HXLINE( 844)		bool _hx_tmp13;
-HXDLIN( 844)		if (::hx::IsNotNull( ::Paths_obj::currentModDirectory )) {
-HXLINE( 844)			_hx_tmp13 = (::Paths_obj::currentModDirectory.length > 0);
+HXDLIN( 899)		foldersToCheck->insert(0,(HX_("mods/",9e,2f,58,0c) + key));
+HXLINE( 900)		bool _hx_tmp13;
+HXDLIN( 900)		if (::hx::IsNotNull( ::Paths_obj::currentModDirectory )) {
+HXLINE( 900)			_hx_tmp13 = (::Paths_obj::currentModDirectory.length > 0);
             		}
             		else {
-HXLINE( 844)			_hx_tmp13 = false;
+HXLINE( 900)			_hx_tmp13 = false;
             		}
-HXDLIN( 844)		if (_hx_tmp13) {
-HXLINE( 845)			::String key = (::Paths_obj::currentModDirectory + HX_("/scripts/",56,d2,ea,d4));
-HXDLIN( 845)			if (::hx::IsNull( key )) {
-HXLINE( 845)				key = HX_("",00,00,00,00);
+HXDLIN( 900)		if (_hx_tmp13) {
+HXLINE( 901)			::String key = (::Paths_obj::currentModDirectory + HX_("/scripts/",56,d2,ea,d4));
+HXDLIN( 901)			if (::hx::IsNull( key )) {
+HXLINE( 901)				key = HX_("",00,00,00,00);
             			}
-HXDLIN( 845)			foldersToCheck->insert(0,(HX_("mods/",9e,2f,58,0c) + key));
+HXDLIN( 901)			foldersToCheck->insert(0,(HX_("mods/",9e,2f,58,0c) + key));
             		}
-HXLINE( 848)		{
-HXLINE( 848)			int _g2 = 0;
-HXDLIN( 848)			while((_g2 < foldersToCheck->length)){
-HXLINE( 848)				::String folder = foldersToCheck->__get(_g2);
-HXDLIN( 848)				_g2 = (_g2 + 1);
-HXLINE( 850)				if (::sys::FileSystem_obj::exists(folder)) {
-HXLINE( 852)					int _g = 0;
-HXDLIN( 852)					::Array< ::String > _g1 = ::sys::FileSystem_obj::readDirectory(folder);
-HXDLIN( 852)					while((_g < _g1->length)){
-HXLINE( 852)						::String file = _g1->__get(_g);
-HXDLIN( 852)						_g = (_g + 1);
-HXLINE( 854)						bool _hx_tmp;
-HXDLIN( 854)						if (::StringTools_obj::endsWith(file,HX_(".lua",4a,2a,ba,1e))) {
-HXLINE( 854)							_hx_tmp = !(filesPushed->contains(file));
+HXLINE( 904)		{
+HXLINE( 904)			int _g2 = 0;
+HXDLIN( 904)			while((_g2 < foldersToCheck->length)){
+HXLINE( 904)				::String folder = foldersToCheck->__get(_g2);
+HXDLIN( 904)				_g2 = (_g2 + 1);
+HXLINE( 906)				if (::sys::FileSystem_obj::exists(folder)) {
+HXLINE( 908)					int _g = 0;
+HXDLIN( 908)					::Array< ::String > _g1 = ::sys::FileSystem_obj::readDirectory(folder);
+HXDLIN( 908)					while((_g < _g1->length)){
+HXLINE( 908)						::String file = _g1->__get(_g);
+HXDLIN( 908)						_g = (_g + 1);
+HXLINE( 910)						bool _hx_tmp;
+HXDLIN( 910)						if (::StringTools_obj::endsWith(file,HX_(".lua",4a,2a,ba,1e))) {
+HXLINE( 910)							_hx_tmp = !(filesPushed->contains(file));
             						}
             						else {
-HXLINE( 854)							_hx_tmp = false;
+HXLINE( 910)							_hx_tmp = false;
             						}
-HXDLIN( 854)						if (_hx_tmp) {
-HXLINE( 856)							::Array< ::Dynamic> _hx_tmp = this->luaArray;
-HXDLIN( 856)							_hx_tmp->push( ::FunkinLua_obj::__alloc( HX_CTX ,(folder + file)));
-HXLINE( 857)							filesPushed->push(file);
+HXDLIN( 910)						if (_hx_tmp) {
+HXLINE( 912)							::Array< ::Dynamic> _hx_tmp = this->luaArray;
+HXDLIN( 912)							_hx_tmp->push( ::FunkinLua_obj::__alloc( HX_CTX ,(folder + file)));
+HXLINE( 913)							filesPushed->push(file);
             						}
             					}
             				}
             			}
             		}
-HXLINE( 867)		bool doPush = false;
-HXLINE( 868)		::String luaFile = ((HX_("stages/",9a,7a,ca,2d) + ::PlayState_obj::curStage) + HX_(".lua",4a,2a,ba,1e));
-HXLINE( 869)		if (::sys::FileSystem_obj::exists(::Paths_obj::modFolders(luaFile))) {
-HXLINE( 870)			luaFile = ::Paths_obj::modFolders(luaFile);
-HXLINE( 871)			doPush = true;
+HXLINE( 923)		bool doPush = false;
+HXLINE( 924)		::String luaFile = ((HX_("stages/",9a,7a,ca,2d) + ::PlayState_obj::curStage) + HX_(".lua",4a,2a,ba,1e));
+HXLINE( 925)		if (::sys::FileSystem_obj::exists(::Paths_obj::modFolders(luaFile))) {
+HXLINE( 926)			luaFile = ::Paths_obj::modFolders(luaFile);
+HXLINE( 927)			doPush = true;
             		}
             		else {
-HXLINE( 873)			::String file = luaFile;
-HXDLIN( 873)			if (::hx::IsNull( file )) {
-HXLINE( 873)				file = HX_("",00,00,00,00);
+HXLINE( 929)			::String file = luaFile;
+HXDLIN( 929)			if (::hx::IsNull( file )) {
+HXLINE( 929)				file = HX_("",00,00,00,00);
             			}
-HXDLIN( 873)			luaFile = (HX_("assets/",4c,2a,dc,36) + file);
-HXLINE( 874)			if (::sys::FileSystem_obj::exists(luaFile)) {
-HXLINE( 875)				doPush = true;
+HXDLIN( 929)			luaFile = (HX_("assets/",4c,2a,dc,36) + file);
+HXLINE( 930)			if (::sys::FileSystem_obj::exists(luaFile)) {
+HXLINE( 931)				doPush = true;
             			}
             		}
-HXLINE( 879)		if (doPush) {
-HXLINE( 880)			::Array< ::Dynamic> _hx_tmp = this->luaArray;
-HXDLIN( 880)			_hx_tmp->push( ::FunkinLua_obj::__alloc( HX_CTX ,luaFile));
+HXLINE( 935)		if (doPush) {
+HXLINE( 936)			::Array< ::Dynamic> _hx_tmp = this->luaArray;
+HXDLIN( 936)			_hx_tmp->push( ::FunkinLua_obj::__alloc( HX_CTX ,luaFile));
             		}
-HXLINE( 883)		if (!(this->modchartSprites->exists(HX_("blammedLightsBlack",ac,aa,1b,a0)))) {
-HXLINE( 884)			this->blammedLightsBlack =  ::ModchartSprite_obj::__alloc( HX_CTX ,(( (Float)(::flixel::FlxG_obj::width) ) * ((Float)-0.5)),(( (Float)(::flixel::FlxG_obj::height) ) * ((Float)-0.5)));
-HXLINE( 885)			 ::ModchartSprite _hx_tmp = this->blammedLightsBlack;
-HXDLIN( 885)			int _hx_tmp1 = ::Std_obj::_hx_int(( (Float)((::flixel::FlxG_obj::width * 2)) ));
-HXDLIN( 885)			_hx_tmp->makeGraphic(_hx_tmp1,::Std_obj::_hx_int(( (Float)((::flixel::FlxG_obj::height * 2)) )),-16777216,null(),null());
-HXLINE( 886)			int position = this->members->indexOf(this->gfGroup,null());
-HXLINE( 887)			if ((this->members->indexOf(this->boyfriendGroup,null()) < position)) {
-HXLINE( 888)				position = this->members->indexOf(this->boyfriendGroup,null());
+HXLINE( 939)		if (!(this->modchartSprites->exists(HX_("blammedLightsBlack",ac,aa,1b,a0)))) {
+HXLINE( 940)			this->blammedLightsBlack =  ::ModchartSprite_obj::__alloc( HX_CTX ,(( (Float)(::flixel::FlxG_obj::width) ) * ((Float)-0.5)),(( (Float)(::flixel::FlxG_obj::height) ) * ((Float)-0.5)));
+HXLINE( 941)			 ::ModchartSprite _hx_tmp = this->blammedLightsBlack;
+HXDLIN( 941)			int _hx_tmp1 = ::Std_obj::_hx_int(( (Float)((::flixel::FlxG_obj::width * 2)) ));
+HXDLIN( 941)			_hx_tmp->makeGraphic(_hx_tmp1,::Std_obj::_hx_int(( (Float)((::flixel::FlxG_obj::height * 2)) )),-16777216,null(),null());
+HXLINE( 942)			int position = this->members->indexOf(this->gfGroup,null());
+HXLINE( 943)			if ((this->members->indexOf(this->boyfriendGroup,null()) < position)) {
+HXLINE( 944)				position = this->members->indexOf(this->boyfriendGroup,null());
             			}
             			else {
-HXLINE( 889)				if ((this->members->indexOf(this->dadGroup,null()) < position)) {
-HXLINE( 890)					position = this->members->indexOf(this->dadGroup,null());
+HXLINE( 945)				if ((this->members->indexOf(this->dadGroup,null()) < position)) {
+HXLINE( 946)					position = this->members->indexOf(this->dadGroup,null());
             				}
             			}
-HXLINE( 892)			this->insert(position,this->blammedLightsBlack);
-HXLINE( 894)			this->blammedLightsBlack->wasAdded = true;
-HXLINE( 895)			this->modchartSprites->set(HX_("blammedLightsBlack",ac,aa,1b,a0),this->blammedLightsBlack);
+HXLINE( 948)			this->insert(position,this->blammedLightsBlack);
+HXLINE( 950)			this->blammedLightsBlack->wasAdded = true;
+HXLINE( 951)			this->modchartSprites->set(HX_("blammedLightsBlack",ac,aa,1b,a0),this->blammedLightsBlack);
             		}
-HXLINE( 897)		if ((::PlayState_obj::curStage == HX_("philly",28,77,5e,ef))) {
-HXLINE( 897)			int _hx_tmp = (this->members->indexOf(this->blammedLightsBlack,null()) + 1);
-HXDLIN( 897)			this->insert(_hx_tmp,this->phillyCityLightsEvent);
+HXLINE( 953)		if ((::PlayState_obj::curStage == HX_("philly",28,77,5e,ef))) {
+HXLINE( 953)			int _hx_tmp = (this->members->indexOf(this->blammedLightsBlack,null()) + 1);
+HXDLIN( 953)			this->insert(_hx_tmp,this->phillyCityLightsEvent);
             		}
-HXLINE( 898)		this->blammedLightsBlack = ( ( ::ModchartSprite)(this->modchartSprites->get(HX_("blammedLightsBlack",ac,aa,1b,a0))) );
-HXLINE( 899)		this->blammedLightsBlack->set_alpha(((Float)0.0));
-HXLINE( 901)		::String gfVersion = ( (::String)(::PlayState_obj::SONG->__Field(HX_("gfVersion",b9,c6,7d,f3),::hx::paccDynamic)) );
-HXLINE( 902)		bool _hx_tmp14;
-HXDLIN( 902)		if (::hx::IsNotNull( gfVersion )) {
-HXLINE( 902)			_hx_tmp14 = (gfVersion.length < 1);
+HXLINE( 954)		this->blammedLightsBlack = ( ( ::ModchartSprite)(this->modchartSprites->get(HX_("blammedLightsBlack",ac,aa,1b,a0))) );
+HXLINE( 955)		this->blammedLightsBlack->set_alpha(((Float)0.0));
+HXLINE( 957)		::String gfVersion = ( (::String)(::PlayState_obj::SONG->__Field(HX_("gfVersion",b9,c6,7d,f3),::hx::paccDynamic)) );
+HXLINE( 958)		bool _hx_tmp14;
+HXDLIN( 958)		if (::hx::IsNotNull( gfVersion )) {
+HXLINE( 958)			_hx_tmp14 = (gfVersion.length < 1);
             		}
             		else {
-HXLINE( 902)			_hx_tmp14 = true;
+HXLINE( 958)			_hx_tmp14 = true;
             		}
-HXDLIN( 902)		if (_hx_tmp14) {
-HXLINE( 903)			::String _hx_switch_2 = ::PlayState_obj::curStage;
+HXDLIN( 958)		if (_hx_tmp14) {
+HXLINE( 959)			::String _hx_switch_2 = ::PlayState_obj::curStage;
             			if (  (_hx_switch_2==HX_("limo",1f,17,b3,47)) ){
-HXLINE( 906)				gfVersion = HX_("gf-car",a6,63,ab,07);
-HXDLIN( 906)				goto _hx_goto_8;
+HXLINE( 962)				gfVersion = HX_("gf-car",a6,63,ab,07);
+HXDLIN( 962)				goto _hx_goto_8;
             			}
             			if (  (_hx_switch_2==HX_("mall",d4,3a,56,48)) ||  (_hx_switch_2==HX_("mallEvil",88,d3,e3,a7)) ){
-HXLINE( 908)				gfVersion = HX_("gf-christmas",94,26,b1,6d);
-HXDLIN( 908)				goto _hx_goto_8;
+HXLINE( 964)				gfVersion = HX_("gf-christmas",94,26,b1,6d);
+HXDLIN( 964)				goto _hx_goto_8;
             			}
             			if (  (_hx_switch_2==HX_("school",74,b8,c8,40)) ||  (_hx_switch_2==HX_("schoolEvil",28,a1,f5,f7)) ){
-HXLINE( 910)				gfVersion = HX_("gf-pixel",98,3e,8c,55);
-HXDLIN( 910)				goto _hx_goto_8;
+HXLINE( 966)				gfVersion = HX_("gf-pixel",98,3e,8c,55);
+HXDLIN( 966)				goto _hx_goto_8;
             			}
             			/* default */{
-HXLINE( 912)				gfVersion = HX_("gf",1f,5a,00,00);
+HXLINE( 968)				gfVersion = HX_("gf",1f,5a,00,00);
             			}
             			_hx_goto_8:;
-HXLINE( 914)			::PlayState_obj::SONG->__SetField(HX_("gfVersion",b9,c6,7d,f3),gfVersion,::hx::paccDynamic);
+HXLINE( 970)			::PlayState_obj::SONG->__SetField(HX_("gfVersion",b9,c6,7d,f3),gfVersion,::hx::paccDynamic);
             		}
-HXLINE( 917)		if (!(( (bool)(stageData->__Field(HX_("hide_girlfriend",57,bd,d9,f9),::hx::paccDynamic)) ))) {
-HXLINE( 919)			this->gf =  ::Character_obj::__alloc( HX_CTX ,( (Float)(0) ),( (Float)(0) ),gfVersion,null());
-HXLINE( 920)			this->startCharacterPos(this->gf,null());
-HXLINE( 921)			this->gf->scrollFactor->set(((Float)0.95),((Float)0.95));
-HXLINE( 922)			this->gfGroup->add(this->gf).StaticCast<  ::flixel::FlxSprite >();
-HXLINE( 923)			this->startCharacterLua(this->gf->curCharacter);
+HXLINE( 973)		if (!(( (bool)(stageData->__Field(HX_("hide_girlfriend",57,bd,d9,f9),::hx::paccDynamic)) ))) {
+HXLINE( 975)			this->gf =  ::Character_obj::__alloc( HX_CTX ,( (Float)(0) ),( (Float)(0) ),gfVersion,null());
+HXLINE( 976)			this->startCharacterPos(this->gf,null());
+HXLINE( 977)			this->gf->scrollFactor->set(((Float)0.95),((Float)0.95));
+HXLINE( 978)			this->gfGroup->add(this->gf).StaticCast<  ::flixel::FlxSprite >();
+HXLINE( 979)			this->startCharacterLua(this->gf->curCharacter);
             		}
-HXLINE( 926)		this->dad =  ::Character_obj::__alloc( HX_CTX ,( (Float)(0) ),( (Float)(0) ),( (::String)(::PlayState_obj::SONG->__Field(HX_("player2",b1,09,15,8a),::hx::paccDynamic)) ),null());
-HXLINE( 927)		this->startCharacterPos(this->dad,true);
-HXLINE( 928)		this->dadGroup->add(this->dad).StaticCast<  ::flixel::FlxSprite >();
-HXLINE( 929)		this->startCharacterLua(this->dad->curCharacter);
-HXLINE( 931)		this->boyfriend =  ::Boyfriend_obj::__alloc( HX_CTX ,( (Float)(0) ),( (Float)(0) ),( (::String)(::PlayState_obj::SONG->__Field(HX_("player1",b0,09,15,8a),::hx::paccDynamic)) ));
-HXLINE( 932)		this->startCharacterPos(this->boyfriend,null());
-HXLINE( 933)		this->boyfriendGroup->add(this->boyfriend).StaticCast<  ::flixel::FlxSprite >();
-HXLINE( 934)		this->startCharacterLua(this->boyfriend->curCharacter);
-HXLINE( 936)		 ::flixel::math::FlxPoint camPos =  ::flixel::math::FlxPoint_obj::__alloc( HX_CTX ,this->girlfriendCameraOffset->__get(0),this->girlfriendCameraOffset->__get(1));
-HXLINE( 937)		if (::hx::IsNotNull( this->gf )) {
-HXLINE( 939)			{
-HXLINE( 939)				 ::flixel::math::FlxPoint _g = camPos;
-HXDLIN( 939)				Float _g1 = _g->x;
-HXDLIN( 939)				Float _hx_tmp = this->gf->getGraphicMidpoint(null())->x;
-HXDLIN( 939)				_g->set_x((_g1 + (_hx_tmp + this->gf->cameraPosition->__get(0))));
+HXLINE( 982)		this->dad =  ::Character_obj::__alloc( HX_CTX ,( (Float)(0) ),( (Float)(0) ),( (::String)(::PlayState_obj::SONG->__Field(HX_("player2",b1,09,15,8a),::hx::paccDynamic)) ),null());
+HXLINE( 983)		this->startCharacterPos(this->dad,true);
+HXLINE( 984)		this->dadGroup->add(this->dad).StaticCast<  ::flixel::FlxSprite >();
+HXLINE( 985)		this->startCharacterLua(this->dad->curCharacter);
+HXLINE( 987)		this->boyfriend =  ::Boyfriend_obj::__alloc( HX_CTX ,( (Float)(0) ),( (Float)(0) ),( (::String)(::PlayState_obj::SONG->__Field(HX_("player1",b0,09,15,8a),::hx::paccDynamic)) ));
+HXLINE( 988)		this->startCharacterPos(this->boyfriend,null());
+HXLINE( 989)		this->boyfriendGroup->add(this->boyfriend).StaticCast<  ::flixel::FlxSprite >();
+HXLINE( 990)		this->startCharacterLua(this->boyfriend->curCharacter);
+HXLINE( 992)		 ::flixel::math::FlxPoint camPos =  ::flixel::math::FlxPoint_obj::__alloc( HX_CTX ,this->girlfriendCameraOffset->__get(0),this->girlfriendCameraOffset->__get(1));
+HXLINE( 993)		if (::hx::IsNotNull( this->gf )) {
+HXLINE( 995)			{
+HXLINE( 995)				 ::flixel::math::FlxPoint _g = camPos;
+HXDLIN( 995)				Float _g1 = _g->x;
+HXDLIN( 995)				Float _hx_tmp = this->gf->getGraphicMidpoint(null())->x;
+HXDLIN( 995)				_g->set_x((_g1 + (_hx_tmp + this->gf->cameraPosition->__get(0))));
             			}
-HXLINE( 940)			{
-HXLINE( 940)				 ::flixel::math::FlxPoint _g2 = camPos;
-HXDLIN( 940)				Float _g3 = _g2->y;
-HXDLIN( 940)				Float _hx_tmp1 = this->gf->getGraphicMidpoint(null())->y;
-HXDLIN( 940)				_g2->set_y((_g3 + (_hx_tmp1 + this->gf->cameraPosition->__get(1))));
-            			}
-            		}
-HXLINE( 943)		if (::StringTools_obj::startsWith(this->dad->curCharacter,HX_("gf",1f,5a,00,00))) {
-HXLINE( 944)			this->dad->setPosition(this->GF_X,this->GF_Y);
-HXLINE( 945)			if (::hx::IsNotNull( this->gf )) {
-HXLINE( 946)				this->gf->set_visible(false);
+HXLINE( 996)			{
+HXLINE( 996)				 ::flixel::math::FlxPoint _g2 = camPos;
+HXDLIN( 996)				Float _g3 = _g2->y;
+HXDLIN( 996)				Float _hx_tmp1 = this->gf->getGraphicMidpoint(null())->y;
+HXDLIN( 996)				_g2->set_y((_g3 + (_hx_tmp1 + this->gf->cameraPosition->__get(1))));
             			}
             		}
-HXLINE( 949)		::String _hx_switch_3 = ::PlayState_obj::curStage;
+HXLINE( 999)		if (::StringTools_obj::startsWith(this->dad->curCharacter,HX_("gf",1f,5a,00,00))) {
+HXLINE(1000)			this->dad->setPosition(this->GF_X,this->GF_Y);
+HXLINE(1001)			if (::hx::IsNotNull( this->gf )) {
+HXLINE(1002)				this->gf->set_visible(false);
+            			}
+            		}
+HXLINE(1005)		::String _hx_switch_3 = ::PlayState_obj::curStage;
             		if (  (_hx_switch_3==HX_("limo",1f,17,b3,47)) ){
-HXLINE( 952)			this->resetFastCar();
-HXLINE( 953)			int _hx_tmp = (this->members->indexOf(this->gfGroup,null()) - 1);
-HXDLIN( 953)			this->insert(_hx_tmp,this->fastCar);
-HXLINE( 951)			goto _hx_goto_9;
+HXLINE(1008)			this->resetFastCar();
+HXLINE(1009)			int _hx_tmp = (this->members->indexOf(this->gfGroup,null()) - 1);
+HXDLIN(1009)			this->insert(_hx_tmp,this->fastCar);
+HXLINE(1007)			goto _hx_goto_9;
             		}
             		if (  (_hx_switch_3==HX_("schoolEvil",28,a1,f5,f7)) ){
-HXLINE( 956)			 ::flixel::addons::effects::FlxTrail evilTrail =  ::flixel::addons::effects::FlxTrail_obj::__alloc( HX_CTX ,this->dad,null(),4,24,((Float)0.3),((Float)0.069));
-HXLINE( 957)			this->insert((this->members->indexOf(this->dadGroup,null()) - 1),evilTrail);
-HXLINE( 955)			goto _hx_goto_9;
+HXLINE(1012)			 ::flixel::addons::effects::FlxTrail evilTrail =  ::flixel::addons::effects::FlxTrail_obj::__alloc( HX_CTX ,this->dad,null(),4,24,((Float)0.3),((Float)0.069));
+HXLINE(1013)			this->insert((this->members->indexOf(this->dadGroup,null()) - 1),evilTrail);
+HXLINE(1011)			goto _hx_goto_9;
             		}
             		_hx_goto_9:;
-HXLINE( 960)		::String library = null();
-HXDLIN( 960)		::String file1 = ::Paths_obj::getPath(((HX_("data/",c5,0e,88,d4) + (songName + HX_("/dialogue",47,74,e6,61))) + HX_(".json",56,f1,d6,c2)),HX_("TEXT",ad,94,ba,37),library);
-HXLINE( 961)		if (::openfl::utils::Assets_obj::exists(file1,null())) {
-HXLINE( 962)			this->dialogueJson = ::DialogueBoxPsych_obj::parseDialogue(file1);
+HXLINE(1016)		::String library = null();
+HXDLIN(1016)		::String file1 = ::Paths_obj::getPath(((HX_("data/",c5,0e,88,d4) + (songName + HX_("/dialogue",47,74,e6,61))) + HX_(".json",56,f1,d6,c2)),HX_("TEXT",ad,94,ba,37),library);
+HXLINE(1017)		if (::openfl::utils::Assets_obj::exists(file1,null())) {
+HXLINE(1018)			this->dialogueJson = ::DialogueBoxPsych_obj::parseDialogue(file1);
             		}
-HXLINE( 973)		try {
+HXLINE(1029)		try {
             			HX_STACK_CATCHABLE( ::Dynamic, 0);
-HXLINE( 974)			::String library = null();
-HXDLIN( 974)			this->dialogue = ::CoolUtil_obj::coolTextFile(::Paths_obj::getPath(((HX_("data/",c5,0e,88,d4) + (songName + HX_("/dialogue",47,74,e6,61))) + HX_(".txt",02,3f,c0,1e)),HX_("TEXT",ad,94,ba,37),library));
+HXLINE(1030)			::String library = null();
+HXDLIN(1030)			this->dialogue = ::CoolUtil_obj::coolTextFile(::Paths_obj::getPath(((HX_("data/",c5,0e,88,d4) + (songName + HX_("/dialogue",47,74,e6,61))) + HX_(".txt",02,3f,c0,1e)),HX_("TEXT",ad,94,ba,37),library));
             		} catch( ::Dynamic _hx_e) {
             			if (_hx_e.IsClass<  ::Dynamic >() ){
             				HX_STACK_BEGIN_CATCH
             				 ::Dynamic _g = _hx_e;
 HXLINE(   1)				 ::haxe::Exception e = ::haxe::Exception_obj::caught(_g);
-HXLINE( 976)				{
-HXLINE( 978)					 ::Dynamic _hx_tmp = ::haxe::Log_obj::trace;
-HXDLIN( 978)					::String _hx_tmp1 = e->get_message();
-HXDLIN( 978)					_hx_tmp(_hx_tmp1,::hx::SourceInfo(HX_("source/PlayState.hx",75,24,2b,b8),978,HX_("PlayState",5d,83,c2,46),HX_("create",fc,66,0f,7c)));
-HXLINE( 979)					{
-HXLINE( 979)						 ::flixel::_hx_system::frontEnds::LogFrontEnd _this = ::flixel::FlxG_obj::log;
-HXDLIN( 979)						 ::Dynamic Data = e->get_message();
+HXLINE(1032)				{
+HXLINE(1034)					 ::Dynamic _hx_tmp = ::haxe::Log_obj::trace;
+HXDLIN(1034)					::String _hx_tmp1 = e->get_message();
+HXDLIN(1034)					_hx_tmp(_hx_tmp1,::hx::SourceInfo(HX_("source/PlayState.hx",75,24,2b,b8),1034,HX_("PlayState",5d,83,c2,46),HX_("create",fc,66,0f,7c)));
+HXLINE(1035)					{
+HXLINE(1035)						 ::flixel::_hx_system::frontEnds::LogFrontEnd _this = ::flixel::FlxG_obj::log;
+HXDLIN(1035)						 ::Dynamic Data = e->get_message();
             					}
             				}
             			}
@@ -1539,356 +1596,356 @@ HXDLIN( 979)						 ::Dynamic Data = e->get_message();
             				HX_STACK_DO_THROW(_hx_e);
             			}
             		}
-HXLINE( 982)		 ::DialogueBox doof =  ::DialogueBox_obj::__alloc( HX_CTX ,false,this->dialogue);
-HXLINE( 985)		doof->scrollFactor->set(null(),null());
-HXLINE( 986)		doof->finishThing = this->startCountdown_dyn();
-HXLINE( 990)		::Conductor_obj::songPosition = ( (Float)(-5000) );
-HXLINE( 992)		 ::Dynamic _hx_tmp15;
-HXDLIN( 992)		if (::ClientPrefs_obj::middleScroll) {
-HXLINE( 992)			_hx_tmp15 = ::PlayState_obj::STRUM_X_MIDDLESCROLL;
+HXLINE(1038)		 ::DialogueBox doof =  ::DialogueBox_obj::__alloc( HX_CTX ,false,this->dialogue);
+HXLINE(1041)		doof->scrollFactor->set(null(),null());
+HXLINE(1042)		doof->finishThing = this->startCountdown_dyn();
+HXLINE(1046)		::Conductor_obj::songPosition = ( (Float)(-5000) );
+HXLINE(1048)		 ::Dynamic _hx_tmp15;
+HXDLIN(1048)		if (::ClientPrefs_obj::middleScroll) {
+HXLINE(1048)			_hx_tmp15 = ::PlayState_obj::STRUM_X_MIDDLESCROLL;
             		}
             		else {
-HXLINE( 992)			_hx_tmp15 = ::PlayState_obj::STRUM_X;
+HXLINE(1048)			_hx_tmp15 = ::PlayState_obj::STRUM_X;
             		}
-HXDLIN( 992)		this->strumLine =  ::flixel::FlxSprite_obj::__alloc( HX_CTX ,_hx_tmp15,50,null())->makeGraphic(::flixel::FlxG_obj::width,10,null(),null(),null());
-HXLINE( 993)		if (::ClientPrefs_obj::downScroll) {
-HXLINE( 993)			this->strumLine->set_y(( (Float)((::flixel::FlxG_obj::height - 150)) ));
+HXDLIN(1048)		this->strumLine =  ::flixel::FlxSprite_obj::__alloc( HX_CTX ,_hx_tmp15,50,null())->makeGraphic(::flixel::FlxG_obj::width,10,null(),null(),null());
+HXLINE(1049)		if (::ClientPrefs_obj::downScroll) {
+HXLINE(1049)			this->strumLine->set_y(( (Float)((::flixel::FlxG_obj::height - 150)) ));
             		}
-HXLINE( 994)		this->strumLine->scrollFactor->set(null(),null());
-HXLINE( 996)		bool showTime = (::ClientPrefs_obj::timeBarType != HX_("Disabled",9c,fd,b5,55));
-HXLINE( 997)		this->timeTxt =  ::flixel::text::FlxText_obj::__alloc( HX_CTX ,((::PlayState_obj::STRUM_X + (( (Float)(::flixel::FlxG_obj::width) ) / ( (Float)(2) ))) - ( (Float)(248) )),19,400,HX_("",00,00,00,00),32,null());
-HXLINE( 998)		 ::flixel::text::FlxText _hx_tmp16 = this->timeTxt;
-HXDLIN( 998)		::String file2 = ::Paths_obj::modFolders((HX_("fonts/",eb,13,ef,fa) + HX_("vcr.ttf",9d,d2,a7,82)));
-HXDLIN( 998)		::String _hx_tmp17;
-HXDLIN( 998)		if (::sys::FileSystem_obj::exists(file2)) {
-HXLINE( 998)			_hx_tmp17 = file2;
+HXLINE(1050)		this->strumLine->scrollFactor->set(null(),null());
+HXLINE(1052)		bool showTime = (::ClientPrefs_obj::timeBarType != HX_("Disabled",9c,fd,b5,55));
+HXLINE(1053)		this->timeTxt =  ::flixel::text::FlxText_obj::__alloc( HX_CTX ,((::PlayState_obj::STRUM_X + (( (Float)(::flixel::FlxG_obj::width) ) / ( (Float)(2) ))) - ( (Float)(248) )),19,400,HX_("",00,00,00,00),32,null());
+HXLINE(1054)		 ::flixel::text::FlxText _hx_tmp16 = this->timeTxt;
+HXDLIN(1054)		::String file2 = ::Paths_obj::modFolders((HX_("fonts/",eb,13,ef,fa) + HX_("vcr.ttf",9d,d2,a7,82)));
+HXDLIN(1054)		::String _hx_tmp17;
+HXDLIN(1054)		if (::sys::FileSystem_obj::exists(file2)) {
+HXLINE(1054)			_hx_tmp17 = file2;
             		}
             		else {
-HXLINE( 998)			_hx_tmp17 = (HX_("assets/fonts/",37,ff,a5,9c) + HX_("vcr.ttf",9d,d2,a7,82));
+HXLINE(1054)			_hx_tmp17 = (HX_("assets/fonts/",37,ff,a5,9c) + HX_("vcr.ttf",9d,d2,a7,82));
             		}
-HXDLIN( 998)		_hx_tmp16->setFormat(_hx_tmp17,32,-1,HX_("center",d5,25,db,05),::flixel::text::FlxTextBorderStyle_obj::OUTLINE_dyn(),-16777216,null());
-HXLINE( 999)		this->timeTxt->scrollFactor->set(null(),null());
-HXLINE(1000)		this->timeTxt->set_alpha(( (Float)(0) ));
-HXLINE(1001)		this->timeTxt->set_borderSize(( (Float)(2) ));
-HXLINE(1002)		this->timeTxt->set_visible(showTime);
-HXLINE(1003)		if (::ClientPrefs_obj::downScroll) {
-HXLINE(1003)			this->timeTxt->set_y(( (Float)((::flixel::FlxG_obj::height - 44)) ));
+HXDLIN(1054)		_hx_tmp16->setFormat(_hx_tmp17,32,-1,HX_("center",d5,25,db,05),::flixel::text::FlxTextBorderStyle_obj::OUTLINE_dyn(),-16777216,null());
+HXLINE(1055)		this->timeTxt->scrollFactor->set(null(),null());
+HXLINE(1056)		this->timeTxt->set_alpha(( (Float)(0) ));
+HXLINE(1057)		this->timeTxt->set_borderSize(( (Float)(2) ));
+HXLINE(1058)		this->timeTxt->set_visible(showTime);
+HXLINE(1059)		if (::ClientPrefs_obj::downScroll) {
+HXLINE(1059)			this->timeTxt->set_y(( (Float)((::flixel::FlxG_obj::height - 44)) ));
             		}
-HXLINE(1005)		if ((::ClientPrefs_obj::timeBarType == HX_("Song Name",76,e6,ca,de))) {
-HXLINE(1007)			this->timeTxt->set_text(( (::String)(::PlayState_obj::SONG->__Field(HX_("song",d5,23,58,4c),::hx::paccDynamic)) ));
+HXLINE(1061)		if ((::ClientPrefs_obj::timeBarType == HX_("Song Name",76,e6,ca,de))) {
+HXLINE(1063)			this->timeTxt->set_text(( (::String)(::PlayState_obj::SONG->__Field(HX_("song",d5,23,58,4c),::hx::paccDynamic)) ));
             		}
-HXLINE(1009)		this->updateTime = showTime;
-HXLINE(1011)		this->timeBarBG =  ::AttachedSprite_obj::__alloc( HX_CTX ,HX_("timeBar",c6,e3,d4,d8),null(),null(),null());
-HXLINE(1012)		this->timeBarBG->set_x(this->timeTxt->x);
-HXLINE(1013)		 ::AttachedSprite _hx_tmp18 = this->timeBarBG;
-HXDLIN(1013)		Float _hx_tmp19 = this->timeTxt->y;
-HXDLIN(1013)		_hx_tmp18->set_y((_hx_tmp19 + (this->timeTxt->get_height() / ( (Float)(4) ))));
-HXLINE(1014)		this->timeBarBG->scrollFactor->set(null(),null());
-HXLINE(1015)		this->timeBarBG->set_alpha(( (Float)(0) ));
-HXLINE(1016)		this->timeBarBG->set_visible(showTime);
-HXLINE(1017)		this->timeBarBG->set_color(-16777216);
-HXLINE(1018)		this->timeBarBG->xAdd = ( (Float)(-4) );
-HXLINE(1019)		this->timeBarBG->yAdd = ( (Float)(-4) );
-HXLINE(1020)		this->add(this->timeBarBG);
-HXLINE(1022)		Float _hx_tmp20 = (this->timeBarBG->x + 4);
-HXDLIN(1022)		Float _hx_tmp21 = (this->timeBarBG->y + 4);
-HXDLIN(1022)		int _hx_tmp22 = ::Std_obj::_hx_int((this->timeBarBG->get_width() - ( (Float)(8) )));
-HXDLIN(1022)		this->timeBar =  ::flixel::ui::FlxBar_obj::__alloc( HX_CTX ,_hx_tmp20,_hx_tmp21,::flixel::ui::FlxBarFillDirection_obj::LEFT_TO_RIGHT_dyn(),_hx_tmp22,::Std_obj::_hx_int((this->timeBarBG->get_height() - ( (Float)(8) ))),::hx::ObjectPtr<OBJ_>(this),HX_("songPercent",70,03,67,31),0,1,null());
-HXLINE(1024)		this->timeBar->scrollFactor->set(null(),null());
-HXLINE(1025)		this->timeBar->createFilledBar(-16777216,-1,null(),null());
-HXLINE(1026)		this->timeBar->set_numDivisions(800);
-HXLINE(1027)		this->timeBar->set_alpha(( (Float)(0) ));
-HXLINE(1028)		this->timeBar->set_visible(showTime);
-HXLINE(1029)		this->add(this->timeBar);
-HXLINE(1030)		this->add(this->timeTxt);
-HXLINE(1031)		this->timeBarBG->sprTracker = this->timeBar;
-HXLINE(1033)		this->strumLineNotes =  ::flixel::group::FlxTypedGroup_obj::__alloc( HX_CTX ,null());
-HXLINE(1034)		this->add(this->strumLineNotes);
-HXLINE(1035)		this->add(this->grpNoteSplashes);
-HXLINE(1037)		if ((::ClientPrefs_obj::timeBarType == HX_("Song Name",76,e6,ca,de))) {
-HXLINE(1039)			this->timeTxt->set_size(24);
-HXLINE(1040)			{
-HXLINE(1040)				 ::flixel::text::FlxText _g = this->timeTxt;
-HXDLIN(1040)				_g->set_y((_g->y + 3));
+HXLINE(1065)		this->updateTime = showTime;
+HXLINE(1067)		this->timeBarBG =  ::AttachedSprite_obj::__alloc( HX_CTX ,HX_("timeBar",c6,e3,d4,d8),null(),null(),null());
+HXLINE(1068)		this->timeBarBG->set_x(this->timeTxt->x);
+HXLINE(1069)		 ::AttachedSprite _hx_tmp18 = this->timeBarBG;
+HXDLIN(1069)		Float _hx_tmp19 = this->timeTxt->y;
+HXDLIN(1069)		_hx_tmp18->set_y((_hx_tmp19 + (this->timeTxt->get_height() / ( (Float)(4) ))));
+HXLINE(1070)		this->timeBarBG->scrollFactor->set(null(),null());
+HXLINE(1071)		this->timeBarBG->set_alpha(( (Float)(0) ));
+HXLINE(1072)		this->timeBarBG->set_visible(showTime);
+HXLINE(1073)		this->timeBarBG->set_color(-16777216);
+HXLINE(1074)		this->timeBarBG->xAdd = ( (Float)(-4) );
+HXLINE(1075)		this->timeBarBG->yAdd = ( (Float)(-4) );
+HXLINE(1076)		this->add(this->timeBarBG);
+HXLINE(1078)		Float _hx_tmp20 = (this->timeBarBG->x + 4);
+HXDLIN(1078)		Float _hx_tmp21 = (this->timeBarBG->y + 4);
+HXDLIN(1078)		int _hx_tmp22 = ::Std_obj::_hx_int((this->timeBarBG->get_width() - ( (Float)(8) )));
+HXDLIN(1078)		this->timeBar =  ::flixel::ui::FlxBar_obj::__alloc( HX_CTX ,_hx_tmp20,_hx_tmp21,::flixel::ui::FlxBarFillDirection_obj::LEFT_TO_RIGHT_dyn(),_hx_tmp22,::Std_obj::_hx_int((this->timeBarBG->get_height() - ( (Float)(8) ))),::hx::ObjectPtr<OBJ_>(this),HX_("songPercent",70,03,67,31),0,1,null());
+HXLINE(1080)		this->timeBar->scrollFactor->set(null(),null());
+HXLINE(1081)		this->timeBar->createFilledBar(-16777216,-1,null(),null());
+HXLINE(1082)		this->timeBar->set_numDivisions(800);
+HXLINE(1083)		this->timeBar->set_alpha(( (Float)(0) ));
+HXLINE(1084)		this->timeBar->set_visible(showTime);
+HXLINE(1085)		this->add(this->timeBar);
+HXLINE(1086)		this->add(this->timeTxt);
+HXLINE(1087)		this->timeBarBG->sprTracker = this->timeBar;
+HXLINE(1089)		this->strumLineNotes =  ::flixel::group::FlxTypedGroup_obj::__alloc( HX_CTX ,null());
+HXLINE(1090)		this->add(this->strumLineNotes);
+HXLINE(1091)		this->add(this->grpNoteSplashes);
+HXLINE(1093)		if ((::ClientPrefs_obj::timeBarType == HX_("Song Name",76,e6,ca,de))) {
+HXLINE(1095)			this->timeTxt->set_size(24);
+HXLINE(1096)			{
+HXLINE(1096)				 ::flixel::text::FlxText _g = this->timeTxt;
+HXDLIN(1096)				_g->set_y((_g->y + 3));
             			}
             		}
-HXLINE(1043)		 ::NoteSplash splash =  ::NoteSplash_obj::__alloc( HX_CTX ,100,100,0);
-HXLINE(1044)		this->grpNoteSplashes->add(splash).StaticCast<  ::NoteSplash >();
-HXLINE(1045)		splash->set_alpha(((Float)0.0));
-HXLINE(1047)		this->opponentStrums =  ::flixel::group::FlxTypedGroup_obj::__alloc( HX_CTX ,null());
-HXLINE(1048)		this->playerStrums =  ::flixel::group::FlxTypedGroup_obj::__alloc( HX_CTX ,null());
-HXLINE(1052)		this->generateSong(( (::String)(::PlayState_obj::SONG->__Field(HX_("song",d5,23,58,4c),::hx::paccDynamic)) ));
-HXLINE(1054)		{
-HXLINE(1054)			 ::Dynamic notetype = this->noteTypeMap->keys();
-HXDLIN(1054)			while(( (bool)(notetype->__Field(HX_("hasNext",6d,a5,46,18),::hx::paccDynamic)()) )){
-HXLINE(1054)				::String notetype1 = ( (::String)(notetype->__Field(HX_("next",f3,84,02,49),::hx::paccDynamic)()) );
-HXLINE(1056)				::String luaToLoad = ::Paths_obj::modFolders(((HX_("custom_notetypes/",16,04,18,a1) + notetype1) + HX_(".lua",4a,2a,ba,1e)));
-HXLINE(1057)				if (::sys::FileSystem_obj::exists(luaToLoad)) {
-HXLINE(1059)					::Array< ::Dynamic> _hx_tmp = this->luaArray;
-HXDLIN(1059)					_hx_tmp->push( ::FunkinLua_obj::__alloc( HX_CTX ,luaToLoad));
+HXLINE(1099)		 ::NoteSplash splash =  ::NoteSplash_obj::__alloc( HX_CTX ,100,100,0);
+HXLINE(1100)		this->grpNoteSplashes->add(splash).StaticCast<  ::NoteSplash >();
+HXLINE(1101)		splash->set_alpha(((Float)0.0));
+HXLINE(1103)		this->opponentStrums =  ::flixel::group::FlxTypedGroup_obj::__alloc( HX_CTX ,null());
+HXLINE(1104)		this->playerStrums =  ::flixel::group::FlxTypedGroup_obj::__alloc( HX_CTX ,null());
+HXLINE(1108)		this->generateSong(( (::String)(::PlayState_obj::SONG->__Field(HX_("song",d5,23,58,4c),::hx::paccDynamic)) ));
+HXLINE(1110)		{
+HXLINE(1110)			 ::Dynamic notetype = this->noteTypeMap->keys();
+HXDLIN(1110)			while(( (bool)(notetype->__Field(HX_("hasNext",6d,a5,46,18),::hx::paccDynamic)()) )){
+HXLINE(1110)				::String notetype1 = ( (::String)(notetype->__Field(HX_("next",f3,84,02,49),::hx::paccDynamic)()) );
+HXLINE(1112)				::String luaToLoad = ::Paths_obj::modFolders(((HX_("custom_notetypes/",16,04,18,a1) + notetype1) + HX_(".lua",4a,2a,ba,1e)));
+HXLINE(1113)				if (::sys::FileSystem_obj::exists(luaToLoad)) {
+HXLINE(1115)					::Array< ::Dynamic> _hx_tmp = this->luaArray;
+HXDLIN(1115)					_hx_tmp->push( ::FunkinLua_obj::__alloc( HX_CTX ,luaToLoad));
             				}
             				else {
-HXLINE(1063)					::String file = ((HX_("custom_notetypes/",16,04,18,a1) + notetype1) + HX_(".lua",4a,2a,ba,1e));
-HXDLIN(1063)					if (::hx::IsNull( file )) {
-HXLINE(1063)						file = HX_("",00,00,00,00);
+HXLINE(1119)					::String file = ((HX_("custom_notetypes/",16,04,18,a1) + notetype1) + HX_(".lua",4a,2a,ba,1e));
+HXDLIN(1119)					if (::hx::IsNull( file )) {
+HXLINE(1119)						file = HX_("",00,00,00,00);
             					}
-HXDLIN(1063)					luaToLoad = (HX_("assets/",4c,2a,dc,36) + file);
-HXLINE(1064)					if (::sys::FileSystem_obj::exists(luaToLoad)) {
-HXLINE(1066)						::Array< ::Dynamic> _hx_tmp = this->luaArray;
-HXDLIN(1066)						_hx_tmp->push( ::FunkinLua_obj::__alloc( HX_CTX ,luaToLoad));
+HXDLIN(1119)					luaToLoad = (HX_("assets/",4c,2a,dc,36) + file);
+HXLINE(1120)					if (::sys::FileSystem_obj::exists(luaToLoad)) {
+HXLINE(1122)						::Array< ::Dynamic> _hx_tmp = this->luaArray;
+HXDLIN(1122)						_hx_tmp->push( ::FunkinLua_obj::__alloc( HX_CTX ,luaToLoad));
             					}
             				}
             			}
             		}
-HXLINE(1070)		{
-HXLINE(1070)			 ::Dynamic event = this->eventPushedMap->keys();
-HXDLIN(1070)			while(( (bool)(event->__Field(HX_("hasNext",6d,a5,46,18),::hx::paccDynamic)()) )){
-HXLINE(1070)				::String event1 = ( (::String)(event->__Field(HX_("next",f3,84,02,49),::hx::paccDynamic)()) );
-HXLINE(1072)				::String luaToLoad = ::Paths_obj::modFolders(((HX_("custom_events/",28,61,2e,89) + event1) + HX_(".lua",4a,2a,ba,1e)));
-HXLINE(1073)				if (::sys::FileSystem_obj::exists(luaToLoad)) {
-HXLINE(1075)					::Array< ::Dynamic> _hx_tmp = this->luaArray;
-HXDLIN(1075)					_hx_tmp->push( ::FunkinLua_obj::__alloc( HX_CTX ,luaToLoad));
+HXLINE(1126)		{
+HXLINE(1126)			 ::Dynamic event = this->eventPushedMap->keys();
+HXDLIN(1126)			while(( (bool)(event->__Field(HX_("hasNext",6d,a5,46,18),::hx::paccDynamic)()) )){
+HXLINE(1126)				::String event1 = ( (::String)(event->__Field(HX_("next",f3,84,02,49),::hx::paccDynamic)()) );
+HXLINE(1128)				::String luaToLoad = ::Paths_obj::modFolders(((HX_("custom_events/",28,61,2e,89) + event1) + HX_(".lua",4a,2a,ba,1e)));
+HXLINE(1129)				if (::sys::FileSystem_obj::exists(luaToLoad)) {
+HXLINE(1131)					::Array< ::Dynamic> _hx_tmp = this->luaArray;
+HXDLIN(1131)					_hx_tmp->push( ::FunkinLua_obj::__alloc( HX_CTX ,luaToLoad));
             				}
             				else {
-HXLINE(1079)					::String file = ((HX_("custom_events/",28,61,2e,89) + event1) + HX_(".lua",4a,2a,ba,1e));
-HXDLIN(1079)					if (::hx::IsNull( file )) {
-HXLINE(1079)						file = HX_("",00,00,00,00);
+HXLINE(1135)					::String file = ((HX_("custom_events/",28,61,2e,89) + event1) + HX_(".lua",4a,2a,ba,1e));
+HXDLIN(1135)					if (::hx::IsNull( file )) {
+HXLINE(1135)						file = HX_("",00,00,00,00);
             					}
-HXDLIN(1079)					luaToLoad = (HX_("assets/",4c,2a,dc,36) + file);
-HXLINE(1080)					if (::sys::FileSystem_obj::exists(luaToLoad)) {
-HXLINE(1082)						::Array< ::Dynamic> _hx_tmp = this->luaArray;
-HXDLIN(1082)						_hx_tmp->push( ::FunkinLua_obj::__alloc( HX_CTX ,luaToLoad));
+HXDLIN(1135)					luaToLoad = (HX_("assets/",4c,2a,dc,36) + file);
+HXLINE(1136)					if (::sys::FileSystem_obj::exists(luaToLoad)) {
+HXLINE(1138)						::Array< ::Dynamic> _hx_tmp = this->luaArray;
+HXDLIN(1138)						_hx_tmp->push( ::FunkinLua_obj::__alloc( HX_CTX ,luaToLoad));
             					}
             				}
             			}
             		}
-HXLINE(1087)		this->noteTypeMap->clear();
-HXLINE(1088)		this->noteTypeMap = null();
-HXLINE(1089)		this->eventPushedMap->clear();
-HXLINE(1090)		this->eventPushedMap = null();
-HXLINE(1095)		this->camFollow =  ::flixel::math::FlxPoint_obj::__alloc( HX_CTX ,null(),null());
-HXLINE(1096)		this->camFollowPos =  ::flixel::FlxObject_obj::__alloc( HX_CTX ,0,0,1,1);
-HXLINE(1098)		this->snapCamFollowToPos(camPos->x,camPos->y);
-HXLINE(1099)		if (::hx::IsNotNull( ::PlayState_obj::prevCamFollow )) {
-HXLINE(1101)			this->camFollow = ::PlayState_obj::prevCamFollow;
-HXLINE(1102)			::PlayState_obj::prevCamFollow = null();
+HXLINE(1143)		this->noteTypeMap->clear();
+HXLINE(1144)		this->noteTypeMap = null();
+HXLINE(1145)		this->eventPushedMap->clear();
+HXLINE(1146)		this->eventPushedMap = null();
+HXLINE(1151)		this->camFollow =  ::flixel::math::FlxPoint_obj::__alloc( HX_CTX ,null(),null());
+HXLINE(1152)		this->camFollowPos =  ::flixel::FlxObject_obj::__alloc( HX_CTX ,0,0,1,1);
+HXLINE(1154)		this->snapCamFollowToPos(camPos->x,camPos->y);
+HXLINE(1155)		if (::hx::IsNotNull( ::PlayState_obj::prevCamFollow )) {
+HXLINE(1157)			this->camFollow = ::PlayState_obj::prevCamFollow;
+HXLINE(1158)			::PlayState_obj::prevCamFollow = null();
             		}
-HXLINE(1104)		if (::hx::IsNotNull( ::PlayState_obj::prevCamFollowPos )) {
-HXLINE(1106)			this->camFollowPos = ::PlayState_obj::prevCamFollowPos;
-HXLINE(1107)			::PlayState_obj::prevCamFollowPos = null();
+HXLINE(1160)		if (::hx::IsNotNull( ::PlayState_obj::prevCamFollowPos )) {
+HXLINE(1162)			this->camFollowPos = ::PlayState_obj::prevCamFollowPos;
+HXLINE(1163)			::PlayState_obj::prevCamFollowPos = null();
             		}
-HXLINE(1109)		this->add(this->camFollowPos);
-HXLINE(1111)		::flixel::FlxG_obj::camera->follow(this->camFollowPos,::flixel::FlxCameraFollowStyle_obj::LOCKON_dyn(),1);
-HXLINE(1113)		::flixel::FlxG_obj::camera->set_zoom(this->defaultCamZoom);
-HXLINE(1114)		{
-HXLINE(1114)			 ::flixel::FlxCamera _this = ::flixel::FlxG_obj::camera;
-HXDLIN(1114)			 ::flixel::math::FlxPoint point = this->camFollow;
-HXDLIN(1114)			_this->scroll->set((point->x - (( (Float)(_this->width) ) * ((Float)0.5))),(point->y - (( (Float)(_this->height) ) * ((Float)0.5))));
-HXDLIN(1114)			if (point->_weak) {
-HXLINE(1114)				point->put();
+HXLINE(1165)		this->add(this->camFollowPos);
+HXLINE(1167)		::flixel::FlxG_obj::camera->follow(this->camFollowPos,::flixel::FlxCameraFollowStyle_obj::LOCKON_dyn(),1);
+HXLINE(1169)		::flixel::FlxG_obj::camera->set_zoom(this->defaultCamZoom);
+HXLINE(1170)		{
+HXLINE(1170)			 ::flixel::FlxCamera _this = ::flixel::FlxG_obj::camera;
+HXDLIN(1170)			 ::flixel::math::FlxPoint point = this->camFollow;
+HXDLIN(1170)			_this->scroll->set((point->x - (( (Float)(_this->width) ) * ((Float)0.5))),(point->y - (( (Float)(_this->height) ) * ((Float)0.5))));
+HXDLIN(1170)			if (point->_weak) {
+HXLINE(1170)				point->put();
             			}
             		}
-HXLINE(1116)		{
-HXLINE(1116)			 ::flixel::math::FlxRect _this1 = ::flixel::FlxG_obj::worldBounds;
-HXDLIN(1116)			_this1->x = ( (Float)(0) );
-HXDLIN(1116)			_this1->y = ( (Float)(0) );
-HXDLIN(1116)			_this1->width = ( (Float)(::flixel::FlxG_obj::width) );
-HXDLIN(1116)			_this1->height = ( (Float)(::flixel::FlxG_obj::height) );
+HXLINE(1172)		{
+HXLINE(1172)			 ::flixel::math::FlxRect _this1 = ::flixel::FlxG_obj::worldBounds;
+HXDLIN(1172)			_this1->x = ( (Float)(0) );
+HXDLIN(1172)			_this1->y = ( (Float)(0) );
+HXDLIN(1172)			_this1->width = ( (Float)(::flixel::FlxG_obj::width) );
+HXDLIN(1172)			_this1->height = ( (Float)(::flixel::FlxG_obj::height) );
             		}
-HXLINE(1118)		::flixel::FlxG_obj::fixedTimestep = false;
-HXLINE(1119)		this->moveCameraSection(0);
-HXLINE(1121)		this->healthBarBG =  ::AttachedSprite_obj::__alloc( HX_CTX ,HX_("healthBar",97,8a,92,42),null(),null(),null());
-HXLINE(1122)		this->healthBarBG->set_y((( (Float)(::flixel::FlxG_obj::height) ) * ((Float)0.89)));
-HXLINE(1123)		this->healthBarBG->screenCenter(::flixel::util::FlxAxes_obj::X_dyn());
-HXLINE(1124)		this->healthBarBG->scrollFactor->set(null(),null());
-HXLINE(1125)		this->healthBarBG->set_visible(!(::ClientPrefs_obj::hideHud));
-HXLINE(1126)		this->healthBarBG->xAdd = ( (Float)(-4) );
-HXLINE(1127)		this->healthBarBG->yAdd = ( (Float)(-4) );
-HXLINE(1128)		this->add(this->healthBarBG);
-HXLINE(1129)		if (::ClientPrefs_obj::downScroll) {
-HXLINE(1129)			this->healthBarBG->set_y((((Float)0.11) * ( (Float)(::flixel::FlxG_obj::height) )));
+HXLINE(1174)		::flixel::FlxG_obj::fixedTimestep = false;
+HXLINE(1175)		this->moveCameraSection(0);
+HXLINE(1177)		this->healthBarBG =  ::AttachedSprite_obj::__alloc( HX_CTX ,HX_("healthBar",97,8a,92,42),null(),null(),null());
+HXLINE(1178)		this->healthBarBG->set_y((( (Float)(::flixel::FlxG_obj::height) ) * ((Float)0.89)));
+HXLINE(1179)		this->healthBarBG->screenCenter(::flixel::util::FlxAxes_obj::X_dyn());
+HXLINE(1180)		this->healthBarBG->scrollFactor->set(null(),null());
+HXLINE(1181)		this->healthBarBG->set_visible(!(::ClientPrefs_obj::hideHud));
+HXLINE(1182)		this->healthBarBG->xAdd = ( (Float)(-4) );
+HXLINE(1183)		this->healthBarBG->yAdd = ( (Float)(-4) );
+HXLINE(1184)		this->add(this->healthBarBG);
+HXLINE(1185)		if (::ClientPrefs_obj::downScroll) {
+HXLINE(1185)			this->healthBarBG->set_y((((Float)0.11) * ( (Float)(::flixel::FlxG_obj::height) )));
             		}
-HXLINE(1131)		Float _hx_tmp23 = (this->healthBarBG->x + 4);
-HXDLIN(1131)		Float _hx_tmp24 = (this->healthBarBG->y + 4);
-HXDLIN(1131)		int _hx_tmp25 = ::Std_obj::_hx_int((this->healthBarBG->get_width() - ( (Float)(8) )));
-HXDLIN(1131)		this->healthBar =  ::flixel::ui::FlxBar_obj::__alloc( HX_CTX ,_hx_tmp23,_hx_tmp24,::flixel::ui::FlxBarFillDirection_obj::RIGHT_TO_LEFT_dyn(),_hx_tmp25,::Std_obj::_hx_int((this->healthBarBG->get_height() - ( (Float)(8) ))),::hx::ObjectPtr<OBJ_>(this),HX_("health",9c,28,06,fd),0,2,null());
-HXLINE(1133)		this->healthBar->scrollFactor->set(null(),null());
-HXLINE(1135)		this->healthBar->set_visible(!(::ClientPrefs_obj::hideHud));
-HXLINE(1136)		this->healthBar->set_alpha(::ClientPrefs_obj::healthBarAlpha);
-HXLINE(1137)		this->add(this->healthBar);
-HXLINE(1138)		this->healthBarBG->sprTracker = this->healthBar;
-HXLINE(1140)		this->iconP1 =  ::HealthIcon_obj::__alloc( HX_CTX ,this->boyfriend->healthIcon,true);
-HXLINE(1141)		this->iconP1->set_y((this->healthBar->y - ( (Float)(75) )));
-HXLINE(1142)		this->iconP1->set_visible(!(::ClientPrefs_obj::hideHud));
-HXLINE(1143)		this->iconP1->set_alpha(::ClientPrefs_obj::healthBarAlpha);
-HXLINE(1144)		this->add(this->iconP1);
-HXLINE(1146)		this->iconP2 =  ::HealthIcon_obj::__alloc( HX_CTX ,this->dad->healthIcon,false);
-HXLINE(1147)		this->iconP2->set_y((this->healthBar->y - ( (Float)(75) )));
-HXLINE(1148)		this->iconP2->set_visible(!(::ClientPrefs_obj::hideHud));
-HXLINE(1149)		this->iconP2->set_alpha(::ClientPrefs_obj::healthBarAlpha);
-HXLINE(1150)		this->add(this->iconP2);
-HXLINE(1151)		this->reloadHealthBarColors();
-HXLINE(1153)		this->scoreTxt =  ::flixel::text::FlxText_obj::__alloc( HX_CTX ,0,(this->healthBarBG->y + 36),::flixel::FlxG_obj::width,HX_("",00,00,00,00),20,null());
-HXLINE(1154)		 ::flixel::text::FlxText _hx_tmp26 = this->scoreTxt;
-HXDLIN(1154)		::String file3 = ::Paths_obj::modFolders((HX_("fonts/",eb,13,ef,fa) + HX_("vcr.ttf",9d,d2,a7,82)));
-HXDLIN(1154)		::String _hx_tmp27;
-HXDLIN(1154)		if (::sys::FileSystem_obj::exists(file3)) {
-HXLINE(1154)			_hx_tmp27 = file3;
-            		}
-            		else {
-HXLINE(1154)			_hx_tmp27 = (HX_("assets/fonts/",37,ff,a5,9c) + HX_("vcr.ttf",9d,d2,a7,82));
-            		}
-HXDLIN(1154)		_hx_tmp26->setFormat(_hx_tmp27,20,-1,HX_("center",d5,25,db,05),::flixel::text::FlxTextBorderStyle_obj::OUTLINE_dyn(),-16777216,null());
-HXLINE(1155)		this->scoreTxt->scrollFactor->set(null(),null());
-HXLINE(1156)		this->scoreTxt->set_borderSize(((Float)1.25));
-HXLINE(1157)		this->scoreTxt->set_visible(!(::ClientPrefs_obj::hideHud));
-HXLINE(1158)		this->add(this->scoreTxt);
-HXLINE(1160)		this->botplayTxt =  ::flixel::text::FlxText_obj::__alloc( HX_CTX ,400,(this->timeBarBG->y + 55),(::flixel::FlxG_obj::width - 800),HX_("BOTPLAY",5b,cf,7d,e1),32,null());
-HXLINE(1161)		 ::flixel::text::FlxText _hx_tmp28 = this->botplayTxt;
-HXDLIN(1161)		::String file4 = ::Paths_obj::modFolders((HX_("fonts/",eb,13,ef,fa) + HX_("vcr.ttf",9d,d2,a7,82)));
-HXDLIN(1161)		::String _hx_tmp29;
-HXDLIN(1161)		if (::sys::FileSystem_obj::exists(file4)) {
-HXLINE(1161)			_hx_tmp29 = file4;
+HXLINE(1187)		Float _hx_tmp23 = (this->healthBarBG->x + 4);
+HXDLIN(1187)		Float _hx_tmp24 = (this->healthBarBG->y + 4);
+HXDLIN(1187)		int _hx_tmp25 = ::Std_obj::_hx_int((this->healthBarBG->get_width() - ( (Float)(8) )));
+HXDLIN(1187)		this->healthBar =  ::flixel::ui::FlxBar_obj::__alloc( HX_CTX ,_hx_tmp23,_hx_tmp24,::flixel::ui::FlxBarFillDirection_obj::RIGHT_TO_LEFT_dyn(),_hx_tmp25,::Std_obj::_hx_int((this->healthBarBG->get_height() - ( (Float)(8) ))),::hx::ObjectPtr<OBJ_>(this),HX_("health",9c,28,06,fd),0,2,null());
+HXLINE(1189)		this->healthBar->scrollFactor->set(null(),null());
+HXLINE(1191)		this->healthBar->set_visible(!(::ClientPrefs_obj::hideHud));
+HXLINE(1192)		this->healthBar->set_alpha(::ClientPrefs_obj::healthBarAlpha);
+HXLINE(1193)		this->add(this->healthBar);
+HXLINE(1194)		this->healthBarBG->sprTracker = this->healthBar;
+HXLINE(1196)		this->iconP1 =  ::HealthIcon_obj::__alloc( HX_CTX ,this->boyfriend->healthIcon,true);
+HXLINE(1197)		this->iconP1->set_y((this->healthBar->y - ( (Float)(75) )));
+HXLINE(1198)		this->iconP1->set_visible(!(::ClientPrefs_obj::hideHud));
+HXLINE(1199)		this->iconP1->set_alpha(::ClientPrefs_obj::healthBarAlpha);
+HXLINE(1200)		this->add(this->iconP1);
+HXLINE(1202)		this->iconP2 =  ::HealthIcon_obj::__alloc( HX_CTX ,this->dad->healthIcon,false);
+HXLINE(1203)		this->iconP2->set_y((this->healthBar->y - ( (Float)(75) )));
+HXLINE(1204)		this->iconP2->set_visible(!(::ClientPrefs_obj::hideHud));
+HXLINE(1205)		this->iconP2->set_alpha(::ClientPrefs_obj::healthBarAlpha);
+HXLINE(1206)		this->add(this->iconP2);
+HXLINE(1207)		this->reloadHealthBarColors();
+HXLINE(1209)		this->scoreTxt =  ::flixel::text::FlxText_obj::__alloc( HX_CTX ,0,(this->healthBarBG->y + 36),::flixel::FlxG_obj::width,HX_("",00,00,00,00),20,null());
+HXLINE(1210)		 ::flixel::text::FlxText _hx_tmp26 = this->scoreTxt;
+HXDLIN(1210)		::String file3 = ::Paths_obj::modFolders((HX_("fonts/",eb,13,ef,fa) + HX_("vcr.ttf",9d,d2,a7,82)));
+HXDLIN(1210)		::String _hx_tmp27;
+HXDLIN(1210)		if (::sys::FileSystem_obj::exists(file3)) {
+HXLINE(1210)			_hx_tmp27 = file3;
             		}
             		else {
-HXLINE(1161)			_hx_tmp29 = (HX_("assets/fonts/",37,ff,a5,9c) + HX_("vcr.ttf",9d,d2,a7,82));
+HXLINE(1210)			_hx_tmp27 = (HX_("assets/fonts/",37,ff,a5,9c) + HX_("vcr.ttf",9d,d2,a7,82));
             		}
-HXDLIN(1161)		_hx_tmp28->setFormat(_hx_tmp29,32,-1,HX_("center",d5,25,db,05),::flixel::text::FlxTextBorderStyle_obj::OUTLINE_dyn(),-16777216,null());
-HXLINE(1162)		this->botplayTxt->scrollFactor->set(null(),null());
-HXLINE(1163)		this->botplayTxt->set_borderSize(((Float)1.25));
-HXLINE(1164)		this->botplayTxt->set_visible(this->cpuControlled);
-HXLINE(1165)		this->add(this->botplayTxt);
-HXLINE(1166)		if (::ClientPrefs_obj::downScroll) {
-HXLINE(1167)			this->botplayTxt->set_y((this->timeBarBG->y - ( (Float)(78) )));
-            		}
-HXLINE(1170)		this->strumLineNotes->set_cameras(::Array_obj< ::Dynamic>::__new(1)->init(0,this->camHUD));
-HXLINE(1171)		this->grpNoteSplashes->set_cameras(::Array_obj< ::Dynamic>::__new(1)->init(0,this->camHUD));
-HXLINE(1172)		this->notes->set_cameras(::Array_obj< ::Dynamic>::__new(1)->init(0,this->camHUD));
-HXLINE(1173)		this->healthBar->set_cameras(::Array_obj< ::Dynamic>::__new(1)->init(0,this->camHUD));
-HXLINE(1174)		this->healthBarBG->set_cameras(::Array_obj< ::Dynamic>::__new(1)->init(0,this->camHUD));
-HXLINE(1175)		this->iconP1->set_cameras(::Array_obj< ::Dynamic>::__new(1)->init(0,this->camHUD));
-HXLINE(1176)		this->iconP2->set_cameras(::Array_obj< ::Dynamic>::__new(1)->init(0,this->camHUD));
-HXLINE(1177)		this->scoreTxt->set_cameras(::Array_obj< ::Dynamic>::__new(1)->init(0,this->camHUD));
-HXLINE(1178)		this->botplayTxt->set_cameras(::Array_obj< ::Dynamic>::__new(1)->init(0,this->camHUD));
-HXLINE(1179)		this->timeBar->set_cameras(::Array_obj< ::Dynamic>::__new(1)->init(0,this->camHUD));
-HXLINE(1180)		this->timeBarBG->set_cameras(::Array_obj< ::Dynamic>::__new(1)->init(0,this->camHUD));
-HXLINE(1181)		this->timeTxt->set_cameras(::Array_obj< ::Dynamic>::__new(1)->init(0,this->camHUD));
-HXLINE(1182)		doof->set_cameras(::Array_obj< ::Dynamic>::__new(1)->init(0,this->camHUD));
-HXLINE(1189)		this->startingSong = true;
-HXLINE(1193)		::Array< ::String > filesPushed1 = ::Array_obj< ::String >::__new(0);
-HXLINE(1194)		::String file5 = ((HX_("data/",c5,0e,88,d4) + ::StringTools_obj::replace(( (::String)(::PlayState_obj::SONG->__Field(HX_("song",d5,23,58,4c),::hx::paccDynamic)) ).toLowerCase(),HX_(" ",20,00,00,00),HX_("-",2d,00,00,00))) + HX_("/",2f,00,00,00));
-HXDLIN(1194)		if (::hx::IsNull( file5 )) {
-HXLINE(1194)			file5 = HX_("",00,00,00,00);
-            		}
-HXDLIN(1194)		::Array< ::String > foldersToCheck1 = ::Array_obj< ::String >::__new(1)->init(0,(HX_("assets/",4c,2a,dc,36) + file5));
-HXLINE(1197)		::String key1 = ((HX_("data/",c5,0e,88,d4) + ::StringTools_obj::replace(( (::String)(::PlayState_obj::SONG->__Field(HX_("song",d5,23,58,4c),::hx::paccDynamic)) ).toLowerCase(),HX_(" ",20,00,00,00),HX_("-",2d,00,00,00))) + HX_("/",2f,00,00,00));
-HXDLIN(1197)		if (::hx::IsNull( key1 )) {
-HXLINE(1197)			key1 = HX_("",00,00,00,00);
-            		}
-HXDLIN(1197)		foldersToCheck1->insert(0,(HX_("mods/",9e,2f,58,0c) + key1));
-HXLINE(1198)		bool _hx_tmp30;
-HXDLIN(1198)		if (::hx::IsNotNull( ::Paths_obj::currentModDirectory )) {
-HXLINE(1198)			_hx_tmp30 = (::Paths_obj::currentModDirectory.length > 0);
+HXDLIN(1210)		_hx_tmp26->setFormat(_hx_tmp27,20,-1,HX_("center",d5,25,db,05),::flixel::text::FlxTextBorderStyle_obj::OUTLINE_dyn(),-16777216,null());
+HXLINE(1211)		this->scoreTxt->scrollFactor->set(null(),null());
+HXLINE(1212)		this->scoreTxt->set_borderSize(((Float)1.25));
+HXLINE(1213)		this->scoreTxt->set_visible(!(::ClientPrefs_obj::hideHud));
+HXLINE(1214)		this->add(this->scoreTxt);
+HXLINE(1216)		this->botplayTxt =  ::flixel::text::FlxText_obj::__alloc( HX_CTX ,400,(this->timeBarBG->y + 55),(::flixel::FlxG_obj::width - 800),HX_("BOTPLAY",5b,cf,7d,e1),32,null());
+HXLINE(1217)		 ::flixel::text::FlxText _hx_tmp28 = this->botplayTxt;
+HXDLIN(1217)		::String file4 = ::Paths_obj::modFolders((HX_("fonts/",eb,13,ef,fa) + HX_("vcr.ttf",9d,d2,a7,82)));
+HXDLIN(1217)		::String _hx_tmp29;
+HXDLIN(1217)		if (::sys::FileSystem_obj::exists(file4)) {
+HXLINE(1217)			_hx_tmp29 = file4;
             		}
             		else {
-HXLINE(1198)			_hx_tmp30 = false;
+HXLINE(1217)			_hx_tmp29 = (HX_("assets/fonts/",37,ff,a5,9c) + HX_("vcr.ttf",9d,d2,a7,82));
             		}
-HXDLIN(1198)		if (_hx_tmp30) {
-HXLINE(1199)			::String key = (::Paths_obj::currentModDirectory + HX_("/data/",36,04,4e,9f));
-HXDLIN(1199)			::String key1 = ((key + ::StringTools_obj::replace(( (::String)(::PlayState_obj::SONG->__Field(HX_("song",d5,23,58,4c),::hx::paccDynamic)) ).toLowerCase(),HX_(" ",20,00,00,00),HX_("-",2d,00,00,00))) + HX_("/",2f,00,00,00));
-HXDLIN(1199)			if (::hx::IsNull( key1 )) {
-HXLINE(1199)				key1 = HX_("",00,00,00,00);
+HXDLIN(1217)		_hx_tmp28->setFormat(_hx_tmp29,32,-1,HX_("center",d5,25,db,05),::flixel::text::FlxTextBorderStyle_obj::OUTLINE_dyn(),-16777216,null());
+HXLINE(1218)		this->botplayTxt->scrollFactor->set(null(),null());
+HXLINE(1219)		this->botplayTxt->set_borderSize(((Float)1.25));
+HXLINE(1220)		this->botplayTxt->set_visible(this->cpuControlled);
+HXLINE(1221)		this->add(this->botplayTxt);
+HXLINE(1222)		if (::ClientPrefs_obj::downScroll) {
+HXLINE(1223)			this->botplayTxt->set_y((this->timeBarBG->y - ( (Float)(78) )));
+            		}
+HXLINE(1226)		this->strumLineNotes->set_cameras(::Array_obj< ::Dynamic>::__new(1)->init(0,this->camHUD));
+HXLINE(1227)		this->grpNoteSplashes->set_cameras(::Array_obj< ::Dynamic>::__new(1)->init(0,this->camHUD));
+HXLINE(1228)		this->notes->set_cameras(::Array_obj< ::Dynamic>::__new(1)->init(0,this->camHUD));
+HXLINE(1229)		this->healthBar->set_cameras(::Array_obj< ::Dynamic>::__new(1)->init(0,this->camHUD));
+HXLINE(1230)		this->healthBarBG->set_cameras(::Array_obj< ::Dynamic>::__new(1)->init(0,this->camHUD));
+HXLINE(1231)		this->iconP1->set_cameras(::Array_obj< ::Dynamic>::__new(1)->init(0,this->camHUD));
+HXLINE(1232)		this->iconP2->set_cameras(::Array_obj< ::Dynamic>::__new(1)->init(0,this->camHUD));
+HXLINE(1233)		this->scoreTxt->set_cameras(::Array_obj< ::Dynamic>::__new(1)->init(0,this->camHUD));
+HXLINE(1234)		this->botplayTxt->set_cameras(::Array_obj< ::Dynamic>::__new(1)->init(0,this->camHUD));
+HXLINE(1235)		this->timeBar->set_cameras(::Array_obj< ::Dynamic>::__new(1)->init(0,this->camHUD));
+HXLINE(1236)		this->timeBarBG->set_cameras(::Array_obj< ::Dynamic>::__new(1)->init(0,this->camHUD));
+HXLINE(1237)		this->timeTxt->set_cameras(::Array_obj< ::Dynamic>::__new(1)->init(0,this->camHUD));
+HXLINE(1238)		doof->set_cameras(::Array_obj< ::Dynamic>::__new(1)->init(0,this->camHUD));
+HXLINE(1245)		this->startingSong = true;
+HXLINE(1249)		::Array< ::String > filesPushed1 = ::Array_obj< ::String >::__new(0);
+HXLINE(1250)		::String file5 = ((HX_("data/",c5,0e,88,d4) + ::StringTools_obj::replace(( (::String)(::PlayState_obj::SONG->__Field(HX_("song",d5,23,58,4c),::hx::paccDynamic)) ).toLowerCase(),HX_(" ",20,00,00,00),HX_("-",2d,00,00,00))) + HX_("/",2f,00,00,00));
+HXDLIN(1250)		if (::hx::IsNull( file5 )) {
+HXLINE(1250)			file5 = HX_("",00,00,00,00);
+            		}
+HXDLIN(1250)		::Array< ::String > foldersToCheck1 = ::Array_obj< ::String >::__new(1)->init(0,(HX_("assets/",4c,2a,dc,36) + file5));
+HXLINE(1253)		::String key1 = ((HX_("data/",c5,0e,88,d4) + ::StringTools_obj::replace(( (::String)(::PlayState_obj::SONG->__Field(HX_("song",d5,23,58,4c),::hx::paccDynamic)) ).toLowerCase(),HX_(" ",20,00,00,00),HX_("-",2d,00,00,00))) + HX_("/",2f,00,00,00));
+HXDLIN(1253)		if (::hx::IsNull( key1 )) {
+HXLINE(1253)			key1 = HX_("",00,00,00,00);
+            		}
+HXDLIN(1253)		foldersToCheck1->insert(0,(HX_("mods/",9e,2f,58,0c) + key1));
+HXLINE(1254)		bool _hx_tmp30;
+HXDLIN(1254)		if (::hx::IsNotNull( ::Paths_obj::currentModDirectory )) {
+HXLINE(1254)			_hx_tmp30 = (::Paths_obj::currentModDirectory.length > 0);
+            		}
+            		else {
+HXLINE(1254)			_hx_tmp30 = false;
+            		}
+HXDLIN(1254)		if (_hx_tmp30) {
+HXLINE(1255)			::String key = (::Paths_obj::currentModDirectory + HX_("/data/",36,04,4e,9f));
+HXDLIN(1255)			::String key1 = ((key + ::StringTools_obj::replace(( (::String)(::PlayState_obj::SONG->__Field(HX_("song",d5,23,58,4c),::hx::paccDynamic)) ).toLowerCase(),HX_(" ",20,00,00,00),HX_("-",2d,00,00,00))) + HX_("/",2f,00,00,00));
+HXDLIN(1255)			if (::hx::IsNull( key1 )) {
+HXLINE(1255)				key1 = HX_("",00,00,00,00);
             			}
-HXDLIN(1199)			foldersToCheck1->insert(0,(HX_("mods/",9e,2f,58,0c) + key1));
+HXDLIN(1255)			foldersToCheck1->insert(0,(HX_("mods/",9e,2f,58,0c) + key1));
             		}
-HXLINE(1202)		{
-HXLINE(1202)			int _g3 = 0;
-HXDLIN(1202)			while((_g3 < foldersToCheck1->length)){
-HXLINE(1202)				::String folder = foldersToCheck1->__get(_g3);
-HXDLIN(1202)				_g3 = (_g3 + 1);
-HXLINE(1204)				if (::sys::FileSystem_obj::exists(folder)) {
-HXLINE(1206)					int _g = 0;
-HXDLIN(1206)					::Array< ::String > _g1 = ::sys::FileSystem_obj::readDirectory(folder);
-HXDLIN(1206)					while((_g < _g1->length)){
-HXLINE(1206)						::String file = _g1->__get(_g);
-HXDLIN(1206)						_g = (_g + 1);
-HXLINE(1208)						bool _hx_tmp;
-HXDLIN(1208)						if (::StringTools_obj::endsWith(file,HX_(".lua",4a,2a,ba,1e))) {
-HXLINE(1208)							_hx_tmp = !(filesPushed1->contains(file));
+HXLINE(1258)		{
+HXLINE(1258)			int _g3 = 0;
+HXDLIN(1258)			while((_g3 < foldersToCheck1->length)){
+HXLINE(1258)				::String folder = foldersToCheck1->__get(_g3);
+HXDLIN(1258)				_g3 = (_g3 + 1);
+HXLINE(1260)				if (::sys::FileSystem_obj::exists(folder)) {
+HXLINE(1262)					int _g = 0;
+HXDLIN(1262)					::Array< ::String > _g1 = ::sys::FileSystem_obj::readDirectory(folder);
+HXDLIN(1262)					while((_g < _g1->length)){
+HXLINE(1262)						::String file = _g1->__get(_g);
+HXDLIN(1262)						_g = (_g + 1);
+HXLINE(1264)						bool _hx_tmp;
+HXDLIN(1264)						if (::StringTools_obj::endsWith(file,HX_(".lua",4a,2a,ba,1e))) {
+HXLINE(1264)							_hx_tmp = !(filesPushed1->contains(file));
             						}
             						else {
-HXLINE(1208)							_hx_tmp = false;
+HXLINE(1264)							_hx_tmp = false;
             						}
-HXDLIN(1208)						if (_hx_tmp) {
-HXLINE(1210)							::Array< ::Dynamic> _hx_tmp = this->luaArray;
-HXDLIN(1210)							_hx_tmp->push( ::FunkinLua_obj::__alloc( HX_CTX ,(folder + file)));
-HXLINE(1211)							filesPushed1->push(file);
+HXDLIN(1264)						if (_hx_tmp) {
+HXLINE(1266)							::Array< ::Dynamic> _hx_tmp = this->luaArray;
+HXDLIN(1266)							_hx_tmp->push( ::FunkinLua_obj::__alloc( HX_CTX ,(folder + file)));
+HXLINE(1267)							filesPushed1->push(file);
             						}
             					}
             				}
             			}
             		}
-HXLINE(1218)		::String daSong = ::StringTools_obj::replace(this->curSong.toLowerCase(),HX_(" ",20,00,00,00),HX_("-",2d,00,00,00));
-HXLINE(1219)		bool _hx_tmp31;
-HXDLIN(1219)		if (::PlayState_obj::isStoryMode) {
-HXLINE(1219)			_hx_tmp31 = !(::PlayState_obj::seenCutscene);
+HXLINE(1274)		::String daSong = ::StringTools_obj::replace(this->curSong.toLowerCase(),HX_(" ",20,00,00,00),HX_("-",2d,00,00,00));
+HXLINE(1275)		bool _hx_tmp31;
+HXDLIN(1275)		if (::PlayState_obj::isStoryMode) {
+HXLINE(1275)			_hx_tmp31 = !(::PlayState_obj::seenCutscene);
             		}
             		else {
-HXLINE(1219)			_hx_tmp31 = false;
+HXLINE(1275)			_hx_tmp31 = false;
             		}
-HXDLIN(1219)		if (_hx_tmp31) {
-HXLINE(1221)			::String _hx_switch_4 = daSong;
+HXDLIN(1275)		if (_hx_tmp31) {
+HXLINE(1277)			::String _hx_switch_4 = daSong;
             			if (  (_hx_switch_4==HX_("equivocation",2b,55,ff,5a)) ||  (_hx_switch_4==HX_("exertion",74,11,ad,61)) ||  (_hx_switch_4==HX_("grappler",43,f6,b3,17)) ||  (_hx_switch_4==HX_("imminence",79,46,c5,28)) ){
-HXLINE(1281)				this->cuzIntros(doof);
-HXDLIN(1281)				goto _hx_goto_14;
+HXLINE(1337)				this->cuzIntros(doof);
+HXDLIN(1337)				goto _hx_goto_14;
             			}
             			if (  (_hx_switch_4==HX_("monster",1a,54,b0,b8)) ){
             				HX_BEGIN_LOCAL_FUNC_S2(::hx::LocalFunc,_hx_Closure_0, ::PlayState,_gthis, ::flixel::FlxSprite,whiteScreen2) HXARGC(1)
             				void _hx_run( ::flixel::tweens::FlxTween twn){
-            					HX_GC_STACKFRAME(&_hx_pos_af23706db05c7feb_1236_create)
-HXLINE(1237)					_gthis->camHUD->set_visible(true);
-HXLINE(1238)					_gthis->remove(whiteScreen2,null()).StaticCast<  ::flixel::FlxBasic >();
-HXLINE(1239)					_gthis->startCountdown();
+            					HX_GC_STACKFRAME(&_hx_pos_af23706db05c7feb_1292_create)
+HXLINE(1293)					_gthis->camHUD->set_visible(true);
+HXLINE(1294)					_gthis->remove(whiteScreen2,null()).StaticCast<  ::flixel::FlxBasic >();
+HXLINE(1295)					_gthis->startCountdown();
             				}
             				HX_END_LOCAL_FUNC1((void))
 
-HXLINE(1224)				 ::flixel::FlxSprite whiteScreen =  ::flixel::FlxSprite_obj::__alloc( HX_CTX ,0,0,null());
-HXDLIN(1224)				int whiteScreen1 = ::Std_obj::_hx_int(( (Float)((::flixel::FlxG_obj::width * 2)) ));
-HXDLIN(1224)				 ::flixel::FlxSprite whiteScreen2 = whiteScreen->makeGraphic(whiteScreen1,::Std_obj::_hx_int(( (Float)((::flixel::FlxG_obj::height * 2)) )),-1,null(),null());
-HXLINE(1225)				this->add(whiteScreen2);
-HXLINE(1226)				whiteScreen2->scrollFactor->set(null(),null());
-HXLINE(1227)				whiteScreen2->set_blend(0);
-HXLINE(1228)				this->camHUD->set_visible(false);
-HXLINE(1229)				Float _hx_tmp = (this->dad->getMidpoint(null())->x + 150);
-HXDLIN(1229)				this->snapCamFollowToPos(_hx_tmp,(this->dad->getMidpoint(null())->y - ( (Float)(100) )));
-HXLINE(1230)				this->inCutscene = true;
-HXLINE(1232)				::flixel::tweens::FlxTween_obj::tween(whiteScreen2, ::Dynamic(::hx::Anon_obj::Create(1)
+HXLINE(1280)				 ::flixel::FlxSprite whiteScreen =  ::flixel::FlxSprite_obj::__alloc( HX_CTX ,0,0,null());
+HXDLIN(1280)				int whiteScreen1 = ::Std_obj::_hx_int(( (Float)((::flixel::FlxG_obj::width * 2)) ));
+HXDLIN(1280)				 ::flixel::FlxSprite whiteScreen2 = whiteScreen->makeGraphic(whiteScreen1,::Std_obj::_hx_int(( (Float)((::flixel::FlxG_obj::height * 2)) )),-1,null(),null());
+HXLINE(1281)				this->add(whiteScreen2);
+HXLINE(1282)				whiteScreen2->scrollFactor->set(null(),null());
+HXLINE(1283)				whiteScreen2->set_blend(0);
+HXLINE(1284)				this->camHUD->set_visible(false);
+HXLINE(1285)				Float _hx_tmp = (this->dad->getMidpoint(null())->x + 150);
+HXDLIN(1285)				this->snapCamFollowToPos(_hx_tmp,(this->dad->getMidpoint(null())->y - ( (Float)(100) )));
+HXLINE(1286)				this->inCutscene = true;
+HXLINE(1288)				::flixel::tweens::FlxTween_obj::tween(whiteScreen2, ::Dynamic(::hx::Anon_obj::Create(1)
             					->setFixed(0,HX_("alpha",5e,a7,96,21),0)),1, ::Dynamic(::hx::Anon_obj::Create(3)
             					->setFixed(0,HX_("startDelay",c1,af,3d,f3),((Float)0.1))
             					->setFixed(1,HX_("ease",ee,8b,0c,43),::flixel::tweens::FlxEase_obj::linear_dyn())
             					->setFixed(2,HX_("onComplete",f8,d4,7e,5d), ::Dynamic(new _hx_Closure_0(_gthis,whiteScreen2)))));
-HXLINE(1242)				 ::flixel::_hx_system::frontEnds::SoundFrontEnd _hx_tmp1 = ::flixel::FlxG_obj::sound;
-HXDLIN(1242)				::String library = null();
-HXDLIN(1242)				_hx_tmp1->play(::Paths_obj::sound((HX_("thunder_",bb,58,cf,2f) + ::flixel::FlxG_obj::random->_hx_int(1,2,null())),library),null(),null(),null(),null(),null());
-HXLINE(1243)				if (::hx::IsNotNull( this->gf )) {
-HXLINE(1243)					this->gf->playAnim(HX_("scared",20,78,2a,3c),true,null(),null());
+HXLINE(1298)				 ::flixel::_hx_system::frontEnds::SoundFrontEnd _hx_tmp1 = ::flixel::FlxG_obj::sound;
+HXDLIN(1298)				::String library = null();
+HXDLIN(1298)				_hx_tmp1->play(::Paths_obj::sound((HX_("thunder_",bb,58,cf,2f) + ::flixel::FlxG_obj::random->_hx_int(1,2,null())),library),null(),null(),null(),null(),null());
+HXLINE(1299)				if (::hx::IsNotNull( this->gf )) {
+HXLINE(1299)					this->gf->playAnim(HX_("scared",20,78,2a,3c),true,null(),null());
             				}
-HXLINE(1244)				this->boyfriend->playAnim(HX_("scared",20,78,2a,3c),true,null(),null());
-HXLINE(1223)				goto _hx_goto_14;
+HXLINE(1300)				this->boyfriend->playAnim(HX_("scared",20,78,2a,3c),true,null(),null());
+HXLINE(1279)				goto _hx_goto_14;
             			}
             			if (  (_hx_switch_4==HX_("roses",04,6c,64,ed)) ||  (_hx_switch_4==HX_("senpai",3c,df,8d,6b)) ||  (_hx_switch_4==HX_("thorns",9c,bf,c7,8c)) ){
-HXLINE(1277)				if ((daSong == HX_("roses",04,6c,64,ed))) {
-HXLINE(1277)					 ::flixel::_hx_system::frontEnds::SoundFrontEnd _hx_tmp = ::flixel::FlxG_obj::sound;
-HXDLIN(1277)					_hx_tmp->play(::Paths_obj::sound(HX_("ANGRY",01,81,d0,a0),null()),null(),null(),null(),null(),null());
+HXLINE(1333)				if ((daSong == HX_("roses",04,6c,64,ed))) {
+HXLINE(1333)					 ::flixel::_hx_system::frontEnds::SoundFrontEnd _hx_tmp = ::flixel::FlxG_obj::sound;
+HXDLIN(1333)					_hx_tmp->play(::Paths_obj::sound(HX_("ANGRY",01,81,d0,a0),null()),null(),null(),null(),null(),null());
             				}
-HXLINE(1278)				this->schoolIntro(doof);
-HXLINE(1276)				goto _hx_goto_14;
+HXLINE(1334)				this->schoolIntro(doof);
+HXLINE(1332)				goto _hx_goto_14;
             			}
             			if (  (_hx_switch_4==HX_("winter-horrorland",9d,39,f4,1e)) ){
             				HX_BEGIN_LOCAL_FUNC_S2(::hx::LocalFunc,_hx_Closure_1, ::PlayState,_gthis, ::flixel::FlxSprite,blackScreen2) HXARGC(1)
             				void _hx_run( ::flixel::tweens::FlxTween twn){
-            					HX_GC_STACKFRAME(&_hx_pos_af23706db05c7feb_1256_create)
-HXLINE(1256)					_gthis->remove(blackScreen2,null()).StaticCast<  ::flixel::FlxBasic >();
+            					HX_GC_STACKFRAME(&_hx_pos_af23706db05c7feb_1312_create)
+HXLINE(1312)					_gthis->remove(blackScreen2,null()).StaticCast<  ::flixel::FlxBasic >();
             				}
             				HX_END_LOCAL_FUNC1((void))
 
@@ -1896,137 +1953,137 @@ HXLINE(1256)					_gthis->remove(blackScreen2,null()).StaticCast<  ::flixel::FlxB
             				void _hx_run( ::flixel::util::FlxTimer tmr){
             					HX_BEGIN_LOCAL_FUNC_S1(::hx::LocalFunc,_hx_Closure_2, ::PlayState,_gthis) HXARGC(1)
             					void _hx_run( ::flixel::tweens::FlxTween twn){
-            						HX_GC_STACKFRAME(&_hx_pos_af23706db05c7feb_1272_create)
-HXLINE(1272)						_gthis->startCountdown();
+            						HX_GC_STACKFRAME(&_hx_pos_af23706db05c7feb_1328_create)
+HXLINE(1328)						_gthis->startCountdown();
             					}
             					HX_END_LOCAL_FUNC1((void))
 
-            					HX_GC_STACKFRAME(&_hx_pos_af23706db05c7feb_1265_create)
-HXLINE(1266)					_gthis->camHUD->set_visible(true);
-HXLINE(1267)					_gthis->remove(blackScreen2,null()).StaticCast<  ::flixel::FlxBasic >();
-HXLINE(1268)					::flixel::tweens::FlxTween_obj::tween(::flixel::FlxG_obj::camera, ::Dynamic(::hx::Anon_obj::Create(1)
+            					HX_GC_STACKFRAME(&_hx_pos_af23706db05c7feb_1321_create)
+HXLINE(1322)					_gthis->camHUD->set_visible(true);
+HXLINE(1323)					_gthis->remove(blackScreen2,null()).StaticCast<  ::flixel::FlxBasic >();
+HXLINE(1324)					::flixel::tweens::FlxTween_obj::tween(::flixel::FlxG_obj::camera, ::Dynamic(::hx::Anon_obj::Create(1)
             						->setFixed(0,HX_("zoom",13,a3,f8,50),_gthis->defaultCamZoom)),((Float)2.5), ::Dynamic(::hx::Anon_obj::Create(2)
             						->setFixed(0,HX_("ease",ee,8b,0c,43),::flixel::tweens::FlxEase_obj::quadInOut_dyn())
             						->setFixed(1,HX_("onComplete",f8,d4,7e,5d), ::Dynamic(new _hx_Closure_2(_gthis)))));
             				}
             				HX_END_LOCAL_FUNC1((void))
 
-HXLINE(1247)				 ::flixel::FlxSprite blackScreen =  ::flixel::FlxSprite_obj::__alloc( HX_CTX ,null(),null(),null());
-HXDLIN(1247)				int blackScreen1 = ::Std_obj::_hx_int(( (Float)((::flixel::FlxG_obj::width * 2)) ));
-HXDLIN(1247)				 ::flixel::FlxSprite blackScreen2 = blackScreen->makeGraphic(blackScreen1,::Std_obj::_hx_int(( (Float)((::flixel::FlxG_obj::height * 2)) )),-16777216,null(),null());
-HXLINE(1248)				this->add(blackScreen2);
-HXLINE(1249)				blackScreen2->scrollFactor->set(null(),null());
-HXLINE(1250)				this->camHUD->set_visible(false);
-HXLINE(1251)				this->inCutscene = true;
-HXLINE(1253)				::flixel::tweens::FlxTween_obj::tween(blackScreen2, ::Dynamic(::hx::Anon_obj::Create(1)
+HXLINE(1303)				 ::flixel::FlxSprite blackScreen =  ::flixel::FlxSprite_obj::__alloc( HX_CTX ,null(),null(),null());
+HXDLIN(1303)				int blackScreen1 = ::Std_obj::_hx_int(( (Float)((::flixel::FlxG_obj::width * 2)) ));
+HXDLIN(1303)				 ::flixel::FlxSprite blackScreen2 = blackScreen->makeGraphic(blackScreen1,::Std_obj::_hx_int(( (Float)((::flixel::FlxG_obj::height * 2)) )),-16777216,null(),null());
+HXLINE(1304)				this->add(blackScreen2);
+HXLINE(1305)				blackScreen2->scrollFactor->set(null(),null());
+HXLINE(1306)				this->camHUD->set_visible(false);
+HXLINE(1307)				this->inCutscene = true;
+HXLINE(1309)				::flixel::tweens::FlxTween_obj::tween(blackScreen2, ::Dynamic(::hx::Anon_obj::Create(1)
             					->setFixed(0,HX_("alpha",5e,a7,96,21),0)),((Float)0.7), ::Dynamic(::hx::Anon_obj::Create(2)
             					->setFixed(0,HX_("ease",ee,8b,0c,43),::flixel::tweens::FlxEase_obj::linear_dyn())
             					->setFixed(1,HX_("onComplete",f8,d4,7e,5d), ::Dynamic(new _hx_Closure_1(_gthis,blackScreen2)))));
-HXLINE(1259)				 ::flixel::_hx_system::frontEnds::SoundFrontEnd _hx_tmp = ::flixel::FlxG_obj::sound;
-HXDLIN(1259)				_hx_tmp->play(::Paths_obj::sound(HX_("Lights_Turn_On",5f,e1,29,ad),null()),null(),null(),null(),null(),null());
-HXLINE(1260)				this->snapCamFollowToPos(( (Float)(400) ),( (Float)(-2050) ));
-HXLINE(1261)				{
-HXLINE(1261)					 ::flixel::FlxCamera _this = ::flixel::FlxG_obj::camera;
-HXDLIN(1261)					 ::flixel::math::FlxPoint point = this->camFollow;
-HXDLIN(1261)					_this->scroll->set((point->x - (( (Float)(_this->width) ) * ((Float)0.5))),(point->y - (( (Float)(_this->height) ) * ((Float)0.5))));
-HXDLIN(1261)					if (point->_weak) {
-HXLINE(1261)						point->put();
+HXLINE(1315)				 ::flixel::_hx_system::frontEnds::SoundFrontEnd _hx_tmp = ::flixel::FlxG_obj::sound;
+HXDLIN(1315)				_hx_tmp->play(::Paths_obj::sound(HX_("Lights_Turn_On",5f,e1,29,ad),null()),null(),null(),null(),null(),null());
+HXLINE(1316)				this->snapCamFollowToPos(( (Float)(400) ),( (Float)(-2050) ));
+HXLINE(1317)				{
+HXLINE(1317)					 ::flixel::FlxCamera _this = ::flixel::FlxG_obj::camera;
+HXDLIN(1317)					 ::flixel::math::FlxPoint point = this->camFollow;
+HXDLIN(1317)					_this->scroll->set((point->x - (( (Float)(_this->width) ) * ((Float)0.5))),(point->y - (( (Float)(_this->height) ) * ((Float)0.5))));
+HXDLIN(1317)					if (point->_weak) {
+HXLINE(1317)						point->put();
             					}
             				}
-HXLINE(1262)				::flixel::FlxG_obj::camera->set_zoom(((Float)1.5));
-HXLINE(1264)				 ::flixel::util::FlxTimer_obj::__alloc( HX_CTX ,null())->start(((Float)0.8), ::Dynamic(new _hx_Closure_3(_gthis,blackScreen2)),null());
-HXLINE(1246)				goto _hx_goto_14;
+HXLINE(1318)				::flixel::FlxG_obj::camera->set_zoom(((Float)1.5));
+HXLINE(1320)				 ::flixel::util::FlxTimer_obj::__alloc( HX_CTX ,null())->start(((Float)0.8), ::Dynamic(new _hx_Closure_3(_gthis,blackScreen2)),null());
+HXLINE(1302)				goto _hx_goto_14;
             			}
             			/* default */{
-HXLINE(1285)				this->startCountdown();
+HXLINE(1341)				this->startCountdown();
             			}
             			_hx_goto_14:;
-HXLINE(1287)			::PlayState_obj::seenCutscene = true;
+HXLINE(1343)			::PlayState_obj::seenCutscene = true;
             		}
             		else {
-HXLINE(1291)			this->startCountdown();
+HXLINE(1347)			this->startCountdown();
             		}
-HXLINE(1293)		this->RecalculateRating();
-HXLINE(1296)		if ((::ClientPrefs_obj::hitsoundVolume > 0)) {
-HXLINE(1296)			::CoolUtil_obj::precacheSound(HX_("hitsound",9c,79,fe,2c),null());
+HXLINE(1349)		this->RecalculateRating();
+HXLINE(1352)		if ((::ClientPrefs_obj::hitsoundVolume > 0)) {
+HXLINE(1352)			::CoolUtil_obj::precacheSound(HX_("hitsound",9c,79,fe,2c),null());
             		}
-HXLINE(1297)		::CoolUtil_obj::precacheSound(HX_("missnote1",83,37,74,8f),null());
-HXLINE(1298)		::CoolUtil_obj::precacheSound(HX_("missnote2",84,37,74,8f),null());
-HXLINE(1299)		::CoolUtil_obj::precacheSound(HX_("missnote3",85,37,74,8f),null());
-HXLINE(1301)		if (::hx::IsNotNull( ::PauseSubState_obj::songName )) {
-HXLINE(1302)			::CoolUtil_obj::precacheMusic(::PauseSubState_obj::songName,null());
+HXLINE(1353)		::CoolUtil_obj::precacheSound(HX_("missnote1",83,37,74,8f),null());
+HXLINE(1354)		::CoolUtil_obj::precacheSound(HX_("missnote2",84,37,74,8f),null());
+HXLINE(1355)		::CoolUtil_obj::precacheSound(HX_("missnote3",85,37,74,8f),null());
+HXLINE(1357)		if (::hx::IsNotNull( ::PauseSubState_obj::songName )) {
+HXLINE(1358)			::CoolUtil_obj::precacheMusic(::PauseSubState_obj::songName,null());
             		}
             		else {
-HXLINE(1303)			if ((::ClientPrefs_obj::pauseMusic != HX_("None",d8,3e,e3,33))) {
-HXLINE(1304)				::CoolUtil_obj::precacheMusic(::StringTools_obj::replace(::ClientPrefs_obj::pauseMusic.toLowerCase(),HX_(" ",20,00,00,00),HX_("-",2d,00,00,00)),null());
+HXLINE(1359)			if ((::ClientPrefs_obj::pauseMusic != HX_("None",d8,3e,e3,33))) {
+HXLINE(1360)				::CoolUtil_obj::precacheMusic(::StringTools_obj::replace(::ClientPrefs_obj::pauseMusic.toLowerCase(),HX_(" ",20,00,00,00),HX_("-",2d,00,00,00)),null());
             			}
             		}
-HXLINE(1309)		::String _hx_tmp32 = this->detailsText;
-HXDLIN(1309)		::String _hx_tmp33 = ( (::String)((((::PlayState_obj::SONG->__Field(HX_("song",d5,23,58,4c),::hx::paccDynamic) + HX_(" (",08,1c,00,00)) + this->storyDifficultyText) + HX_(")",29,00,00,00))) );
-HXDLIN(1309)		::DiscordClient_obj::changePresence(_hx_tmp32,_hx_tmp33,this->iconP2->getCharacter(),null(),null());
-HXLINE(1312)		if (!(::ClientPrefs_obj::controllerMode)) {
-HXLINE(1314)			::openfl::Lib_obj::get_current()->stage->addEventListener(HX_("keyDown",a1,69,47,9c),this->onKeyPress_dyn(),null(),null(),null());
-HXLINE(1315)			::openfl::Lib_obj::get_current()->stage->addEventListener(HX_("keyUp",da,b9,fe,de),this->onKeyRelease_dyn(),null(),null(),null());
+HXLINE(1365)		::String _hx_tmp32 = this->detailsText;
+HXDLIN(1365)		::String _hx_tmp33 = ( (::String)((((::PlayState_obj::SONG->__Field(HX_("song",d5,23,58,4c),::hx::paccDynamic) + HX_(" (",08,1c,00,00)) + this->storyDifficultyText) + HX_(")",29,00,00,00))) );
+HXDLIN(1365)		::DiscordClient_obj::changePresence(_hx_tmp32,_hx_tmp33,this->iconP2->getCharacter(),null(),null());
+HXLINE(1368)		if (!(::ClientPrefs_obj::controllerMode)) {
+HXLINE(1370)			::openfl::Lib_obj::get_current()->stage->addEventListener(HX_("keyDown",a1,69,47,9c),this->onKeyPress_dyn(),null(),null(),null());
+HXLINE(1371)			::openfl::Lib_obj::get_current()->stage->addEventListener(HX_("keyUp",da,b9,fe,de),this->onKeyRelease_dyn(),null(),null(),null());
             		}
-HXLINE(1318)		::Conductor_obj::safeZoneOffset = ((::ClientPrefs_obj::safeFrames / ( (Float)(60) )) * ( (Float)(1000) ));
-HXLINE(1319)		this->callOnLuas(HX_("onCreatePost",7b,e7,2d,35),::cpp::VirtualArray_obj::__new(0));
-HXLINE(1321)		this->super::create();
-HXLINE(1323)		::Paths_obj::clearUnusedMemory();
-HXLINE(1324)		::CustomFadeTransition_obj::nextCamera = this->camOther;
+HXLINE(1374)		::Conductor_obj::safeZoneOffset = ((::ClientPrefs_obj::safeFrames / ( (Float)(60) )) * ( (Float)(1000) ));
+HXLINE(1375)		this->callOnLuas(HX_("onCreatePost",7b,e7,2d,35),::cpp::VirtualArray_obj::__new(0));
+HXLINE(1377)		this->super::create();
+HXLINE(1379)		::Paths_obj::clearUnusedMemory();
+HXLINE(1380)		::CustomFadeTransition_obj::nextCamera = this->camOther;
             	}
 
 
 Float PlayState_obj::set_songSpeed(Float value){
-            	HX_GC_STACKFRAME(&_hx_pos_af23706db05c7feb_1328_set_songSpeed)
-HXLINE(1329)		if (this->generatedMusic) {
-HXLINE(1331)			Float ratio = (value / this->songSpeed);
-HXLINE(1332)			{
-HXLINE(1332)				 ::Dynamic filter = null();
-HXDLIN(1332)				 ::flixel::group::FlxTypedGroupIterator note =  ::flixel::group::FlxTypedGroupIterator_obj::__alloc( HX_CTX ,this->notes->members,filter);
-HXDLIN(1332)				while(note->hasNext()){
-HXLINE(1332)					 ::Note note1 = note->next().StaticCast<  ::Note >();
-HXLINE(1334)					bool _hx_tmp;
-HXDLIN(1334)					if (note1->isSustainNote) {
-HXLINE(1334)						_hx_tmp = !(::StringTools_obj::endsWith(note1->animation->_curAnim->name,HX_("end",db,03,4d,00)));
+            	HX_GC_STACKFRAME(&_hx_pos_af23706db05c7feb_1384_set_songSpeed)
+HXLINE(1385)		if (this->generatedMusic) {
+HXLINE(1387)			Float ratio = (value / this->songSpeed);
+HXLINE(1388)			{
+HXLINE(1388)				 ::Dynamic filter = null();
+HXDLIN(1388)				 ::flixel::group::FlxTypedGroupIterator note =  ::flixel::group::FlxTypedGroupIterator_obj::__alloc( HX_CTX ,this->notes->members,filter);
+HXDLIN(1388)				while(note->hasNext()){
+HXLINE(1388)					 ::Note note1 = note->next().StaticCast<  ::Note >();
+HXLINE(1390)					bool _hx_tmp;
+HXDLIN(1390)					if (note1->isSustainNote) {
+HXLINE(1390)						_hx_tmp = !(::StringTools_obj::endsWith(note1->animation->_curAnim->name,HX_("end",db,03,4d,00)));
             					}
             					else {
-HXLINE(1334)						_hx_tmp = false;
+HXLINE(1390)						_hx_tmp = false;
             					}
-HXDLIN(1334)					if (_hx_tmp) {
-HXLINE(1336)						{
-HXLINE(1336)							 ::flixel::math::FlxPoint _g = note1->scale;
-HXDLIN(1336)							_g->set_y((_g->y * ratio));
+HXDLIN(1390)					if (_hx_tmp) {
+HXLINE(1392)						{
+HXLINE(1392)							 ::flixel::math::FlxPoint _g = note1->scale;
+HXDLIN(1392)							_g->set_y((_g->y * ratio));
             						}
-HXLINE(1337)						note1->updateHitbox();
+HXLINE(1393)						note1->updateHitbox();
             					}
             				}
             			}
-HXLINE(1340)			{
-HXLINE(1340)				int _g = 0;
-HXDLIN(1340)				::Array< ::Dynamic> _g1 = this->unspawnNotes;
-HXDLIN(1340)				while((_g < _g1->length)){
-HXLINE(1340)					 ::Note note = _g1->__get(_g).StaticCast<  ::Note >();
-HXDLIN(1340)					_g = (_g + 1);
-HXLINE(1342)					bool _hx_tmp;
-HXDLIN(1342)					if (note->isSustainNote) {
-HXLINE(1342)						_hx_tmp = !(::StringTools_obj::endsWith(note->animation->_curAnim->name,HX_("end",db,03,4d,00)));
+HXLINE(1396)			{
+HXLINE(1396)				int _g = 0;
+HXDLIN(1396)				::Array< ::Dynamic> _g1 = this->unspawnNotes;
+HXDLIN(1396)				while((_g < _g1->length)){
+HXLINE(1396)					 ::Note note = _g1->__get(_g).StaticCast<  ::Note >();
+HXDLIN(1396)					_g = (_g + 1);
+HXLINE(1398)					bool _hx_tmp;
+HXDLIN(1398)					if (note->isSustainNote) {
+HXLINE(1398)						_hx_tmp = !(::StringTools_obj::endsWith(note->animation->_curAnim->name,HX_("end",db,03,4d,00)));
             					}
             					else {
-HXLINE(1342)						_hx_tmp = false;
+HXLINE(1398)						_hx_tmp = false;
             					}
-HXDLIN(1342)					if (_hx_tmp) {
-HXLINE(1344)						{
-HXLINE(1344)							 ::flixel::math::FlxPoint _g = note->scale;
-HXDLIN(1344)							_g->set_y((_g->y * ratio));
+HXDLIN(1398)					if (_hx_tmp) {
+HXLINE(1400)						{
+HXLINE(1400)							 ::flixel::math::FlxPoint _g = note->scale;
+HXDLIN(1400)							_g->set_y((_g->y * ratio));
             						}
-HXLINE(1345)						note->updateHitbox();
+HXLINE(1401)						note->updateHitbox();
             					}
             				}
             			}
             		}
-HXLINE(1349)		this->songSpeed = value;
-HXLINE(1350)		this->noteKillOffset = (( (Float)(350) ) / this->songSpeed);
-HXLINE(1351)		return value;
+HXLINE(1405)		this->songSpeed = value;
+HXLINE(1406)		this->noteKillOffset = (( (Float)(350) ) / this->songSpeed);
+HXLINE(1407)		return value;
             	}
 
 
@@ -2035,215 +2092,215 @@ HX_DEFINE_DYNAMIC_FUNC1(PlayState_obj,set_songSpeed,return )
 void PlayState_obj::addTextToDebug(::String text){
             		HX_BEGIN_LOCAL_FUNC_S0(::hx::LocalFunc,_hx_Closure_0) HXARGC(1)
             		void _hx_run( ::DebugLuaText spr){
-            			HX_STACKFRAME(&_hx_pos_af23706db05c7feb_1357_addTextToDebug)
-HXLINE(1357)			 ::DebugLuaText _g = spr;
-HXDLIN(1357)			_g->set_y((_g->y + 20));
+            			HX_STACKFRAME(&_hx_pos_af23706db05c7feb_1413_addTextToDebug)
+HXLINE(1413)			 ::DebugLuaText _g = spr;
+HXDLIN(1413)			_g->set_y((_g->y + 20));
             		}
             		HX_END_LOCAL_FUNC1((void))
 
-            	HX_GC_STACKFRAME(&_hx_pos_af23706db05c7feb_1354_addTextToDebug)
-HXLINE(1356)		this->luaDebugGroup->forEachAlive( ::Dynamic(new _hx_Closure_0()),null());
-HXLINE(1360)		if ((this->luaDebugGroup->members->get_length() > 34)) {
-HXLINE(1361)			 ::DebugLuaText blah = Dynamic( this->luaDebugGroup->members->__get(34)).StaticCast<  ::DebugLuaText >();
-HXLINE(1362)			blah->destroy();
-HXLINE(1363)			this->luaDebugGroup->remove(blah,null()).StaticCast<  ::DebugLuaText >();
+            	HX_GC_STACKFRAME(&_hx_pos_af23706db05c7feb_1410_addTextToDebug)
+HXLINE(1412)		this->luaDebugGroup->forEachAlive( ::Dynamic(new _hx_Closure_0()),null());
+HXLINE(1416)		if ((this->luaDebugGroup->members->get_length() > 34)) {
+HXLINE(1417)			 ::DebugLuaText blah = Dynamic( this->luaDebugGroup->members->__get(34)).StaticCast<  ::DebugLuaText >();
+HXLINE(1418)			blah->destroy();
+HXLINE(1419)			this->luaDebugGroup->remove(blah,null()).StaticCast<  ::DebugLuaText >();
             		}
-HXLINE(1365)		 ::flixel::group::FlxTypedGroup _hx_tmp = this->luaDebugGroup;
-HXDLIN(1365)		_hx_tmp->insert(0, ::DebugLuaText_obj::__alloc( HX_CTX ,text,this->luaDebugGroup)).StaticCast<  ::DebugLuaText >();
+HXLINE(1421)		 ::flixel::group::FlxTypedGroup _hx_tmp = this->luaDebugGroup;
+HXDLIN(1421)		_hx_tmp->insert(0, ::DebugLuaText_obj::__alloc( HX_CTX ,text,this->luaDebugGroup)).StaticCast<  ::DebugLuaText >();
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(PlayState_obj,addTextToDebug,(void))
 
 void PlayState_obj::reloadHealthBarColors(){
-            	HX_STACKFRAME(&_hx_pos_af23706db05c7feb_1369_reloadHealthBarColors)
-HXLINE(1370)		 ::flixel::ui::FlxBar _hx_tmp = this->healthBar;
-HXDLIN(1370)		int Red = this->dad->healthColorArray->__get(0);
-HXDLIN(1370)		int Green = this->dad->healthColorArray->__get(1);
-HXDLIN(1370)		int Blue = this->dad->healthColorArray->__get(2);
-HXDLIN(1370)		int Alpha = 255;
-HXDLIN(1370)		int color = ::flixel::util::_FlxColor::FlxColor_Impl__obj::_new(null());
-HXDLIN(1370)		{
-HXLINE(1370)			color = (color & -16711681);
-HXDLIN(1370)			int color1;
-HXDLIN(1370)			if ((Red > 255)) {
-HXLINE(1370)				color1 = 255;
+            	HX_STACKFRAME(&_hx_pos_af23706db05c7feb_1425_reloadHealthBarColors)
+HXLINE(1426)		 ::flixel::ui::FlxBar _hx_tmp = this->healthBar;
+HXDLIN(1426)		int Red = this->dad->healthColorArray->__get(0);
+HXDLIN(1426)		int Green = this->dad->healthColorArray->__get(1);
+HXDLIN(1426)		int Blue = this->dad->healthColorArray->__get(2);
+HXDLIN(1426)		int Alpha = 255;
+HXDLIN(1426)		int color = ::flixel::util::_FlxColor::FlxColor_Impl__obj::_new(null());
+HXDLIN(1426)		{
+HXLINE(1426)			color = (color & -16711681);
+HXDLIN(1426)			int color1;
+HXDLIN(1426)			if ((Red > 255)) {
+HXLINE(1426)				color1 = 255;
             			}
             			else {
-HXLINE(1370)				if ((Red < 0)) {
-HXLINE(1370)					color1 = 0;
+HXLINE(1426)				if ((Red < 0)) {
+HXLINE(1426)					color1 = 0;
             				}
             				else {
-HXLINE(1370)					color1 = Red;
+HXLINE(1426)					color1 = Red;
             				}
             			}
-HXDLIN(1370)			color = (color | (color1 << 16));
+HXDLIN(1426)			color = (color | (color1 << 16));
             		}
-HXDLIN(1370)		{
-HXLINE(1370)			color = (color & -65281);
-HXDLIN(1370)			int color2;
-HXDLIN(1370)			if ((Green > 255)) {
-HXLINE(1370)				color2 = 255;
+HXDLIN(1426)		{
+HXLINE(1426)			color = (color & -65281);
+HXDLIN(1426)			int color2;
+HXDLIN(1426)			if ((Green > 255)) {
+HXLINE(1426)				color2 = 255;
             			}
             			else {
-HXLINE(1370)				if ((Green < 0)) {
-HXLINE(1370)					color2 = 0;
+HXLINE(1426)				if ((Green < 0)) {
+HXLINE(1426)					color2 = 0;
             				}
             				else {
-HXLINE(1370)					color2 = Green;
+HXLINE(1426)					color2 = Green;
             				}
             			}
-HXDLIN(1370)			color = (color | (color2 << 8));
+HXDLIN(1426)			color = (color | (color2 << 8));
             		}
-HXDLIN(1370)		{
-HXLINE(1370)			color = (color & -256);
-HXDLIN(1370)			int color3;
-HXDLIN(1370)			if ((Blue > 255)) {
-HXLINE(1370)				color3 = 255;
+HXDLIN(1426)		{
+HXLINE(1426)			color = (color & -256);
+HXDLIN(1426)			int color3;
+HXDLIN(1426)			if ((Blue > 255)) {
+HXLINE(1426)				color3 = 255;
             			}
             			else {
-HXLINE(1370)				if ((Blue < 0)) {
-HXLINE(1370)					color3 = 0;
+HXLINE(1426)				if ((Blue < 0)) {
+HXLINE(1426)					color3 = 0;
             				}
             				else {
-HXLINE(1370)					color3 = Blue;
+HXLINE(1426)					color3 = Blue;
             				}
             			}
-HXDLIN(1370)			color = (color | color3);
+HXDLIN(1426)			color = (color | color3);
             		}
-HXDLIN(1370)		{
-HXLINE(1370)			color = (color & 16777215);
-HXDLIN(1370)			int color4;
-HXDLIN(1370)			if ((Alpha > 255)) {
-HXLINE(1370)				color4 = 255;
+HXDLIN(1426)		{
+HXLINE(1426)			color = (color & 16777215);
+HXDLIN(1426)			int color4;
+HXDLIN(1426)			if ((Alpha > 255)) {
+HXLINE(1426)				color4 = 255;
             			}
             			else {
-HXLINE(1370)				if ((Alpha < 0)) {
-HXLINE(1370)					color4 = 0;
+HXLINE(1426)				if ((Alpha < 0)) {
+HXLINE(1426)					color4 = 0;
             				}
             				else {
-HXLINE(1370)					color4 = Alpha;
+HXLINE(1426)					color4 = Alpha;
             				}
             			}
-HXDLIN(1370)			color = (color | (color4 << 24));
+HXDLIN(1426)			color = (color | (color4 << 24));
             		}
-HXLINE(1371)		int Red1 = this->boyfriend->healthColorArray->__get(0);
-HXDLIN(1371)		int Green1 = this->boyfriend->healthColorArray->__get(1);
-HXDLIN(1371)		int Blue1 = this->boyfriend->healthColorArray->__get(2);
-HXDLIN(1371)		int Alpha1 = 255;
-HXDLIN(1371)		int color5 = ::flixel::util::_FlxColor::FlxColor_Impl__obj::_new(null());
-HXDLIN(1371)		{
-HXLINE(1371)			color5 = (color5 & -16711681);
-HXDLIN(1371)			int color6;
-HXDLIN(1371)			if ((Red1 > 255)) {
-HXLINE(1371)				color6 = 255;
+HXLINE(1427)		int Red1 = this->boyfriend->healthColorArray->__get(0);
+HXDLIN(1427)		int Green1 = this->boyfriend->healthColorArray->__get(1);
+HXDLIN(1427)		int Blue1 = this->boyfriend->healthColorArray->__get(2);
+HXDLIN(1427)		int Alpha1 = 255;
+HXDLIN(1427)		int color5 = ::flixel::util::_FlxColor::FlxColor_Impl__obj::_new(null());
+HXDLIN(1427)		{
+HXLINE(1427)			color5 = (color5 & -16711681);
+HXDLIN(1427)			int color6;
+HXDLIN(1427)			if ((Red1 > 255)) {
+HXLINE(1427)				color6 = 255;
             			}
             			else {
-HXLINE(1371)				if ((Red1 < 0)) {
-HXLINE(1371)					color6 = 0;
+HXLINE(1427)				if ((Red1 < 0)) {
+HXLINE(1427)					color6 = 0;
             				}
             				else {
-HXLINE(1371)					color6 = Red1;
+HXLINE(1427)					color6 = Red1;
             				}
             			}
-HXDLIN(1371)			color5 = (color5 | (color6 << 16));
+HXDLIN(1427)			color5 = (color5 | (color6 << 16));
             		}
-HXDLIN(1371)		{
-HXLINE(1371)			color5 = (color5 & -65281);
-HXDLIN(1371)			int color7;
-HXDLIN(1371)			if ((Green1 > 255)) {
-HXLINE(1371)				color7 = 255;
+HXDLIN(1427)		{
+HXLINE(1427)			color5 = (color5 & -65281);
+HXDLIN(1427)			int color7;
+HXDLIN(1427)			if ((Green1 > 255)) {
+HXLINE(1427)				color7 = 255;
             			}
             			else {
-HXLINE(1371)				if ((Green1 < 0)) {
-HXLINE(1371)					color7 = 0;
+HXLINE(1427)				if ((Green1 < 0)) {
+HXLINE(1427)					color7 = 0;
             				}
             				else {
-HXLINE(1371)					color7 = Green1;
+HXLINE(1427)					color7 = Green1;
             				}
             			}
-HXDLIN(1371)			color5 = (color5 | (color7 << 8));
+HXDLIN(1427)			color5 = (color5 | (color7 << 8));
             		}
-HXDLIN(1371)		{
-HXLINE(1371)			color5 = (color5 & -256);
-HXDLIN(1371)			int color8;
-HXDLIN(1371)			if ((Blue1 > 255)) {
-HXLINE(1371)				color8 = 255;
+HXDLIN(1427)		{
+HXLINE(1427)			color5 = (color5 & -256);
+HXDLIN(1427)			int color8;
+HXDLIN(1427)			if ((Blue1 > 255)) {
+HXLINE(1427)				color8 = 255;
             			}
             			else {
-HXLINE(1371)				if ((Blue1 < 0)) {
-HXLINE(1371)					color8 = 0;
+HXLINE(1427)				if ((Blue1 < 0)) {
+HXLINE(1427)					color8 = 0;
             				}
             				else {
-HXLINE(1371)					color8 = Blue1;
+HXLINE(1427)					color8 = Blue1;
             				}
             			}
-HXDLIN(1371)			color5 = (color5 | color8);
+HXDLIN(1427)			color5 = (color5 | color8);
             		}
-HXDLIN(1371)		{
-HXLINE(1371)			color5 = (color5 & 16777215);
-HXDLIN(1371)			int color9;
-HXDLIN(1371)			if ((Alpha1 > 255)) {
-HXLINE(1371)				color9 = 255;
+HXDLIN(1427)		{
+HXLINE(1427)			color5 = (color5 & 16777215);
+HXDLIN(1427)			int color9;
+HXDLIN(1427)			if ((Alpha1 > 255)) {
+HXLINE(1427)				color9 = 255;
             			}
             			else {
-HXLINE(1371)				if ((Alpha1 < 0)) {
-HXLINE(1371)					color9 = 0;
+HXLINE(1427)				if ((Alpha1 < 0)) {
+HXLINE(1427)					color9 = 0;
             				}
             				else {
-HXLINE(1371)					color9 = Alpha1;
+HXLINE(1427)					color9 = Alpha1;
             				}
             			}
-HXDLIN(1371)			color5 = (color5 | (color9 << 24));
+HXDLIN(1427)			color5 = (color5 | (color9 << 24));
             		}
-HXLINE(1370)		_hx_tmp->createFilledBar(color,color5,null(),null());
-HXLINE(1373)		this->healthBar->updateBar();
+HXLINE(1426)		_hx_tmp->createFilledBar(color,color5,null(),null());
+HXLINE(1429)		this->healthBar->updateBar();
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(PlayState_obj,reloadHealthBarColors,(void))
 
 void PlayState_obj::addCharacterToList(::String newCharacter,int type){
-            	HX_GC_STACKFRAME(&_hx_pos_af23706db05c7feb_1377_addCharacterToList)
-HXDLIN(1377)		switch((int)(type)){
+            	HX_GC_STACKFRAME(&_hx_pos_af23706db05c7feb_1433_addCharacterToList)
+HXDLIN(1433)		switch((int)(type)){
             			case (int)0: {
-HXLINE(1379)				if (!(this->boyfriendMap->exists(newCharacter))) {
-HXLINE(1380)					 ::Boyfriend newBoyfriend =  ::Boyfriend_obj::__alloc( HX_CTX ,( (Float)(0) ),( (Float)(0) ),newCharacter);
-HXLINE(1381)					this->boyfriendMap->set(newCharacter,newBoyfriend);
-HXLINE(1382)					this->boyfriendGroup->add(newBoyfriend).StaticCast<  ::flixel::FlxSprite >();
-HXLINE(1383)					this->startCharacterPos(newBoyfriend,null());
-HXLINE(1384)					newBoyfriend->set_alpha(((Float)0.00001));
-HXLINE(1385)					this->startCharacterLua(newBoyfriend->curCharacter);
+HXLINE(1435)				if (!(this->boyfriendMap->exists(newCharacter))) {
+HXLINE(1436)					 ::Boyfriend newBoyfriend =  ::Boyfriend_obj::__alloc( HX_CTX ,( (Float)(0) ),( (Float)(0) ),newCharacter);
+HXLINE(1437)					this->boyfriendMap->set(newCharacter,newBoyfriend);
+HXLINE(1438)					this->boyfriendGroup->add(newBoyfriend).StaticCast<  ::flixel::FlxSprite >();
+HXLINE(1439)					this->startCharacterPos(newBoyfriend,null());
+HXLINE(1440)					newBoyfriend->set_alpha(((Float)0.00001));
+HXLINE(1441)					this->startCharacterLua(newBoyfriend->curCharacter);
             				}
             			}
             			break;
             			case (int)1: {
-HXLINE(1389)				if (!(this->dadMap->exists(newCharacter))) {
-HXLINE(1390)					 ::Character newDad =  ::Character_obj::__alloc( HX_CTX ,( (Float)(0) ),( (Float)(0) ),newCharacter,null());
-HXLINE(1391)					this->dadMap->set(newCharacter,newDad);
-HXLINE(1392)					this->dadGroup->add(newDad).StaticCast<  ::flixel::FlxSprite >();
-HXLINE(1393)					this->startCharacterPos(newDad,true);
-HXLINE(1394)					newDad->set_alpha(((Float)0.00001));
-HXLINE(1395)					this->startCharacterLua(newDad->curCharacter);
+HXLINE(1445)				if (!(this->dadMap->exists(newCharacter))) {
+HXLINE(1446)					 ::Character newDad =  ::Character_obj::__alloc( HX_CTX ,( (Float)(0) ),( (Float)(0) ),newCharacter,null());
+HXLINE(1447)					this->dadMap->set(newCharacter,newDad);
+HXLINE(1448)					this->dadGroup->add(newDad).StaticCast<  ::flixel::FlxSprite >();
+HXLINE(1449)					this->startCharacterPos(newDad,true);
+HXLINE(1450)					newDad->set_alpha(((Float)0.00001));
+HXLINE(1451)					this->startCharacterLua(newDad->curCharacter);
             				}
             			}
             			break;
             			case (int)2: {
-HXLINE(1399)				bool _hx_tmp;
-HXDLIN(1399)				if (::hx::IsNotNull( this->gf )) {
-HXLINE(1399)					_hx_tmp = !(this->gfMap->exists(newCharacter));
+HXLINE(1455)				bool _hx_tmp;
+HXDLIN(1455)				if (::hx::IsNotNull( this->gf )) {
+HXLINE(1455)					_hx_tmp = !(this->gfMap->exists(newCharacter));
             				}
             				else {
-HXLINE(1399)					_hx_tmp = false;
+HXLINE(1455)					_hx_tmp = false;
             				}
-HXDLIN(1399)				if (_hx_tmp) {
-HXLINE(1400)					 ::Character newGf =  ::Character_obj::__alloc( HX_CTX ,( (Float)(0) ),( (Float)(0) ),newCharacter,null());
-HXLINE(1401)					newGf->scrollFactor->set(((Float)0.95),((Float)0.95));
-HXLINE(1402)					this->gfMap->set(newCharacter,newGf);
-HXLINE(1403)					this->gfGroup->add(newGf).StaticCast<  ::flixel::FlxSprite >();
-HXLINE(1404)					this->startCharacterPos(newGf,null());
-HXLINE(1405)					newGf->set_alpha(((Float)0.00001));
-HXLINE(1406)					this->startCharacterLua(newGf->curCharacter);
+HXDLIN(1455)				if (_hx_tmp) {
+HXLINE(1456)					 ::Character newGf =  ::Character_obj::__alloc( HX_CTX ,( (Float)(0) ),( (Float)(0) ),newCharacter,null());
+HXLINE(1457)					newGf->scrollFactor->set(((Float)0.95),((Float)0.95));
+HXLINE(1458)					this->gfMap->set(newCharacter,newGf);
+HXLINE(1459)					this->gfGroup->add(newGf).StaticCast<  ::flixel::FlxSprite >();
+HXLINE(1460)					this->startCharacterPos(newGf,null());
+HXLINE(1461)					newGf->set_alpha(((Float)0.00001));
+HXLINE(1462)					this->startCharacterLua(newGf->curCharacter);
             				}
             			}
             			break;
@@ -2254,37 +2311,37 @@ HXLINE(1406)					this->startCharacterLua(newGf->curCharacter);
 HX_DEFINE_DYNAMIC_FUNC2(PlayState_obj,addCharacterToList,(void))
 
 void PlayState_obj::startCharacterLua(::String name){
-            	HX_GC_STACKFRAME(&_hx_pos_af23706db05c7feb_1412_startCharacterLua)
-HXLINE(1414)		bool doPush = false;
-HXLINE(1415)		::String luaFile = ((HX_("characters/",45,3c,bf,be) + name) + HX_(".lua",4a,2a,ba,1e));
-HXLINE(1416)		if (::sys::FileSystem_obj::exists(::Paths_obj::modFolders(luaFile))) {
-HXLINE(1417)			luaFile = ::Paths_obj::modFolders(luaFile);
-HXLINE(1418)			doPush = true;
+            	HX_GC_STACKFRAME(&_hx_pos_af23706db05c7feb_1468_startCharacterLua)
+HXLINE(1470)		bool doPush = false;
+HXLINE(1471)		::String luaFile = ((HX_("characters/",45,3c,bf,be) + name) + HX_(".lua",4a,2a,ba,1e));
+HXLINE(1472)		if (::sys::FileSystem_obj::exists(::Paths_obj::modFolders(luaFile))) {
+HXLINE(1473)			luaFile = ::Paths_obj::modFolders(luaFile);
+HXLINE(1474)			doPush = true;
             		}
             		else {
-HXLINE(1420)			::String file = luaFile;
-HXDLIN(1420)			if (::hx::IsNull( file )) {
-HXLINE(1420)				file = HX_("",00,00,00,00);
+HXLINE(1476)			::String file = luaFile;
+HXDLIN(1476)			if (::hx::IsNull( file )) {
+HXLINE(1476)				file = HX_("",00,00,00,00);
             			}
-HXDLIN(1420)			luaFile = (HX_("assets/",4c,2a,dc,36) + file);
-HXLINE(1421)			if (::sys::FileSystem_obj::exists(luaFile)) {
-HXLINE(1422)				doPush = true;
+HXDLIN(1476)			luaFile = (HX_("assets/",4c,2a,dc,36) + file);
+HXLINE(1477)			if (::sys::FileSystem_obj::exists(luaFile)) {
+HXLINE(1478)				doPush = true;
             			}
             		}
-HXLINE(1426)		if (doPush) {
-HXLINE(1428)			{
-HXLINE(1428)				int _g = 0;
-HXDLIN(1428)				::Array< ::Dynamic> _g1 = this->luaArray;
-HXDLIN(1428)				while((_g < _g1->length)){
-HXLINE(1428)					 ::FunkinLua lua = _g1->__get(_g).StaticCast<  ::FunkinLua >();
-HXDLIN(1428)					_g = (_g + 1);
-HXLINE(1430)					if ((lua->scriptName == luaFile)) {
-HXLINE(1430)						return;
+HXLINE(1482)		if (doPush) {
+HXLINE(1484)			{
+HXLINE(1484)				int _g = 0;
+HXDLIN(1484)				::Array< ::Dynamic> _g1 = this->luaArray;
+HXDLIN(1484)				while((_g < _g1->length)){
+HXLINE(1484)					 ::FunkinLua lua = _g1->__get(_g).StaticCast<  ::FunkinLua >();
+HXDLIN(1484)					_g = (_g + 1);
+HXLINE(1486)					if ((lua->scriptName == luaFile)) {
+HXLINE(1486)						return;
             					}
             				}
             			}
-HXLINE(1432)			::Array< ::Dynamic> _hx_tmp = this->luaArray;
-HXDLIN(1432)			_hx_tmp->push( ::FunkinLua_obj::__alloc( HX_CTX ,luaFile));
+HXLINE(1488)			::Array< ::Dynamic> _hx_tmp = this->luaArray;
+HXDLIN(1488)			_hx_tmp->push( ::FunkinLua_obj::__alloc( HX_CTX ,luaFile));
             		}
             	}
 
@@ -2294,26 +2351,26 @@ HX_DEFINE_DYNAMIC_FUNC1(PlayState_obj,startCharacterLua,(void))
 void PlayState_obj::startCharacterPos( ::Character _hx_char, ::Dynamic __o_gfCheck){
             		 ::Dynamic gfCheck = __o_gfCheck;
             		if (::hx::IsNull(__o_gfCheck)) gfCheck = false;
-            	HX_STACKFRAME(&_hx_pos_af23706db05c7feb_1437_startCharacterPos)
-HXLINE(1438)		bool _hx_tmp;
-HXDLIN(1438)		if (( (bool)(gfCheck) )) {
-HXLINE(1438)			_hx_tmp = ::StringTools_obj::startsWith(_hx_char->curCharacter,HX_("gf",1f,5a,00,00));
+            	HX_STACKFRAME(&_hx_pos_af23706db05c7feb_1493_startCharacterPos)
+HXLINE(1494)		bool _hx_tmp;
+HXDLIN(1494)		if (( (bool)(gfCheck) )) {
+HXLINE(1494)			_hx_tmp = ::StringTools_obj::startsWith(_hx_char->curCharacter,HX_("gf",1f,5a,00,00));
             		}
             		else {
-HXLINE(1438)			_hx_tmp = false;
+HXLINE(1494)			_hx_tmp = false;
             		}
-HXDLIN(1438)		if (_hx_tmp) {
-HXLINE(1439)			_hx_char->setPosition(this->GF_X,this->GF_Y);
-HXLINE(1440)			_hx_char->scrollFactor->set(((Float)0.95),((Float)0.95));
-HXLINE(1441)			_hx_char->danceEveryNumBeats = 2;
+HXDLIN(1494)		if (_hx_tmp) {
+HXLINE(1495)			_hx_char->setPosition(this->GF_X,this->GF_Y);
+HXLINE(1496)			_hx_char->scrollFactor->set(((Float)0.95),((Float)0.95));
+HXLINE(1497)			_hx_char->danceEveryNumBeats = 2;
             		}
-HXLINE(1443)		{
-HXLINE(1443)			 ::Character _g = _hx_char;
-HXDLIN(1443)			_g->set_x((_g->x + _hx_char->positionArray->__get(0)));
+HXLINE(1499)		{
+HXLINE(1499)			 ::Character _g = _hx_char;
+HXDLIN(1499)			_g->set_x((_g->x + _hx_char->positionArray->__get(0)));
             		}
-HXLINE(1444)		{
-HXLINE(1444)			 ::Character _g1 = _hx_char;
-HXDLIN(1444)			_g1->set_y((_g1->y + _hx_char->positionArray->__get(1)));
+HXLINE(1500)		{
+HXLINE(1500)			 ::Character _g1 = _hx_char;
+HXDLIN(1500)			_g1->set_y((_g1->y + _hx_char->positionArray->__get(1)));
             		}
             	}
 
@@ -2321,53 +2378,53 @@ HXDLIN(1444)			_g1->set_y((_g1->y + _hx_char->positionArray->__get(1)));
 HX_DEFINE_DYNAMIC_FUNC2(PlayState_obj,startCharacterPos,(void))
 
 void PlayState_obj::startVideo(::String name){
-            	HX_GC_STACKFRAME(&_hx_pos_af23706db05c7feb_1447_startVideo)
-HXDLIN(1447)		 ::PlayState _gthis = ::hx::ObjectPtr<OBJ_>(this);
-HXLINE(1449)		bool foundFile = false;
-HXLINE(1450)		::String fileName = ::Paths_obj::modFolders((((HX_("videos/",97,cd,86,fd) + name) + HX_(".",2e,00,00,00)) + HX_("mp4",71,17,53,00)));
-HXLINE(1452)		if (::sys::FileSystem_obj::exists(fileName)) {
-HXLINE(1453)			foundFile = true;
+            	HX_GC_STACKFRAME(&_hx_pos_af23706db05c7feb_1503_startVideo)
+HXDLIN(1503)		 ::PlayState _gthis = ::hx::ObjectPtr<OBJ_>(this);
+HXLINE(1505)		bool foundFile = false;
+HXLINE(1506)		::String fileName = ::Paths_obj::modFolders((((HX_("videos/",97,cd,86,fd) + name) + HX_(".",2e,00,00,00)) + HX_("mp4",71,17,53,00)));
+HXLINE(1508)		if (::sys::FileSystem_obj::exists(fileName)) {
+HXLINE(1509)			foundFile = true;
             		}
-HXLINE(1457)		if (!(foundFile)) {
-HXLINE(1458)			fileName = ::Paths_obj::video(name);
-HXLINE(1460)			if (::sys::FileSystem_obj::exists(fileName)) {
-HXLINE(1464)				foundFile = true;
+HXLINE(1513)		if (!(foundFile)) {
+HXLINE(1514)			fileName = ::Paths_obj::video(name);
+HXLINE(1516)			if (::sys::FileSystem_obj::exists(fileName)) {
+HXLINE(1520)				foundFile = true;
             			}
             		}
-HXLINE(1468)		if (foundFile) {
+HXLINE(1524)		if (foundFile) {
             			HX_BEGIN_LOCAL_FUNC_S2(::hx::LocalFunc,_hx_Closure_0, ::PlayState,_gthis, ::flixel::FlxSprite,bg1) HXARGC(0)
             			void _hx_run(){
-            				HX_GC_STACKFRAME(&_hx_pos_af23706db05c7feb_1475_startVideo)
-HXLINE(1476)				_gthis->remove(bg1,null()).StaticCast<  ::flixel::FlxBasic >();
-HXLINE(1477)				_gthis->startAndEnd();
+            				HX_GC_STACKFRAME(&_hx_pos_af23706db05c7feb_1531_startVideo)
+HXLINE(1532)				_gthis->remove(bg1,null()).StaticCast<  ::flixel::FlxBasic >();
+HXLINE(1533)				_gthis->startAndEnd();
             			}
             			HX_END_LOCAL_FUNC0((void))
 
-HXLINE(1469)			this->inCutscene = true;
-HXLINE(1470)			 ::flixel::FlxSprite bg =  ::flixel::FlxSprite_obj::__alloc( HX_CTX ,-(::flixel::FlxG_obj::width),-(::flixel::FlxG_obj::height),null());
-HXDLIN(1470)			 ::flixel::FlxSprite bg1 = bg->makeGraphic((::flixel::FlxG_obj::width * 3),(::flixel::FlxG_obj::height * 3),-16777216,null(),null());
-HXLINE(1471)			bg1->scrollFactor->set(null(),null());
-HXLINE(1472)			bg1->set_cameras(::Array_obj< ::Dynamic>::__new(1)->init(0,this->camHUD));
-HXLINE(1473)			this->add(bg1);
-HXLINE(1475)			 ::FlxVideo_obj::__alloc( HX_CTX ,fileName)->finishCallback =  ::Dynamic(new _hx_Closure_0(_gthis,bg1));
-HXLINE(1479)			return;
+HXLINE(1525)			this->inCutscene = true;
+HXLINE(1526)			 ::flixel::FlxSprite bg =  ::flixel::FlxSprite_obj::__alloc( HX_CTX ,-(::flixel::FlxG_obj::width),-(::flixel::FlxG_obj::height),null());
+HXDLIN(1526)			 ::flixel::FlxSprite bg1 = bg->makeGraphic((::flixel::FlxG_obj::width * 3),(::flixel::FlxG_obj::height * 3),-16777216,null(),null());
+HXLINE(1527)			bg1->scrollFactor->set(null(),null());
+HXLINE(1528)			bg1->set_cameras(::Array_obj< ::Dynamic>::__new(1)->init(0,this->camHUD));
+HXLINE(1529)			this->add(bg1);
+HXLINE(1531)			 ::FlxVideo_obj::__alloc( HX_CTX ,fileName)->finishCallback =  ::Dynamic(new _hx_Closure_0(_gthis,bg1));
+HXLINE(1535)			return;
             		}
             		else {
-HXLINE(1484)			this->startAndEnd();
+HXLINE(1540)			this->startAndEnd();
             		}
-HXLINE(1487)		this->startAndEnd();
+HXLINE(1543)		this->startAndEnd();
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(PlayState_obj,startVideo,(void))
 
 void PlayState_obj::startAndEnd(){
-            	HX_STACKFRAME(&_hx_pos_af23706db05c7feb_1492_startAndEnd)
-HXDLIN(1492)		if (this->endingSong) {
-HXLINE(1493)			this->endSong();
+            	HX_STACKFRAME(&_hx_pos_af23706db05c7feb_1548_startAndEnd)
+HXDLIN(1548)		if (this->endingSong) {
+HXLINE(1549)			this->endSong();
             		}
             		else {
-HXLINE(1495)			this->startCountdown();
+HXLINE(1551)			this->startCountdown();
             		}
             	}
 
@@ -2375,50 +2432,50 @@ HXLINE(1495)			this->startCountdown();
 HX_DEFINE_DYNAMIC_FUNC0(PlayState_obj,startAndEnd,(void))
 
 void PlayState_obj::startDialogue( ::Dynamic dialogueFile,::String song){
-            	HX_GC_STACKFRAME(&_hx_pos_af23706db05c7feb_1502_startDialogue)
-HXLINE(1501)		 ::PlayState _gthis = ::hx::ObjectPtr<OBJ_>(this);
-HXLINE(1504)		if (::hx::IsNotNull( this->psychDialogue )) {
-HXLINE(1504)			return;
+            	HX_GC_STACKFRAME(&_hx_pos_af23706db05c7feb_1558_startDialogue)
+HXLINE(1557)		 ::PlayState _gthis = ::hx::ObjectPtr<OBJ_>(this);
+HXLINE(1560)		if (::hx::IsNotNull( this->psychDialogue )) {
+HXLINE(1560)			return;
             		}
-HXLINE(1506)		if ((( (::Array< ::Dynamic>)(dialogueFile->__Field(HX_("dialogue",18,2d,94,a7),::hx::paccDynamic)) )->length > 0)) {
-HXLINE(1507)			this->inCutscene = true;
-HXLINE(1508)			::CoolUtil_obj::precacheSound(HX_("dialogue",18,2d,94,a7),null());
-HXLINE(1509)			::CoolUtil_obj::precacheSound(HX_("dialogueClose",80,e3,49,e3),null());
-HXLINE(1510)			this->psychDialogue =  ::DialogueBoxPsych_obj::__alloc( HX_CTX ,dialogueFile,song);
-HXLINE(1511)			this->psychDialogue->scrollFactor->set(null(),null());
-HXLINE(1512)			if (this->endingSong) {
+HXLINE(1562)		if ((( (::Array< ::Dynamic>)(dialogueFile->__Field(HX_("dialogue",18,2d,94,a7),::hx::paccDynamic)) )->length > 0)) {
+HXLINE(1563)			this->inCutscene = true;
+HXLINE(1564)			::CoolUtil_obj::precacheSound(HX_("dialogue",18,2d,94,a7),null());
+HXLINE(1565)			::CoolUtil_obj::precacheSound(HX_("dialogueClose",80,e3,49,e3),null());
+HXLINE(1566)			this->psychDialogue =  ::DialogueBoxPsych_obj::__alloc( HX_CTX ,dialogueFile,song);
+HXLINE(1567)			this->psychDialogue->scrollFactor->set(null(),null());
+HXLINE(1568)			if (this->endingSong) {
             				HX_BEGIN_LOCAL_FUNC_S1(::hx::LocalFunc,_hx_Closure_0, ::PlayState,_gthis) HXARGC(0)
             				void _hx_run(){
-            					HX_GC_STACKFRAME(&_hx_pos_af23706db05c7feb_1513_startDialogue)
-HXLINE(1514)					_gthis->psychDialogue = null();
-HXLINE(1515)					_gthis->endSong();
+            					HX_GC_STACKFRAME(&_hx_pos_af23706db05c7feb_1569_startDialogue)
+HXLINE(1570)					_gthis->psychDialogue = null();
+HXLINE(1571)					_gthis->endSong();
             				}
             				HX_END_LOCAL_FUNC0((void))
 
-HXLINE(1513)				this->psychDialogue->finishThing =  ::Dynamic(new _hx_Closure_0(_gthis));
+HXLINE(1569)				this->psychDialogue->finishThing =  ::Dynamic(new _hx_Closure_0(_gthis));
             			}
             			else {
             				HX_BEGIN_LOCAL_FUNC_S1(::hx::LocalFunc,_hx_Closure_1, ::PlayState,_gthis) HXARGC(0)
             				void _hx_run(){
-            					HX_GC_STACKFRAME(&_hx_pos_af23706db05c7feb_1518_startDialogue)
-HXLINE(1519)					_gthis->psychDialogue = null();
-HXLINE(1520)					_gthis->startCountdown();
+            					HX_GC_STACKFRAME(&_hx_pos_af23706db05c7feb_1574_startDialogue)
+HXLINE(1575)					_gthis->psychDialogue = null();
+HXLINE(1576)					_gthis->startCountdown();
             				}
             				HX_END_LOCAL_FUNC0((void))
 
-HXLINE(1518)				this->psychDialogue->finishThing =  ::Dynamic(new _hx_Closure_1(_gthis));
+HXLINE(1574)				this->psychDialogue->finishThing =  ::Dynamic(new _hx_Closure_1(_gthis));
             			}
-HXLINE(1523)			this->psychDialogue->nextDialogueThing = this->startNextDialogue_dyn();
-HXLINE(1524)			this->psychDialogue->skipDialogueThing = this->skipDialogue_dyn();
-HXLINE(1525)			this->psychDialogue->set_cameras(::Array_obj< ::Dynamic>::__new(1)->init(0,this->camHUD));
-HXLINE(1526)			this->add(this->psychDialogue);
+HXLINE(1579)			this->psychDialogue->nextDialogueThing = this->startNextDialogue_dyn();
+HXLINE(1580)			this->psychDialogue->skipDialogueThing = this->skipDialogue_dyn();
+HXLINE(1581)			this->psychDialogue->set_cameras(::Array_obj< ::Dynamic>::__new(1)->init(0,this->camHUD));
+HXLINE(1582)			this->add(this->psychDialogue);
             		}
             		else {
-HXLINE(1529)			if (this->endingSong) {
-HXLINE(1530)				this->endSong();
+HXLINE(1585)			if (this->endingSong) {
+HXLINE(1586)				this->endSong();
             			}
             			else {
-HXLINE(1532)				this->startCountdown();
+HXLINE(1588)				this->startCountdown();
             			}
             		}
             	}
@@ -2429,136 +2486,136 @@ HX_DEFINE_DYNAMIC_FUNC2(PlayState_obj,startDialogue,(void))
 void PlayState_obj::schoolIntro( ::DialogueBox dialogueBox){
             		HX_BEGIN_LOCAL_FUNC_S5(::hx::LocalFunc,_hx_Closure_4, ::PlayState,_gthis, ::DialogueBox,dialogueBox, ::flixel::FlxSprite,red1, ::flixel::FlxSprite,black1, ::flixel::FlxSprite,senpaiEvil) HXARGC(1)
             		void _hx_run( ::flixel::util::FlxTimer tmr){
-            			HX_GC_STACKFRAME(&_hx_pos_af23706db05c7feb_1569_schoolIntro)
-HXLINE(1570)			{
-HXLINE(1570)				 ::flixel::FlxSprite _g = black1;
-HXDLIN(1570)				_g->set_alpha((_g->alpha - ((Float)0.15)));
+            			HX_GC_STACKFRAME(&_hx_pos_af23706db05c7feb_1625_schoolIntro)
+HXLINE(1626)			{
+HXLINE(1626)				 ::flixel::FlxSprite _g = black1;
+HXDLIN(1626)				_g->set_alpha((_g->alpha - ((Float)0.15)));
             			}
-HXLINE(1572)			if ((black1->alpha > 0)) {
-HXLINE(1574)				tmr->reset(((Float)0.3));
+HXLINE(1628)			if ((black1->alpha > 0)) {
+HXLINE(1630)				tmr->reset(((Float)0.3));
             			}
             			else {
-HXLINE(1578)				if (::hx::IsNotNull( dialogueBox )) {
-HXLINE(1580)					if ((::StringTools_obj::replace(( (::String)(::PlayState_obj::SONG->__Field(HX_("song",d5,23,58,4c),::hx::paccDynamic)) ).toLowerCase(),HX_(" ",20,00,00,00),HX_("-",2d,00,00,00)) == HX_("thorns",9c,bf,c7,8c))) {
+HXLINE(1634)				if (::hx::IsNotNull( dialogueBox )) {
+HXLINE(1636)					if ((::StringTools_obj::replace(( (::String)(::PlayState_obj::SONG->__Field(HX_("song",d5,23,58,4c),::hx::paccDynamic)) ).toLowerCase(),HX_(" ",20,00,00,00),HX_("-",2d,00,00,00)) == HX_("thorns",9c,bf,c7,8c))) {
             						HX_BEGIN_LOCAL_FUNC_S4(::hx::LocalFunc,_hx_Closure_3, ::PlayState,_gthis, ::DialogueBox,dialogueBox, ::flixel::FlxSprite,red1, ::flixel::FlxSprite,senpaiEvil) HXARGC(1)
             						void _hx_run( ::flixel::util::FlxTimer swagTimer){
-            							HX_GC_STACKFRAME(&_hx_pos_af23706db05c7feb_1585_schoolIntro)
-HXLINE(1586)							{
-HXLINE(1586)								 ::flixel::FlxSprite _g = senpaiEvil;
-HXDLIN(1586)								_g->set_alpha((_g->alpha + ((Float)0.15)));
+            							HX_GC_STACKFRAME(&_hx_pos_af23706db05c7feb_1641_schoolIntro)
+HXLINE(1642)							{
+HXLINE(1642)								 ::flixel::FlxSprite _g = senpaiEvil;
+HXDLIN(1642)								_g->set_alpha((_g->alpha + ((Float)0.15)));
             							}
-HXLINE(1587)							if ((senpaiEvil->alpha < 1)) {
-HXLINE(1589)								swagTimer->reset(null());
+HXLINE(1643)							if ((senpaiEvil->alpha < 1)) {
+HXLINE(1645)								swagTimer->reset(null());
             							}
             							else {
             								HX_BEGIN_LOCAL_FUNC_S4(::hx::LocalFunc,_hx_Closure_1, ::PlayState,_gthis, ::DialogueBox,dialogueBox, ::flixel::FlxSprite,red1, ::flixel::FlxSprite,senpaiEvil) HXARGC(0)
             								void _hx_run(){
             									HX_BEGIN_LOCAL_FUNC_S2(::hx::LocalFunc,_hx_Closure_0, ::PlayState,_gthis, ::DialogueBox,dialogueBox) HXARGC(0)
             									void _hx_run(){
-            										HX_GC_STACKFRAME(&_hx_pos_af23706db05c7feb_1599_schoolIntro)
-HXLINE(1600)										_gthis->add(dialogueBox).StaticCast<  ::flixel::FlxBasic >();
-HXLINE(1601)										_gthis->camHUD->set_visible(true);
+            										HX_GC_STACKFRAME(&_hx_pos_af23706db05c7feb_1655_schoolIntro)
+HXLINE(1656)										_gthis->add(dialogueBox).StaticCast<  ::flixel::FlxBasic >();
+HXLINE(1657)										_gthis->camHUD->set_visible(true);
             									}
             									HX_END_LOCAL_FUNC0((void))
 
-            									HX_GC_STACKFRAME(&_hx_pos_af23706db05c7feb_1595_schoolIntro)
-HXLINE(1596)									_gthis->remove(senpaiEvil,null()).StaticCast<  ::flixel::FlxBasic >();
-HXLINE(1597)									_gthis->remove(red1,null()).StaticCast<  ::flixel::FlxBasic >();
-HXLINE(1598)									::flixel::FlxG_obj::camera->fade(-1,((Float)0.01),true, ::Dynamic(new _hx_Closure_0(_gthis,dialogueBox)),true);
+            									HX_GC_STACKFRAME(&_hx_pos_af23706db05c7feb_1651_schoolIntro)
+HXLINE(1652)									_gthis->remove(senpaiEvil,null()).StaticCast<  ::flixel::FlxBasic >();
+HXLINE(1653)									_gthis->remove(red1,null()).StaticCast<  ::flixel::FlxBasic >();
+HXLINE(1654)									::flixel::FlxG_obj::camera->fade(-1,((Float)0.01),true, ::Dynamic(new _hx_Closure_0(_gthis,dialogueBox)),true);
             								}
             								HX_END_LOCAL_FUNC0((void))
 
             								HX_BEGIN_LOCAL_FUNC_S0(::hx::LocalFunc,_hx_Closure_2) HXARGC(1)
             								void _hx_run( ::flixel::util::FlxTimer deadTime){
-            									HX_GC_STACKFRAME(&_hx_pos_af23706db05c7feb_1606_schoolIntro)
-HXLINE(1606)									::flixel::FlxG_obj::camera->fade(-1,((Float)1.6),false,null(),null());
+            									HX_GC_STACKFRAME(&_hx_pos_af23706db05c7feb_1662_schoolIntro)
+HXLINE(1662)									::flixel::FlxG_obj::camera->fade(-1,((Float)1.6),false,null(),null());
             								}
             								HX_END_LOCAL_FUNC1((void))
 
-HXLINE(1593)								senpaiEvil->animation->play(HX_("idle",14,a7,b3,45),null(),null(),null());
-HXLINE(1594)								 ::flixel::_hx_system::frontEnds::SoundFrontEnd _hx_tmp = ::flixel::FlxG_obj::sound;
-HXDLIN(1594)								_hx_tmp->play(::Paths_obj::sound(HX_("Senpai_Dies",56,a2,b9,ec),null()),1,false,null(),true, ::Dynamic(new _hx_Closure_1(_gthis,dialogueBox,red1,senpaiEvil)));
-HXLINE(1604)								 ::flixel::util::FlxTimer_obj::__alloc( HX_CTX ,null())->start(((Float)3.2), ::Dynamic(new _hx_Closure_2()),null());
+HXLINE(1649)								senpaiEvil->animation->play(HX_("idle",14,a7,b3,45),null(),null(),null());
+HXLINE(1650)								 ::flixel::_hx_system::frontEnds::SoundFrontEnd _hx_tmp = ::flixel::FlxG_obj::sound;
+HXDLIN(1650)								_hx_tmp->play(::Paths_obj::sound(HX_("Senpai_Dies",56,a2,b9,ec),null()),1,false,null(),true, ::Dynamic(new _hx_Closure_1(_gthis,dialogueBox,red1,senpaiEvil)));
+HXLINE(1660)								 ::flixel::util::FlxTimer_obj::__alloc( HX_CTX ,null())->start(((Float)3.2), ::Dynamic(new _hx_Closure_2()),null());
             							}
             						}
             						HX_END_LOCAL_FUNC1((void))
 
-HXLINE(1582)						_gthis->add(senpaiEvil).StaticCast<  ::flixel::FlxBasic >();
-HXLINE(1583)						senpaiEvil->set_alpha(( (Float)(0) ));
-HXLINE(1584)						 ::flixel::util::FlxTimer_obj::__alloc( HX_CTX ,null())->start(((Float)0.3), ::Dynamic(new _hx_Closure_3(_gthis,dialogueBox,red1,senpaiEvil)),null());
+HXLINE(1638)						_gthis->add(senpaiEvil).StaticCast<  ::flixel::FlxBasic >();
+HXLINE(1639)						senpaiEvil->set_alpha(( (Float)(0) ));
+HXLINE(1640)						 ::flixel::util::FlxTimer_obj::__alloc( HX_CTX ,null())->start(((Float)0.3), ::Dynamic(new _hx_Closure_3(_gthis,dialogueBox,red1,senpaiEvil)),null());
             					}
             					else {
-HXLINE(1613)						_gthis->add(dialogueBox).StaticCast<  ::flixel::FlxBasic >();
+HXLINE(1669)						_gthis->add(dialogueBox).StaticCast<  ::flixel::FlxBasic >();
             					}
             				}
             				else {
-HXLINE(1617)					_gthis->startCountdown();
+HXLINE(1673)					_gthis->startCountdown();
             				}
-HXLINE(1619)				_gthis->remove(black1,null()).StaticCast<  ::flixel::FlxBasic >();
+HXLINE(1675)				_gthis->remove(black1,null()).StaticCast<  ::flixel::FlxBasic >();
             			}
             		}
             		HX_END_LOCAL_FUNC1((void))
 
-            	HX_GC_STACKFRAME(&_hx_pos_af23706db05c7feb_1538_schoolIntro)
-HXLINE(1537)		 ::PlayState _gthis = ::hx::ObjectPtr<OBJ_>(this);
-HXLINE(1539)		this->inCutscene = true;
-HXLINE(1540)		 ::flixel::FlxSprite black =  ::flixel::FlxSprite_obj::__alloc( HX_CTX ,-100,-100,null());
-HXDLIN(1540)		 ::flixel::FlxSprite black1 = black->makeGraphic((::flixel::FlxG_obj::width * 2),(::flixel::FlxG_obj::height * 2),-16777216,null(),null());
-HXLINE(1541)		black1->scrollFactor->set(null(),null());
-HXLINE(1542)		this->add(black1);
-HXLINE(1544)		 ::flixel::FlxSprite red =  ::flixel::FlxSprite_obj::__alloc( HX_CTX ,-100,-100,null());
-HXDLIN(1544)		 ::flixel::FlxSprite red1 = red->makeGraphic((::flixel::FlxG_obj::width * 2),(::flixel::FlxG_obj::height * 2),-58575,null(),null());
-HXLINE(1545)		red1->scrollFactor->set(null(),null());
-HXLINE(1547)		 ::flixel::FlxSprite senpaiEvil =  ::flixel::FlxSprite_obj::__alloc( HX_CTX ,null(),null(),null());
-HXLINE(1548)		 ::flixel::FlxSprite senpaiEvil1 = senpaiEvil;
-HXDLIN(1548)		::String library = null();
-HXDLIN(1548)		 ::flixel::graphics::FlxGraphic imageLoaded = ::Paths_obj::returnGraphic(HX_("weeb/senpaiCrazy",d1,d1,90,fa),null());
-HXDLIN(1548)		bool xmlExists = false;
-HXDLIN(1548)		if (::sys::FileSystem_obj::exists(::Paths_obj::modFolders(((HX_("images/",77,50,74,c1) + HX_("weeb/senpaiCrazy",d1,d1,90,fa)) + HX_(".xml",69,3e,c3,1e))))) {
-HXLINE(1548)			xmlExists = true;
+            	HX_GC_STACKFRAME(&_hx_pos_af23706db05c7feb_1594_schoolIntro)
+HXLINE(1593)		 ::PlayState _gthis = ::hx::ObjectPtr<OBJ_>(this);
+HXLINE(1595)		this->inCutscene = true;
+HXLINE(1596)		 ::flixel::FlxSprite black =  ::flixel::FlxSprite_obj::__alloc( HX_CTX ,-100,-100,null());
+HXDLIN(1596)		 ::flixel::FlxSprite black1 = black->makeGraphic((::flixel::FlxG_obj::width * 2),(::flixel::FlxG_obj::height * 2),-16777216,null(),null());
+HXLINE(1597)		black1->scrollFactor->set(null(),null());
+HXLINE(1598)		this->add(black1);
+HXLINE(1600)		 ::flixel::FlxSprite red =  ::flixel::FlxSprite_obj::__alloc( HX_CTX ,-100,-100,null());
+HXDLIN(1600)		 ::flixel::FlxSprite red1 = red->makeGraphic((::flixel::FlxG_obj::width * 2),(::flixel::FlxG_obj::height * 2),-58575,null(),null());
+HXLINE(1601)		red1->scrollFactor->set(null(),null());
+HXLINE(1603)		 ::flixel::FlxSprite senpaiEvil =  ::flixel::FlxSprite_obj::__alloc( HX_CTX ,null(),null(),null());
+HXLINE(1604)		 ::flixel::FlxSprite senpaiEvil1 = senpaiEvil;
+HXDLIN(1604)		::String library = null();
+HXDLIN(1604)		 ::flixel::graphics::FlxGraphic imageLoaded = ::Paths_obj::returnGraphic(HX_("weeb/senpaiCrazy",d1,d1,90,fa),null());
+HXDLIN(1604)		bool xmlExists = false;
+HXDLIN(1604)		if (::sys::FileSystem_obj::exists(::Paths_obj::modFolders(((HX_("images/",77,50,74,c1) + HX_("weeb/senpaiCrazy",d1,d1,90,fa)) + HX_(".xml",69,3e,c3,1e))))) {
+HXLINE(1604)			xmlExists = true;
             		}
-HXDLIN(1548)		 ::Dynamic _hx_tmp;
-HXDLIN(1548)		if (::hx::IsNotNull( imageLoaded )) {
-HXLINE(1548)			_hx_tmp = imageLoaded;
-            		}
-            		else {
-HXLINE(1548)			 ::flixel::graphics::FlxGraphic returnAsset = ::Paths_obj::returnGraphic(HX_("weeb/senpaiCrazy",d1,d1,90,fa),library);
-HXDLIN(1548)			_hx_tmp = returnAsset;
-            		}
-HXDLIN(1548)		::String _hx_tmp1;
-HXDLIN(1548)		if (xmlExists) {
-HXLINE(1548)			_hx_tmp1 = ::sys::io::File_obj::getContent(::Paths_obj::modFolders(((HX_("images/",77,50,74,c1) + HX_("weeb/senpaiCrazy",d1,d1,90,fa)) + HX_(".xml",69,3e,c3,1e))));
+HXDLIN(1604)		 ::Dynamic _hx_tmp;
+HXDLIN(1604)		if (::hx::IsNotNull( imageLoaded )) {
+HXLINE(1604)			_hx_tmp = imageLoaded;
             		}
             		else {
-HXLINE(1548)			_hx_tmp1 = ::Paths_obj::getPath(((HX_("images/",77,50,74,c1) + HX_("weeb/senpaiCrazy",d1,d1,90,fa)) + HX_(".xml",69,3e,c3,1e)),HX_("TEXT",ad,94,ba,37),library);
+HXLINE(1604)			 ::flixel::graphics::FlxGraphic returnAsset = ::Paths_obj::returnGraphic(HX_("weeb/senpaiCrazy",d1,d1,90,fa),library);
+HXDLIN(1604)			_hx_tmp = returnAsset;
             		}
-HXDLIN(1548)		senpaiEvil1->set_frames(::flixel::graphics::frames::FlxAtlasFrames_obj::fromSparrow(_hx_tmp,_hx_tmp1));
-HXLINE(1549)		senpaiEvil->animation->addByPrefix(HX_("idle",14,a7,b3,45),HX_("Senpai Pre Explosion",54,71,6e,81),24,false,null(),null());
-HXLINE(1550)		 ::flixel::FlxSprite senpaiEvil2 = senpaiEvil;
-HXDLIN(1550)		senpaiEvil2->setGraphicSize(::Std_obj::_hx_int((senpaiEvil->get_width() * ( (Float)(6) ))),null());
-HXLINE(1551)		senpaiEvil->scrollFactor->set(null(),null());
-HXLINE(1552)		senpaiEvil->updateHitbox();
-HXLINE(1553)		senpaiEvil->screenCenter(null());
-HXLINE(1554)		{
-HXLINE(1554)			 ::flixel::FlxSprite _g = senpaiEvil;
-HXDLIN(1554)			_g->set_x((_g->x + 300));
-            		}
-HXLINE(1556)		::String songName = ::StringTools_obj::replace(( (::String)(::PlayState_obj::SONG->__Field(HX_("song",d5,23,58,4c),::hx::paccDynamic)) ).toLowerCase(),HX_(" ",20,00,00,00),HX_("-",2d,00,00,00));
-HXLINE(1557)		bool _hx_tmp2;
-HXDLIN(1557)		if ((songName != HX_("roses",04,6c,64,ed))) {
-HXLINE(1557)			_hx_tmp2 = (songName == HX_("thorns",9c,bf,c7,8c));
+HXDLIN(1604)		::String _hx_tmp1;
+HXDLIN(1604)		if (xmlExists) {
+HXLINE(1604)			_hx_tmp1 = ::sys::io::File_obj::getContent(::Paths_obj::modFolders(((HX_("images/",77,50,74,c1) + HX_("weeb/senpaiCrazy",d1,d1,90,fa)) + HX_(".xml",69,3e,c3,1e))));
             		}
             		else {
-HXLINE(1557)			_hx_tmp2 = true;
+HXLINE(1604)			_hx_tmp1 = ::Paths_obj::getPath(((HX_("images/",77,50,74,c1) + HX_("weeb/senpaiCrazy",d1,d1,90,fa)) + HX_(".xml",69,3e,c3,1e)),HX_("TEXT",ad,94,ba,37),library);
             		}
-HXDLIN(1557)		if (_hx_tmp2) {
-HXLINE(1559)			this->remove(black1,null());
-HXLINE(1561)			if ((songName == HX_("thorns",9c,bf,c7,8c))) {
-HXLINE(1563)				this->add(red1);
-HXLINE(1564)				this->camHUD->set_visible(false);
+HXDLIN(1604)		senpaiEvil1->set_frames(::flixel::graphics::frames::FlxAtlasFrames_obj::fromSparrow(_hx_tmp,_hx_tmp1));
+HXLINE(1605)		senpaiEvil->animation->addByPrefix(HX_("idle",14,a7,b3,45),HX_("Senpai Pre Explosion",54,71,6e,81),24,false,null(),null());
+HXLINE(1606)		 ::flixel::FlxSprite senpaiEvil2 = senpaiEvil;
+HXDLIN(1606)		senpaiEvil2->setGraphicSize(::Std_obj::_hx_int((senpaiEvil->get_width() * ( (Float)(6) ))),null());
+HXLINE(1607)		senpaiEvil->scrollFactor->set(null(),null());
+HXLINE(1608)		senpaiEvil->updateHitbox();
+HXLINE(1609)		senpaiEvil->screenCenter(null());
+HXLINE(1610)		{
+HXLINE(1610)			 ::flixel::FlxSprite _g = senpaiEvil;
+HXDLIN(1610)			_g->set_x((_g->x + 300));
+            		}
+HXLINE(1612)		::String songName = ::StringTools_obj::replace(( (::String)(::PlayState_obj::SONG->__Field(HX_("song",d5,23,58,4c),::hx::paccDynamic)) ).toLowerCase(),HX_(" ",20,00,00,00),HX_("-",2d,00,00,00));
+HXLINE(1613)		bool _hx_tmp2;
+HXDLIN(1613)		if ((songName != HX_("roses",04,6c,64,ed))) {
+HXLINE(1613)			_hx_tmp2 = (songName == HX_("thorns",9c,bf,c7,8c));
+            		}
+            		else {
+HXLINE(1613)			_hx_tmp2 = true;
+            		}
+HXDLIN(1613)		if (_hx_tmp2) {
+HXLINE(1615)			this->remove(black1,null());
+HXLINE(1617)			if ((songName == HX_("thorns",9c,bf,c7,8c))) {
+HXLINE(1619)				this->add(red1);
+HXLINE(1620)				this->camHUD->set_visible(false);
             			}
             		}
-HXLINE(1568)		 ::flixel::util::FlxTimer_obj::__alloc( HX_CTX ,null())->start(((Float)0.3), ::Dynamic(new _hx_Closure_4(_gthis,dialogueBox,red1,black1,senpaiEvil)),null());
+HXLINE(1624)		 ::flixel::util::FlxTimer_obj::__alloc( HX_CTX ,null())->start(((Float)0.3), ::Dynamic(new _hx_Closure_4(_gthis,dialogueBox,red1,black1,senpaiEvil)),null());
             	}
 
 
@@ -2567,70 +2624,70 @@ HX_DEFINE_DYNAMIC_FUNC1(PlayState_obj,schoolIntro,(void))
 void PlayState_obj::stabPlayer(){
             		HX_BEGIN_LOCAL_FUNC_S1(::hx::LocalFunc,_hx_Closure_0, ::PlayState,_gthis) HXARGC(1)
             		void _hx_run( ::flixel::util::FlxTimer tmr){
-            			HX_GC_STACKFRAME(&_hx_pos_af23706db05c7feb_1628_stabPlayer)
-HXLINE(1630)			 ::PlayState _gthis1 = _gthis;
-HXDLIN(1630)			_gthis1->health = (_gthis1->health - ((Float)0.1000000001));
-HXLINE(1631)			_gthis->boyfriend->set_color(16711680);
+            			HX_GC_STACKFRAME(&_hx_pos_af23706db05c7feb_1684_stabPlayer)
+HXLINE(1686)			 ::PlayState _gthis1 = _gthis;
+HXDLIN(1686)			_gthis1->health = (_gthis1->health - ((Float)0.1000000001));
+HXLINE(1687)			_gthis->boyfriend->set_color(16711680);
             		}
             		HX_END_LOCAL_FUNC1((void))
 
             		HX_BEGIN_LOCAL_FUNC_S1(::hx::LocalFunc,_hx_Closure_1, ::PlayState,_gthis) HXARGC(1)
             		void _hx_run( ::flixel::util::FlxTimer tmr){
-            			HX_GC_STACKFRAME(&_hx_pos_af23706db05c7feb_1635_stabPlayer)
-HXLINE(1635)			_gthis->boyfriend->set_color(16777215);
+            			HX_GC_STACKFRAME(&_hx_pos_af23706db05c7feb_1691_stabPlayer)
+HXLINE(1691)			_gthis->boyfriend->set_color(16777215);
             		}
             		HX_END_LOCAL_FUNC1((void))
 
-            	HX_GC_STACKFRAME(&_hx_pos_af23706db05c7feb_1625_stabPlayer)
-HXLINE(1624)		 ::PlayState _gthis = ::hx::ObjectPtr<OBJ_>(this);
-HXLINE(1627)		 ::flixel::util::FlxTimer_obj::__alloc( HX_CTX ,null())->start(((Float)0.016666666666666666), ::Dynamic(new _hx_Closure_0(_gthis)),5);
-HXLINE(1633)		 ::flixel::util::FlxTimer_obj::__alloc( HX_CTX ,null())->start(((Float)0.1), ::Dynamic(new _hx_Closure_1(_gthis)),null());
+            	HX_GC_STACKFRAME(&_hx_pos_af23706db05c7feb_1681_stabPlayer)
+HXLINE(1680)		 ::PlayState _gthis = ::hx::ObjectPtr<OBJ_>(this);
+HXLINE(1683)		 ::flixel::util::FlxTimer_obj::__alloc( HX_CTX ,null())->start(((Float)0.016666666666666666), ::Dynamic(new _hx_Closure_0(_gthis)),5);
+HXLINE(1689)		 ::flixel::util::FlxTimer_obj::__alloc( HX_CTX ,null())->start(((Float)0.1), ::Dynamic(new _hx_Closure_1(_gthis)),null());
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(PlayState_obj,stabPlayer,(void))
 
 void PlayState_obj::cuzIntros( ::DialogueBox dialogueBox){
-            	HX_GC_STACKFRAME(&_hx_pos_af23706db05c7feb_1640_cuzIntros)
-HXLINE(1639)		 ::PlayState _gthis = ::hx::ObjectPtr<OBJ_>(this);
-HXLINE(1642)		 ::flixel::_hx_system::frontEnds::SoundFrontEnd _hx_tmp = ::flixel::FlxG_obj::sound;
-HXDLIN(1642)		_hx_tmp->play(::Paths_obj::sound(HX_("SNAP",4a,1e,18,37),null()),null(),null(),null(),null(),null());
-HXLINE(1657)		if ((this->curSong == HX_("Exertion",94,cd,5e,3b))) {
+            	HX_GC_STACKFRAME(&_hx_pos_af23706db05c7feb_1696_cuzIntros)
+HXLINE(1695)		 ::PlayState _gthis = ::hx::ObjectPtr<OBJ_>(this);
+HXLINE(1698)		 ::flixel::_hx_system::frontEnds::SoundFrontEnd _hx_tmp = ::flixel::FlxG_obj::sound;
+HXDLIN(1698)		_hx_tmp->play(::Paths_obj::sound(HX_("SNAP",4a,1e,18,37),null()),null(),null(),null(),null(),null());
+HXLINE(1713)		if ((this->curSong == HX_("Exertion",94,cd,5e,3b))) {
             			HX_BEGIN_LOCAL_FUNC_S3(::hx::LocalFunc,_hx_Closure_1, ::PlayState,_gthis, ::DialogueBox,dialogueBox, ::flixel::FlxSprite,white1) HXARGC(1)
             			void _hx_run( ::flixel::util::FlxTimer timer){
             				HX_BEGIN_LOCAL_FUNC_S2(::hx::LocalFunc,_hx_Closure_0, ::PlayState,_gthis, ::DialogueBox,dialogueBox) HXARGC(1)
             				void _hx_run( ::flixel::util::FlxTimer timer){
-            					HX_GC_STACKFRAME(&_hx_pos_af23706db05c7feb_1668_cuzIntros)
-HXLINE(1668)					if (::hx::IsNotNull( dialogueBox )) {
-HXLINE(1670)						_gthis->inCutscene = true;
-HXLINE(1677)						_gthis->add(dialogueBox).StaticCast<  ::flixel::FlxBasic >();
+            					HX_GC_STACKFRAME(&_hx_pos_af23706db05c7feb_1724_cuzIntros)
+HXLINE(1724)					if (::hx::IsNotNull( dialogueBox )) {
+HXLINE(1726)						_gthis->inCutscene = true;
+HXLINE(1733)						_gthis->add(dialogueBox).StaticCast<  ::flixel::FlxBasic >();
             					}
             					else {
-HXLINE(1679)						_gthis->startCountdown();
+HXLINE(1735)						_gthis->startCountdown();
             					}
             				}
             				HX_END_LOCAL_FUNC1((void))
 
-            				HX_GC_STACKFRAME(&_hx_pos_af23706db05c7feb_1662_cuzIntros)
-HXLINE(1664)				::flixel::FlxG_obj::camera->fade(-1,3,true,null(),null());
-HXLINE(1665)				white1->set_alpha(( (Float)(0) ));
-HXLINE(1666)				 ::flixel::util::FlxTimer_obj::__alloc( HX_CTX ,null())->start(3, ::Dynamic(new _hx_Closure_0(_gthis,dialogueBox)),null());
+            				HX_GC_STACKFRAME(&_hx_pos_af23706db05c7feb_1718_cuzIntros)
+HXLINE(1720)				::flixel::FlxG_obj::camera->fade(-1,3,true,null(),null());
+HXLINE(1721)				white1->set_alpha(( (Float)(0) ));
+HXLINE(1722)				 ::flixel::util::FlxTimer_obj::__alloc( HX_CTX ,null())->start(3, ::Dynamic(new _hx_Closure_0(_gthis,dialogueBox)),null());
             			}
             			HX_END_LOCAL_FUNC1((void))
 
-HXLINE(1658)			 ::flixel::FlxSprite white =  ::flixel::FlxSprite_obj::__alloc( HX_CTX ,-700,-700,null());
-HXDLIN(1658)			 ::flixel::FlxSprite white1 = white->makeGraphic((::flixel::FlxG_obj::width * 3),(::flixel::FlxG_obj::height * 3),-1,null(),null());
-HXLINE(1659)			white1->scrollFactor->set(null(),null());
-HXLINE(1660)			this->add(white1);
-HXLINE(1661)			 ::flixel::util::FlxTimer_obj::__alloc( HX_CTX ,null())->start(1, ::Dynamic(new _hx_Closure_1(_gthis,dialogueBox,white1)),null());
+HXLINE(1714)			 ::flixel::FlxSprite white =  ::flixel::FlxSprite_obj::__alloc( HX_CTX ,-700,-700,null());
+HXDLIN(1714)			 ::flixel::FlxSprite white1 = white->makeGraphic((::flixel::FlxG_obj::width * 3),(::flixel::FlxG_obj::height * 3),-1,null(),null());
+HXLINE(1715)			white1->scrollFactor->set(null(),null());
+HXLINE(1716)			this->add(white1);
+HXLINE(1717)			 ::flixel::util::FlxTimer_obj::__alloc( HX_CTX ,null())->start(1, ::Dynamic(new _hx_Closure_1(_gthis,dialogueBox,white1)),null());
             		}
             		else {
-HXLINE(1686)			if (::hx::IsNotNull( dialogueBox )) {
-HXLINE(1688)				this->inCutscene = true;
-HXLINE(1689)				this->add(dialogueBox);
+HXLINE(1742)			if (::hx::IsNotNull( dialogueBox )) {
+HXLINE(1744)				this->inCutscene = true;
+HXLINE(1745)				this->add(dialogueBox);
             			}
             			else {
-HXLINE(1691)				this->startCountdown();
+HXLINE(1747)				this->startCountdown();
             			}
             		}
             	}
@@ -2639,302 +2696,302 @@ HXLINE(1691)				this->startCountdown();
 HX_DEFINE_DYNAMIC_FUNC1(PlayState_obj,cuzIntros,(void))
 
 void PlayState_obj::startCountdown(){
-            	HX_GC_STACKFRAME(&_hx_pos_af23706db05c7feb_1706_startCountdown)
-HXLINE(1705)		 ::PlayState _gthis = ::hx::ObjectPtr<OBJ_>(this);
-HXLINE(1707)		if (this->startedCountdown) {
-HXLINE(1708)			this->callOnLuas(HX_("onStartCountdown",6e,2d,46,95),::cpp::VirtualArray_obj::__new(0));
-HXLINE(1709)			return;
+            	HX_GC_STACKFRAME(&_hx_pos_af23706db05c7feb_1762_startCountdown)
+HXLINE(1761)		 ::PlayState _gthis = ::hx::ObjectPtr<OBJ_>(this);
+HXLINE(1763)		if (this->startedCountdown) {
+HXLINE(1764)			this->callOnLuas(HX_("onStartCountdown",6e,2d,46,95),::cpp::VirtualArray_obj::__new(0));
+HXLINE(1765)			return;
             		}
-HXLINE(1712)		this->inCutscene = false;
-HXLINE(1713)		 ::Dynamic ret = this->callOnLuas(HX_("onStartCountdown",6e,2d,46,95),::cpp::VirtualArray_obj::__new(0));
-HXLINE(1714)		if (::hx::IsNotEq( ret,::FunkinLua_obj::Function_Stop )) {
+HXLINE(1768)		this->inCutscene = false;
+HXLINE(1769)		 ::Dynamic ret = this->callOnLuas(HX_("onStartCountdown",6e,2d,46,95),::cpp::VirtualArray_obj::__new(0));
+HXLINE(1770)		if (::hx::IsNotEq( ret,::FunkinLua_obj::Function_Stop )) {
             			HX_BEGIN_LOCAL_FUNC_S2(::hx::LocalFunc,_hx_Closure_4, ::PlayState,_gthis,::Array< int >,swagCounter) HXARGC(1)
             			void _hx_run( ::flixel::util::FlxTimer tmr){
             				HX_BEGIN_LOCAL_FUNC_S0(::hx::LocalFunc,_hx_Closure_3) HXARGC(1)
             				void _hx_run( ::Note note){
-            					HX_GC_STACKFRAME(&_hx_pos_af23706db05c7feb_1845_startCountdown)
-HXLINE(1846)					note->copyAlpha = false;
-HXLINE(1847)					note->set_alpha(note->multAlpha);
-HXLINE(1848)					bool _hx_tmp;
-HXDLIN(1848)					if (::ClientPrefs_obj::middleScroll) {
-HXLINE(1848)						_hx_tmp = !(note->mustPress);
+            					HX_GC_STACKFRAME(&_hx_pos_af23706db05c7feb_1901_startCountdown)
+HXLINE(1902)					note->copyAlpha = false;
+HXLINE(1903)					note->set_alpha(note->multAlpha);
+HXLINE(1904)					bool _hx_tmp;
+HXDLIN(1904)					if (::ClientPrefs_obj::middleScroll) {
+HXLINE(1904)						_hx_tmp = !(note->mustPress);
             					}
             					else {
-HXLINE(1848)						_hx_tmp = false;
+HXLINE(1904)						_hx_tmp = false;
             					}
-HXDLIN(1848)					if (_hx_tmp) {
-HXLINE(1849)						 ::Note _g = note;
-HXDLIN(1849)						_g->set_alpha((_g->alpha * ((Float)0.5)));
+HXDLIN(1904)					if (_hx_tmp) {
+HXLINE(1905)						 ::Note _g = note;
+HXDLIN(1905)						_g->set_alpha((_g->alpha * ((Float)0.5)));
             					}
             				}
             				HX_END_LOCAL_FUNC1((void))
 
-            				HX_GC_STACKFRAME(&_hx_pos_af23706db05c7feb_1744_startCountdown)
-HXLINE(1745)				bool _hx_tmp;
-HXDLIN(1745)				bool _hx_tmp1;
-HXDLIN(1745)				bool _hx_tmp2;
-HXDLIN(1745)				bool _hx_tmp3;
-HXDLIN(1745)				bool _hx_tmp4;
-HXDLIN(1745)				if (::hx::IsNotNull( _gthis->gf )) {
-HXLINE(1745)					_hx_tmp4 = (::hx::Mod((tmr->loops - tmr->_loopsCounter),::Math_obj::round(( (Float)((_gthis->gfSpeed * _gthis->gf->danceEveryNumBeats)) ))) == 0);
+            				HX_GC_STACKFRAME(&_hx_pos_af23706db05c7feb_1800_startCountdown)
+HXLINE(1801)				bool _hx_tmp;
+HXDLIN(1801)				bool _hx_tmp1;
+HXDLIN(1801)				bool _hx_tmp2;
+HXDLIN(1801)				bool _hx_tmp3;
+HXDLIN(1801)				bool _hx_tmp4;
+HXDLIN(1801)				if (::hx::IsNotNull( _gthis->gf )) {
+HXLINE(1801)					_hx_tmp4 = (::hx::Mod((tmr->loops - tmr->_loopsCounter),::Math_obj::round(( (Float)((_gthis->gfSpeed * _gthis->gf->danceEveryNumBeats)) ))) == 0);
             				}
             				else {
-HXLINE(1745)					_hx_tmp4 = false;
+HXLINE(1801)					_hx_tmp4 = false;
             				}
-HXDLIN(1745)				if (_hx_tmp4) {
-HXLINE(1745)					_hx_tmp3 = !(_gthis->gf->stunned);
-            				}
-            				else {
-HXLINE(1745)					_hx_tmp3 = false;
-            				}
-HXDLIN(1745)				if (_hx_tmp3) {
-HXLINE(1745)					_hx_tmp2 = ::hx::IsNotNull( _gthis->gf->animation->_curAnim->name );
+HXDLIN(1801)				if (_hx_tmp4) {
+HXLINE(1801)					_hx_tmp3 = !(_gthis->gf->stunned);
             				}
             				else {
-HXLINE(1745)					_hx_tmp2 = false;
+HXLINE(1801)					_hx_tmp3 = false;
             				}
-HXDLIN(1745)				if (_hx_tmp2) {
-HXLINE(1745)					_hx_tmp1 = !(::StringTools_obj::startsWith(_gthis->gf->animation->_curAnim->name,HX_("sing",4f,96,53,4c)));
-            				}
-            				else {
-HXLINE(1745)					_hx_tmp1 = false;
-            				}
-HXDLIN(1745)				if (_hx_tmp1) {
-HXLINE(1745)					_hx_tmp = !(_gthis->gf->stunned);
+HXDLIN(1801)				if (_hx_tmp3) {
+HXLINE(1801)					_hx_tmp2 = ::hx::IsNotNull( _gthis->gf->animation->_curAnim->name );
             				}
             				else {
-HXLINE(1745)					_hx_tmp = false;
+HXLINE(1801)					_hx_tmp2 = false;
             				}
-HXDLIN(1745)				if (_hx_tmp) {
-HXLINE(1747)					_gthis->gf->dance();
-            				}
-HXLINE(1749)				bool _hx_tmp5;
-HXDLIN(1749)				bool _hx_tmp6;
-HXDLIN(1749)				bool _hx_tmp7;
-HXDLIN(1749)				if ((::hx::Mod((tmr->loops - tmr->_loopsCounter),_gthis->boyfriend->danceEveryNumBeats) == 0)) {
-HXLINE(1749)					_hx_tmp7 = ::hx::IsNotNull( _gthis->boyfriend->animation->_curAnim );
+HXDLIN(1801)				if (_hx_tmp2) {
+HXLINE(1801)					_hx_tmp1 = !(::StringTools_obj::startsWith(_gthis->gf->animation->_curAnim->name,HX_("sing",4f,96,53,4c)));
             				}
             				else {
-HXLINE(1749)					_hx_tmp7 = false;
+HXLINE(1801)					_hx_tmp1 = false;
             				}
-HXDLIN(1749)				if (_hx_tmp7) {
-HXLINE(1749)					_hx_tmp6 = !(::StringTools_obj::startsWith(_gthis->boyfriend->animation->_curAnim->name,HX_("sing",4f,96,53,4c)));
-            				}
-            				else {
-HXLINE(1749)					_hx_tmp6 = false;
-            				}
-HXDLIN(1749)				if (_hx_tmp6) {
-HXLINE(1749)					_hx_tmp5 = !(_gthis->boyfriend->stunned);
+HXDLIN(1801)				if (_hx_tmp1) {
+HXLINE(1801)					_hx_tmp = !(_gthis->gf->stunned);
             				}
             				else {
-HXLINE(1749)					_hx_tmp5 = false;
+HXLINE(1801)					_hx_tmp = false;
             				}
-HXDLIN(1749)				if (_hx_tmp5) {
-HXLINE(1751)					_gthis->boyfriend->dance();
+HXDLIN(1801)				if (_hx_tmp) {
+HXLINE(1803)					_gthis->gf->dance();
             				}
-HXLINE(1753)				bool _hx_tmp8;
-HXDLIN(1753)				bool _hx_tmp9;
-HXDLIN(1753)				bool _hx_tmp10;
-HXDLIN(1753)				if ((::hx::Mod((tmr->loops - tmr->_loopsCounter),_gthis->dad->danceEveryNumBeats) == 0)) {
-HXLINE(1753)					_hx_tmp10 = ::hx::IsNotNull( _gthis->dad->animation->_curAnim );
-            				}
-            				else {
-HXLINE(1753)					_hx_tmp10 = false;
-            				}
-HXDLIN(1753)				if (_hx_tmp10) {
-HXLINE(1753)					_hx_tmp9 = !(::StringTools_obj::startsWith(_gthis->dad->animation->_curAnim->name,HX_("sing",4f,96,53,4c)));
+HXLINE(1805)				bool _hx_tmp5;
+HXDLIN(1805)				bool _hx_tmp6;
+HXDLIN(1805)				bool _hx_tmp7;
+HXDLIN(1805)				if ((::hx::Mod((tmr->loops - tmr->_loopsCounter),_gthis->boyfriend->danceEveryNumBeats) == 0)) {
+HXLINE(1805)					_hx_tmp7 = ::hx::IsNotNull( _gthis->boyfriend->animation->_curAnim );
             				}
             				else {
-HXLINE(1753)					_hx_tmp9 = false;
+HXLINE(1805)					_hx_tmp7 = false;
             				}
-HXDLIN(1753)				if (_hx_tmp9) {
-HXLINE(1753)					_hx_tmp8 = !(_gthis->dad->stunned);
+HXDLIN(1805)				if (_hx_tmp7) {
+HXLINE(1805)					_hx_tmp6 = !(::StringTools_obj::startsWith(_gthis->boyfriend->animation->_curAnim->name,HX_("sing",4f,96,53,4c)));
             				}
             				else {
-HXLINE(1753)					_hx_tmp8 = false;
+HXLINE(1805)					_hx_tmp6 = false;
             				}
-HXDLIN(1753)				if (_hx_tmp8) {
-HXLINE(1755)					_gthis->dad->dance();
+HXDLIN(1805)				if (_hx_tmp6) {
+HXLINE(1805)					_hx_tmp5 = !(_gthis->boyfriend->stunned);
             				}
-HXLINE(1758)				 ::haxe::ds::StringMap introAssets =  ::haxe::ds::StringMap_obj::__alloc( HX_CTX );
-HXLINE(1759)				introAssets->set(HX_("default",c1,d8,c3,9b),::Array_obj< ::String >::fromData( _hx_array_data_46c2835d_72,3));
-HXLINE(1760)				introAssets->set(HX_("pixel",86,c6,a3,c2),::Array_obj< ::String >::fromData( _hx_array_data_46c2835d_73,3));
-HXLINE(1762)				::Array< ::String > introAlts = ( (::Array< ::String >)(introAssets->get(HX_("default",c1,d8,c3,9b))) );
-HXLINE(1763)				bool antialias = ::ClientPrefs_obj::globalAntialiasing;
-HXLINE(1764)				if (::PlayState_obj::isPixelStage) {
-HXLINE(1765)					introAlts = ( (::Array< ::String >)(introAssets->get(HX_("pixel",86,c6,a3,c2))) );
-HXLINE(1766)					antialias = false;
+            				else {
+HXLINE(1805)					_hx_tmp5 = false;
             				}
-HXLINE(1770)				if ((::PlayState_obj::curStage == HX_("mall",d4,3a,56,48))) {
-HXLINE(1771)					if (!(::ClientPrefs_obj::lowQuality)) {
-HXLINE(1772)						_gthis->upperBoppers->dance(true);
+HXDLIN(1805)				if (_hx_tmp5) {
+HXLINE(1807)					_gthis->boyfriend->dance();
+            				}
+HXLINE(1809)				bool _hx_tmp8;
+HXDLIN(1809)				bool _hx_tmp9;
+HXDLIN(1809)				bool _hx_tmp10;
+HXDLIN(1809)				if ((::hx::Mod((tmr->loops - tmr->_loopsCounter),_gthis->dad->danceEveryNumBeats) == 0)) {
+HXLINE(1809)					_hx_tmp10 = ::hx::IsNotNull( _gthis->dad->animation->_curAnim );
+            				}
+            				else {
+HXLINE(1809)					_hx_tmp10 = false;
+            				}
+HXDLIN(1809)				if (_hx_tmp10) {
+HXLINE(1809)					_hx_tmp9 = !(::StringTools_obj::startsWith(_gthis->dad->animation->_curAnim->name,HX_("sing",4f,96,53,4c)));
+            				}
+            				else {
+HXLINE(1809)					_hx_tmp9 = false;
+            				}
+HXDLIN(1809)				if (_hx_tmp9) {
+HXLINE(1809)					_hx_tmp8 = !(_gthis->dad->stunned);
+            				}
+            				else {
+HXLINE(1809)					_hx_tmp8 = false;
+            				}
+HXDLIN(1809)				if (_hx_tmp8) {
+HXLINE(1811)					_gthis->dad->dance();
+            				}
+HXLINE(1814)				 ::haxe::ds::StringMap introAssets =  ::haxe::ds::StringMap_obj::__alloc( HX_CTX );
+HXLINE(1815)				introAssets->set(HX_("default",c1,d8,c3,9b),::Array_obj< ::String >::fromData( _hx_array_data_46c2835d_72,3));
+HXLINE(1816)				introAssets->set(HX_("pixel",86,c6,a3,c2),::Array_obj< ::String >::fromData( _hx_array_data_46c2835d_73,3));
+HXLINE(1818)				::Array< ::String > introAlts = ( (::Array< ::String >)(introAssets->get(HX_("default",c1,d8,c3,9b))) );
+HXLINE(1819)				bool antialias = ::ClientPrefs_obj::globalAntialiasing;
+HXLINE(1820)				if (::PlayState_obj::isPixelStage) {
+HXLINE(1821)					introAlts = ( (::Array< ::String >)(introAssets->get(HX_("pixel",86,c6,a3,c2))) );
+HXLINE(1822)					antialias = false;
+            				}
+HXLINE(1826)				if ((::PlayState_obj::curStage == HX_("mall",d4,3a,56,48))) {
+HXLINE(1827)					if (!(::ClientPrefs_obj::lowQuality)) {
+HXLINE(1828)						_gthis->upperBoppers->dance(true);
             					}
-HXLINE(1774)					_gthis->bottomBoppers->dance(true);
-HXLINE(1775)					_gthis->santa->dance(true);
+HXLINE(1830)					_gthis->bottomBoppers->dance(true);
+HXLINE(1831)					_gthis->santa->dance(true);
             				}
-HXLINE(1778)				switch((int)(swagCounter->__get(0))){
+HXLINE(1834)				switch((int)(swagCounter->__get(0))){
             					case (int)0: {
-HXLINE(1781)						 ::flixel::_hx_system::frontEnds::SoundFrontEnd _hx_tmp = ::flixel::FlxG_obj::sound;
-HXDLIN(1781)						_hx_tmp->play(::Paths_obj::sound((HX_("intro3",47,54,90,9e) + _gthis->introSoundsSuffix),null()),((Float)0.6),null(),null(),null(),null());
+HXLINE(1837)						 ::flixel::_hx_system::frontEnds::SoundFrontEnd _hx_tmp = ::flixel::FlxG_obj::sound;
+HXDLIN(1837)						_hx_tmp->play(::Paths_obj::sound((HX_("intro3",47,54,90,9e) + _gthis->introSoundsSuffix),null()),((Float)0.6),null(),null(),null(),null());
             					}
             					break;
             					case (int)1: {
             						HX_BEGIN_LOCAL_FUNC_S1(::hx::LocalFunc,_hx_Closure_0, ::PlayState,_gthis) HXARGC(1)
             						void _hx_run( ::flixel::tweens::FlxTween twn){
-            							HX_GC_STACKFRAME(&_hx_pos_af23706db05c7feb_1796_startCountdown)
-HXLINE(1797)							_gthis->remove(_gthis->countdownReady,null()).StaticCast<  ::flixel::FlxBasic >();
-HXLINE(1798)							_gthis->countdownReady->destroy();
+            							HX_GC_STACKFRAME(&_hx_pos_af23706db05c7feb_1852_startCountdown)
+HXLINE(1853)							_gthis->remove(_gthis->countdownReady,null()).StaticCast<  ::flixel::FlxBasic >();
+HXLINE(1854)							_gthis->countdownReady->destroy();
             						}
             						HX_END_LOCAL_FUNC1((void))
 
-HXLINE(1783)						 ::flixel::FlxSprite _hx_tmp =  ::flixel::FlxSprite_obj::__alloc( HX_CTX ,null(),null(),null());
-HXDLIN(1783)						::String library = null();
-HXDLIN(1783)						 ::flixel::graphics::FlxGraphic returnAsset = ::Paths_obj::returnGraphic(introAlts->__get(0),library);
-HXDLIN(1783)						_gthis->countdownReady = _hx_tmp->loadGraphic(returnAsset,null(),null(),null(),null(),null());
-HXLINE(1784)						_gthis->countdownReady->scrollFactor->set(null(),null());
-HXLINE(1785)						_gthis->countdownReady->updateHitbox();
-HXLINE(1787)						if (::PlayState_obj::isPixelStage) {
-HXLINE(1788)							 ::flixel::FlxSprite _gthis1 = _gthis->countdownReady;
-HXDLIN(1788)							Float _hx_tmp = _gthis->countdownReady->get_width();
-HXDLIN(1788)							_gthis1->setGraphicSize(::Std_obj::_hx_int((_hx_tmp * ::PlayState_obj::daPixelZoom)),null());
+HXLINE(1839)						 ::flixel::FlxSprite _hx_tmp =  ::flixel::FlxSprite_obj::__alloc( HX_CTX ,null(),null(),null());
+HXDLIN(1839)						::String library = null();
+HXDLIN(1839)						 ::flixel::graphics::FlxGraphic returnAsset = ::Paths_obj::returnGraphic(introAlts->__get(0),library);
+HXDLIN(1839)						_gthis->countdownReady = _hx_tmp->loadGraphic(returnAsset,null(),null(),null(),null(),null());
+HXLINE(1840)						_gthis->countdownReady->scrollFactor->set(null(),null());
+HXLINE(1841)						_gthis->countdownReady->updateHitbox();
+HXLINE(1843)						if (::PlayState_obj::isPixelStage) {
+HXLINE(1844)							 ::flixel::FlxSprite _gthis1 = _gthis->countdownReady;
+HXDLIN(1844)							Float _hx_tmp = _gthis->countdownReady->get_width();
+HXDLIN(1844)							_gthis1->setGraphicSize(::Std_obj::_hx_int((_hx_tmp * ::PlayState_obj::daPixelZoom)),null());
             						}
-HXLINE(1790)						_gthis->countdownReady->screenCenter(null());
-HXLINE(1791)						_gthis->countdownReady->set_antialiasing(antialias);
-HXLINE(1792)						_gthis->add(_gthis->countdownReady).StaticCast<  ::flixel::FlxBasic >();
-HXLINE(1793)						::flixel::tweens::FlxTween_obj::tween(_gthis->countdownReady, ::Dynamic(::hx::Anon_obj::Create(1)
+HXLINE(1846)						_gthis->countdownReady->screenCenter(null());
+HXLINE(1847)						_gthis->countdownReady->set_antialiasing(antialias);
+HXLINE(1848)						_gthis->add(_gthis->countdownReady).StaticCast<  ::flixel::FlxBasic >();
+HXLINE(1849)						::flixel::tweens::FlxTween_obj::tween(_gthis->countdownReady, ::Dynamic(::hx::Anon_obj::Create(1)
             							->setFixed(0,HX_("alpha",5e,a7,96,21),0)),(::Conductor_obj::crochet / ( (Float)(1000) )), ::Dynamic(::hx::Anon_obj::Create(2)
             							->setFixed(0,HX_("ease",ee,8b,0c,43),::flixel::tweens::FlxEase_obj::cubeInOut_dyn())
             							->setFixed(1,HX_("onComplete",f8,d4,7e,5d), ::Dynamic(new _hx_Closure_0(_gthis)))));
-HXLINE(1801)						 ::flixel::_hx_system::frontEnds::SoundFrontEnd _hx_tmp1 = ::flixel::FlxG_obj::sound;
-HXDLIN(1801)						_hx_tmp1->play(::Paths_obj::sound((HX_("intro2",46,54,90,9e) + _gthis->introSoundsSuffix),null()),((Float)0.6),null(),null(),null(),null());
+HXLINE(1857)						 ::flixel::_hx_system::frontEnds::SoundFrontEnd _hx_tmp1 = ::flixel::FlxG_obj::sound;
+HXDLIN(1857)						_hx_tmp1->play(::Paths_obj::sound((HX_("intro2",46,54,90,9e) + _gthis->introSoundsSuffix),null()),((Float)0.6),null(),null(),null(),null());
             					}
             					break;
             					case (int)2: {
             						HX_BEGIN_LOCAL_FUNC_S1(::hx::LocalFunc,_hx_Closure_1, ::PlayState,_gthis) HXARGC(1)
             						void _hx_run( ::flixel::tweens::FlxTween twn){
-            							HX_GC_STACKFRAME(&_hx_pos_af23706db05c7feb_1815_startCountdown)
-HXLINE(1816)							_gthis->remove(_gthis->countdownSet,null()).StaticCast<  ::flixel::FlxBasic >();
-HXLINE(1817)							_gthis->countdownSet->destroy();
+            							HX_GC_STACKFRAME(&_hx_pos_af23706db05c7feb_1871_startCountdown)
+HXLINE(1872)							_gthis->remove(_gthis->countdownSet,null()).StaticCast<  ::flixel::FlxBasic >();
+HXLINE(1873)							_gthis->countdownSet->destroy();
             						}
             						HX_END_LOCAL_FUNC1((void))
 
-HXLINE(1803)						 ::flixel::FlxSprite _hx_tmp =  ::flixel::FlxSprite_obj::__alloc( HX_CTX ,null(),null(),null());
-HXDLIN(1803)						::String library = null();
-HXDLIN(1803)						 ::flixel::graphics::FlxGraphic returnAsset = ::Paths_obj::returnGraphic(introAlts->__get(1),library);
-HXDLIN(1803)						_gthis->countdownSet = _hx_tmp->loadGraphic(returnAsset,null(),null(),null(),null(),null());
-HXLINE(1804)						_gthis->countdownSet->scrollFactor->set(null(),null());
-HXLINE(1806)						if (::PlayState_obj::isPixelStage) {
-HXLINE(1807)							 ::flixel::FlxSprite _gthis1 = _gthis->countdownSet;
-HXDLIN(1807)							Float _hx_tmp = _gthis->countdownSet->get_width();
-HXDLIN(1807)							_gthis1->setGraphicSize(::Std_obj::_hx_int((_hx_tmp * ::PlayState_obj::daPixelZoom)),null());
+HXLINE(1859)						 ::flixel::FlxSprite _hx_tmp =  ::flixel::FlxSprite_obj::__alloc( HX_CTX ,null(),null(),null());
+HXDLIN(1859)						::String library = null();
+HXDLIN(1859)						 ::flixel::graphics::FlxGraphic returnAsset = ::Paths_obj::returnGraphic(introAlts->__get(1),library);
+HXDLIN(1859)						_gthis->countdownSet = _hx_tmp->loadGraphic(returnAsset,null(),null(),null(),null(),null());
+HXLINE(1860)						_gthis->countdownSet->scrollFactor->set(null(),null());
+HXLINE(1862)						if (::PlayState_obj::isPixelStage) {
+HXLINE(1863)							 ::flixel::FlxSprite _gthis1 = _gthis->countdownSet;
+HXDLIN(1863)							Float _hx_tmp = _gthis->countdownSet->get_width();
+HXDLIN(1863)							_gthis1->setGraphicSize(::Std_obj::_hx_int((_hx_tmp * ::PlayState_obj::daPixelZoom)),null());
             						}
-HXLINE(1809)						_gthis->countdownSet->screenCenter(null());
-HXLINE(1810)						_gthis->countdownSet->set_antialiasing(antialias);
-HXLINE(1811)						_gthis->add(_gthis->countdownSet).StaticCast<  ::flixel::FlxBasic >();
-HXLINE(1812)						::flixel::tweens::FlxTween_obj::tween(_gthis->countdownSet, ::Dynamic(::hx::Anon_obj::Create(1)
+HXLINE(1865)						_gthis->countdownSet->screenCenter(null());
+HXLINE(1866)						_gthis->countdownSet->set_antialiasing(antialias);
+HXLINE(1867)						_gthis->add(_gthis->countdownSet).StaticCast<  ::flixel::FlxBasic >();
+HXLINE(1868)						::flixel::tweens::FlxTween_obj::tween(_gthis->countdownSet, ::Dynamic(::hx::Anon_obj::Create(1)
             							->setFixed(0,HX_("alpha",5e,a7,96,21),0)),(::Conductor_obj::crochet / ( (Float)(1000) )), ::Dynamic(::hx::Anon_obj::Create(2)
             							->setFixed(0,HX_("ease",ee,8b,0c,43),::flixel::tweens::FlxEase_obj::cubeInOut_dyn())
             							->setFixed(1,HX_("onComplete",f8,d4,7e,5d), ::Dynamic(new _hx_Closure_1(_gthis)))));
-HXLINE(1820)						 ::flixel::_hx_system::frontEnds::SoundFrontEnd _hx_tmp1 = ::flixel::FlxG_obj::sound;
-HXDLIN(1820)						_hx_tmp1->play(::Paths_obj::sound((HX_("intro1",45,54,90,9e) + _gthis->introSoundsSuffix),null()),((Float)0.6),null(),null(),null(),null());
+HXLINE(1876)						 ::flixel::_hx_system::frontEnds::SoundFrontEnd _hx_tmp1 = ::flixel::FlxG_obj::sound;
+HXDLIN(1876)						_hx_tmp1->play(::Paths_obj::sound((HX_("intro1",45,54,90,9e) + _gthis->introSoundsSuffix),null()),((Float)0.6),null(),null(),null(),null());
             					}
             					break;
             					case (int)3: {
             						HX_BEGIN_LOCAL_FUNC_S1(::hx::LocalFunc,_hx_Closure_2, ::PlayState,_gthis) HXARGC(1)
             						void _hx_run( ::flixel::tweens::FlxTween twn){
-            							HX_GC_STACKFRAME(&_hx_pos_af23706db05c7feb_1836_startCountdown)
-HXLINE(1837)							_gthis->remove(_gthis->countdownGo,null()).StaticCast<  ::flixel::FlxBasic >();
-HXLINE(1838)							_gthis->countdownGo->destroy();
+            							HX_GC_STACKFRAME(&_hx_pos_af23706db05c7feb_1892_startCountdown)
+HXLINE(1893)							_gthis->remove(_gthis->countdownGo,null()).StaticCast<  ::flixel::FlxBasic >();
+HXLINE(1894)							_gthis->countdownGo->destroy();
             						}
             						HX_END_LOCAL_FUNC1((void))
 
-HXLINE(1822)						 ::flixel::FlxSprite _hx_tmp =  ::flixel::FlxSprite_obj::__alloc( HX_CTX ,null(),null(),null());
-HXDLIN(1822)						::String library = null();
-HXDLIN(1822)						 ::flixel::graphics::FlxGraphic returnAsset = ::Paths_obj::returnGraphic(introAlts->__get(2),library);
-HXDLIN(1822)						_gthis->countdownGo = _hx_tmp->loadGraphic(returnAsset,null(),null(),null(),null(),null());
-HXLINE(1823)						_gthis->countdownGo->scrollFactor->set(null(),null());
-HXLINE(1825)						if (::PlayState_obj::isPixelStage) {
-HXLINE(1826)							 ::flixel::FlxSprite _gthis1 = _gthis->countdownGo;
-HXDLIN(1826)							Float _hx_tmp = _gthis->countdownGo->get_width();
-HXDLIN(1826)							_gthis1->setGraphicSize(::Std_obj::_hx_int((_hx_tmp * ::PlayState_obj::daPixelZoom)),null());
+HXLINE(1878)						 ::flixel::FlxSprite _hx_tmp =  ::flixel::FlxSprite_obj::__alloc( HX_CTX ,null(),null(),null());
+HXDLIN(1878)						::String library = null();
+HXDLIN(1878)						 ::flixel::graphics::FlxGraphic returnAsset = ::Paths_obj::returnGraphic(introAlts->__get(2),library);
+HXDLIN(1878)						_gthis->countdownGo = _hx_tmp->loadGraphic(returnAsset,null(),null(),null(),null(),null());
+HXLINE(1879)						_gthis->countdownGo->scrollFactor->set(null(),null());
+HXLINE(1881)						if (::PlayState_obj::isPixelStage) {
+HXLINE(1882)							 ::flixel::FlxSprite _gthis1 = _gthis->countdownGo;
+HXDLIN(1882)							Float _hx_tmp = _gthis->countdownGo->get_width();
+HXDLIN(1882)							_gthis1->setGraphicSize(::Std_obj::_hx_int((_hx_tmp * ::PlayState_obj::daPixelZoom)),null());
             						}
-HXLINE(1828)						_gthis->countdownGo->updateHitbox();
-HXLINE(1830)						_gthis->countdownGo->screenCenter(null());
-HXLINE(1831)						_gthis->countdownGo->set_antialiasing(antialias);
-HXLINE(1832)						_gthis->add(_gthis->countdownGo).StaticCast<  ::flixel::FlxBasic >();
-HXLINE(1833)						::flixel::tweens::FlxTween_obj::tween(_gthis->countdownGo, ::Dynamic(::hx::Anon_obj::Create(1)
+HXLINE(1884)						_gthis->countdownGo->updateHitbox();
+HXLINE(1886)						_gthis->countdownGo->screenCenter(null());
+HXLINE(1887)						_gthis->countdownGo->set_antialiasing(antialias);
+HXLINE(1888)						_gthis->add(_gthis->countdownGo).StaticCast<  ::flixel::FlxBasic >();
+HXLINE(1889)						::flixel::tweens::FlxTween_obj::tween(_gthis->countdownGo, ::Dynamic(::hx::Anon_obj::Create(1)
             							->setFixed(0,HX_("alpha",5e,a7,96,21),0)),(::Conductor_obj::crochet / ( (Float)(1000) )), ::Dynamic(::hx::Anon_obj::Create(2)
             							->setFixed(0,HX_("ease",ee,8b,0c,43),::flixel::tweens::FlxEase_obj::cubeInOut_dyn())
             							->setFixed(1,HX_("onComplete",f8,d4,7e,5d), ::Dynamic(new _hx_Closure_2(_gthis)))));
-HXLINE(1841)						 ::flixel::_hx_system::frontEnds::SoundFrontEnd _hx_tmp1 = ::flixel::FlxG_obj::sound;
-HXDLIN(1841)						_hx_tmp1->play(::Paths_obj::sound((HX_("introGo",b4,7b,b9,1f) + _gthis->introSoundsSuffix),null()),((Float)0.6),null(),null(),null(),null());
+HXLINE(1897)						 ::flixel::_hx_system::frontEnds::SoundFrontEnd _hx_tmp1 = ::flixel::FlxG_obj::sound;
+HXDLIN(1897)						_hx_tmp1->play(::Paths_obj::sound((HX_("introGo",b4,7b,b9,1f) + _gthis->introSoundsSuffix),null()),((Float)0.6),null(),null(),null(),null());
             					}
             					break;
             					case (int)4: {
             					}
             					break;
             				}
-HXLINE(1845)				_gthis->notes->forEachAlive( ::Dynamic(new _hx_Closure_3()),null());
-HXLINE(1852)				_gthis->callOnLuas(HX_("onCountdownTick",0f,54,e4,9f),::cpp::VirtualArray_obj::__new(1)->init(0,swagCounter->__get(0)));
-HXLINE(1854)				::Array< int > swagCounter1 = swagCounter;
-HXDLIN(1854)				int _hx_tmp11 = 0;
-HXDLIN(1854)				swagCounter1[_hx_tmp11] = (swagCounter1->__get(_hx_tmp11) + 1);
+HXLINE(1901)				_gthis->notes->forEachAlive( ::Dynamic(new _hx_Closure_3()),null());
+HXLINE(1908)				_gthis->callOnLuas(HX_("onCountdownTick",0f,54,e4,9f),::cpp::VirtualArray_obj::__new(1)->init(0,swagCounter->__get(0)));
+HXLINE(1910)				::Array< int > swagCounter1 = swagCounter;
+HXDLIN(1910)				int _hx_tmp11 = 0;
+HXDLIN(1910)				swagCounter1[_hx_tmp11] = (swagCounter1->__get(_hx_tmp11) + 1);
             			}
             			HX_END_LOCAL_FUNC1((void))
 
-HXLINE(1715)			bool _hx_tmp;
-HXDLIN(1715)			if (!(this->skipCountdown)) {
-HXLINE(1715)				_hx_tmp = (::PlayState_obj::startOnTime > 0);
+HXLINE(1771)			bool _hx_tmp;
+HXDLIN(1771)			if (!(this->skipCountdown)) {
+HXLINE(1771)				_hx_tmp = (::PlayState_obj::startOnTime > 0);
             			}
             			else {
-HXLINE(1715)				_hx_tmp = true;
+HXLINE(1771)				_hx_tmp = true;
             			}
-HXDLIN(1715)			if (_hx_tmp) {
-HXLINE(1715)				this->skipArrowStartTween = true;
+HXDLIN(1771)			if (_hx_tmp) {
+HXLINE(1771)				this->skipArrowStartTween = true;
             			}
-HXLINE(1717)			this->generateStaticArrows(0);
-HXLINE(1718)			this->generateStaticArrows(1);
-HXLINE(1719)			{
-HXLINE(1719)				int _g = 0;
-HXDLIN(1719)				int _g1 = this->playerStrums->length;
-HXDLIN(1719)				while((_g < _g1)){
-HXLINE(1719)					_g = (_g + 1);
-HXDLIN(1719)					int i = (_g - 1);
-HXLINE(1720)					this->setOnLuas((HX_("defaultPlayerStrumX",91,a3,83,89) + i),Dynamic( this->playerStrums->members->__get(i)).StaticCast<  ::StrumNote >()->x);
-HXLINE(1721)					this->setOnLuas((HX_("defaultPlayerStrumY",92,a3,83,89) + i),Dynamic( this->playerStrums->members->__get(i)).StaticCast<  ::StrumNote >()->y);
+HXLINE(1773)			this->generateStaticArrows(0);
+HXLINE(1774)			this->generateStaticArrows(1);
+HXLINE(1775)			{
+HXLINE(1775)				int _g = 0;
+HXDLIN(1775)				int _g1 = this->playerStrums->length;
+HXDLIN(1775)				while((_g < _g1)){
+HXLINE(1775)					_g = (_g + 1);
+HXDLIN(1775)					int i = (_g - 1);
+HXLINE(1776)					this->setOnLuas((HX_("defaultPlayerStrumX",91,a3,83,89) + i),Dynamic( this->playerStrums->members->__get(i)).StaticCast<  ::StrumNote >()->x);
+HXLINE(1777)					this->setOnLuas((HX_("defaultPlayerStrumY",92,a3,83,89) + i),Dynamic( this->playerStrums->members->__get(i)).StaticCast<  ::StrumNote >()->y);
             				}
             			}
-HXLINE(1723)			{
-HXLINE(1723)				int _g2 = 0;
-HXDLIN(1723)				int _g3 = this->opponentStrums->length;
-HXDLIN(1723)				while((_g2 < _g3)){
-HXLINE(1723)					_g2 = (_g2 + 1);
-HXDLIN(1723)					int i = (_g2 - 1);
-HXLINE(1724)					this->setOnLuas((HX_("defaultOpponentStrumX",0d,e1,d7,f1) + i),Dynamic( this->opponentStrums->members->__get(i)).StaticCast<  ::StrumNote >()->x);
-HXLINE(1725)					this->setOnLuas((HX_("defaultOpponentStrumY",0e,e1,d7,f1) + i),Dynamic( this->opponentStrums->members->__get(i)).StaticCast<  ::StrumNote >()->y);
+HXLINE(1779)			{
+HXLINE(1779)				int _g2 = 0;
+HXDLIN(1779)				int _g3 = this->opponentStrums->length;
+HXDLIN(1779)				while((_g2 < _g3)){
+HXLINE(1779)					_g2 = (_g2 + 1);
+HXDLIN(1779)					int i = (_g2 - 1);
+HXLINE(1780)					this->setOnLuas((HX_("defaultOpponentStrumX",0d,e1,d7,f1) + i),Dynamic( this->opponentStrums->members->__get(i)).StaticCast<  ::StrumNote >()->x);
+HXLINE(1781)					this->setOnLuas((HX_("defaultOpponentStrumY",0e,e1,d7,f1) + i),Dynamic( this->opponentStrums->members->__get(i)).StaticCast<  ::StrumNote >()->y);
             				}
             			}
-HXLINE(1729)			this->startedCountdown = true;
-HXLINE(1730)			::Conductor_obj::songPosition = ( (Float)(0) );
-HXLINE(1731)			 ::Dynamic _hx_tmp1 = ::hx::ClassOf< ::Conductor >();
-HXDLIN(1731)			::Conductor_obj::songPosition = (::Conductor_obj::songPosition - (::Conductor_obj::crochet * ( (Float)(5) )));
-HXLINE(1732)			this->setOnLuas(HX_("startedCountdown",30,57,28,9b),true);
-HXLINE(1733)			this->callOnLuas(HX_("onCountdownStarted",cf,93,f5,10),::cpp::VirtualArray_obj::__new(0));
-HXLINE(1735)			::Array< int > swagCounter = ::Array_obj< int >::fromData( _hx_array_data_46c2835d_77,1);
-HXLINE(1737)			bool _hx_tmp2;
-HXDLIN(1737)			if (!(this->skipCountdown)) {
-HXLINE(1737)				_hx_tmp2 = (::PlayState_obj::startOnTime > 0);
+HXLINE(1785)			this->startedCountdown = true;
+HXLINE(1786)			::Conductor_obj::songPosition = ( (Float)(0) );
+HXLINE(1787)			 ::Dynamic _hx_tmp1 = ::hx::ClassOf< ::Conductor >();
+HXDLIN(1787)			::Conductor_obj::songPosition = (::Conductor_obj::songPosition - (::Conductor_obj::crochet * ( (Float)(5) )));
+HXLINE(1788)			this->setOnLuas(HX_("startedCountdown",30,57,28,9b),true);
+HXLINE(1789)			this->callOnLuas(HX_("onCountdownStarted",cf,93,f5,10),::cpp::VirtualArray_obj::__new(0));
+HXLINE(1791)			::Array< int > swagCounter = ::Array_obj< int >::fromData( _hx_array_data_46c2835d_77,1);
+HXLINE(1793)			bool _hx_tmp2;
+HXDLIN(1793)			if (!(this->skipCountdown)) {
+HXLINE(1793)				_hx_tmp2 = (::PlayState_obj::startOnTime > 0);
             			}
             			else {
-HXLINE(1737)				_hx_tmp2 = true;
+HXLINE(1793)				_hx_tmp2 = true;
             			}
-HXDLIN(1737)			if (_hx_tmp2) {
-HXLINE(1738)				this->clearNotesBefore(::PlayState_obj::startOnTime);
-HXLINE(1739)				this->setSongTime((::PlayState_obj::startOnTime - ( (Float)(500) )));
-HXLINE(1740)				return;
+HXDLIN(1793)			if (_hx_tmp2) {
+HXLINE(1794)				this->clearNotesBefore(::PlayState_obj::startOnTime);
+HXLINE(1795)				this->setSongTime((::PlayState_obj::startOnTime - ( (Float)(500) )));
+HXLINE(1796)				return;
             			}
-HXLINE(1743)			 ::flixel::util::FlxTimer _hx_tmp3 =  ::flixel::util::FlxTimer_obj::__alloc( HX_CTX ,null());
-HXDLIN(1743)			this->startTimer = _hx_tmp3->start((::Conductor_obj::crochet / ( (Float)(1000) )), ::Dynamic(new _hx_Closure_4(_gthis,swagCounter)),5);
+HXLINE(1799)			 ::flixel::util::FlxTimer _hx_tmp3 =  ::flixel::util::FlxTimer_obj::__alloc( HX_CTX ,null());
+HXDLIN(1799)			this->startTimer = _hx_tmp3->start((::Conductor_obj::crochet / ( (Float)(1000) )), ::Dynamic(new _hx_Closure_4(_gthis,swagCounter)),5);
             		}
             	}
 
@@ -2942,32 +2999,32 @@ HXDLIN(1743)			this->startTimer = _hx_tmp3->start((::Conductor_obj::crochet / ( 
 HX_DEFINE_DYNAMIC_FUNC0(PlayState_obj,startCountdown,(void))
 
 void PlayState_obj::clearNotesBefore(Float time){
-            	HX_STACKFRAME(&_hx_pos_af23706db05c7feb_1861_clearNotesBefore)
-HXLINE(1862)		int i = (this->unspawnNotes->length - 1);
-HXLINE(1863)		while((i >= 0)){
-HXLINE(1864)			 ::Note daNote = this->unspawnNotes->__get(i).StaticCast<  ::Note >();
-HXLINE(1865)			if (((daNote->strumTime - ( (Float)(500) )) < time)) {
-HXLINE(1867)				daNote->set_active(false);
-HXLINE(1868)				daNote->set_visible(false);
-HXLINE(1869)				daNote->ignoreNote = true;
-HXLINE(1871)				daNote->kill();
-HXLINE(1872)				this->unspawnNotes->remove(daNote);
-HXLINE(1873)				daNote->destroy();
+            	HX_STACKFRAME(&_hx_pos_af23706db05c7feb_1917_clearNotesBefore)
+HXLINE(1918)		int i = (this->unspawnNotes->length - 1);
+HXLINE(1919)		while((i >= 0)){
+HXLINE(1920)			 ::Note daNote = this->unspawnNotes->__get(i).StaticCast<  ::Note >();
+HXLINE(1921)			if (((daNote->strumTime - ( (Float)(500) )) < time)) {
+HXLINE(1923)				daNote->set_active(false);
+HXLINE(1924)				daNote->set_visible(false);
+HXLINE(1925)				daNote->ignoreNote = true;
+HXLINE(1927)				daNote->kill();
+HXLINE(1928)				this->unspawnNotes->remove(daNote);
+HXLINE(1929)				daNote->destroy();
             			}
-HXLINE(1875)			i = (i - 1);
+HXLINE(1931)			i = (i - 1);
             		}
-HXLINE(1878)		i = (this->notes->length - 1);
-HXLINE(1879)		while((i >= 0)){
-HXLINE(1880)			 ::Note daNote = Dynamic( this->notes->members->__get(i)).StaticCast<  ::Note >();
-HXLINE(1881)			if (((daNote->strumTime - ( (Float)(500) )) < time)) {
-HXLINE(1883)				daNote->set_active(false);
-HXLINE(1884)				daNote->set_visible(false);
-HXLINE(1885)				daNote->ignoreNote = true;
-HXLINE(1887)				daNote->kill();
-HXLINE(1888)				this->notes->remove(daNote,true).StaticCast<  ::Note >();
-HXLINE(1889)				daNote->destroy();
+HXLINE(1934)		i = (this->notes->length - 1);
+HXLINE(1935)		while((i >= 0)){
+HXLINE(1936)			 ::Note daNote = Dynamic( this->notes->members->__get(i)).StaticCast<  ::Note >();
+HXLINE(1937)			if (((daNote->strumTime - ( (Float)(500) )) < time)) {
+HXLINE(1939)				daNote->set_active(false);
+HXLINE(1940)				daNote->set_visible(false);
+HXLINE(1941)				daNote->ignoreNote = true;
+HXLINE(1943)				daNote->kill();
+HXLINE(1944)				this->notes->remove(daNote,true).StaticCast<  ::Note >();
+HXLINE(1945)				daNote->destroy();
             			}
-HXLINE(1891)			i = (i - 1);
+HXLINE(1947)			i = (i - 1);
             		}
             	}
 
@@ -2975,350 +3032,350 @@ HXLINE(1891)			i = (i - 1);
 HX_DEFINE_DYNAMIC_FUNC1(PlayState_obj,clearNotesBefore,(void))
 
 void PlayState_obj::setSongTime(Float time){
-            	HX_STACKFRAME(&_hx_pos_af23706db05c7feb_1896_setSongTime)
-HXLINE(1897)		if ((time < 0)) {
-HXLINE(1897)			time = ( (Float)(0) );
+            	HX_STACKFRAME(&_hx_pos_af23706db05c7feb_1952_setSongTime)
+HXLINE(1953)		if ((time < 0)) {
+HXLINE(1953)			time = ( (Float)(0) );
             		}
-HXLINE(1899)		::flixel::FlxG_obj::sound->music->pause();
-HXLINE(1900)		this->vocals->pause();
-HXLINE(1902)		::flixel::FlxG_obj::sound->music->set_time(time);
-HXLINE(1903)		::flixel::FlxG_obj::sound->music->play(null(),null(),null());
-HXLINE(1905)		this->vocals->set_time(time);
-HXLINE(1906)		this->vocals->play(null(),null(),null());
-HXLINE(1907)		::Conductor_obj::songPosition = time;
+HXLINE(1955)		::flixel::FlxG_obj::sound->music->pause();
+HXLINE(1956)		this->vocals->pause();
+HXLINE(1958)		::flixel::FlxG_obj::sound->music->set_time(time);
+HXLINE(1959)		::flixel::FlxG_obj::sound->music->play(null(),null(),null());
+HXLINE(1961)		this->vocals->set_time(time);
+HXLINE(1962)		this->vocals->play(null(),null(),null());
+HXLINE(1963)		::Conductor_obj::songPosition = time;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(PlayState_obj,setSongTime,(void))
 
 void PlayState_obj::startNextDialogue(){
-            	HX_STACKFRAME(&_hx_pos_af23706db05c7feb_1910_startNextDialogue)
-HXLINE(1911)		this->dialogueCount++;
-HXLINE(1912)		this->callOnLuas(HX_("onNextDialogue",ea,78,82,7b),::cpp::VirtualArray_obj::__new(1)->init(0,this->dialogueCount));
+            	HX_STACKFRAME(&_hx_pos_af23706db05c7feb_1966_startNextDialogue)
+HXLINE(1967)		this->dialogueCount++;
+HXLINE(1968)		this->callOnLuas(HX_("onNextDialogue",ea,78,82,7b),::cpp::VirtualArray_obj::__new(1)->init(0,this->dialogueCount));
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(PlayState_obj,startNextDialogue,(void))
 
 void PlayState_obj::skipDialogue(){
-            	HX_STACKFRAME(&_hx_pos_af23706db05c7feb_1916_skipDialogue)
-HXDLIN(1916)		this->callOnLuas(HX_("onSkipDialogue",76,76,53,39),::cpp::VirtualArray_obj::__new(1)->init(0,this->dialogueCount));
+            	HX_STACKFRAME(&_hx_pos_af23706db05c7feb_1972_skipDialogue)
+HXDLIN(1972)		this->callOnLuas(HX_("onSkipDialogue",76,76,53,39),::cpp::VirtualArray_obj::__new(1)->init(0,this->dialogueCount));
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(PlayState_obj,skipDialogue,(void))
 
 void PlayState_obj::startSong(){
-            	HX_STACKFRAME(&_hx_pos_af23706db05c7feb_1924_startSong)
-HXLINE(1925)		this->startingSong = false;
-HXLINE(1927)		this->previousFrameTime = ::flixel::FlxG_obj::game->ticks;
-HXLINE(1928)		this->lastReportedPlayheadPosition = 0;
-HXLINE(1930)		 ::flixel::_hx_system::frontEnds::SoundFrontEnd _hx_tmp = ::flixel::FlxG_obj::sound;
-HXDLIN(1930)		::String songKey = ((HX_("",00,00,00,00) + ::StringTools_obj::replace(( (::String)(::PlayState_obj::SONG->__Field(HX_("song",d5,23,58,4c),::hx::paccDynamic)) ).toLowerCase(),HX_(" ",20,00,00,00),HX_("-",2d,00,00,00))) + HX_("/Inst",95,b3,69,40));
-HXDLIN(1930)		 ::openfl::media::Sound inst = ::Paths_obj::returnSound(HX_("songs",fe,36,c7,80),songKey,null());
-HXDLIN(1930)		_hx_tmp->playMusic(inst,1,false,null());
-HXLINE(1931)		::flixel::FlxG_obj::sound->music->onComplete = this->onSongComplete_dyn();
-HXLINE(1932)		this->vocals->play(null(),null(),null());
-HXLINE(1934)		if ((::PlayState_obj::startOnTime > 0)) {
-HXLINE(1936)			this->setSongTime((::PlayState_obj::startOnTime - ( (Float)(500) )));
+            	HX_STACKFRAME(&_hx_pos_af23706db05c7feb_1980_startSong)
+HXLINE(1981)		this->startingSong = false;
+HXLINE(1983)		this->previousFrameTime = ::flixel::FlxG_obj::game->ticks;
+HXLINE(1984)		this->lastReportedPlayheadPosition = 0;
+HXLINE(1986)		 ::flixel::_hx_system::frontEnds::SoundFrontEnd _hx_tmp = ::flixel::FlxG_obj::sound;
+HXDLIN(1986)		::String songKey = ((HX_("",00,00,00,00) + ::StringTools_obj::replace(( (::String)(::PlayState_obj::SONG->__Field(HX_("song",d5,23,58,4c),::hx::paccDynamic)) ).toLowerCase(),HX_(" ",20,00,00,00),HX_("-",2d,00,00,00))) + HX_("/Inst",95,b3,69,40));
+HXDLIN(1986)		 ::openfl::media::Sound inst = ::Paths_obj::returnSound(HX_("songs",fe,36,c7,80),songKey,null());
+HXDLIN(1986)		_hx_tmp->playMusic(inst,1,false,null());
+HXLINE(1987)		::flixel::FlxG_obj::sound->music->onComplete = this->onSongComplete_dyn();
+HXLINE(1988)		this->vocals->play(null(),null(),null());
+HXLINE(1990)		if ((::PlayState_obj::startOnTime > 0)) {
+HXLINE(1992)			this->setSongTime((::PlayState_obj::startOnTime - ( (Float)(500) )));
             		}
-HXLINE(1938)		::PlayState_obj::startOnTime = ( (Float)(0) );
-HXLINE(1940)		if (this->paused) {
-HXLINE(1942)			::flixel::FlxG_obj::sound->music->pause();
-HXLINE(1943)			this->vocals->pause();
+HXLINE(1994)		::PlayState_obj::startOnTime = ( (Float)(0) );
+HXLINE(1996)		if (this->paused) {
+HXLINE(1998)			::flixel::FlxG_obj::sound->music->pause();
+HXLINE(1999)			this->vocals->pause();
             		}
-HXLINE(1947)		this->songLength = ::flixel::FlxG_obj::sound->music->_length;
-HXLINE(1948)		::flixel::tweens::FlxTween_obj::tween(this->timeBar, ::Dynamic(::hx::Anon_obj::Create(1)
+HXLINE(2003)		this->songLength = ::flixel::FlxG_obj::sound->music->_length;
+HXLINE(2004)		::flixel::tweens::FlxTween_obj::tween(this->timeBar, ::Dynamic(::hx::Anon_obj::Create(1)
             			->setFixed(0,HX_("alpha",5e,a7,96,21),1)),((Float)0.5), ::Dynamic(::hx::Anon_obj::Create(1)
             			->setFixed(0,HX_("ease",ee,8b,0c,43),::flixel::tweens::FlxEase_obj::circOut_dyn())));
-HXLINE(1949)		::flixel::tweens::FlxTween_obj::tween(this->timeTxt, ::Dynamic(::hx::Anon_obj::Create(1)
+HXLINE(2005)		::flixel::tweens::FlxTween_obj::tween(this->timeTxt, ::Dynamic(::hx::Anon_obj::Create(1)
             			->setFixed(0,HX_("alpha",5e,a7,96,21),1)),((Float)0.5), ::Dynamic(::hx::Anon_obj::Create(1)
             			->setFixed(0,HX_("ease",ee,8b,0c,43),::flixel::tweens::FlxEase_obj::circOut_dyn())));
-HXLINE(1953)		::String _hx_tmp1 = this->detailsText;
-HXDLIN(1953)		::String _hx_tmp2 = ( (::String)((((::PlayState_obj::SONG->__Field(HX_("song",d5,23,58,4c),::hx::paccDynamic) + HX_(" (",08,1c,00,00)) + this->storyDifficultyText) + HX_(")",29,00,00,00))) );
-HXDLIN(1953)		::String _hx_tmp3 = this->iconP2->getCharacter();
-HXDLIN(1953)		::DiscordClient_obj::changePresence(_hx_tmp1,_hx_tmp2,_hx_tmp3,true,this->songLength);
-HXLINE(1955)		this->setOnLuas(HX_("songLength",9b,3a,8c,fa),this->songLength);
-HXLINE(1956)		this->callOnLuas(HX_("onSongStart",2e,9f,c8,d5),::cpp::VirtualArray_obj::__new(0));
+HXLINE(2009)		::String _hx_tmp1 = this->detailsText;
+HXDLIN(2009)		::String _hx_tmp2 = ( (::String)((((::PlayState_obj::SONG->__Field(HX_("song",d5,23,58,4c),::hx::paccDynamic) + HX_(" (",08,1c,00,00)) + this->storyDifficultyText) + HX_(")",29,00,00,00))) );
+HXDLIN(2009)		::String _hx_tmp3 = this->iconP2->getCharacter();
+HXDLIN(2009)		::DiscordClient_obj::changePresence(_hx_tmp1,_hx_tmp2,_hx_tmp3,true,this->songLength);
+HXLINE(2011)		this->setOnLuas(HX_("songLength",9b,3a,8c,fa),this->songLength);
+HXLINE(2012)		this->callOnLuas(HX_("onSongStart",2e,9f,c8,d5),::cpp::VirtualArray_obj::__new(0));
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(PlayState_obj,startSong,(void))
 
 void PlayState_obj::generateSong(::String dataPath){
-            	HX_GC_STACKFRAME(&_hx_pos_af23706db05c7feb_1963_generateSong)
-HXLINE(1965)		 ::Dynamic _hx_tmp;
-HXDLIN(1965)		if (::ClientPrefs_obj::gameplaySettings->exists(HX_("scrolltype",47,55,ef,1f))) {
-HXLINE(1965)			_hx_tmp = ::ClientPrefs_obj::gameplaySettings->get(HX_("scrolltype",47,55,ef,1f));
+            	HX_GC_STACKFRAME(&_hx_pos_af23706db05c7feb_2019_generateSong)
+HXLINE(2021)		 ::Dynamic _hx_tmp;
+HXDLIN(2021)		if (::ClientPrefs_obj::gameplaySettings->exists(HX_("scrolltype",47,55,ef,1f))) {
+HXLINE(2021)			_hx_tmp = ::ClientPrefs_obj::gameplaySettings->get(HX_("scrolltype",47,55,ef,1f));
             		}
             		else {
-HXLINE(1965)			_hx_tmp = HX_("multiplicative",96,7a,3f,fa);
+HXLINE(2021)			_hx_tmp = HX_("multiplicative",96,7a,3f,fa);
             		}
-HXDLIN(1965)		this->songSpeedType = ( (::String)(_hx_tmp) );
-HXLINE(1967)		::String _hx_switch_0 = this->songSpeedType;
+HXDLIN(2021)		this->songSpeedType = ( (::String)(_hx_tmp) );
+HXLINE(2023)		::String _hx_switch_0 = this->songSpeedType;
             		if (  (_hx_switch_0==HX_("constant",64,c1,9d,a5)) ){
-HXLINE(1972)			 ::Dynamic _hx_tmp;
-HXDLIN(1972)			if (::ClientPrefs_obj::gameplaySettings->exists(HX_("scrollspeed",5a,70,19,38))) {
-HXLINE(1972)				_hx_tmp = ::ClientPrefs_obj::gameplaySettings->get(HX_("scrollspeed",5a,70,19,38));
+HXLINE(2028)			 ::Dynamic _hx_tmp;
+HXDLIN(2028)			if (::ClientPrefs_obj::gameplaySettings->exists(HX_("scrollspeed",5a,70,19,38))) {
+HXLINE(2028)				_hx_tmp = ::ClientPrefs_obj::gameplaySettings->get(HX_("scrollspeed",5a,70,19,38));
             			}
             			else {
-HXLINE(1972)				_hx_tmp = 1;
+HXLINE(2028)				_hx_tmp = 1;
             			}
-HXDLIN(1972)			this->set_songSpeed(( (Float)(_hx_tmp) ));
-HXDLIN(1972)			goto _hx_goto_85;
+HXDLIN(2028)			this->set_songSpeed(( (Float)(_hx_tmp) ));
+HXDLIN(2028)			goto _hx_goto_85;
             		}
             		if (  (_hx_switch_0==HX_("multiplicative",96,7a,3f,fa)) ){
-HXLINE(1970)			Float _hx_tmp = ( (Float)(::PlayState_obj::SONG->__Field(HX_("speed",87,97,69,81),::hx::paccDynamic)) );
-HXDLIN(1970)			 ::Dynamic _hx_tmp1;
-HXDLIN(1970)			if (::ClientPrefs_obj::gameplaySettings->exists(HX_("scrollspeed",5a,70,19,38))) {
-HXLINE(1970)				_hx_tmp1 = ::ClientPrefs_obj::gameplaySettings->get(HX_("scrollspeed",5a,70,19,38));
+HXLINE(2026)			Float _hx_tmp = ( (Float)(::PlayState_obj::SONG->__Field(HX_("speed",87,97,69,81),::hx::paccDynamic)) );
+HXDLIN(2026)			 ::Dynamic _hx_tmp1;
+HXDLIN(2026)			if (::ClientPrefs_obj::gameplaySettings->exists(HX_("scrollspeed",5a,70,19,38))) {
+HXLINE(2026)				_hx_tmp1 = ::ClientPrefs_obj::gameplaySettings->get(HX_("scrollspeed",5a,70,19,38));
             			}
             			else {
-HXLINE(1970)				_hx_tmp1 = 1;
+HXLINE(2026)				_hx_tmp1 = 1;
             			}
-HXDLIN(1970)			this->set_songSpeed((_hx_tmp * ( (Float)(_hx_tmp1) )));
-HXDLIN(1970)			goto _hx_goto_85;
+HXDLIN(2026)			this->set_songSpeed((_hx_tmp * ( (Float)(_hx_tmp1) )));
+HXDLIN(2026)			goto _hx_goto_85;
             		}
             		_hx_goto_85:;
-HXLINE(1975)		 ::Dynamic songData = ::PlayState_obj::SONG;
-HXLINE(1976)		::Conductor_obj::changeBPM(( (Float)(songData->__Field(HX_("bpm",df,be,4a,00),::hx::paccDynamic)) ));
-HXLINE(1978)		this->curSong = ( (::String)(songData->__Field(HX_("song",d5,23,58,4c),::hx::paccDynamic)) );
-HXLINE(1980)		if (( (bool)(::PlayState_obj::SONG->__Field(HX_("needsVoices",be,05,e9,0d),::hx::paccDynamic)) )) {
-HXLINE(1981)			 ::flixel::_hx_system::FlxSound _hx_tmp =  ::flixel::_hx_system::FlxSound_obj::__alloc( HX_CTX );
-HXDLIN(1981)			::String songKey = ((HX_("",00,00,00,00) + ::StringTools_obj::replace(( (::String)(::PlayState_obj::SONG->__Field(HX_("song",d5,23,58,4c),::hx::paccDynamic)) ).toLowerCase(),HX_(" ",20,00,00,00),HX_("-",2d,00,00,00))) + HX_("/Voices",10,18,4f,34));
-HXDLIN(1981)			 ::openfl::media::Sound voices = ::Paths_obj::returnSound(HX_("songs",fe,36,c7,80),songKey,null());
-HXDLIN(1981)			this->vocals = _hx_tmp->loadEmbedded(voices,null(),null(),null());
+HXLINE(2031)		 ::Dynamic songData = ::PlayState_obj::SONG;
+HXLINE(2032)		::Conductor_obj::changeBPM(( (Float)(songData->__Field(HX_("bpm",df,be,4a,00),::hx::paccDynamic)) ));
+HXLINE(2034)		this->curSong = ( (::String)(songData->__Field(HX_("song",d5,23,58,4c),::hx::paccDynamic)) );
+HXLINE(2036)		if (( (bool)(::PlayState_obj::SONG->__Field(HX_("needsVoices",be,05,e9,0d),::hx::paccDynamic)) )) {
+HXLINE(2037)			 ::flixel::_hx_system::FlxSound _hx_tmp =  ::flixel::_hx_system::FlxSound_obj::__alloc( HX_CTX );
+HXDLIN(2037)			::String songKey = ((HX_("",00,00,00,00) + ::StringTools_obj::replace(( (::String)(::PlayState_obj::SONG->__Field(HX_("song",d5,23,58,4c),::hx::paccDynamic)) ).toLowerCase(),HX_(" ",20,00,00,00),HX_("-",2d,00,00,00))) + HX_("/Voices",10,18,4f,34));
+HXDLIN(2037)			 ::openfl::media::Sound voices = ::Paths_obj::returnSound(HX_("songs",fe,36,c7,80),songKey,null());
+HXDLIN(2037)			this->vocals = _hx_tmp->loadEmbedded(voices,null(),null(),null());
             		}
             		else {
-HXLINE(1983)			this->vocals =  ::flixel::_hx_system::FlxSound_obj::__alloc( HX_CTX );
+HXLINE(2039)			this->vocals =  ::flixel::_hx_system::FlxSound_obj::__alloc( HX_CTX );
             		}
-HXLINE(1985)		::flixel::FlxG_obj::sound->list->add(this->vocals).StaticCast<  ::flixel::_hx_system::FlxSound >();
-HXLINE(1986)		 ::flixel::group::FlxTypedGroup _hx_tmp1 = ::flixel::FlxG_obj::sound->list;
-HXDLIN(1986)		 ::flixel::_hx_system::FlxSound _hx_tmp2 =  ::flixel::_hx_system::FlxSound_obj::__alloc( HX_CTX );
-HXDLIN(1986)		::String songKey = ((HX_("",00,00,00,00) + ::StringTools_obj::replace(( (::String)(::PlayState_obj::SONG->__Field(HX_("song",d5,23,58,4c),::hx::paccDynamic)) ).toLowerCase(),HX_(" ",20,00,00,00),HX_("-",2d,00,00,00))) + HX_("/Inst",95,b3,69,40));
-HXDLIN(1986)		 ::openfl::media::Sound inst = ::Paths_obj::returnSound(HX_("songs",fe,36,c7,80),songKey,null());
-HXDLIN(1986)		_hx_tmp1->add(_hx_tmp2->loadEmbedded(inst,null(),null(),null())).StaticCast<  ::flixel::_hx_system::FlxSound >();
-HXLINE(1988)		this->notes =  ::flixel::group::FlxTypedGroup_obj::__alloc( HX_CTX ,null());
-HXLINE(1989)		this->add(this->notes);
-HXLINE(1991)		::Array< ::Dynamic> noteData = ( (::Array< ::Dynamic>)(songData->__Field(HX_("notes",41,dc,ca,9f),::hx::paccDynamic)) );
-HXLINE(1996)		int playerCounter = 0;
-HXLINE(1998)		int daBeats = 0;
-HXLINE(2000)		::String songName = ::StringTools_obj::replace(( (::String)(::PlayState_obj::SONG->__Field(HX_("song",d5,23,58,4c),::hx::paccDynamic)) ).toLowerCase(),HX_(" ",20,00,00,00),HX_("-",2d,00,00,00));
-HXLINE(2001)		::String library = null();
-HXDLIN(2001)		::String file = ::Paths_obj::getPath(((HX_("data/",c5,0e,88,d4) + (songName + HX_("/events",88,1c,db,38))) + HX_(".json",56,f1,d6,c2)),HX_("TEXT",ad,94,ba,37),library);
-HXLINE(2003)		bool _hx_tmp3;
-HXDLIN(2003)		if (!(::sys::FileSystem_obj::exists(::Paths_obj::modFolders(((HX_("data/",c5,0e,88,d4) + (songName + HX_("/events",88,1c,db,38))) + HX_(".json",56,f1,d6,c2)))))) {
-HXLINE(2003)			_hx_tmp3 = ::sys::FileSystem_obj::exists(file);
+HXLINE(2041)		::flixel::FlxG_obj::sound->list->add(this->vocals).StaticCast<  ::flixel::_hx_system::FlxSound >();
+HXLINE(2042)		 ::flixel::group::FlxTypedGroup _hx_tmp1 = ::flixel::FlxG_obj::sound->list;
+HXDLIN(2042)		 ::flixel::_hx_system::FlxSound _hx_tmp2 =  ::flixel::_hx_system::FlxSound_obj::__alloc( HX_CTX );
+HXDLIN(2042)		::String songKey = ((HX_("",00,00,00,00) + ::StringTools_obj::replace(( (::String)(::PlayState_obj::SONG->__Field(HX_("song",d5,23,58,4c),::hx::paccDynamic)) ).toLowerCase(),HX_(" ",20,00,00,00),HX_("-",2d,00,00,00))) + HX_("/Inst",95,b3,69,40));
+HXDLIN(2042)		 ::openfl::media::Sound inst = ::Paths_obj::returnSound(HX_("songs",fe,36,c7,80),songKey,null());
+HXDLIN(2042)		_hx_tmp1->add(_hx_tmp2->loadEmbedded(inst,null(),null(),null())).StaticCast<  ::flixel::_hx_system::FlxSound >();
+HXLINE(2044)		this->notes =  ::flixel::group::FlxTypedGroup_obj::__alloc( HX_CTX ,null());
+HXLINE(2045)		this->add(this->notes);
+HXLINE(2047)		::Array< ::Dynamic> noteData = ( (::Array< ::Dynamic>)(songData->__Field(HX_("notes",41,dc,ca,9f),::hx::paccDynamic)) );
+HXLINE(2052)		int playerCounter = 0;
+HXLINE(2054)		int daBeats = 0;
+HXLINE(2056)		::String songName = ::StringTools_obj::replace(( (::String)(::PlayState_obj::SONG->__Field(HX_("song",d5,23,58,4c),::hx::paccDynamic)) ).toLowerCase(),HX_(" ",20,00,00,00),HX_("-",2d,00,00,00));
+HXLINE(2057)		::String library = null();
+HXDLIN(2057)		::String file = ::Paths_obj::getPath(((HX_("data/",c5,0e,88,d4) + (songName + HX_("/events",88,1c,db,38))) + HX_(".json",56,f1,d6,c2)),HX_("TEXT",ad,94,ba,37),library);
+HXLINE(2059)		bool _hx_tmp3;
+HXDLIN(2059)		if (!(::sys::FileSystem_obj::exists(::Paths_obj::modFolders(((HX_("data/",c5,0e,88,d4) + (songName + HX_("/events",88,1c,db,38))) + HX_(".json",56,f1,d6,c2)))))) {
+HXLINE(2059)			_hx_tmp3 = ::sys::FileSystem_obj::exists(file);
             		}
             		else {
-HXLINE(2003)			_hx_tmp3 = true;
+HXLINE(2059)			_hx_tmp3 = true;
             		}
-HXDLIN(2003)		if (_hx_tmp3) {
-HXLINE(2007)			::cpp::VirtualArray eventsData = ( (::cpp::VirtualArray)(::Song_obj::loadFromJson(HX_("events",19,4f,6a,96),songName)->__Field(HX_("events",19,4f,6a,96),::hx::paccDynamic)) );
-HXLINE(2008)			{
-HXLINE(2008)				int _g = 0;
-HXDLIN(2008)				while((_g < eventsData->get_length())){
-HXLINE(2008)					 ::Dynamic event = eventsData->__get(_g);
-HXDLIN(2008)					_g = (_g + 1);
-HXLINE(2010)					{
-HXLINE(2010)						int _g1 = 0;
-HXDLIN(2010)						int _g2 = ( (int)(event->__GetItem(1)->__Field(HX_("length",e6,94,07,9f),::hx::paccDynamic)) );
-HXDLIN(2010)						while((_g1 < _g2)){
-HXLINE(2010)							_g1 = (_g1 + 1);
-HXDLIN(2010)							int i = (_g1 - 1);
-HXLINE(2012)							 ::Dynamic newEventNote_0 = event->__GetItem(0);
-HXDLIN(2012)							 ::Dynamic newEventNote_1 = event->__GetItem(1)->__GetItem(i)->__GetItem(0);
-HXDLIN(2012)							 ::Dynamic newEventNote_2 = event->__GetItem(1)->__GetItem(i)->__GetItem(1);
-HXDLIN(2012)							 ::Dynamic newEventNote_3 = event->__GetItem(1)->__GetItem(i)->__GetItem(2);
-HXLINE(2013)							 ::Dynamic subEvent =  ::Dynamic(::hx::Anon_obj::Create(4)
+HXDLIN(2059)		if (_hx_tmp3) {
+HXLINE(2063)			::cpp::VirtualArray eventsData = ( (::cpp::VirtualArray)(::Song_obj::loadFromJson(HX_("events",19,4f,6a,96),songName)->__Field(HX_("events",19,4f,6a,96),::hx::paccDynamic)) );
+HXLINE(2064)			{
+HXLINE(2064)				int _g = 0;
+HXDLIN(2064)				while((_g < eventsData->get_length())){
+HXLINE(2064)					 ::Dynamic event = eventsData->__get(_g);
+HXDLIN(2064)					_g = (_g + 1);
+HXLINE(2066)					{
+HXLINE(2066)						int _g1 = 0;
+HXDLIN(2066)						int _g2 = ( (int)(event->__GetItem(1)->__Field(HX_("length",e6,94,07,9f),::hx::paccDynamic)) );
+HXDLIN(2066)						while((_g1 < _g2)){
+HXLINE(2066)							_g1 = (_g1 + 1);
+HXDLIN(2066)							int i = (_g1 - 1);
+HXLINE(2068)							 ::Dynamic newEventNote_0 = event->__GetItem(0);
+HXDLIN(2068)							 ::Dynamic newEventNote_1 = event->__GetItem(1)->__GetItem(i)->__GetItem(0);
+HXDLIN(2068)							 ::Dynamic newEventNote_2 = event->__GetItem(1)->__GetItem(i)->__GetItem(1);
+HXDLIN(2068)							 ::Dynamic newEventNote_3 = event->__GetItem(1)->__GetItem(i)->__GetItem(2);
+HXLINE(2069)							 ::Dynamic subEvent =  ::Dynamic(::hx::Anon_obj::Create(4)
             								->setFixed(0,HX_("strumTime",f6,2d,21,f4),( (Float)((newEventNote_0 + ::ClientPrefs_obj::noteOffset)) ))
             								->setFixed(1,HX_("value1",a0,03,b7,4f),( (::String)(newEventNote_2) ))
             								->setFixed(2,HX_("value2",a1,03,b7,4f),( (::String)(newEventNote_3) ))
             								->setFixed(3,HX_("event",1a,c8,c4,75),( (::String)(newEventNote_1) )));
-HXLINE(2019)							 ::Dynamic subEvent1 = subEvent;
-HXDLIN(2019)							Float subEvent2 = ( (Float)(subEvent1->__Field(HX_("strumTime",f6,2d,21,f4),::hx::paccDynamic)) );
-HXDLIN(2019)							subEvent1->__SetField(HX_("strumTime",f6,2d,21,f4),(subEvent2 - this->eventNoteEarlyTrigger(subEvent)),::hx::paccDynamic);
-HXLINE(2020)							this->eventNotes->push(subEvent);
-HXLINE(2021)							this->eventPushed(subEvent);
+HXLINE(2075)							 ::Dynamic subEvent1 = subEvent;
+HXDLIN(2075)							Float subEvent2 = ( (Float)(subEvent1->__Field(HX_("strumTime",f6,2d,21,f4),::hx::paccDynamic)) );
+HXDLIN(2075)							subEvent1->__SetField(HX_("strumTime",f6,2d,21,f4),(subEvent2 - this->eventNoteEarlyTrigger(subEvent)),::hx::paccDynamic);
+HXLINE(2076)							this->eventNotes->push(subEvent);
+HXLINE(2077)							this->eventPushed(subEvent);
             						}
             					}
             				}
             			}
             		}
-HXLINE(2026)		{
-HXLINE(2026)			int _g = 0;
-HXDLIN(2026)			while((_g < noteData->length)){
-HXLINE(2026)				 ::Dynamic section = noteData->__get(_g);
-HXDLIN(2026)				_g = (_g + 1);
-HXLINE(2028)				{
-HXLINE(2028)					int _g1 = 0;
-HXDLIN(2028)					::cpp::VirtualArray _g2 = ( (::cpp::VirtualArray)(section->__Field(HX_("sectionNotes",1c,c8,a7,fe),::hx::paccDynamic)) );
-HXDLIN(2028)					while((_g1 < _g2->get_length())){
-HXLINE(2028)						 ::Dynamic songNotes = _g2->__get(_g1);
-HXDLIN(2028)						_g1 = (_g1 + 1);
-HXLINE(2030)						Float daStrumTime = ( (Float)(songNotes->__GetItem(0)) );
-HXLINE(2031)						int daNoteData = ::Std_obj::_hx_int(::hx::Mod(songNotes->__GetItem(1),4));
-HXLINE(2033)						bool gottaHitNote = ( (bool)(section->__Field(HX_("mustHitSection",3b,5f,87,62),::hx::paccDynamic)) );
-HXLINE(2035)						if (::hx::IsGreater( songNotes->__GetItem(1),3 )) {
-HXLINE(2037)							gottaHitNote = !(( (bool)(section->__Field(HX_("mustHitSection",3b,5f,87,62),::hx::paccDynamic)) ));
+HXLINE(2082)		{
+HXLINE(2082)			int _g = 0;
+HXDLIN(2082)			while((_g < noteData->length)){
+HXLINE(2082)				 ::Dynamic section = noteData->__get(_g);
+HXDLIN(2082)				_g = (_g + 1);
+HXLINE(2084)				{
+HXLINE(2084)					int _g1 = 0;
+HXDLIN(2084)					::cpp::VirtualArray _g2 = ( (::cpp::VirtualArray)(section->__Field(HX_("sectionNotes",1c,c8,a7,fe),::hx::paccDynamic)) );
+HXDLIN(2084)					while((_g1 < _g2->get_length())){
+HXLINE(2084)						 ::Dynamic songNotes = _g2->__get(_g1);
+HXDLIN(2084)						_g1 = (_g1 + 1);
+HXLINE(2086)						Float daStrumTime = ( (Float)(songNotes->__GetItem(0)) );
+HXLINE(2087)						int daNoteData = ::Std_obj::_hx_int(::hx::Mod(songNotes->__GetItem(1),4));
+HXLINE(2089)						bool gottaHitNote = ( (bool)(section->__Field(HX_("mustHitSection",3b,5f,87,62),::hx::paccDynamic)) );
+HXLINE(2091)						if (::hx::IsGreater( songNotes->__GetItem(1),3 )) {
+HXLINE(2093)							gottaHitNote = !(( (bool)(section->__Field(HX_("mustHitSection",3b,5f,87,62),::hx::paccDynamic)) ));
             						}
-HXLINE(2040)						 ::Note oldNote;
-HXLINE(2041)						if ((this->unspawnNotes->length > 0)) {
-HXLINE(2042)							oldNote = this->unspawnNotes->__get(::Std_obj::_hx_int(( (Float)((this->unspawnNotes->length - 1)) ))).StaticCast<  ::Note >();
-            						}
-            						else {
-HXLINE(2044)							oldNote = null();
-            						}
-HXLINE(2046)						 ::Note swagNote =  ::Note_obj::__alloc( HX_CTX ,daStrumTime,daNoteData,oldNote,null(),null());
-HXLINE(2047)						swagNote->mustPress = gottaHitNote;
-HXLINE(2048)						swagNote->sustainLength = ( (Float)(songNotes->__GetItem(2)) );
-HXLINE(2049)						bool _hx_tmp;
-HXDLIN(2049)						if (( (bool)(section->__Field(HX_("gfSection",86,e5,63,d4),::hx::paccDynamic)) )) {
-HXLINE(2049)							_hx_tmp = ::hx::IsLess( songNotes->__GetItem(1),4 );
+HXLINE(2096)						 ::Note oldNote;
+HXLINE(2097)						if ((this->unspawnNotes->length > 0)) {
+HXLINE(2098)							oldNote = this->unspawnNotes->__get(::Std_obj::_hx_int(( (Float)((this->unspawnNotes->length - 1)) ))).StaticCast<  ::Note >();
             						}
             						else {
-HXLINE(2049)							_hx_tmp = false;
+HXLINE(2100)							oldNote = null();
             						}
-HXDLIN(2049)						swagNote->gfNote = _hx_tmp;
-HXLINE(2050)						swagNote->set_noteType(( (::String)(songNotes->__GetItem(3)) ));
-HXLINE(2051)						if (!(::Std_obj::isOfType(songNotes->__GetItem(3),::hx::ClassOf< ::String >()))) {
-HXLINE(2051)							swagNote->set_noteType(::editors::ChartingState_obj::noteTypeList->__get(( (int)(songNotes->__GetItem(3)) )));
+HXLINE(2102)						 ::Note swagNote =  ::Note_obj::__alloc( HX_CTX ,daStrumTime,daNoteData,oldNote,null(),null());
+HXLINE(2103)						swagNote->mustPress = gottaHitNote;
+HXLINE(2104)						swagNote->sustainLength = ( (Float)(songNotes->__GetItem(2)) );
+HXLINE(2105)						bool _hx_tmp;
+HXDLIN(2105)						if (( (bool)(section->__Field(HX_("gfSection",86,e5,63,d4),::hx::paccDynamic)) )) {
+HXLINE(2105)							_hx_tmp = ::hx::IsLess( songNotes->__GetItem(1),4 );
             						}
-HXLINE(2053)						swagNote->scrollFactor->set(null(),null());
-HXLINE(2055)						Float susLength = swagNote->sustainLength;
-HXLINE(2057)						susLength = (susLength / ::Conductor_obj::stepCrochet);
-HXLINE(2058)						this->unspawnNotes->push(swagNote);
-HXLINE(2060)						int floorSus = ::Math_obj::floor(susLength);
-HXLINE(2061)						if ((floorSus > 0)) {
-HXLINE(2062)							int _g = 0;
-HXDLIN(2062)							int _g1 = (floorSus + 1);
-HXDLIN(2062)							while((_g < _g1)){
-HXLINE(2062)								_g = (_g + 1);
-HXDLIN(2062)								int susNote = (_g - 1);
-HXLINE(2064)								oldNote = this->unspawnNotes->__get(::Std_obj::_hx_int(( (Float)((this->unspawnNotes->length - 1)) ))).StaticCast<  ::Note >();
-HXLINE(2066)								Float sustainNote = (daStrumTime + (::Conductor_obj::stepCrochet * ( (Float)(susNote) )));
-HXDLIN(2066)								Float sustainNote1 = ::Conductor_obj::stepCrochet;
-HXDLIN(2066)								 ::Note sustainNote2 =  ::Note_obj::__alloc( HX_CTX ,(sustainNote + (sustainNote1 / ::flixel::math::FlxMath_obj::roundDecimal(this->songSpeed,2))),daNoteData,oldNote,true,null());
-HXLINE(2067)								sustainNote2->mustPress = gottaHitNote;
-HXLINE(2068)								bool _hx_tmp;
-HXDLIN(2068)								if (( (bool)(section->__Field(HX_("gfSection",86,e5,63,d4),::hx::paccDynamic)) )) {
-HXLINE(2068)									_hx_tmp = ::hx::IsLess( songNotes->__GetItem(1),4 );
+            						else {
+HXLINE(2105)							_hx_tmp = false;
+            						}
+HXDLIN(2105)						swagNote->gfNote = _hx_tmp;
+HXLINE(2106)						swagNote->set_noteType(( (::String)(songNotes->__GetItem(3)) ));
+HXLINE(2107)						if (!(::Std_obj::isOfType(songNotes->__GetItem(3),::hx::ClassOf< ::String >()))) {
+HXLINE(2107)							swagNote->set_noteType(::editors::ChartingState_obj::noteTypeList->__get(( (int)(songNotes->__GetItem(3)) )));
+            						}
+HXLINE(2109)						swagNote->scrollFactor->set(null(),null());
+HXLINE(2111)						Float susLength = swagNote->sustainLength;
+HXLINE(2113)						susLength = (susLength / ::Conductor_obj::stepCrochet);
+HXLINE(2114)						this->unspawnNotes->push(swagNote);
+HXLINE(2116)						int floorSus = ::Math_obj::floor(susLength);
+HXLINE(2117)						if ((floorSus > 0)) {
+HXLINE(2118)							int _g = 0;
+HXDLIN(2118)							int _g1 = (floorSus + 1);
+HXDLIN(2118)							while((_g < _g1)){
+HXLINE(2118)								_g = (_g + 1);
+HXDLIN(2118)								int susNote = (_g - 1);
+HXLINE(2120)								oldNote = this->unspawnNotes->__get(::Std_obj::_hx_int(( (Float)((this->unspawnNotes->length - 1)) ))).StaticCast<  ::Note >();
+HXLINE(2122)								Float sustainNote = (daStrumTime + (::Conductor_obj::stepCrochet * ( (Float)(susNote) )));
+HXDLIN(2122)								Float sustainNote1 = ::Conductor_obj::stepCrochet;
+HXDLIN(2122)								 ::Note sustainNote2 =  ::Note_obj::__alloc( HX_CTX ,(sustainNote + (sustainNote1 / ::flixel::math::FlxMath_obj::roundDecimal(this->songSpeed,2))),daNoteData,oldNote,true,null());
+HXLINE(2123)								sustainNote2->mustPress = gottaHitNote;
+HXLINE(2124)								bool _hx_tmp;
+HXDLIN(2124)								if (( (bool)(section->__Field(HX_("gfSection",86,e5,63,d4),::hx::paccDynamic)) )) {
+HXLINE(2124)									_hx_tmp = ::hx::IsLess( songNotes->__GetItem(1),4 );
             								}
             								else {
-HXLINE(2068)									_hx_tmp = false;
+HXLINE(2124)									_hx_tmp = false;
             								}
-HXDLIN(2068)								sustainNote2->gfNote = _hx_tmp;
-HXLINE(2069)								sustainNote2->set_noteType(swagNote->noteType);
-HXLINE(2070)								sustainNote2->scrollFactor->set(null(),null());
-HXLINE(2071)								this->unspawnNotes->push(sustainNote2);
-HXLINE(2073)								if (sustainNote2->mustPress) {
-HXLINE(2075)									 ::Note _g = sustainNote2;
-HXDLIN(2075)									_g->set_x((_g->x + (( (Float)(::flixel::FlxG_obj::width) ) / ( (Float)(2) ))));
+HXDLIN(2124)								sustainNote2->gfNote = _hx_tmp;
+HXLINE(2125)								sustainNote2->set_noteType(swagNote->noteType);
+HXLINE(2126)								sustainNote2->scrollFactor->set(null(),null());
+HXLINE(2127)								this->unspawnNotes->push(sustainNote2);
+HXLINE(2129)								if (sustainNote2->mustPress) {
+HXLINE(2131)									 ::Note _g = sustainNote2;
+HXDLIN(2131)									_g->set_x((_g->x + (( (Float)(::flixel::FlxG_obj::width) ) / ( (Float)(2) ))));
             								}
             								else {
-HXLINE(2077)									if (::ClientPrefs_obj::middleScroll) {
-HXLINE(2079)										{
-HXLINE(2079)											 ::Note _g = sustainNote2;
-HXDLIN(2079)											_g->set_x((_g->x + 310));
+HXLINE(2133)									if (::ClientPrefs_obj::middleScroll) {
+HXLINE(2135)										{
+HXLINE(2135)											 ::Note _g = sustainNote2;
+HXDLIN(2135)											_g->set_x((_g->x + 310));
             										}
-HXLINE(2080)										if ((daNoteData > 1)) {
-HXLINE(2082)											 ::Note _g = sustainNote2;
-HXDLIN(2082)											_g->set_x((_g->x + ((( (Float)(::flixel::FlxG_obj::width) ) / ( (Float)(2) )) + 25)));
+HXLINE(2136)										if ((daNoteData > 1)) {
+HXLINE(2138)											 ::Note _g = sustainNote2;
+HXDLIN(2138)											_g->set_x((_g->x + ((( (Float)(::flixel::FlxG_obj::width) ) / ( (Float)(2) )) + 25)));
             										}
             									}
             								}
             							}
             						}
-HXLINE(2088)						if (swagNote->mustPress) {
-HXLINE(2090)							 ::Note _g = swagNote;
-HXDLIN(2090)							_g->set_x((_g->x + (( (Float)(::flixel::FlxG_obj::width) ) / ( (Float)(2) ))));
+HXLINE(2144)						if (swagNote->mustPress) {
+HXLINE(2146)							 ::Note _g = swagNote;
+HXDLIN(2146)							_g->set_x((_g->x + (( (Float)(::flixel::FlxG_obj::width) ) / ( (Float)(2) ))));
             						}
             						else {
-HXLINE(2092)							if (::ClientPrefs_obj::middleScroll) {
-HXLINE(2094)								{
-HXLINE(2094)									 ::Note _g = swagNote;
-HXDLIN(2094)									_g->set_x((_g->x + 310));
+HXLINE(2148)							if (::ClientPrefs_obj::middleScroll) {
+HXLINE(2150)								{
+HXLINE(2150)									 ::Note _g = swagNote;
+HXDLIN(2150)									_g->set_x((_g->x + 310));
             								}
-HXLINE(2095)								if ((daNoteData > 1)) {
-HXLINE(2097)									 ::Note _g = swagNote;
-HXDLIN(2097)									_g->set_x((_g->x + ((( (Float)(::flixel::FlxG_obj::width) ) / ( (Float)(2) )) + 25)));
+HXLINE(2151)								if ((daNoteData > 1)) {
+HXLINE(2153)									 ::Note _g = swagNote;
+HXDLIN(2153)									_g->set_x((_g->x + ((( (Float)(::flixel::FlxG_obj::width) ) / ( (Float)(2) )) + 25)));
             								}
             							}
             						}
-HXLINE(2101)						if (!(this->noteTypeMap->exists(swagNote->noteType))) {
-HXLINE(2102)							this->noteTypeMap->set(swagNote->noteType,true);
+HXLINE(2157)						if (!(this->noteTypeMap->exists(swagNote->noteType))) {
+HXLINE(2158)							this->noteTypeMap->set(swagNote->noteType,true);
             						}
             					}
             				}
-HXLINE(2105)				daBeats = (daBeats + 1);
+HXLINE(2161)				daBeats = (daBeats + 1);
             			}
             		}
-HXLINE(2107)		{
-HXLINE(2107)			int _g1 = 0;
-HXDLIN(2107)			::cpp::VirtualArray _g2 = ( (::cpp::VirtualArray)(songData->__Field(HX_("events",19,4f,6a,96),::hx::paccDynamic)) );
-HXDLIN(2107)			while((_g1 < _g2->get_length())){
-HXLINE(2107)				 ::Dynamic event = _g2->__get(_g1);
-HXDLIN(2107)				_g1 = (_g1 + 1);
-HXLINE(2109)				{
-HXLINE(2109)					int _g = 0;
-HXDLIN(2109)					int _g3 = ( (int)(event->__GetItem(1)->__Field(HX_("length",e6,94,07,9f),::hx::paccDynamic)) );
-HXDLIN(2109)					while((_g < _g3)){
-HXLINE(2109)						_g = (_g + 1);
-HXDLIN(2109)						int i = (_g - 1);
-HXLINE(2111)						 ::Dynamic newEventNote_0 = event->__GetItem(0);
-HXDLIN(2111)						 ::Dynamic newEventNote_1 = event->__GetItem(1)->__GetItem(i)->__GetItem(0);
-HXDLIN(2111)						 ::Dynamic newEventNote_2 = event->__GetItem(1)->__GetItem(i)->__GetItem(1);
-HXDLIN(2111)						 ::Dynamic newEventNote_3 = event->__GetItem(1)->__GetItem(i)->__GetItem(2);
-HXLINE(2112)						 ::Dynamic subEvent =  ::Dynamic(::hx::Anon_obj::Create(4)
+HXLINE(2163)		{
+HXLINE(2163)			int _g1 = 0;
+HXDLIN(2163)			::cpp::VirtualArray _g2 = ( (::cpp::VirtualArray)(songData->__Field(HX_("events",19,4f,6a,96),::hx::paccDynamic)) );
+HXDLIN(2163)			while((_g1 < _g2->get_length())){
+HXLINE(2163)				 ::Dynamic event = _g2->__get(_g1);
+HXDLIN(2163)				_g1 = (_g1 + 1);
+HXLINE(2165)				{
+HXLINE(2165)					int _g = 0;
+HXDLIN(2165)					int _g3 = ( (int)(event->__GetItem(1)->__Field(HX_("length",e6,94,07,9f),::hx::paccDynamic)) );
+HXDLIN(2165)					while((_g < _g3)){
+HXLINE(2165)						_g = (_g + 1);
+HXDLIN(2165)						int i = (_g - 1);
+HXLINE(2167)						 ::Dynamic newEventNote_0 = event->__GetItem(0);
+HXDLIN(2167)						 ::Dynamic newEventNote_1 = event->__GetItem(1)->__GetItem(i)->__GetItem(0);
+HXDLIN(2167)						 ::Dynamic newEventNote_2 = event->__GetItem(1)->__GetItem(i)->__GetItem(1);
+HXDLIN(2167)						 ::Dynamic newEventNote_3 = event->__GetItem(1)->__GetItem(i)->__GetItem(2);
+HXLINE(2168)						 ::Dynamic subEvent =  ::Dynamic(::hx::Anon_obj::Create(4)
             							->setFixed(0,HX_("strumTime",f6,2d,21,f4),( (Float)((newEventNote_0 + ::ClientPrefs_obj::noteOffset)) ))
             							->setFixed(1,HX_("value1",a0,03,b7,4f),( (::String)(newEventNote_2) ))
             							->setFixed(2,HX_("value2",a1,03,b7,4f),( (::String)(newEventNote_3) ))
             							->setFixed(3,HX_("event",1a,c8,c4,75),( (::String)(newEventNote_1) )));
-HXLINE(2118)						 ::Dynamic subEvent1 = subEvent;
-HXDLIN(2118)						Float subEvent2 = ( (Float)(subEvent1->__Field(HX_("strumTime",f6,2d,21,f4),::hx::paccDynamic)) );
-HXDLIN(2118)						subEvent1->__SetField(HX_("strumTime",f6,2d,21,f4),(subEvent2 - this->eventNoteEarlyTrigger(subEvent)),::hx::paccDynamic);
-HXLINE(2119)						this->eventNotes->push(subEvent);
-HXLINE(2120)						this->eventPushed(subEvent);
+HXLINE(2174)						 ::Dynamic subEvent1 = subEvent;
+HXDLIN(2174)						Float subEvent2 = ( (Float)(subEvent1->__Field(HX_("strumTime",f6,2d,21,f4),::hx::paccDynamic)) );
+HXDLIN(2174)						subEvent1->__SetField(HX_("strumTime",f6,2d,21,f4),(subEvent2 - this->eventNoteEarlyTrigger(subEvent)),::hx::paccDynamic);
+HXLINE(2175)						this->eventNotes->push(subEvent);
+HXLINE(2176)						this->eventPushed(subEvent);
             					}
             				}
             			}
             		}
-HXLINE(2127)		this->unspawnNotes->sort(this->sortByShit_dyn());
-HXLINE(2128)		if ((this->eventNotes->length > 1)) {
-HXLINE(2129)			this->eventNotes->sort(this->sortByTime_dyn());
+HXLINE(2183)		this->unspawnNotes->sort(this->sortByShit_dyn());
+HXLINE(2184)		if ((this->eventNotes->length > 1)) {
+HXLINE(2185)			this->eventNotes->sort(this->sortByTime_dyn());
             		}
-HXLINE(2131)		this->checkEventNote();
-HXLINE(2132)		this->generatedMusic = true;
+HXLINE(2187)		this->checkEventNote();
+HXLINE(2188)		this->generatedMusic = true;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(PlayState_obj,generateSong,(void))
 
 void PlayState_obj::eventPushed( ::Dynamic event){
-            	HX_STACKFRAME(&_hx_pos_af23706db05c7feb_2135_eventPushed)
-HXLINE(2136)		if (::hx::IsEq( event->__Field(HX_("event",1a,c8,c4,75),::hx::paccDynamic),HX_("Change Character",f9,50,ef,9c) )) {
-HXLINE(2138)			int charType = 0;
-HXLINE(2139)			::String _hx_switch_0 = ( (::String)(event->__Field(HX_("value1",a0,03,b7,4f),::hx::paccDynamic)) ).toLowerCase();
+            	HX_STACKFRAME(&_hx_pos_af23706db05c7feb_2191_eventPushed)
+HXLINE(2192)		if (::hx::IsEq( event->__Field(HX_("event",1a,c8,c4,75),::hx::paccDynamic),HX_("Change Character",f9,50,ef,9c) )) {
+HXLINE(2194)			int charType = 0;
+HXLINE(2195)			::String _hx_switch_0 = ( (::String)(event->__Field(HX_("value1",a0,03,b7,4f),::hx::paccDynamic)) ).toLowerCase();
             			if (  (_hx_switch_0==HX_("1",31,00,00,00)) ||  (_hx_switch_0==HX_("gf",1f,5a,00,00)) ||  (_hx_switch_0==HX_("girlfriend",ba,91,48,98)) ){
-HXLINE(2141)				charType = 2;
-HXDLIN(2141)				goto _hx_goto_94;
+HXLINE(2197)				charType = 2;
+HXDLIN(2197)				goto _hx_goto_94;
             			}
             			if (  (_hx_switch_0==HX_("0",30,00,00,00)) ||  (_hx_switch_0==HX_("dad",47,36,4c,00)) ||  (_hx_switch_0==HX_("opponent",9d,b9,b8,f8)) ){
-HXLINE(2143)				charType = 1;
-HXDLIN(2143)				goto _hx_goto_94;
+HXLINE(2199)				charType = 1;
+HXDLIN(2199)				goto _hx_goto_94;
             			}
             			/* default */{
-HXLINE(2145)				charType = ( (int)(::Std_obj::parseInt(( (::String)(event->__Field(HX_("value1",a0,03,b7,4f),::hx::paccDynamic)) ))) );
-HXLINE(2146)				if (::Math_obj::isNaN(( (Float)(charType) ))) {
-HXLINE(2146)					charType = 0;
+HXLINE(2201)				charType = ( (int)(::Std_obj::parseInt(( (::String)(event->__Field(HX_("value1",a0,03,b7,4f),::hx::paccDynamic)) ))) );
+HXLINE(2202)				if (::Math_obj::isNaN(( (Float)(charType) ))) {
+HXLINE(2202)					charType = 0;
             				}
             			}
             			_hx_goto_94:;
-HXLINE(2149)			::String newCharacter = ( (::String)(event->__Field(HX_("value2",a1,03,b7,4f),::hx::paccDynamic)) );
-HXLINE(2150)			this->addCharacterToList(newCharacter,charType);
+HXLINE(2205)			::String newCharacter = ( (::String)(event->__Field(HX_("value2",a1,03,b7,4f),::hx::paccDynamic)) );
+HXLINE(2206)			this->addCharacterToList(newCharacter,charType);
             		}
-HXLINE(2153)		if (!(this->eventPushedMap->exists(( (::String)(event->__Field(HX_("event",1a,c8,c4,75),::hx::paccDynamic)) )))) {
-HXLINE(2154)			this->eventPushedMap->set(( (::String)(event->__Field(HX_("event",1a,c8,c4,75),::hx::paccDynamic)) ),true);
+HXLINE(2209)		if (!(this->eventPushedMap->exists(( (::String)(event->__Field(HX_("event",1a,c8,c4,75),::hx::paccDynamic)) )))) {
+HXLINE(2210)			this->eventPushedMap->set(( (::String)(event->__Field(HX_("event",1a,c8,c4,75),::hx::paccDynamic)) ),true);
             		}
             	}
 
@@ -3326,119 +3383,119 @@ HXLINE(2154)			this->eventPushedMap->set(( (::String)(event->__Field(HX_("event"
 HX_DEFINE_DYNAMIC_FUNC1(PlayState_obj,eventPushed,(void))
 
 Float PlayState_obj::eventNoteEarlyTrigger( ::Dynamic event){
-            	HX_STACKFRAME(&_hx_pos_af23706db05c7feb_2158_eventNoteEarlyTrigger)
-HXLINE(2159)		Float returnedValue = ( (Float)(this->callOnLuas(HX_("eventEarlyTrigger",0f,d2,46,ab),::cpp::VirtualArray_obj::__new(1)->init(0, ::Dynamic(event->__Field(HX_("event",1a,c8,c4,75),::hx::paccDynamic))))) );
-HXLINE(2160)		if ((returnedValue != 0)) {
-HXLINE(2161)			return returnedValue;
+            	HX_STACKFRAME(&_hx_pos_af23706db05c7feb_2214_eventNoteEarlyTrigger)
+HXLINE(2215)		Float returnedValue = ( (Float)(this->callOnLuas(HX_("eventEarlyTrigger",0f,d2,46,ab),::cpp::VirtualArray_obj::__new(1)->init(0, ::Dynamic(event->__Field(HX_("event",1a,c8,c4,75),::hx::paccDynamic))))) );
+HXLINE(2216)		if ((returnedValue != 0)) {
+HXLINE(2217)			return returnedValue;
             		}
-HXLINE(2164)		if (::hx::IsEq( event->__Field(HX_("event",1a,c8,c4,75),::hx::paccDynamic),HX_("Kill Henchmen",e2,fc,7b,01) )) {
-HXLINE(2166)			return ( (Float)(280) );
+HXLINE(2220)		if (::hx::IsEq( event->__Field(HX_("event",1a,c8,c4,75),::hx::paccDynamic),HX_("Kill Henchmen",e2,fc,7b,01) )) {
+HXLINE(2222)			return ( (Float)(280) );
             		}
-HXLINE(2168)		return ( (Float)(0) );
+HXLINE(2224)		return ( (Float)(0) );
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(PlayState_obj,eventNoteEarlyTrigger,return )
 
 int PlayState_obj::sortByShit( ::Note Obj1, ::Note Obj2){
-            	HX_STACKFRAME(&_hx_pos_af23706db05c7feb_2173_sortByShit)
-HXDLIN(2173)		Float Value1 = Obj1->strumTime;
-HXDLIN(2173)		Float Value2 = Obj2->strumTime;
-HXDLIN(2173)		int result = 0;
-HXDLIN(2173)		if ((Value1 < Value2)) {
-HXDLIN(2173)			result = -1;
+            	HX_STACKFRAME(&_hx_pos_af23706db05c7feb_2229_sortByShit)
+HXDLIN(2229)		Float Value1 = Obj1->strumTime;
+HXDLIN(2229)		Float Value2 = Obj2->strumTime;
+HXDLIN(2229)		int result = 0;
+HXDLIN(2229)		if ((Value1 < Value2)) {
+HXDLIN(2229)			result = -1;
             		}
             		else {
-HXDLIN(2173)			if ((Value1 > Value2)) {
-HXDLIN(2173)				result = 1;
+HXDLIN(2229)			if ((Value1 > Value2)) {
+HXDLIN(2229)				result = 1;
             			}
             		}
-HXDLIN(2173)		return result;
+HXDLIN(2229)		return result;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC2(PlayState_obj,sortByShit,return )
 
 int PlayState_obj::sortByTime( ::Dynamic Obj1, ::Dynamic Obj2){
-            	HX_STACKFRAME(&_hx_pos_af23706db05c7feb_2178_sortByTime)
-HXDLIN(2178)		Float Value1 = ( (Float)(Obj1->__Field(HX_("strumTime",f6,2d,21,f4),::hx::paccDynamic)) );
-HXDLIN(2178)		Float Value2 = ( (Float)(Obj2->__Field(HX_("strumTime",f6,2d,21,f4),::hx::paccDynamic)) );
-HXDLIN(2178)		int result = 0;
-HXDLIN(2178)		if ((Value1 < Value2)) {
-HXDLIN(2178)			result = -1;
+            	HX_STACKFRAME(&_hx_pos_af23706db05c7feb_2234_sortByTime)
+HXDLIN(2234)		Float Value1 = ( (Float)(Obj1->__Field(HX_("strumTime",f6,2d,21,f4),::hx::paccDynamic)) );
+HXDLIN(2234)		Float Value2 = ( (Float)(Obj2->__Field(HX_("strumTime",f6,2d,21,f4),::hx::paccDynamic)) );
+HXDLIN(2234)		int result = 0;
+HXDLIN(2234)		if ((Value1 < Value2)) {
+HXDLIN(2234)			result = -1;
             		}
             		else {
-HXDLIN(2178)			if ((Value1 > Value2)) {
-HXDLIN(2178)				result = 1;
+HXDLIN(2234)			if ((Value1 > Value2)) {
+HXDLIN(2234)				result = 1;
             			}
             		}
-HXDLIN(2178)		return result;
+HXDLIN(2234)		return result;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC2(PlayState_obj,sortByTime,return )
 
 void PlayState_obj::generateStaticArrows(int player){
-            	HX_GC_STACKFRAME(&_hx_pos_af23706db05c7feb_2184_generateStaticArrows)
-HXDLIN(2184)		int _g = 0;
-HXDLIN(2184)		while((_g < 4)){
-HXDLIN(2184)			_g = (_g + 1);
-HXDLIN(2184)			int i = (_g - 1);
-HXLINE(2187)			Float targetAlpha = ( (Float)(1) );
-HXLINE(2188)			bool _hx_tmp;
-HXDLIN(2188)			if ((player < 1)) {
-HXLINE(2188)				_hx_tmp = ::ClientPrefs_obj::middleScroll;
+            	HX_GC_STACKFRAME(&_hx_pos_af23706db05c7feb_2240_generateStaticArrows)
+HXDLIN(2240)		int _g = 0;
+HXDLIN(2240)		while((_g < 4)){
+HXDLIN(2240)			_g = (_g + 1);
+HXDLIN(2240)			int i = (_g - 1);
+HXLINE(2243)			Float targetAlpha = ( (Float)(1) );
+HXLINE(2244)			bool _hx_tmp;
+HXDLIN(2244)			if ((player < 1)) {
+HXLINE(2244)				_hx_tmp = ::ClientPrefs_obj::middleScroll;
             			}
             			else {
-HXLINE(2188)				_hx_tmp = false;
+HXLINE(2244)				_hx_tmp = false;
             			}
-HXDLIN(2188)			if (_hx_tmp) {
-HXLINE(2188)				targetAlpha = ((Float)0.35);
+HXDLIN(2244)			if (_hx_tmp) {
+HXLINE(2244)				targetAlpha = ((Float)0.35);
             			}
-HXLINE(2190)			Float babyArrow;
-HXDLIN(2190)			if (::ClientPrefs_obj::middleScroll) {
-HXLINE(2190)				babyArrow = ( (Float)(::PlayState_obj::STRUM_X_MIDDLESCROLL) );
-            			}
-            			else {
-HXLINE(2190)				babyArrow = ( (Float)(::PlayState_obj::STRUM_X) );
-            			}
-HXDLIN(2190)			 ::StrumNote babyArrow1 =  ::StrumNote_obj::__alloc( HX_CTX ,babyArrow,this->strumLine->y,i,player);
-HXLINE(2191)			babyArrow1->downScroll = ::ClientPrefs_obj::downScroll;
-HXLINE(2192)			bool _hx_tmp1;
-HXDLIN(2192)			if (!(::PlayState_obj::isStoryMode)) {
-HXLINE(2192)				_hx_tmp1 = !(this->skipArrowStartTween);
+HXLINE(2246)			Float babyArrow;
+HXDLIN(2246)			if (::ClientPrefs_obj::middleScroll) {
+HXLINE(2246)				babyArrow = ( (Float)(::PlayState_obj::STRUM_X_MIDDLESCROLL) );
             			}
             			else {
-HXLINE(2192)				_hx_tmp1 = false;
+HXLINE(2246)				babyArrow = ( (Float)(::PlayState_obj::STRUM_X) );
             			}
-HXDLIN(2192)			if (_hx_tmp1) {
-HXLINE(2195)				babyArrow1->set_alpha(( (Float)(0) ));
-HXLINE(2196)				::flixel::tweens::FlxTween_obj::tween(babyArrow1, ::Dynamic(::hx::Anon_obj::Create(1)
+HXDLIN(2246)			 ::StrumNote babyArrow1 =  ::StrumNote_obj::__alloc( HX_CTX ,babyArrow,this->strumLine->y,i,player);
+HXLINE(2247)			babyArrow1->downScroll = ::ClientPrefs_obj::downScroll;
+HXLINE(2248)			bool _hx_tmp1;
+HXDLIN(2248)			if (!(::PlayState_obj::isStoryMode)) {
+HXLINE(2248)				_hx_tmp1 = !(this->skipArrowStartTween);
+            			}
+            			else {
+HXLINE(2248)				_hx_tmp1 = false;
+            			}
+HXDLIN(2248)			if (_hx_tmp1) {
+HXLINE(2251)				babyArrow1->set_alpha(( (Float)(0) ));
+HXLINE(2252)				::flixel::tweens::FlxTween_obj::tween(babyArrow1, ::Dynamic(::hx::Anon_obj::Create(1)
             					->setFixed(0,HX_("alpha",5e,a7,96,21),targetAlpha)),1, ::Dynamic(::hx::Anon_obj::Create(2)
             					->setFixed(0,HX_("startDelay",c1,af,3d,f3),(((Float)0.5) + (((Float)0.2) * ( (Float)(i) ))))
             					->setFixed(1,HX_("ease",ee,8b,0c,43),::flixel::tweens::FlxEase_obj::circOut_dyn())));
             			}
             			else {
-HXLINE(2200)				babyArrow1->set_alpha(targetAlpha);
+HXLINE(2256)				babyArrow1->set_alpha(targetAlpha);
             			}
-HXLINE(2203)			if ((player == 1)) {
-HXLINE(2205)				this->playerStrums->add(babyArrow1).StaticCast<  ::StrumNote >();
+HXLINE(2259)			if ((player == 1)) {
+HXLINE(2261)				this->playerStrums->add(babyArrow1).StaticCast<  ::StrumNote >();
             			}
             			else {
-HXLINE(2209)				if (::ClientPrefs_obj::middleScroll) {
-HXLINE(2211)					{
-HXLINE(2211)						 ::StrumNote _g = babyArrow1;
-HXDLIN(2211)						_g->set_x((_g->x + 310));
+HXLINE(2265)				if (::ClientPrefs_obj::middleScroll) {
+HXLINE(2267)					{
+HXLINE(2267)						 ::StrumNote _g = babyArrow1;
+HXDLIN(2267)						_g->set_x((_g->x + 310));
             					}
-HXLINE(2212)					if ((i > 1)) {
-HXLINE(2213)						 ::StrumNote _g = babyArrow1;
-HXDLIN(2213)						_g->set_x((_g->x + ((( (Float)(::flixel::FlxG_obj::width) ) / ( (Float)(2) )) + 25)));
+HXLINE(2268)					if ((i > 1)) {
+HXLINE(2269)						 ::StrumNote _g = babyArrow1;
+HXDLIN(2269)						_g->set_x((_g->x + ((( (Float)(::flixel::FlxG_obj::width) ) / ( (Float)(2) )) + 25)));
             					}
             				}
-HXLINE(2216)				this->opponentStrums->add(babyArrow1).StaticCast<  ::StrumNote >();
+HXLINE(2272)				this->opponentStrums->add(babyArrow1).StaticCast<  ::StrumNote >();
             			}
-HXLINE(2219)			this->strumLineNotes->add(babyArrow1).StaticCast<  ::StrumNote >();
-HXLINE(2220)			babyArrow1->postAddedToGroup();
+HXLINE(2275)			this->strumLineNotes->add(babyArrow1).StaticCast<  ::StrumNote >();
+HXLINE(2276)			babyArrow1->postAddedToGroup();
             		}
             	}
 
@@ -3446,260 +3503,260 @@ HXLINE(2220)			babyArrow1->postAddedToGroup();
 HX_DEFINE_DYNAMIC_FUNC1(PlayState_obj,generateStaticArrows,(void))
 
 void PlayState_obj::openSubState( ::flixel::FlxSubState SubState){
-            	HX_STACKFRAME(&_hx_pos_af23706db05c7feb_2225_openSubState)
-HXLINE(2226)		if (this->paused) {
-HXLINE(2228)			if (::hx::IsNotNull( ::flixel::FlxG_obj::sound->music )) {
-HXLINE(2230)				::flixel::FlxG_obj::sound->music->pause();
-HXLINE(2231)				this->vocals->pause();
+            	HX_STACKFRAME(&_hx_pos_af23706db05c7feb_2281_openSubState)
+HXLINE(2282)		if (this->paused) {
+HXLINE(2284)			if (::hx::IsNotNull( ::flixel::FlxG_obj::sound->music )) {
+HXLINE(2286)				::flixel::FlxG_obj::sound->music->pause();
+HXLINE(2287)				this->vocals->pause();
             			}
-HXLINE(2234)			bool _hx_tmp;
-HXDLIN(2234)			if (::hx::IsNotNull( this->startTimer )) {
-HXLINE(2234)				_hx_tmp = !(this->startTimer->finished);
-            			}
-            			else {
-HXLINE(2234)				_hx_tmp = false;
-            			}
-HXDLIN(2234)			if (_hx_tmp) {
-HXLINE(2235)				this->startTimer->active = false;
-            			}
-HXLINE(2236)			bool _hx_tmp1;
-HXDLIN(2236)			if (::hx::IsNotNull( this->finishTimer )) {
-HXLINE(2236)				_hx_tmp1 = !(this->finishTimer->finished);
+HXLINE(2290)			bool _hx_tmp;
+HXDLIN(2290)			if (::hx::IsNotNull( this->startTimer )) {
+HXLINE(2290)				_hx_tmp = !(this->startTimer->finished);
             			}
             			else {
-HXLINE(2236)				_hx_tmp1 = false;
+HXLINE(2290)				_hx_tmp = false;
             			}
-HXDLIN(2236)			if (_hx_tmp1) {
-HXLINE(2237)				this->finishTimer->active = false;
+HXDLIN(2290)			if (_hx_tmp) {
+HXLINE(2291)				this->startTimer->active = false;
             			}
-HXLINE(2238)			if (::hx::IsNotNull( this->songSpeedTween )) {
-HXLINE(2239)				this->songSpeedTween->set_active(false);
+HXLINE(2292)			bool _hx_tmp1;
+HXDLIN(2292)			if (::hx::IsNotNull( this->finishTimer )) {
+HXLINE(2292)				_hx_tmp1 = !(this->finishTimer->finished);
             			}
-HXLINE(2241)			if (::hx::IsNotNull( this->blammedLightsBlackTween )) {
-HXLINE(2242)				this->blammedLightsBlackTween->set_active(false);
+            			else {
+HXLINE(2292)				_hx_tmp1 = false;
             			}
-HXLINE(2243)			if (::hx::IsNotNull( this->phillyCityLightsEventTween )) {
-HXLINE(2244)				this->phillyCityLightsEventTween->set_active(false);
+HXDLIN(2292)			if (_hx_tmp1) {
+HXLINE(2293)				this->finishTimer->active = false;
             			}
-HXLINE(2246)			if (::hx::IsNotNull( this->carTimer )) {
-HXLINE(2246)				this->carTimer->active = false;
+HXLINE(2294)			if (::hx::IsNotNull( this->songSpeedTween )) {
+HXLINE(2295)				this->songSpeedTween->set_active(false);
             			}
-HXLINE(2248)			::Array< ::Dynamic> chars = ::Array_obj< ::Dynamic>::__new(3)->init(0,this->boyfriend)->init(1,this->gf)->init(2,this->dad);
-HXLINE(2249)			{
-HXLINE(2249)				int _g = 0;
-HXDLIN(2249)				while((_g < chars->length)){
-HXLINE(2249)					 ::Character _hx_char = chars->__get(_g).StaticCast<  ::Character >();
-HXDLIN(2249)					_g = (_g + 1);
-HXLINE(2250)					bool _hx_tmp;
-HXDLIN(2250)					if (::hx::IsNotNull( _hx_char )) {
-HXLINE(2250)						_hx_tmp = ::hx::IsNotNull( _hx_char->colorTween );
+HXLINE(2297)			if (::hx::IsNotNull( this->blammedLightsBlackTween )) {
+HXLINE(2298)				this->blammedLightsBlackTween->set_active(false);
+            			}
+HXLINE(2299)			if (::hx::IsNotNull( this->phillyCityLightsEventTween )) {
+HXLINE(2300)				this->phillyCityLightsEventTween->set_active(false);
+            			}
+HXLINE(2302)			if (::hx::IsNotNull( this->carTimer )) {
+HXLINE(2302)				this->carTimer->active = false;
+            			}
+HXLINE(2304)			::Array< ::Dynamic> chars = ::Array_obj< ::Dynamic>::__new(3)->init(0,this->boyfriend)->init(1,this->gf)->init(2,this->dad);
+HXLINE(2305)			{
+HXLINE(2305)				int _g = 0;
+HXDLIN(2305)				while((_g < chars->length)){
+HXLINE(2305)					 ::Character _hx_char = chars->__get(_g).StaticCast<  ::Character >();
+HXDLIN(2305)					_g = (_g + 1);
+HXLINE(2306)					bool _hx_tmp;
+HXDLIN(2306)					if (::hx::IsNotNull( _hx_char )) {
+HXLINE(2306)						_hx_tmp = ::hx::IsNotNull( _hx_char->colorTween );
             					}
             					else {
-HXLINE(2250)						_hx_tmp = false;
+HXLINE(2306)						_hx_tmp = false;
             					}
-HXDLIN(2250)					if (_hx_tmp) {
-HXLINE(2251)						_hx_char->colorTween->set_active(false);
+HXDLIN(2306)					if (_hx_tmp) {
+HXLINE(2307)						_hx_char->colorTween->set_active(false);
             					}
             				}
             			}
-HXLINE(2255)			{
-HXLINE(2255)				 ::Dynamic tween = this->modchartTweens->iterator();
-HXDLIN(2255)				while(( (bool)(tween->__Field(HX_("hasNext",6d,a5,46,18),::hx::paccDynamic)()) )){
-HXLINE(2255)					 ::flixel::tweens::FlxTween tween1 = ( ( ::flixel::tweens::FlxTween)(tween->__Field(HX_("next",f3,84,02,49),::hx::paccDynamic)()) );
-HXLINE(2256)					tween1->set_active(false);
+HXLINE(2311)			{
+HXLINE(2311)				 ::Dynamic tween = this->modchartTweens->iterator();
+HXDLIN(2311)				while(( (bool)(tween->__Field(HX_("hasNext",6d,a5,46,18),::hx::paccDynamic)()) )){
+HXLINE(2311)					 ::flixel::tweens::FlxTween tween1 = ( ( ::flixel::tweens::FlxTween)(tween->__Field(HX_("next",f3,84,02,49),::hx::paccDynamic)()) );
+HXLINE(2312)					tween1->set_active(false);
             				}
             			}
-HXLINE(2258)			{
-HXLINE(2258)				 ::Dynamic timer = this->modchartTimers->iterator();
-HXDLIN(2258)				while(( (bool)(timer->__Field(HX_("hasNext",6d,a5,46,18),::hx::paccDynamic)()) )){
-HXLINE(2258)					 ::flixel::util::FlxTimer timer1 = ( ( ::flixel::util::FlxTimer)(timer->__Field(HX_("next",f3,84,02,49),::hx::paccDynamic)()) );
-HXLINE(2259)					timer1->active = false;
+HXLINE(2314)			{
+HXLINE(2314)				 ::Dynamic timer = this->modchartTimers->iterator();
+HXDLIN(2314)				while(( (bool)(timer->__Field(HX_("hasNext",6d,a5,46,18),::hx::paccDynamic)()) )){
+HXLINE(2314)					 ::flixel::util::FlxTimer timer1 = ( ( ::flixel::util::FlxTimer)(timer->__Field(HX_("next",f3,84,02,49),::hx::paccDynamic)()) );
+HXLINE(2315)					timer1->active = false;
             				}
             			}
             		}
-HXLINE(2263)		this->super::openSubState(SubState);
+HXLINE(2319)		this->super::openSubState(SubState);
             	}
 
 
 void PlayState_obj::closeSubState(){
-            	HX_STACKFRAME(&_hx_pos_af23706db05c7feb_2267_closeSubState)
-HXLINE(2268)		if (this->paused) {
-HXLINE(2270)			bool _hx_tmp;
-HXDLIN(2270)			if (::hx::IsNotNull( ::flixel::FlxG_obj::sound->music )) {
-HXLINE(2270)				_hx_tmp = !(this->startingSong);
+            	HX_STACKFRAME(&_hx_pos_af23706db05c7feb_2323_closeSubState)
+HXLINE(2324)		if (this->paused) {
+HXLINE(2326)			bool _hx_tmp;
+HXDLIN(2326)			if (::hx::IsNotNull( ::flixel::FlxG_obj::sound->music )) {
+HXLINE(2326)				_hx_tmp = !(this->startingSong);
             			}
             			else {
-HXLINE(2270)				_hx_tmp = false;
+HXLINE(2326)				_hx_tmp = false;
             			}
-HXDLIN(2270)			if (_hx_tmp) {
-HXLINE(2272)				this->resyncVocals();
+HXDLIN(2326)			if (_hx_tmp) {
+HXLINE(2328)				this->resyncVocals();
             			}
-HXLINE(2275)			bool _hx_tmp1;
-HXDLIN(2275)			if (::hx::IsNotNull( this->startTimer )) {
-HXLINE(2275)				_hx_tmp1 = !(this->startTimer->finished);
-            			}
-            			else {
-HXLINE(2275)				_hx_tmp1 = false;
-            			}
-HXDLIN(2275)			if (_hx_tmp1) {
-HXLINE(2276)				this->startTimer->active = true;
-            			}
-HXLINE(2277)			bool _hx_tmp2;
-HXDLIN(2277)			if (::hx::IsNotNull( this->finishTimer )) {
-HXLINE(2277)				_hx_tmp2 = !(this->finishTimer->finished);
+HXLINE(2331)			bool _hx_tmp1;
+HXDLIN(2331)			if (::hx::IsNotNull( this->startTimer )) {
+HXLINE(2331)				_hx_tmp1 = !(this->startTimer->finished);
             			}
             			else {
-HXLINE(2277)				_hx_tmp2 = false;
+HXLINE(2331)				_hx_tmp1 = false;
             			}
-HXDLIN(2277)			if (_hx_tmp2) {
-HXLINE(2278)				this->finishTimer->active = true;
+HXDLIN(2331)			if (_hx_tmp1) {
+HXLINE(2332)				this->startTimer->active = true;
             			}
-HXLINE(2279)			if (::hx::IsNotNull( this->songSpeedTween )) {
-HXLINE(2280)				this->songSpeedTween->set_active(true);
+HXLINE(2333)			bool _hx_tmp2;
+HXDLIN(2333)			if (::hx::IsNotNull( this->finishTimer )) {
+HXLINE(2333)				_hx_tmp2 = !(this->finishTimer->finished);
             			}
-HXLINE(2282)			if (::hx::IsNotNull( this->blammedLightsBlackTween )) {
-HXLINE(2283)				this->blammedLightsBlackTween->set_active(true);
+            			else {
+HXLINE(2333)				_hx_tmp2 = false;
             			}
-HXLINE(2284)			if (::hx::IsNotNull( this->phillyCityLightsEventTween )) {
-HXLINE(2285)				this->phillyCityLightsEventTween->set_active(true);
+HXDLIN(2333)			if (_hx_tmp2) {
+HXLINE(2334)				this->finishTimer->active = true;
             			}
-HXLINE(2287)			if (::hx::IsNotNull( this->carTimer )) {
-HXLINE(2287)				this->carTimer->active = true;
+HXLINE(2335)			if (::hx::IsNotNull( this->songSpeedTween )) {
+HXLINE(2336)				this->songSpeedTween->set_active(true);
             			}
-HXLINE(2289)			::Array< ::Dynamic> chars = ::Array_obj< ::Dynamic>::__new(3)->init(0,this->boyfriend)->init(1,this->gf)->init(2,this->dad);
-HXLINE(2290)			{
-HXLINE(2290)				int _g = 0;
-HXDLIN(2290)				while((_g < chars->length)){
-HXLINE(2290)					 ::Character _hx_char = chars->__get(_g).StaticCast<  ::Character >();
-HXDLIN(2290)					_g = (_g + 1);
-HXLINE(2291)					bool _hx_tmp;
-HXDLIN(2291)					if (::hx::IsNotNull( _hx_char )) {
-HXLINE(2291)						_hx_tmp = ::hx::IsNotNull( _hx_char->colorTween );
+HXLINE(2338)			if (::hx::IsNotNull( this->blammedLightsBlackTween )) {
+HXLINE(2339)				this->blammedLightsBlackTween->set_active(true);
+            			}
+HXLINE(2340)			if (::hx::IsNotNull( this->phillyCityLightsEventTween )) {
+HXLINE(2341)				this->phillyCityLightsEventTween->set_active(true);
+            			}
+HXLINE(2343)			if (::hx::IsNotNull( this->carTimer )) {
+HXLINE(2343)				this->carTimer->active = true;
+            			}
+HXLINE(2345)			::Array< ::Dynamic> chars = ::Array_obj< ::Dynamic>::__new(3)->init(0,this->boyfriend)->init(1,this->gf)->init(2,this->dad);
+HXLINE(2346)			{
+HXLINE(2346)				int _g = 0;
+HXDLIN(2346)				while((_g < chars->length)){
+HXLINE(2346)					 ::Character _hx_char = chars->__get(_g).StaticCast<  ::Character >();
+HXDLIN(2346)					_g = (_g + 1);
+HXLINE(2347)					bool _hx_tmp;
+HXDLIN(2347)					if (::hx::IsNotNull( _hx_char )) {
+HXLINE(2347)						_hx_tmp = ::hx::IsNotNull( _hx_char->colorTween );
             					}
             					else {
-HXLINE(2291)						_hx_tmp = false;
+HXLINE(2347)						_hx_tmp = false;
             					}
-HXDLIN(2291)					if (_hx_tmp) {
-HXLINE(2292)						_hx_char->colorTween->set_active(true);
+HXDLIN(2347)					if (_hx_tmp) {
+HXLINE(2348)						_hx_char->colorTween->set_active(true);
             					}
             				}
             			}
-HXLINE(2296)			{
-HXLINE(2296)				 ::Dynamic tween = this->modchartTweens->iterator();
-HXDLIN(2296)				while(( (bool)(tween->__Field(HX_("hasNext",6d,a5,46,18),::hx::paccDynamic)()) )){
-HXLINE(2296)					 ::flixel::tweens::FlxTween tween1 = ( ( ::flixel::tweens::FlxTween)(tween->__Field(HX_("next",f3,84,02,49),::hx::paccDynamic)()) );
-HXLINE(2297)					tween1->set_active(true);
+HXLINE(2352)			{
+HXLINE(2352)				 ::Dynamic tween = this->modchartTweens->iterator();
+HXDLIN(2352)				while(( (bool)(tween->__Field(HX_("hasNext",6d,a5,46,18),::hx::paccDynamic)()) )){
+HXLINE(2352)					 ::flixel::tweens::FlxTween tween1 = ( ( ::flixel::tweens::FlxTween)(tween->__Field(HX_("next",f3,84,02,49),::hx::paccDynamic)()) );
+HXLINE(2353)					tween1->set_active(true);
             				}
             			}
-HXLINE(2299)			{
-HXLINE(2299)				 ::Dynamic timer = this->modchartTimers->iterator();
-HXDLIN(2299)				while(( (bool)(timer->__Field(HX_("hasNext",6d,a5,46,18),::hx::paccDynamic)()) )){
-HXLINE(2299)					 ::flixel::util::FlxTimer timer1 = ( ( ::flixel::util::FlxTimer)(timer->__Field(HX_("next",f3,84,02,49),::hx::paccDynamic)()) );
-HXLINE(2300)					timer1->active = true;
+HXLINE(2355)			{
+HXLINE(2355)				 ::Dynamic timer = this->modchartTimers->iterator();
+HXDLIN(2355)				while(( (bool)(timer->__Field(HX_("hasNext",6d,a5,46,18),::hx::paccDynamic)()) )){
+HXLINE(2355)					 ::flixel::util::FlxTimer timer1 = ( ( ::flixel::util::FlxTimer)(timer->__Field(HX_("next",f3,84,02,49),::hx::paccDynamic)()) );
+HXLINE(2356)					timer1->active = true;
             				}
             			}
-HXLINE(2302)			this->paused = false;
-HXLINE(2303)			this->callOnLuas(HX_("onResume",2c,60,31,e8),::cpp::VirtualArray_obj::__new(0));
-HXLINE(2306)			bool _hx_tmp3;
-HXDLIN(2306)			if (::hx::IsNotNull( this->startTimer )) {
-HXLINE(2306)				_hx_tmp3 = this->startTimer->finished;
+HXLINE(2358)			this->paused = false;
+HXLINE(2359)			this->callOnLuas(HX_("onResume",2c,60,31,e8),::cpp::VirtualArray_obj::__new(0));
+HXLINE(2362)			bool _hx_tmp3;
+HXDLIN(2362)			if (::hx::IsNotNull( this->startTimer )) {
+HXLINE(2362)				_hx_tmp3 = this->startTimer->finished;
             			}
             			else {
-HXLINE(2306)				_hx_tmp3 = false;
+HXLINE(2362)				_hx_tmp3 = false;
             			}
-HXDLIN(2306)			if (_hx_tmp3) {
-HXLINE(2308)				::String _hx_tmp = this->detailsText;
-HXDLIN(2308)				::String _hx_tmp1 = ( (::String)((((::PlayState_obj::SONG->__Field(HX_("song",d5,23,58,4c),::hx::paccDynamic) + HX_(" (",08,1c,00,00)) + this->storyDifficultyText) + HX_(")",29,00,00,00))) );
-HXDLIN(2308)				::String _hx_tmp2 = this->iconP2->getCharacter();
-HXDLIN(2308)				::DiscordClient_obj::changePresence(_hx_tmp,_hx_tmp1,_hx_tmp2,true,((this->songLength - ::Conductor_obj::songPosition) - ( (Float)(::ClientPrefs_obj::noteOffset) )));
+HXDLIN(2362)			if (_hx_tmp3) {
+HXLINE(2364)				::String _hx_tmp = this->detailsText;
+HXDLIN(2364)				::String _hx_tmp1 = ( (::String)((((::PlayState_obj::SONG->__Field(HX_("song",d5,23,58,4c),::hx::paccDynamic) + HX_(" (",08,1c,00,00)) + this->storyDifficultyText) + HX_(")",29,00,00,00))) );
+HXDLIN(2364)				::String _hx_tmp2 = this->iconP2->getCharacter();
+HXDLIN(2364)				::DiscordClient_obj::changePresence(_hx_tmp,_hx_tmp1,_hx_tmp2,true,((this->songLength - ::Conductor_obj::songPosition) - ( (Float)(::ClientPrefs_obj::noteOffset) )));
             			}
             			else {
-HXLINE(2312)				::String _hx_tmp = this->detailsText;
-HXDLIN(2312)				::String _hx_tmp1 = ( (::String)((((::PlayState_obj::SONG->__Field(HX_("song",d5,23,58,4c),::hx::paccDynamic) + HX_(" (",08,1c,00,00)) + this->storyDifficultyText) + HX_(")",29,00,00,00))) );
-HXDLIN(2312)				::DiscordClient_obj::changePresence(_hx_tmp,_hx_tmp1,this->iconP2->getCharacter(),null(),null());
+HXLINE(2368)				::String _hx_tmp = this->detailsText;
+HXDLIN(2368)				::String _hx_tmp1 = ( (::String)((((::PlayState_obj::SONG->__Field(HX_("song",d5,23,58,4c),::hx::paccDynamic) + HX_(" (",08,1c,00,00)) + this->storyDifficultyText) + HX_(")",29,00,00,00))) );
+HXDLIN(2368)				::DiscordClient_obj::changePresence(_hx_tmp,_hx_tmp1,this->iconP2->getCharacter(),null(),null());
             			}
             		}
-HXLINE(2317)		this->super::closeSubState();
+HXLINE(2373)		this->super::closeSubState();
             	}
 
 
 void PlayState_obj::onFocus(){
-            	HX_STACKFRAME(&_hx_pos_af23706db05c7feb_2321_onFocus)
-HXLINE(2323)		bool _hx_tmp;
-HXDLIN(2323)		if ((this->health > 0)) {
-HXLINE(2323)			_hx_tmp = !(this->paused);
+            	HX_STACKFRAME(&_hx_pos_af23706db05c7feb_2377_onFocus)
+HXLINE(2379)		bool _hx_tmp;
+HXDLIN(2379)		if ((this->health > 0)) {
+HXLINE(2379)			_hx_tmp = !(this->paused);
             		}
             		else {
-HXLINE(2323)			_hx_tmp = false;
+HXLINE(2379)			_hx_tmp = false;
             		}
-HXDLIN(2323)		if (_hx_tmp) {
-HXLINE(2325)			if ((::Conductor_obj::songPosition > ((Float)0.0))) {
-HXLINE(2327)				::String _hx_tmp = this->detailsText;
-HXDLIN(2327)				::String _hx_tmp1 = ( (::String)((((::PlayState_obj::SONG->__Field(HX_("song",d5,23,58,4c),::hx::paccDynamic) + HX_(" (",08,1c,00,00)) + this->storyDifficultyText) + HX_(")",29,00,00,00))) );
-HXDLIN(2327)				::String _hx_tmp2 = this->iconP2->getCharacter();
-HXDLIN(2327)				::DiscordClient_obj::changePresence(_hx_tmp,_hx_tmp1,_hx_tmp2,true,((this->songLength - ::Conductor_obj::songPosition) - ( (Float)(::ClientPrefs_obj::noteOffset) )));
+HXDLIN(2379)		if (_hx_tmp) {
+HXLINE(2381)			if ((::Conductor_obj::songPosition > ((Float)0.0))) {
+HXLINE(2383)				::String _hx_tmp = this->detailsText;
+HXDLIN(2383)				::String _hx_tmp1 = ( (::String)((((::PlayState_obj::SONG->__Field(HX_("song",d5,23,58,4c),::hx::paccDynamic) + HX_(" (",08,1c,00,00)) + this->storyDifficultyText) + HX_(")",29,00,00,00))) );
+HXDLIN(2383)				::String _hx_tmp2 = this->iconP2->getCharacter();
+HXDLIN(2383)				::DiscordClient_obj::changePresence(_hx_tmp,_hx_tmp1,_hx_tmp2,true,((this->songLength - ::Conductor_obj::songPosition) - ( (Float)(::ClientPrefs_obj::noteOffset) )));
             			}
             			else {
-HXLINE(2331)				::String _hx_tmp = this->detailsText;
-HXDLIN(2331)				::String _hx_tmp1 = ( (::String)((((::PlayState_obj::SONG->__Field(HX_("song",d5,23,58,4c),::hx::paccDynamic) + HX_(" (",08,1c,00,00)) + this->storyDifficultyText) + HX_(")",29,00,00,00))) );
-HXDLIN(2331)				::DiscordClient_obj::changePresence(_hx_tmp,_hx_tmp1,this->iconP2->getCharacter(),null(),null());
+HXLINE(2387)				::String _hx_tmp = this->detailsText;
+HXDLIN(2387)				::String _hx_tmp1 = ( (::String)((((::PlayState_obj::SONG->__Field(HX_("song",d5,23,58,4c),::hx::paccDynamic) + HX_(" (",08,1c,00,00)) + this->storyDifficultyText) + HX_(")",29,00,00,00))) );
+HXDLIN(2387)				::DiscordClient_obj::changePresence(_hx_tmp,_hx_tmp1,this->iconP2->getCharacter(),null(),null());
             			}
             		}
-HXLINE(2336)		this->super::onFocus();
+HXLINE(2392)		this->super::onFocus();
             	}
 
 
 void PlayState_obj::onFocusLost(){
-            	HX_STACKFRAME(&_hx_pos_af23706db05c7feb_2340_onFocusLost)
-HXLINE(2342)		bool _hx_tmp;
-HXDLIN(2342)		if ((this->health > 0)) {
-HXLINE(2342)			_hx_tmp = !(this->paused);
+            	HX_STACKFRAME(&_hx_pos_af23706db05c7feb_2396_onFocusLost)
+HXLINE(2398)		bool _hx_tmp;
+HXDLIN(2398)		if ((this->health > 0)) {
+HXLINE(2398)			_hx_tmp = !(this->paused);
             		}
             		else {
-HXLINE(2342)			_hx_tmp = false;
+HXLINE(2398)			_hx_tmp = false;
             		}
-HXDLIN(2342)		if (_hx_tmp) {
-HXLINE(2344)			::String _hx_tmp = this->detailsPausedText;
-HXDLIN(2344)			::String _hx_tmp1 = ( (::String)((((::PlayState_obj::SONG->__Field(HX_("song",d5,23,58,4c),::hx::paccDynamic) + HX_(" (",08,1c,00,00)) + this->storyDifficultyText) + HX_(")",29,00,00,00))) );
-HXDLIN(2344)			::DiscordClient_obj::changePresence(_hx_tmp,_hx_tmp1,this->iconP2->getCharacter(),null(),null());
+HXDLIN(2398)		if (_hx_tmp) {
+HXLINE(2400)			::String _hx_tmp = this->detailsPausedText;
+HXDLIN(2400)			::String _hx_tmp1 = ( (::String)((((::PlayState_obj::SONG->__Field(HX_("song",d5,23,58,4c),::hx::paccDynamic) + HX_(" (",08,1c,00,00)) + this->storyDifficultyText) + HX_(")",29,00,00,00))) );
+HXDLIN(2400)			::DiscordClient_obj::changePresence(_hx_tmp,_hx_tmp1,this->iconP2->getCharacter(),null(),null());
             		}
-HXLINE(2348)		this->super::onFocusLost();
+HXLINE(2404)		this->super::onFocusLost();
             	}
 
 
 void PlayState_obj::resyncVocals(){
-            	HX_STACKFRAME(&_hx_pos_af23706db05c7feb_2352_resyncVocals)
-HXLINE(2353)		if (::hx::IsNotNull( this->finishTimer )) {
-HXLINE(2353)			return;
+            	HX_STACKFRAME(&_hx_pos_af23706db05c7feb_2408_resyncVocals)
+HXLINE(2409)		if (::hx::IsNotNull( this->finishTimer )) {
+HXLINE(2409)			return;
             		}
-HXLINE(2355)		this->vocals->pause();
-HXLINE(2357)		::flixel::FlxG_obj::sound->music->play(null(),null(),null());
-HXLINE(2358)		::Conductor_obj::songPosition = ::flixel::FlxG_obj::sound->music->_time;
-HXLINE(2359)		this->vocals->set_time(::Conductor_obj::songPosition);
-HXLINE(2360)		this->vocals->play(null(),null(),null());
+HXLINE(2411)		this->vocals->pause();
+HXLINE(2413)		::flixel::FlxG_obj::sound->music->play(null(),null(),null());
+HXLINE(2414)		::Conductor_obj::songPosition = ::flixel::FlxG_obj::sound->music->_time;
+HXLINE(2415)		this->vocals->set_time(::Conductor_obj::songPosition);
+HXLINE(2416)		this->vocals->play(null(),null(),null());
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(PlayState_obj,resyncVocals,(void))
 
 void PlayState_obj::update(Float elapsed){
-            	HX_GC_STACKFRAME(&_hx_pos_af23706db05c7feb_2369_update)
-HXLINE(2368)		 ::PlayState _gthis = ::hx::ObjectPtr<OBJ_>(this);
-HXLINE(2379)		if (this->isStabbing) {
-HXLINE(2381)			if (::StringTools_obj::startsWith(this->dad->animation->_curAnim->name,HX_("stab",c2,e3,5b,4c))) {
-HXLINE(2383)				int steb = this->dad->animation->_curAnim->curFrame;
-HXLINE(2384)				switch((int)(steb)){
+            	HX_GC_STACKFRAME(&_hx_pos_af23706db05c7feb_2425_update)
+HXLINE(2424)		 ::PlayState _gthis = ::hx::ObjectPtr<OBJ_>(this);
+HXLINE(2435)		if (this->isStabbing) {
+HXLINE(2437)			if (::StringTools_obj::startsWith(this->dad->animation->_curAnim->name,HX_("stab",c2,e3,5b,4c))) {
+HXLINE(2439)				int steb = this->dad->animation->_curAnim->curFrame;
+HXLINE(2440)				switch((int)(steb)){
             					case (int)2: {
-HXLINE(2387)						bool _hx_tmp = this->missedStab;
+HXLINE(2443)						bool _hx_tmp = this->missedStab;
             					}
             					break;
             					case (int)4: {
-HXLINE(2400)						this->isStabbing = false;
-HXLINE(2401)						this->missedStab = false;
+HXLINE(2456)						this->isStabbing = false;
+HXLINE(2457)						this->missedStab = false;
             					}
             					break;
             					case (int)7: {
-HXLINE(2404)						this->stabcounter = 1;
+HXLINE(2460)						this->stabcounter = 1;
             					}
             					break;
             					default:{
@@ -3707,720 +3764,720 @@ HXLINE(2404)						this->stabcounter = 1;
             				}
             			}
             		}
-HXLINE(2411)		this->callOnLuas(HX_("onUpdate",88,7c,b2,66),::cpp::VirtualArray_obj::__new(1)->init(0,elapsed));
-HXLINE(2413)		::String _hx_switch_0 = ::PlayState_obj::curStage;
+HXLINE(2467)		this->callOnLuas(HX_("onUpdate",88,7c,b2,66),::cpp::VirtualArray_obj::__new(1)->init(0,elapsed));
+HXLINE(2469)		::String _hx_switch_0 = ::PlayState_obj::curStage;
             		if (  (_hx_switch_0==HX_("liminalHell",3d,fa,dc,88)) ){
-HXLINE(2525)			bool _hx_tmp = (this->curBeat == 288);
-HXDLIN(2525)			goto _hx_goto_112;
+HXLINE(2581)			bool _hx_tmp = (this->curBeat == 288);
+HXDLIN(2581)			goto _hx_goto_112;
             		}
             		if (  (_hx_switch_0==HX_("limo",1f,17,b3,47)) ){
-HXLINE(2432)			if (!(::ClientPrefs_obj::lowQuality)) {
+HXLINE(2488)			if (!(::ClientPrefs_obj::lowQuality)) {
             				HX_BEGIN_LOCAL_FUNC_S1(::hx::LocalFunc,_hx_Closure_0, ::PlayState,_gthis) HXARGC(1)
             				void _hx_run( ::BGSprite spr){
-            					HX_STACKFRAME(&_hx_pos_af23706db05c7feb_2434_update)
-HXLINE(2434)					if (spr->animation->_curAnim->finished) {
-HXLINE(2435)						spr->kill();
-HXLINE(2436)						_gthis->grpLimoParticles->remove(spr,true).StaticCast<  ::BGSprite >();
-HXLINE(2437)						spr->destroy();
+            					HX_STACKFRAME(&_hx_pos_af23706db05c7feb_2490_update)
+HXLINE(2490)					if (spr->animation->_curAnim->finished) {
+HXLINE(2491)						spr->kill();
+HXLINE(2492)						_gthis->grpLimoParticles->remove(spr,true).StaticCast<  ::BGSprite >();
+HXLINE(2493)						spr->destroy();
             					}
             				}
             				HX_END_LOCAL_FUNC1((void))
 
-HXLINE(2433)				this->grpLimoParticles->forEach( ::Dynamic(new _hx_Closure_0(_gthis)),null());
-HXLINE(2441)				switch((int)(this->limoKillingState)){
+HXLINE(2489)				this->grpLimoParticles->forEach( ::Dynamic(new _hx_Closure_0(_gthis)),null());
+HXLINE(2497)				switch((int)(this->limoKillingState)){
             					case (int)1: {
-HXLINE(2443)						{
-HXLINE(2443)							 ::BGSprite _g = this->limoMetalPole;
-HXDLIN(2443)							_g->set_x((_g->x + (( (Float)(5000) ) * elapsed)));
+HXLINE(2499)						{
+HXLINE(2499)							 ::BGSprite _g = this->limoMetalPole;
+HXDLIN(2499)							_g->set_x((_g->x + (( (Float)(5000) ) * elapsed)));
             						}
-HXLINE(2444)						this->limoLight->set_x((this->limoMetalPole->x - ( (Float)(180) )));
-HXLINE(2445)						this->limoCorpse->set_x((this->limoLight->x - ( (Float)(50) )));
-HXLINE(2446)						this->limoCorpseTwo->set_x((this->limoLight->x + 35));
-HXLINE(2448)						::Array< ::Dynamic> dancers = this->grpLimoDancers->members;
-HXLINE(2449)						{
-HXLINE(2449)							int _g1 = 0;
-HXDLIN(2449)							int _g2 = dancers->length;
-HXDLIN(2449)							while((_g1 < _g2)){
-HXLINE(2449)								_g1 = (_g1 + 1);
-HXDLIN(2449)								int i = (_g1 - 1);
-HXLINE(2450)								bool _hx_tmp;
-HXDLIN(2450)								if ((dancers->__get(i).StaticCast<  ::BackgroundDancer >()->x < (( (Float)(::flixel::FlxG_obj::width) ) * ((Float)1.5)))) {
-HXLINE(2450)									_hx_tmp = (this->limoLight->x > ((370 * i) + 130));
+HXLINE(2500)						this->limoLight->set_x((this->limoMetalPole->x - ( (Float)(180) )));
+HXLINE(2501)						this->limoCorpse->set_x((this->limoLight->x - ( (Float)(50) )));
+HXLINE(2502)						this->limoCorpseTwo->set_x((this->limoLight->x + 35));
+HXLINE(2504)						::Array< ::Dynamic> dancers = this->grpLimoDancers->members;
+HXLINE(2505)						{
+HXLINE(2505)							int _g1 = 0;
+HXDLIN(2505)							int _g2 = dancers->length;
+HXDLIN(2505)							while((_g1 < _g2)){
+HXLINE(2505)								_g1 = (_g1 + 1);
+HXDLIN(2505)								int i = (_g1 - 1);
+HXLINE(2506)								bool _hx_tmp;
+HXDLIN(2506)								if ((dancers->__get(i).StaticCast<  ::BackgroundDancer >()->x < (( (Float)(::flixel::FlxG_obj::width) ) * ((Float)1.5)))) {
+HXLINE(2506)									_hx_tmp = (this->limoLight->x > ((370 * i) + 130));
             								}
             								else {
-HXLINE(2450)									_hx_tmp = false;
+HXLINE(2506)									_hx_tmp = false;
             								}
-HXDLIN(2450)								if (_hx_tmp) {
-HXLINE(2451)									switch((int)(i)){
+HXDLIN(2506)								if (_hx_tmp) {
+HXLINE(2507)									switch((int)(i)){
             										case (int)1: {
-HXLINE(2468)											this->limoCorpse->set_visible(true);
+HXLINE(2524)											this->limoCorpse->set_visible(true);
             										}
             										break;
             										case (int)2: {
-HXLINE(2470)											this->limoCorpseTwo->set_visible(true);
+HXLINE(2526)											this->limoCorpseTwo->set_visible(true);
             										}
             										break;
             										case (int)0: case (int)3: {
-HXLINE(2453)											if ((i == 0)) {
-HXLINE(2453)												 ::flixel::_hx_system::frontEnds::SoundFrontEnd _hx_tmp = ::flixel::FlxG_obj::sound;
-HXDLIN(2453)												_hx_tmp->play(::Paths_obj::sound(HX_("dancerdeath",f5,1c,1c,c9),null()),((Float)0.5),null(),null(),null(),null());
+HXLINE(2509)											if ((i == 0)) {
+HXLINE(2509)												 ::flixel::_hx_system::frontEnds::SoundFrontEnd _hx_tmp = ::flixel::FlxG_obj::sound;
+HXDLIN(2509)												_hx_tmp->play(::Paths_obj::sound(HX_("dancerdeath",f5,1c,1c,c9),null()),((Float)0.5),null(),null(),null(),null());
             											}
-HXLINE(2455)											::String diffStr;
-HXDLIN(2455)											if ((i == 3)) {
-HXLINE(2455)												diffStr = HX_(" 2 ",ce,73,18,00);
+HXLINE(2511)											::String diffStr;
+HXDLIN(2511)											if ((i == 3)) {
+HXLINE(2511)												diffStr = HX_(" 2 ",ce,73,18,00);
             											}
             											else {
-HXLINE(2455)												diffStr = HX_(" ",20,00,00,00);
+HXLINE(2511)												diffStr = HX_(" ",20,00,00,00);
             											}
-HXLINE(2456)											 ::BGSprite particle =  ::BGSprite_obj::__alloc( HX_CTX ,HX_("gore/noooooo",da,20,24,22),(dancers->__get(i).StaticCast<  ::BackgroundDancer >()->x + 200),dancers->__get(i).StaticCast<  ::BackgroundDancer >()->y,((Float)0.4),((Float)0.4),::Array_obj< ::String >::__new(1)->init(0,((HX_("hench leg spin",fe,64,3b,9f) + diffStr) + HX_("PINK",76,ba,18,35))),false);
-HXLINE(2457)											this->grpLimoParticles->add(particle).StaticCast<  ::BGSprite >();
-HXLINE(2458)											 ::BGSprite particle1 =  ::BGSprite_obj::__alloc( HX_CTX ,HX_("gore/noooooo",da,20,24,22),(dancers->__get(i).StaticCast<  ::BackgroundDancer >()->x + 160),(dancers->__get(i).StaticCast<  ::BackgroundDancer >()->y + 200),((Float)0.4),((Float)0.4),::Array_obj< ::String >::__new(1)->init(0,((HX_("hench arm spin",b0,af,cb,ac) + diffStr) + HX_("PINK",76,ba,18,35))),false);
-HXLINE(2459)											this->grpLimoParticles->add(particle1).StaticCast<  ::BGSprite >();
-HXLINE(2460)											 ::BGSprite particle2 =  ::BGSprite_obj::__alloc( HX_CTX ,HX_("gore/noooooo",da,20,24,22),dancers->__get(i).StaticCast<  ::BackgroundDancer >()->x,(dancers->__get(i).StaticCast<  ::BackgroundDancer >()->y + 50),((Float)0.4),((Float)0.4),::Array_obj< ::String >::__new(1)->init(0,((HX_("hench head spin",d8,df,79,d7) + diffStr) + HX_("PINK",76,ba,18,35))),false);
-HXLINE(2461)											this->grpLimoParticles->add(particle2).StaticCast<  ::BGSprite >();
-HXLINE(2463)											 ::BGSprite particle3 =  ::BGSprite_obj::__alloc( HX_CTX ,HX_("gore/stupidBlood",af,b8,f7,cb),(dancers->__get(i).StaticCast<  ::BackgroundDancer >()->x - ( (Float)(110) )),(dancers->__get(i).StaticCast<  ::BackgroundDancer >()->y + 20),((Float)0.4),((Float)0.4),::Array_obj< ::String >::fromData( _hx_array_data_46c2835d_118,1),false);
-HXLINE(2464)											particle3->set_flipX(true);
-HXLINE(2465)											particle3->set_angle(((Float)-57.5));
-HXLINE(2466)											this->grpLimoParticles->add(particle3).StaticCast<  ::BGSprite >();
+HXLINE(2512)											 ::BGSprite particle =  ::BGSprite_obj::__alloc( HX_CTX ,HX_("gore/noooooo",da,20,24,22),(dancers->__get(i).StaticCast<  ::BackgroundDancer >()->x + 200),dancers->__get(i).StaticCast<  ::BackgroundDancer >()->y,((Float)0.4),((Float)0.4),::Array_obj< ::String >::__new(1)->init(0,((HX_("hench leg spin",fe,64,3b,9f) + diffStr) + HX_("PINK",76,ba,18,35))),false);
+HXLINE(2513)											this->grpLimoParticles->add(particle).StaticCast<  ::BGSprite >();
+HXLINE(2514)											 ::BGSprite particle1 =  ::BGSprite_obj::__alloc( HX_CTX ,HX_("gore/noooooo",da,20,24,22),(dancers->__get(i).StaticCast<  ::BackgroundDancer >()->x + 160),(dancers->__get(i).StaticCast<  ::BackgroundDancer >()->y + 200),((Float)0.4),((Float)0.4),::Array_obj< ::String >::__new(1)->init(0,((HX_("hench arm spin",b0,af,cb,ac) + diffStr) + HX_("PINK",76,ba,18,35))),false);
+HXLINE(2515)											this->grpLimoParticles->add(particle1).StaticCast<  ::BGSprite >();
+HXLINE(2516)											 ::BGSprite particle2 =  ::BGSprite_obj::__alloc( HX_CTX ,HX_("gore/noooooo",da,20,24,22),dancers->__get(i).StaticCast<  ::BackgroundDancer >()->x,(dancers->__get(i).StaticCast<  ::BackgroundDancer >()->y + 50),((Float)0.4),((Float)0.4),::Array_obj< ::String >::__new(1)->init(0,((HX_("hench head spin",d8,df,79,d7) + diffStr) + HX_("PINK",76,ba,18,35))),false);
+HXLINE(2517)											this->grpLimoParticles->add(particle2).StaticCast<  ::BGSprite >();
+HXLINE(2519)											 ::BGSprite particle3 =  ::BGSprite_obj::__alloc( HX_CTX ,HX_("gore/stupidBlood",af,b8,f7,cb),(dancers->__get(i).StaticCast<  ::BackgroundDancer >()->x - ( (Float)(110) )),(dancers->__get(i).StaticCast<  ::BackgroundDancer >()->y + 20),((Float)0.4),((Float)0.4),::Array_obj< ::String >::fromData( _hx_array_data_46c2835d_118,1),false);
+HXLINE(2520)											particle3->set_flipX(true);
+HXLINE(2521)											particle3->set_angle(((Float)-57.5));
+HXLINE(2522)											this->grpLimoParticles->add(particle3).StaticCast<  ::BGSprite >();
             										}
             										break;
             									}
-HXLINE(2472)									{
-HXLINE(2472)										 ::BackgroundDancer _g = dancers->__get(i).StaticCast<  ::BackgroundDancer >();
-HXDLIN(2472)										_g->set_x((_g->x + (::flixel::FlxG_obj::width * 2)));
+HXLINE(2528)									{
+HXLINE(2528)										 ::BackgroundDancer _g = dancers->__get(i).StaticCast<  ::BackgroundDancer >();
+HXDLIN(2528)										_g->set_x((_g->x + (::flixel::FlxG_obj::width * 2)));
             									}
             								}
             							}
             						}
-HXLINE(2476)						if ((this->limoMetalPole->x > (::flixel::FlxG_obj::width * 2))) {
-HXLINE(2477)							this->resetLimoKill();
-HXLINE(2478)							this->limoSpeed = ( (Float)(800) );
-HXLINE(2479)							this->limoKillingState = 2;
+HXLINE(2532)						if ((this->limoMetalPole->x > (::flixel::FlxG_obj::width * 2))) {
+HXLINE(2533)							this->resetLimoKill();
+HXLINE(2534)							this->limoSpeed = ( (Float)(800) );
+HXLINE(2535)							this->limoKillingState = 2;
             						}
             					}
             					break;
             					case (int)2: {
-HXLINE(2483)						 ::PlayState _hx_tmp = ::hx::ObjectPtr<OBJ_>(this);
-HXDLIN(2483)						_hx_tmp->limoSpeed = (_hx_tmp->limoSpeed - (( (Float)(4000) ) * elapsed));
-HXLINE(2484)						{
-HXLINE(2484)							 ::BGSprite _g = this->bgLimo;
-HXDLIN(2484)							_g->set_x((_g->x - (this->limoSpeed * elapsed)));
+HXLINE(2539)						 ::PlayState _hx_tmp = ::hx::ObjectPtr<OBJ_>(this);
+HXDLIN(2539)						_hx_tmp->limoSpeed = (_hx_tmp->limoSpeed - (( (Float)(4000) ) * elapsed));
+HXLINE(2540)						{
+HXLINE(2540)							 ::BGSprite _g = this->bgLimo;
+HXDLIN(2540)							_g->set_x((_g->x - (this->limoSpeed * elapsed)));
             						}
-HXLINE(2485)						if ((this->bgLimo->x > (( (Float)(::flixel::FlxG_obj::width) ) * ((Float)1.5)))) {
-HXLINE(2486)							this->limoSpeed = ( (Float)(3000) );
-HXLINE(2487)							this->limoKillingState = 3;
+HXLINE(2541)						if ((this->bgLimo->x > (( (Float)(::flixel::FlxG_obj::width) ) * ((Float)1.5)))) {
+HXLINE(2542)							this->limoSpeed = ( (Float)(3000) );
+HXLINE(2543)							this->limoKillingState = 3;
             						}
             					}
             					break;
             					case (int)3: {
-HXLINE(2491)						 ::PlayState _hx_tmp = ::hx::ObjectPtr<OBJ_>(this);
-HXDLIN(2491)						_hx_tmp->limoSpeed = (_hx_tmp->limoSpeed - (( (Float)(2000) ) * elapsed));
-HXLINE(2492)						if ((this->limoSpeed < 1000)) {
-HXLINE(2492)							this->limoSpeed = ( (Float)(1000) );
+HXLINE(2547)						 ::PlayState _hx_tmp = ::hx::ObjectPtr<OBJ_>(this);
+HXDLIN(2547)						_hx_tmp->limoSpeed = (_hx_tmp->limoSpeed - (( (Float)(2000) ) * elapsed));
+HXLINE(2548)						if ((this->limoSpeed < 1000)) {
+HXLINE(2548)							this->limoSpeed = ( (Float)(1000) );
             						}
-HXLINE(2494)						{
-HXLINE(2494)							 ::BGSprite _g = this->bgLimo;
-HXDLIN(2494)							_g->set_x((_g->x - (this->limoSpeed * elapsed)));
+HXLINE(2550)						{
+HXLINE(2550)							 ::BGSprite _g = this->bgLimo;
+HXDLIN(2550)							_g->set_x((_g->x - (this->limoSpeed * elapsed)));
             						}
-HXLINE(2495)						if ((this->bgLimo->x < -275)) {
-HXLINE(2496)							this->limoKillingState = 4;
-HXLINE(2497)							this->limoSpeed = ( (Float)(800) );
+HXLINE(2551)						if ((this->bgLimo->x < -275)) {
+HXLINE(2552)							this->limoKillingState = 4;
+HXLINE(2553)							this->limoSpeed = ( (Float)(800) );
             						}
             					}
             					break;
             					case (int)4: {
-HXLINE(2501)						Float a = this->bgLimo->x;
-HXDLIN(2501)						this->bgLimo->set_x((a + (::Math_obj::max(( (Float)(0) ),::Math_obj::min(( (Float)(1) ),(elapsed * ( (Float)(9) )))) * (( (Float)(-150) ) - a))));
-HXLINE(2502)						if ((::Math_obj::round(this->bgLimo->x) == -150)) {
-HXLINE(2503)							this->bgLimo->set_x(( (Float)(-150) ));
-HXLINE(2504)							this->limoKillingState = 0;
+HXLINE(2557)						Float a = this->bgLimo->x;
+HXDLIN(2557)						this->bgLimo->set_x((a + (::Math_obj::max(( (Float)(0) ),::Math_obj::min(( (Float)(1) ),(elapsed * ( (Float)(9) )))) * (( (Float)(-150) ) - a))));
+HXLINE(2558)						if ((::Math_obj::round(this->bgLimo->x) == -150)) {
+HXLINE(2559)							this->bgLimo->set_x(( (Float)(-150) ));
+HXLINE(2560)							this->limoKillingState = 0;
             						}
             					}
             					break;
             				}
-HXLINE(2508)				if ((this->limoKillingState > 2)) {
-HXLINE(2509)					::Array< ::Dynamic> dancers = this->grpLimoDancers->members;
-HXLINE(2510)					{
-HXLINE(2510)						int _g = 0;
-HXDLIN(2510)						int _g1 = dancers->length;
-HXDLIN(2510)						while((_g < _g1)){
-HXLINE(2510)							_g = (_g + 1);
-HXDLIN(2510)							int i = (_g - 1);
-HXLINE(2511)							dancers->__get(i).StaticCast<  ::BackgroundDancer >()->set_x((((370 * i) + this->bgLimo->x) + 280));
+HXLINE(2564)				if ((this->limoKillingState > 2)) {
+HXLINE(2565)					::Array< ::Dynamic> dancers = this->grpLimoDancers->members;
+HXLINE(2566)					{
+HXLINE(2566)						int _g = 0;
+HXDLIN(2566)						int _g1 = dancers->length;
+HXDLIN(2566)						while((_g < _g1)){
+HXLINE(2566)							_g = (_g + 1);
+HXDLIN(2566)							int i = (_g - 1);
+HXLINE(2567)							dancers->__get(i).StaticCast<  ::BackgroundDancer >()->set_x((((370 * i) + this->bgLimo->x) + 280));
             						}
             					}
             				}
             			}
-HXLINE(2432)			goto _hx_goto_112;
+HXLINE(2488)			goto _hx_goto_112;
             		}
             		if (  (_hx_switch_0==HX_("mall",d4,3a,56,48)) ){
-HXLINE(2516)			if ((this->heyTimer > 0)) {
-HXLINE(2517)				 ::PlayState _hx_tmp = ::hx::ObjectPtr<OBJ_>(this);
-HXDLIN(2517)				_hx_tmp->heyTimer = (_hx_tmp->heyTimer - elapsed);
-HXLINE(2518)				if ((this->heyTimer <= 0)) {
-HXLINE(2519)					this->bottomBoppers->dance(true);
-HXLINE(2520)					this->heyTimer = ( (Float)(0) );
+HXLINE(2572)			if ((this->heyTimer > 0)) {
+HXLINE(2573)				 ::PlayState _hx_tmp = ::hx::ObjectPtr<OBJ_>(this);
+HXDLIN(2573)				_hx_tmp->heyTimer = (_hx_tmp->heyTimer - elapsed);
+HXLINE(2574)				if ((this->heyTimer <= 0)) {
+HXLINE(2575)					this->bottomBoppers->dance(true);
+HXLINE(2576)					this->heyTimer = ( (Float)(0) );
             				}
             			}
-HXLINE(2516)			goto _hx_goto_112;
+HXLINE(2572)			goto _hx_goto_112;
             		}
             		if (  (_hx_switch_0==HX_("philly",28,77,5e,ef)) ){
-HXLINE(2420)			if (this->trainMoving) {
-HXLINE(2422)				 ::PlayState _hx_tmp = ::hx::ObjectPtr<OBJ_>(this);
-HXDLIN(2422)				_hx_tmp->trainFrameTiming = (_hx_tmp->trainFrameTiming + elapsed);
-HXLINE(2424)				if ((this->trainFrameTiming >= ((Float)0.041666666666666664))) {
-HXLINE(2426)					this->updateTrainPos();
-HXLINE(2427)					this->trainFrameTiming = ( (Float)(0) );
+HXLINE(2476)			if (this->trainMoving) {
+HXLINE(2478)				 ::PlayState _hx_tmp = ::hx::ObjectPtr<OBJ_>(this);
+HXDLIN(2478)				_hx_tmp->trainFrameTiming = (_hx_tmp->trainFrameTiming + elapsed);
+HXLINE(2480)				if ((this->trainFrameTiming >= ((Float)0.041666666666666664))) {
+HXLINE(2482)					this->updateTrainPos();
+HXLINE(2483)					this->trainFrameTiming = ( (Float)(0) );
             				}
             			}
-HXLINE(2430)			{
-HXLINE(2430)				 ::BGSprite _g = Dynamic( this->phillyCityLights->members->__get(this->curLight)).StaticCast<  ::BGSprite >();
-HXDLIN(2430)				_g->set_alpha((_g->alpha - (((::Conductor_obj::crochet / ( (Float)(1000) )) * ::flixel::FlxG_obj::elapsed) * ((Float)1.5))));
+HXLINE(2486)			{
+HXLINE(2486)				 ::BGSprite _g = Dynamic( this->phillyCityLights->members->__get(this->curLight)).StaticCast<  ::BGSprite >();
+HXDLIN(2486)				_g->set_alpha((_g->alpha - (((::Conductor_obj::crochet / ( (Float)(1000) )) * ::flixel::FlxG_obj::elapsed) * ((Float)1.5))));
             			}
-HXLINE(2419)			goto _hx_goto_112;
+HXLINE(2475)			goto _hx_goto_112;
             		}
             		if (  (_hx_switch_0==HX_("schoolEvil",28,a1,f5,f7)) ){
-HXLINE(2416)			bool _hx_tmp;
-HXDLIN(2416)			if (!(::ClientPrefs_obj::lowQuality)) {
-HXLINE(2416)				_hx_tmp = this->bgGhouls->animation->_curAnim->finished;
+HXLINE(2472)			bool _hx_tmp;
+HXDLIN(2472)			if (!(::ClientPrefs_obj::lowQuality)) {
+HXLINE(2472)				_hx_tmp = this->bgGhouls->animation->_curAnim->finished;
             			}
             			else {
-HXLINE(2416)				_hx_tmp = false;
+HXLINE(2472)				_hx_tmp = false;
             			}
-HXDLIN(2416)			if (_hx_tmp) {
-HXLINE(2417)				this->bgGhouls->set_visible(false);
+HXDLIN(2472)			if (_hx_tmp) {
+HXLINE(2473)				this->bgGhouls->set_visible(false);
             			}
-HXLINE(2416)			goto _hx_goto_112;
+HXLINE(2472)			goto _hx_goto_112;
             		}
             		_hx_goto_112:;
-HXLINE(2531)		if (!(this->inCutscene)) {
-HXLINE(2532)			Float lerpVal = ::Math_obj::max(( (Float)(0) ),::Math_obj::min(( (Float)(1) ),((elapsed * ((Float)2.4)) * this->cameraSpeed)));
-HXLINE(2533)			Float a = this->camFollowPos->x;
-HXDLIN(2533)			Float a1 = this->camFollowPos->y;
-HXDLIN(2533)			this->camFollowPos->setPosition((a + (lerpVal * (this->camFollow->x - a))),(a1 + (lerpVal * (this->camFollow->y - a1))));
-HXLINE(2534)			bool _hx_tmp;
-HXDLIN(2534)			bool _hx_tmp1;
-HXDLIN(2534)			if (!(this->startingSong)) {
-HXLINE(2534)				_hx_tmp1 = !(this->endingSong);
+HXLINE(2587)		if (!(this->inCutscene)) {
+HXLINE(2588)			Float lerpVal = ::Math_obj::max(( (Float)(0) ),::Math_obj::min(( (Float)(1) ),((elapsed * ((Float)2.4)) * this->cameraSpeed)));
+HXLINE(2589)			Float a = this->camFollowPos->x;
+HXDLIN(2589)			Float a1 = this->camFollowPos->y;
+HXDLIN(2589)			this->camFollowPos->setPosition((a + (lerpVal * (this->camFollow->x - a))),(a1 + (lerpVal * (this->camFollow->y - a1))));
+HXLINE(2590)			bool _hx_tmp;
+HXDLIN(2590)			bool _hx_tmp1;
+HXDLIN(2590)			if (!(this->startingSong)) {
+HXLINE(2590)				_hx_tmp1 = !(this->endingSong);
             			}
             			else {
-HXLINE(2534)				_hx_tmp1 = false;
+HXLINE(2590)				_hx_tmp1 = false;
             			}
-HXDLIN(2534)			if (_hx_tmp1) {
-HXLINE(2534)				_hx_tmp = ::StringTools_obj::startsWith(this->boyfriend->animation->_curAnim->name,HX_("idle",14,a7,b3,45));
-            			}
-            			else {
-HXLINE(2534)				_hx_tmp = false;
-            			}
-HXDLIN(2534)			if (_hx_tmp) {
-HXLINE(2535)				 ::PlayState _hx_tmp = ::hx::ObjectPtr<OBJ_>(this);
-HXDLIN(2535)				_hx_tmp->boyfriendIdleTime = (_hx_tmp->boyfriendIdleTime + elapsed);
-HXLINE(2536)				if ((this->boyfriendIdleTime >= ((Float)0.15))) {
-HXLINE(2537)					this->boyfriendIdled = true;
-            				}
+HXDLIN(2590)			if (_hx_tmp1) {
+HXLINE(2590)				_hx_tmp = ::StringTools_obj::startsWith(this->boyfriend->animation->_curAnim->name,HX_("idle",14,a7,b3,45));
             			}
             			else {
-HXLINE(2540)				this->boyfriendIdleTime = ( (Float)(0) );
+HXLINE(2590)				_hx_tmp = false;
             			}
-            		}
-HXLINE(2544)		this->super::update(elapsed);
-HXLINE(2546)		if ((this->ratingName == HX_("?",3f,00,00,00))) {
-HXLINE(2547)			this->scoreTxt->set_text((((((((HX_("Score: ",58,c6,eb,45) + this->songScore) + HX_(" | Misses: ",f4,d7,bf,55)) + this->songMisses) + HX_(" | Rating: ",67,bc,53,d1)) + this->ratingName) + HX_(" | Health: ",a6,0e,15,61)) + this->health));
-            		}
-            		else {
-HXLINE(2549)			 ::flixel::text::FlxText _hx_tmp = this->scoreTxt;
-HXDLIN(2549)			::String _hx_tmp1 = ((((((HX_("Score: ",58,c6,eb,45) + this->songScore) + HX_(" | Misses: ",f4,d7,bf,55)) + this->songMisses) + HX_(" | Rating: ",67,bc,53,d1)) + this->ratingName) + HX_(" (",08,1c,00,00));
-HXDLIN(2549)			::String _hx_tmp2 = (((_hx_tmp1 + ::Highscore_obj::floorDecimal((this->ratingPercent * ( (Float)(100) )),2)) + HX_("%)",64,20,00,00)) + HX_(" - ",73,6f,18,00));
-HXDLIN(2549)			_hx_tmp->set_text((((_hx_tmp2 + this->ratingFC) + HX_(" | Health: ",a6,0e,15,61)) + this->health));
-            		}
-HXLINE(2552)		if (this->botplayTxt->visible) {
-HXLINE(2553)			 ::PlayState _hx_tmp = ::hx::ObjectPtr<OBJ_>(this);
-HXDLIN(2553)			_hx_tmp->botplaySine = (_hx_tmp->botplaySine + (( (Float)(180) ) * elapsed));
-HXLINE(2554)			this->botplayTxt->set_alpha((( (Float)(1) ) - ::Math_obj::sin(((::Math_obj::PI * this->botplaySine) / ( (Float)(180) )))));
-            		}
-HXLINE(2557)		bool _hx_tmp;
-HXDLIN(2557)		bool _hx_tmp1;
-HXDLIN(2557)		if (::PlayerSettings_obj::player1->controls->_pause->check()) {
-HXLINE(2557)			_hx_tmp1 = this->startedCountdown;
-            		}
-            		else {
-HXLINE(2557)			_hx_tmp1 = false;
-            		}
-HXDLIN(2557)		if (_hx_tmp1) {
-HXLINE(2557)			_hx_tmp = this->canPause;
-            		}
-            		else {
-HXLINE(2557)			_hx_tmp = false;
-            		}
-HXDLIN(2557)		if (_hx_tmp) {
-HXLINE(2559)			 ::Dynamic ret = this->callOnLuas(HX_("onPause",57,75,95,53),::cpp::VirtualArray_obj::__new(0));
-HXLINE(2560)			if (::hx::IsNotEq( ret,::FunkinLua_obj::Function_Stop )) {
-HXLINE(2561)				this->persistentUpdate = false;
-HXLINE(2562)				this->persistentDraw = true;
-HXLINE(2563)				this->paused = true;
-HXLINE(2573)				if (::hx::IsNotNull( ::flixel::FlxG_obj::sound->music )) {
-HXLINE(2574)					::flixel::FlxG_obj::sound->music->pause();
-HXLINE(2575)					this->vocals->pause();
-            				}
-HXLINE(2577)				Float _hx_tmp = this->boyfriend->getScreenPosition(null(),null())->x;
-HXDLIN(2577)				this->openSubState( ::PauseSubState_obj::__alloc( HX_CTX ,_hx_tmp,this->boyfriend->getScreenPosition(null(),null())->y));
-HXLINE(2581)				::String _hx_tmp1 = this->detailsPausedText;
-HXDLIN(2581)				::String _hx_tmp2 = ( (::String)((((::PlayState_obj::SONG->__Field(HX_("song",d5,23,58,4c),::hx::paccDynamic) + HX_(" (",08,1c,00,00)) + this->storyDifficultyText) + HX_(")",29,00,00,00))) );
-HXDLIN(2581)				::DiscordClient_obj::changePresence(_hx_tmp1,_hx_tmp2,this->iconP2->getCharacter(),null(),null());
-            			}
-            		}
-HXLINE(2586)		bool _hx_tmp2;
-HXDLIN(2586)		bool _hx_tmp3;
-HXDLIN(2586)		if (::flixel::FlxG_obj::keys->checkKeyArrayState(this->debugKeysChart,2)) {
-HXLINE(2586)			_hx_tmp3 = !(this->endingSong);
-            		}
-            		else {
-HXLINE(2586)			_hx_tmp3 = false;
-            		}
-HXDLIN(2586)		if (_hx_tmp3) {
-HXLINE(2586)			_hx_tmp2 = !(this->inCutscene);
-            		}
-            		else {
-HXLINE(2586)			_hx_tmp2 = false;
-            		}
-HXDLIN(2586)		if (_hx_tmp2) {
-HXLINE(2588)			this->openChartEditor();
-            		}
-HXLINE(2594)		Float mult = (1 + (::Math_obj::max(( (Float)(0) ),::Math_obj::min(( (Float)(1) ),(( (Float)(1) ) - (elapsed * ( (Float)(9) ))))) * (this->iconP1->scale->x - ( (Float)(1) ))));
-HXLINE(2595)		this->iconP1->scale->set(mult,mult);
-HXLINE(2596)		this->iconP1->updateHitbox();
-HXLINE(2598)		Float mult1 = (1 + (::Math_obj::max(( (Float)(0) ),::Math_obj::min(( (Float)(1) ),(( (Float)(1) ) - (elapsed * ( (Float)(9) ))))) * (this->iconP2->scale->x - ( (Float)(1) ))));
-HXLINE(2599)		this->iconP2->scale->set(mult1,mult1);
-HXLINE(2600)		this->iconP2->updateHitbox();
-HXLINE(2602)		int iconOffset = 26;
-HXLINE(2604)		 ::HealthIcon _hx_tmp4 = this->iconP1;
-HXDLIN(2604)		Float _hx_tmp5 = this->healthBar->x;
-HXDLIN(2604)		Float _hx_tmp6 = this->healthBar->get_width();
-HXDLIN(2604)		Float _hx_tmp7 = (_hx_tmp5 + (_hx_tmp6 * (::flixel::math::FlxMath_obj::remapToRange(this->healthBar->get_percent(),( (Float)(0) ),( (Float)(100) ),( (Float)(100) ),( (Float)(0) )) * ((Float)0.01))));
-HXDLIN(2604)		_hx_tmp4->set_x(((_hx_tmp7 + (((( (Float)(150) ) * this->iconP1->scale->x) - ( (Float)(150) )) / ( (Float)(2) ))) - ( (Float)(iconOffset) )));
-HXLINE(2605)		 ::HealthIcon _hx_tmp8 = this->iconP2;
-HXDLIN(2605)		Float _hx_tmp9 = this->healthBar->x;
-HXDLIN(2605)		Float _hx_tmp10 = this->healthBar->get_width();
-HXDLIN(2605)		Float _hx_tmp11 = (_hx_tmp9 + (_hx_tmp10 * (::flixel::math::FlxMath_obj::remapToRange(this->healthBar->get_percent(),( (Float)(0) ),( (Float)(100) ),( (Float)(100) ),( (Float)(0) )) * ((Float)0.01))));
-HXDLIN(2605)		_hx_tmp8->set_x(((_hx_tmp11 - ((( (Float)(150) ) * this->iconP2->scale->x) / ( (Float)(2) ))) - ( (Float)((iconOffset * 2)) )));
-HXLINE(2607)		if ((this->health > 2)) {
-HXLINE(2608)			this->health = ( (Float)(2) );
-            		}
-HXLINE(2610)		if ((this->healthBar->get_percent() < 20)) {
-HXLINE(2611)			this->iconP1->animation->_curAnim->set_curFrame(1);
-            		}
-            		else {
-HXLINE(2613)			this->iconP1->animation->_curAnim->set_curFrame(0);
-            		}
-HXLINE(2615)		if ((this->healthBar->get_percent() > 80)) {
-HXLINE(2616)			this->iconP2->animation->_curAnim->set_curFrame(1);
-            		}
-            		else {
-HXLINE(2618)			this->iconP2->animation->_curAnim->set_curFrame(0);
-            		}
-HXLINE(2620)		bool _hx_tmp12;
-HXDLIN(2620)		bool _hx_tmp13;
-HXDLIN(2620)		if (::flixel::FlxG_obj::keys->checkKeyArrayState(this->debugKeysCharacter,2)) {
-HXLINE(2620)			_hx_tmp13 = !(this->endingSong);
-            		}
-            		else {
-HXLINE(2620)			_hx_tmp13 = false;
-            		}
-HXDLIN(2620)		if (_hx_tmp13) {
-HXLINE(2620)			_hx_tmp12 = !(this->inCutscene);
-            		}
-            		else {
-HXLINE(2620)			_hx_tmp12 = false;
-            		}
-HXDLIN(2620)		if (_hx_tmp12) {
-HXLINE(2621)			this->persistentUpdate = false;
-HXLINE(2622)			this->paused = true;
-HXLINE(2623)			::PlayState_obj::cancelMusicFadeTween();
-HXLINE(2624)			::MusicBeatState_obj::switchState( ::editors::CharacterEditorState_obj::__alloc( HX_CTX ,( (::String)(::PlayState_obj::SONG->__Field(HX_("player2",b1,09,15,8a),::hx::paccDynamic)) ),null()));
-            		}
-HXLINE(2627)		if (this->startingSong) {
-HXLINE(2629)			if (this->startedCountdown) {
-HXLINE(2631)				 ::Dynamic _hx_tmp = ::hx::ClassOf< ::Conductor >();
-HXDLIN(2631)				::Conductor_obj::songPosition = (::Conductor_obj::songPosition + (::flixel::FlxG_obj::elapsed * ( (Float)(1000) )));
-HXLINE(2632)				if ((::Conductor_obj::songPosition >= 0)) {
-HXLINE(2633)					this->startSong();
+HXDLIN(2590)			if (_hx_tmp) {
+HXLINE(2591)				 ::PlayState _hx_tmp = ::hx::ObjectPtr<OBJ_>(this);
+HXDLIN(2591)				_hx_tmp->boyfriendIdleTime = (_hx_tmp->boyfriendIdleTime + elapsed);
+HXLINE(2592)				if ((this->boyfriendIdleTime >= ((Float)0.15))) {
+HXLINE(2593)					this->boyfriendIdled = true;
             				}
             			}
+            			else {
+HXLINE(2596)				this->boyfriendIdleTime = ( (Float)(0) );
+            			}
+            		}
+HXLINE(2600)		this->super::update(elapsed);
+HXLINE(2602)		if ((this->ratingName == HX_("?",3f,00,00,00))) {
+HXLINE(2603)			this->scoreTxt->set_text((((((((HX_("Score: ",58,c6,eb,45) + this->songScore) + HX_(" | Misses: ",f4,d7,bf,55)) + this->songMisses) + HX_(" | Rating: ",67,bc,53,d1)) + this->ratingName) + HX_(" | Health: ",a6,0e,15,61)) + this->health));
             		}
             		else {
-HXLINE(2638)			 ::Dynamic _hx_tmp = ::hx::ClassOf< ::Conductor >();
-HXDLIN(2638)			::Conductor_obj::songPosition = (::Conductor_obj::songPosition + (::flixel::FlxG_obj::elapsed * ( (Float)(1000) )));
-HXLINE(2640)			if (!(this->paused)) {
-HXLINE(2642)				 ::PlayState _hx_tmp = ::hx::ObjectPtr<OBJ_>(this);
-HXDLIN(2642)				_hx_tmp->songTime = (_hx_tmp->songTime + (::flixel::FlxG_obj::game->ticks - this->previousFrameTime));
-HXLINE(2643)				this->previousFrameTime = ::flixel::FlxG_obj::game->ticks;
-HXLINE(2646)				if ((::Conductor_obj::lastSongPos != ::Conductor_obj::songPosition)) {
-HXLINE(2648)					this->songTime = ((this->songTime + ::Conductor_obj::songPosition) / ( (Float)(2) ));
-HXLINE(2649)					::Conductor_obj::lastSongPos = ::Conductor_obj::songPosition;
+HXLINE(2605)			 ::flixel::text::FlxText _hx_tmp = this->scoreTxt;
+HXDLIN(2605)			::String _hx_tmp1 = ((((((HX_("Score: ",58,c6,eb,45) + this->songScore) + HX_(" | Misses: ",f4,d7,bf,55)) + this->songMisses) + HX_(" | Rating: ",67,bc,53,d1)) + this->ratingName) + HX_(" (",08,1c,00,00));
+HXDLIN(2605)			::String _hx_tmp2 = (((_hx_tmp1 + ::Highscore_obj::floorDecimal((this->ratingPercent * ( (Float)(100) )),2)) + HX_("%)",64,20,00,00)) + HX_(" - ",73,6f,18,00));
+HXDLIN(2605)			_hx_tmp->set_text((((_hx_tmp2 + this->ratingFC) + HX_(" | Health: ",a6,0e,15,61)) + this->health));
+            		}
+HXLINE(2608)		if (this->botplayTxt->visible) {
+HXLINE(2609)			 ::PlayState _hx_tmp = ::hx::ObjectPtr<OBJ_>(this);
+HXDLIN(2609)			_hx_tmp->botplaySine = (_hx_tmp->botplaySine + (( (Float)(180) ) * elapsed));
+HXLINE(2610)			this->botplayTxt->set_alpha((( (Float)(1) ) - ::Math_obj::sin(((::Math_obj::PI * this->botplaySine) / ( (Float)(180) )))));
+            		}
+HXLINE(2613)		bool _hx_tmp;
+HXDLIN(2613)		bool _hx_tmp1;
+HXDLIN(2613)		if (::PlayerSettings_obj::player1->controls->_pause->check()) {
+HXLINE(2613)			_hx_tmp1 = this->startedCountdown;
+            		}
+            		else {
+HXLINE(2613)			_hx_tmp1 = false;
+            		}
+HXDLIN(2613)		if (_hx_tmp1) {
+HXLINE(2613)			_hx_tmp = this->canPause;
+            		}
+            		else {
+HXLINE(2613)			_hx_tmp = false;
+            		}
+HXDLIN(2613)		if (_hx_tmp) {
+HXLINE(2615)			 ::Dynamic ret = this->callOnLuas(HX_("onPause",57,75,95,53),::cpp::VirtualArray_obj::__new(0));
+HXLINE(2616)			if (::hx::IsNotEq( ret,::FunkinLua_obj::Function_Stop )) {
+HXLINE(2617)				this->persistentUpdate = false;
+HXLINE(2618)				this->persistentDraw = true;
+HXLINE(2619)				this->paused = true;
+HXLINE(2629)				if (::hx::IsNotNull( ::flixel::FlxG_obj::sound->music )) {
+HXLINE(2630)					::flixel::FlxG_obj::sound->music->pause();
+HXLINE(2631)					this->vocals->pause();
             				}
-HXLINE(2654)				if (this->updateTime) {
-HXLINE(2655)					Float curTime = (::Conductor_obj::songPosition - ( (Float)(::ClientPrefs_obj::noteOffset) ));
-HXLINE(2656)					if ((curTime < 0)) {
-HXLINE(2656)						curTime = ( (Float)(0) );
-            					}
-HXLINE(2657)					this->songPercent = (curTime / this->songLength);
-HXLINE(2659)					Float songCalc = (this->songLength - curTime);
-HXLINE(2660)					if ((::ClientPrefs_obj::timeBarType == HX_("Time Elapsed",29,71,5d,35))) {
-HXLINE(2660)						songCalc = curTime;
-            					}
-HXLINE(2662)					int secondsTotal = ::Math_obj::floor((songCalc / ( (Float)(1000) )));
-HXLINE(2663)					if ((secondsTotal < 0)) {
-HXLINE(2663)						secondsTotal = 0;
-            					}
-HXLINE(2665)					if ((::ClientPrefs_obj::timeBarType != HX_("Song Name",76,e6,ca,de))) {
-HXLINE(2666)						 ::flixel::text::FlxText _hx_tmp = this->timeTxt;
-HXDLIN(2666)						_hx_tmp->set_text(::flixel::util::FlxStringUtil_obj::formatTime(( (Float)(secondsTotal) ),false));
-            					}
+HXLINE(2633)				Float _hx_tmp = this->boyfriend->getScreenPosition(null(),null())->x;
+HXDLIN(2633)				this->openSubState( ::PauseSubState_obj::__alloc( HX_CTX ,_hx_tmp,this->boyfriend->getScreenPosition(null(),null())->y));
+HXLINE(2637)				::String _hx_tmp1 = this->detailsPausedText;
+HXDLIN(2637)				::String _hx_tmp2 = ( (::String)((((::PlayState_obj::SONG->__Field(HX_("song",d5,23,58,4c),::hx::paccDynamic) + HX_(" (",08,1c,00,00)) + this->storyDifficultyText) + HX_(")",29,00,00,00))) );
+HXDLIN(2637)				::DiscordClient_obj::changePresence(_hx_tmp1,_hx_tmp2,this->iconP2->getCharacter(),null(),null());
+            			}
+            		}
+HXLINE(2642)		bool _hx_tmp2;
+HXDLIN(2642)		bool _hx_tmp3;
+HXDLIN(2642)		if (::flixel::FlxG_obj::keys->checkKeyArrayState(this->debugKeysChart,2)) {
+HXLINE(2642)			_hx_tmp3 = !(this->endingSong);
+            		}
+            		else {
+HXLINE(2642)			_hx_tmp3 = false;
+            		}
+HXDLIN(2642)		if (_hx_tmp3) {
+HXLINE(2642)			_hx_tmp2 = !(this->inCutscene);
+            		}
+            		else {
+HXLINE(2642)			_hx_tmp2 = false;
+            		}
+HXDLIN(2642)		if (_hx_tmp2) {
+HXLINE(2644)			this->openChartEditor();
+            		}
+HXLINE(2650)		Float mult = (1 + (::Math_obj::max(( (Float)(0) ),::Math_obj::min(( (Float)(1) ),(( (Float)(1) ) - (elapsed * ( (Float)(9) ))))) * (this->iconP1->scale->x - ( (Float)(1) ))));
+HXLINE(2651)		this->iconP1->scale->set(mult,mult);
+HXLINE(2652)		this->iconP1->updateHitbox();
+HXLINE(2654)		Float mult1 = (1 + (::Math_obj::max(( (Float)(0) ),::Math_obj::min(( (Float)(1) ),(( (Float)(1) ) - (elapsed * ( (Float)(9) ))))) * (this->iconP2->scale->x - ( (Float)(1) ))));
+HXLINE(2655)		this->iconP2->scale->set(mult1,mult1);
+HXLINE(2656)		this->iconP2->updateHitbox();
+HXLINE(2658)		int iconOffset = 26;
+HXLINE(2660)		 ::HealthIcon _hx_tmp4 = this->iconP1;
+HXDLIN(2660)		Float _hx_tmp5 = this->healthBar->x;
+HXDLIN(2660)		Float _hx_tmp6 = this->healthBar->get_width();
+HXDLIN(2660)		Float _hx_tmp7 = (_hx_tmp5 + (_hx_tmp6 * (::flixel::math::FlxMath_obj::remapToRange(this->healthBar->get_percent(),( (Float)(0) ),( (Float)(100) ),( (Float)(100) ),( (Float)(0) )) * ((Float)0.01))));
+HXDLIN(2660)		_hx_tmp4->set_x(((_hx_tmp7 + (((( (Float)(150) ) * this->iconP1->scale->x) - ( (Float)(150) )) / ( (Float)(2) ))) - ( (Float)(iconOffset) )));
+HXLINE(2661)		 ::HealthIcon _hx_tmp8 = this->iconP2;
+HXDLIN(2661)		Float _hx_tmp9 = this->healthBar->x;
+HXDLIN(2661)		Float _hx_tmp10 = this->healthBar->get_width();
+HXDLIN(2661)		Float _hx_tmp11 = (_hx_tmp9 + (_hx_tmp10 * (::flixel::math::FlxMath_obj::remapToRange(this->healthBar->get_percent(),( (Float)(0) ),( (Float)(100) ),( (Float)(100) ),( (Float)(0) )) * ((Float)0.01))));
+HXDLIN(2661)		_hx_tmp8->set_x(((_hx_tmp11 - ((( (Float)(150) ) * this->iconP2->scale->x) / ( (Float)(2) ))) - ( (Float)((iconOffset * 2)) )));
+HXLINE(2663)		if ((this->health > 2)) {
+HXLINE(2664)			this->health = ( (Float)(2) );
+            		}
+HXLINE(2666)		if ((this->healthBar->get_percent() < 20)) {
+HXLINE(2667)			this->iconP1->animation->_curAnim->set_curFrame(1);
+            		}
+            		else {
+HXLINE(2669)			this->iconP1->animation->_curAnim->set_curFrame(0);
+            		}
+HXLINE(2671)		if ((this->healthBar->get_percent() > 80)) {
+HXLINE(2672)			this->iconP2->animation->_curAnim->set_curFrame(1);
+            		}
+            		else {
+HXLINE(2674)			this->iconP2->animation->_curAnim->set_curFrame(0);
+            		}
+HXLINE(2676)		bool _hx_tmp12;
+HXDLIN(2676)		bool _hx_tmp13;
+HXDLIN(2676)		if (::flixel::FlxG_obj::keys->checkKeyArrayState(this->debugKeysCharacter,2)) {
+HXLINE(2676)			_hx_tmp13 = !(this->endingSong);
+            		}
+            		else {
+HXLINE(2676)			_hx_tmp13 = false;
+            		}
+HXDLIN(2676)		if (_hx_tmp13) {
+HXLINE(2676)			_hx_tmp12 = !(this->inCutscene);
+            		}
+            		else {
+HXLINE(2676)			_hx_tmp12 = false;
+            		}
+HXDLIN(2676)		if (_hx_tmp12) {
+HXLINE(2677)			this->persistentUpdate = false;
+HXLINE(2678)			this->paused = true;
+HXLINE(2679)			::PlayState_obj::cancelMusicFadeTween();
+HXLINE(2680)			::MusicBeatState_obj::switchState( ::editors::CharacterEditorState_obj::__alloc( HX_CTX ,( (::String)(::PlayState_obj::SONG->__Field(HX_("player2",b1,09,15,8a),::hx::paccDynamic)) ),null()));
+            		}
+HXLINE(2683)		if (this->startingSong) {
+HXLINE(2685)			if (this->startedCountdown) {
+HXLINE(2687)				 ::Dynamic _hx_tmp = ::hx::ClassOf< ::Conductor >();
+HXDLIN(2687)				::Conductor_obj::songPosition = (::Conductor_obj::songPosition + (::flixel::FlxG_obj::elapsed * ( (Float)(1000) )));
+HXLINE(2688)				if ((::Conductor_obj::songPosition >= 0)) {
+HXLINE(2689)					this->startSong();
             				}
             			}
             		}
-HXLINE(2673)		if (this->camZooming) {
-HXLINE(2675)			Float a = this->zoomHelper;
-HXDLIN(2675)			::flixel::FlxG_obj::camera->set_zoom((a + (::Math_obj::max(( (Float)(0) ),::Math_obj::min(( (Float)(1) ),(( (Float)(1) ) - (elapsed * ((Float)3.125))))) * (::flixel::FlxG_obj::camera->zoom - a))));
-HXLINE(2676)			this->camHUD->set_zoom((1 + (::Math_obj::max(( (Float)(0) ),::Math_obj::min(( (Float)(1) ),(( (Float)(1) ) - (elapsed * ((Float)3.125))))) * (this->camHUD->zoom - ( (Float)(1) )))));
-            		}
-HXLINE(2683)		bool _hx_tmp14;
-HXDLIN(2683)		bool _hx_tmp15;
-HXDLIN(2683)		bool _hx_tmp16;
-HXDLIN(2683)		if (!(::ClientPrefs_obj::noReset)) {
-HXLINE(2683)			_hx_tmp16 = ::PlayerSettings_obj::player1->controls->_reset->check();
-            		}
             		else {
-HXLINE(2683)			_hx_tmp16 = false;
-            		}
-HXDLIN(2683)		if (_hx_tmp16) {
-HXLINE(2683)			_hx_tmp15 = !(this->inCutscene);
-            		}
-            		else {
-HXLINE(2683)			_hx_tmp15 = false;
-            		}
-HXDLIN(2683)		if (_hx_tmp15) {
-HXLINE(2683)			_hx_tmp14 = !(this->endingSong);
-            		}
-            		else {
-HXLINE(2683)			_hx_tmp14 = false;
-            		}
-HXDLIN(2683)		if (_hx_tmp14) {
-HXLINE(2685)			this->health = ( (Float)(0) );
-HXLINE(2686)			::haxe::Log_obj::trace(HX_("RESET = True",82,e0,2a,fe),::hx::SourceInfo(HX_("source/PlayState.hx",75,24,2b,b8),2686,HX_("PlayState",5d,83,c2,46),HX_("update",09,86,05,87)));
-            		}
-HXLINE(2688)		this->doDeathCheck(null());
-HXLINE(2690)		if (::hx::IsNotNull( this->unspawnNotes->__get(0).StaticCast<  ::Note >() )) {
-HXLINE(2692)			Float time = ( (Float)(3000) );
-HXLINE(2693)			if ((this->songSpeed < 1)) {
-HXLINE(2693)				time = (time / this->songSpeed);
+HXLINE(2694)			 ::Dynamic _hx_tmp = ::hx::ClassOf< ::Conductor >();
+HXDLIN(2694)			::Conductor_obj::songPosition = (::Conductor_obj::songPosition + (::flixel::FlxG_obj::elapsed * ( (Float)(1000) )));
+HXLINE(2696)			if (!(this->paused)) {
+HXLINE(2698)				 ::PlayState _hx_tmp = ::hx::ObjectPtr<OBJ_>(this);
+HXDLIN(2698)				_hx_tmp->songTime = (_hx_tmp->songTime + (::flixel::FlxG_obj::game->ticks - this->previousFrameTime));
+HXLINE(2699)				this->previousFrameTime = ::flixel::FlxG_obj::game->ticks;
+HXLINE(2702)				if ((::Conductor_obj::lastSongPos != ::Conductor_obj::songPosition)) {
+HXLINE(2704)					this->songTime = ((this->songTime + ::Conductor_obj::songPosition) / ( (Float)(2) ));
+HXLINE(2705)					::Conductor_obj::lastSongPos = ::Conductor_obj::songPosition;
+            				}
+HXLINE(2710)				if (this->updateTime) {
+HXLINE(2711)					Float curTime = (::Conductor_obj::songPosition - ( (Float)(::ClientPrefs_obj::noteOffset) ));
+HXLINE(2712)					if ((curTime < 0)) {
+HXLINE(2712)						curTime = ( (Float)(0) );
+            					}
+HXLINE(2713)					this->songPercent = (curTime / this->songLength);
+HXLINE(2715)					Float songCalc = (this->songLength - curTime);
+HXLINE(2716)					if ((::ClientPrefs_obj::timeBarType == HX_("Time Elapsed",29,71,5d,35))) {
+HXLINE(2716)						songCalc = curTime;
+            					}
+HXLINE(2718)					int secondsTotal = ::Math_obj::floor((songCalc / ( (Float)(1000) )));
+HXLINE(2719)					if ((secondsTotal < 0)) {
+HXLINE(2719)						secondsTotal = 0;
+            					}
+HXLINE(2721)					if ((::ClientPrefs_obj::timeBarType != HX_("Song Name",76,e6,ca,de))) {
+HXLINE(2722)						 ::flixel::text::FlxText _hx_tmp = this->timeTxt;
+HXDLIN(2722)						_hx_tmp->set_text(::flixel::util::FlxStringUtil_obj::formatTime(( (Float)(secondsTotal) ),false));
+            					}
+            				}
             			}
-HXLINE(2695)			while(true){
-HXLINE(2695)				bool _hx_tmp;
-HXDLIN(2695)				if ((this->unspawnNotes->length > 0)) {
-HXLINE(2695)					_hx_tmp = ((this->unspawnNotes->__get(0).StaticCast<  ::Note >()->strumTime - ::Conductor_obj::songPosition) < time);
+            		}
+HXLINE(2729)		if (this->camZooming) {
+HXLINE(2731)			Float a = this->zoomHelper;
+HXDLIN(2731)			::flixel::FlxG_obj::camera->set_zoom((a + (::Math_obj::max(( (Float)(0) ),::Math_obj::min(( (Float)(1) ),(( (Float)(1) ) - (elapsed * ((Float)3.125))))) * (::flixel::FlxG_obj::camera->zoom - a))));
+HXLINE(2732)			this->camHUD->set_zoom((1 + (::Math_obj::max(( (Float)(0) ),::Math_obj::min(( (Float)(1) ),(( (Float)(1) ) - (elapsed * ((Float)3.125))))) * (this->camHUD->zoom - ( (Float)(1) )))));
+            		}
+HXLINE(2739)		bool _hx_tmp14;
+HXDLIN(2739)		bool _hx_tmp15;
+HXDLIN(2739)		bool _hx_tmp16;
+HXDLIN(2739)		if (!(::ClientPrefs_obj::noReset)) {
+HXLINE(2739)			_hx_tmp16 = ::PlayerSettings_obj::player1->controls->_reset->check();
+            		}
+            		else {
+HXLINE(2739)			_hx_tmp16 = false;
+            		}
+HXDLIN(2739)		if (_hx_tmp16) {
+HXLINE(2739)			_hx_tmp15 = !(this->inCutscene);
+            		}
+            		else {
+HXLINE(2739)			_hx_tmp15 = false;
+            		}
+HXDLIN(2739)		if (_hx_tmp15) {
+HXLINE(2739)			_hx_tmp14 = !(this->endingSong);
+            		}
+            		else {
+HXLINE(2739)			_hx_tmp14 = false;
+            		}
+HXDLIN(2739)		if (_hx_tmp14) {
+HXLINE(2741)			this->health = ( (Float)(0) );
+HXLINE(2742)			::haxe::Log_obj::trace(HX_("RESET = True",82,e0,2a,fe),::hx::SourceInfo(HX_("source/PlayState.hx",75,24,2b,b8),2742,HX_("PlayState",5d,83,c2,46),HX_("update",09,86,05,87)));
+            		}
+HXLINE(2744)		this->doDeathCheck(null());
+HXLINE(2746)		if (::hx::IsNotNull( this->unspawnNotes->__get(0).StaticCast<  ::Note >() )) {
+HXLINE(2748)			Float time = ( (Float)(3000) );
+HXLINE(2749)			if ((this->songSpeed < 1)) {
+HXLINE(2749)				time = (time / this->songSpeed);
+            			}
+HXLINE(2751)			while(true){
+HXLINE(2751)				bool _hx_tmp;
+HXDLIN(2751)				if ((this->unspawnNotes->length > 0)) {
+HXLINE(2751)					_hx_tmp = ((this->unspawnNotes->__get(0).StaticCast<  ::Note >()->strumTime - ::Conductor_obj::songPosition) < time);
             				}
             				else {
-HXLINE(2695)					_hx_tmp = false;
+HXLINE(2751)					_hx_tmp = false;
             				}
-HXDLIN(2695)				if (!(_hx_tmp)) {
-HXLINE(2695)					goto _hx_goto_115;
+HXDLIN(2751)				if (!(_hx_tmp)) {
+HXLINE(2751)					goto _hx_goto_115;
             				}
-HXLINE(2697)				 ::Note dunceNote = this->unspawnNotes->__get(0).StaticCast<  ::Note >();
-HXLINE(2698)				this->notes->insert(0,dunceNote).StaticCast<  ::Note >();
-HXLINE(2700)				int index = this->unspawnNotes->indexOf(dunceNote,null());
-HXLINE(2701)				this->unspawnNotes->removeRange(index,1);
+HXLINE(2753)				 ::Note dunceNote = this->unspawnNotes->__get(0).StaticCast<  ::Note >();
+HXLINE(2754)				this->notes->insert(0,dunceNote).StaticCast<  ::Note >();
+HXLINE(2756)				int index = this->unspawnNotes->indexOf(dunceNote,null());
+HXLINE(2757)				this->unspawnNotes->removeRange(index,1);
             			}
             			_hx_goto_115:;
             		}
-HXLINE(2705)		if (this->generatedMusic) {
+HXLINE(2761)		if (this->generatedMusic) {
             			HX_BEGIN_LOCAL_FUNC_S2(::hx::LocalFunc,_hx_Closure_1,Float,fakeCrochet, ::PlayState,_gthis) HXARGC(1)
             			void _hx_run( ::Note daNote){
-            				HX_GC_STACKFRAME(&_hx_pos_af23706db05c7feb_2718_update)
-HXLINE(2719)				 ::flixel::group::FlxTypedGroup strumGroup = _gthis->playerStrums;
-HXLINE(2720)				if (!(daNote->mustPress)) {
-HXLINE(2720)					strumGroup = _gthis->opponentStrums;
+            				HX_GC_STACKFRAME(&_hx_pos_af23706db05c7feb_2774_update)
+HXLINE(2775)				 ::flixel::group::FlxTypedGroup strumGroup = _gthis->playerStrums;
+HXLINE(2776)				if (!(daNote->mustPress)) {
+HXLINE(2776)					strumGroup = _gthis->opponentStrums;
             				}
-HXLINE(2722)				Float strumX = Dynamic( strumGroup->members->__get(daNote->noteData)).StaticCast<  ::StrumNote >()->x;
-HXLINE(2723)				Float strumY = Dynamic( strumGroup->members->__get(daNote->noteData)).StaticCast<  ::StrumNote >()->y;
-HXLINE(2724)				Float strumAngle = Dynamic( strumGroup->members->__get(daNote->noteData)).StaticCast<  ::StrumNote >()->angle;
-HXLINE(2725)				Float strumDirection = Dynamic( strumGroup->members->__get(daNote->noteData)).StaticCast<  ::StrumNote >()->direction;
-HXLINE(2726)				Float strumAlpha = Dynamic( strumGroup->members->__get(daNote->noteData)).StaticCast<  ::StrumNote >()->alpha;
-HXLINE(2727)				bool strumScroll = Dynamic( strumGroup->members->__get(daNote->noteData)).StaticCast<  ::StrumNote >()->downScroll;
-HXLINE(2729)				strumX = (strumX + daNote->offsetX);
-HXLINE(2730)				strumY = (strumY + daNote->offsetY);
-HXLINE(2731)				strumAngle = (strumAngle + daNote->offsetAngle);
-HXLINE(2732)				strumAlpha = (strumAlpha * daNote->multAlpha);
-HXLINE(2734)				if (strumScroll) {
-HXLINE(2737)					daNote->distance = ((((Float)0.45) * (::Conductor_obj::songPosition - daNote->strumTime)) * _gthis->songSpeed);
+HXLINE(2778)				Float strumX = Dynamic( strumGroup->members->__get(daNote->noteData)).StaticCast<  ::StrumNote >()->x;
+HXLINE(2779)				Float strumY = Dynamic( strumGroup->members->__get(daNote->noteData)).StaticCast<  ::StrumNote >()->y;
+HXLINE(2780)				Float strumAngle = Dynamic( strumGroup->members->__get(daNote->noteData)).StaticCast<  ::StrumNote >()->angle;
+HXLINE(2781)				Float strumDirection = Dynamic( strumGroup->members->__get(daNote->noteData)).StaticCast<  ::StrumNote >()->direction;
+HXLINE(2782)				Float strumAlpha = Dynamic( strumGroup->members->__get(daNote->noteData)).StaticCast<  ::StrumNote >()->alpha;
+HXLINE(2783)				bool strumScroll = Dynamic( strumGroup->members->__get(daNote->noteData)).StaticCast<  ::StrumNote >()->downScroll;
+HXLINE(2785)				strumX = (strumX + daNote->offsetX);
+HXLINE(2786)				strumY = (strumY + daNote->offsetY);
+HXLINE(2787)				strumAngle = (strumAngle + daNote->offsetAngle);
+HXLINE(2788)				strumAlpha = (strumAlpha * daNote->multAlpha);
+HXLINE(2790)				if (strumScroll) {
+HXLINE(2793)					daNote->distance = ((((Float)0.45) * (::Conductor_obj::songPosition - daNote->strumTime)) * _gthis->songSpeed);
             				}
             				else {
-HXLINE(2742)					daNote->distance = ((((Float)-0.45) * (::Conductor_obj::songPosition - daNote->strumTime)) * _gthis->songSpeed);
+HXLINE(2798)					daNote->distance = ((((Float)-0.45) * (::Conductor_obj::songPosition - daNote->strumTime)) * _gthis->songSpeed);
             				}
-HXLINE(2745)				Float angleDir = ((strumDirection * ::Math_obj::PI) / ( (Float)(180) ));
-HXLINE(2746)				if (daNote->copyAngle) {
-HXLINE(2747)					daNote->set_angle(((strumDirection - ( (Float)(90) )) + strumAngle));
+HXLINE(2801)				Float angleDir = ((strumDirection * ::Math_obj::PI) / ( (Float)(180) ));
+HXLINE(2802)				if (daNote->copyAngle) {
+HXLINE(2803)					daNote->set_angle(((strumDirection - ( (Float)(90) )) + strumAngle));
             				}
-HXLINE(2749)				if (daNote->copyAlpha) {
-HXLINE(2750)					daNote->set_alpha(strumAlpha);
+HXLINE(2805)				if (daNote->copyAlpha) {
+HXLINE(2806)					daNote->set_alpha(strumAlpha);
             				}
-HXLINE(2752)				if (daNote->copyX) {
-HXLINE(2753)					daNote->set_x((strumX + (::Math_obj::cos(angleDir) * daNote->distance)));
+HXLINE(2808)				if (daNote->copyX) {
+HXLINE(2809)					daNote->set_x((strumX + (::Math_obj::cos(angleDir) * daNote->distance)));
             				}
-HXLINE(2755)				if (daNote->copyY) {
-HXLINE(2757)					daNote->set_y((strumY + (::Math_obj::sin(angleDir) * daNote->distance)));
-HXLINE(2760)					bool _hx_tmp;
-HXDLIN(2760)					if (strumScroll) {
-HXLINE(2760)						_hx_tmp = daNote->isSustainNote;
+HXLINE(2811)				if (daNote->copyY) {
+HXLINE(2813)					daNote->set_y((strumY + (::Math_obj::sin(angleDir) * daNote->distance)));
+HXLINE(2816)					bool _hx_tmp;
+HXDLIN(2816)					if (strumScroll) {
+HXLINE(2816)						_hx_tmp = daNote->isSustainNote;
             					}
             					else {
-HXLINE(2760)						_hx_tmp = false;
+HXLINE(2816)						_hx_tmp = false;
             					}
-HXDLIN(2760)					if (_hx_tmp) {
-HXLINE(2762)						if (::StringTools_obj::endsWith(daNote->animation->_curAnim->name,HX_("end",db,03,4d,00))) {
-HXLINE(2763)							{
-HXLINE(2763)								 ::Note _g = daNote;
-HXDLIN(2763)								_g->set_y((_g->y + ((((((Float)10.5) * (fakeCrochet / ( (Float)(400) ))) * ((Float)1.5)) * _gthis->songSpeed) + (( (Float)(46) ) * (_gthis->songSpeed - ( (Float)(1) ))))));
+HXDLIN(2816)					if (_hx_tmp) {
+HXLINE(2818)						if (::StringTools_obj::endsWith(daNote->animation->_curAnim->name,HX_("end",db,03,4d,00))) {
+HXLINE(2819)							{
+HXLINE(2819)								 ::Note _g = daNote;
+HXDLIN(2819)								_g->set_y((_g->y + ((((((Float)10.5) * (fakeCrochet / ( (Float)(400) ))) * ((Float)1.5)) * _gthis->songSpeed) + (( (Float)(46) ) * (_gthis->songSpeed - ( (Float)(1) ))))));
             							}
-HXLINE(2764)							{
-HXLINE(2764)								 ::Note _g1 = daNote;
-HXDLIN(2764)								_g1->set_y((_g1->y - ((( (Float)(46) ) * (( (Float)(1) ) - (fakeCrochet / ( (Float)(600) )))) * _gthis->songSpeed)));
+HXLINE(2820)							{
+HXLINE(2820)								 ::Note _g1 = daNote;
+HXDLIN(2820)								_g1->set_y((_g1->y - ((( (Float)(46) ) * (( (Float)(1) ) - (fakeCrochet / ( (Float)(600) )))) * _gthis->songSpeed)));
             							}
-HXLINE(2765)							if (::PlayState_obj::isPixelStage) {
-HXLINE(2766)								 ::Note _g = daNote;
-HXDLIN(2766)								_g->set_y((_g->y + (8 + ((( (Float)(6) ) - daNote->originalHeightForCalcs) * ::PlayState_obj::daPixelZoom))));
+HXLINE(2821)							if (::PlayState_obj::isPixelStage) {
+HXLINE(2822)								 ::Note _g = daNote;
+HXDLIN(2822)								_g->set_y((_g->y + (8 + ((( (Float)(6) ) - daNote->originalHeightForCalcs) * ::PlayState_obj::daPixelZoom))));
             							}
             							else {
-HXLINE(2768)								 ::Note _g = daNote;
-HXDLIN(2768)								_g->set_y((_g->y - ( (Float)(19) )));
+HXLINE(2824)								 ::Note _g = daNote;
+HXDLIN(2824)								_g->set_y((_g->y - ( (Float)(19) )));
             							}
             						}
-HXLINE(2771)						{
-HXLINE(2771)							 ::Note _g = daNote;
-HXDLIN(2771)							_g->set_y((_g->y + ((::Note_obj::swagWidth / ( (Float)(2) )) - (((Float)60.5) * (_gthis->songSpeed - ( (Float)(1) ))))));
+HXLINE(2827)						{
+HXLINE(2827)							 ::Note _g = daNote;
+HXDLIN(2827)							_g->set_y((_g->y + ((::Note_obj::swagWidth / ( (Float)(2) )) - (((Float)60.5) * (_gthis->songSpeed - ( (Float)(1) ))))));
             						}
-HXLINE(2772)						{
-HXLINE(2772)							 ::Note _g1 = daNote;
-HXDLIN(2772)							_g1->set_y((_g1->y + ((((Float)27.5) * ((( (Float)(::PlayState_obj::SONG->__Field(HX_("bpm",df,be,4a,00),::hx::paccDynamic)) ) / ( (Float)(100) )) - ( (Float)(1) ))) * (_gthis->songSpeed - ( (Float)(1) )))));
+HXLINE(2828)						{
+HXLINE(2828)							 ::Note _g1 = daNote;
+HXDLIN(2828)							_g1->set_y((_g1->y + ((((Float)27.5) * ((( (Float)(::PlayState_obj::SONG->__Field(HX_("bpm",df,be,4a,00),::hx::paccDynamic)) ) / ( (Float)(100) )) - ( (Float)(1) ))) * (_gthis->songSpeed - ( (Float)(1) )))));
             						}
             					}
             				}
-HXLINE(2776)				bool _hx_tmp;
-HXDLIN(2776)				bool _hx_tmp1;
-HXDLIN(2776)				bool _hx_tmp2;
-HXDLIN(2776)				if (!(daNote->mustPress)) {
-HXLINE(2776)					_hx_tmp2 = daNote->wasGoodHit;
+HXLINE(2832)				bool _hx_tmp;
+HXDLIN(2832)				bool _hx_tmp1;
+HXDLIN(2832)				bool _hx_tmp2;
+HXDLIN(2832)				if (!(daNote->mustPress)) {
+HXLINE(2832)					_hx_tmp2 = daNote->wasGoodHit;
             				}
             				else {
-HXLINE(2776)					_hx_tmp2 = false;
+HXLINE(2832)					_hx_tmp2 = false;
             				}
-HXDLIN(2776)				if (_hx_tmp2) {
-HXLINE(2776)					_hx_tmp1 = !(daNote->hitByOpponent);
-            				}
-            				else {
-HXLINE(2776)					_hx_tmp1 = false;
-            				}
-HXDLIN(2776)				if (_hx_tmp1) {
-HXLINE(2776)					_hx_tmp = !(daNote->ignoreNote);
+HXDLIN(2832)				if (_hx_tmp2) {
+HXLINE(2832)					_hx_tmp1 = !(daNote->hitByOpponent);
             				}
             				else {
-HXLINE(2776)					_hx_tmp = false;
+HXLINE(2832)					_hx_tmp1 = false;
             				}
-HXDLIN(2776)				if (_hx_tmp) {
-HXLINE(2778)					_gthis->opponentNoteHit(daNote);
-            				}
-HXLINE(2781)				bool _hx_tmp3;
-HXDLIN(2781)				if (daNote->mustPress) {
-HXLINE(2781)					_hx_tmp3 = _gthis->cpuControlled;
+HXDLIN(2832)				if (_hx_tmp1) {
+HXLINE(2832)					_hx_tmp = !(daNote->ignoreNote);
             				}
             				else {
-HXLINE(2781)					_hx_tmp3 = false;
+HXLINE(2832)					_hx_tmp = false;
             				}
-HXDLIN(2781)				if (_hx_tmp3) {
-HXLINE(2782)					if (daNote->isSustainNote) {
-HXLINE(2783)						if (daNote->canBeHit) {
-HXLINE(2784)							_gthis->goodNoteHit(daNote);
+HXDLIN(2832)				if (_hx_tmp) {
+HXLINE(2834)					_gthis->opponentNoteHit(daNote);
+            				}
+HXLINE(2837)				bool _hx_tmp3;
+HXDLIN(2837)				if (daNote->mustPress) {
+HXLINE(2837)					_hx_tmp3 = _gthis->cpuControlled;
+            				}
+            				else {
+HXLINE(2837)					_hx_tmp3 = false;
+            				}
+HXDLIN(2837)				if (_hx_tmp3) {
+HXLINE(2838)					if (daNote->isSustainNote) {
+HXLINE(2839)						if (daNote->canBeHit) {
+HXLINE(2840)							_gthis->goodNoteHit(daNote);
             						}
             					}
             					else {
-HXLINE(2786)						bool _hx_tmp;
-HXDLIN(2786)						if (!((daNote->strumTime <= ::Conductor_obj::songPosition))) {
-HXLINE(2786)							bool _hx_tmp1;
-HXDLIN(2786)							if (daNote->isSustainNote) {
-HXLINE(2786)								_hx_tmp1 = daNote->canBeHit;
+HXLINE(2842)						bool _hx_tmp;
+HXDLIN(2842)						if (!((daNote->strumTime <= ::Conductor_obj::songPosition))) {
+HXLINE(2842)							bool _hx_tmp1;
+HXDLIN(2842)							if (daNote->isSustainNote) {
+HXLINE(2842)								_hx_tmp1 = daNote->canBeHit;
             							}
             							else {
-HXLINE(2786)								_hx_tmp1 = false;
+HXLINE(2842)								_hx_tmp1 = false;
             							}
-HXDLIN(2786)							if (_hx_tmp1) {
-HXLINE(2786)								_hx_tmp = daNote->mustPress;
+HXDLIN(2842)							if (_hx_tmp1) {
+HXLINE(2842)								_hx_tmp = daNote->mustPress;
             							}
             							else {
-HXLINE(2786)								_hx_tmp = false;
+HXLINE(2842)								_hx_tmp = false;
             							}
             						}
             						else {
-HXLINE(2786)							_hx_tmp = true;
+HXLINE(2842)							_hx_tmp = true;
             						}
-HXDLIN(2786)						if (_hx_tmp) {
-HXLINE(2787)							_gthis->goodNoteHit(daNote);
+HXDLIN(2842)						if (_hx_tmp) {
+HXLINE(2843)							_gthis->goodNoteHit(daNote);
             						}
             					}
             				}
-HXLINE(2791)				Float center = (strumY + (::Note_obj::swagWidth / ( (Float)(2) )));
-HXLINE(2792)				bool _hx_tmp4;
-HXDLIN(2792)				bool _hx_tmp5;
-HXDLIN(2792)				bool _hx_tmp6;
-HXDLIN(2792)				if (Dynamic( strumGroup->members->__get(daNote->noteData)).StaticCast<  ::StrumNote >()->sustainReduce) {
-HXLINE(2792)					_hx_tmp6 = daNote->isSustainNote;
+HXLINE(2847)				Float center = (strumY + (::Note_obj::swagWidth / ( (Float)(2) )));
+HXLINE(2848)				bool _hx_tmp4;
+HXDLIN(2848)				bool _hx_tmp5;
+HXDLIN(2848)				bool _hx_tmp6;
+HXDLIN(2848)				if (Dynamic( strumGroup->members->__get(daNote->noteData)).StaticCast<  ::StrumNote >()->sustainReduce) {
+HXLINE(2848)					_hx_tmp6 = daNote->isSustainNote;
             				}
             				else {
-HXLINE(2792)					_hx_tmp6 = false;
+HXLINE(2848)					_hx_tmp6 = false;
             				}
-HXDLIN(2792)				if (_hx_tmp6) {
-HXLINE(2792)					if (!(daNote->mustPress)) {
-HXLINE(2792)						_hx_tmp5 = !(daNote->ignoreNote);
+HXDLIN(2848)				if (_hx_tmp6) {
+HXLINE(2848)					if (!(daNote->mustPress)) {
+HXLINE(2848)						_hx_tmp5 = !(daNote->ignoreNote);
             					}
             					else {
-HXLINE(2792)						_hx_tmp5 = true;
+HXLINE(2848)						_hx_tmp5 = true;
             					}
             				}
             				else {
-HXLINE(2792)					_hx_tmp5 = false;
+HXLINE(2848)					_hx_tmp5 = false;
             				}
-HXDLIN(2792)				if (_hx_tmp5) {
-HXLINE(2793)					if (daNote->mustPress) {
-HXLINE(2793)						if (!(daNote->wasGoodHit)) {
-HXLINE(2793)							if (daNote->prevNote->wasGoodHit) {
-HXLINE(2792)								_hx_tmp4 = !(daNote->canBeHit);
+HXDLIN(2848)				if (_hx_tmp5) {
+HXLINE(2849)					if (daNote->mustPress) {
+HXLINE(2849)						if (!(daNote->wasGoodHit)) {
+HXLINE(2849)							if (daNote->prevNote->wasGoodHit) {
+HXLINE(2848)								_hx_tmp4 = !(daNote->canBeHit);
             							}
             							else {
-HXLINE(2792)								_hx_tmp4 = false;
+HXLINE(2848)								_hx_tmp4 = false;
             							}
             						}
             						else {
-HXLINE(2792)							_hx_tmp4 = true;
+HXLINE(2848)							_hx_tmp4 = true;
             						}
             					}
             					else {
-HXLINE(2792)						_hx_tmp4 = true;
+HXLINE(2848)						_hx_tmp4 = true;
             					}
             				}
             				else {
-HXLINE(2792)					_hx_tmp4 = false;
+HXLINE(2848)					_hx_tmp4 = false;
             				}
-HXDLIN(2792)				if (_hx_tmp4) {
-HXLINE(2795)					if (strumScroll) {
-HXLINE(2797)						Float _hx_tmp = (daNote->y - (daNote->offset->y * daNote->scale->y));
-HXDLIN(2797)						if (((_hx_tmp + daNote->get_height()) >= center)) {
-HXLINE(2799)							 ::flixel::math::FlxRect swagRect =  ::flixel::math::FlxRect_obj::__alloc( HX_CTX ,0,0,daNote->frameWidth,daNote->frameHeight);
-HXLINE(2800)							swagRect->height = ((center - daNote->y) / daNote->scale->y);
-HXLINE(2801)							swagRect->y = (( (Float)(daNote->frameHeight) ) - swagRect->height);
-HXLINE(2803)							daNote->set_clipRect(swagRect);
+HXDLIN(2848)				if (_hx_tmp4) {
+HXLINE(2851)					if (strumScroll) {
+HXLINE(2853)						Float _hx_tmp = (daNote->y - (daNote->offset->y * daNote->scale->y));
+HXDLIN(2853)						if (((_hx_tmp + daNote->get_height()) >= center)) {
+HXLINE(2855)							 ::flixel::math::FlxRect swagRect =  ::flixel::math::FlxRect_obj::__alloc( HX_CTX ,0,0,daNote->frameWidth,daNote->frameHeight);
+HXLINE(2856)							swagRect->height = ((center - daNote->y) / daNote->scale->y);
+HXLINE(2857)							swagRect->y = (( (Float)(daNote->frameHeight) ) - swagRect->height);
+HXLINE(2859)							daNote->set_clipRect(swagRect);
             						}
             					}
             					else {
-HXLINE(2808)						if (((daNote->y + (daNote->offset->y * daNote->scale->y)) <= center)) {
-HXLINE(2810)							Float swagRect = daNote->get_width();
-HXDLIN(2810)							Float swagRect1 = (swagRect / daNote->scale->x);
-HXDLIN(2810)							Float swagRect2 = daNote->get_height();
-HXDLIN(2810)							 ::flixel::math::FlxRect swagRect3 =  ::flixel::math::FlxRect_obj::__alloc( HX_CTX ,0,0,swagRect1,(swagRect2 / daNote->scale->y));
-HXLINE(2811)							swagRect3->y = ((center - daNote->y) / daNote->scale->y);
-HXLINE(2812)							 ::flixel::math::FlxRect swagRect4 = swagRect3;
-HXDLIN(2812)							swagRect4->height = (swagRect4->height - swagRect3->y);
-HXLINE(2814)							daNote->set_clipRect(swagRect3);
+HXLINE(2864)						if (((daNote->y + (daNote->offset->y * daNote->scale->y)) <= center)) {
+HXLINE(2866)							Float swagRect = daNote->get_width();
+HXDLIN(2866)							Float swagRect1 = (swagRect / daNote->scale->x);
+HXDLIN(2866)							Float swagRect2 = daNote->get_height();
+HXDLIN(2866)							 ::flixel::math::FlxRect swagRect3 =  ::flixel::math::FlxRect_obj::__alloc( HX_CTX ,0,0,swagRect1,(swagRect2 / daNote->scale->y));
+HXLINE(2867)							swagRect3->y = ((center - daNote->y) / daNote->scale->y);
+HXLINE(2868)							 ::flixel::math::FlxRect swagRect4 = swagRect3;
+HXDLIN(2868)							swagRect4->height = (swagRect4->height - swagRect3->y);
+HXLINE(2870)							daNote->set_clipRect(swagRect3);
             						}
             					}
             				}
-HXLINE(2820)				if ((::Conductor_obj::songPosition > (_gthis->noteKillOffset + daNote->strumTime))) {
-HXLINE(2822)					bool _hx_tmp;
-HXDLIN(2822)					bool _hx_tmp1;
-HXDLIN(2822)					bool _hx_tmp2;
-HXDLIN(2822)					bool _hx_tmp3;
-HXDLIN(2822)					if (daNote->mustPress) {
-HXLINE(2822)						_hx_tmp3 = !(_gthis->cpuControlled);
+HXLINE(2876)				if ((::Conductor_obj::songPosition > (_gthis->noteKillOffset + daNote->strumTime))) {
+HXLINE(2878)					bool _hx_tmp;
+HXDLIN(2878)					bool _hx_tmp1;
+HXDLIN(2878)					bool _hx_tmp2;
+HXDLIN(2878)					bool _hx_tmp3;
+HXDLIN(2878)					if (daNote->mustPress) {
+HXLINE(2878)						_hx_tmp3 = !(_gthis->cpuControlled);
             					}
             					else {
-HXLINE(2822)						_hx_tmp3 = false;
+HXLINE(2878)						_hx_tmp3 = false;
             					}
-HXDLIN(2822)					if (_hx_tmp3) {
-HXLINE(2822)						_hx_tmp2 = !(daNote->ignoreNote);
-            					}
-            					else {
-HXLINE(2822)						_hx_tmp2 = false;
-            					}
-HXDLIN(2822)					if (_hx_tmp2) {
-HXLINE(2822)						_hx_tmp1 = !(_gthis->endingSong);
+HXDLIN(2878)					if (_hx_tmp3) {
+HXLINE(2878)						_hx_tmp2 = !(daNote->ignoreNote);
             					}
             					else {
-HXLINE(2822)						_hx_tmp1 = false;
+HXLINE(2878)						_hx_tmp2 = false;
             					}
-HXDLIN(2822)					if (_hx_tmp1) {
-HXLINE(2822)						if (!(daNote->tooLate)) {
-HXLINE(2822)							_hx_tmp = !(daNote->wasGoodHit);
+HXDLIN(2878)					if (_hx_tmp2) {
+HXLINE(2878)						_hx_tmp1 = !(_gthis->endingSong);
+            					}
+            					else {
+HXLINE(2878)						_hx_tmp1 = false;
+            					}
+HXDLIN(2878)					if (_hx_tmp1) {
+HXLINE(2878)						if (!(daNote->tooLate)) {
+HXLINE(2878)							_hx_tmp = !(daNote->wasGoodHit);
             						}
             						else {
-HXLINE(2822)							_hx_tmp = true;
+HXLINE(2878)							_hx_tmp = true;
             						}
             					}
             					else {
-HXLINE(2822)						_hx_tmp = false;
+HXLINE(2878)						_hx_tmp = false;
             					}
-HXDLIN(2822)					if (_hx_tmp) {
-HXLINE(2823)						_gthis->noteMiss(daNote);
+HXDLIN(2878)					if (_hx_tmp) {
+HXLINE(2879)						_gthis->noteMiss(daNote);
             					}
-HXLINE(2826)					daNote->set_active(false);
-HXLINE(2827)					daNote->set_visible(false);
-HXLINE(2829)					daNote->kill();
-HXLINE(2830)					_gthis->notes->remove(daNote,true).StaticCast<  ::Note >();
-HXLINE(2831)					daNote->destroy();
+HXLINE(2882)					daNote->set_active(false);
+HXLINE(2883)					daNote->set_visible(false);
+HXLINE(2885)					daNote->kill();
+HXLINE(2886)					_gthis->notes->remove(daNote,true).StaticCast<  ::Note >();
+HXLINE(2887)					daNote->destroy();
             				}
             			}
             			HX_END_LOCAL_FUNC1((void))
 
-HXLINE(2707)			if (!(this->inCutscene)) {
-HXLINE(2708)				if (!(this->cpuControlled)) {
-HXLINE(2709)					this->keyShit();
+HXLINE(2763)			if (!(this->inCutscene)) {
+HXLINE(2764)				if (!(this->cpuControlled)) {
+HXLINE(2765)					this->keyShit();
             				}
             				else {
-HXLINE(2710)					bool _hx_tmp;
-HXDLIN(2710)					bool _hx_tmp1;
-HXDLIN(2710)					if ((this->boyfriend->holdTimer > ((::Conductor_obj::stepCrochet * ((Float)0.001)) * this->boyfriend->singDuration))) {
-HXLINE(2710)						_hx_tmp1 = ::StringTools_obj::startsWith(this->boyfriend->animation->_curAnim->name,HX_("sing",4f,96,53,4c));
+HXLINE(2766)					bool _hx_tmp;
+HXDLIN(2766)					bool _hx_tmp1;
+HXDLIN(2766)					if ((this->boyfriend->holdTimer > ((::Conductor_obj::stepCrochet * ((Float)0.001)) * this->boyfriend->singDuration))) {
+HXLINE(2766)						_hx_tmp1 = ::StringTools_obj::startsWith(this->boyfriend->animation->_curAnim->name,HX_("sing",4f,96,53,4c));
             					}
             					else {
-HXLINE(2710)						_hx_tmp1 = false;
+HXLINE(2766)						_hx_tmp1 = false;
             					}
-HXDLIN(2710)					if (_hx_tmp1) {
-HXLINE(2710)						_hx_tmp = !(::StringTools_obj::endsWith(this->boyfriend->animation->_curAnim->name,HX_("miss",fc,52,5c,48)));
+HXDLIN(2766)					if (_hx_tmp1) {
+HXLINE(2766)						_hx_tmp = !(::StringTools_obj::endsWith(this->boyfriend->animation->_curAnim->name,HX_("miss",fc,52,5c,48)));
             					}
             					else {
-HXLINE(2710)						_hx_tmp = false;
+HXLINE(2766)						_hx_tmp = false;
             					}
-HXDLIN(2710)					if (_hx_tmp) {
-HXLINE(2711)						this->boyfriend->dance();
+HXDLIN(2766)					if (_hx_tmp) {
+HXLINE(2767)						this->boyfriend->dance();
             					}
             				}
             			}
-HXLINE(2716)			Float fakeCrochet = ((( (Float)(60) ) / ( (Float)(::PlayState_obj::SONG->__Field(HX_("bpm",df,be,4a,00),::hx::paccDynamic)) )) * ( (Float)(1000) ));
-HXLINE(2717)			this->notes->forEachAlive( ::Dynamic(new _hx_Closure_1(fakeCrochet,_gthis)),null());
+HXLINE(2772)			Float fakeCrochet = ((( (Float)(60) ) / ( (Float)(::PlayState_obj::SONG->__Field(HX_("bpm",df,be,4a,00),::hx::paccDynamic)) )) * ( (Float)(1000) ));
+HXLINE(2773)			this->notes->forEachAlive( ::Dynamic(new _hx_Closure_1(fakeCrochet,_gthis)),null());
             		}
-HXLINE(2835)		this->checkEventNote();
-HXLINE(2850)		this->setOnLuas(HX_("cameraX",13,8a,31,e3),this->camFollowPos->x);
-HXLINE(2851)		this->setOnLuas(HX_("cameraY",14,8a,31,e3),this->camFollowPos->y);
-HXLINE(2852)		this->setOnLuas(HX_("botPlay",9b,27,83,4c),this->cpuControlled);
-HXLINE(2853)		this->callOnLuas(HX_("onUpdatePost",08,11,55,db),::cpp::VirtualArray_obj::__new(1)->init(0,elapsed));
+HXLINE(2891)		this->checkEventNote();
+HXLINE(2906)		this->setOnLuas(HX_("cameraX",13,8a,31,e3),this->camFollowPos->x);
+HXLINE(2907)		this->setOnLuas(HX_("cameraY",14,8a,31,e3),this->camFollowPos->y);
+HXLINE(2908)		this->setOnLuas(HX_("botPlay",9b,27,83,4c),this->cpuControlled);
+HXLINE(2909)		this->callOnLuas(HX_("onUpdatePost",08,11,55,db),::cpp::VirtualArray_obj::__new(1)->init(0,elapsed));
             	}
 
 
 void PlayState_obj::openChartEditor(){
-            	HX_GC_STACKFRAME(&_hx_pos_af23706db05c7feb_2857_openChartEditor)
-HXLINE(2858)		this->persistentUpdate = false;
-HXLINE(2859)		this->paused = true;
-HXLINE(2860)		::PlayState_obj::cancelMusicFadeTween();
-HXLINE(2861)		::MusicBeatState_obj::switchState( ::editors::ChartingState_obj::__alloc( HX_CTX ,null(),null()));
-HXLINE(2862)		::PlayState_obj::chartingMode = true;
-HXLINE(2865)		::DiscordClient_obj::changePresence(HX_("Chart Editor",ef,b4,29,e9),null(),null(),true,null());
+            	HX_GC_STACKFRAME(&_hx_pos_af23706db05c7feb_2913_openChartEditor)
+HXLINE(2914)		this->persistentUpdate = false;
+HXLINE(2915)		this->paused = true;
+HXLINE(2916)		::PlayState_obj::cancelMusicFadeTween();
+HXLINE(2917)		::MusicBeatState_obj::switchState( ::editors::ChartingState_obj::__alloc( HX_CTX ,null(),null()));
+HXLINE(2918)		::PlayState_obj::chartingMode = true;
+HXLINE(2921)		::DiscordClient_obj::changePresence(HX_("Chart Editor",ef,b4,29,e9),null(),null(),true,null());
             	}
 
 
@@ -4429,99 +4486,99 @@ HX_DEFINE_DYNAMIC_FUNC0(PlayState_obj,openChartEditor,(void))
 bool PlayState_obj::doDeathCheck( ::Dynamic __o_skipHealthCheck){
             		 ::Dynamic skipHealthCheck = __o_skipHealthCheck;
             		if (::hx::IsNull(__o_skipHealthCheck)) skipHealthCheck = false;
-            	HX_GC_STACKFRAME(&_hx_pos_af23706db05c7feb_2870_doDeathCheck)
-HXLINE(2871)		bool _hx_tmp;
-HXDLIN(2871)		bool _hx_tmp1;
-HXDLIN(2871)		bool _hx_tmp2;
-HXDLIN(2871)		bool _hx_tmp3;
-HXDLIN(2871)		if (( (bool)(skipHealthCheck) )) {
-HXLINE(2871)			_hx_tmp3 = this->instakillOnMiss;
+            	HX_GC_STACKFRAME(&_hx_pos_af23706db05c7feb_2926_doDeathCheck)
+HXLINE(2927)		bool _hx_tmp;
+HXDLIN(2927)		bool _hx_tmp1;
+HXDLIN(2927)		bool _hx_tmp2;
+HXDLIN(2927)		bool _hx_tmp3;
+HXDLIN(2927)		if (( (bool)(skipHealthCheck) )) {
+HXLINE(2927)			_hx_tmp3 = this->instakillOnMiss;
             		}
             		else {
-HXLINE(2871)			_hx_tmp3 = false;
+HXLINE(2927)			_hx_tmp3 = false;
             		}
-HXDLIN(2871)		if (!(_hx_tmp3)) {
-HXLINE(2871)			_hx_tmp2 = (this->health <= 0);
-            		}
-            		else {
-HXLINE(2871)			_hx_tmp2 = true;
-            		}
-HXDLIN(2871)		if (_hx_tmp2) {
-HXLINE(2871)			_hx_tmp1 = !(this->practiceMode);
+HXDLIN(2927)		if (!(_hx_tmp3)) {
+HXLINE(2927)			_hx_tmp2 = (this->health <= 0);
             		}
             		else {
-HXLINE(2871)			_hx_tmp1 = false;
+HXLINE(2927)			_hx_tmp2 = true;
             		}
-HXDLIN(2871)		if (_hx_tmp1) {
-HXLINE(2871)			_hx_tmp = !(this->isDead);
+HXDLIN(2927)		if (_hx_tmp2) {
+HXLINE(2927)			_hx_tmp1 = !(this->practiceMode);
             		}
             		else {
-HXLINE(2871)			_hx_tmp = false;
+HXLINE(2927)			_hx_tmp1 = false;
             		}
-HXDLIN(2871)		if (_hx_tmp) {
-HXLINE(2873)			 ::Dynamic ret = this->callOnLuas(HX_("onGameOver",a5,66,95,93),::cpp::VirtualArray_obj::__new(0));
-HXLINE(2874)			if (::hx::IsNotEq( ret,::FunkinLua_obj::Function_Stop )) {
-HXLINE(2875)				this->boyfriend->stunned = true;
-HXLINE(2876)				::PlayState_obj::deathCounter++;
-HXLINE(2878)				this->paused = true;
-HXLINE(2880)				{
-HXLINE(2880)					 ::flixel::_hx_system::FlxSound _this = this->vocals;
-HXDLIN(2880)					_this->cleanup(_this->autoDestroy,true);
+HXDLIN(2927)		if (_hx_tmp1) {
+HXLINE(2927)			_hx_tmp = !(this->isDead);
+            		}
+            		else {
+HXLINE(2927)			_hx_tmp = false;
+            		}
+HXDLIN(2927)		if (_hx_tmp) {
+HXLINE(2929)			 ::Dynamic ret = this->callOnLuas(HX_("onGameOver",a5,66,95,93),::cpp::VirtualArray_obj::__new(0));
+HXLINE(2930)			if (::hx::IsNotEq( ret,::FunkinLua_obj::Function_Stop )) {
+HXLINE(2931)				this->boyfriend->stunned = true;
+HXLINE(2932)				::PlayState_obj::deathCounter++;
+HXLINE(2934)				this->paused = true;
+HXLINE(2936)				{
+HXLINE(2936)					 ::flixel::_hx_system::FlxSound _this = this->vocals;
+HXDLIN(2936)					_this->cleanup(_this->autoDestroy,true);
             				}
-HXLINE(2881)				{
-HXLINE(2881)					 ::flixel::_hx_system::FlxSound _this1 = ::flixel::FlxG_obj::sound->music;
-HXDLIN(2881)					_this1->cleanup(_this1->autoDestroy,true);
+HXLINE(2937)				{
+HXLINE(2937)					 ::flixel::_hx_system::FlxSound _this1 = ::flixel::FlxG_obj::sound->music;
+HXDLIN(2937)					_this1->cleanup(_this1->autoDestroy,true);
             				}
-HXLINE(2883)				this->persistentUpdate = false;
-HXLINE(2884)				this->persistentDraw = false;
-HXLINE(2885)				{
-HXLINE(2885)					 ::Dynamic tween = this->modchartTweens->iterator();
-HXDLIN(2885)					while(( (bool)(tween->__Field(HX_("hasNext",6d,a5,46,18),::hx::paccDynamic)()) )){
-HXLINE(2885)						 ::flixel::tweens::FlxTween tween1 = ( ( ::flixel::tweens::FlxTween)(tween->__Field(HX_("next",f3,84,02,49),::hx::paccDynamic)()) );
-HXLINE(2886)						tween1->set_active(true);
+HXLINE(2939)				this->persistentUpdate = false;
+HXLINE(2940)				this->persistentDraw = false;
+HXLINE(2941)				{
+HXLINE(2941)					 ::Dynamic tween = this->modchartTweens->iterator();
+HXDLIN(2941)					while(( (bool)(tween->__Field(HX_("hasNext",6d,a5,46,18),::hx::paccDynamic)()) )){
+HXLINE(2941)						 ::flixel::tweens::FlxTween tween1 = ( ( ::flixel::tweens::FlxTween)(tween->__Field(HX_("next",f3,84,02,49),::hx::paccDynamic)()) );
+HXLINE(2942)						tween1->set_active(true);
             					}
             				}
-HXLINE(2888)				{
-HXLINE(2888)					 ::Dynamic timer = this->modchartTimers->iterator();
-HXDLIN(2888)					while(( (bool)(timer->__Field(HX_("hasNext",6d,a5,46,18),::hx::paccDynamic)()) )){
-HXLINE(2888)						 ::flixel::util::FlxTimer timer1 = ( ( ::flixel::util::FlxTimer)(timer->__Field(HX_("next",f3,84,02,49),::hx::paccDynamic)()) );
-HXLINE(2889)						timer1->active = true;
+HXLINE(2944)				{
+HXLINE(2944)					 ::Dynamic timer = this->modchartTimers->iterator();
+HXDLIN(2944)					while(( (bool)(timer->__Field(HX_("hasNext",6d,a5,46,18),::hx::paccDynamic)()) )){
+HXLINE(2944)						 ::flixel::util::FlxTimer timer1 = ( ( ::flixel::util::FlxTimer)(timer->__Field(HX_("next",f3,84,02,49),::hx::paccDynamic)()) );
+HXLINE(2945)						timer1->active = true;
             					}
             				}
-HXLINE(2891)				Float _hx_tmp = this->boyfriend->getScreenPosition(null(),null())->x;
-HXDLIN(2891)				Float _hx_tmp1 = (_hx_tmp - this->boyfriend->positionArray->__get(0));
-HXDLIN(2891)				Float _hx_tmp2 = this->boyfriend->getScreenPosition(null(),null())->y;
-HXDLIN(2891)				this->openSubState( ::GameOverSubstate_obj::__alloc( HX_CTX ,_hx_tmp1,(_hx_tmp2 - this->boyfriend->positionArray->__get(1)),this->camFollowPos->x,this->camFollowPos->y));
-HXLINE(2897)				::String _hx_tmp3 = (HX_("Game Over - ",71,58,c7,c5) + this->detailsText);
-HXDLIN(2897)				::String _hx_tmp4 = ( (::String)((((::PlayState_obj::SONG->__Field(HX_("song",d5,23,58,4c),::hx::paccDynamic) + HX_(" (",08,1c,00,00)) + this->storyDifficultyText) + HX_(")",29,00,00,00))) );
-HXDLIN(2897)				::DiscordClient_obj::changePresence(_hx_tmp3,_hx_tmp4,this->iconP2->getCharacter(),null(),null());
-HXLINE(2899)				this->isDead = true;
-HXLINE(2900)				return true;
+HXLINE(2947)				Float _hx_tmp = this->boyfriend->getScreenPosition(null(),null())->x;
+HXDLIN(2947)				Float _hx_tmp1 = (_hx_tmp - this->boyfriend->positionArray->__get(0));
+HXDLIN(2947)				Float _hx_tmp2 = this->boyfriend->getScreenPosition(null(),null())->y;
+HXDLIN(2947)				this->openSubState( ::GameOverSubstate_obj::__alloc( HX_CTX ,_hx_tmp1,(_hx_tmp2 - this->boyfriend->positionArray->__get(1)),this->camFollowPos->x,this->camFollowPos->y));
+HXLINE(2953)				::String _hx_tmp3 = (HX_("Game Over - ",71,58,c7,c5) + this->detailsText);
+HXDLIN(2953)				::String _hx_tmp4 = ( (::String)((((::PlayState_obj::SONG->__Field(HX_("song",d5,23,58,4c),::hx::paccDynamic) + HX_(" (",08,1c,00,00)) + this->storyDifficultyText) + HX_(")",29,00,00,00))) );
+HXDLIN(2953)				::DiscordClient_obj::changePresence(_hx_tmp3,_hx_tmp4,this->iconP2->getCharacter(),null(),null());
+HXLINE(2955)				this->isDead = true;
+HXLINE(2956)				return true;
             			}
             		}
-HXLINE(2903)		return false;
+HXLINE(2959)		return false;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(PlayState_obj,doDeathCheck,return )
 
 void PlayState_obj::checkEventNote(){
-            	HX_STACKFRAME(&_hx_pos_af23706db05c7feb_2907_checkEventNote)
-HXDLIN(2907)		while((this->eventNotes->length > 0)){
-HXLINE(2908)			Float leStrumTime = ( (Float)(this->eventNotes->__get(0)->__Field(HX_("strumTime",f6,2d,21,f4),::hx::paccDynamic)) );
-HXLINE(2909)			if ((::Conductor_obj::songPosition < leStrumTime)) {
-HXLINE(2910)				goto _hx_goto_124;
+            	HX_STACKFRAME(&_hx_pos_af23706db05c7feb_2963_checkEventNote)
+HXDLIN(2963)		while((this->eventNotes->length > 0)){
+HXLINE(2964)			Float leStrumTime = ( (Float)(this->eventNotes->__get(0)->__Field(HX_("strumTime",f6,2d,21,f4),::hx::paccDynamic)) );
+HXLINE(2965)			if ((::Conductor_obj::songPosition < leStrumTime)) {
+HXLINE(2966)				goto _hx_goto_124;
             			}
-HXLINE(2913)			::String value1 = HX_("",00,00,00,00);
-HXLINE(2914)			if (::hx::IsNotNull( this->eventNotes->__get(0)->__Field(HX_("value1",a0,03,b7,4f),::hx::paccDynamic) )) {
-HXLINE(2915)				value1 = ( (::String)(this->eventNotes->__get(0)->__Field(HX_("value1",a0,03,b7,4f),::hx::paccDynamic)) );
+HXLINE(2969)			::String value1 = HX_("",00,00,00,00);
+HXLINE(2970)			if (::hx::IsNotNull( this->eventNotes->__get(0)->__Field(HX_("value1",a0,03,b7,4f),::hx::paccDynamic) )) {
+HXLINE(2971)				value1 = ( (::String)(this->eventNotes->__get(0)->__Field(HX_("value1",a0,03,b7,4f),::hx::paccDynamic)) );
             			}
-HXLINE(2917)			::String value2 = HX_("",00,00,00,00);
-HXLINE(2918)			if (::hx::IsNotNull( this->eventNotes->__get(0)->__Field(HX_("value2",a1,03,b7,4f),::hx::paccDynamic) )) {
-HXLINE(2919)				value2 = ( (::String)(this->eventNotes->__get(0)->__Field(HX_("value2",a1,03,b7,4f),::hx::paccDynamic)) );
+HXLINE(2973)			::String value2 = HX_("",00,00,00,00);
+HXLINE(2974)			if (::hx::IsNotNull( this->eventNotes->__get(0)->__Field(HX_("value2",a1,03,b7,4f),::hx::paccDynamic) )) {
+HXLINE(2975)				value2 = ( (::String)(this->eventNotes->__get(0)->__Field(HX_("value2",a1,03,b7,4f),::hx::paccDynamic)) );
             			}
-HXLINE(2921)			this->triggerEventNote(( (::String)(this->eventNotes->__get(0)->__Field(HX_("event",1a,c8,c4,75),::hx::paccDynamic)) ),value1,value2);
-HXLINE(2922)			this->eventNotes->shift();
+HXLINE(2977)			this->triggerEventNote(( (::String)(this->eventNotes->__get(0)->__Field(HX_("event",1a,c8,c4,75),::hx::paccDynamic)) ),value1,value2);
+HXLINE(2978)			this->eventNotes->shift();
             		}
             		_hx_goto_124:;
             	}
@@ -4530,588 +4587,588 @@ HXLINE(2922)			this->eventNotes->shift();
 HX_DEFINE_DYNAMIC_FUNC0(PlayState_obj,checkEventNote,(void))
 
 bool PlayState_obj::getControl(::String key){
-            	HX_STACKFRAME(&_hx_pos_af23706db05c7feb_2926_getControl)
-HXLINE(2927)		bool pressed = ( (bool)(::Reflect_obj::getProperty(::PlayerSettings_obj::player1->controls,key)) );
-HXLINE(2929)		return pressed;
+            	HX_STACKFRAME(&_hx_pos_af23706db05c7feb_2982_getControl)
+HXLINE(2983)		bool pressed = ( (bool)(::Reflect_obj::getProperty(::PlayerSettings_obj::player1->controls,key)) );
+HXLINE(2985)		return pressed;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(PlayState_obj,getControl,return )
 
 void PlayState_obj::triggerEventNote(::String eventName,::String value1,::String value2){
-            	HX_STACKFRAME(&_hx_pos_af23706db05c7feb_2932_triggerEventNote)
-HXDLIN(2932)		 ::PlayState _gthis = ::hx::ObjectPtr<OBJ_>(this);
-HXLINE(2933)		::String _hx_switch_0 = eventName;
+            	HX_STACKFRAME(&_hx_pos_af23706db05c7feb_2988_triggerEventNote)
+HXDLIN(2988)		 ::PlayState _gthis = ::hx::ObjectPtr<OBJ_>(this);
+HXLINE(2989)		::String _hx_switch_0 = eventName;
             		if (  (_hx_switch_0==HX_("Add Camera Zoom",cf,55,a6,44)) ){
-HXLINE(3092)			bool _hx_tmp;
-HXDLIN(3092)			if (::ClientPrefs_obj::camZooms) {
-HXLINE(3092)				_hx_tmp = (::flixel::FlxG_obj::camera->zoom < ((Float)1.35));
+HXLINE(3148)			bool _hx_tmp;
+HXDLIN(3148)			if (::ClientPrefs_obj::camZooms) {
+HXLINE(3148)				_hx_tmp = (::flixel::FlxG_obj::camera->zoom < ((Float)1.35));
             			}
             			else {
-HXLINE(3092)				_hx_tmp = false;
+HXLINE(3148)				_hx_tmp = false;
             			}
-HXDLIN(3092)			if (_hx_tmp) {
-HXLINE(3093)				Float camZoom = ::Std_obj::parseFloat(value1);
-HXLINE(3094)				Float hudZoom = ::Std_obj::parseFloat(value2);
-HXLINE(3095)				if (::Math_obj::isNaN(camZoom)) {
-HXLINE(3095)					camZoom = ((Float)0.015);
+HXDLIN(3148)			if (_hx_tmp) {
+HXLINE(3149)				Float camZoom = ::Std_obj::parseFloat(value1);
+HXLINE(3150)				Float hudZoom = ::Std_obj::parseFloat(value2);
+HXLINE(3151)				if (::Math_obj::isNaN(camZoom)) {
+HXLINE(3151)					camZoom = ((Float)0.015);
             				}
-HXLINE(3096)				if (::Math_obj::isNaN(hudZoom)) {
-HXLINE(3096)					hudZoom = ((Float)0.03);
+HXLINE(3152)				if (::Math_obj::isNaN(hudZoom)) {
+HXLINE(3152)					hudZoom = ((Float)0.03);
             				}
-HXLINE(3098)				{
-HXLINE(3098)					 ::flixel::FlxCamera _g = ::flixel::FlxG_obj::camera;
-HXDLIN(3098)					_g->set_zoom((_g->zoom + camZoom));
+HXLINE(3154)				{
+HXLINE(3154)					 ::flixel::FlxCamera _g = ::flixel::FlxG_obj::camera;
+HXDLIN(3154)					_g->set_zoom((_g->zoom + camZoom));
             				}
-HXLINE(3099)				{
-HXLINE(3099)					 ::flixel::FlxCamera _g1 = this->camHUD;
-HXDLIN(3099)					_g1->set_zoom((_g1->zoom + hudZoom));
+HXLINE(3155)				{
+HXLINE(3155)					 ::flixel::FlxCamera _g1 = this->camHUD;
+HXDLIN(3155)					_g1->set_zoom((_g1->zoom + hudZoom));
             				}
             			}
-HXLINE(3092)			goto _hx_goto_127;
+HXLINE(3148)			goto _hx_goto_127;
             		}
             		if (  (_hx_switch_0==HX_("Alt Idle Animation",2f,00,fa,18)) ){
-HXLINE(3146)			 ::Character _hx_char = this->dad;
-HXLINE(3147)			::String _hx_switch_1 = value1.toLowerCase();
+HXLINE(3202)			 ::Character _hx_char = this->dad;
+HXLINE(3203)			::String _hx_switch_1 = value1.toLowerCase();
             			if (  (_hx_switch_1==HX_("bf",c4,55,00,00)) ||  (_hx_switch_1==HX_("boyfriend",6a,29,b8,e6)) ){
-HXLINE(3151)				_hx_char = this->boyfriend;
-HXDLIN(3151)				goto _hx_goto_128;
+HXLINE(3207)				_hx_char = this->boyfriend;
+HXDLIN(3207)				goto _hx_goto_128;
             			}
             			if (  (_hx_switch_1==HX_("gf",1f,5a,00,00)) ||  (_hx_switch_1==HX_("girlfriend",ba,91,48,98)) ){
-HXLINE(3149)				_hx_char = this->gf;
-HXDLIN(3149)				goto _hx_goto_128;
+HXLINE(3205)				_hx_char = this->gf;
+HXDLIN(3205)				goto _hx_goto_128;
             			}
             			/* default */{
-HXLINE(3153)				int val = ( (int)(::Std_obj::parseInt(value1)) );
-HXLINE(3154)				if (::Math_obj::isNaN(( (Float)(val) ))) {
-HXLINE(3154)					val = 0;
+HXLINE(3209)				int val = ( (int)(::Std_obj::parseInt(value1)) );
+HXLINE(3210)				if (::Math_obj::isNaN(( (Float)(val) ))) {
+HXLINE(3210)					val = 0;
             				}
-HXLINE(3156)				switch((int)(val)){
+HXLINE(3212)				switch((int)(val)){
             					case (int)1: {
-HXLINE(3157)						_hx_char = this->boyfriend;
+HXLINE(3213)						_hx_char = this->boyfriend;
             					}
             					break;
             					case (int)2: {
-HXLINE(3158)						_hx_char = this->gf;
+HXLINE(3214)						_hx_char = this->gf;
             					}
             					break;
             				}
             			}
             			_hx_goto_128:;
-HXLINE(3162)			if (::hx::IsNotNull( _hx_char )) {
-HXLINE(3164)				_hx_char->idleSuffix = value2;
-HXLINE(3165)				_hx_char->recalculateDanceIdle();
+HXLINE(3218)			if (::hx::IsNotNull( _hx_char )) {
+HXLINE(3220)				_hx_char->idleSuffix = value2;
+HXLINE(3221)				_hx_char->recalculateDanceIdle();
             			}
-HXLINE(3145)			goto _hx_goto_127;
+HXLINE(3201)			goto _hx_goto_127;
             		}
             		if (  (_hx_switch_0==HX_("BG Freaks Expression",4d,76,b1,17)) ){
-HXLINE(3256)			if (::hx::IsNotNull( this->bgGirls )) {
-HXLINE(3256)				this->bgGirls->swapDanceType();
+HXLINE(3312)			if (::hx::IsNotNull( this->bgGirls )) {
+HXLINE(3312)				this->bgGirls->swapDanceType();
             			}
-HXDLIN(3256)			goto _hx_goto_127;
+HXDLIN(3312)			goto _hx_goto_127;
             		}
             		if (  (_hx_switch_0==HX_("Blammed Lights",67,27,0e,26)) ){
-HXLINE(2974)			int lightId = ( (int)(::Std_obj::parseInt(value1)) );
-HXLINE(2975)			if (::Math_obj::isNaN(( (Float)(lightId) ))) {
-HXLINE(2975)				lightId = 0;
+HXLINE(3030)			int lightId = ( (int)(::Std_obj::parseInt(value1)) );
+HXLINE(3031)			if (::Math_obj::isNaN(( (Float)(lightId) ))) {
+HXLINE(3031)				lightId = 0;
             			}
-HXLINE(2977)			::Array< ::Dynamic> chars = ::Array_obj< ::Dynamic>::__new(3)->init(0,this->boyfriend)->init(1,this->gf)->init(2,this->dad);
-HXLINE(2978)			bool _hx_tmp;
-HXDLIN(2978)			if ((lightId > 0)) {
-HXLINE(2978)				_hx_tmp = (this->curLightEvent != lightId);
+HXLINE(3033)			::Array< ::Dynamic> chars = ::Array_obj< ::Dynamic>::__new(3)->init(0,this->boyfriend)->init(1,this->gf)->init(2,this->dad);
+HXLINE(3034)			bool _hx_tmp;
+HXDLIN(3034)			if ((lightId > 0)) {
+HXLINE(3034)				_hx_tmp = (this->curLightEvent != lightId);
             			}
             			else {
-HXLINE(2978)				_hx_tmp = false;
+HXLINE(3034)				_hx_tmp = false;
             			}
-HXDLIN(2978)			if (_hx_tmp) {
-HXLINE(2979)				if ((lightId > 5)) {
-HXLINE(2979)					lightId = ::flixel::FlxG_obj::random->_hx_int(1,5,::Array_obj< int >::__new(1)->init(0,this->curLightEvent));
+HXDLIN(3034)			if (_hx_tmp) {
+HXLINE(3035)				if ((lightId > 5)) {
+HXLINE(3035)					lightId = ::flixel::FlxG_obj::random->_hx_int(1,5,::Array_obj< int >::__new(1)->init(0,this->curLightEvent));
             				}
-HXLINE(2981)				int color = -1;
-HXLINE(2982)				switch((int)(lightId)){
+HXLINE(3037)				int color = -1;
+HXLINE(3038)				switch((int)(lightId)){
             					case (int)1: {
-HXLINE(2984)						color = -13524227;
+HXLINE(3040)						color = -13524227;
             					}
             					break;
             					case (int)2: {
-HXLINE(2986)						color = -13501044;
+HXLINE(3042)						color = -13501044;
             					}
             					break;
             					case (int)3: {
-HXLINE(2988)						color = -551689;
+HXLINE(3044)						color = -551689;
             					}
             					break;
             					case (int)4: {
-HXLINE(2990)						color = -430749;
+HXLINE(3046)						color = -430749;
             					}
             					break;
             					case (int)5: {
-HXLINE(2992)						color = -285133;
+HXLINE(3048)						color = -285133;
             					}
             					break;
             				}
-HXLINE(2994)				this->curLightEvent = lightId;
-HXLINE(2996)				if ((this->blammedLightsBlack->alpha == 0)) {
+HXLINE(3050)				this->curLightEvent = lightId;
+HXLINE(3052)				if ((this->blammedLightsBlack->alpha == 0)) {
             					HX_BEGIN_LOCAL_FUNC_S1(::hx::LocalFunc,_hx_Closure_0, ::PlayState,_gthis) HXARGC(1)
             					void _hx_run( ::flixel::tweens::FlxTween twn){
-            						HX_STACKFRAME(&_hx_pos_af23706db05c7feb_3002_triggerEventNote)
-HXLINE(3002)						_gthis->blammedLightsBlackTween = null();
+            						HX_STACKFRAME(&_hx_pos_af23706db05c7feb_3058_triggerEventNote)
+HXLINE(3058)						_gthis->blammedLightsBlackTween = null();
             					}
             					HX_END_LOCAL_FUNC1((void))
 
-HXLINE(2997)					if (::hx::IsNotNull( this->blammedLightsBlackTween )) {
-HXLINE(2998)						this->blammedLightsBlackTween->cancel();
+HXLINE(3053)					if (::hx::IsNotNull( this->blammedLightsBlackTween )) {
+HXLINE(3054)						this->blammedLightsBlackTween->cancel();
             					}
-HXLINE(3000)					this->blammedLightsBlackTween = ::flixel::tweens::FlxTween_obj::tween(this->blammedLightsBlack, ::Dynamic(::hx::Anon_obj::Create(1)
+HXLINE(3056)					this->blammedLightsBlackTween = ::flixel::tweens::FlxTween_obj::tween(this->blammedLightsBlack, ::Dynamic(::hx::Anon_obj::Create(1)
             						->setFixed(0,HX_("alpha",5e,a7,96,21),1)),1, ::Dynamic(::hx::Anon_obj::Create(2)
             						->setFixed(0,HX_("ease",ee,8b,0c,43),::flixel::tweens::FlxEase_obj::quadInOut_dyn())
             						->setFixed(1,HX_("onComplete",f8,d4,7e,5d), ::Dynamic(new _hx_Closure_0(_gthis)))));
-HXLINE(3006)					{
-HXLINE(3006)						int _g = 0;
-HXDLIN(3006)						while((_g < chars->length)){
+HXLINE(3062)					{
+HXLINE(3062)						int _g = 0;
+HXDLIN(3062)						while((_g < chars->length)){
             							HX_BEGIN_LOCAL_FUNC_S1(::hx::LocalFunc,_hx_Closure_1, ::Character,_hx_char) HXARGC(1)
             							void _hx_run( ::flixel::tweens::FlxTween twn){
-            								HX_STACKFRAME(&_hx_pos_af23706db05c7feb_3011_triggerEventNote)
-HXLINE(3011)								_hx_char->colorTween = null();
+            								HX_STACKFRAME(&_hx_pos_af23706db05c7feb_3067_triggerEventNote)
+HXLINE(3067)								_hx_char->colorTween = null();
             							}
             							HX_END_LOCAL_FUNC1((void))
 
-HXLINE(3006)							 ::Character _hx_char = chars->__get(_g).StaticCast<  ::Character >();
-HXDLIN(3006)							_g = (_g + 1);
-HXLINE(3007)							if (::hx::IsNotNull( _hx_char->colorTween )) {
-HXLINE(3008)								_hx_char->colorTween->cancel();
+HXLINE(3062)							 ::Character _hx_char = chars->__get(_g).StaticCast<  ::Character >();
+HXDLIN(3062)							_g = (_g + 1);
+HXLINE(3063)							if (::hx::IsNotNull( _hx_char->colorTween )) {
+HXLINE(3064)								_hx_char->colorTween->cancel();
             							}
-HXLINE(3010)							_hx_char->colorTween = ::flixel::tweens::FlxTween_obj::color(_hx_char,1,-1,color, ::Dynamic(::hx::Anon_obj::Create(2)
+HXLINE(3066)							_hx_char->colorTween = ::flixel::tweens::FlxTween_obj::color(_hx_char,1,-1,color, ::Dynamic(::hx::Anon_obj::Create(2)
             								->setFixed(0,HX_("ease",ee,8b,0c,43),::flixel::tweens::FlxEase_obj::quadInOut_dyn())
             								->setFixed(1,HX_("onComplete",f8,d4,7e,5d), ::Dynamic(new _hx_Closure_1(_hx_char)))));
             						}
             					}
             				}
             				else {
-HXLINE(3015)					if (::hx::IsNotNull( this->blammedLightsBlackTween )) {
-HXLINE(3016)						this->blammedLightsBlackTween->cancel();
+HXLINE(3071)					if (::hx::IsNotNull( this->blammedLightsBlackTween )) {
+HXLINE(3072)						this->blammedLightsBlackTween->cancel();
             					}
-HXLINE(3018)					this->blammedLightsBlackTween = null();
-HXLINE(3019)					this->blammedLightsBlack->set_alpha(( (Float)(1) ));
-HXLINE(3021)					{
-HXLINE(3021)						int _g = 0;
-HXDLIN(3021)						while((_g < chars->length)){
-HXLINE(3021)							 ::Character _hx_char = chars->__get(_g).StaticCast<  ::Character >();
-HXDLIN(3021)							_g = (_g + 1);
-HXLINE(3022)							if (::hx::IsNotNull( _hx_char->colorTween )) {
-HXLINE(3023)								_hx_char->colorTween->cancel();
+HXLINE(3074)					this->blammedLightsBlackTween = null();
+HXLINE(3075)					this->blammedLightsBlack->set_alpha(( (Float)(1) ));
+HXLINE(3077)					{
+HXLINE(3077)						int _g = 0;
+HXDLIN(3077)						while((_g < chars->length)){
+HXLINE(3077)							 ::Character _hx_char = chars->__get(_g).StaticCast<  ::Character >();
+HXDLIN(3077)							_g = (_g + 1);
+HXLINE(3078)							if (::hx::IsNotNull( _hx_char->colorTween )) {
+HXLINE(3079)								_hx_char->colorTween->cancel();
             							}
-HXLINE(3025)							_hx_char->colorTween = null();
+HXLINE(3081)							_hx_char->colorTween = null();
             						}
             					}
-HXLINE(3027)					this->dad->set_color(color);
-HXLINE(3028)					this->boyfriend->set_color(color);
-HXLINE(3029)					if (::hx::IsNotNull( this->gf )) {
-HXLINE(3030)						this->gf->set_color(color);
+HXLINE(3083)					this->dad->set_color(color);
+HXLINE(3084)					this->boyfriend->set_color(color);
+HXLINE(3085)					if (::hx::IsNotNull( this->gf )) {
+HXLINE(3086)						this->gf->set_color(color);
             					}
             				}
-HXLINE(3033)				if ((::PlayState_obj::curStage == HX_("philly",28,77,5e,ef))) {
-HXLINE(3034)					if (::hx::IsNotNull( this->phillyCityLightsEvent )) {
+HXLINE(3089)				if ((::PlayState_obj::curStage == HX_("philly",28,77,5e,ef))) {
+HXLINE(3090)					if (::hx::IsNotNull( this->phillyCityLightsEvent )) {
             						HX_BEGIN_LOCAL_FUNC_S0(::hx::LocalFunc,_hx_Closure_2) HXARGC(1)
             						void _hx_run( ::BGSprite spr){
-            							HX_STACKFRAME(&_hx_pos_af23706db05c7feb_3036_triggerEventNote)
-HXLINE(3036)							spr->set_visible(false);
+            							HX_STACKFRAME(&_hx_pos_af23706db05c7feb_3092_triggerEventNote)
+HXLINE(3092)							spr->set_visible(false);
             						}
             						HX_END_LOCAL_FUNC1((void))
 
-HXLINE(3035)						this->phillyCityLightsEvent->forEach( ::Dynamic(new _hx_Closure_2()),null());
-HXLINE(3038)						Dynamic( this->phillyCityLightsEvent->members->__get((lightId - 1))).StaticCast<  ::BGSprite >()->set_visible(true);
-HXLINE(3039)						Dynamic( this->phillyCityLightsEvent->members->__get((lightId - 1))).StaticCast<  ::BGSprite >()->set_alpha(( (Float)(1) ));
+HXLINE(3091)						this->phillyCityLightsEvent->forEach( ::Dynamic(new _hx_Closure_2()),null());
+HXLINE(3094)						Dynamic( this->phillyCityLightsEvent->members->__get((lightId - 1))).StaticCast<  ::BGSprite >()->set_visible(true);
+HXLINE(3095)						Dynamic( this->phillyCityLightsEvent->members->__get((lightId - 1))).StaticCast<  ::BGSprite >()->set_alpha(( (Float)(1) ));
             					}
             				}
             			}
             			else {
-HXLINE(3043)				if ((this->blammedLightsBlack->alpha != 0)) {
+HXLINE(3099)				if ((this->blammedLightsBlack->alpha != 0)) {
             					HX_BEGIN_LOCAL_FUNC_S1(::hx::LocalFunc,_hx_Closure_3, ::PlayState,_gthis) HXARGC(1)
             					void _hx_run( ::flixel::tweens::FlxTween twn){
-            						HX_STACKFRAME(&_hx_pos_af23706db05c7feb_3049_triggerEventNote)
-HXLINE(3049)						_gthis->blammedLightsBlackTween = null();
+            						HX_STACKFRAME(&_hx_pos_af23706db05c7feb_3105_triggerEventNote)
+HXLINE(3105)						_gthis->blammedLightsBlackTween = null();
             					}
             					HX_END_LOCAL_FUNC1((void))
 
-HXLINE(3044)					if (::hx::IsNotNull( this->blammedLightsBlackTween )) {
-HXLINE(3045)						this->blammedLightsBlackTween->cancel();
+HXLINE(3100)					if (::hx::IsNotNull( this->blammedLightsBlackTween )) {
+HXLINE(3101)						this->blammedLightsBlackTween->cancel();
             					}
-HXLINE(3047)					this->blammedLightsBlackTween = ::flixel::tweens::FlxTween_obj::tween(this->blammedLightsBlack, ::Dynamic(::hx::Anon_obj::Create(1)
+HXLINE(3103)					this->blammedLightsBlackTween = ::flixel::tweens::FlxTween_obj::tween(this->blammedLightsBlack, ::Dynamic(::hx::Anon_obj::Create(1)
             						->setFixed(0,HX_("alpha",5e,a7,96,21),0)),1, ::Dynamic(::hx::Anon_obj::Create(2)
             						->setFixed(0,HX_("ease",ee,8b,0c,43),::flixel::tweens::FlxEase_obj::quadInOut_dyn())
             						->setFixed(1,HX_("onComplete",f8,d4,7e,5d), ::Dynamic(new _hx_Closure_3(_gthis)))));
             				}
-HXLINE(3054)				if ((::PlayState_obj::curStage == HX_("philly",28,77,5e,ef))) {
+HXLINE(3110)				if ((::PlayState_obj::curStage == HX_("philly",28,77,5e,ef))) {
             					HX_BEGIN_LOCAL_FUNC_S0(::hx::LocalFunc,_hx_Closure_4) HXARGC(1)
             					void _hx_run( ::BGSprite spr){
-            						HX_STACKFRAME(&_hx_pos_af23706db05c7feb_3056_triggerEventNote)
-HXLINE(3056)						spr->set_visible(false);
+            						HX_STACKFRAME(&_hx_pos_af23706db05c7feb_3112_triggerEventNote)
+HXLINE(3112)						spr->set_visible(false);
             					}
             					HX_END_LOCAL_FUNC1((void))
 
             					HX_BEGIN_LOCAL_FUNC_S0(::hx::LocalFunc,_hx_Closure_5) HXARGC(1)
             					void _hx_run( ::BGSprite spr){
-            						HX_STACKFRAME(&_hx_pos_af23706db05c7feb_3059_triggerEventNote)
-HXLINE(3059)						spr->set_visible(false);
+            						HX_STACKFRAME(&_hx_pos_af23706db05c7feb_3115_triggerEventNote)
+HXLINE(3115)						spr->set_visible(false);
             					}
             					HX_END_LOCAL_FUNC1((void))
 
-HXLINE(3055)					this->phillyCityLights->forEach( ::Dynamic(new _hx_Closure_4()),null());
-HXLINE(3058)					this->phillyCityLightsEvent->forEach( ::Dynamic(new _hx_Closure_5()),null());
-HXLINE(3062)					 ::flixel::FlxSprite memb = Dynamic( this->phillyCityLightsEvent->members->__get((this->curLightEvent - 1))).StaticCast<  ::BGSprite >();
-HXLINE(3063)					if (::hx::IsNotNull( memb )) {
+HXLINE(3111)					this->phillyCityLights->forEach( ::Dynamic(new _hx_Closure_4()),null());
+HXLINE(3114)					this->phillyCityLightsEvent->forEach( ::Dynamic(new _hx_Closure_5()),null());
+HXLINE(3118)					 ::flixel::FlxSprite memb = Dynamic( this->phillyCityLightsEvent->members->__get((this->curLightEvent - 1))).StaticCast<  ::BGSprite >();
+HXLINE(3119)					if (::hx::IsNotNull( memb )) {
             						HX_BEGIN_LOCAL_FUNC_S1(::hx::LocalFunc,_hx_Closure_6, ::PlayState,_gthis) HXARGC(1)
             						void _hx_run( ::flixel::tweens::FlxTween twn){
-            							HX_STACKFRAME(&_hx_pos_af23706db05c7feb_3070_triggerEventNote)
-HXLINE(3070)							_gthis->phillyCityLightsEventTween = null();
+            							HX_STACKFRAME(&_hx_pos_af23706db05c7feb_3126_triggerEventNote)
+HXLINE(3126)							_gthis->phillyCityLightsEventTween = null();
             						}
             						HX_END_LOCAL_FUNC1((void))
 
-HXLINE(3064)						memb->set_visible(true);
-HXLINE(3065)						memb->set_alpha(( (Float)(1) ));
-HXLINE(3066)						if (::hx::IsNotNull( this->phillyCityLightsEventTween )) {
-HXLINE(3067)							this->phillyCityLightsEventTween->cancel();
+HXLINE(3120)						memb->set_visible(true);
+HXLINE(3121)						memb->set_alpha(( (Float)(1) ));
+HXLINE(3122)						if (::hx::IsNotNull( this->phillyCityLightsEventTween )) {
+HXLINE(3123)							this->phillyCityLightsEventTween->cancel();
             						}
-HXLINE(3069)						this->phillyCityLightsEventTween = ::flixel::tweens::FlxTween_obj::tween(memb, ::Dynamic(::hx::Anon_obj::Create(1)
+HXLINE(3125)						this->phillyCityLightsEventTween = ::flixel::tweens::FlxTween_obj::tween(memb, ::Dynamic(::hx::Anon_obj::Create(1)
             							->setFixed(0,HX_("alpha",5e,a7,96,21),0)),1, ::Dynamic(::hx::Anon_obj::Create(2)
             							->setFixed(0,HX_("ease",ee,8b,0c,43),::flixel::tweens::FlxEase_obj::quadInOut_dyn())
             							->setFixed(1,HX_("onComplete",f8,d4,7e,5d), ::Dynamic(new _hx_Closure_6(_gthis)))));
             					}
             				}
-HXLINE(3075)				{
-HXLINE(3075)					int _g = 0;
-HXDLIN(3075)					while((_g < chars->length)){
+HXLINE(3131)				{
+HXLINE(3131)					int _g = 0;
+HXDLIN(3131)					while((_g < chars->length)){
             						HX_BEGIN_LOCAL_FUNC_S1(::hx::LocalFunc,_hx_Closure_7, ::Character,_hx_char) HXARGC(1)
             						void _hx_run( ::flixel::tweens::FlxTween twn){
-            							HX_STACKFRAME(&_hx_pos_af23706db05c7feb_3080_triggerEventNote)
-HXLINE(3080)							_hx_char->colorTween = null();
+            							HX_STACKFRAME(&_hx_pos_af23706db05c7feb_3136_triggerEventNote)
+HXLINE(3136)							_hx_char->colorTween = null();
             						}
             						HX_END_LOCAL_FUNC1((void))
 
-HXLINE(3075)						 ::Character _hx_char = chars->__get(_g).StaticCast<  ::Character >();
-HXDLIN(3075)						_g = (_g + 1);
-HXLINE(3076)						if (::hx::IsNotNull( _hx_char->colorTween )) {
-HXLINE(3077)							_hx_char->colorTween->cancel();
+HXLINE(3131)						 ::Character _hx_char = chars->__get(_g).StaticCast<  ::Character >();
+HXDLIN(3131)						_g = (_g + 1);
+HXLINE(3132)						if (::hx::IsNotNull( _hx_char->colorTween )) {
+HXLINE(3133)							_hx_char->colorTween->cancel();
             						}
-HXLINE(3079)						_hx_char->colorTween = ::flixel::tweens::FlxTween_obj::color(_hx_char,1,_hx_char->color,-1, ::Dynamic(::hx::Anon_obj::Create(2)
+HXLINE(3135)						_hx_char->colorTween = ::flixel::tweens::FlxTween_obj::color(_hx_char,1,_hx_char->color,-1, ::Dynamic(::hx::Anon_obj::Create(2)
             							->setFixed(0,HX_("ease",ee,8b,0c,43),::flixel::tweens::FlxEase_obj::quadInOut_dyn())
             							->setFixed(1,HX_("onComplete",f8,d4,7e,5d), ::Dynamic(new _hx_Closure_7(_hx_char)))));
             					}
             				}
-HXLINE(3084)				this->curLight = 0;
-HXLINE(3085)				this->curLightEvent = 0;
+HXLINE(3140)				this->curLight = 0;
+HXLINE(3141)				this->curLightEvent = 0;
             			}
-HXLINE(2973)			goto _hx_goto_127;
+HXLINE(3029)			goto _hx_goto_127;
             		}
             		if (  (_hx_switch_0==HX_("Camera Follow Pos",e0,d4,b1,c4)) ){
-HXLINE(3133)			Float val1 = ::Std_obj::parseFloat(value1);
-HXLINE(3134)			Float val2 = ::Std_obj::parseFloat(value2);
-HXLINE(3135)			if (::Math_obj::isNaN(val1)) {
-HXLINE(3135)				val1 = ( (Float)(0) );
+HXLINE(3189)			Float val1 = ::Std_obj::parseFloat(value1);
+HXLINE(3190)			Float val2 = ::Std_obj::parseFloat(value2);
+HXLINE(3191)			if (::Math_obj::isNaN(val1)) {
+HXLINE(3191)				val1 = ( (Float)(0) );
             			}
-HXLINE(3136)			if (::Math_obj::isNaN(val2)) {
-HXLINE(3136)				val2 = ( (Float)(0) );
+HXLINE(3192)			if (::Math_obj::isNaN(val2)) {
+HXLINE(3192)				val2 = ( (Float)(0) );
             			}
-HXLINE(3138)			this->isCameraOnForcedPos = false;
-HXLINE(3139)			bool _hx_tmp;
-HXDLIN(3139)			if (::Math_obj::isNaN(::Std_obj::parseFloat(value1))) {
-HXLINE(3139)				_hx_tmp = !(::Math_obj::isNaN(::Std_obj::parseFloat(value2)));
+HXLINE(3194)			this->isCameraOnForcedPos = false;
+HXLINE(3195)			bool _hx_tmp;
+HXDLIN(3195)			if (::Math_obj::isNaN(::Std_obj::parseFloat(value1))) {
+HXLINE(3195)				_hx_tmp = !(::Math_obj::isNaN(::Std_obj::parseFloat(value2)));
             			}
             			else {
-HXLINE(3139)				_hx_tmp = true;
+HXLINE(3195)				_hx_tmp = true;
             			}
-HXDLIN(3139)			if (_hx_tmp) {
-HXLINE(3140)				this->camFollow->set_x(val1);
-HXLINE(3141)				this->camFollow->set_y(val2);
-HXLINE(3142)				this->isCameraOnForcedPos = true;
+HXDLIN(3195)			if (_hx_tmp) {
+HXLINE(3196)				this->camFollow->set_x(val1);
+HXLINE(3197)				this->camFollow->set_y(val2);
+HXLINE(3198)				this->isCameraOnForcedPos = true;
             			}
-HXLINE(3132)			goto _hx_goto_127;
+HXLINE(3188)			goto _hx_goto_127;
             		}
             		if (  (_hx_switch_0==HX_("Change Character",f9,50,ef,9c)) ){
-HXLINE(3187)			int charType = 0;
-HXLINE(3188)			::String _hx_switch_2 = value1;
+HXLINE(3243)			int charType = 0;
+HXLINE(3244)			::String _hx_switch_2 = value1;
             			if (  (_hx_switch_2==HX_("gf",1f,5a,00,00)) ||  (_hx_switch_2==HX_("girlfriend",ba,91,48,98)) ){
-HXLINE(3190)				charType = 2;
-HXDLIN(3190)				goto _hx_goto_132;
+HXLINE(3246)				charType = 2;
+HXDLIN(3246)				goto _hx_goto_132;
             			}
             			if (  (_hx_switch_2==HX_("dad",47,36,4c,00)) ||  (_hx_switch_2==HX_("opponent",9d,b9,b8,f8)) ){
-HXLINE(3192)				charType = 1;
-HXDLIN(3192)				goto _hx_goto_132;
+HXLINE(3248)				charType = 1;
+HXDLIN(3248)				goto _hx_goto_132;
             			}
             			/* default */{
-HXLINE(3194)				charType = ( (int)(::Std_obj::parseInt(value1)) );
-HXLINE(3195)				if (::Math_obj::isNaN(( (Float)(charType) ))) {
-HXLINE(3195)					charType = 0;
+HXLINE(3250)				charType = ( (int)(::Std_obj::parseInt(value1)) );
+HXLINE(3251)				if (::Math_obj::isNaN(( (Float)(charType) ))) {
+HXLINE(3251)					charType = 0;
             				}
             			}
             			_hx_goto_132:;
-HXLINE(3198)			switch((int)(charType)){
+HXLINE(3254)			switch((int)(charType)){
             				case (int)0: {
-HXLINE(3200)					if ((this->boyfriend->curCharacter != value2)) {
-HXLINE(3201)						if (!(this->boyfriendMap->exists(value2))) {
-HXLINE(3202)							this->addCharacterToList(value2,charType);
+HXLINE(3256)					if ((this->boyfriend->curCharacter != value2)) {
+HXLINE(3257)						if (!(this->boyfriendMap->exists(value2))) {
+HXLINE(3258)							this->addCharacterToList(value2,charType);
             						}
-HXLINE(3205)						Float lastAlpha = this->boyfriend->alpha;
-HXLINE(3206)						this->boyfriend->set_alpha(((Float)0.00001));
-HXLINE(3207)						this->boyfriend = ( ( ::Boyfriend)(this->boyfriendMap->get(value2)) );
-HXLINE(3208)						this->boyfriend->set_alpha(lastAlpha);
-HXLINE(3209)						this->iconP1->changeIcon(this->boyfriend->healthIcon);
+HXLINE(3261)						Float lastAlpha = this->boyfriend->alpha;
+HXLINE(3262)						this->boyfriend->set_alpha(((Float)0.00001));
+HXLINE(3263)						this->boyfriend = ( ( ::Boyfriend)(this->boyfriendMap->get(value2)) );
+HXLINE(3264)						this->boyfriend->set_alpha(lastAlpha);
+HXLINE(3265)						this->iconP1->changeIcon(this->boyfriend->healthIcon);
             					}
-HXLINE(3211)					this->setOnLuas(HX_("boyfriendName",d5,c4,d2,4c),this->boyfriend->curCharacter);
+HXLINE(3267)					this->setOnLuas(HX_("boyfriendName",d5,c4,d2,4c),this->boyfriend->curCharacter);
             				}
             				break;
             				case (int)1: {
-HXLINE(3214)					if ((this->dad->curCharacter != value2)) {
-HXLINE(3215)						if (!(this->dadMap->exists(value2))) {
-HXLINE(3216)							this->addCharacterToList(value2,charType);
+HXLINE(3270)					if ((this->dad->curCharacter != value2)) {
+HXLINE(3271)						if (!(this->dadMap->exists(value2))) {
+HXLINE(3272)							this->addCharacterToList(value2,charType);
             						}
-HXLINE(3219)						bool wasGf = ::StringTools_obj::startsWith(this->dad->curCharacter,HX_("gf",1f,5a,00,00));
-HXLINE(3220)						Float lastAlpha = this->dad->alpha;
-HXLINE(3221)						this->dad->set_alpha(((Float)0.00001));
-HXLINE(3222)						this->dad = ( ( ::Character)(this->dadMap->get(value2)) );
-HXLINE(3223)						if (!(::StringTools_obj::startsWith(this->dad->curCharacter,HX_("gf",1f,5a,00,00)))) {
-HXLINE(3224)							bool _hx_tmp;
-HXDLIN(3224)							if (wasGf) {
-HXLINE(3224)								_hx_tmp = ::hx::IsNotNull( this->gf );
+HXLINE(3275)						bool wasGf = ::StringTools_obj::startsWith(this->dad->curCharacter,HX_("gf",1f,5a,00,00));
+HXLINE(3276)						Float lastAlpha = this->dad->alpha;
+HXLINE(3277)						this->dad->set_alpha(((Float)0.00001));
+HXLINE(3278)						this->dad = ( ( ::Character)(this->dadMap->get(value2)) );
+HXLINE(3279)						if (!(::StringTools_obj::startsWith(this->dad->curCharacter,HX_("gf",1f,5a,00,00)))) {
+HXLINE(3280)							bool _hx_tmp;
+HXDLIN(3280)							if (wasGf) {
+HXLINE(3280)								_hx_tmp = ::hx::IsNotNull( this->gf );
             							}
             							else {
-HXLINE(3224)								_hx_tmp = false;
+HXLINE(3280)								_hx_tmp = false;
             							}
-HXDLIN(3224)							if (_hx_tmp) {
-HXLINE(3225)								this->gf->set_visible(true);
+HXDLIN(3280)							if (_hx_tmp) {
+HXLINE(3281)								this->gf->set_visible(true);
             							}
             						}
             						else {
-HXLINE(3227)							if (::hx::IsNotNull( this->gf )) {
-HXLINE(3228)								this->gf->set_visible(false);
+HXLINE(3283)							if (::hx::IsNotNull( this->gf )) {
+HXLINE(3284)								this->gf->set_visible(false);
             							}
             						}
-HXLINE(3230)						this->dad->set_alpha(lastAlpha);
-HXLINE(3231)						this->iconP2->changeIcon(this->dad->healthIcon);
+HXLINE(3286)						this->dad->set_alpha(lastAlpha);
+HXLINE(3287)						this->iconP2->changeIcon(this->dad->healthIcon);
             					}
-HXLINE(3233)					this->setOnLuas(HX_("dadName",32,04,eb,ce),this->dad->curCharacter);
+HXLINE(3289)					this->setOnLuas(HX_("dadName",32,04,eb,ce),this->dad->curCharacter);
             				}
             				break;
             				case (int)2: {
-HXLINE(3236)					if (::hx::IsNotNull( this->gf )) {
-HXLINE(3238)						if ((this->gf->curCharacter != value2)) {
-HXLINE(3240)							if (!(this->gfMap->exists(value2))) {
-HXLINE(3242)								this->addCharacterToList(value2,charType);
+HXLINE(3292)					if (::hx::IsNotNull( this->gf )) {
+HXLINE(3294)						if ((this->gf->curCharacter != value2)) {
+HXLINE(3296)							if (!(this->gfMap->exists(value2))) {
+HXLINE(3298)								this->addCharacterToList(value2,charType);
             							}
-HXLINE(3245)							Float lastAlpha = this->gf->alpha;
-HXLINE(3246)							this->gf->set_alpha(((Float)0.00001));
-HXLINE(3247)							this->gf = ( ( ::Character)(this->gfMap->get(value2)) );
-HXLINE(3248)							this->gf->set_alpha(lastAlpha);
+HXLINE(3301)							Float lastAlpha = this->gf->alpha;
+HXLINE(3302)							this->gf->set_alpha(((Float)0.00001));
+HXLINE(3303)							this->gf = ( ( ::Character)(this->gfMap->get(value2)) );
+HXLINE(3304)							this->gf->set_alpha(lastAlpha);
             						}
-HXLINE(3250)						this->setOnLuas(HX_("gfName",0a,f4,79,1d),this->gf->curCharacter);
+HXLINE(3306)						this->setOnLuas(HX_("gfName",0a,f4,79,1d),this->gf->curCharacter);
             					}
             				}
             				break;
             			}
-HXLINE(3253)			this->reloadHealthBarColors();
-HXLINE(3186)			goto _hx_goto_127;
+HXLINE(3309)			this->reloadHealthBarColors();
+HXLINE(3242)			goto _hx_goto_127;
             		}
             		if (  (_hx_switch_0==HX_("Change Scroll Speed",c4,2f,0b,43)) ){
-HXLINE(3259)			if ((this->songSpeedType == HX_("constant",64,c1,9d,a5))) {
-HXLINE(3260)				return;
+HXLINE(3315)			if ((this->songSpeedType == HX_("constant",64,c1,9d,a5))) {
+HXLINE(3316)				return;
             			}
-HXLINE(3261)			Float val1 = ::Std_obj::parseFloat(value1);
-HXLINE(3262)			Float val2 = ::Std_obj::parseFloat(value2);
-HXLINE(3263)			if (::Math_obj::isNaN(val1)) {
-HXLINE(3263)				val1 = ( (Float)(1) );
+HXLINE(3317)			Float val1 = ::Std_obj::parseFloat(value1);
+HXLINE(3318)			Float val2 = ::Std_obj::parseFloat(value2);
+HXLINE(3319)			if (::Math_obj::isNaN(val1)) {
+HXLINE(3319)				val1 = ( (Float)(1) );
             			}
-HXLINE(3264)			if (::Math_obj::isNaN(val2)) {
-HXLINE(3264)				val2 = ( (Float)(0) );
+HXLINE(3320)			if (::Math_obj::isNaN(val2)) {
+HXLINE(3320)				val2 = ( (Float)(0) );
             			}
-HXLINE(3266)			Float newValue = ( (Float)(::PlayState_obj::SONG->__Field(HX_("speed",87,97,69,81),::hx::paccDynamic)) );
-HXDLIN(3266)			 ::Dynamic newValue1;
-HXDLIN(3266)			if (::ClientPrefs_obj::gameplaySettings->exists(HX_("scrollspeed",5a,70,19,38))) {
-HXLINE(3266)				newValue1 = ::ClientPrefs_obj::gameplaySettings->get(HX_("scrollspeed",5a,70,19,38));
+HXLINE(3322)			Float newValue = ( (Float)(::PlayState_obj::SONG->__Field(HX_("speed",87,97,69,81),::hx::paccDynamic)) );
+HXDLIN(3322)			 ::Dynamic newValue1;
+HXDLIN(3322)			if (::ClientPrefs_obj::gameplaySettings->exists(HX_("scrollspeed",5a,70,19,38))) {
+HXLINE(3322)				newValue1 = ::ClientPrefs_obj::gameplaySettings->get(HX_("scrollspeed",5a,70,19,38));
             			}
             			else {
-HXLINE(3266)				newValue1 = 1;
+HXLINE(3322)				newValue1 = 1;
             			}
-HXDLIN(3266)			Float newValue2 = ((newValue * ( (Float)(newValue1) )) * val1);
-HXLINE(3268)			if ((val2 <= 0)) {
-HXLINE(3270)				this->set_songSpeed(newValue2);
+HXDLIN(3322)			Float newValue2 = ((newValue * ( (Float)(newValue1) )) * val1);
+HXLINE(3324)			if ((val2 <= 0)) {
+HXLINE(3326)				this->set_songSpeed(newValue2);
             			}
             			else {
             				HX_BEGIN_LOCAL_FUNC_S1(::hx::LocalFunc,_hx_Closure_8, ::PlayState,_gthis) HXARGC(1)
             				void _hx_run( ::flixel::tweens::FlxTween twn){
-            					HX_STACKFRAME(&_hx_pos_af23706db05c7feb_3277_triggerEventNote)
-HXLINE(3277)					_gthis->songSpeedTween = null();
+            					HX_STACKFRAME(&_hx_pos_af23706db05c7feb_3333_triggerEventNote)
+HXLINE(3333)					_gthis->songSpeedTween = null();
             				}
             				HX_END_LOCAL_FUNC1((void))
 
-HXLINE(3274)				this->songSpeedTween = ::flixel::tweens::FlxTween_obj::tween(::hx::ObjectPtr<OBJ_>(this), ::Dynamic(::hx::Anon_obj::Create(1)
+HXLINE(3330)				this->songSpeedTween = ::flixel::tweens::FlxTween_obj::tween(::hx::ObjectPtr<OBJ_>(this), ::Dynamic(::hx::Anon_obj::Create(1)
             					->setFixed(0,HX_("songSpeed",72,df,e3,b0),newValue2)),val2, ::Dynamic(::hx::Anon_obj::Create(2)
             					->setFixed(0,HX_("ease",ee,8b,0c,43),::flixel::tweens::FlxEase_obj::linear_dyn())
             					->setFixed(1,HX_("onComplete",f8,d4,7e,5d), ::Dynamic(new _hx_Closure_8(_gthis)))));
             			}
-HXLINE(3258)			goto _hx_goto_127;
+HXLINE(3314)			goto _hx_goto_127;
             		}
             		if (  (_hx_switch_0==HX_("Hey!",e5,69,e4,2f)) ){
-HXLINE(2935)			int value = 2;
-HXLINE(2936)			::String _hx_switch_3 = ::StringTools_obj::trim(value1.toLowerCase());
+HXLINE(2991)			int value = 2;
+HXLINE(2992)			::String _hx_switch_3 = ::StringTools_obj::trim(value1.toLowerCase());
             			if (  (_hx_switch_3==HX_("1",31,00,00,00)) ||  (_hx_switch_3==HX_("gf",1f,5a,00,00)) ||  (_hx_switch_3==HX_("girlfriend",ba,91,48,98)) ){
-HXLINE(2940)				value = 1;
-HXDLIN(2940)				goto _hx_goto_133;
+HXLINE(2996)				value = 1;
+HXDLIN(2996)				goto _hx_goto_133;
             			}
             			if (  (_hx_switch_3==HX_("0",30,00,00,00)) ||  (_hx_switch_3==HX_("bf",c4,55,00,00)) ||  (_hx_switch_3==HX_("boyfriend",6a,29,b8,e6)) ){
-HXLINE(2938)				value = 0;
-HXDLIN(2938)				goto _hx_goto_133;
+HXLINE(2994)				value = 0;
+HXDLIN(2994)				goto _hx_goto_133;
             			}
             			_hx_goto_133:;
-HXLINE(2943)			Float time = ::Std_obj::parseFloat(value2);
-HXLINE(2944)			bool _hx_tmp;
-HXDLIN(2944)			if (!(::Math_obj::isNaN(time))) {
-HXLINE(2944)				_hx_tmp = (time <= 0);
+HXLINE(2999)			Float time = ::Std_obj::parseFloat(value2);
+HXLINE(3000)			bool _hx_tmp;
+HXDLIN(3000)			if (!(::Math_obj::isNaN(time))) {
+HXLINE(3000)				_hx_tmp = (time <= 0);
             			}
             			else {
-HXLINE(2944)				_hx_tmp = true;
+HXLINE(3000)				_hx_tmp = true;
             			}
-HXDLIN(2944)			if (_hx_tmp) {
-HXLINE(2944)				time = ((Float)0.6);
+HXDLIN(3000)			if (_hx_tmp) {
+HXLINE(3000)				time = ((Float)0.6);
             			}
-HXLINE(2946)			if ((value != 0)) {
-HXLINE(2947)				if (::StringTools_obj::startsWith(this->dad->curCharacter,HX_("gf",1f,5a,00,00))) {
-HXLINE(2948)					this->dad->playAnim(HX_("cheer",8d,9a,b6,45),true,null(),null());
-HXLINE(2949)					this->dad->specialAnim = true;
-HXLINE(2950)					this->dad->heyTimer = time;
+HXLINE(3002)			if ((value != 0)) {
+HXLINE(3003)				if (::StringTools_obj::startsWith(this->dad->curCharacter,HX_("gf",1f,5a,00,00))) {
+HXLINE(3004)					this->dad->playAnim(HX_("cheer",8d,9a,b6,45),true,null(),null());
+HXLINE(3005)					this->dad->specialAnim = true;
+HXLINE(3006)					this->dad->heyTimer = time;
             				}
             				else {
-HXLINE(2951)					if (::hx::IsNotNull( this->gf )) {
-HXLINE(2952)						this->gf->playAnim(HX_("cheer",8d,9a,b6,45),true,null(),null());
-HXLINE(2953)						this->gf->specialAnim = true;
-HXLINE(2954)						this->gf->heyTimer = time;
+HXLINE(3007)					if (::hx::IsNotNull( this->gf )) {
+HXLINE(3008)						this->gf->playAnim(HX_("cheer",8d,9a,b6,45),true,null(),null());
+HXLINE(3009)						this->gf->specialAnim = true;
+HXLINE(3010)						this->gf->heyTimer = time;
             					}
             				}
-HXLINE(2957)				if ((::PlayState_obj::curStage == HX_("mall",d4,3a,56,48))) {
-HXLINE(2958)					this->bottomBoppers->animation->play(HX_("hey",dc,42,4f,00),true,null(),null());
-HXLINE(2959)					this->heyTimer = time;
+HXLINE(3013)				if ((::PlayState_obj::curStage == HX_("mall",d4,3a,56,48))) {
+HXLINE(3014)					this->bottomBoppers->animation->play(HX_("hey",dc,42,4f,00),true,null(),null());
+HXLINE(3015)					this->heyTimer = time;
             				}
             			}
-HXLINE(2962)			if ((value != 1)) {
-HXLINE(2963)				this->boyfriend->playAnim(HX_("hey",dc,42,4f,00),true,null(),null());
-HXLINE(2964)				this->boyfriend->specialAnim = true;
-HXLINE(2965)				this->boyfriend->heyTimer = time;
+HXLINE(3018)			if ((value != 1)) {
+HXLINE(3019)				this->boyfriend->playAnim(HX_("hey",dc,42,4f,00),true,null(),null());
+HXLINE(3020)				this->boyfriend->specialAnim = true;
+HXLINE(3021)				this->boyfriend->heyTimer = time;
             			}
-HXLINE(2934)			goto _hx_goto_127;
+HXLINE(2990)			goto _hx_goto_127;
             		}
             		if (  (_hx_switch_0==HX_("Kill Henchmen",e2,fc,7b,01)) ){
-HXLINE(3089)			this->killHenchmen();
-HXDLIN(3089)			goto _hx_goto_127;
+HXLINE(3145)			this->killHenchmen();
+HXDLIN(3145)			goto _hx_goto_127;
             		}
             		if (  (_hx_switch_0==HX_("Play Animation",d8,05,5f,0c)) ){
-HXLINE(3110)			 ::Character _hx_char = this->dad;
-HXLINE(3111)			::String _hx_switch_4 = ::StringTools_obj::trim(value2.toLowerCase());
+HXLINE(3166)			 ::Character _hx_char = this->dad;
+HXLINE(3167)			::String _hx_switch_4 = ::StringTools_obj::trim(value2.toLowerCase());
             			if (  (_hx_switch_4==HX_("bf",c4,55,00,00)) ||  (_hx_switch_4==HX_("boyfriend",6a,29,b8,e6)) ){
-HXLINE(3113)				_hx_char = this->boyfriend;
-HXDLIN(3113)				goto _hx_goto_134;
+HXLINE(3169)				_hx_char = this->boyfriend;
+HXDLIN(3169)				goto _hx_goto_134;
             			}
             			if (  (_hx_switch_4==HX_("gf",1f,5a,00,00)) ||  (_hx_switch_4==HX_("girlfriend",ba,91,48,98)) ){
-HXLINE(3115)				_hx_char = this->gf;
-HXDLIN(3115)				goto _hx_goto_134;
+HXLINE(3171)				_hx_char = this->gf;
+HXDLIN(3171)				goto _hx_goto_134;
             			}
             			/* default */{
-HXLINE(3117)				int val2 = ( (int)(::Std_obj::parseInt(value2)) );
-HXLINE(3118)				if (::Math_obj::isNaN(( (Float)(val2) ))) {
-HXLINE(3118)					val2 = 0;
+HXLINE(3173)				int val2 = ( (int)(::Std_obj::parseInt(value2)) );
+HXLINE(3174)				if (::Math_obj::isNaN(( (Float)(val2) ))) {
+HXLINE(3174)					val2 = 0;
             				}
-HXLINE(3120)				switch((int)(val2)){
+HXLINE(3176)				switch((int)(val2)){
             					case (int)1: {
-HXLINE(3121)						_hx_char = this->boyfriend;
+HXLINE(3177)						_hx_char = this->boyfriend;
             					}
             					break;
             					case (int)2: {
-HXLINE(3122)						_hx_char = this->gf;
+HXLINE(3178)						_hx_char = this->gf;
             					}
             					break;
             				}
             			}
             			_hx_goto_134:;
-HXLINE(3126)			if (::hx::IsNotNull( _hx_char )) {
-HXLINE(3128)				_hx_char->playAnim(value1,true,null(),null());
-HXLINE(3129)				_hx_char->specialAnim = true;
+HXLINE(3182)			if (::hx::IsNotNull( _hx_char )) {
+HXLINE(3184)				_hx_char->playAnim(value1,true,null(),null());
+HXLINE(3185)				_hx_char->specialAnim = true;
             			}
-HXLINE(3108)			goto _hx_goto_127;
+HXLINE(3164)			goto _hx_goto_127;
             		}
             		if (  (_hx_switch_0==HX_("Screen Shake",12,bb,51,4b)) ){
-HXLINE(3169)			::Array< ::String > valuesArray = ::Array_obj< ::String >::__new(2)->init(0,value1)->init(1,value2);
-HXLINE(3170)			::Array< ::Dynamic> targetsArray = ::Array_obj< ::Dynamic>::__new(2)->init(0,this->camGame)->init(1,this->camHUD);
-HXLINE(3171)			{
-HXLINE(3171)				int _g = 0;
-HXDLIN(3171)				int _g1 = targetsArray->length;
-HXDLIN(3171)				while((_g < _g1)){
-HXLINE(3171)					_g = (_g + 1);
-HXDLIN(3171)					int i = (_g - 1);
-HXLINE(3172)					::Array< ::String > split = valuesArray->__get(i).split(HX_(",",2c,00,00,00));
-HXLINE(3173)					Float duration = ( (Float)(0) );
-HXLINE(3174)					Float intensity = ( (Float)(0) );
-HXLINE(3175)					if (::hx::IsNotNull( split->__get(0) )) {
-HXLINE(3175)						duration = ::Std_obj::parseFloat(::StringTools_obj::trim(split->__get(0)));
+HXLINE(3225)			::Array< ::String > valuesArray = ::Array_obj< ::String >::__new(2)->init(0,value1)->init(1,value2);
+HXLINE(3226)			::Array< ::Dynamic> targetsArray = ::Array_obj< ::Dynamic>::__new(2)->init(0,this->camGame)->init(1,this->camHUD);
+HXLINE(3227)			{
+HXLINE(3227)				int _g = 0;
+HXDLIN(3227)				int _g1 = targetsArray->length;
+HXDLIN(3227)				while((_g < _g1)){
+HXLINE(3227)					_g = (_g + 1);
+HXDLIN(3227)					int i = (_g - 1);
+HXLINE(3228)					::Array< ::String > split = valuesArray->__get(i).split(HX_(",",2c,00,00,00));
+HXLINE(3229)					Float duration = ( (Float)(0) );
+HXLINE(3230)					Float intensity = ( (Float)(0) );
+HXLINE(3231)					if (::hx::IsNotNull( split->__get(0) )) {
+HXLINE(3231)						duration = ::Std_obj::parseFloat(::StringTools_obj::trim(split->__get(0)));
             					}
-HXLINE(3176)					if (::hx::IsNotNull( split->__get(1) )) {
-HXLINE(3176)						intensity = ::Std_obj::parseFloat(::StringTools_obj::trim(split->__get(1)));
+HXLINE(3232)					if (::hx::IsNotNull( split->__get(1) )) {
+HXLINE(3232)						intensity = ::Std_obj::parseFloat(::StringTools_obj::trim(split->__get(1)));
             					}
-HXLINE(3177)					if (::Math_obj::isNaN(duration)) {
-HXLINE(3177)						duration = ( (Float)(0) );
+HXLINE(3233)					if (::Math_obj::isNaN(duration)) {
+HXLINE(3233)						duration = ( (Float)(0) );
             					}
-HXLINE(3178)					if (::Math_obj::isNaN(intensity)) {
-HXLINE(3178)						intensity = ( (Float)(0) );
+HXLINE(3234)					if (::Math_obj::isNaN(intensity)) {
+HXLINE(3234)						intensity = ( (Float)(0) );
             					}
-HXLINE(3180)					bool _hx_tmp;
-HXDLIN(3180)					if ((duration > 0)) {
-HXLINE(3180)						_hx_tmp = (intensity != 0);
+HXLINE(3236)					bool _hx_tmp;
+HXDLIN(3236)					if ((duration > 0)) {
+HXLINE(3236)						_hx_tmp = (intensity != 0);
             					}
             					else {
-HXLINE(3180)						_hx_tmp = false;
+HXLINE(3236)						_hx_tmp = false;
             					}
-HXDLIN(3180)					if (_hx_tmp) {
-HXLINE(3181)						targetsArray->__get(i).StaticCast<  ::flixel::FlxCamera >()->shake(intensity,duration,null(),null(),null());
+HXDLIN(3236)					if (_hx_tmp) {
+HXLINE(3237)						targetsArray->__get(i).StaticCast<  ::flixel::FlxCamera >()->shake(intensity,duration,null(),null(),null());
             					}
             				}
             			}
-HXLINE(3168)			goto _hx_goto_127;
+HXLINE(3224)			goto _hx_goto_127;
             		}
             		if (  (_hx_switch_0==HX_("Set Camera Zoom",d0,bc,0c,dd)) ){
-HXLINE(3283)			Float camZoom = ::Std_obj::parseFloat(value1);
-HXLINE(3284)			::String motionType = value2;
-HXLINE(3285)			this->customCamZoom(camZoom,motionType);
-HXLINE(3282)			goto _hx_goto_127;
+HXLINE(3339)			Float camZoom = ::Std_obj::parseFloat(value1);
+HXLINE(3340)			::String motionType = value2;
+HXLINE(3341)			this->customCamZoom(camZoom,motionType);
+HXLINE(3338)			goto _hx_goto_127;
             		}
             		if (  (_hx_switch_0==HX_("Set GF Speed",04,ff,9a,c4)) ){
-HXLINE(2969)			int value = ( (int)(::Std_obj::parseInt(value1)) );
-HXLINE(2970)			bool _hx_tmp;
-HXDLIN(2970)			if (!(::Math_obj::isNaN(( (Float)(value) )))) {
-HXLINE(2970)				_hx_tmp = (value < 1);
+HXLINE(3025)			int value = ( (int)(::Std_obj::parseInt(value1)) );
+HXLINE(3026)			bool _hx_tmp;
+HXDLIN(3026)			if (!(::Math_obj::isNaN(( (Float)(value) )))) {
+HXLINE(3026)				_hx_tmp = (value < 1);
             			}
             			else {
-HXLINE(2970)				_hx_tmp = true;
+HXLINE(3026)				_hx_tmp = true;
             			}
-HXDLIN(2970)			if (_hx_tmp) {
-HXLINE(2970)				value = 1;
+HXDLIN(3026)			if (_hx_tmp) {
+HXLINE(3026)				value = 1;
             			}
-HXLINE(2971)			this->gfSpeed = value;
-HXLINE(2968)			goto _hx_goto_127;
+HXLINE(3027)			this->gfSpeed = value;
+HXLINE(3024)			goto _hx_goto_127;
             		}
             		if (  (_hx_switch_0==HX_("Trigger BG Ghouls",e1,1f,5c,88)) ){
-HXLINE(3103)			bool _hx_tmp;
-HXDLIN(3103)			if ((::PlayState_obj::curStage == HX_("schoolEvil",28,a1,f5,f7))) {
-HXLINE(3103)				_hx_tmp = !(::ClientPrefs_obj::lowQuality);
+HXLINE(3159)			bool _hx_tmp;
+HXDLIN(3159)			if ((::PlayState_obj::curStage == HX_("schoolEvil",28,a1,f5,f7))) {
+HXLINE(3159)				_hx_tmp = !(::ClientPrefs_obj::lowQuality);
             			}
             			else {
-HXLINE(3103)				_hx_tmp = false;
+HXLINE(3159)				_hx_tmp = false;
             			}
-HXDLIN(3103)			if (_hx_tmp) {
-HXLINE(3104)				this->bgGhouls->dance(true);
-HXLINE(3105)				this->bgGhouls->set_visible(true);
+HXDLIN(3159)			if (_hx_tmp) {
+HXLINE(3160)				this->bgGhouls->dance(true);
+HXLINE(3161)				this->bgGhouls->set_visible(true);
             			}
-HXLINE(3103)			goto _hx_goto_127;
+HXLINE(3159)			goto _hx_goto_127;
             		}
             		_hx_goto_127:;
-HXLINE(3287)		this->callOnLuas(HX_("onEvent",7b,66,02,0c),::cpp::VirtualArray_obj::__new(3)->init(0,eventName)->init(1,value1)->init(2,value2));
+HXLINE(3343)		this->callOnLuas(HX_("onEvent",7b,66,02,0c),::cpp::VirtualArray_obj::__new(3)->init(0,eventName)->init(1,value1)->init(2,value2));
             	}
 
 
@@ -5120,40 +5177,40 @@ HX_DEFINE_DYNAMIC_FUNC3(PlayState_obj,triggerEventNote,(void))
 void PlayState_obj::moveCameraSection( ::Dynamic __o_id){
             		 ::Dynamic id = __o_id;
             		if (::hx::IsNull(__o_id)) id = 0;
-            	HX_STACKFRAME(&_hx_pos_af23706db05c7feb_3290_moveCameraSection)
-HXLINE(3291)		if (::hx::IsNull(  ::Dynamic(::PlayState_obj::SONG->__Field(HX_("notes",41,dc,ca,9f),::hx::paccDynamic))->__GetItem(( (int)(id) )) )) {
-HXLINE(3291)			return;
+            	HX_STACKFRAME(&_hx_pos_af23706db05c7feb_3346_moveCameraSection)
+HXLINE(3347)		if (::hx::IsNull(  ::Dynamic(::PlayState_obj::SONG->__Field(HX_("notes",41,dc,ca,9f),::hx::paccDynamic))->__GetItem(( (int)(id) )) )) {
+HXLINE(3347)			return;
             		}
-HXLINE(3293)		bool _hx_tmp;
-HXDLIN(3293)		if (::hx::IsNotNull( this->gf )) {
-HXLINE(3293)			_hx_tmp = ( (bool)( ::Dynamic(::PlayState_obj::SONG->__Field(HX_("notes",41,dc,ca,9f),::hx::paccDynamic))->__GetItem(( (int)(id) ))->__Field(HX_("gfSection",86,e5,63,d4),::hx::paccDynamic)) );
-            		}
-            		else {
-HXLINE(3293)			_hx_tmp = false;
-            		}
-HXDLIN(3293)		if (_hx_tmp) {
-HXLINE(3295)			 ::flixel::math::FlxPoint _hx_tmp = this->camFollow;
-HXDLIN(3295)			Float _hx_tmp1 = this->gf->getMidpoint(null())->x;
-HXDLIN(3295)			_hx_tmp->set(_hx_tmp1,this->gf->getMidpoint(null())->y);
-HXLINE(3296)			{
-HXLINE(3296)				 ::flixel::math::FlxPoint _g = this->camFollow;
-HXDLIN(3296)				_g->set_x((_g->x + (this->gf->cameraPosition->__get(0) + this->girlfriendCameraOffset->__get(0))));
-            			}
-HXLINE(3297)			{
-HXLINE(3297)				 ::flixel::math::FlxPoint _g1 = this->camFollow;
-HXDLIN(3297)				_g1->set_y((_g1->y + (this->gf->cameraPosition->__get(1) + this->girlfriendCameraOffset->__get(1))));
-            			}
-HXLINE(3298)			this->tweenCamIn();
-HXLINE(3299)			this->callOnLuas(HX_("onMoveCamera",95,62,fe,df),::cpp::VirtualArray_obj::__new(1)->init(0,HX_("gf",1f,5a,00,00)));
-HXLINE(3300)			return;
-            		}
-HXLINE(3303)		if (!(( (bool)( ::Dynamic(::PlayState_obj::SONG->__Field(HX_("notes",41,dc,ca,9f),::hx::paccDynamic))->__GetItem(( (int)(id) ))->__Field(HX_("mustHitSection",3b,5f,87,62),::hx::paccDynamic)) ))) {
-HXLINE(3305)			this->moveCamera(true);
-HXLINE(3306)			this->callOnLuas(HX_("onMoveCamera",95,62,fe,df),::cpp::VirtualArray_obj::__new(1)->init(0,HX_("dad",47,36,4c,00)));
+HXLINE(3349)		bool _hx_tmp;
+HXDLIN(3349)		if (::hx::IsNotNull( this->gf )) {
+HXLINE(3349)			_hx_tmp = ( (bool)( ::Dynamic(::PlayState_obj::SONG->__Field(HX_("notes",41,dc,ca,9f),::hx::paccDynamic))->__GetItem(( (int)(id) ))->__Field(HX_("gfSection",86,e5,63,d4),::hx::paccDynamic)) );
             		}
             		else {
-HXLINE(3310)			this->moveCamera(false);
-HXLINE(3311)			this->callOnLuas(HX_("onMoveCamera",95,62,fe,df),::cpp::VirtualArray_obj::__new(1)->init(0,HX_("boyfriend",6a,29,b8,e6)));
+HXLINE(3349)			_hx_tmp = false;
+            		}
+HXDLIN(3349)		if (_hx_tmp) {
+HXLINE(3351)			 ::flixel::math::FlxPoint _hx_tmp = this->camFollow;
+HXDLIN(3351)			Float _hx_tmp1 = this->gf->getMidpoint(null())->x;
+HXDLIN(3351)			_hx_tmp->set(_hx_tmp1,this->gf->getMidpoint(null())->y);
+HXLINE(3352)			{
+HXLINE(3352)				 ::flixel::math::FlxPoint _g = this->camFollow;
+HXDLIN(3352)				_g->set_x((_g->x + (this->gf->cameraPosition->__get(0) + this->girlfriendCameraOffset->__get(0))));
+            			}
+HXLINE(3353)			{
+HXLINE(3353)				 ::flixel::math::FlxPoint _g1 = this->camFollow;
+HXDLIN(3353)				_g1->set_y((_g1->y + (this->gf->cameraPosition->__get(1) + this->girlfriendCameraOffset->__get(1))));
+            			}
+HXLINE(3354)			this->tweenCamIn();
+HXLINE(3355)			this->callOnLuas(HX_("onMoveCamera",95,62,fe,df),::cpp::VirtualArray_obj::__new(1)->init(0,HX_("gf",1f,5a,00,00)));
+HXLINE(3356)			return;
+            		}
+HXLINE(3359)		if (!(( (bool)( ::Dynamic(::PlayState_obj::SONG->__Field(HX_("notes",41,dc,ca,9f),::hx::paccDynamic))->__GetItem(( (int)(id) ))->__Field(HX_("mustHitSection",3b,5f,87,62),::hx::paccDynamic)) ))) {
+HXLINE(3361)			this->moveCamera(true);
+HXLINE(3362)			this->callOnLuas(HX_("onMoveCamera",95,62,fe,df),::cpp::VirtualArray_obj::__new(1)->init(0,HX_("dad",47,36,4c,00)));
+            		}
+            		else {
+HXLINE(3366)			this->moveCamera(false);
+HXLINE(3367)			this->callOnLuas(HX_("onMoveCamera",95,62,fe,df),::cpp::VirtualArray_obj::__new(1)->init(0,HX_("boyfriend",6a,29,b8,e6)));
             		}
             	}
 
@@ -5161,57 +5218,57 @@ HXLINE(3311)			this->callOnLuas(HX_("onMoveCamera",95,62,fe,df),::cpp::VirtualAr
 HX_DEFINE_DYNAMIC_FUNC1(PlayState_obj,moveCameraSection,(void))
 
 void PlayState_obj::moveCamera(bool isDad){
-            	HX_STACKFRAME(&_hx_pos_af23706db05c7feb_3317_moveCamera)
-HXLINE(3316)		 ::PlayState _gthis = ::hx::ObjectPtr<OBJ_>(this);
-HXLINE(3318)		if (isDad) {
-HXLINE(3320)			 ::flixel::math::FlxPoint _hx_tmp = this->camFollow;
-HXDLIN(3320)			Float _hx_tmp1 = (this->dad->getMidpoint(null())->x + 150);
-HXDLIN(3320)			_hx_tmp->set(_hx_tmp1,(this->dad->getMidpoint(null())->y - ( (Float)(100) )));
-HXLINE(3321)			{
-HXLINE(3321)				 ::flixel::math::FlxPoint _g = this->camFollow;
-HXDLIN(3321)				_g->set_x((_g->x + (this->dad->cameraPosition->__get(0) + this->opponentCameraOffset->__get(0))));
+            	HX_STACKFRAME(&_hx_pos_af23706db05c7feb_3373_moveCamera)
+HXLINE(3372)		 ::PlayState _gthis = ::hx::ObjectPtr<OBJ_>(this);
+HXLINE(3374)		if (isDad) {
+HXLINE(3376)			 ::flixel::math::FlxPoint _hx_tmp = this->camFollow;
+HXDLIN(3376)			Float _hx_tmp1 = (this->dad->getMidpoint(null())->x + 150);
+HXDLIN(3376)			_hx_tmp->set(_hx_tmp1,(this->dad->getMidpoint(null())->y - ( (Float)(100) )));
+HXLINE(3377)			{
+HXLINE(3377)				 ::flixel::math::FlxPoint _g = this->camFollow;
+HXDLIN(3377)				_g->set_x((_g->x + (this->dad->cameraPosition->__get(0) + this->opponentCameraOffset->__get(0))));
             			}
-HXLINE(3322)			{
-HXLINE(3322)				 ::flixel::math::FlxPoint _g1 = this->camFollow;
-HXDLIN(3322)				_g1->set_y((_g1->y + (this->dad->cameraPosition->__get(1) + this->opponentCameraOffset->__get(1))));
+HXLINE(3378)			{
+HXLINE(3378)				 ::flixel::math::FlxPoint _g1 = this->camFollow;
+HXDLIN(3378)				_g1->set_y((_g1->y + (this->dad->cameraPosition->__get(1) + this->opponentCameraOffset->__get(1))));
             			}
-HXLINE(3323)			this->tweenCamIn();
+HXLINE(3379)			this->tweenCamIn();
             		}
             		else {
-HXLINE(3327)			 ::flixel::math::FlxPoint _hx_tmp = this->camFollow;
-HXDLIN(3327)			Float _hx_tmp1 = (this->boyfriend->getMidpoint(null())->x - ( (Float)(100) ));
-HXDLIN(3327)			_hx_tmp->set(_hx_tmp1,(this->boyfriend->getMidpoint(null())->y - ( (Float)(100) )));
-HXLINE(3328)			{
-HXLINE(3328)				 ::flixel::math::FlxPoint _g = this->camFollow;
-HXDLIN(3328)				_g->set_x((_g->x - (this->boyfriend->cameraPosition->__get(0) - this->boyfriendCameraOffset->__get(0))));
+HXLINE(3383)			 ::flixel::math::FlxPoint _hx_tmp = this->camFollow;
+HXDLIN(3383)			Float _hx_tmp1 = (this->boyfriend->getMidpoint(null())->x - ( (Float)(100) ));
+HXDLIN(3383)			_hx_tmp->set(_hx_tmp1,(this->boyfriend->getMidpoint(null())->y - ( (Float)(100) )));
+HXLINE(3384)			{
+HXLINE(3384)				 ::flixel::math::FlxPoint _g = this->camFollow;
+HXDLIN(3384)				_g->set_x((_g->x - (this->boyfriend->cameraPosition->__get(0) - this->boyfriendCameraOffset->__get(0))));
             			}
-HXLINE(3329)			{
-HXLINE(3329)				 ::flixel::math::FlxPoint _g1 = this->camFollow;
-HXDLIN(3329)				_g1->set_y((_g1->y + (this->boyfriend->cameraPosition->__get(1) + this->boyfriendCameraOffset->__get(1))));
+HXLINE(3385)			{
+HXLINE(3385)				 ::flixel::math::FlxPoint _g1 = this->camFollow;
+HXDLIN(3385)				_g1->set_y((_g1->y + (this->boyfriend->cameraPosition->__get(1) + this->boyfriendCameraOffset->__get(1))));
             			}
-HXLINE(3331)			bool _hx_tmp2;
-HXDLIN(3331)			bool _hx_tmp3;
-HXDLIN(3331)			if ((::StringTools_obj::replace(( (::String)(::PlayState_obj::SONG->__Field(HX_("song",d5,23,58,4c),::hx::paccDynamic)) ).toLowerCase(),HX_(" ",20,00,00,00),HX_("-",2d,00,00,00)) == HX_("tutorial",9e,8f,b5,82))) {
-HXLINE(3331)				_hx_tmp3 = ::hx::IsNull( this->cameraTwn );
-            			}
-            			else {
-HXLINE(3331)				_hx_tmp3 = false;
-            			}
-HXDLIN(3331)			if (_hx_tmp3) {
-HXLINE(3331)				_hx_tmp2 = (::flixel::FlxG_obj::camera->zoom != 1);
+HXLINE(3387)			bool _hx_tmp2;
+HXDLIN(3387)			bool _hx_tmp3;
+HXDLIN(3387)			if ((::StringTools_obj::replace(( (::String)(::PlayState_obj::SONG->__Field(HX_("song",d5,23,58,4c),::hx::paccDynamic)) ).toLowerCase(),HX_(" ",20,00,00,00),HX_("-",2d,00,00,00)) == HX_("tutorial",9e,8f,b5,82))) {
+HXLINE(3387)				_hx_tmp3 = ::hx::IsNull( this->cameraTwn );
             			}
             			else {
-HXLINE(3331)				_hx_tmp2 = false;
+HXLINE(3387)				_hx_tmp3 = false;
             			}
-HXDLIN(3331)			if (_hx_tmp2) {
+HXDLIN(3387)			if (_hx_tmp3) {
+HXLINE(3387)				_hx_tmp2 = (::flixel::FlxG_obj::camera->zoom != 1);
+            			}
+            			else {
+HXLINE(3387)				_hx_tmp2 = false;
+            			}
+HXDLIN(3387)			if (_hx_tmp2) {
             				HX_BEGIN_LOCAL_FUNC_S1(::hx::LocalFunc,_hx_Closure_0, ::PlayState,_gthis) HXARGC(1)
             				void _hx_run( ::flixel::tweens::FlxTween twn){
-            					HX_STACKFRAME(&_hx_pos_af23706db05c7feb_3336_moveCamera)
-HXLINE(3336)					_gthis->cameraTwn = null();
+            					HX_STACKFRAME(&_hx_pos_af23706db05c7feb_3392_moveCamera)
+HXLINE(3392)					_gthis->cameraTwn = null();
             				}
             				HX_END_LOCAL_FUNC1((void))
 
-HXLINE(3333)				this->cameraTwn = ::flixel::tweens::FlxTween_obj::tween(::flixel::FlxG_obj::camera, ::Dynamic(::hx::Anon_obj::Create(1)
+HXLINE(3389)				this->cameraTwn = ::flixel::tweens::FlxTween_obj::tween(::flixel::FlxG_obj::camera, ::Dynamic(::hx::Anon_obj::Create(1)
             					->setFixed(0,HX_("zoom",13,a3,f8,50),1)),((::Conductor_obj::stepCrochet * ( (Float)(4) )) / ( (Float)(1000) )), ::Dynamic(::hx::Anon_obj::Create(2)
             					->setFixed(0,HX_("ease",ee,8b,0c,43),::flixel::tweens::FlxEase_obj::elasticInOut_dyn())
             					->setFixed(1,HX_("onComplete",f8,d4,7e,5d), ::Dynamic(new _hx_Closure_0(_gthis)))));
@@ -5223,31 +5280,31 @@ HXLINE(3333)				this->cameraTwn = ::flixel::tweens::FlxTween_obj::tween(::flixel
 HX_DEFINE_DYNAMIC_FUNC1(PlayState_obj,moveCamera,(void))
 
 void PlayState_obj::tweenCamIn(){
-            	HX_STACKFRAME(&_hx_pos_af23706db05c7feb_3343_tweenCamIn)
-HXDLIN(3343)		 ::PlayState _gthis = ::hx::ObjectPtr<OBJ_>(this);
-HXLINE(3344)		bool _hx_tmp;
-HXDLIN(3344)		bool _hx_tmp1;
-HXDLIN(3344)		if ((::StringTools_obj::replace(( (::String)(::PlayState_obj::SONG->__Field(HX_("song",d5,23,58,4c),::hx::paccDynamic)) ).toLowerCase(),HX_(" ",20,00,00,00),HX_("-",2d,00,00,00)) == HX_("tutorial",9e,8f,b5,82))) {
-HXLINE(3344)			_hx_tmp1 = ::hx::IsNull( this->cameraTwn );
+            	HX_STACKFRAME(&_hx_pos_af23706db05c7feb_3399_tweenCamIn)
+HXDLIN(3399)		 ::PlayState _gthis = ::hx::ObjectPtr<OBJ_>(this);
+HXLINE(3400)		bool _hx_tmp;
+HXDLIN(3400)		bool _hx_tmp1;
+HXDLIN(3400)		if ((::StringTools_obj::replace(( (::String)(::PlayState_obj::SONG->__Field(HX_("song",d5,23,58,4c),::hx::paccDynamic)) ).toLowerCase(),HX_(" ",20,00,00,00),HX_("-",2d,00,00,00)) == HX_("tutorial",9e,8f,b5,82))) {
+HXLINE(3400)			_hx_tmp1 = ::hx::IsNull( this->cameraTwn );
             		}
             		else {
-HXLINE(3344)			_hx_tmp1 = false;
+HXLINE(3400)			_hx_tmp1 = false;
             		}
-HXDLIN(3344)		if (_hx_tmp1) {
-HXLINE(3344)			_hx_tmp = (::flixel::FlxG_obj::camera->zoom != ((Float)1.3));
+HXDLIN(3400)		if (_hx_tmp1) {
+HXLINE(3400)			_hx_tmp = (::flixel::FlxG_obj::camera->zoom != ((Float)1.3));
             		}
             		else {
-HXLINE(3344)			_hx_tmp = false;
+HXLINE(3400)			_hx_tmp = false;
             		}
-HXDLIN(3344)		if (_hx_tmp) {
+HXDLIN(3400)		if (_hx_tmp) {
             			HX_BEGIN_LOCAL_FUNC_S1(::hx::LocalFunc,_hx_Closure_0, ::PlayState,_gthis) HXARGC(1)
             			void _hx_run( ::flixel::tweens::FlxTween twn){
-            				HX_STACKFRAME(&_hx_pos_af23706db05c7feb_3347_tweenCamIn)
-HXLINE(3347)				_gthis->cameraTwn = null();
+            				HX_STACKFRAME(&_hx_pos_af23706db05c7feb_3403_tweenCamIn)
+HXLINE(3403)				_gthis->cameraTwn = null();
             			}
             			HX_END_LOCAL_FUNC1((void))
 
-HXLINE(3345)			this->cameraTwn = ::flixel::tweens::FlxTween_obj::tween(::flixel::FlxG_obj::camera, ::Dynamic(::hx::Anon_obj::Create(1)
+HXLINE(3401)			this->cameraTwn = ::flixel::tweens::FlxTween_obj::tween(::flixel::FlxG_obj::camera, ::Dynamic(::hx::Anon_obj::Create(1)
             				->setFixed(0,HX_("zoom",13,a3,f8,50),((Float)1.3))),((::Conductor_obj::stepCrochet * ( (Float)(4) )) / ( (Float)(1000) )), ::Dynamic(::hx::Anon_obj::Create(2)
             				->setFixed(0,HX_("ease",ee,8b,0c,43),::flixel::tweens::FlxEase_obj::elasticInOut_dyn())
             				->setFixed(1,HX_("onComplete",f8,d4,7e,5d), ::Dynamic(new _hx_Closure_0(_gthis)))));
@@ -5258,63 +5315,63 @@ HXLINE(3345)			this->cameraTwn = ::flixel::tweens::FlxTween_obj::tween(::flixel:
 HX_DEFINE_DYNAMIC_FUNC0(PlayState_obj,tweenCamIn,(void))
 
 void PlayState_obj::customCamZoom(Float target,::String motionData){
-            	HX_STACKFRAME(&_hx_pos_af23706db05c7feb_3354_customCamZoom)
-HXLINE(3353)		 ::PlayState _gthis = ::hx::ObjectPtr<OBJ_>(this);
-HXLINE(3356)		bool _hx_tmp;
-HXDLIN(3356)		if (::hx::IsNull( this->cameraTwn )) {
-HXLINE(3356)			_hx_tmp = (::flixel::FlxG_obj::camera->zoom != ((Float)1.3));
+            	HX_STACKFRAME(&_hx_pos_af23706db05c7feb_3410_customCamZoom)
+HXLINE(3409)		 ::PlayState _gthis = ::hx::ObjectPtr<OBJ_>(this);
+HXLINE(3412)		bool _hx_tmp;
+HXDLIN(3412)		if (::hx::IsNull( this->cameraTwn )) {
+HXLINE(3412)			_hx_tmp = (::flixel::FlxG_obj::camera->zoom != ((Float)1.3));
             		}
             		else {
-HXLINE(3356)			_hx_tmp = false;
+HXLINE(3412)			_hx_tmp = false;
             		}
-HXDLIN(3356)		if (_hx_tmp) {
+HXDLIN(3412)		if (_hx_tmp) {
             			HX_BEGIN_LOCAL_FUNC_S1(::hx::LocalFunc,_hx_Closure_0, ::PlayState,_gthis) HXARGC(1)
             			void _hx_run( ::flixel::tweens::FlxTween twn){
-            				HX_STACKFRAME(&_hx_pos_af23706db05c7feb_3391_customCamZoom)
-HXLINE(3392)				_gthis->cameraTwn = null();
-HXLINE(3393)				_gthis->camZooming = true;
-HXLINE(3394)				_gthis->zoomHelper = ::flixel::FlxG_obj::camera->zoom;
+            				HX_STACKFRAME(&_hx_pos_af23706db05c7feb_3447_customCamZoom)
+HXLINE(3448)				_gthis->cameraTwn = null();
+HXLINE(3449)				_gthis->camZooming = true;
+HXLINE(3450)				_gthis->zoomHelper = ::flixel::FlxG_obj::camera->zoom;
             			}
             			HX_END_LOCAL_FUNC1((void))
 
-HXLINE(3365)			::Array< ::String > splits = motionData.split(HX_(":",3a,00,00,00));
-HXLINE(3366)			::String motionType = splits->__get(0);
-HXLINE(3367)			int motionSpeed = ( (int)(::Std_obj::parseInt(splits->__get(1))) );
-HXLINE(3369)			 ::Dynamic swagEase;
-HXLINE(3370)			::String _hx_switch_0 = motionType;
+HXLINE(3421)			::Array< ::String > splits = motionData.split(HX_(":",3a,00,00,00));
+HXLINE(3422)			::String motionType = splits->__get(0);
+HXLINE(3423)			int motionSpeed = ( (int)(::Std_obj::parseInt(splits->__get(1))) );
+HXLINE(3425)			 ::Dynamic swagEase;
+HXLINE(3426)			::String _hx_switch_0 = motionType;
             			if (  (_hx_switch_0==HX_("backInOut",02,22,b6,9a)) ){
-HXLINE(3385)				swagEase = ::flixel::tweens::FlxEase_obj::backInOut_dyn();
-HXDLIN(3385)				goto _hx_goto_151;
+HXLINE(3441)				swagEase = ::flixel::tweens::FlxEase_obj::backInOut_dyn();
+HXDLIN(3441)				goto _hx_goto_151;
             			}
             			if (  (_hx_switch_0==HX_("cubeInOut",74,d4,de,55)) ){
-HXLINE(3377)				swagEase = ::flixel::tweens::FlxEase_obj::cubeInOut_dyn();
-HXDLIN(3377)				goto _hx_goto_151;
+HXLINE(3433)				swagEase = ::flixel::tweens::FlxEase_obj::cubeInOut_dyn();
+HXDLIN(3433)				goto _hx_goto_151;
             			}
             			if (  (_hx_switch_0==HX_("expoInOut",17,17,17,ed)) ){
-HXLINE(3383)				swagEase = ::flixel::tweens::FlxEase_obj::expoInOut_dyn();
-HXDLIN(3383)				goto _hx_goto_151;
+HXLINE(3439)				swagEase = ::flixel::tweens::FlxEase_obj::expoInOut_dyn();
+HXDLIN(3439)				goto _hx_goto_151;
             			}
             			if (  (_hx_switch_0==HX_("linear",e5,51,a0,ec)) ){
-HXLINE(3373)				swagEase = ::flixel::tweens::FlxEase_obj::linear_dyn();
-HXDLIN(3373)				goto _hx_goto_151;
+HXLINE(3429)				swagEase = ::flixel::tweens::FlxEase_obj::linear_dyn();
+HXDLIN(3429)				goto _hx_goto_151;
             			}
             			if (  (_hx_switch_0==HX_("quadInOut",62,bf,21,4f)) ){
-HXLINE(3375)				swagEase = ::flixel::tweens::FlxEase_obj::quadInOut_dyn();
-HXDLIN(3375)				goto _hx_goto_151;
+HXLINE(3431)				swagEase = ::flixel::tweens::FlxEase_obj::quadInOut_dyn();
+HXDLIN(3431)				goto _hx_goto_151;
             			}
             			if (  (_hx_switch_0==HX_("quartInOut",2a,0b,78,2c)) ){
-HXLINE(3379)				swagEase = ::flixel::tweens::FlxEase_obj::quartInOut_dyn();
-HXDLIN(3379)				goto _hx_goto_151;
+HXLINE(3435)				swagEase = ::flixel::tweens::FlxEase_obj::quartInOut_dyn();
+HXDLIN(3435)				goto _hx_goto_151;
             			}
             			if (  (_hx_switch_0==HX_("smoothStepInOut",af,b0,98,e4)) ){
-HXLINE(3381)				swagEase = ::flixel::tweens::FlxEase_obj::smoothStepInOut_dyn();
-HXDLIN(3381)				goto _hx_goto_151;
+HXLINE(3437)				swagEase = ::flixel::tweens::FlxEase_obj::smoothStepInOut_dyn();
+HXDLIN(3437)				goto _hx_goto_151;
             			}
             			/* default */{
-HXLINE(3387)				swagEase = ::flixel::tweens::FlxEase_obj::linear_dyn();
+HXLINE(3443)				swagEase = ::flixel::tweens::FlxEase_obj::linear_dyn();
             			}
             			_hx_goto_151:;
-HXLINE(3390)			this->cameraTwn = ::flixel::tweens::FlxTween_obj::tween(::flixel::FlxG_obj::camera, ::Dynamic(::hx::Anon_obj::Create(1)
+HXLINE(3446)			this->cameraTwn = ::flixel::tweens::FlxTween_obj::tween(::flixel::FlxG_obj::camera, ::Dynamic(::hx::Anon_obj::Create(1)
             				->setFixed(0,HX_("zoom",13,a3,f8,50),target)),((( (Float)(60) ) / ::Conductor_obj::bpm) * ( (Float)(motionSpeed) )), ::Dynamic(::hx::Anon_obj::Create(2)
             				->setFixed(0,HX_("ease",ee,8b,0c,43),swagEase)
             				->setFixed(1,HX_("onComplete",f8,d4,7e,5d), ::Dynamic(new _hx_Closure_0(_gthis)))));
@@ -5325,17 +5382,17 @@ HXLINE(3390)			this->cameraTwn = ::flixel::tweens::FlxTween_obj::tween(::flixel:
 HX_DEFINE_DYNAMIC_FUNC2(PlayState_obj,customCamZoom,(void))
 
 void PlayState_obj::snapCamFollowToPos(Float x,Float y){
-            	HX_STACKFRAME(&_hx_pos_af23706db05c7feb_3401_snapCamFollowToPos)
-HXLINE(3402)		this->camFollow->set(x,y);
-HXLINE(3403)		this->camFollowPos->setPosition(x,y);
+            	HX_STACKFRAME(&_hx_pos_af23706db05c7feb_3457_snapCamFollowToPos)
+HXLINE(3458)		this->camFollow->set(x,y);
+HXLINE(3459)		this->camFollowPos->setPosition(x,y);
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC2(PlayState_obj,snapCamFollowToPos,(void))
 
 void PlayState_obj::onSongComplete(){
-            	HX_STACKFRAME(&_hx_pos_af23706db05c7feb_3409_onSongComplete)
-HXDLIN(3409)		this->finishSong(false);
+            	HX_STACKFRAME(&_hx_pos_af23706db05c7feb_3465_onSongComplete)
+HXDLIN(3465)		this->finishSong(false);
             	}
 
 
@@ -5344,32 +5401,32 @@ HX_DEFINE_DYNAMIC_FUNC0(PlayState_obj,onSongComplete,(void))
 void PlayState_obj::finishSong( ::Dynamic __o_ignoreNoteOffset){
             		 ::Dynamic ignoreNoteOffset = __o_ignoreNoteOffset;
             		if (::hx::IsNull(__o_ignoreNoteOffset)) ignoreNoteOffset = false;
-            	HX_GC_STACKFRAME(&_hx_pos_af23706db05c7feb_3412_finishSong)
-HXLINE(3413)		 ::Dynamic finishCallback = this->endSong_dyn();
-HXLINE(3415)		this->updateTime = false;
-HXLINE(3416)		::flixel::FlxG_obj::sound->music->set_volume(( (Float)(0) ));
-HXLINE(3417)		this->vocals->set_volume(( (Float)(0) ));
-HXLINE(3418)		this->vocals->pause();
-HXLINE(3419)		bool _hx_tmp;
-HXDLIN(3419)		if ((::ClientPrefs_obj::noteOffset > 0)) {
-HXLINE(3419)			_hx_tmp = ( (bool)(ignoreNoteOffset) );
+            	HX_GC_STACKFRAME(&_hx_pos_af23706db05c7feb_3468_finishSong)
+HXLINE(3469)		 ::Dynamic finishCallback = this->endSong_dyn();
+HXLINE(3471)		this->updateTime = false;
+HXLINE(3472)		::flixel::FlxG_obj::sound->music->set_volume(( (Float)(0) ));
+HXLINE(3473)		this->vocals->set_volume(( (Float)(0) ));
+HXLINE(3474)		this->vocals->pause();
+HXLINE(3475)		bool _hx_tmp;
+HXDLIN(3475)		if ((::ClientPrefs_obj::noteOffset > 0)) {
+HXLINE(3475)			_hx_tmp = ( (bool)(ignoreNoteOffset) );
             		}
             		else {
-HXLINE(3419)			_hx_tmp = true;
+HXLINE(3475)			_hx_tmp = true;
             		}
-HXDLIN(3419)		if (_hx_tmp) {
-HXLINE(3420)			finishCallback();
+HXDLIN(3475)		if (_hx_tmp) {
+HXLINE(3476)			finishCallback();
             		}
             		else {
             			HX_BEGIN_LOCAL_FUNC_S1(::hx::LocalFunc,_hx_Closure_0, ::Dynamic,finishCallback) HXARGC(1)
             			void _hx_run( ::flixel::util::FlxTimer tmr){
-            				HX_GC_STACKFRAME(&_hx_pos_af23706db05c7feb_3423_finishSong)
-HXLINE(3423)				finishCallback();
+            				HX_GC_STACKFRAME(&_hx_pos_af23706db05c7feb_3479_finishSong)
+HXLINE(3479)				finishCallback();
             			}
             			HX_END_LOCAL_FUNC1((void))
 
-HXLINE(3422)			 ::flixel::util::FlxTimer _hx_tmp =  ::flixel::util::FlxTimer_obj::__alloc( HX_CTX ,null());
-HXDLIN(3422)			this->finishTimer = _hx_tmp->start((( (Float)(::ClientPrefs_obj::noteOffset) ) / ( (Float)(1000) )), ::Dynamic(new _hx_Closure_0(finishCallback)),null());
+HXLINE(3478)			 ::flixel::util::FlxTimer _hx_tmp =  ::flixel::util::FlxTimer_obj::__alloc( HX_CTX ,null());
+HXDLIN(3478)			this->finishTimer = _hx_tmp->start((( (Float)(::ClientPrefs_obj::noteOffset) ) / ( (Float)(1000) )), ::Dynamic(new _hx_Closure_0(finishCallback)),null());
             		}
             	}
 
@@ -5377,180 +5434,180 @@ HXDLIN(3422)			this->finishTimer = _hx_tmp->start((( (Float)(::ClientPrefs_obj::
 HX_DEFINE_DYNAMIC_FUNC1(PlayState_obj,finishSong,(void))
 
 void PlayState_obj::endSong(){
-            	HX_GC_STACKFRAME(&_hx_pos_af23706db05c7feb_3431_endSong)
-HXLINE(3430)		 ::PlayState _gthis = ::hx::ObjectPtr<OBJ_>(this);
-HXLINE(3433)		if (!(this->startingSong)) {
+            	HX_GC_STACKFRAME(&_hx_pos_af23706db05c7feb_3487_endSong)
+HXLINE(3486)		 ::PlayState _gthis = ::hx::ObjectPtr<OBJ_>(this);
+HXLINE(3489)		if (!(this->startingSong)) {
             			HX_BEGIN_LOCAL_FUNC_S1(::hx::LocalFunc,_hx_Closure_0, ::PlayState,_gthis) HXARGC(1)
             			void _hx_run( ::Note daNote){
-            				HX_STACKFRAME(&_hx_pos_af23706db05c7feb_3435_endSong)
-HXLINE(3435)				if ((daNote->strumTime < (_gthis->songLength - ::Conductor_obj::safeZoneOffset))) {
-HXLINE(3436)					 ::PlayState _gthis1 = _gthis;
-HXDLIN(3436)					_gthis1->health = (_gthis1->health - (((Float)0.05) * _gthis->healthLoss));
+            				HX_STACKFRAME(&_hx_pos_af23706db05c7feb_3491_endSong)
+HXLINE(3491)				if ((daNote->strumTime < (_gthis->songLength - ::Conductor_obj::safeZoneOffset))) {
+HXLINE(3492)					 ::PlayState _gthis1 = _gthis;
+HXDLIN(3492)					_gthis1->health = (_gthis1->health - (((Float)0.05) * _gthis->healthLoss));
             				}
             			}
             			HX_END_LOCAL_FUNC1((void))
 
-HXLINE(3434)			this->notes->forEach( ::Dynamic(new _hx_Closure_0(_gthis)),null());
-HXLINE(3439)			{
-HXLINE(3439)				int _g = 0;
-HXDLIN(3439)				::Array< ::Dynamic> _g1 = this->unspawnNotes;
-HXDLIN(3439)				while((_g < _g1->length)){
-HXLINE(3439)					 ::Note daNote = _g1->__get(_g).StaticCast<  ::Note >();
-HXDLIN(3439)					_g = (_g + 1);
-HXLINE(3440)					if ((daNote->strumTime < (this->songLength - ::Conductor_obj::safeZoneOffset))) {
-HXLINE(3441)						 ::PlayState _hx_tmp = ::hx::ObjectPtr<OBJ_>(this);
-HXDLIN(3441)						_hx_tmp->health = (_hx_tmp->health - (((Float)0.05) * this->healthLoss));
+HXLINE(3490)			this->notes->forEach( ::Dynamic(new _hx_Closure_0(_gthis)),null());
+HXLINE(3495)			{
+HXLINE(3495)				int _g = 0;
+HXDLIN(3495)				::Array< ::Dynamic> _g1 = this->unspawnNotes;
+HXDLIN(3495)				while((_g < _g1->length)){
+HXLINE(3495)					 ::Note daNote = _g1->__get(_g).StaticCast<  ::Note >();
+HXDLIN(3495)					_g = (_g + 1);
+HXLINE(3496)					if ((daNote->strumTime < (this->songLength - ::Conductor_obj::safeZoneOffset))) {
+HXLINE(3497)						 ::PlayState _hx_tmp = ::hx::ObjectPtr<OBJ_>(this);
+HXDLIN(3497)						_hx_tmp->health = (_hx_tmp->health - (((Float)0.05) * this->healthLoss));
             					}
             				}
             			}
-HXLINE(3445)			if (this->doDeathCheck(null())) {
-HXLINE(3446)				return;
+HXLINE(3501)			if (this->doDeathCheck(null())) {
+HXLINE(3502)				return;
             			}
             		}
-HXLINE(3450)		this->timeBarBG->set_visible(false);
-HXLINE(3451)		this->timeBar->set_visible(false);
-HXLINE(3452)		this->timeTxt->set_visible(false);
-HXLINE(3453)		this->canPause = false;
-HXLINE(3454)		this->endingSong = true;
-HXLINE(3455)		this->camZooming = false;
-HXLINE(3456)		this->inCutscene = false;
-HXLINE(3457)		this->updateTime = false;
-HXLINE(3459)		::PlayState_obj::deathCounter = 0;
-HXLINE(3460)		::PlayState_obj::seenCutscene = false;
-HXLINE(3463)		if (::hx::IsNotNull( this->achievementObj )) {
-HXLINE(3464)			return;
+HXLINE(3506)		this->timeBarBG->set_visible(false);
+HXLINE(3507)		this->timeBar->set_visible(false);
+HXLINE(3508)		this->timeTxt->set_visible(false);
+HXLINE(3509)		this->canPause = false;
+HXLINE(3510)		this->endingSong = true;
+HXLINE(3511)		this->camZooming = false;
+HXLINE(3512)		this->inCutscene = false;
+HXLINE(3513)		this->updateTime = false;
+HXLINE(3515)		::PlayState_obj::deathCounter = 0;
+HXLINE(3516)		::PlayState_obj::seenCutscene = false;
+HXLINE(3519)		if (::hx::IsNotNull( this->achievementObj )) {
+HXLINE(3520)			return;
             		}
             		else {
-HXLINE(3466)			::String achieve = this->checkForAchievement(::Array_obj< ::String >::fromData( _hx_array_data_46c2835d_161,13));
-HXLINE(3470)			if (::hx::IsNotNull( achieve )) {
-HXLINE(3471)				this->startAchievement(achieve);
-HXLINE(3472)				return;
+HXLINE(3522)			::String achieve = this->checkForAchievement(::Array_obj< ::String >::fromData( _hx_array_data_46c2835d_161,13));
+HXLINE(3526)			if (::hx::IsNotNull( achieve )) {
+HXLINE(3527)				this->startAchievement(achieve);
+HXLINE(3528)				return;
             			}
             		}
-HXLINE(3478)		 ::Dynamic ret = this->callOnLuas(HX_("onEndSong",f1,95,27,06),::cpp::VirtualArray_obj::__new(0));
-HXLINE(3483)		bool _hx_tmp;
-HXDLIN(3483)		if (::hx::IsNotEq( ret,::FunkinLua_obj::Function_Stop )) {
-HXLINE(3483)			_hx_tmp = !(this->transitioning);
+HXLINE(3534)		 ::Dynamic ret = this->callOnLuas(HX_("onEndSong",f1,95,27,06),::cpp::VirtualArray_obj::__new(0));
+HXLINE(3539)		bool _hx_tmp;
+HXDLIN(3539)		if (::hx::IsNotEq( ret,::FunkinLua_obj::Function_Stop )) {
+HXLINE(3539)			_hx_tmp = !(this->transitioning);
             		}
             		else {
-HXLINE(3483)			_hx_tmp = false;
+HXLINE(3539)			_hx_tmp = false;
             		}
-HXDLIN(3483)		if (_hx_tmp) {
-HXLINE(3484)			if (( (bool)(::PlayState_obj::SONG->__Field(HX_("validScore",b6,dc,18,c7),::hx::paccDynamic)) )) {
-HXLINE(3487)				Float percent = this->ratingPercent;
-HXLINE(3488)				if (::Math_obj::isNaN(percent)) {
-HXLINE(3488)					percent = ( (Float)(0) );
+HXDLIN(3539)		if (_hx_tmp) {
+HXLINE(3540)			if (( (bool)(::PlayState_obj::SONG->__Field(HX_("validScore",b6,dc,18,c7),::hx::paccDynamic)) )) {
+HXLINE(3543)				Float percent = this->ratingPercent;
+HXLINE(3544)				if (::Math_obj::isNaN(percent)) {
+HXLINE(3544)					percent = ( (Float)(0) );
             				}
-HXLINE(3489)				::Highscore_obj::saveScore(( (::String)(::PlayState_obj::SONG->__Field(HX_("song",d5,23,58,4c),::hx::paccDynamic)) ),this->songScore,::PlayState_obj::storyDifficulty,percent);
+HXLINE(3545)				::Highscore_obj::saveScore(( (::String)(::PlayState_obj::SONG->__Field(HX_("song",d5,23,58,4c),::hx::paccDynamic)) ),this->songScore,::PlayState_obj::storyDifficulty,percent);
             			}
-HXLINE(3493)			if (::PlayState_obj::chartingMode) {
-HXLINE(3495)				this->openChartEditor();
-HXLINE(3496)				return;
+HXLINE(3549)			if (::PlayState_obj::chartingMode) {
+HXLINE(3551)				this->openChartEditor();
+HXLINE(3552)				return;
             			}
-HXLINE(3499)			if (::PlayState_obj::isStoryMode) {
-HXLINE(3501)				 ::Dynamic _hx_tmp = ::hx::ClassOf< ::PlayState >();
-HXDLIN(3501)				::PlayState_obj::campaignScore = (::PlayState_obj::campaignScore + this->songScore);
-HXLINE(3502)				 ::Dynamic _hx_tmp1 = ::hx::ClassOf< ::PlayState >();
-HXDLIN(3502)				::PlayState_obj::campaignMisses = (::PlayState_obj::campaignMisses + this->songMisses);
-HXLINE(3504)				::PlayState_obj::storyPlaylist->remove(::PlayState_obj::storyPlaylist->__get(0));
-HXLINE(3506)				if ((::PlayState_obj::storyPlaylist->length <= 0)) {
-HXLINE(3508)					 ::flixel::_hx_system::frontEnds::SoundFrontEnd _hx_tmp = ::flixel::FlxG_obj::sound;
-HXDLIN(3508)					::String library = null();
-HXDLIN(3508)					 ::openfl::media::Sound file = ::Paths_obj::returnSound(HX_("music",a5,d0,5a,10),HX_("freakyMenu",15,c9,93,86),library);
-HXDLIN(3508)					_hx_tmp->playMusic(file,null(),null(),null());
-HXLINE(3510)					::PlayState_obj::cancelMusicFadeTween();
-HXLINE(3511)					if (::flixel::addons::transition::FlxTransitionableState_obj::skipNextTransIn) {
-HXLINE(3512)						::CustomFadeTransition_obj::nextCamera = null();
+HXLINE(3555)			if (::PlayState_obj::isStoryMode) {
+HXLINE(3557)				 ::Dynamic _hx_tmp = ::hx::ClassOf< ::PlayState >();
+HXDLIN(3557)				::PlayState_obj::campaignScore = (::PlayState_obj::campaignScore + this->songScore);
+HXLINE(3558)				 ::Dynamic _hx_tmp1 = ::hx::ClassOf< ::PlayState >();
+HXDLIN(3558)				::PlayState_obj::campaignMisses = (::PlayState_obj::campaignMisses + this->songMisses);
+HXLINE(3560)				::PlayState_obj::storyPlaylist->remove(::PlayState_obj::storyPlaylist->__get(0));
+HXLINE(3562)				if ((::PlayState_obj::storyPlaylist->length <= 0)) {
+HXLINE(3564)					 ::flixel::_hx_system::frontEnds::SoundFrontEnd _hx_tmp = ::flixel::FlxG_obj::sound;
+HXDLIN(3564)					::String library = null();
+HXDLIN(3564)					 ::openfl::media::Sound file = ::Paths_obj::returnSound(HX_("music",a5,d0,5a,10),HX_("freakyMenu",15,c9,93,86),library);
+HXDLIN(3564)					_hx_tmp->playMusic(file,null(),null(),null());
+HXLINE(3566)					::PlayState_obj::cancelMusicFadeTween();
+HXLINE(3567)					if (::flixel::addons::transition::FlxTransitionableState_obj::skipNextTransIn) {
+HXLINE(3568)						::CustomFadeTransition_obj::nextCamera = null();
             					}
-HXLINE(3514)					::MusicBeatState_obj::switchState( ::StoryMenuState_obj::__alloc( HX_CTX ,null(),null()));
-HXLINE(3517)					bool _hx_tmp1;
-HXDLIN(3517)					 ::Dynamic _hx_tmp2;
-HXDLIN(3517)					if (::ClientPrefs_obj::gameplaySettings->exists(HX_("practice",bb,00,e7,a0))) {
-HXLINE(3517)						_hx_tmp2 = ::ClientPrefs_obj::gameplaySettings->get(HX_("practice",bb,00,e7,a0));
+HXLINE(3570)					::MusicBeatState_obj::switchState( ::StoryMenuState_obj::__alloc( HX_CTX ,null(),null()));
+HXLINE(3573)					bool _hx_tmp1;
+HXDLIN(3573)					 ::Dynamic _hx_tmp2;
+HXDLIN(3573)					if (::ClientPrefs_obj::gameplaySettings->exists(HX_("practice",bb,00,e7,a0))) {
+HXLINE(3573)						_hx_tmp2 = ::ClientPrefs_obj::gameplaySettings->get(HX_("practice",bb,00,e7,a0));
             					}
             					else {
-HXLINE(3517)						_hx_tmp2 = false;
+HXLINE(3573)						_hx_tmp2 = false;
             					}
-HXDLIN(3517)					if (!(( (bool)(_hx_tmp2) ))) {
-HXLINE(3517)						 ::Dynamic _hx_tmp;
-HXDLIN(3517)						if (::ClientPrefs_obj::gameplaySettings->exists(HX_("botplay",7b,fb,a9,61))) {
-HXLINE(3517)							_hx_tmp = ::ClientPrefs_obj::gameplaySettings->get(HX_("botplay",7b,fb,a9,61));
+HXDLIN(3573)					if (!(( (bool)(_hx_tmp2) ))) {
+HXLINE(3573)						 ::Dynamic _hx_tmp;
+HXDLIN(3573)						if (::ClientPrefs_obj::gameplaySettings->exists(HX_("botplay",7b,fb,a9,61))) {
+HXLINE(3573)							_hx_tmp = ::ClientPrefs_obj::gameplaySettings->get(HX_("botplay",7b,fb,a9,61));
             						}
             						else {
-HXLINE(3517)							_hx_tmp = false;
+HXLINE(3573)							_hx_tmp = false;
             						}
-HXDLIN(3517)						_hx_tmp1 = !(( (bool)(_hx_tmp) ));
+HXDLIN(3573)						_hx_tmp1 = !(( (bool)(_hx_tmp) ));
             					}
             					else {
-HXLINE(3517)						_hx_tmp1 = false;
+HXLINE(3573)						_hx_tmp1 = false;
             					}
-HXDLIN(3517)					if (_hx_tmp1) {
-HXLINE(3518)						::StoryMenuState_obj::weekCompleted->set(::WeekData_obj::weeksList->__get(::PlayState_obj::storyWeek),true);
-HXLINE(3520)						if (( (bool)(::PlayState_obj::SONG->__Field(HX_("validScore",b6,dc,18,c7),::hx::paccDynamic)) )) {
-HXLINE(3522)							::String _hx_tmp = ::WeekData_obj::getWeekFileName();
-HXDLIN(3522)							::Highscore_obj::saveWeekScore(_hx_tmp,::PlayState_obj::campaignScore,::PlayState_obj::storyDifficulty);
+HXDLIN(3573)					if (_hx_tmp1) {
+HXLINE(3574)						::StoryMenuState_obj::weekCompleted->set(::WeekData_obj::weeksList->__get(::PlayState_obj::storyWeek),true);
+HXLINE(3576)						if (( (bool)(::PlayState_obj::SONG->__Field(HX_("validScore",b6,dc,18,c7),::hx::paccDynamic)) )) {
+HXLINE(3578)							::String _hx_tmp = ::WeekData_obj::getWeekFileName();
+HXDLIN(3578)							::Highscore_obj::saveWeekScore(_hx_tmp,::PlayState_obj::campaignScore,::PlayState_obj::storyDifficulty);
             						}
-HXLINE(3525)						::flixel::FlxG_obj::save->data->__SetField(HX_("weekCompleted",f7,82,ec,84),::StoryMenuState_obj::weekCompleted,::hx::paccDynamic);
-HXLINE(3526)						::flixel::FlxG_obj::save->flush(null(),null());
+HXLINE(3581)						::flixel::FlxG_obj::save->data->__SetField(HX_("weekCompleted",f7,82,ec,84),::StoryMenuState_obj::weekCompleted,::hx::paccDynamic);
+HXLINE(3582)						::flixel::FlxG_obj::save->flush(null(),null());
             					}
-HXLINE(3528)					::PlayState_obj::changedDifficulty = false;
+HXLINE(3584)					::PlayState_obj::changedDifficulty = false;
             				}
             				else {
-HXLINE(3532)					::String difficulty = ::CoolUtil_obj::getDifficultyFilePath(null());
-HXLINE(3534)					::haxe::Log_obj::trace(HX_("LOADING NEXT SONG",5e,07,d0,ca),::hx::SourceInfo(HX_("source/PlayState.hx",75,24,2b,b8),3534,HX_("PlayState",5d,83,c2,46),HX_("endSong",50,dd,7c,2e)));
-HXLINE(3535)					 ::Dynamic _hx_tmp = ::haxe::Log_obj::trace;
-HXDLIN(3535)					::String _hx_tmp1 = (::StringTools_obj::replace(::PlayState_obj::storyPlaylist->__get(0).toLowerCase(),HX_(" ",20,00,00,00),HX_("-",2d,00,00,00)) + difficulty);
-HXDLIN(3535)					_hx_tmp(_hx_tmp1,::hx::SourceInfo(HX_("source/PlayState.hx",75,24,2b,b8),3535,HX_("PlayState",5d,83,c2,46),HX_("endSong",50,dd,7c,2e)));
-HXLINE(3537)					bool winterHorrorlandNext = (::StringTools_obj::replace(( (::String)(::PlayState_obj::SONG->__Field(HX_("song",d5,23,58,4c),::hx::paccDynamic)) ).toLowerCase(),HX_(" ",20,00,00,00),HX_("-",2d,00,00,00)) == HX_("eggnog",61,04,ba,f4));
-HXLINE(3538)					if (winterHorrorlandNext) {
-HXLINE(3540)						 ::flixel::FlxSprite blackShit =  ::flixel::FlxSprite_obj::__alloc( HX_CTX ,(( (Float)(-(::flixel::FlxG_obj::width)) ) * ::flixel::FlxG_obj::camera->zoom),(( (Float)(-(::flixel::FlxG_obj::height)) ) * ::flixel::FlxG_obj::camera->zoom),null());
-HXDLIN(3540)						 ::flixel::FlxSprite blackShit1 = blackShit->makeGraphic((::flixel::FlxG_obj::width * 3),(::flixel::FlxG_obj::height * 3),-16777216,null(),null());
-HXLINE(3542)						blackShit1->scrollFactor->set(null(),null());
-HXLINE(3543)						this->add(blackShit1);
-HXLINE(3544)						this->camHUD->set_visible(false);
-HXLINE(3546)						 ::flixel::_hx_system::frontEnds::SoundFrontEnd _hx_tmp = ::flixel::FlxG_obj::sound;
-HXDLIN(3546)						_hx_tmp->play(::Paths_obj::sound(HX_("Lights_Shut_off",86,a9,43,29),null()),null(),null(),null(),null(),null());
+HXLINE(3588)					::String difficulty = ::CoolUtil_obj::getDifficultyFilePath(null());
+HXLINE(3590)					::haxe::Log_obj::trace(HX_("LOADING NEXT SONG",5e,07,d0,ca),::hx::SourceInfo(HX_("source/PlayState.hx",75,24,2b,b8),3590,HX_("PlayState",5d,83,c2,46),HX_("endSong",50,dd,7c,2e)));
+HXLINE(3591)					 ::Dynamic _hx_tmp = ::haxe::Log_obj::trace;
+HXDLIN(3591)					::String _hx_tmp1 = (::StringTools_obj::replace(::PlayState_obj::storyPlaylist->__get(0).toLowerCase(),HX_(" ",20,00,00,00),HX_("-",2d,00,00,00)) + difficulty);
+HXDLIN(3591)					_hx_tmp(_hx_tmp1,::hx::SourceInfo(HX_("source/PlayState.hx",75,24,2b,b8),3591,HX_("PlayState",5d,83,c2,46),HX_("endSong",50,dd,7c,2e)));
+HXLINE(3593)					bool winterHorrorlandNext = (::StringTools_obj::replace(( (::String)(::PlayState_obj::SONG->__Field(HX_("song",d5,23,58,4c),::hx::paccDynamic)) ).toLowerCase(),HX_(" ",20,00,00,00),HX_("-",2d,00,00,00)) == HX_("eggnog",61,04,ba,f4));
+HXLINE(3594)					if (winterHorrorlandNext) {
+HXLINE(3596)						 ::flixel::FlxSprite blackShit =  ::flixel::FlxSprite_obj::__alloc( HX_CTX ,(( (Float)(-(::flixel::FlxG_obj::width)) ) * ::flixel::FlxG_obj::camera->zoom),(( (Float)(-(::flixel::FlxG_obj::height)) ) * ::flixel::FlxG_obj::camera->zoom),null());
+HXDLIN(3596)						 ::flixel::FlxSprite blackShit1 = blackShit->makeGraphic((::flixel::FlxG_obj::width * 3),(::flixel::FlxG_obj::height * 3),-16777216,null(),null());
+HXLINE(3598)						blackShit1->scrollFactor->set(null(),null());
+HXLINE(3599)						this->add(blackShit1);
+HXLINE(3600)						this->camHUD->set_visible(false);
+HXLINE(3602)						 ::flixel::_hx_system::frontEnds::SoundFrontEnd _hx_tmp = ::flixel::FlxG_obj::sound;
+HXDLIN(3602)						_hx_tmp->play(::Paths_obj::sound(HX_("Lights_Shut_off",86,a9,43,29),null()),null(),null(),null(),null(),null());
             					}
-HXLINE(3549)					::flixel::addons::transition::FlxTransitionableState_obj::skipNextTransIn = true;
-HXLINE(3550)					::flixel::addons::transition::FlxTransitionableState_obj::skipNextTransOut = true;
-HXLINE(3552)					::PlayState_obj::prevCamFollow = this->camFollow;
-HXLINE(3553)					::PlayState_obj::prevCamFollowPos = this->camFollowPos;
-HXLINE(3555)					::PlayState_obj::SONG = ::Song_obj::loadFromJson((::PlayState_obj::storyPlaylist->__get(0) + difficulty),::PlayState_obj::storyPlaylist->__get(0));
-HXLINE(3556)					{
-HXLINE(3556)						 ::flixel::_hx_system::FlxSound _this = ::flixel::FlxG_obj::sound->music;
-HXDLIN(3556)						_this->cleanup(_this->autoDestroy,true);
+HXLINE(3605)					::flixel::addons::transition::FlxTransitionableState_obj::skipNextTransIn = true;
+HXLINE(3606)					::flixel::addons::transition::FlxTransitionableState_obj::skipNextTransOut = true;
+HXLINE(3608)					::PlayState_obj::prevCamFollow = this->camFollow;
+HXLINE(3609)					::PlayState_obj::prevCamFollowPos = this->camFollowPos;
+HXLINE(3611)					::PlayState_obj::SONG = ::Song_obj::loadFromJson((::PlayState_obj::storyPlaylist->__get(0) + difficulty),::PlayState_obj::storyPlaylist->__get(0));
+HXLINE(3612)					{
+HXLINE(3612)						 ::flixel::_hx_system::FlxSound _this = ::flixel::FlxG_obj::sound->music;
+HXDLIN(3612)						_this->cleanup(_this->autoDestroy,true);
             					}
-HXLINE(3558)					if (winterHorrorlandNext) {
+HXLINE(3614)					if (winterHorrorlandNext) {
             						HX_BEGIN_LOCAL_FUNC_S0(::hx::LocalFunc,_hx_Closure_1) HXARGC(1)
             						void _hx_run( ::flixel::util::FlxTimer tmr){
-            							HX_GC_STACKFRAME(&_hx_pos_af23706db05c7feb_3559_endSong)
-HXLINE(3560)							::PlayState_obj::cancelMusicFadeTween();
-HXLINE(3561)							::MusicBeatState_obj::switchState(::LoadingState_obj::getNextState(( ( ::flixel::FlxState)( ::PlayState_obj::__alloc( HX_CTX ,null(),null())) ),false));
+            							HX_GC_STACKFRAME(&_hx_pos_af23706db05c7feb_3615_endSong)
+HXLINE(3616)							::PlayState_obj::cancelMusicFadeTween();
+HXLINE(3617)							::MusicBeatState_obj::switchState(::LoadingState_obj::getNextState(( ( ::flixel::FlxState)( ::PlayState_obj::__alloc( HX_CTX ,null(),null())) ),false));
             						}
             						HX_END_LOCAL_FUNC1((void))
 
-HXLINE(3559)						 ::flixel::util::FlxTimer_obj::__alloc( HX_CTX ,null())->start(((Float)1.5), ::Dynamic(new _hx_Closure_1()),null());
+HXLINE(3615)						 ::flixel::util::FlxTimer_obj::__alloc( HX_CTX ,null())->start(((Float)1.5), ::Dynamic(new _hx_Closure_1()),null());
             					}
             					else {
-HXLINE(3564)						::PlayState_obj::cancelMusicFadeTween();
-HXLINE(3565)						::MusicBeatState_obj::switchState(::LoadingState_obj::getNextState(( ( ::flixel::FlxState)( ::PlayState_obj::__alloc( HX_CTX ,null(),null())) ),false));
+HXLINE(3620)						::PlayState_obj::cancelMusicFadeTween();
+HXLINE(3621)						::MusicBeatState_obj::switchState(::LoadingState_obj::getNextState(( ( ::flixel::FlxState)( ::PlayState_obj::__alloc( HX_CTX ,null(),null())) ),false));
             					}
             				}
             			}
             			else {
-HXLINE(3571)				::haxe::Log_obj::trace(HX_("WENT BACK TO FREEPLAY??",58,1b,be,6a),::hx::SourceInfo(HX_("source/PlayState.hx",75,24,2b,b8),3571,HX_("PlayState",5d,83,c2,46),HX_("endSong",50,dd,7c,2e)));
-HXLINE(3572)				::PlayState_obj::cancelMusicFadeTween();
-HXLINE(3573)				if (::flixel::addons::transition::FlxTransitionableState_obj::skipNextTransIn) {
-HXLINE(3574)					::CustomFadeTransition_obj::nextCamera = null();
+HXLINE(3627)				::haxe::Log_obj::trace(HX_("WENT BACK TO FREEPLAY??",58,1b,be,6a),::hx::SourceInfo(HX_("source/PlayState.hx",75,24,2b,b8),3627,HX_("PlayState",5d,83,c2,46),HX_("endSong",50,dd,7c,2e)));
+HXLINE(3628)				::PlayState_obj::cancelMusicFadeTween();
+HXLINE(3629)				if (::flixel::addons::transition::FlxTransitionableState_obj::skipNextTransIn) {
+HXLINE(3630)					::CustomFadeTransition_obj::nextCamera = null();
             				}
-HXLINE(3576)				::MusicBeatState_obj::switchState( ::FreeplayState_obj::__alloc( HX_CTX ,null(),null()));
-HXLINE(3577)				 ::flixel::_hx_system::frontEnds::SoundFrontEnd _hx_tmp = ::flixel::FlxG_obj::sound;
-HXDLIN(3577)				::String library = null();
-HXDLIN(3577)				 ::openfl::media::Sound file = ::Paths_obj::returnSound(HX_("music",a5,d0,5a,10),HX_("freakyMenu",15,c9,93,86),library);
-HXDLIN(3577)				_hx_tmp->playMusic(file,null(),null(),null());
-HXLINE(3578)				::PlayState_obj::changedDifficulty = false;
+HXLINE(3632)				::MusicBeatState_obj::switchState( ::FreeplayState_obj::__alloc( HX_CTX ,null(),null()));
+HXLINE(3633)				 ::flixel::_hx_system::frontEnds::SoundFrontEnd _hx_tmp = ::flixel::FlxG_obj::sound;
+HXDLIN(3633)				::String library = null();
+HXDLIN(3633)				 ::openfl::media::Sound file = ::Paths_obj::returnSound(HX_("music",a5,d0,5a,10),HX_("freakyMenu",15,c9,93,86),library);
+HXDLIN(3633)				_hx_tmp->playMusic(file,null(),null(),null());
+HXLINE(3634)				::PlayState_obj::changedDifficulty = false;
             			}
-HXLINE(3580)			this->transitioning = true;
+HXLINE(3636)			this->transitioning = true;
             		}
             	}
 
@@ -5558,28 +5615,28 @@ HXLINE(3580)			this->transitioning = true;
 HX_DEFINE_DYNAMIC_FUNC0(PlayState_obj,endSong,(void))
 
 void PlayState_obj::startAchievement(::String achieve){
-            	HX_GC_STACKFRAME(&_hx_pos_af23706db05c7feb_3586_startAchievement)
-HXLINE(3587)		this->achievementObj =  ::AchievementObject_obj::__alloc( HX_CTX ,achieve,this->camOther);
-HXLINE(3588)		this->achievementObj->onFinish = this->achievementEnd_dyn();
-HXLINE(3589)		this->add(this->achievementObj);
-HXLINE(3590)		::haxe::Log_obj::trace((HX_("Giving achievement ",c3,c2,17,97) + achieve),::hx::SourceInfo(HX_("source/PlayState.hx",75,24,2b,b8),3590,HX_("PlayState",5d,83,c2,46),HX_("startAchievement",2d,5b,b8,dd)));
+            	HX_GC_STACKFRAME(&_hx_pos_af23706db05c7feb_3642_startAchievement)
+HXLINE(3643)		this->achievementObj =  ::AchievementObject_obj::__alloc( HX_CTX ,achieve,this->camOther);
+HXLINE(3644)		this->achievementObj->onFinish = this->achievementEnd_dyn();
+HXLINE(3645)		this->add(this->achievementObj);
+HXLINE(3646)		::haxe::Log_obj::trace((HX_("Giving achievement ",c3,c2,17,97) + achieve),::hx::SourceInfo(HX_("source/PlayState.hx",75,24,2b,b8),3646,HX_("PlayState",5d,83,c2,46),HX_("startAchievement",2d,5b,b8,dd)));
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(PlayState_obj,startAchievement,(void))
 
 void PlayState_obj::achievementEnd(){
-            	HX_STACKFRAME(&_hx_pos_af23706db05c7feb_3593_achievementEnd)
-HXLINE(3594)		this->achievementObj = null();
-HXLINE(3595)		bool _hx_tmp;
-HXDLIN(3595)		if (this->endingSong) {
-HXLINE(3595)			_hx_tmp = !(this->inCutscene);
+            	HX_STACKFRAME(&_hx_pos_af23706db05c7feb_3649_achievementEnd)
+HXLINE(3650)		this->achievementObj = null();
+HXLINE(3651)		bool _hx_tmp;
+HXDLIN(3651)		if (this->endingSong) {
+HXLINE(3651)			_hx_tmp = !(this->inCutscene);
             		}
             		else {
-HXLINE(3595)			_hx_tmp = false;
+HXLINE(3651)			_hx_tmp = false;
             		}
-HXDLIN(3595)		if (_hx_tmp) {
-HXLINE(3596)			this->endSong();
+HXDLIN(3651)		if (_hx_tmp) {
+HXLINE(3652)			this->endSong();
             		}
             	}
 
@@ -5587,17 +5644,17 @@ HXLINE(3596)			this->endSong();
 HX_DEFINE_DYNAMIC_FUNC0(PlayState_obj,achievementEnd,(void))
 
 void PlayState_obj::KillNotes(){
-            	HX_STACKFRAME(&_hx_pos_af23706db05c7feb_3601_KillNotes)
-HXLINE(3602)		while((this->notes->length > 0)){
-HXLINE(3603)			 ::Note daNote = Dynamic( this->notes->members->__get(0)).StaticCast<  ::Note >();
-HXLINE(3604)			daNote->set_active(false);
-HXLINE(3605)			daNote->set_visible(false);
-HXLINE(3607)			daNote->kill();
-HXLINE(3608)			this->notes->remove(daNote,true).StaticCast<  ::Note >();
-HXLINE(3609)			daNote->destroy();
+            	HX_STACKFRAME(&_hx_pos_af23706db05c7feb_3657_KillNotes)
+HXLINE(3658)		while((this->notes->length > 0)){
+HXLINE(3659)			 ::Note daNote = Dynamic( this->notes->members->__get(0)).StaticCast<  ::Note >();
+HXLINE(3660)			daNote->set_active(false);
+HXLINE(3661)			daNote->set_visible(false);
+HXLINE(3663)			daNote->kill();
+HXLINE(3664)			this->notes->remove(daNote,true).StaticCast<  ::Note >();
+HXLINE(3665)			daNote->destroy();
             		}
-HXLINE(3611)		this->unspawnNotes = ::Array_obj< ::Dynamic>::__new(0);
-HXLINE(3612)		this->eventNotes = ::Array_obj< ::Dynamic>::__new(0);
+HXLINE(3667)		this->unspawnNotes = ::Array_obj< ::Dynamic>::__new(0);
+HXLINE(3668)		this->eventNotes = ::Array_obj< ::Dynamic>::__new(0);
             	}
 
 
@@ -5606,282 +5663,282 @@ HX_DEFINE_DYNAMIC_FUNC0(PlayState_obj,KillNotes,(void))
 void PlayState_obj::popUpScore( ::Note note){
             		HX_BEGIN_LOCAL_FUNC_S3(::hx::LocalFunc,_hx_Closure_2, ::flixel::text::FlxText,coolText, ::flixel::FlxSprite,comboSpr1, ::flixel::FlxSprite,rating) HXARGC(1)
             		void _hx_run( ::flixel::tweens::FlxTween tween){
-            			HX_GC_STACKFRAME(&_hx_pos_af23706db05c7feb_3818_popUpScore)
-HXLINE(3819)			coolText->destroy();
-HXLINE(3820)			comboSpr1->destroy();
-HXLINE(3822)			rating->destroy();
+            			HX_GC_STACKFRAME(&_hx_pos_af23706db05c7feb_3874_popUpScore)
+HXLINE(3875)			coolText->destroy();
+HXLINE(3876)			comboSpr1->destroy();
+HXLINE(3878)			rating->destroy();
             		}
             		HX_END_LOCAL_FUNC1((void))
 
-            	HX_GC_STACKFRAME(&_hx_pos_af23706db05c7feb_3622_popUpScore)
-HXLINE(3621)		 ::PlayState _gthis = ::hx::ObjectPtr<OBJ_>(this);
-HXLINE(3623)		Float noteDiff = ::Math_obj::abs(((note->strumTime - ::Conductor_obj::songPosition) + ::ClientPrefs_obj::ratingOffset));
-HXLINE(3627)		this->vocals->set_volume(( (Float)(1) ));
-HXLINE(3629)		::String placement = ::Std_obj::string(this->combo);
-HXLINE(3631)		 ::flixel::text::FlxText coolText =  ::flixel::text::FlxText_obj::__alloc( HX_CTX ,0,0,0,placement,32,null());
-HXLINE(3632)		coolText->screenCenter(null());
-HXLINE(3633)		coolText->set_x((( (Float)(::flixel::FlxG_obj::width) ) * ((Float)0.35)));
-HXLINE(3636)		 ::flixel::FlxSprite rating =  ::flixel::FlxSprite_obj::__alloc( HX_CTX ,null(),null(),null());
-HXLINE(3637)		int score = 350;
-HXLINE(3640)		::String daRating = ::Conductor_obj::judgeNote(note,noteDiff);
-HXLINE(3642)		::String _hx_switch_0 = daRating;
+            	HX_GC_STACKFRAME(&_hx_pos_af23706db05c7feb_3678_popUpScore)
+HXLINE(3677)		 ::PlayState _gthis = ::hx::ObjectPtr<OBJ_>(this);
+HXLINE(3679)		Float noteDiff = ::Math_obj::abs(((note->strumTime - ::Conductor_obj::songPosition) + ::ClientPrefs_obj::ratingOffset));
+HXLINE(3683)		this->vocals->set_volume(( (Float)(1) ));
+HXLINE(3685)		::String placement = ::Std_obj::string(this->combo);
+HXLINE(3687)		 ::flixel::text::FlxText coolText =  ::flixel::text::FlxText_obj::__alloc( HX_CTX ,0,0,0,placement,32,null());
+HXLINE(3688)		coolText->screenCenter(null());
+HXLINE(3689)		coolText->set_x((( (Float)(::flixel::FlxG_obj::width) ) * ((Float)0.35)));
+HXLINE(3692)		 ::flixel::FlxSprite rating =  ::flixel::FlxSprite_obj::__alloc( HX_CTX ,null(),null(),null());
+HXLINE(3693)		int score = 350;
+HXLINE(3696)		::String daRating = ::Conductor_obj::judgeNote(note,noteDiff);
+HXLINE(3698)		::String _hx_switch_0 = daRating;
             		if (  (_hx_switch_0==HX_("bad",c5,b1,4a,00)) ){
-HXLINE(3650)			 ::PlayState _hx_tmp = ::hx::ObjectPtr<OBJ_>(this);
-HXDLIN(3650)			_hx_tmp->totalNotesHit = (_hx_tmp->totalNotesHit + ((Float)0.5));
-HXLINE(3651)			note->ratingMod = ((Float)0.5);
-HXLINE(3652)			score = 100;
-HXLINE(3653)			if (!(note->ratingDisabled)) {
-HXLINE(3653)				this->bads++;
+HXLINE(3706)			 ::PlayState _hx_tmp = ::hx::ObjectPtr<OBJ_>(this);
+HXDLIN(3706)			_hx_tmp->totalNotesHit = (_hx_tmp->totalNotesHit + ((Float)0.5));
+HXLINE(3707)			note->ratingMod = ((Float)0.5);
+HXLINE(3708)			score = 100;
+HXLINE(3709)			if (!(note->ratingDisabled)) {
+HXLINE(3709)				this->bads++;
             			}
-HXLINE(3649)			goto _hx_goto_167;
+HXLINE(3705)			goto _hx_goto_167;
             		}
             		if (  (_hx_switch_0==HX_("good",3d,95,69,44)) ){
-HXLINE(3655)			 ::PlayState _hx_tmp = ::hx::ObjectPtr<OBJ_>(this);
-HXDLIN(3655)			_hx_tmp->totalNotesHit = (_hx_tmp->totalNotesHit + ((Float)0.75));
-HXLINE(3656)			note->ratingMod = ((Float)0.75);
-HXLINE(3657)			score = 200;
-HXLINE(3658)			if (!(note->ratingDisabled)) {
-HXLINE(3658)				this->goods++;
+HXLINE(3711)			 ::PlayState _hx_tmp = ::hx::ObjectPtr<OBJ_>(this);
+HXDLIN(3711)			_hx_tmp->totalNotesHit = (_hx_tmp->totalNotesHit + ((Float)0.75));
+HXLINE(3712)			note->ratingMod = ((Float)0.75);
+HXLINE(3713)			score = 200;
+HXLINE(3714)			if (!(note->ratingDisabled)) {
+HXLINE(3714)				this->goods++;
             			}
-HXLINE(3654)			goto _hx_goto_167;
+HXLINE(3710)			goto _hx_goto_167;
             		}
             		if (  (_hx_switch_0==HX_("shit",c0,cf,52,4c)) ){
-HXLINE(3645)			 ::PlayState _hx_tmp = ::hx::ObjectPtr<OBJ_>(this);
-HXDLIN(3645)			_hx_tmp->totalNotesHit = _hx_tmp->totalNotesHit;
-HXLINE(3646)			note->ratingMod = ( (Float)(0) );
-HXLINE(3647)			score = 50;
-HXLINE(3648)			if (!(note->ratingDisabled)) {
-HXLINE(3648)				this->shits++;
+HXLINE(3701)			 ::PlayState _hx_tmp = ::hx::ObjectPtr<OBJ_>(this);
+HXDLIN(3701)			_hx_tmp->totalNotesHit = _hx_tmp->totalNotesHit;
+HXLINE(3702)			note->ratingMod = ( (Float)(0) );
+HXLINE(3703)			score = 50;
+HXLINE(3704)			if (!(note->ratingDisabled)) {
+HXLINE(3704)				this->shits++;
             			}
-HXLINE(3644)			goto _hx_goto_167;
+HXLINE(3700)			goto _hx_goto_167;
             		}
             		if (  (_hx_switch_0==HX_("sick",be,8c,53,4c)) ){
-HXLINE(3660)			 ::PlayState _hx_tmp = ::hx::ObjectPtr<OBJ_>(this);
-HXDLIN(3660)			_hx_tmp->totalNotesHit = (_hx_tmp->totalNotesHit + 1);
-HXLINE(3661)			note->ratingMod = ( (Float)(1) );
-HXLINE(3662)			if (!(note->ratingDisabled)) {
-HXLINE(3662)				this->sicks++;
+HXLINE(3716)			 ::PlayState _hx_tmp = ::hx::ObjectPtr<OBJ_>(this);
+HXDLIN(3716)			_hx_tmp->totalNotesHit = (_hx_tmp->totalNotesHit + 1);
+HXLINE(3717)			note->ratingMod = ( (Float)(1) );
+HXLINE(3718)			if (!(note->ratingDisabled)) {
+HXLINE(3718)				this->sicks++;
             			}
-HXLINE(3659)			goto _hx_goto_167;
+HXLINE(3715)			goto _hx_goto_167;
             		}
             		_hx_goto_167:;
-HXLINE(3664)		note->rating = daRating;
-HXLINE(3666)		bool _hx_tmp;
-HXDLIN(3666)		if ((daRating == HX_("sick",be,8c,53,4c))) {
-HXLINE(3666)			_hx_tmp = !(note->noteSplashDisabled);
+HXLINE(3720)		note->rating = daRating;
+HXLINE(3722)		bool _hx_tmp;
+HXDLIN(3722)		if ((daRating == HX_("sick",be,8c,53,4c))) {
+HXLINE(3722)			_hx_tmp = !(note->noteSplashDisabled);
             		}
             		else {
-HXLINE(3666)			_hx_tmp = false;
+HXLINE(3722)			_hx_tmp = false;
             		}
-HXDLIN(3666)		if (_hx_tmp) {
-HXLINE(3668)			this->spawnNoteSplashOnNote(note);
+HXDLIN(3722)		if (_hx_tmp) {
+HXLINE(3724)			this->spawnNoteSplashOnNote(note);
             		}
-HXLINE(3671)		bool _hx_tmp1;
-HXDLIN(3671)		if (!(this->practiceMode)) {
-HXLINE(3671)			_hx_tmp1 = !(this->cpuControlled);
+HXLINE(3727)		bool _hx_tmp1;
+HXDLIN(3727)		if (!(this->practiceMode)) {
+HXLINE(3727)			_hx_tmp1 = !(this->cpuControlled);
             		}
             		else {
-HXLINE(3671)			_hx_tmp1 = false;
+HXLINE(3727)			_hx_tmp1 = false;
             		}
-HXDLIN(3671)		if (_hx_tmp1) {
-HXLINE(3672)			 ::PlayState _hx_tmp = ::hx::ObjectPtr<OBJ_>(this);
-HXDLIN(3672)			_hx_tmp->songScore = (_hx_tmp->songScore + score);
-HXLINE(3673)			if (!(note->ratingDisabled)) {
-HXLINE(3675)				this->songHits++;
-HXLINE(3676)				this->totalPlayed++;
-HXLINE(3677)				this->RecalculateRating();
+HXDLIN(3727)		if (_hx_tmp1) {
+HXLINE(3728)			 ::PlayState _hx_tmp = ::hx::ObjectPtr<OBJ_>(this);
+HXDLIN(3728)			_hx_tmp->songScore = (_hx_tmp->songScore + score);
+HXLINE(3729)			if (!(note->ratingDisabled)) {
+HXLINE(3731)				this->songHits++;
+HXLINE(3732)				this->totalPlayed++;
+HXLINE(3733)				this->RecalculateRating();
             			}
-HXLINE(3680)			if (::ClientPrefs_obj::scoreZoom) {
+HXLINE(3736)			if (::ClientPrefs_obj::scoreZoom) {
             				HX_BEGIN_LOCAL_FUNC_S1(::hx::LocalFunc,_hx_Closure_0, ::PlayState,_gthis) HXARGC(1)
             				void _hx_run( ::flixel::tweens::FlxTween twn){
-            					HX_GC_STACKFRAME(&_hx_pos_af23706db05c7feb_3689_popUpScore)
-HXLINE(3689)					_gthis->scoreTxtTween = null();
+            					HX_GC_STACKFRAME(&_hx_pos_af23706db05c7feb_3745_popUpScore)
+HXLINE(3745)					_gthis->scoreTxtTween = null();
             				}
             				HX_END_LOCAL_FUNC1((void))
 
-HXLINE(3682)				if (::hx::IsNotNull( this->scoreTxtTween )) {
-HXLINE(3683)					this->scoreTxtTween->cancel();
+HXLINE(3738)				if (::hx::IsNotNull( this->scoreTxtTween )) {
+HXLINE(3739)					this->scoreTxtTween->cancel();
             				}
-HXLINE(3685)				this->scoreTxt->scale->set_x(((Float)1.075));
-HXLINE(3686)				this->scoreTxt->scale->set_y(((Float)1.075));
-HXLINE(3687)				this->scoreTxtTween = ::flixel::tweens::FlxTween_obj::tween(this->scoreTxt->scale, ::Dynamic(::hx::Anon_obj::Create(2)
+HXLINE(3741)				this->scoreTxt->scale->set_x(((Float)1.075));
+HXLINE(3742)				this->scoreTxt->scale->set_y(((Float)1.075));
+HXLINE(3743)				this->scoreTxtTween = ::flixel::tweens::FlxTween_obj::tween(this->scoreTxt->scale, ::Dynamic(::hx::Anon_obj::Create(2)
             					->setFixed(0,HX_("x",78,00,00,00),1)
             					->setFixed(1,HX_("y",79,00,00,00),1)),((Float)0.2), ::Dynamic(::hx::Anon_obj::Create(1)
             					->setFixed(0,HX_("onComplete",f8,d4,7e,5d), ::Dynamic(new _hx_Closure_0(_gthis)))));
             			}
             		}
-HXLINE(3703)		::String pixelShitPart1 = HX_("",00,00,00,00);
-HXLINE(3704)		::String pixelShitPart2 = HX_("",00,00,00,00);
-HXLINE(3706)		if (::PlayState_obj::isPixelStage) {
-HXLINE(3708)			pixelShitPart1 = HX_("pixelUI/",95,50,4f,7e);
-HXLINE(3709)			pixelShitPart2 = HX_("-pixel",39,03,b3,c0);
+HXLINE(3759)		::String pixelShitPart1 = HX_("",00,00,00,00);
+HXLINE(3760)		::String pixelShitPart2 = HX_("",00,00,00,00);
+HXLINE(3762)		if (::PlayState_obj::isPixelStage) {
+HXLINE(3764)			pixelShitPart1 = HX_("pixelUI/",95,50,4f,7e);
+HXLINE(3765)			pixelShitPart2 = HX_("-pixel",39,03,b3,c0);
             		}
-HXLINE(3712)		 ::flixel::FlxSprite rating1 = rating;
-HXDLIN(3712)		::String library = null();
-HXDLIN(3712)		 ::flixel::graphics::FlxGraphic returnAsset = ::Paths_obj::returnGraphic(((pixelShitPart1 + daRating) + pixelShitPart2),library);
-HXDLIN(3712)		rating1->loadGraphic(returnAsset,null(),null(),null(),null(),null());
-HXLINE(3713)		rating->set_cameras(::Array_obj< ::Dynamic>::__new(1)->init(0,this->camHUD));
-HXLINE(3714)		rating->screenCenter(null());
-HXLINE(3715)		rating->set_x((coolText->x - ( (Float)(40) )));
-HXLINE(3716)		{
-HXLINE(3716)			 ::flixel::FlxSprite _g = rating;
-HXDLIN(3716)			_g->set_y((_g->y - ( (Float)(60) )));
+HXLINE(3768)		 ::flixel::FlxSprite rating1 = rating;
+HXDLIN(3768)		::String library = null();
+HXDLIN(3768)		 ::flixel::graphics::FlxGraphic returnAsset = ::Paths_obj::returnGraphic(((pixelShitPart1 + daRating) + pixelShitPart2),library);
+HXDLIN(3768)		rating1->loadGraphic(returnAsset,null(),null(),null(),null(),null());
+HXLINE(3769)		rating->set_cameras(::Array_obj< ::Dynamic>::__new(1)->init(0,this->camHUD));
+HXLINE(3770)		rating->screenCenter(null());
+HXLINE(3771)		rating->set_x((coolText->x - ( (Float)(40) )));
+HXLINE(3772)		{
+HXLINE(3772)			 ::flixel::FlxSprite _g = rating;
+HXDLIN(3772)			_g->set_y((_g->y - ( (Float)(60) )));
             		}
-HXLINE(3717)		rating->acceleration->set_y(( (Float)(550) ));
-HXLINE(3718)		{
-HXLINE(3718)			 ::flixel::math::FlxPoint _g1 = rating->velocity;
-HXDLIN(3718)			Float _g2 = _g1->y;
-HXDLIN(3718)			_g1->set_y((_g2 - ( (Float)(::flixel::FlxG_obj::random->_hx_int(140,175,null())) )));
+HXLINE(3773)		rating->acceleration->set_y(( (Float)(550) ));
+HXLINE(3774)		{
+HXLINE(3774)			 ::flixel::math::FlxPoint _g1 = rating->velocity;
+HXDLIN(3774)			Float _g2 = _g1->y;
+HXDLIN(3774)			_g1->set_y((_g2 - ( (Float)(::flixel::FlxG_obj::random->_hx_int(140,175,null())) )));
             		}
-HXLINE(3719)		{
-HXLINE(3719)			 ::flixel::math::FlxPoint _g3 = rating->velocity;
-HXDLIN(3719)			Float _g4 = _g3->x;
-HXDLIN(3719)			_g3->set_x((_g4 - ( (Float)(::flixel::FlxG_obj::random->_hx_int(0,10,null())) )));
+HXLINE(3775)		{
+HXLINE(3775)			 ::flixel::math::FlxPoint _g3 = rating->velocity;
+HXDLIN(3775)			Float _g4 = _g3->x;
+HXDLIN(3775)			_g3->set_x((_g4 - ( (Float)(::flixel::FlxG_obj::random->_hx_int(0,10,null())) )));
             		}
-HXLINE(3720)		bool _hx_tmp2;
-HXDLIN(3720)		if (!(::ClientPrefs_obj::hideHud)) {
-HXLINE(3720)			_hx_tmp2 = this->showRating;
-            		}
-            		else {
-HXLINE(3720)			_hx_tmp2 = false;
-            		}
-HXDLIN(3720)		rating->set_visible(_hx_tmp2);
-HXLINE(3721)		{
-HXLINE(3721)			 ::flixel::FlxSprite _g5 = rating;
-HXDLIN(3721)			_g5->set_x((_g5->x + ::ClientPrefs_obj::comboOffset->__get(0)));
-            		}
-HXLINE(3722)		{
-HXLINE(3722)			 ::flixel::FlxSprite _g6 = rating;
-HXDLIN(3722)			_g6->set_y((_g6->y - ( (Float)(::ClientPrefs_obj::comboOffset->__get(1)) )));
-            		}
-HXLINE(3724)		 ::flixel::FlxSprite comboSpr =  ::flixel::FlxSprite_obj::__alloc( HX_CTX ,null(),null(),null());
-HXDLIN(3724)		::String library1 = null();
-HXDLIN(3724)		 ::flixel::graphics::FlxGraphic returnAsset1 = ::Paths_obj::returnGraphic(((pixelShitPart1 + HX_("combo",4e,28,5d,4a)) + pixelShitPart2),library1);
-HXDLIN(3724)		 ::flixel::FlxSprite comboSpr1 = comboSpr->loadGraphic(returnAsset1,null(),null(),null(),null(),null());
-HXLINE(3725)		comboSpr1->set_cameras(::Array_obj< ::Dynamic>::__new(1)->init(0,this->camHUD));
-HXLINE(3726)		comboSpr1->screenCenter(null());
-HXLINE(3727)		comboSpr1->set_x(coolText->x);
-HXLINE(3728)		comboSpr1->acceleration->set_y(( (Float)(600) ));
-HXLINE(3729)		{
-HXLINE(3729)			 ::flixel::math::FlxPoint _g7 = comboSpr1->velocity;
-HXDLIN(3729)			_g7->set_y((_g7->y - ( (Float)(150) )));
-            		}
-HXLINE(3730)		bool _hx_tmp3;
-HXDLIN(3730)		if (!(::ClientPrefs_obj::hideHud)) {
-HXLINE(3730)			_hx_tmp3 = this->showCombo;
+HXLINE(3776)		bool _hx_tmp2;
+HXDLIN(3776)		if (!(::ClientPrefs_obj::hideHud)) {
+HXLINE(3776)			_hx_tmp2 = this->showRating;
             		}
             		else {
-HXLINE(3730)			_hx_tmp3 = false;
+HXLINE(3776)			_hx_tmp2 = false;
             		}
-HXDLIN(3730)		comboSpr1->set_visible(_hx_tmp3);
-HXLINE(3731)		{
-HXLINE(3731)			 ::flixel::FlxSprite _g8 = comboSpr1;
-HXDLIN(3731)			_g8->set_x((_g8->x + ::ClientPrefs_obj::comboOffset->__get(0)));
+HXDLIN(3776)		rating->set_visible(_hx_tmp2);
+HXLINE(3777)		{
+HXLINE(3777)			 ::flixel::FlxSprite _g5 = rating;
+HXDLIN(3777)			_g5->set_x((_g5->x + ::ClientPrefs_obj::comboOffset->__get(0)));
             		}
-HXLINE(3732)		{
-HXLINE(3732)			 ::flixel::FlxSprite _g9 = comboSpr1;
-HXDLIN(3732)			_g9->set_y((_g9->y - ( (Float)(::ClientPrefs_obj::comboOffset->__get(1)) )));
+HXLINE(3778)		{
+HXLINE(3778)			 ::flixel::FlxSprite _g6 = rating;
+HXDLIN(3778)			_g6->set_y((_g6->y - ( (Float)(::ClientPrefs_obj::comboOffset->__get(1)) )));
             		}
-HXLINE(3735)		{
-HXLINE(3735)			 ::flixel::math::FlxPoint _g10 = comboSpr1->velocity;
-HXDLIN(3735)			Float _g11 = _g10->x;
-HXDLIN(3735)			_g10->set_x((_g11 + ::flixel::FlxG_obj::random->_hx_int(1,10,null())));
+HXLINE(3780)		 ::flixel::FlxSprite comboSpr =  ::flixel::FlxSprite_obj::__alloc( HX_CTX ,null(),null(),null());
+HXDLIN(3780)		::String library1 = null();
+HXDLIN(3780)		 ::flixel::graphics::FlxGraphic returnAsset1 = ::Paths_obj::returnGraphic(((pixelShitPart1 + HX_("combo",4e,28,5d,4a)) + pixelShitPart2),library1);
+HXDLIN(3780)		 ::flixel::FlxSprite comboSpr1 = comboSpr->loadGraphic(returnAsset1,null(),null(),null(),null(),null());
+HXLINE(3781)		comboSpr1->set_cameras(::Array_obj< ::Dynamic>::__new(1)->init(0,this->camHUD));
+HXLINE(3782)		comboSpr1->screenCenter(null());
+HXLINE(3783)		comboSpr1->set_x(coolText->x);
+HXLINE(3784)		comboSpr1->acceleration->set_y(( (Float)(600) ));
+HXLINE(3785)		{
+HXLINE(3785)			 ::flixel::math::FlxPoint _g7 = comboSpr1->velocity;
+HXDLIN(3785)			_g7->set_y((_g7->y - ( (Float)(150) )));
             		}
-HXLINE(3736)		int _hx_tmp4 = this->members->indexOf(this->strumLineNotes,null());
-HXDLIN(3736)		this->insert(_hx_tmp4,rating);
-HXLINE(3738)		if (!(::PlayState_obj::isPixelStage)) {
-HXLINE(3740)			 ::flixel::FlxSprite rating1 = rating;
-HXDLIN(3740)			rating1->setGraphicSize(::Std_obj::_hx_int((rating->get_width() * ((Float)0.7))),null());
-HXLINE(3741)			rating->set_antialiasing(::ClientPrefs_obj::globalAntialiasing);
-HXLINE(3742)			 ::flixel::FlxSprite comboSpr = comboSpr1;
-HXDLIN(3742)			comboSpr->setGraphicSize(::Std_obj::_hx_int((comboSpr1->get_width() * ((Float)0.7))),null());
-HXLINE(3743)			comboSpr1->set_antialiasing(::ClientPrefs_obj::globalAntialiasing);
+HXLINE(3786)		bool _hx_tmp3;
+HXDLIN(3786)		if (!(::ClientPrefs_obj::hideHud)) {
+HXLINE(3786)			_hx_tmp3 = this->showCombo;
             		}
             		else {
-HXLINE(3747)			 ::flixel::FlxSprite rating1 = rating;
-HXDLIN(3747)			Float _hx_tmp = rating->get_width();
-HXDLIN(3747)			rating1->setGraphicSize(::Std_obj::_hx_int(((_hx_tmp * ::PlayState_obj::daPixelZoom) * ((Float)0.85))),null());
-HXLINE(3748)			 ::flixel::FlxSprite comboSpr = comboSpr1;
-HXDLIN(3748)			Float _hx_tmp1 = comboSpr1->get_width();
-HXDLIN(3748)			comboSpr->setGraphicSize(::Std_obj::_hx_int(((_hx_tmp1 * ::PlayState_obj::daPixelZoom) * ((Float)0.85))),null());
+HXLINE(3786)			_hx_tmp3 = false;
             		}
-HXLINE(3751)		comboSpr1->updateHitbox();
-HXLINE(3752)		rating->updateHitbox();
-HXLINE(3754)		::Array< int > seperatedScore = ::Array_obj< int >::__new(0);
-HXLINE(3756)		if ((this->combo >= 1000)) {
-HXLINE(3757)			seperatedScore->push(::hx::Mod(::Math_obj::floor((( (Float)(this->combo) ) / ( (Float)(1000) ))),10));
+HXDLIN(3786)		comboSpr1->set_visible(_hx_tmp3);
+HXLINE(3787)		{
+HXLINE(3787)			 ::flixel::FlxSprite _g8 = comboSpr1;
+HXDLIN(3787)			_g8->set_x((_g8->x + ::ClientPrefs_obj::comboOffset->__get(0)));
             		}
-HXLINE(3759)		seperatedScore->push(::hx::Mod(::Math_obj::floor((( (Float)(this->combo) ) / ( (Float)(100) ))),10));
-HXLINE(3760)		seperatedScore->push(::hx::Mod(::Math_obj::floor((( (Float)(this->combo) ) / ( (Float)(10) ))),10));
-HXLINE(3761)		seperatedScore->push(::hx::Mod(this->combo,10));
-HXLINE(3763)		int daLoop = 0;
-HXLINE(3764)		{
-HXLINE(3764)			int _g12 = 0;
-HXDLIN(3764)			while((_g12 < seperatedScore->length)){
+HXLINE(3788)		{
+HXLINE(3788)			 ::flixel::FlxSprite _g9 = comboSpr1;
+HXDLIN(3788)			_g9->set_y((_g9->y - ( (Float)(::ClientPrefs_obj::comboOffset->__get(1)) )));
+            		}
+HXLINE(3791)		{
+HXLINE(3791)			 ::flixel::math::FlxPoint _g10 = comboSpr1->velocity;
+HXDLIN(3791)			Float _g11 = _g10->x;
+HXDLIN(3791)			_g10->set_x((_g11 + ::flixel::FlxG_obj::random->_hx_int(1,10,null())));
+            		}
+HXLINE(3792)		int _hx_tmp4 = this->members->indexOf(this->strumLineNotes,null());
+HXDLIN(3792)		this->insert(_hx_tmp4,rating);
+HXLINE(3794)		if (!(::PlayState_obj::isPixelStage)) {
+HXLINE(3796)			 ::flixel::FlxSprite rating1 = rating;
+HXDLIN(3796)			rating1->setGraphicSize(::Std_obj::_hx_int((rating->get_width() * ((Float)0.7))),null());
+HXLINE(3797)			rating->set_antialiasing(::ClientPrefs_obj::globalAntialiasing);
+HXLINE(3798)			 ::flixel::FlxSprite comboSpr = comboSpr1;
+HXDLIN(3798)			comboSpr->setGraphicSize(::Std_obj::_hx_int((comboSpr1->get_width() * ((Float)0.7))),null());
+HXLINE(3799)			comboSpr1->set_antialiasing(::ClientPrefs_obj::globalAntialiasing);
+            		}
+            		else {
+HXLINE(3803)			 ::flixel::FlxSprite rating1 = rating;
+HXDLIN(3803)			Float _hx_tmp = rating->get_width();
+HXDLIN(3803)			rating1->setGraphicSize(::Std_obj::_hx_int(((_hx_tmp * ::PlayState_obj::daPixelZoom) * ((Float)0.85))),null());
+HXLINE(3804)			 ::flixel::FlxSprite comboSpr = comboSpr1;
+HXDLIN(3804)			Float _hx_tmp1 = comboSpr1->get_width();
+HXDLIN(3804)			comboSpr->setGraphicSize(::Std_obj::_hx_int(((_hx_tmp1 * ::PlayState_obj::daPixelZoom) * ((Float)0.85))),null());
+            		}
+HXLINE(3807)		comboSpr1->updateHitbox();
+HXLINE(3808)		rating->updateHitbox();
+HXLINE(3810)		::Array< int > seperatedScore = ::Array_obj< int >::__new(0);
+HXLINE(3812)		if ((this->combo >= 1000)) {
+HXLINE(3813)			seperatedScore->push(::hx::Mod(::Math_obj::floor((( (Float)(this->combo) ) / ( (Float)(1000) ))),10));
+            		}
+HXLINE(3815)		seperatedScore->push(::hx::Mod(::Math_obj::floor((( (Float)(this->combo) ) / ( (Float)(100) ))),10));
+HXLINE(3816)		seperatedScore->push(::hx::Mod(::Math_obj::floor((( (Float)(this->combo) ) / ( (Float)(10) ))),10));
+HXLINE(3817)		seperatedScore->push(::hx::Mod(this->combo,10));
+HXLINE(3819)		int daLoop = 0;
+HXLINE(3820)		{
+HXLINE(3820)			int _g12 = 0;
+HXDLIN(3820)			while((_g12 < seperatedScore->length)){
             				HX_BEGIN_LOCAL_FUNC_S1(::hx::LocalFunc,_hx_Closure_1, ::flixel::FlxSprite,numScore1) HXARGC(1)
             				void _hx_run( ::flixel::tweens::FlxTween tween){
-            					HX_GC_STACKFRAME(&_hx_pos_af23706db05c7feb_3797_popUpScore)
-HXLINE(3797)					numScore1->destroy();
+            					HX_GC_STACKFRAME(&_hx_pos_af23706db05c7feb_3853_popUpScore)
+HXLINE(3853)					numScore1->destroy();
             				}
             				HX_END_LOCAL_FUNC1((void))
 
-HXLINE(3764)				int i = seperatedScore->__get(_g12);
-HXDLIN(3764)				_g12 = (_g12 + 1);
-HXLINE(3766)				 ::flixel::FlxSprite numScore =  ::flixel::FlxSprite_obj::__alloc( HX_CTX ,null(),null(),null());
-HXDLIN(3766)				::String library = null();
-HXDLIN(3766)				 ::flixel::graphics::FlxGraphic returnAsset = ::Paths_obj::returnGraphic((((pixelShitPart1 + HX_("num",46,de,53,00)) + ::Std_obj::_hx_int(( (Float)(i) ))) + pixelShitPart2),library);
-HXDLIN(3766)				 ::flixel::FlxSprite numScore1 = numScore->loadGraphic(returnAsset,null(),null(),null(),null(),null());
-HXLINE(3767)				numScore1->set_cameras(::Array_obj< ::Dynamic>::__new(1)->init(0,this->camHUD));
-HXLINE(3768)				numScore1->screenCenter(null());
-HXLINE(3769)				numScore1->set_x(((coolText->x + (43 * daLoop)) - ( (Float)(90) )));
-HXLINE(3770)				{
-HXLINE(3770)					 ::flixel::FlxSprite _g = numScore1;
-HXDLIN(3770)					_g->set_y((_g->y + 80));
+HXLINE(3820)				int i = seperatedScore->__get(_g12);
+HXDLIN(3820)				_g12 = (_g12 + 1);
+HXLINE(3822)				 ::flixel::FlxSprite numScore =  ::flixel::FlxSprite_obj::__alloc( HX_CTX ,null(),null(),null());
+HXDLIN(3822)				::String library = null();
+HXDLIN(3822)				 ::flixel::graphics::FlxGraphic returnAsset = ::Paths_obj::returnGraphic((((pixelShitPart1 + HX_("num",46,de,53,00)) + ::Std_obj::_hx_int(( (Float)(i) ))) + pixelShitPart2),library);
+HXDLIN(3822)				 ::flixel::FlxSprite numScore1 = numScore->loadGraphic(returnAsset,null(),null(),null(),null(),null());
+HXLINE(3823)				numScore1->set_cameras(::Array_obj< ::Dynamic>::__new(1)->init(0,this->camHUD));
+HXLINE(3824)				numScore1->screenCenter(null());
+HXLINE(3825)				numScore1->set_x(((coolText->x + (43 * daLoop)) - ( (Float)(90) )));
+HXLINE(3826)				{
+HXLINE(3826)					 ::flixel::FlxSprite _g = numScore1;
+HXDLIN(3826)					_g->set_y((_g->y + 80));
             				}
-HXLINE(3772)				{
-HXLINE(3772)					 ::flixel::FlxSprite _g1 = numScore1;
-HXDLIN(3772)					_g1->set_x((_g1->x + ::ClientPrefs_obj::comboOffset->__get(2)));
+HXLINE(3828)				{
+HXLINE(3828)					 ::flixel::FlxSprite _g1 = numScore1;
+HXDLIN(3828)					_g1->set_x((_g1->x + ::ClientPrefs_obj::comboOffset->__get(2)));
             				}
-HXLINE(3773)				{
-HXLINE(3773)					 ::flixel::FlxSprite _g2 = numScore1;
-HXDLIN(3773)					_g2->set_y((_g2->y - ( (Float)(::ClientPrefs_obj::comboOffset->__get(3)) )));
+HXLINE(3829)				{
+HXLINE(3829)					 ::flixel::FlxSprite _g2 = numScore1;
+HXDLIN(3829)					_g2->set_y((_g2->y - ( (Float)(::ClientPrefs_obj::comboOffset->__get(3)) )));
             				}
-HXLINE(3775)				if (!(::PlayState_obj::isPixelStage)) {
-HXLINE(3777)					numScore1->set_antialiasing(::ClientPrefs_obj::globalAntialiasing);
-HXLINE(3778)					 ::flixel::FlxSprite numScore = numScore1;
-HXDLIN(3778)					numScore->setGraphicSize(::Std_obj::_hx_int((numScore1->get_width() * ((Float)0.5))),null());
+HXLINE(3831)				if (!(::PlayState_obj::isPixelStage)) {
+HXLINE(3833)					numScore1->set_antialiasing(::ClientPrefs_obj::globalAntialiasing);
+HXLINE(3834)					 ::flixel::FlxSprite numScore = numScore1;
+HXDLIN(3834)					numScore->setGraphicSize(::Std_obj::_hx_int((numScore1->get_width() * ((Float)0.5))),null());
             				}
             				else {
-HXLINE(3782)					 ::flixel::FlxSprite numScore = numScore1;
-HXDLIN(3782)					Float _hx_tmp = numScore1->get_width();
-HXDLIN(3782)					numScore->setGraphicSize(::Std_obj::_hx_int((_hx_tmp * ::PlayState_obj::daPixelZoom)),null());
+HXLINE(3838)					 ::flixel::FlxSprite numScore = numScore1;
+HXDLIN(3838)					Float _hx_tmp = numScore1->get_width();
+HXDLIN(3838)					numScore->setGraphicSize(::Std_obj::_hx_int((_hx_tmp * ::PlayState_obj::daPixelZoom)),null());
             				}
-HXLINE(3784)				numScore1->updateHitbox();
-HXLINE(3786)				 ::flixel::math::FlxPoint numScore2 = numScore1->acceleration;
-HXDLIN(3786)				numScore2->set_y(( (Float)(::flixel::FlxG_obj::random->_hx_int(200,300,null())) ));
-HXLINE(3787)				{
-HXLINE(3787)					 ::flixel::math::FlxPoint _g3 = numScore1->velocity;
-HXDLIN(3787)					Float _g4 = _g3->y;
-HXDLIN(3787)					_g3->set_y((_g4 - ( (Float)(::flixel::FlxG_obj::random->_hx_int(140,160,null())) )));
+HXLINE(3840)				numScore1->updateHitbox();
+HXLINE(3842)				 ::flixel::math::FlxPoint numScore2 = numScore1->acceleration;
+HXDLIN(3842)				numScore2->set_y(( (Float)(::flixel::FlxG_obj::random->_hx_int(200,300,null())) ));
+HXLINE(3843)				{
+HXLINE(3843)					 ::flixel::math::FlxPoint _g3 = numScore1->velocity;
+HXDLIN(3843)					Float _g4 = _g3->y;
+HXDLIN(3843)					_g3->set_y((_g4 - ( (Float)(::flixel::FlxG_obj::random->_hx_int(140,160,null())) )));
             				}
-HXLINE(3788)				 ::flixel::math::FlxPoint numScore3 = numScore1->velocity;
-HXDLIN(3788)				numScore3->set_x(::flixel::FlxG_obj::random->_hx_float(-5,5,null()));
-HXLINE(3789)				numScore1->set_visible(!(::ClientPrefs_obj::hideHud));
-HXLINE(3792)				int _hx_tmp = this->members->indexOf(this->strumLineNotes,null());
-HXDLIN(3792)				this->insert(_hx_tmp,numScore1);
-HXLINE(3794)				::flixel::tweens::FlxTween_obj::tween(numScore1, ::Dynamic(::hx::Anon_obj::Create(1)
+HXLINE(3844)				 ::flixel::math::FlxPoint numScore3 = numScore1->velocity;
+HXDLIN(3844)				numScore3->set_x(::flixel::FlxG_obj::random->_hx_float(-5,5,null()));
+HXLINE(3845)				numScore1->set_visible(!(::ClientPrefs_obj::hideHud));
+HXLINE(3848)				int _hx_tmp = this->members->indexOf(this->strumLineNotes,null());
+HXDLIN(3848)				this->insert(_hx_tmp,numScore1);
+HXLINE(3850)				::flixel::tweens::FlxTween_obj::tween(numScore1, ::Dynamic(::hx::Anon_obj::Create(1)
             					->setFixed(0,HX_("alpha",5e,a7,96,21),0)),((Float)0.2), ::Dynamic(::hx::Anon_obj::Create(2)
             					->setFixed(0,HX_("startDelay",c1,af,3d,f3),(::Conductor_obj::crochet * ((Float)0.002)))
             					->setFixed(1,HX_("onComplete",f8,d4,7e,5d), ::Dynamic(new _hx_Closure_1(numScore1)))));
-HXLINE(3802)				daLoop = (daLoop + 1);
+HXLINE(3858)				daLoop = (daLoop + 1);
             			}
             		}
-HXLINE(3809)		 ::flixel::text::FlxText coolText1 = coolText;
-HXDLIN(3809)		coolText1->set_text(::Std_obj::string(seperatedScore));
-HXLINE(3812)		::flixel::tweens::FlxTween_obj::tween(rating, ::Dynamic(::hx::Anon_obj::Create(1)
+HXLINE(3865)		 ::flixel::text::FlxText coolText1 = coolText;
+HXDLIN(3865)		coolText1->set_text(::Std_obj::string(seperatedScore));
+HXLINE(3868)		::flixel::tweens::FlxTween_obj::tween(rating, ::Dynamic(::hx::Anon_obj::Create(1)
             			->setFixed(0,HX_("alpha",5e,a7,96,21),0)),((Float)0.2), ::Dynamic(::hx::Anon_obj::Create(1)
             			->setFixed(0,HX_("startDelay",c1,af,3d,f3),(::Conductor_obj::crochet * ((Float)0.001)))));
-HXLINE(3816)		::flixel::tweens::FlxTween_obj::tween(comboSpr1, ::Dynamic(::hx::Anon_obj::Create(1)
+HXLINE(3872)		::flixel::tweens::FlxTween_obj::tween(comboSpr1, ::Dynamic(::hx::Anon_obj::Create(1)
             			->setFixed(0,HX_("alpha",5e,a7,96,21),0)),((Float)0.2), ::Dynamic(::hx::Anon_obj::Create(2)
             			->setFixed(0,HX_("startDelay",c1,af,3d,f3),(::Conductor_obj::crochet * ((Float)0.001)))
             			->setFixed(1,HX_("onComplete",f8,d4,7e,5d), ::Dynamic(new _hx_Closure_2(coolText,comboSpr1,rating)))));
@@ -5891,154 +5948,154 @@ HXLINE(3816)		::flixel::tweens::FlxTween_obj::tween(comboSpr1, ::Dynamic(::hx::A
 HX_DEFINE_DYNAMIC_FUNC1(PlayState_obj,popUpScore,(void))
 
 void PlayState_obj::onKeyPress( ::openfl::events::KeyboardEvent event){
-            	HX_STACKFRAME(&_hx_pos_af23706db05c7feb_3829_onKeyPress)
-HXLINE(3830)		int eventKey = event->keyCode;
-HXLINE(3831)		int key = this->getKeyFromEvent(eventKey);
-HXLINE(3834)		bool _hx_tmp;
-HXDLIN(3834)		bool _hx_tmp1;
-HXDLIN(3834)		bool _hx_tmp2;
-HXDLIN(3834)		if (!(this->cpuControlled)) {
-HXLINE(3834)			_hx_tmp2 = !(this->paused);
+            	HX_STACKFRAME(&_hx_pos_af23706db05c7feb_3885_onKeyPress)
+HXLINE(3886)		int eventKey = event->keyCode;
+HXLINE(3887)		int key = this->getKeyFromEvent(eventKey);
+HXLINE(3890)		bool _hx_tmp;
+HXDLIN(3890)		bool _hx_tmp1;
+HXDLIN(3890)		bool _hx_tmp2;
+HXDLIN(3890)		if (!(this->cpuControlled)) {
+HXLINE(3890)			_hx_tmp2 = !(this->paused);
             		}
             		else {
-HXLINE(3834)			_hx_tmp2 = false;
+HXLINE(3890)			_hx_tmp2 = false;
             		}
-HXDLIN(3834)		if (_hx_tmp2) {
-HXLINE(3834)			_hx_tmp1 = (key > -1);
-            		}
-            		else {
-HXLINE(3834)			_hx_tmp1 = false;
-            		}
-HXDLIN(3834)		if (_hx_tmp1) {
-HXLINE(3834)			if (!(::flixel::FlxG_obj::keys->checkStatus(eventKey,2))) {
-HXLINE(3834)				_hx_tmp = ::ClientPrefs_obj::controllerMode;
-            			}
-            			else {
-HXLINE(3834)				_hx_tmp = true;
-            			}
+HXDLIN(3890)		if (_hx_tmp2) {
+HXLINE(3890)			_hx_tmp1 = (key > -1);
             		}
             		else {
-HXLINE(3834)			_hx_tmp = false;
+HXLINE(3890)			_hx_tmp1 = false;
             		}
-HXDLIN(3834)		if (_hx_tmp) {
-HXLINE(3836)			bool _hx_tmp;
-HXDLIN(3836)			bool _hx_tmp1;
-HXDLIN(3836)			if (!(this->boyfriend->stunned)) {
-HXLINE(3836)				_hx_tmp1 = this->generatedMusic;
+HXDLIN(3890)		if (_hx_tmp1) {
+HXLINE(3890)			if (!(::flixel::FlxG_obj::keys->checkStatus(eventKey,2))) {
+HXLINE(3890)				_hx_tmp = ::ClientPrefs_obj::controllerMode;
             			}
             			else {
-HXLINE(3836)				_hx_tmp1 = false;
+HXLINE(3890)				_hx_tmp = true;
             			}
-HXDLIN(3836)			if (_hx_tmp1) {
-HXLINE(3836)				_hx_tmp = !(this->endingSong);
+            		}
+            		else {
+HXLINE(3890)			_hx_tmp = false;
+            		}
+HXDLIN(3890)		if (_hx_tmp) {
+HXLINE(3892)			bool _hx_tmp;
+HXDLIN(3892)			bool _hx_tmp1;
+HXDLIN(3892)			if (!(this->boyfriend->stunned)) {
+HXLINE(3892)				_hx_tmp1 = this->generatedMusic;
             			}
             			else {
-HXLINE(3836)				_hx_tmp = false;
+HXLINE(3892)				_hx_tmp1 = false;
             			}
-HXDLIN(3836)			if (_hx_tmp) {
+HXDLIN(3892)			if (_hx_tmp1) {
+HXLINE(3892)				_hx_tmp = !(this->endingSong);
+            			}
+            			else {
+HXLINE(3892)				_hx_tmp = false;
+            			}
+HXDLIN(3892)			if (_hx_tmp) {
             				HX_BEGIN_LOCAL_FUNC_S3(::hx::LocalFunc,_hx_Closure_0,int,key,::Array< ::Dynamic>,sortedNotesList,::Array< bool >,canMiss) HXARGC(1)
             				void _hx_run( ::Note daNote){
-            					HX_STACKFRAME(&_hx_pos_af23706db05c7feb_3852_onKeyPress)
-HXLINE(3852)					bool _hx_tmp;
-HXDLIN(3852)					bool _hx_tmp1;
-HXDLIN(3852)					bool _hx_tmp2;
-HXDLIN(3852)					bool _hx_tmp3;
-HXDLIN(3852)					if (daNote->canBeHit) {
-HXLINE(3852)						_hx_tmp3 = daNote->mustPress;
+            					HX_STACKFRAME(&_hx_pos_af23706db05c7feb_3908_onKeyPress)
+HXLINE(3908)					bool _hx_tmp;
+HXDLIN(3908)					bool _hx_tmp1;
+HXDLIN(3908)					bool _hx_tmp2;
+HXDLIN(3908)					bool _hx_tmp3;
+HXDLIN(3908)					if (daNote->canBeHit) {
+HXLINE(3908)						_hx_tmp3 = daNote->mustPress;
             					}
             					else {
-HXLINE(3852)						_hx_tmp3 = false;
+HXLINE(3908)						_hx_tmp3 = false;
             					}
-HXDLIN(3852)					if (_hx_tmp3) {
-HXLINE(3852)						_hx_tmp2 = !(daNote->tooLate);
-            					}
-            					else {
-HXLINE(3852)						_hx_tmp2 = false;
-            					}
-HXDLIN(3852)					if (_hx_tmp2) {
-HXLINE(3852)						_hx_tmp1 = !(daNote->wasGoodHit);
+HXDLIN(3908)					if (_hx_tmp3) {
+HXLINE(3908)						_hx_tmp2 = !(daNote->tooLate);
             					}
             					else {
-HXLINE(3852)						_hx_tmp1 = false;
+HXLINE(3908)						_hx_tmp2 = false;
             					}
-HXDLIN(3852)					if (_hx_tmp1) {
-HXLINE(3852)						_hx_tmp = !(daNote->isSustainNote);
+HXDLIN(3908)					if (_hx_tmp2) {
+HXLINE(3908)						_hx_tmp1 = !(daNote->wasGoodHit);
             					}
             					else {
-HXLINE(3852)						_hx_tmp = false;
+HXLINE(3908)						_hx_tmp1 = false;
             					}
-HXDLIN(3852)					if (_hx_tmp) {
-HXLINE(3854)						if ((daNote->noteData == key)) {
-HXLINE(3856)							sortedNotesList->push(daNote);
+HXDLIN(3908)					if (_hx_tmp1) {
+HXLINE(3908)						_hx_tmp = !(daNote->isSustainNote);
+            					}
+            					else {
+HXLINE(3908)						_hx_tmp = false;
+            					}
+HXDLIN(3908)					if (_hx_tmp) {
+HXLINE(3910)						if ((daNote->noteData == key)) {
+HXLINE(3912)							sortedNotesList->push(daNote);
             						}
-HXLINE(3859)						canMiss[0] = true;
+HXLINE(3915)						canMiss[0] = true;
             					}
             				}
             				HX_END_LOCAL_FUNC1((void))
 
             				HX_BEGIN_LOCAL_FUNC_S0(::hx::LocalFunc,_hx_Closure_1) HXARGC(2)
             				int _hx_run( ::Note a, ::Note b){
-            					HX_STACKFRAME(&_hx_pos_af23706db05c7feb_3862_onKeyPress)
-HXLINE(3862)					return ::Std_obj::_hx_int((a->strumTime - b->strumTime));
+            					HX_STACKFRAME(&_hx_pos_af23706db05c7feb_3918_onKeyPress)
+HXLINE(3918)					return ::Std_obj::_hx_int((a->strumTime - b->strumTime));
             				}
             				HX_END_LOCAL_FUNC2(return)
 
-HXLINE(3839)				Float lastTime = ::Conductor_obj::songPosition;
-HXLINE(3840)				::Conductor_obj::songPosition = ::flixel::FlxG_obj::sound->music->_time;
-HXLINE(3842)				::Array< bool > canMiss = ::Array_obj< bool >::__new(1)->init(0,!(::ClientPrefs_obj::ghostTapping));
-HXLINE(3845)				::Array< ::Dynamic> pressNotes = ::Array_obj< ::Dynamic>::__new(0);
-HXLINE(3847)				bool notesStopped = false;
-HXLINE(3849)				::Array< ::Dynamic> sortedNotesList = ::Array_obj< ::Dynamic>::__new(0);
-HXLINE(3850)				this->notes->forEachAlive( ::Dynamic(new _hx_Closure_0(key,sortedNotesList,canMiss)),null());
-HXLINE(3862)				sortedNotesList->sort( ::Dynamic(new _hx_Closure_1()));
-HXLINE(3864)				if ((sortedNotesList->length > 0)) {
-HXLINE(3865)					int _g = 0;
-HXDLIN(3865)					while((_g < sortedNotesList->length)){
-HXLINE(3865)						 ::Note epicNote = sortedNotesList->__get(_g).StaticCast<  ::Note >();
-HXDLIN(3865)						_g = (_g + 1);
-HXLINE(3867)						{
-HXLINE(3867)							int _g1 = 0;
-HXDLIN(3867)							while((_g1 < pressNotes->length)){
-HXLINE(3867)								 ::Note doubleNote = pressNotes->__get(_g1).StaticCast<  ::Note >();
-HXDLIN(3867)								_g1 = (_g1 + 1);
-HXLINE(3868)								if ((::Math_obj::abs((doubleNote->strumTime - epicNote->strumTime)) < 1)) {
-HXLINE(3869)									doubleNote->kill();
-HXLINE(3870)									this->notes->remove(doubleNote,true).StaticCast<  ::Note >();
-HXLINE(3871)									doubleNote->destroy();
+HXLINE(3895)				Float lastTime = ::Conductor_obj::songPosition;
+HXLINE(3896)				::Conductor_obj::songPosition = ::flixel::FlxG_obj::sound->music->_time;
+HXLINE(3898)				::Array< bool > canMiss = ::Array_obj< bool >::__new(1)->init(0,!(::ClientPrefs_obj::ghostTapping));
+HXLINE(3901)				::Array< ::Dynamic> pressNotes = ::Array_obj< ::Dynamic>::__new(0);
+HXLINE(3903)				bool notesStopped = false;
+HXLINE(3905)				::Array< ::Dynamic> sortedNotesList = ::Array_obj< ::Dynamic>::__new(0);
+HXLINE(3906)				this->notes->forEachAlive( ::Dynamic(new _hx_Closure_0(key,sortedNotesList,canMiss)),null());
+HXLINE(3918)				sortedNotesList->sort( ::Dynamic(new _hx_Closure_1()));
+HXLINE(3920)				if ((sortedNotesList->length > 0)) {
+HXLINE(3921)					int _g = 0;
+HXDLIN(3921)					while((_g < sortedNotesList->length)){
+HXLINE(3921)						 ::Note epicNote = sortedNotesList->__get(_g).StaticCast<  ::Note >();
+HXDLIN(3921)						_g = (_g + 1);
+HXLINE(3923)						{
+HXLINE(3923)							int _g1 = 0;
+HXDLIN(3923)							while((_g1 < pressNotes->length)){
+HXLINE(3923)								 ::Note doubleNote = pressNotes->__get(_g1).StaticCast<  ::Note >();
+HXDLIN(3923)								_g1 = (_g1 + 1);
+HXLINE(3924)								if ((::Math_obj::abs((doubleNote->strumTime - epicNote->strumTime)) < 1)) {
+HXLINE(3925)									doubleNote->kill();
+HXLINE(3926)									this->notes->remove(doubleNote,true).StaticCast<  ::Note >();
+HXLINE(3927)									doubleNote->destroy();
             								}
             								else {
-HXLINE(3873)									notesStopped = true;
+HXLINE(3929)									notesStopped = true;
             								}
             							}
             						}
-HXLINE(3877)						if (!(notesStopped)) {
-HXLINE(3878)							this->goodNoteHit(epicNote);
-HXLINE(3879)							pressNotes->push(epicNote);
+HXLINE(3933)						if (!(notesStopped)) {
+HXLINE(3934)							this->goodNoteHit(epicNote);
+HXLINE(3935)							pressNotes->push(epicNote);
             						}
             					}
             				}
             				else {
-HXLINE(3884)					if (canMiss->__get(0)) {
-HXLINE(3885)						this->noteMissPress(key);
-HXLINE(3886)						this->callOnLuas(HX_("noteMissPress",95,58,12,aa),::cpp::VirtualArray_obj::__new(1)->init(0,key));
+HXLINE(3940)					if (canMiss->__get(0)) {
+HXLINE(3941)						this->noteMissPress(key);
+HXLINE(3942)						this->callOnLuas(HX_("noteMissPress",95,58,12,aa),::cpp::VirtualArray_obj::__new(1)->init(0,key));
             					}
             				}
-HXLINE(3894)				this->keysPressed[key] = true;
-HXLINE(3897)				::Conductor_obj::songPosition = lastTime;
+HXLINE(3950)				this->keysPressed[key] = true;
+HXLINE(3953)				::Conductor_obj::songPosition = lastTime;
             			}
-HXLINE(3900)			 ::StrumNote spr = Dynamic( this->playerStrums->members->__get(key)).StaticCast<  ::StrumNote >();
-HXLINE(3901)			bool _hx_tmp2;
-HXDLIN(3901)			if (::hx::IsNotNull( spr )) {
-HXLINE(3901)				_hx_tmp2 = (spr->animation->_curAnim->name != HX_("confirm",00,9d,39,10));
+HXLINE(3956)			 ::StrumNote spr = Dynamic( this->playerStrums->members->__get(key)).StaticCast<  ::StrumNote >();
+HXLINE(3957)			bool _hx_tmp2;
+HXDLIN(3957)			if (::hx::IsNotNull( spr )) {
+HXLINE(3957)				_hx_tmp2 = (spr->animation->_curAnim->name != HX_("confirm",00,9d,39,10));
             			}
             			else {
-HXLINE(3901)				_hx_tmp2 = false;
+HXLINE(3957)				_hx_tmp2 = false;
             			}
-HXDLIN(3901)			if (_hx_tmp2) {
-HXLINE(3903)				spr->playAnim(HX_("pressed",a2,d2,e6,39),null());
-HXLINE(3904)				spr->resetAnim = ( (Float)(0) );
+HXDLIN(3957)			if (_hx_tmp2) {
+HXLINE(3959)				spr->playAnim(HX_("pressed",a2,d2,e6,39),null());
+HXLINE(3960)				spr->resetAnim = ( (Float)(0) );
             			}
-HXLINE(3906)			this->callOnLuas(HX_("onKeyPress",a3,cd,a8,ea),::cpp::VirtualArray_obj::__new(1)->init(0,key));
+HXLINE(3962)			this->callOnLuas(HX_("onKeyPress",a3,cd,a8,ea),::cpp::VirtualArray_obj::__new(1)->init(0,key));
             		}
             	}
 
@@ -6046,30 +6103,30 @@ HXLINE(3906)			this->callOnLuas(HX_("onKeyPress",a3,cd,a8,ea),::cpp::VirtualArra
 HX_DEFINE_DYNAMIC_FUNC1(PlayState_obj,onKeyPress,(void))
 
 void PlayState_obj::onKeyRelease( ::openfl::events::KeyboardEvent event){
-            	HX_STACKFRAME(&_hx_pos_af23706db05c7feb_3912_onKeyRelease)
-HXLINE(3913)		int eventKey = event->keyCode;
-HXLINE(3914)		int key = this->getKeyFromEvent(eventKey);
-HXLINE(3915)		bool _hx_tmp;
-HXDLIN(3915)		bool _hx_tmp1;
-HXDLIN(3915)		if (!(this->cpuControlled)) {
-HXLINE(3915)			_hx_tmp1 = !(this->paused);
+            	HX_STACKFRAME(&_hx_pos_af23706db05c7feb_3968_onKeyRelease)
+HXLINE(3969)		int eventKey = event->keyCode;
+HXLINE(3970)		int key = this->getKeyFromEvent(eventKey);
+HXLINE(3971)		bool _hx_tmp;
+HXDLIN(3971)		bool _hx_tmp1;
+HXDLIN(3971)		if (!(this->cpuControlled)) {
+HXLINE(3971)			_hx_tmp1 = !(this->paused);
             		}
             		else {
-HXLINE(3915)			_hx_tmp1 = false;
+HXLINE(3971)			_hx_tmp1 = false;
             		}
-HXDLIN(3915)		if (_hx_tmp1) {
-HXLINE(3915)			_hx_tmp = (key > -1);
+HXDLIN(3971)		if (_hx_tmp1) {
+HXLINE(3971)			_hx_tmp = (key > -1);
             		}
             		else {
-HXLINE(3915)			_hx_tmp = false;
+HXLINE(3971)			_hx_tmp = false;
             		}
-HXDLIN(3915)		if (_hx_tmp) {
-HXLINE(3917)			 ::StrumNote spr = Dynamic( this->playerStrums->members->__get(key)).StaticCast<  ::StrumNote >();
-HXLINE(3918)			if (::hx::IsNotNull( spr )) {
-HXLINE(3920)				spr->playAnim(HX_("static",ae,dc,fb,05),null());
-HXLINE(3921)				spr->resetAnim = ( (Float)(0) );
+HXDLIN(3971)		if (_hx_tmp) {
+HXLINE(3973)			 ::StrumNote spr = Dynamic( this->playerStrums->members->__get(key)).StaticCast<  ::StrumNote >();
+HXLINE(3974)			if (::hx::IsNotNull( spr )) {
+HXLINE(3976)				spr->playAnim(HX_("static",ae,dc,fb,05),null());
+HXLINE(3977)				spr->resetAnim = ( (Float)(0) );
             			}
-HXLINE(3923)			this->callOnLuas(HX_("onKeyRelease",e7,c7,b8,9f),::cpp::VirtualArray_obj::__new(1)->init(0,key));
+HXLINE(3979)			this->callOnLuas(HX_("onKeyRelease",e7,c7,b8,9f),::cpp::VirtualArray_obj::__new(1)->init(0,key));
             		}
             	}
 
@@ -6077,156 +6134,156 @@ HXLINE(3923)			this->callOnLuas(HX_("onKeyRelease",e7,c7,b8,9f),::cpp::VirtualAr
 HX_DEFINE_DYNAMIC_FUNC1(PlayState_obj,onKeyRelease,(void))
 
 int PlayState_obj::getKeyFromEvent(int key){
-            	HX_STACKFRAME(&_hx_pos_af23706db05c7feb_3929_getKeyFromEvent)
-HXLINE(3930)		if ((key != -1)) {
-HXLINE(3932)			int _g = 0;
-HXDLIN(3932)			int _g1 = this->keysArray->get_length();
-HXDLIN(3932)			while((_g < _g1)){
-HXLINE(3932)				_g = (_g + 1);
-HXDLIN(3932)				int i = (_g - 1);
-HXLINE(3934)				{
-HXLINE(3934)					int _g1 = 0;
-HXDLIN(3934)					int _g2 = ( (int)(this->keysArray->__get(i)->__Field(HX_("length",e6,94,07,9f),::hx::paccDynamic)) );
-HXDLIN(3934)					while((_g1 < _g2)){
-HXLINE(3934)						_g1 = (_g1 + 1);
-HXDLIN(3934)						int j = (_g1 - 1);
-HXLINE(3936)						if (::hx::IsEq( key,this->keysArray->__get(i)->__GetItem(j) )) {
-HXLINE(3938)							return i;
+            	HX_STACKFRAME(&_hx_pos_af23706db05c7feb_3985_getKeyFromEvent)
+HXLINE(3986)		if ((key != -1)) {
+HXLINE(3988)			int _g = 0;
+HXDLIN(3988)			int _g1 = this->keysArray->get_length();
+HXDLIN(3988)			while((_g < _g1)){
+HXLINE(3988)				_g = (_g + 1);
+HXDLIN(3988)				int i = (_g - 1);
+HXLINE(3990)				{
+HXLINE(3990)					int _g1 = 0;
+HXDLIN(3990)					int _g2 = ( (int)(this->keysArray->__get(i)->__Field(HX_("length",e6,94,07,9f),::hx::paccDynamic)) );
+HXDLIN(3990)					while((_g1 < _g2)){
+HXLINE(3990)						_g1 = (_g1 + 1);
+HXDLIN(3990)						int j = (_g1 - 1);
+HXLINE(3992)						if (::hx::IsEq( key,this->keysArray->__get(i)->__GetItem(j) )) {
+HXLINE(3994)							return i;
             						}
             					}
             				}
             			}
             		}
-HXLINE(3943)		return -1;
+HXLINE(3999)		return -1;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(PlayState_obj,getKeyFromEvent,return )
 
 void PlayState_obj::keyShit(){
-            	HX_GC_STACKFRAME(&_hx_pos_af23706db05c7feb_3948_keyShit)
-HXLINE(3947)		 ::PlayState _gthis = ::hx::ObjectPtr<OBJ_>(this);
-HXLINE(3950)		bool up = ::PlayerSettings_obj::player1->controls->_note_up->check();
-HXLINE(3951)		bool right = ::PlayerSettings_obj::player1->controls->_note_right->check();
-HXLINE(3952)		bool down = ::PlayerSettings_obj::player1->controls->_note_down->check();
-HXLINE(3953)		bool left = ::PlayerSettings_obj::player1->controls->_note_left->check();
-HXLINE(3954)		::Array< bool > controlHoldArray = ::Array_obj< bool >::__new(4)->init(0,left)->init(1,down)->init(2,up)->init(3,right);
-HXLINE(3957)		if (::ClientPrefs_obj::controllerMode) {
-HXLINE(3959)			bool controlArray = ::PlayerSettings_obj::player1->controls->_note_leftP->check();
-HXDLIN(3959)			bool controlArray1 = ::PlayerSettings_obj::player1->controls->_note_downP->check();
-HXDLIN(3959)			bool controlArray2 = ::PlayerSettings_obj::player1->controls->_note_upP->check();
-HXDLIN(3959)			::Array< bool > controlArray3 = ::Array_obj< bool >::__new(4)->init(0,controlArray)->init(1,controlArray1)->init(2,controlArray2)->init(3,::PlayerSettings_obj::player1->controls->_note_rightP->check());
-HXLINE(3960)			if (controlArray3->contains(true)) {
-HXLINE(3962)				int _g = 0;
-HXDLIN(3962)				int _g1 = controlArray3->length;
-HXDLIN(3962)				while((_g < _g1)){
-HXLINE(3962)					_g = (_g + 1);
-HXDLIN(3962)					int i = (_g - 1);
-HXLINE(3964)					if (controlArray3->__get(i)) {
-HXLINE(3965)						this->onKeyPress( ::openfl::events::KeyboardEvent_obj::__alloc( HX_CTX ,HX_("keyDown",a1,69,47,9c),true,true,-1,this->keysArray->__get(i)->__GetItem(0),null(),null(),null(),null(),null(),null()));
+            	HX_GC_STACKFRAME(&_hx_pos_af23706db05c7feb_4004_keyShit)
+HXLINE(4003)		 ::PlayState _gthis = ::hx::ObjectPtr<OBJ_>(this);
+HXLINE(4006)		bool up = ::PlayerSettings_obj::player1->controls->_note_up->check();
+HXLINE(4007)		bool right = ::PlayerSettings_obj::player1->controls->_note_right->check();
+HXLINE(4008)		bool down = ::PlayerSettings_obj::player1->controls->_note_down->check();
+HXLINE(4009)		bool left = ::PlayerSettings_obj::player1->controls->_note_left->check();
+HXLINE(4010)		::Array< bool > controlHoldArray = ::Array_obj< bool >::__new(4)->init(0,left)->init(1,down)->init(2,up)->init(3,right);
+HXLINE(4013)		if (::ClientPrefs_obj::controllerMode) {
+HXLINE(4015)			bool controlArray = ::PlayerSettings_obj::player1->controls->_note_leftP->check();
+HXDLIN(4015)			bool controlArray1 = ::PlayerSettings_obj::player1->controls->_note_downP->check();
+HXDLIN(4015)			bool controlArray2 = ::PlayerSettings_obj::player1->controls->_note_upP->check();
+HXDLIN(4015)			::Array< bool > controlArray3 = ::Array_obj< bool >::__new(4)->init(0,controlArray)->init(1,controlArray1)->init(2,controlArray2)->init(3,::PlayerSettings_obj::player1->controls->_note_rightP->check());
+HXLINE(4016)			if (controlArray3->contains(true)) {
+HXLINE(4018)				int _g = 0;
+HXDLIN(4018)				int _g1 = controlArray3->length;
+HXDLIN(4018)				while((_g < _g1)){
+HXLINE(4018)					_g = (_g + 1);
+HXDLIN(4018)					int i = (_g - 1);
+HXLINE(4020)					if (controlArray3->__get(i)) {
+HXLINE(4021)						this->onKeyPress( ::openfl::events::KeyboardEvent_obj::__alloc( HX_CTX ,HX_("keyDown",a1,69,47,9c),true,true,-1,this->keysArray->__get(i)->__GetItem(0),null(),null(),null(),null(),null(),null()));
             					}
             				}
             			}
             		}
-HXLINE(3971)		bool _hx_tmp;
-HXDLIN(3971)		if (!(this->boyfriend->stunned)) {
-HXLINE(3971)			_hx_tmp = this->generatedMusic;
+HXLINE(4027)		bool _hx_tmp;
+HXDLIN(4027)		if (!(this->boyfriend->stunned)) {
+HXLINE(4027)			_hx_tmp = this->generatedMusic;
             		}
             		else {
-HXLINE(3971)			_hx_tmp = false;
+HXLINE(4027)			_hx_tmp = false;
             		}
-HXDLIN(3971)		if (_hx_tmp) {
+HXDLIN(4027)		if (_hx_tmp) {
             			HX_BEGIN_LOCAL_FUNC_S2(::hx::LocalFunc,_hx_Closure_0, ::PlayState,_gthis,::Array< bool >,controlHoldArray) HXARGC(1)
             			void _hx_run( ::Note daNote){
-            				HX_GC_STACKFRAME(&_hx_pos_af23706db05c7feb_3977_keyShit)
-HXLINE(3977)				bool _hx_tmp;
-HXDLIN(3977)				bool _hx_tmp1;
-HXDLIN(3977)				bool _hx_tmp2;
-HXDLIN(3977)				bool _hx_tmp3;
-HXDLIN(3977)				bool _hx_tmp4;
-HXDLIN(3977)				if (daNote->isSustainNote) {
-HXLINE(3977)					_hx_tmp4 = controlHoldArray->__get(daNote->noteData);
+            				HX_GC_STACKFRAME(&_hx_pos_af23706db05c7feb_4033_keyShit)
+HXLINE(4033)				bool _hx_tmp;
+HXDLIN(4033)				bool _hx_tmp1;
+HXDLIN(4033)				bool _hx_tmp2;
+HXDLIN(4033)				bool _hx_tmp3;
+HXDLIN(4033)				bool _hx_tmp4;
+HXDLIN(4033)				if (daNote->isSustainNote) {
+HXLINE(4033)					_hx_tmp4 = controlHoldArray->__get(daNote->noteData);
             				}
             				else {
-HXLINE(3977)					_hx_tmp4 = false;
+HXLINE(4033)					_hx_tmp4 = false;
             				}
-HXDLIN(3977)				if (_hx_tmp4) {
-HXLINE(3977)					_hx_tmp3 = daNote->canBeHit;
-            				}
-            				else {
-HXLINE(3977)					_hx_tmp3 = false;
-            				}
-HXDLIN(3977)				if (_hx_tmp3) {
-HXLINE(3977)					_hx_tmp2 = daNote->mustPress;
+HXDLIN(4033)				if (_hx_tmp4) {
+HXLINE(4033)					_hx_tmp3 = daNote->canBeHit;
             				}
             				else {
-HXLINE(3977)					_hx_tmp2 = false;
+HXLINE(4033)					_hx_tmp3 = false;
             				}
-HXDLIN(3977)				if (_hx_tmp2) {
-HXLINE(3977)					_hx_tmp1 = !(daNote->tooLate);
-            				}
-            				else {
-HXLINE(3977)					_hx_tmp1 = false;
-            				}
-HXDLIN(3977)				if (_hx_tmp1) {
-HXLINE(3977)					_hx_tmp = !(daNote->wasGoodHit);
+HXDLIN(4033)				if (_hx_tmp3) {
+HXLINE(4033)					_hx_tmp2 = daNote->mustPress;
             				}
             				else {
-HXLINE(3977)					_hx_tmp = false;
+HXLINE(4033)					_hx_tmp2 = false;
             				}
-HXDLIN(3977)				if (_hx_tmp) {
-HXLINE(3979)					_gthis->goodNoteHit(daNote);
+HXDLIN(4033)				if (_hx_tmp2) {
+HXLINE(4033)					_hx_tmp1 = !(daNote->tooLate);
+            				}
+            				else {
+HXLINE(4033)					_hx_tmp1 = false;
+            				}
+HXDLIN(4033)				if (_hx_tmp1) {
+HXLINE(4033)					_hx_tmp = !(daNote->wasGoodHit);
+            				}
+            				else {
+HXLINE(4033)					_hx_tmp = false;
+            				}
+HXDLIN(4033)				if (_hx_tmp) {
+HXLINE(4035)					_gthis->goodNoteHit(daNote);
             				}
             			}
             			HX_END_LOCAL_FUNC1((void))
 
-HXLINE(3974)			this->notes->forEachAlive( ::Dynamic(new _hx_Closure_0(_gthis,controlHoldArray)),null());
-HXLINE(3983)			bool _hx_tmp;
-HXDLIN(3983)			if (controlHoldArray->contains(true)) {
-HXLINE(3983)				_hx_tmp = !(this->endingSong);
+HXLINE(4030)			this->notes->forEachAlive( ::Dynamic(new _hx_Closure_0(_gthis,controlHoldArray)),null());
+HXLINE(4039)			bool _hx_tmp;
+HXDLIN(4039)			if (controlHoldArray->contains(true)) {
+HXLINE(4039)				_hx_tmp = !(this->endingSong);
             			}
             			else {
-HXLINE(3983)				_hx_tmp = false;
+HXLINE(4039)				_hx_tmp = false;
             			}
-HXDLIN(3983)			if (_hx_tmp) {
-HXLINE(3985)				::String achieve = this->checkForAchievement(::Array_obj< ::String >::fromData( _hx_array_data_46c2835d_186,1));
-HXLINE(3986)				if (::hx::IsNotNull( achieve )) {
-HXLINE(3987)					this->startAchievement(achieve);
+HXDLIN(4039)			if (_hx_tmp) {
+HXLINE(4041)				::String achieve = this->checkForAchievement(::Array_obj< ::String >::fromData( _hx_array_data_46c2835d_186,1));
+HXLINE(4042)				if (::hx::IsNotNull( achieve )) {
+HXLINE(4043)					this->startAchievement(achieve);
             				}
             			}
             			else {
-HXLINE(3991)				bool _hx_tmp;
-HXDLIN(3991)				bool _hx_tmp1;
-HXDLIN(3991)				if ((this->boyfriend->holdTimer > ((::Conductor_obj::stepCrochet * ((Float)0.001)) * this->boyfriend->singDuration))) {
-HXLINE(3991)					_hx_tmp1 = ::StringTools_obj::startsWith(this->boyfriend->animation->_curAnim->name,HX_("sing",4f,96,53,4c));
+HXLINE(4047)				bool _hx_tmp;
+HXDLIN(4047)				bool _hx_tmp1;
+HXDLIN(4047)				if ((this->boyfriend->holdTimer > ((::Conductor_obj::stepCrochet * ((Float)0.001)) * this->boyfriend->singDuration))) {
+HXLINE(4047)					_hx_tmp1 = ::StringTools_obj::startsWith(this->boyfriend->animation->_curAnim->name,HX_("sing",4f,96,53,4c));
             				}
             				else {
-HXLINE(3991)					_hx_tmp1 = false;
+HXLINE(4047)					_hx_tmp1 = false;
             				}
-HXDLIN(3991)				if (_hx_tmp1) {
-HXLINE(3991)					_hx_tmp = !(::StringTools_obj::endsWith(this->boyfriend->animation->_curAnim->name,HX_("miss",fc,52,5c,48)));
+HXDLIN(4047)				if (_hx_tmp1) {
+HXLINE(4047)					_hx_tmp = !(::StringTools_obj::endsWith(this->boyfriend->animation->_curAnim->name,HX_("miss",fc,52,5c,48)));
             				}
             				else {
-HXLINE(3991)					_hx_tmp = false;
+HXLINE(4047)					_hx_tmp = false;
             				}
-HXDLIN(3991)				if (_hx_tmp) {
-HXLINE(3993)					this->boyfriend->dance();
+HXDLIN(4047)				if (_hx_tmp) {
+HXLINE(4049)					this->boyfriend->dance();
             				}
             			}
             		}
-HXLINE(3999)		if (::ClientPrefs_obj::controllerMode) {
-HXLINE(4001)			bool controlArray = ::PlayerSettings_obj::player1->controls->_note_leftR->check();
-HXDLIN(4001)			bool controlArray1 = ::PlayerSettings_obj::player1->controls->_note_downR->check();
-HXDLIN(4001)			bool controlArray2 = ::PlayerSettings_obj::player1->controls->_note_upR->check();
-HXDLIN(4001)			::Array< bool > controlArray3 = ::Array_obj< bool >::__new(4)->init(0,controlArray)->init(1,controlArray1)->init(2,controlArray2)->init(3,::PlayerSettings_obj::player1->controls->_note_rightR->check());
-HXLINE(4002)			if (controlArray3->contains(true)) {
-HXLINE(4004)				int _g = 0;
-HXDLIN(4004)				int _g1 = controlArray3->length;
-HXDLIN(4004)				while((_g < _g1)){
-HXLINE(4004)					_g = (_g + 1);
-HXDLIN(4004)					int i = (_g - 1);
-HXLINE(4006)					if (controlArray3->__get(i)) {
-HXLINE(4007)						this->onKeyRelease( ::openfl::events::KeyboardEvent_obj::__alloc( HX_CTX ,HX_("keyUp",da,b9,fe,de),true,true,-1,this->keysArray->__get(i)->__GetItem(0),null(),null(),null(),null(),null(),null()));
+HXLINE(4055)		if (::ClientPrefs_obj::controllerMode) {
+HXLINE(4057)			bool controlArray = ::PlayerSettings_obj::player1->controls->_note_leftR->check();
+HXDLIN(4057)			bool controlArray1 = ::PlayerSettings_obj::player1->controls->_note_downR->check();
+HXDLIN(4057)			bool controlArray2 = ::PlayerSettings_obj::player1->controls->_note_upR->check();
+HXDLIN(4057)			::Array< bool > controlArray3 = ::Array_obj< bool >::__new(4)->init(0,controlArray)->init(1,controlArray1)->init(2,controlArray2)->init(3,::PlayerSettings_obj::player1->controls->_note_rightR->check());
+HXLINE(4058)			if (controlArray3->contains(true)) {
+HXLINE(4060)				int _g = 0;
+HXDLIN(4060)				int _g1 = controlArray3->length;
+HXDLIN(4060)				while((_g < _g1)){
+HXLINE(4060)					_g = (_g + 1);
+HXDLIN(4060)					int i = (_g - 1);
+HXLINE(4062)					if (controlArray3->__get(i)) {
+HXLINE(4063)						this->onKeyRelease( ::openfl::events::KeyboardEvent_obj::__alloc( HX_CTX ,HX_("keyUp",da,b9,fe,de),true,true,-1,this->keysArray->__get(i)->__GetItem(0),null(),null(),null(),null(),null(),null()));
             					}
             				}
             			}
@@ -6239,99 +6296,99 @@ HX_DEFINE_DYNAMIC_FUNC0(PlayState_obj,keyShit,(void))
 void PlayState_obj::noteMiss( ::Note daNote){
             		HX_BEGIN_LOCAL_FUNC_S2(::hx::LocalFunc,_hx_Closure_0, ::PlayState,_gthis, ::Note,daNote) HXARGC(1)
             		void _hx_run( ::Note note){
-            			HX_STACKFRAME(&_hx_pos_af23706db05c7feb_4016_noteMiss)
-HXLINE(4016)			bool _hx_tmp;
-HXDLIN(4016)			bool _hx_tmp1;
-HXDLIN(4016)			bool _hx_tmp2;
-HXDLIN(4016)			bool _hx_tmp3;
-HXDLIN(4016)			if (::hx::IsNotEq( daNote,note )) {
-HXLINE(4016)				_hx_tmp3 = daNote->mustPress;
+            			HX_STACKFRAME(&_hx_pos_af23706db05c7feb_4072_noteMiss)
+HXLINE(4072)			bool _hx_tmp;
+HXDLIN(4072)			bool _hx_tmp1;
+HXDLIN(4072)			bool _hx_tmp2;
+HXDLIN(4072)			bool _hx_tmp3;
+HXDLIN(4072)			if (::hx::IsNotEq( daNote,note )) {
+HXLINE(4072)				_hx_tmp3 = daNote->mustPress;
             			}
             			else {
-HXLINE(4016)				_hx_tmp3 = false;
+HXLINE(4072)				_hx_tmp3 = false;
             			}
-HXDLIN(4016)			if (_hx_tmp3) {
-HXLINE(4016)				_hx_tmp2 = (daNote->noteData == note->noteData);
-            			}
-            			else {
-HXLINE(4016)				_hx_tmp2 = false;
-            			}
-HXDLIN(4016)			if (_hx_tmp2) {
-HXLINE(4016)				_hx_tmp1 = (daNote->isSustainNote == note->isSustainNote);
+HXDLIN(4072)			if (_hx_tmp3) {
+HXLINE(4072)				_hx_tmp2 = (daNote->noteData == note->noteData);
             			}
             			else {
-HXLINE(4016)				_hx_tmp1 = false;
+HXLINE(4072)				_hx_tmp2 = false;
             			}
-HXDLIN(4016)			if (_hx_tmp1) {
-HXLINE(4016)				_hx_tmp = (::Math_obj::abs((daNote->strumTime - note->strumTime)) < 1);
+HXDLIN(4072)			if (_hx_tmp2) {
+HXLINE(4072)				_hx_tmp1 = (daNote->isSustainNote == note->isSustainNote);
             			}
             			else {
-HXLINE(4016)				_hx_tmp = false;
+HXLINE(4072)				_hx_tmp1 = false;
             			}
-HXDLIN(4016)			if (_hx_tmp) {
-HXLINE(4017)				note->kill();
-HXLINE(4018)				_gthis->notes->remove(note,true).StaticCast<  ::Note >();
-HXLINE(4019)				note->destroy();
+HXDLIN(4072)			if (_hx_tmp1) {
+HXLINE(4072)				_hx_tmp = (::Math_obj::abs((daNote->strumTime - note->strumTime)) < 1);
+            			}
+            			else {
+HXLINE(4072)				_hx_tmp = false;
+            			}
+HXDLIN(4072)			if (_hx_tmp) {
+HXLINE(4073)				note->kill();
+HXLINE(4074)				_gthis->notes->remove(note,true).StaticCast<  ::Note >();
+HXLINE(4075)				note->destroy();
             			}
             		}
             		HX_END_LOCAL_FUNC1((void))
 
-            	HX_GC_STACKFRAME(&_hx_pos_af23706db05c7feb_4013_noteMiss)
-HXDLIN(4013)		 ::PlayState _gthis = ::hx::ObjectPtr<OBJ_>(this);
-HXLINE(4015)		this->notes->forEachAlive( ::Dynamic(new _hx_Closure_0(_gthis,daNote)),null());
-HXLINE(4022)		this->combo = 0;
-HXLINE(4024)		if ((daNote->noteType == HX_("Stab Note",10,f1,71,e0))) {
-HXLINE(4025)			this->missedStab = true;
-HXLINE(4026)			this->isStabbing = true;
-HXLINE(4027)			if (::hx::IsNotNull( this->dad->animation->_animations->get((HX_("stab",c2,e3,5b,4c) + this->stabcounter)) )) {
+            	HX_GC_STACKFRAME(&_hx_pos_af23706db05c7feb_4069_noteMiss)
+HXDLIN(4069)		 ::PlayState _gthis = ::hx::ObjectPtr<OBJ_>(this);
+HXLINE(4071)		this->notes->forEachAlive( ::Dynamic(new _hx_Closure_0(_gthis,daNote)),null());
+HXLINE(4078)		this->combo = 0;
+HXLINE(4080)		if ((daNote->noteType == HX_("Stab Note",10,f1,71,e0))) {
+HXLINE(4081)			this->missedStab = true;
+HXLINE(4082)			this->isStabbing = true;
+HXLINE(4083)			if (::hx::IsNotNull( this->dad->animation->_animations->get((HX_("stab",c2,e3,5b,4c) + this->stabcounter)) )) {
             				HX_BEGIN_LOCAL_FUNC_S1(::hx::LocalFunc,_hx_Closure_1, ::PlayState,_gthis) HXARGC(1)
             				void _hx_run( ::flixel::util::FlxTimer tmr){
-            					HX_GC_STACKFRAME(&_hx_pos_af23706db05c7feb_4034_noteMiss)
-HXLINE(4034)					_gthis->stabPlayer();
+            					HX_GC_STACKFRAME(&_hx_pos_af23706db05c7feb_4090_noteMiss)
+HXLINE(4090)					_gthis->stabPlayer();
             				}
             				HX_END_LOCAL_FUNC1((void))
 
-HXLINE(4028)				this->dad->playAnim((HX_("stab",c2,e3,5b,4c) + this->stabcounter),true,null(),null());
-HXLINE(4029)				this->dad->specialAnim = true;
-HXLINE(4030)				this->stabcounter = (::hx::Mod(this->stabcounter,2) + 1);
-HXLINE(4032)				 ::flixel::util::FlxTimer_obj::__alloc( HX_CTX ,null())->start(((Float)0.125), ::Dynamic(new _hx_Closure_1(_gthis)),null());
+HXLINE(4084)				this->dad->playAnim((HX_("stab",c2,e3,5b,4c) + this->stabcounter),true,null(),null());
+HXLINE(4085)				this->dad->specialAnim = true;
+HXLINE(4086)				this->stabcounter = (::hx::Mod(this->stabcounter,2) + 1);
+HXLINE(4088)				 ::flixel::util::FlxTimer_obj::__alloc( HX_CTX ,null())->start(((Float)0.125), ::Dynamic(new _hx_Closure_1(_gthis)),null());
             			}
             		}
-HXLINE(4039)		 ::PlayState _hx_tmp = ::hx::ObjectPtr<OBJ_>(this);
-HXDLIN(4039)		_hx_tmp->health = (_hx_tmp->health - (daNote->missHealth * this->healthLoss));
-HXLINE(4040)		if (this->instakillOnMiss) {
-HXLINE(4042)			this->vocals->set_volume(( (Float)(0) ));
-HXLINE(4043)			this->doDeathCheck(true);
+HXLINE(4095)		 ::PlayState _hx_tmp = ::hx::ObjectPtr<OBJ_>(this);
+HXDLIN(4095)		_hx_tmp->health = (_hx_tmp->health - (daNote->missHealth * this->healthLoss));
+HXLINE(4096)		if (this->instakillOnMiss) {
+HXLINE(4098)			this->vocals->set_volume(( (Float)(0) ));
+HXLINE(4099)			this->doDeathCheck(true);
             		}
-HXLINE(4048)		this->songMisses++;
-HXLINE(4049)		this->vocals->set_volume(( (Float)(0) ));
-HXLINE(4050)		if (!(this->practiceMode)) {
-HXLINE(4050)			 ::PlayState _hx_tmp = ::hx::ObjectPtr<OBJ_>(this);
-HXDLIN(4050)			_hx_tmp->songScore = (_hx_tmp->songScore - 10);
+HXLINE(4104)		this->songMisses++;
+HXLINE(4105)		this->vocals->set_volume(( (Float)(0) ));
+HXLINE(4106)		if (!(this->practiceMode)) {
+HXLINE(4106)			 ::PlayState _hx_tmp = ::hx::ObjectPtr<OBJ_>(this);
+HXDLIN(4106)			_hx_tmp->songScore = (_hx_tmp->songScore - 10);
             		}
-HXLINE(4052)		this->totalPlayed++;
-HXLINE(4053)		this->RecalculateRating();
-HXLINE(4055)		 ::Character _hx_char = this->boyfriend;
-HXLINE(4056)		if (daNote->gfNote) {
-HXLINE(4057)			_hx_char = this->gf;
+HXLINE(4108)		this->totalPlayed++;
+HXLINE(4109)		this->RecalculateRating();
+HXLINE(4111)		 ::Character _hx_char = this->boyfriend;
+HXLINE(4112)		if (daNote->gfNote) {
+HXLINE(4113)			_hx_char = this->gf;
             		}
-HXLINE(4060)		bool _hx_tmp1;
-HXDLIN(4060)		if (::hx::IsNotNull( _hx_char )) {
-HXLINE(4060)			_hx_tmp1 = _hx_char->hasMissAnimations;
+HXLINE(4116)		bool _hx_tmp1;
+HXDLIN(4116)		if (::hx::IsNotNull( _hx_char )) {
+HXLINE(4116)			_hx_tmp1 = _hx_char->hasMissAnimations;
             		}
             		else {
-HXLINE(4060)			_hx_tmp1 = false;
+HXLINE(4116)			_hx_tmp1 = false;
             		}
-HXDLIN(4060)		if (_hx_tmp1) {
-HXLINE(4062)			::String daAlt = HX_("",00,00,00,00);
-HXLINE(4063)			if ((daNote->noteType == HX_("Alt Animation",0d,81,c1,cd))) {
-HXLINE(4063)				daAlt = HX_("-alt",1c,93,08,1e);
+HXDLIN(4116)		if (_hx_tmp1) {
+HXLINE(4118)			::String daAlt = HX_("",00,00,00,00);
+HXLINE(4119)			if ((daNote->noteType == HX_("Alt Animation",0d,81,c1,cd))) {
+HXLINE(4119)				daAlt = HX_("-alt",1c,93,08,1e);
             			}
-HXLINE(4065)			::String animToPlay = ((this->singAnimations->__get(::Std_obj::_hx_int(::Math_obj::abs(( (Float)(daNote->noteData) )))) + HX_("miss",fc,52,5c,48)) + daAlt);
-HXLINE(4066)			_hx_char->playAnim(animToPlay,true,null(),null());
+HXLINE(4121)			::String animToPlay = ((this->singAnimations->__get(::Std_obj::_hx_int(::Math_obj::abs(( (Float)(daNote->noteData) )))) + HX_("miss",fc,52,5c,48)) + daAlt);
+HXLINE(4122)			_hx_char->playAnim(animToPlay,true,null(),null());
             		}
-HXLINE(4069)		int _hx_tmp2 = this->notes->members->indexOf(daNote,null());
-HXDLIN(4069)		this->callOnLuas(HX_("noteMiss",0e,78,8f,57),::cpp::VirtualArray_obj::__new(4)->init(0,_hx_tmp2)->init(1,daNote->noteData)->init(2,daNote->noteType)->init(3,daNote->isSustainNote));
+HXLINE(4125)		int _hx_tmp2 = this->notes->members->indexOf(daNote,null());
+HXDLIN(4125)		this->callOnLuas(HX_("noteMiss",0e,78,8f,57),::cpp::VirtualArray_obj::__new(4)->init(0,_hx_tmp2)->init(1,daNote->noteData)->init(2,daNote->noteType)->init(3,daNote->isSustainNote));
             	}
 
 
@@ -6339,53 +6396,53 @@ HX_DEFINE_DYNAMIC_FUNC1(PlayState_obj,noteMiss,(void))
 
 void PlayState_obj::noteMissPress(::hx::Null< int >  __o_direction){
             		int direction = __o_direction.Default(1);
-            	HX_STACKFRAME(&_hx_pos_af23706db05c7feb_4074_noteMissPress)
-HXDLIN(4074)		if (!(this->boyfriend->stunned)) {
-HXLINE(4076)			 ::PlayState _hx_tmp = ::hx::ObjectPtr<OBJ_>(this);
-HXDLIN(4076)			_hx_tmp->health = (_hx_tmp->health - (((Float)0.05) * this->healthLoss));
-HXLINE(4077)			if (this->instakillOnMiss) {
-HXLINE(4079)				this->vocals->set_volume(( (Float)(0) ));
-HXLINE(4080)				this->doDeathCheck(true);
+            	HX_STACKFRAME(&_hx_pos_af23706db05c7feb_4130_noteMissPress)
+HXDLIN(4130)		if (!(this->boyfriend->stunned)) {
+HXLINE(4132)			 ::PlayState _hx_tmp = ::hx::ObjectPtr<OBJ_>(this);
+HXDLIN(4132)			_hx_tmp->health = (_hx_tmp->health - (((Float)0.05) * this->healthLoss));
+HXLINE(4133)			if (this->instakillOnMiss) {
+HXLINE(4135)				this->vocals->set_volume(( (Float)(0) ));
+HXLINE(4136)				this->doDeathCheck(true);
             			}
-HXLINE(4083)			if (::ClientPrefs_obj::ghostTapping) {
-HXLINE(4083)				return;
+HXLINE(4139)			if (::ClientPrefs_obj::ghostTapping) {
+HXLINE(4139)				return;
             			}
-HXLINE(4085)			bool _hx_tmp1;
-HXDLIN(4085)			bool _hx_tmp2;
-HXDLIN(4085)			if ((this->combo > 5)) {
-HXLINE(4085)				_hx_tmp2 = ::hx::IsNotNull( this->gf );
-            			}
-            			else {
-HXLINE(4085)				_hx_tmp2 = false;
-            			}
-HXDLIN(4085)			if (_hx_tmp2) {
-HXLINE(4085)				_hx_tmp1 = this->gf->animOffsets->exists(HX_("sad",16,98,57,00));
+HXLINE(4141)			bool _hx_tmp1;
+HXDLIN(4141)			bool _hx_tmp2;
+HXDLIN(4141)			if ((this->combo > 5)) {
+HXLINE(4141)				_hx_tmp2 = ::hx::IsNotNull( this->gf );
             			}
             			else {
-HXLINE(4085)				_hx_tmp1 = false;
+HXLINE(4141)				_hx_tmp2 = false;
             			}
-HXDLIN(4085)			if (_hx_tmp1) {
-HXLINE(4087)				this->gf->playAnim(HX_("sad",16,98,57,00),null(),null(),null());
+HXDLIN(4141)			if (_hx_tmp2) {
+HXLINE(4141)				_hx_tmp1 = this->gf->animOffsets->exists(HX_("sad",16,98,57,00));
             			}
-HXLINE(4089)			this->combo = 0;
-HXLINE(4091)			if (!(this->practiceMode)) {
-HXLINE(4091)				 ::PlayState _hx_tmp = ::hx::ObjectPtr<OBJ_>(this);
-HXDLIN(4091)				_hx_tmp->songScore = (_hx_tmp->songScore - 10);
+            			else {
+HXLINE(4141)				_hx_tmp1 = false;
             			}
-HXLINE(4092)			if (!(this->endingSong)) {
-HXLINE(4093)				this->songMisses++;
+HXDLIN(4141)			if (_hx_tmp1) {
+HXLINE(4143)				this->gf->playAnim(HX_("sad",16,98,57,00),null(),null(),null());
             			}
-HXLINE(4095)			this->totalPlayed++;
-HXLINE(4096)			this->RecalculateRating();
-HXLINE(4098)			 ::flixel::_hx_system::frontEnds::SoundFrontEnd _hx_tmp3 = ::flixel::FlxG_obj::sound;
-HXDLIN(4098)			::String library = null();
-HXDLIN(4098)			 ::openfl::media::Sound _hx_tmp4 = ::Paths_obj::sound((HX_("missnote",ee,98,f1,e3) + ::flixel::FlxG_obj::random->_hx_int(1,3,null())),library);
-HXDLIN(4098)			_hx_tmp3->play(_hx_tmp4,::flixel::FlxG_obj::random->_hx_float(((Float)0.1),((Float)0.2),null()),null(),null(),null(),null());
-HXLINE(4110)			if (this->boyfriend->hasMissAnimations) {
-HXLINE(4111)				 ::Boyfriend _hx_tmp = this->boyfriend;
-HXDLIN(4111)				_hx_tmp->playAnim((this->singAnimations->__get(::Std_obj::_hx_int(::Math_obj::abs(( (Float)(direction) )))) + HX_("miss",fc,52,5c,48)),true,null(),null());
+HXLINE(4145)			this->combo = 0;
+HXLINE(4147)			if (!(this->practiceMode)) {
+HXLINE(4147)				 ::PlayState _hx_tmp = ::hx::ObjectPtr<OBJ_>(this);
+HXDLIN(4147)				_hx_tmp->songScore = (_hx_tmp->songScore - 10);
             			}
-HXLINE(4113)			this->vocals->set_volume(( (Float)(0) ));
+HXLINE(4148)			if (!(this->endingSong)) {
+HXLINE(4149)				this->songMisses++;
+            			}
+HXLINE(4151)			this->totalPlayed++;
+HXLINE(4152)			this->RecalculateRating();
+HXLINE(4154)			 ::flixel::_hx_system::frontEnds::SoundFrontEnd _hx_tmp3 = ::flixel::FlxG_obj::sound;
+HXDLIN(4154)			::String library = null();
+HXDLIN(4154)			 ::openfl::media::Sound _hx_tmp4 = ::Paths_obj::sound((HX_("missnote",ee,98,f1,e3) + ::flixel::FlxG_obj::random->_hx_int(1,3,null())),library);
+HXDLIN(4154)			_hx_tmp3->play(_hx_tmp4,::flixel::FlxG_obj::random->_hx_float(((Float)0.1),((Float)0.2),null()),null(),null(),null(),null());
+HXLINE(4166)			if (this->boyfriend->hasMissAnimations) {
+HXLINE(4167)				 ::Boyfriend _hx_tmp = this->boyfriend;
+HXDLIN(4167)				_hx_tmp->playAnim((this->singAnimations->__get(::Std_obj::_hx_int(::Math_obj::abs(( (Float)(direction) )))) + HX_("miss",fc,52,5c,48)),true,null(),null());
+            			}
+HXLINE(4169)			this->vocals->set_volume(( (Float)(0) ));
             		}
             	}
 
@@ -6393,73 +6450,73 @@ HXLINE(4113)			this->vocals->set_volume(( (Float)(0) ));
 HX_DEFINE_DYNAMIC_FUNC1(PlayState_obj,noteMissPress,(void))
 
 void PlayState_obj::opponentNoteHit( ::Note note){
-            	HX_STACKFRAME(&_hx_pos_af23706db05c7feb_4118_opponentNoteHit)
-HXLINE(4119)		if ((::StringTools_obj::replace(( (::String)(::PlayState_obj::SONG->__Field(HX_("song",d5,23,58,4c),::hx::paccDynamic)) ).toLowerCase(),HX_(" ",20,00,00,00),HX_("-",2d,00,00,00)) != HX_("tutorial",9e,8f,b5,82))) {
-HXLINE(4120)			this->camZooming = true;
+            	HX_STACKFRAME(&_hx_pos_af23706db05c7feb_4174_opponentNoteHit)
+HXLINE(4175)		if ((::StringTools_obj::replace(( (::String)(::PlayState_obj::SONG->__Field(HX_("song",d5,23,58,4c),::hx::paccDynamic)) ).toLowerCase(),HX_(" ",20,00,00,00),HX_("-",2d,00,00,00)) != HX_("tutorial",9e,8f,b5,82))) {
+HXLINE(4176)			this->camZooming = true;
             		}
-HXLINE(4122)		bool _hx_tmp;
-HXDLIN(4122)		if ((note->noteType == HX_("Hey!",e5,69,e4,2f))) {
-HXLINE(4122)			_hx_tmp = this->dad->animOffsets->exists(HX_("hey",dc,42,4f,00));
-            		}
-            		else {
-HXLINE(4122)			_hx_tmp = false;
-            		}
-HXDLIN(4122)		if (_hx_tmp) {
-HXLINE(4123)			this->dad->playAnim(HX_("hey",dc,42,4f,00),true,null(),null());
-HXLINE(4124)			this->dad->specialAnim = true;
-HXLINE(4125)			this->dad->heyTimer = ((Float)0.6);
+HXLINE(4178)		bool _hx_tmp;
+HXDLIN(4178)		if ((note->noteType == HX_("Hey!",e5,69,e4,2f))) {
+HXLINE(4178)			_hx_tmp = this->dad->animOffsets->exists(HX_("hey",dc,42,4f,00));
             		}
             		else {
-HXLINE(4126)			if (!(note->noAnimation)) {
-HXLINE(4127)				::String altAnim = HX_("",00,00,00,00);
-HXLINE(4129)				int curSection = ::Math_obj::floor((( (Float)(this->curStep) ) / ( (Float)(16) )));
-HXLINE(4130)				if (::hx::IsNotNull(  ::Dynamic(::PlayState_obj::SONG->__Field(HX_("notes",41,dc,ca,9f),::hx::paccDynamic))->__GetItem(curSection) )) {
-HXLINE(4132)					bool _hx_tmp;
-HXDLIN(4132)					if (!(( (bool)( ::Dynamic(::PlayState_obj::SONG->__Field(HX_("notes",41,dc,ca,9f),::hx::paccDynamic))->__GetItem(curSection)->__Field(HX_("altAnim",da,f3,f2,e5),::hx::paccDynamic)) ))) {
-HXLINE(4132)						_hx_tmp = (note->noteType == HX_("Alt Animation",0d,81,c1,cd));
+HXLINE(4178)			_hx_tmp = false;
+            		}
+HXDLIN(4178)		if (_hx_tmp) {
+HXLINE(4179)			this->dad->playAnim(HX_("hey",dc,42,4f,00),true,null(),null());
+HXLINE(4180)			this->dad->specialAnim = true;
+HXLINE(4181)			this->dad->heyTimer = ((Float)0.6);
+            		}
+            		else {
+HXLINE(4182)			if (!(note->noAnimation)) {
+HXLINE(4183)				::String altAnim = HX_("",00,00,00,00);
+HXLINE(4185)				int curSection = ::Math_obj::floor((( (Float)(this->curStep) ) / ( (Float)(16) )));
+HXLINE(4186)				if (::hx::IsNotNull(  ::Dynamic(::PlayState_obj::SONG->__Field(HX_("notes",41,dc,ca,9f),::hx::paccDynamic))->__GetItem(curSection) )) {
+HXLINE(4188)					bool _hx_tmp;
+HXDLIN(4188)					if (!(( (bool)( ::Dynamic(::PlayState_obj::SONG->__Field(HX_("notes",41,dc,ca,9f),::hx::paccDynamic))->__GetItem(curSection)->__Field(HX_("altAnim",da,f3,f2,e5),::hx::paccDynamic)) ))) {
+HXLINE(4188)						_hx_tmp = (note->noteType == HX_("Alt Animation",0d,81,c1,cd));
             					}
             					else {
-HXLINE(4132)						_hx_tmp = true;
+HXLINE(4188)						_hx_tmp = true;
             					}
-HXDLIN(4132)					if (_hx_tmp) {
-HXLINE(4133)						altAnim = HX_("-alt",1c,93,08,1e);
+HXDLIN(4188)					if (_hx_tmp) {
+HXLINE(4189)						altAnim = HX_("-alt",1c,93,08,1e);
             					}
             				}
-HXLINE(4137)				 ::Character _hx_char = this->dad;
-HXLINE(4138)				::String animToPlay = (this->singAnimations->__get(::Std_obj::_hx_int(::Math_obj::abs(( (Float)(note->noteData) )))) + altAnim);
-HXLINE(4139)				if (note->gfNote) {
-HXLINE(4140)					_hx_char = this->gf;
+HXLINE(4193)				 ::Character _hx_char = this->dad;
+HXLINE(4194)				::String animToPlay = (this->singAnimations->__get(::Std_obj::_hx_int(::Math_obj::abs(( (Float)(note->noteData) )))) + altAnim);
+HXLINE(4195)				if (note->gfNote) {
+HXLINE(4196)					_hx_char = this->gf;
             				}
-HXLINE(4143)				if (::hx::IsNotNull( _hx_char )) {
-HXLINE(4145)					if (!(this->isStabbing)) {
-HXLINE(4146)						_hx_char->playAnim(animToPlay,true,null(),null());
+HXLINE(4199)				if (::hx::IsNotNull( _hx_char )) {
+HXLINE(4201)					if (!(this->isStabbing)) {
+HXLINE(4202)						_hx_char->playAnim(animToPlay,true,null(),null());
             					}
-HXLINE(4147)					_hx_char->holdTimer = ( (Float)(0) );
+HXLINE(4203)					_hx_char->holdTimer = ( (Float)(0) );
             				}
             			}
             		}
-HXLINE(4154)		if (( (bool)(::PlayState_obj::SONG->__Field(HX_("needsVoices",be,05,e9,0d),::hx::paccDynamic)) )) {
-HXLINE(4155)			this->vocals->set_volume(( (Float)(1) ));
+HXLINE(4210)		if (( (bool)(::PlayState_obj::SONG->__Field(HX_("needsVoices",be,05,e9,0d),::hx::paccDynamic)) )) {
+HXLINE(4211)			this->vocals->set_volume(( (Float)(1) ));
             		}
-HXLINE(4157)		Float time = ((Float)0.15);
-HXLINE(4158)		bool _hx_tmp1;
-HXDLIN(4158)		if (note->isSustainNote) {
-HXLINE(4158)			_hx_tmp1 = !(::StringTools_obj::endsWith(note->animation->_curAnim->name,HX_("end",db,03,4d,00)));
+HXLINE(4213)		Float time = ((Float)0.15);
+HXLINE(4214)		bool _hx_tmp1;
+HXDLIN(4214)		if (note->isSustainNote) {
+HXLINE(4214)			_hx_tmp1 = !(::StringTools_obj::endsWith(note->animation->_curAnim->name,HX_("end",db,03,4d,00)));
             		}
             		else {
-HXLINE(4158)			_hx_tmp1 = false;
+HXLINE(4214)			_hx_tmp1 = false;
             		}
-HXDLIN(4158)		if (_hx_tmp1) {
-HXLINE(4159)			time = (time + ((Float)0.15));
+HXDLIN(4214)		if (_hx_tmp1) {
+HXLINE(4215)			time = (time + ((Float)0.15));
             		}
-HXLINE(4161)		this->StrumPlayAnim(true,::hx::Mod(::Std_obj::_hx_int(::Math_obj::abs(( (Float)(note->noteData) ))),4),time);
-HXLINE(4162)		note->hitByOpponent = true;
-HXLINE(4164)		int _hx_tmp2 = this->notes->members->indexOf(note,null());
-HXDLIN(4164)		this->callOnLuas(HX_("opponentNoteHit",64,75,4c,b1),::cpp::VirtualArray_obj::__new(4)->init(0,_hx_tmp2)->init(1,::Math_obj::abs(( (Float)(note->noteData) )))->init(2,note->noteType)->init(3,note->isSustainNote));
-HXLINE(4167)		if (!(note->isSustainNote)) {
-HXLINE(4169)			note->kill();
-HXLINE(4170)			this->notes->remove(note,true).StaticCast<  ::Note >();
-HXLINE(4171)			note->destroy();
+HXLINE(4217)		this->StrumPlayAnim(true,::hx::Mod(::Std_obj::_hx_int(::Math_obj::abs(( (Float)(note->noteData) ))),4),time);
+HXLINE(4218)		note->hitByOpponent = true;
+HXLINE(4220)		int _hx_tmp2 = this->notes->members->indexOf(note,null());
+HXDLIN(4220)		this->callOnLuas(HX_("opponentNoteHit",64,75,4c,b1),::cpp::VirtualArray_obj::__new(4)->init(0,_hx_tmp2)->init(1,::Math_obj::abs(( (Float)(note->noteData) )))->init(2,note->noteType)->init(3,note->isSustainNote));
+HXLINE(4223)		if (!(note->isSustainNote)) {
+HXLINE(4225)			note->kill();
+HXLINE(4226)			this->notes->remove(note,true).StaticCast<  ::Note >();
+HXLINE(4227)			note->destroy();
             		}
             	}
 
@@ -6467,168 +6524,168 @@ HXLINE(4171)			note->destroy();
 HX_DEFINE_DYNAMIC_FUNC1(PlayState_obj,opponentNoteHit,(void))
 
 void PlayState_obj::goodNoteHit( ::Note note){
-            	HX_STACKFRAME(&_hx_pos_af23706db05c7feb_4176_goodNoteHit)
-HXLINE(4177)		if (!(note->wasGoodHit)) {
-HXLINE(4179)			bool _hx_tmp;
-HXDLIN(4179)			if ((::ClientPrefs_obj::hitsoundVolume > 0)) {
-HXLINE(4179)				_hx_tmp = !(note->hitsoundDisabled);
+            	HX_STACKFRAME(&_hx_pos_af23706db05c7feb_4232_goodNoteHit)
+HXLINE(4233)		if (!(note->wasGoodHit)) {
+HXLINE(4235)			bool _hx_tmp;
+HXDLIN(4235)			if ((::ClientPrefs_obj::hitsoundVolume > 0)) {
+HXLINE(4235)				_hx_tmp = !(note->hitsoundDisabled);
             			}
             			else {
-HXLINE(4179)				_hx_tmp = false;
+HXLINE(4235)				_hx_tmp = false;
             			}
-HXDLIN(4179)			if (_hx_tmp) {
-HXLINE(4181)				 ::flixel::_hx_system::frontEnds::SoundFrontEnd _hx_tmp = ::flixel::FlxG_obj::sound;
-HXDLIN(4181)				 ::openfl::media::Sound _hx_tmp1 = ::Paths_obj::sound(HX_("hitsound",9c,79,fe,2c),null());
-HXDLIN(4181)				_hx_tmp->play(_hx_tmp1,::ClientPrefs_obj::hitsoundVolume,null(),null(),null(),null());
+HXDLIN(4235)			if (_hx_tmp) {
+HXLINE(4237)				 ::flixel::_hx_system::frontEnds::SoundFrontEnd _hx_tmp = ::flixel::FlxG_obj::sound;
+HXDLIN(4237)				 ::openfl::media::Sound _hx_tmp1 = ::Paths_obj::sound(HX_("hitsound",9c,79,fe,2c),null());
+HXDLIN(4237)				_hx_tmp->play(_hx_tmp1,::ClientPrefs_obj::hitsoundVolume,null(),null(),null(),null());
             			}
-HXLINE(4184)			bool _hx_tmp1;
-HXDLIN(4184)			if (this->cpuControlled) {
-HXLINE(4184)				if (!(note->ignoreNote)) {
-HXLINE(4184)					_hx_tmp1 = note->hitCausesMiss;
+HXLINE(4240)			bool _hx_tmp1;
+HXDLIN(4240)			if (this->cpuControlled) {
+HXLINE(4240)				if (!(note->ignoreNote)) {
+HXLINE(4240)					_hx_tmp1 = note->hitCausesMiss;
             				}
             				else {
-HXLINE(4184)					_hx_tmp1 = true;
+HXLINE(4240)					_hx_tmp1 = true;
             				}
             			}
             			else {
-HXLINE(4184)				_hx_tmp1 = false;
+HXLINE(4240)				_hx_tmp1 = false;
             			}
-HXDLIN(4184)			if (_hx_tmp1) {
-HXLINE(4184)				return;
+HXDLIN(4240)			if (_hx_tmp1) {
+HXLINE(4240)				return;
             			}
-HXLINE(4186)			if (note->hitCausesMiss) {
-HXLINE(4187)				this->noteMiss(note);
-HXLINE(4188)				bool _hx_tmp;
-HXDLIN(4188)				if (!(note->noteSplashDisabled)) {
-HXLINE(4188)					_hx_tmp = !(note->isSustainNote);
+HXLINE(4242)			if (note->hitCausesMiss) {
+HXLINE(4243)				this->noteMiss(note);
+HXLINE(4244)				bool _hx_tmp;
+HXDLIN(4244)				if (!(note->noteSplashDisabled)) {
+HXLINE(4244)					_hx_tmp = !(note->isSustainNote);
             				}
             				else {
-HXLINE(4188)					_hx_tmp = false;
+HXLINE(4244)					_hx_tmp = false;
             				}
-HXDLIN(4188)				if (_hx_tmp) {
-HXLINE(4189)					this->spawnNoteSplashOnNote(note);
+HXDLIN(4244)				if (_hx_tmp) {
+HXLINE(4245)					this->spawnNoteSplashOnNote(note);
             				}
-HXLINE(4192)				if ((note->noteType == HX_("Hurt Note",a3,41,9e,fe))) {
-HXLINE(4194)					if (::hx::IsNotNull( this->boyfriend->animation->_animations->get(HX_("hurt",0f,5c,17,45)) )) {
-HXLINE(4195)						this->boyfriend->playAnim(HX_("hurt",0f,5c,17,45),true,null(),null());
-HXLINE(4196)						this->boyfriend->specialAnim = true;
+HXLINE(4248)				if ((note->noteType == HX_("Hurt Note",a3,41,9e,fe))) {
+HXLINE(4250)					if (::hx::IsNotNull( this->boyfriend->animation->_animations->get(HX_("hurt",0f,5c,17,45)) )) {
+HXLINE(4251)						this->boyfriend->playAnim(HX_("hurt",0f,5c,17,45),true,null(),null());
+HXLINE(4252)						this->boyfriend->specialAnim = true;
             					}
             				}
-HXLINE(4200)				note->wasGoodHit = true;
-HXLINE(4201)				if (!(note->isSustainNote)) {
-HXLINE(4203)					note->kill();
-HXLINE(4204)					this->notes->remove(note,true).StaticCast<  ::Note >();
-HXLINE(4205)					note->destroy();
+HXLINE(4256)				note->wasGoodHit = true;
+HXLINE(4257)				if (!(note->isSustainNote)) {
+HXLINE(4259)					note->kill();
+HXLINE(4260)					this->notes->remove(note,true).StaticCast<  ::Note >();
+HXLINE(4261)					note->destroy();
             				}
-HXLINE(4207)				return;
+HXLINE(4263)				return;
             			}
-HXLINE(4210)			if (!(note->isSustainNote)) {
-HXLINE(4212)				 ::PlayState _hx_tmp = ::hx::ObjectPtr<OBJ_>(this);
-HXDLIN(4212)				_hx_tmp->combo = (_hx_tmp->combo + 1);
-HXLINE(4213)				this->popUpScore(note);
-HXLINE(4214)				if ((this->combo > 9999)) {
-HXLINE(4214)					this->combo = 9999;
+HXLINE(4266)			if (!(note->isSustainNote)) {
+HXLINE(4268)				 ::PlayState _hx_tmp = ::hx::ObjectPtr<OBJ_>(this);
+HXDLIN(4268)				_hx_tmp->combo = (_hx_tmp->combo + 1);
+HXLINE(4269)				this->popUpScore(note);
+HXLINE(4270)				if ((this->combo > 9999)) {
+HXLINE(4270)					this->combo = 9999;
             				}
             			}
-HXLINE(4216)			 ::PlayState _hx_tmp2 = ::hx::ObjectPtr<OBJ_>(this);
-HXDLIN(4216)			_hx_tmp2->health = (_hx_tmp2->health + (note->hitHealth * this->healthGain));
-HXLINE(4218)			if (!(note->noAnimation)) {
-HXLINE(4219)				::String daAlt = HX_("",00,00,00,00);
-HXLINE(4220)				if ((note->noteType == HX_("Alt Animation",0d,81,c1,cd))) {
-HXLINE(4220)					daAlt = HX_("-alt",1c,93,08,1e);
+HXLINE(4272)			 ::PlayState _hx_tmp2 = ::hx::ObjectPtr<OBJ_>(this);
+HXDLIN(4272)			_hx_tmp2->health = (_hx_tmp2->health + (note->hitHealth * this->healthGain));
+HXLINE(4274)			if (!(note->noAnimation)) {
+HXLINE(4275)				::String daAlt = HX_("",00,00,00,00);
+HXLINE(4276)				if ((note->noteType == HX_("Alt Animation",0d,81,c1,cd))) {
+HXLINE(4276)					daAlt = HX_("-alt",1c,93,08,1e);
             				}
-HXLINE(4222)				::String animToPlay = this->singAnimations->__get(::Std_obj::_hx_int(::Math_obj::abs(( (Float)(note->noteData) ))));
-HXLINE(4224)				if (note->gfNote) {
-HXLINE(4226)					if (::hx::IsNotNull( this->gf )) {
-HXLINE(4228)						this->gf->playAnim((animToPlay + daAlt),true,null(),null());
-HXLINE(4229)						this->gf->holdTimer = ( (Float)(0) );
+HXLINE(4278)				::String animToPlay = this->singAnimations->__get(::Std_obj::_hx_int(::Math_obj::abs(( (Float)(note->noteData) ))));
+HXLINE(4280)				if (note->gfNote) {
+HXLINE(4282)					if (::hx::IsNotNull( this->gf )) {
+HXLINE(4284)						this->gf->playAnim((animToPlay + daAlt),true,null(),null());
+HXLINE(4285)						this->gf->holdTimer = ( (Float)(0) );
             					}
             				}
             				else {
-HXLINE(4234)					this->boyfriend->playAnim((animToPlay + daAlt),true,null(),null());
-HXLINE(4235)					this->boyfriend->holdTimer = ( (Float)(0) );
+HXLINE(4290)					this->boyfriend->playAnim((animToPlay + daAlt),true,null(),null());
+HXLINE(4291)					this->boyfriend->holdTimer = ( (Float)(0) );
             				}
-HXLINE(4238)				::String _hx_switch_0 = note->noteType;
+HXLINE(4294)				::String _hx_switch_0 = note->noteType;
             				if (  (_hx_switch_0==HX_("Hey!",e5,69,e4,2f)) ){
-HXLINE(4256)					if (this->boyfriend->animOffsets->exists(HX_("hey",dc,42,4f,00))) {
-HXLINE(4257)						this->boyfriend->playAnim(HX_("hey",dc,42,4f,00),true,null(),null());
-HXLINE(4258)						this->boyfriend->specialAnim = true;
-HXLINE(4259)						this->boyfriend->heyTimer = ((Float)0.6);
+HXLINE(4312)					if (this->boyfriend->animOffsets->exists(HX_("hey",dc,42,4f,00))) {
+HXLINE(4313)						this->boyfriend->playAnim(HX_("hey",dc,42,4f,00),true,null(),null());
+HXLINE(4314)						this->boyfriend->specialAnim = true;
+HXLINE(4315)						this->boyfriend->heyTimer = ((Float)0.6);
             					}
-HXLINE(4262)					bool _hx_tmp;
-HXDLIN(4262)					if (::hx::IsNotNull( this->gf )) {
-HXLINE(4262)						_hx_tmp = this->gf->animOffsets->exists(HX_("cheer",8d,9a,b6,45));
+HXLINE(4318)					bool _hx_tmp;
+HXDLIN(4318)					if (::hx::IsNotNull( this->gf )) {
+HXLINE(4318)						_hx_tmp = this->gf->animOffsets->exists(HX_("cheer",8d,9a,b6,45));
             					}
             					else {
-HXLINE(4262)						_hx_tmp = false;
+HXLINE(4318)						_hx_tmp = false;
             					}
-HXDLIN(4262)					if (_hx_tmp) {
-HXLINE(4263)						this->gf->playAnim(HX_("cheer",8d,9a,b6,45),true,null(),null());
-HXLINE(4264)						this->gf->specialAnim = true;
-HXLINE(4265)						this->gf->heyTimer = ((Float)0.6);
+HXDLIN(4318)					if (_hx_tmp) {
+HXLINE(4319)						this->gf->playAnim(HX_("cheer",8d,9a,b6,45),true,null(),null());
+HXLINE(4320)						this->gf->specialAnim = true;
+HXLINE(4321)						this->gf->heyTimer = ((Float)0.6);
             					}
-HXLINE(4255)					goto _hx_goto_192;
+HXLINE(4311)					goto _hx_goto_192;
             				}
             				if (  (_hx_switch_0==HX_("Scream Note",c3,11,8f,9c)) ){
-HXLINE(4240)					this->boyfriend->playAnim(HX_("screamSolo",ae,a9,ba,97),true,null(),null());
-HXLINE(4241)					this->boyfriend->specialAnim = true;
-HXLINE(4242)					this->dad->playAnim(HX_("screamReact",10,b5,8e,91),true,null(),null());
-HXLINE(4243)					::flixel::FlxG_obj::camera->shake(((Float)0.01),((Float)0.1),null(),true,null());
-HXLINE(4245)					this->boyfriend->idleSuffix = HX_("Scary",b8,43,fc,0b);
-HXLINE(4239)					goto _hx_goto_192;
+HXLINE(4296)					this->boyfriend->playAnim(HX_("screamSolo",ae,a9,ba,97),true,null(),null());
+HXLINE(4297)					this->boyfriend->specialAnim = true;
+HXLINE(4298)					this->dad->playAnim(HX_("screamReact",10,b5,8e,91),true,null(),null());
+HXLINE(4299)					::flixel::FlxG_obj::camera->shake(((Float)0.01),((Float)0.1),null(),true,null());
+HXLINE(4301)					this->boyfriend->idleSuffix = HX_("Scary",b8,43,fc,0b);
+HXLINE(4295)					goto _hx_goto_192;
             				}
             				if (  (_hx_switch_0==HX_("Stab Note",10,f1,71,e0)) ){
-HXLINE(4248)					if (::hx::IsNotNull( this->dad->animation->_animations->get((HX_("stab",c2,e3,5b,4c) + this->stabcounter)) )) {
-HXLINE(4249)						this->dad->playAnim((HX_("stab",c2,e3,5b,4c) + this->stabcounter),true,null(),null());
-HXLINE(4250)						this->isStabbing = true;
-HXLINE(4251)						this->dad->specialAnim = true;
-HXLINE(4252)						this->stabcounter = (::hx::Mod(this->stabcounter,2) + 1);
-HXLINE(4253)						this->boyfriend->idleSuffix = HX_("",00,00,00,00);
+HXLINE(4304)					if (::hx::IsNotNull( this->dad->animation->_animations->get((HX_("stab",c2,e3,5b,4c) + this->stabcounter)) )) {
+HXLINE(4305)						this->dad->playAnim((HX_("stab",c2,e3,5b,4c) + this->stabcounter),true,null(),null());
+HXLINE(4306)						this->isStabbing = true;
+HXLINE(4307)						this->dad->specialAnim = true;
+HXLINE(4308)						this->stabcounter = (::hx::Mod(this->stabcounter,2) + 1);
+HXLINE(4309)						this->boyfriend->idleSuffix = HX_("",00,00,00,00);
             					}
-HXLINE(4248)					goto _hx_goto_192;
+HXLINE(4304)					goto _hx_goto_192;
             				}
             				/* default */{
-HXLINE(4268)					this->boyfriend->idleSuffix = HX_("",00,00,00,00);
+HXLINE(4324)					this->boyfriend->idleSuffix = HX_("",00,00,00,00);
             				}
             				_hx_goto_192:;
             			}
             		}
-HXLINE(4273)		if (this->cpuControlled) {
-HXLINE(4274)			Float time = ((Float)0.15);
-HXLINE(4275)			bool _hx_tmp;
-HXDLIN(4275)			if (note->isSustainNote) {
-HXLINE(4275)				_hx_tmp = !(::StringTools_obj::endsWith(note->animation->_curAnim->name,HX_("end",db,03,4d,00)));
+HXLINE(4329)		if (this->cpuControlled) {
+HXLINE(4330)			Float time = ((Float)0.15);
+HXLINE(4331)			bool _hx_tmp;
+HXDLIN(4331)			if (note->isSustainNote) {
+HXLINE(4331)				_hx_tmp = !(::StringTools_obj::endsWith(note->animation->_curAnim->name,HX_("end",db,03,4d,00)));
             			}
             			else {
-HXLINE(4275)				_hx_tmp = false;
+HXLINE(4331)				_hx_tmp = false;
             			}
-HXDLIN(4275)			if (_hx_tmp) {
-HXLINE(4276)				time = (time + ((Float)0.15));
+HXDLIN(4331)			if (_hx_tmp) {
+HXLINE(4332)				time = (time + ((Float)0.15));
             			}
-HXLINE(4278)			this->StrumPlayAnim(false,::hx::Mod(::Std_obj::_hx_int(::Math_obj::abs(( (Float)(note->noteData) ))),4),time);
+HXLINE(4334)			this->StrumPlayAnim(false,::hx::Mod(::Std_obj::_hx_int(::Math_obj::abs(( (Float)(note->noteData) ))),4),time);
             		}
             		else {
             			HX_BEGIN_LOCAL_FUNC_S1(::hx::LocalFunc,_hx_Closure_0, ::Note,note) HXARGC(1)
             			void _hx_run( ::StrumNote spr){
-            				HX_STACKFRAME(&_hx_pos_af23706db05c7feb_4282_goodNoteHit)
-HXLINE(4282)				if ((::Math_obj::abs(( (Float)(note->noteData) )) == spr->ID)) {
-HXLINE(4284)					spr->playAnim(HX_("confirm",00,9d,39,10),true);
+            				HX_STACKFRAME(&_hx_pos_af23706db05c7feb_4338_goodNoteHit)
+HXLINE(4338)				if ((::Math_obj::abs(( (Float)(note->noteData) )) == spr->ID)) {
+HXLINE(4340)					spr->playAnim(HX_("confirm",00,9d,39,10),true);
             				}
             			}
             			HX_END_LOCAL_FUNC1((void))
 
-HXLINE(4280)			this->playerStrums->forEach( ::Dynamic(new _hx_Closure_0(note)),null());
+HXLINE(4336)			this->playerStrums->forEach( ::Dynamic(new _hx_Closure_0(note)),null());
             		}
-HXLINE(4288)		note->wasGoodHit = true;
-HXLINE(4289)		this->vocals->set_volume(( (Float)(1) ));
-HXLINE(4291)		bool isSus = note->isSustainNote;
-HXLINE(4292)		int leData = ::Math_obj::round(::Math_obj::abs(( (Float)(note->noteData) )));
-HXLINE(4293)		::String leType = note->noteType;
-HXLINE(4294)		this->callOnLuas(HX_("goodNoteHit",c4,4d,c4,22),::cpp::VirtualArray_obj::__new(4)->init(0,this->notes->members->indexOf(note,null()))->init(1,leData)->init(2,leType)->init(3,isSus));
-HXLINE(4296)		if (!(note->isSustainNote)) {
-HXLINE(4298)			note->kill();
-HXLINE(4299)			this->notes->remove(note,true).StaticCast<  ::Note >();
-HXLINE(4300)			note->destroy();
+HXLINE(4344)		note->wasGoodHit = true;
+HXLINE(4345)		this->vocals->set_volume(( (Float)(1) ));
+HXLINE(4347)		bool isSus = note->isSustainNote;
+HXLINE(4348)		int leData = ::Math_obj::round(::Math_obj::abs(( (Float)(note->noteData) )));
+HXLINE(4349)		::String leType = note->noteType;
+HXLINE(4350)		this->callOnLuas(HX_("goodNoteHit",c4,4d,c4,22),::cpp::VirtualArray_obj::__new(4)->init(0,this->notes->members->indexOf(note,null()))->init(1,leData)->init(2,leType)->init(3,isSus));
+HXLINE(4352)		if (!(note->isSustainNote)) {
+HXLINE(4354)			note->kill();
+HXLINE(4355)			this->notes->remove(note,true).StaticCast<  ::Note >();
+HXLINE(4356)			note->destroy();
             		}
             	}
 
@@ -6636,18 +6693,18 @@ HXLINE(4300)			note->destroy();
 HX_DEFINE_DYNAMIC_FUNC1(PlayState_obj,goodNoteHit,(void))
 
 void PlayState_obj::spawnNoteSplashOnNote( ::Note note){
-            	HX_STACKFRAME(&_hx_pos_af23706db05c7feb_4305_spawnNoteSplashOnNote)
-HXDLIN(4305)		bool _hx_tmp;
-HXDLIN(4305)		if (::ClientPrefs_obj::noteSplashes) {
-HXDLIN(4305)			_hx_tmp = ::hx::IsNotNull( note );
+            	HX_STACKFRAME(&_hx_pos_af23706db05c7feb_4361_spawnNoteSplashOnNote)
+HXDLIN(4361)		bool _hx_tmp;
+HXDLIN(4361)		if (::ClientPrefs_obj::noteSplashes) {
+HXDLIN(4361)			_hx_tmp = ::hx::IsNotNull( note );
             		}
             		else {
-HXDLIN(4305)			_hx_tmp = false;
+HXDLIN(4361)			_hx_tmp = false;
             		}
-HXDLIN(4305)		if (_hx_tmp) {
-HXLINE(4306)			 ::StrumNote strum = Dynamic( this->playerStrums->members->__get(note->noteData)).StaticCast<  ::StrumNote >();
-HXLINE(4307)			if (::hx::IsNotNull( strum )) {
-HXLINE(4308)				this->spawnNoteSplash(strum->x,strum->y,note->noteData,note);
+HXDLIN(4361)		if (_hx_tmp) {
+HXLINE(4362)			 ::StrumNote strum = Dynamic( this->playerStrums->members->__get(note->noteData)).StaticCast<  ::StrumNote >();
+HXLINE(4363)			if (::hx::IsNotNull( strum )) {
+HXLINE(4364)				this->spawnNoteSplash(strum->x,strum->y,note->noteData,note);
             			}
             		}
             	}
@@ -6656,42 +6713,42 @@ HXLINE(4308)				this->spawnNoteSplash(strum->x,strum->y,note->noteData,note);
 HX_DEFINE_DYNAMIC_FUNC1(PlayState_obj,spawnNoteSplashOnNote,(void))
 
 void PlayState_obj::spawnNoteSplash(Float x,Float y,int data, ::Note note){
-            	HX_STACKFRAME(&_hx_pos_af23706db05c7feb_4313_spawnNoteSplash)
-HXLINE(4314)		::String skin = HX_("noteSplashes",a7,57,29,8d);
-HXLINE(4315)		bool _hx_tmp;
-HXDLIN(4315)		if (::hx::IsNotNull( ::PlayState_obj::SONG->__Field(HX_("splashSkin",84,03,e1,a1),::hx::paccDynamic) )) {
-HXLINE(4315)			_hx_tmp = (( (::String)(::PlayState_obj::SONG->__Field(HX_("splashSkin",84,03,e1,a1),::hx::paccDynamic)) ).length > 0);
+            	HX_STACKFRAME(&_hx_pos_af23706db05c7feb_4369_spawnNoteSplash)
+HXLINE(4370)		::String skin = HX_("noteSplashes",a7,57,29,8d);
+HXLINE(4371)		bool _hx_tmp;
+HXDLIN(4371)		if (::hx::IsNotNull( ::PlayState_obj::SONG->__Field(HX_("splashSkin",84,03,e1,a1),::hx::paccDynamic) )) {
+HXLINE(4371)			_hx_tmp = (( (::String)(::PlayState_obj::SONG->__Field(HX_("splashSkin",84,03,e1,a1),::hx::paccDynamic)) ).length > 0);
             		}
             		else {
-HXLINE(4315)			_hx_tmp = false;
+HXLINE(4371)			_hx_tmp = false;
             		}
-HXDLIN(4315)		if (_hx_tmp) {
-HXLINE(4315)			skin = ( (::String)(::PlayState_obj::SONG->__Field(HX_("splashSkin",84,03,e1,a1),::hx::paccDynamic)) );
+HXDLIN(4371)		if (_hx_tmp) {
+HXLINE(4371)			skin = ( (::String)(::PlayState_obj::SONG->__Field(HX_("splashSkin",84,03,e1,a1),::hx::paccDynamic)) );
             		}
-HXLINE(4317)		Float hue = (( (Float)(::ClientPrefs_obj::arrowHSV->__get(::hx::Mod(data,4)).StaticCast< ::Array< int > >()->__get(0)) ) / ( (Float)(360) ));
-HXLINE(4318)		Float sat = (( (Float)(::ClientPrefs_obj::arrowHSV->__get(::hx::Mod(data,4)).StaticCast< ::Array< int > >()->__get(1)) ) / ( (Float)(100) ));
-HXLINE(4319)		Float brt = (( (Float)(::ClientPrefs_obj::arrowHSV->__get(::hx::Mod(data,4)).StaticCast< ::Array< int > >()->__get(2)) ) / ( (Float)(100) ));
-HXLINE(4320)		if (::hx::IsNotNull( note )) {
-HXLINE(4321)			skin = note->noteSplashTexture;
-HXLINE(4322)			hue = note->noteSplashHue;
-HXLINE(4323)			sat = note->noteSplashSat;
-HXLINE(4324)			brt = note->noteSplashBrt;
+HXLINE(4373)		Float hue = (( (Float)(::ClientPrefs_obj::arrowHSV->__get(::hx::Mod(data,4)).StaticCast< ::Array< int > >()->__get(0)) ) / ( (Float)(360) ));
+HXLINE(4374)		Float sat = (( (Float)(::ClientPrefs_obj::arrowHSV->__get(::hx::Mod(data,4)).StaticCast< ::Array< int > >()->__get(1)) ) / ( (Float)(100) ));
+HXLINE(4375)		Float brt = (( (Float)(::ClientPrefs_obj::arrowHSV->__get(::hx::Mod(data,4)).StaticCast< ::Array< int > >()->__get(2)) ) / ( (Float)(100) ));
+HXLINE(4376)		if (::hx::IsNotNull( note )) {
+HXLINE(4377)			skin = note->noteSplashTexture;
+HXLINE(4378)			hue = note->noteSplashHue;
+HXLINE(4379)			sat = note->noteSplashSat;
+HXLINE(4380)			brt = note->noteSplashBrt;
             		}
-HXLINE(4327)		 ::NoteSplash splash = this->grpNoteSplashes->recycle(::hx::ClassOf< ::NoteSplash >(),null(),null(),null()).StaticCast<  ::NoteSplash >();
-HXLINE(4328)		splash->setupNoteSplash(x,y,data,skin,hue,sat,brt);
-HXLINE(4329)		this->grpNoteSplashes->add(splash).StaticCast<  ::NoteSplash >();
+HXLINE(4383)		 ::NoteSplash splash = this->grpNoteSplashes->recycle(::hx::ClassOf< ::NoteSplash >(),null(),null(),null()).StaticCast<  ::NoteSplash >();
+HXLINE(4384)		splash->setupNoteSplash(x,y,data,skin,hue,sat,brt);
+HXLINE(4385)		this->grpNoteSplashes->add(splash).StaticCast<  ::NoteSplash >();
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC4(PlayState_obj,spawnNoteSplash,(void))
 
 void PlayState_obj::resetFastCar(){
-            	HX_STACKFRAME(&_hx_pos_af23706db05c7feb_4335_resetFastCar)
-HXLINE(4336)		this->fastCar->set_x(( (Float)(-12600) ));
-HXLINE(4337)		 ::BGSprite _hx_tmp = this->fastCar;
-HXDLIN(4337)		_hx_tmp->set_y(( (Float)(::flixel::FlxG_obj::random->_hx_int(140,250,null())) ));
-HXLINE(4338)		this->fastCar->velocity->set_x(( (Float)(0) ));
-HXLINE(4339)		this->fastCarCanDrive = true;
+            	HX_STACKFRAME(&_hx_pos_af23706db05c7feb_4391_resetFastCar)
+HXLINE(4392)		this->fastCar->set_x(( (Float)(-12600) ));
+HXLINE(4393)		 ::BGSprite _hx_tmp = this->fastCar;
+HXDLIN(4393)		_hx_tmp->set_y(( (Float)(::flixel::FlxG_obj::random->_hx_int(140,250,null())) ));
+HXLINE(4394)		this->fastCar->velocity->set_x(( (Float)(0) ));
+HXLINE(4395)		this->fastCarCanDrive = true;
             	}
 
 
@@ -6700,32 +6757,32 @@ HX_DEFINE_DYNAMIC_FUNC0(PlayState_obj,resetFastCar,(void))
 void PlayState_obj::fastCarDrive(){
             		HX_BEGIN_LOCAL_FUNC_S1(::hx::LocalFunc,_hx_Closure_0, ::PlayState,_gthis) HXARGC(1)
             		void _hx_run( ::flixel::util::FlxTimer tmr){
-            			HX_GC_STACKFRAME(&_hx_pos_af23706db05c7feb_4351_fastCarDrive)
-HXLINE(4352)			_gthis->resetFastCar();
-HXLINE(4353)			_gthis->carTimer = null();
+            			HX_GC_STACKFRAME(&_hx_pos_af23706db05c7feb_4407_fastCarDrive)
+HXLINE(4408)			_gthis->resetFastCar();
+HXLINE(4409)			_gthis->carTimer = null();
             		}
             		HX_END_LOCAL_FUNC1((void))
 
-            	HX_GC_STACKFRAME(&_hx_pos_af23706db05c7feb_4344_fastCarDrive)
-HXLINE(4343)		 ::PlayState _gthis = ::hx::ObjectPtr<OBJ_>(this);
-HXLINE(4346)		 ::flixel::_hx_system::frontEnds::SoundFrontEnd _hx_tmp = ::flixel::FlxG_obj::sound;
-HXDLIN(4346)		::String library = null();
-HXDLIN(4346)		_hx_tmp->play(::Paths_obj::sound((HX_("carPass",05,1f,44,b6) + ::flixel::FlxG_obj::random->_hx_int(0,1,null())),library),((Float)0.7),null(),null(),null(),null());
-HXLINE(4348)		 ::flixel::math::FlxPoint _hx_tmp1 = this->fastCar->velocity;
-HXDLIN(4348)		int _hx_tmp2 = ::flixel::FlxG_obj::random->_hx_int(170,220,null());
-HXDLIN(4348)		_hx_tmp1->set_x(((( (Float)(_hx_tmp2) ) / ::flixel::FlxG_obj::elapsed) * ( (Float)(3) )));
-HXLINE(4349)		this->fastCarCanDrive = false;
-HXLINE(4350)		this->carTimer =  ::flixel::util::FlxTimer_obj::__alloc( HX_CTX ,null())->start(2, ::Dynamic(new _hx_Closure_0(_gthis)),null());
+            	HX_GC_STACKFRAME(&_hx_pos_af23706db05c7feb_4400_fastCarDrive)
+HXLINE(4399)		 ::PlayState _gthis = ::hx::ObjectPtr<OBJ_>(this);
+HXLINE(4402)		 ::flixel::_hx_system::frontEnds::SoundFrontEnd _hx_tmp = ::flixel::FlxG_obj::sound;
+HXDLIN(4402)		::String library = null();
+HXDLIN(4402)		_hx_tmp->play(::Paths_obj::sound((HX_("carPass",05,1f,44,b6) + ::flixel::FlxG_obj::random->_hx_int(0,1,null())),library),((Float)0.7),null(),null(),null(),null());
+HXLINE(4404)		 ::flixel::math::FlxPoint _hx_tmp1 = this->fastCar->velocity;
+HXDLIN(4404)		int _hx_tmp2 = ::flixel::FlxG_obj::random->_hx_int(170,220,null());
+HXDLIN(4404)		_hx_tmp1->set_x(((( (Float)(_hx_tmp2) ) / ::flixel::FlxG_obj::elapsed) * ( (Float)(3) )));
+HXLINE(4405)		this->fastCarCanDrive = false;
+HXLINE(4406)		this->carTimer =  ::flixel::util::FlxTimer_obj::__alloc( HX_CTX ,null())->start(2, ::Dynamic(new _hx_Closure_0(_gthis)),null());
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(PlayState_obj,fastCarDrive,(void))
 
 void PlayState_obj::trainStart(){
-            	HX_STACKFRAME(&_hx_pos_af23706db05c7feb_4365_trainStart)
-HXLINE(4366)		this->trainMoving = true;
-HXLINE(4367)		if (::hx::IsNull( this->trainSound->_channel )) {
-HXLINE(4368)			this->trainSound->play(true,null(),null());
+            	HX_STACKFRAME(&_hx_pos_af23706db05c7feb_4421_trainStart)
+HXLINE(4422)		this->trainMoving = true;
+HXLINE(4423)		if (::hx::IsNull( this->trainSound->_channel )) {
+HXLINE(4424)			this->trainSound->play(true,null(),null());
             		}
             	}
 
@@ -6733,43 +6790,43 @@ HXLINE(4368)			this->trainSound->play(true,null(),null());
 HX_DEFINE_DYNAMIC_FUNC0(PlayState_obj,trainStart,(void))
 
 void PlayState_obj::updateTrainPos(){
-            	HX_STACKFRAME(&_hx_pos_af23706db05c7feb_4374_updateTrainPos)
-HXLINE(4375)		if ((this->trainSound->_time >= 4700)) {
-HXLINE(4377)			this->startedMoving = true;
-HXLINE(4378)			if (::hx::IsNotNull( this->gf )) {
-HXLINE(4380)				this->gf->playAnim(HX_("hairBlow",b4,c9,39,c9),null(),null(),null());
-HXLINE(4381)				this->gf->specialAnim = true;
+            	HX_STACKFRAME(&_hx_pos_af23706db05c7feb_4430_updateTrainPos)
+HXLINE(4431)		if ((this->trainSound->_time >= 4700)) {
+HXLINE(4433)			this->startedMoving = true;
+HXLINE(4434)			if (::hx::IsNotNull( this->gf )) {
+HXLINE(4436)				this->gf->playAnim(HX_("hairBlow",b4,c9,39,c9),null(),null(),null());
+HXLINE(4437)				this->gf->specialAnim = true;
             			}
             		}
-HXLINE(4385)		if (this->startedMoving) {
-HXLINE(4387)			{
-HXLINE(4387)				 ::BGSprite _g = this->phillyTrain;
-HXDLIN(4387)				_g->set_x((_g->x - ( (Float)(400) )));
+HXLINE(4441)		if (this->startedMoving) {
+HXLINE(4443)			{
+HXLINE(4443)				 ::BGSprite _g = this->phillyTrain;
+HXDLIN(4443)				_g->set_x((_g->x - ( (Float)(400) )));
             			}
-HXLINE(4389)			bool _hx_tmp;
-HXDLIN(4389)			if ((this->phillyTrain->x < -2000)) {
-HXLINE(4389)				_hx_tmp = !(this->trainFinishing);
+HXLINE(4445)			bool _hx_tmp;
+HXDLIN(4445)			if ((this->phillyTrain->x < -2000)) {
+HXLINE(4445)				_hx_tmp = !(this->trainFinishing);
             			}
             			else {
-HXLINE(4389)				_hx_tmp = false;
+HXLINE(4445)				_hx_tmp = false;
             			}
-HXDLIN(4389)			if (_hx_tmp) {
-HXLINE(4391)				this->phillyTrain->set_x(( (Float)(-1150) ));
-HXLINE(4392)				 ::PlayState _hx_tmp = ::hx::ObjectPtr<OBJ_>(this);
-HXDLIN(4392)				_hx_tmp->trainCars = (_hx_tmp->trainCars - 1);
-HXLINE(4394)				if ((this->trainCars <= 0)) {
-HXLINE(4395)					this->trainFinishing = true;
+HXDLIN(4445)			if (_hx_tmp) {
+HXLINE(4447)				this->phillyTrain->set_x(( (Float)(-1150) ));
+HXLINE(4448)				 ::PlayState _hx_tmp = ::hx::ObjectPtr<OBJ_>(this);
+HXDLIN(4448)				_hx_tmp->trainCars = (_hx_tmp->trainCars - 1);
+HXLINE(4450)				if ((this->trainCars <= 0)) {
+HXLINE(4451)					this->trainFinishing = true;
             				}
             			}
-HXLINE(4398)			bool _hx_tmp1;
-HXDLIN(4398)			if ((this->phillyTrain->x < -4000)) {
-HXLINE(4398)				_hx_tmp1 = this->trainFinishing;
+HXLINE(4454)			bool _hx_tmp1;
+HXDLIN(4454)			if ((this->phillyTrain->x < -4000)) {
+HXLINE(4454)				_hx_tmp1 = this->trainFinishing;
             			}
             			else {
-HXLINE(4398)				_hx_tmp1 = false;
+HXLINE(4454)				_hx_tmp1 = false;
             			}
-HXDLIN(4398)			if (_hx_tmp1) {
-HXLINE(4399)				this->trainReset();
+HXDLIN(4454)			if (_hx_tmp1) {
+HXLINE(4455)				this->trainReset();
             			}
             		}
             	}
@@ -6778,66 +6835,66 @@ HXLINE(4399)				this->trainReset();
 HX_DEFINE_DYNAMIC_FUNC0(PlayState_obj,updateTrainPos,(void))
 
 void PlayState_obj::trainReset(){
-            	HX_STACKFRAME(&_hx_pos_af23706db05c7feb_4404_trainReset)
-HXLINE(4405)		if (::hx::IsNotNull( this->gf )) {
-HXLINE(4407)			this->gf->danced = false;
-HXLINE(4408)			this->gf->playAnim(HX_("hairFall",bd,48,d6,cb),null(),null(),null());
-HXLINE(4409)			this->gf->specialAnim = true;
+            	HX_STACKFRAME(&_hx_pos_af23706db05c7feb_4460_trainReset)
+HXLINE(4461)		if (::hx::IsNotNull( this->gf )) {
+HXLINE(4463)			this->gf->danced = false;
+HXLINE(4464)			this->gf->playAnim(HX_("hairFall",bd,48,d6,cb),null(),null(),null());
+HXLINE(4465)			this->gf->specialAnim = true;
             		}
-HXLINE(4411)		this->phillyTrain->set_x(( (Float)((::flixel::FlxG_obj::width + 200)) ));
-HXLINE(4412)		this->trainMoving = false;
-HXLINE(4415)		this->trainCars = 8;
-HXLINE(4416)		this->trainFinishing = false;
-HXLINE(4417)		this->startedMoving = false;
+HXLINE(4467)		this->phillyTrain->set_x(( (Float)((::flixel::FlxG_obj::width + 200)) ));
+HXLINE(4468)		this->trainMoving = false;
+HXLINE(4471)		this->trainCars = 8;
+HXLINE(4472)		this->trainFinishing = false;
+HXLINE(4473)		this->startedMoving = false;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(PlayState_obj,trainReset,(void))
 
 void PlayState_obj::lightningStrikeShit(){
-            	HX_STACKFRAME(&_hx_pos_af23706db05c7feb_4421_lightningStrikeShit)
-HXLINE(4422)		 ::flixel::_hx_system::frontEnds::SoundFrontEnd _hx_tmp = ::flixel::FlxG_obj::sound;
-HXDLIN(4422)		::String library = null();
-HXDLIN(4422)		_hx_tmp->play(::Paths_obj::sound((HX_("thunder_",bb,58,cf,2f) + ::flixel::FlxG_obj::random->_hx_int(1,2,null())),library),null(),null(),null(),null(),null());
-HXLINE(4423)		if (!(::ClientPrefs_obj::lowQuality)) {
-HXLINE(4423)			this->halloweenBG->animation->play(HX_("halloweem bg lightning strike",af,54,50,5b),null(),null(),null());
+            	HX_STACKFRAME(&_hx_pos_af23706db05c7feb_4477_lightningStrikeShit)
+HXLINE(4478)		 ::flixel::_hx_system::frontEnds::SoundFrontEnd _hx_tmp = ::flixel::FlxG_obj::sound;
+HXDLIN(4478)		::String library = null();
+HXDLIN(4478)		_hx_tmp->play(::Paths_obj::sound((HX_("thunder_",bb,58,cf,2f) + ::flixel::FlxG_obj::random->_hx_int(1,2,null())),library),null(),null(),null(),null(),null());
+HXLINE(4479)		if (!(::ClientPrefs_obj::lowQuality)) {
+HXLINE(4479)			this->halloweenBG->animation->play(HX_("halloweem bg lightning strike",af,54,50,5b),null(),null(),null());
             		}
-HXLINE(4425)		this->lightningStrikeBeat = this->curBeat;
-HXLINE(4426)		this->lightningOffset = ::flixel::FlxG_obj::random->_hx_int(8,24,null());
-HXLINE(4428)		if (this->boyfriend->animOffsets->exists(HX_("scared",20,78,2a,3c))) {
-HXLINE(4429)			this->boyfriend->playAnim(HX_("scared",20,78,2a,3c),true,null(),null());
+HXLINE(4481)		this->lightningStrikeBeat = this->curBeat;
+HXLINE(4482)		this->lightningOffset = ::flixel::FlxG_obj::random->_hx_int(8,24,null());
+HXLINE(4484)		if (this->boyfriend->animOffsets->exists(HX_("scared",20,78,2a,3c))) {
+HXLINE(4485)			this->boyfriend->playAnim(HX_("scared",20,78,2a,3c),true,null(),null());
             		}
-HXLINE(4432)		bool _hx_tmp1;
-HXDLIN(4432)		if (::hx::IsNotNull( this->gf )) {
-HXLINE(4432)			_hx_tmp1 = this->gf->animOffsets->exists(HX_("scared",20,78,2a,3c));
+HXLINE(4488)		bool _hx_tmp1;
+HXDLIN(4488)		if (::hx::IsNotNull( this->gf )) {
+HXLINE(4488)			_hx_tmp1 = this->gf->animOffsets->exists(HX_("scared",20,78,2a,3c));
             		}
             		else {
-HXLINE(4432)			_hx_tmp1 = false;
+HXLINE(4488)			_hx_tmp1 = false;
             		}
-HXDLIN(4432)		if (_hx_tmp1) {
-HXLINE(4433)			this->gf->playAnim(HX_("scared",20,78,2a,3c),true,null(),null());
+HXDLIN(4488)		if (_hx_tmp1) {
+HXLINE(4489)			this->gf->playAnim(HX_("scared",20,78,2a,3c),true,null(),null());
             		}
-HXLINE(4436)		if (::ClientPrefs_obj::camZooms) {
-HXLINE(4437)			{
-HXLINE(4437)				 ::flixel::FlxCamera _g = ::flixel::FlxG_obj::camera;
-HXDLIN(4437)				_g->set_zoom((_g->zoom + ((Float)0.015)));
+HXLINE(4492)		if (::ClientPrefs_obj::camZooms) {
+HXLINE(4493)			{
+HXLINE(4493)				 ::flixel::FlxCamera _g = ::flixel::FlxG_obj::camera;
+HXDLIN(4493)				_g->set_zoom((_g->zoom + ((Float)0.015)));
             			}
-HXLINE(4438)			{
-HXLINE(4438)				 ::flixel::FlxCamera _g1 = this->camHUD;
-HXDLIN(4438)				_g1->set_zoom((_g1->zoom + ((Float)0.03)));
+HXLINE(4494)			{
+HXLINE(4494)				 ::flixel::FlxCamera _g1 = this->camHUD;
+HXDLIN(4494)				_g1->set_zoom((_g1->zoom + ((Float)0.03)));
             			}
-HXLINE(4440)			if (!(this->camZooming)) {
-HXLINE(4441)				::flixel::tweens::FlxTween_obj::tween(::flixel::FlxG_obj::camera, ::Dynamic(::hx::Anon_obj::Create(1)
+HXLINE(4496)			if (!(this->camZooming)) {
+HXLINE(4497)				::flixel::tweens::FlxTween_obj::tween(::flixel::FlxG_obj::camera, ::Dynamic(::hx::Anon_obj::Create(1)
             					->setFixed(0,HX_("zoom",13,a3,f8,50),this->defaultCamZoom)),((Float)0.5),null());
-HXLINE(4442)				::flixel::tweens::FlxTween_obj::tween(this->camHUD, ::Dynamic(::hx::Anon_obj::Create(1)
+HXLINE(4498)				::flixel::tweens::FlxTween_obj::tween(this->camHUD, ::Dynamic(::hx::Anon_obj::Create(1)
             					->setFixed(0,HX_("zoom",13,a3,f8,50),1)),((Float)0.5),null());
             			}
             		}
-HXLINE(4446)		if (::ClientPrefs_obj::flashing) {
-HXLINE(4447)			this->halloweenWhite->set_alpha(((Float)0.4));
-HXLINE(4448)			::flixel::tweens::FlxTween_obj::tween(this->halloweenWhite, ::Dynamic(::hx::Anon_obj::Create(1)
+HXLINE(4502)		if (::ClientPrefs_obj::flashing) {
+HXLINE(4503)			this->halloweenWhite->set_alpha(((Float)0.4));
+HXLINE(4504)			::flixel::tweens::FlxTween_obj::tween(this->halloweenWhite, ::Dynamic(::hx::Anon_obj::Create(1)
             				->setFixed(0,HX_("alpha",5e,a7,96,21),((Float)0.5))),((Float)0.075),null());
-HXLINE(4449)			::flixel::tweens::FlxTween_obj::tween(this->halloweenWhite, ::Dynamic(::hx::Anon_obj::Create(1)
+HXLINE(4505)			::flixel::tweens::FlxTween_obj::tween(this->halloweenWhite, ::Dynamic(::hx::Anon_obj::Create(1)
             				->setFixed(0,HX_("alpha",5e,a7,96,21),0)),((Float)0.25), ::Dynamic(::hx::Anon_obj::Create(1)
             				->setFixed(0,HX_("startDelay",c1,af,3d,f3),((Float)0.15))));
             		}
@@ -6847,37 +6904,37 @@ HXLINE(4449)			::flixel::tweens::FlxTween_obj::tween(this->halloweenWhite, ::Dyn
 HX_DEFINE_DYNAMIC_FUNC0(PlayState_obj,lightningStrikeShit,(void))
 
 void PlayState_obj::killHenchmen(){
-            	HX_STACKFRAME(&_hx_pos_af23706db05c7feb_4455_killHenchmen)
-HXDLIN(4455)		bool _hx_tmp;
-HXDLIN(4455)		bool _hx_tmp1;
-HXDLIN(4455)		if (!(::ClientPrefs_obj::lowQuality)) {
-HXDLIN(4455)			_hx_tmp1 = ::ClientPrefs_obj::violence;
+            	HX_STACKFRAME(&_hx_pos_af23706db05c7feb_4511_killHenchmen)
+HXDLIN(4511)		bool _hx_tmp;
+HXDLIN(4511)		bool _hx_tmp1;
+HXDLIN(4511)		if (!(::ClientPrefs_obj::lowQuality)) {
+HXDLIN(4511)			_hx_tmp1 = ::ClientPrefs_obj::violence;
             		}
             		else {
-HXDLIN(4455)			_hx_tmp1 = false;
+HXDLIN(4511)			_hx_tmp1 = false;
             		}
-HXDLIN(4455)		if (_hx_tmp1) {
-HXDLIN(4455)			_hx_tmp = (::PlayState_obj::curStage == HX_("limo",1f,17,b3,47));
+HXDLIN(4511)		if (_hx_tmp1) {
+HXDLIN(4511)			_hx_tmp = (::PlayState_obj::curStage == HX_("limo",1f,17,b3,47));
             		}
             		else {
-HXDLIN(4455)			_hx_tmp = false;
+HXDLIN(4511)			_hx_tmp = false;
             		}
-HXDLIN(4455)		if (_hx_tmp) {
-HXLINE(4456)			if ((this->limoKillingState < 1)) {
-HXLINE(4457)				this->limoMetalPole->set_x(( (Float)(-400) ));
-HXLINE(4458)				this->limoMetalPole->set_visible(true);
-HXLINE(4459)				this->limoLight->set_visible(true);
-HXLINE(4460)				this->limoCorpse->set_visible(false);
-HXLINE(4461)				this->limoCorpseTwo->set_visible(false);
-HXLINE(4462)				this->limoKillingState = 1;
-HXLINE(4465)				::Achievements_obj::henchmenDeath++;
-HXLINE(4466)				::flixel::FlxG_obj::save->data->__SetField(HX_("henchmenDeath",f4,76,2a,dd),::Achievements_obj::henchmenDeath,::hx::paccDynamic);
-HXLINE(4467)				::String achieve = this->checkForAchievement(::Array_obj< ::String >::fromData( _hx_array_data_46c2835d_205,1));
-HXLINE(4468)				if (::hx::IsNotNull( achieve )) {
-HXLINE(4469)					this->startAchievement(achieve);
+HXDLIN(4511)		if (_hx_tmp) {
+HXLINE(4512)			if ((this->limoKillingState < 1)) {
+HXLINE(4513)				this->limoMetalPole->set_x(( (Float)(-400) ));
+HXLINE(4514)				this->limoMetalPole->set_visible(true);
+HXLINE(4515)				this->limoLight->set_visible(true);
+HXLINE(4516)				this->limoCorpse->set_visible(false);
+HXLINE(4517)				this->limoCorpseTwo->set_visible(false);
+HXLINE(4518)				this->limoKillingState = 1;
+HXLINE(4521)				::Achievements_obj::henchmenDeath++;
+HXLINE(4522)				::flixel::FlxG_obj::save->data->__SetField(HX_("henchmenDeath",f4,76,2a,dd),::Achievements_obj::henchmenDeath,::hx::paccDynamic);
+HXLINE(4523)				::String achieve = this->checkForAchievement(::Array_obj< ::String >::fromData( _hx_array_data_46c2835d_205,1));
+HXLINE(4524)				if (::hx::IsNotNull( achieve )) {
+HXLINE(4525)					this->startAchievement(achieve);
             				}
             				else {
-HXLINE(4471)					::flixel::FlxG_obj::save->flush(null(),null());
+HXLINE(4527)					::flixel::FlxG_obj::save->flush(null(),null());
             				}
             			}
             		}
@@ -6887,16 +6944,16 @@ HXLINE(4471)					::flixel::FlxG_obj::save->flush(null(),null());
 HX_DEFINE_DYNAMIC_FUNC0(PlayState_obj,killHenchmen,(void))
 
 void PlayState_obj::resetLimoKill(){
-            	HX_STACKFRAME(&_hx_pos_af23706db05c7feb_4481_resetLimoKill)
-HXDLIN(4481)		if ((::PlayState_obj::curStage == HX_("limo",1f,17,b3,47))) {
-HXLINE(4482)			this->limoMetalPole->set_x(( (Float)(-500) ));
-HXLINE(4483)			this->limoMetalPole->set_visible(false);
-HXLINE(4484)			this->limoLight->set_x(( (Float)(-500) ));
-HXLINE(4485)			this->limoLight->set_visible(false);
-HXLINE(4486)			this->limoCorpse->set_x(( (Float)(-500) ));
-HXLINE(4487)			this->limoCorpse->set_visible(false);
-HXLINE(4488)			this->limoCorpseTwo->set_x(( (Float)(-500) ));
-HXLINE(4489)			this->limoCorpseTwo->set_visible(false);
+            	HX_STACKFRAME(&_hx_pos_af23706db05c7feb_4537_resetLimoKill)
+HXDLIN(4537)		if ((::PlayState_obj::curStage == HX_("limo",1f,17,b3,47))) {
+HXLINE(4538)			this->limoMetalPole->set_x(( (Float)(-500) ));
+HXLINE(4539)			this->limoMetalPole->set_visible(false);
+HXLINE(4540)			this->limoLight->set_x(( (Float)(-500) ));
+HXLINE(4541)			this->limoLight->set_visible(false);
+HXLINE(4542)			this->limoCorpse->set_x(( (Float)(-500) ));
+HXLINE(4543)			this->limoCorpse->set_visible(false);
+HXLINE(4544)			this->limoCorpseTwo->set_x(( (Float)(-500) ));
+HXLINE(4545)			this->limoCorpseTwo->set_visible(false);
             		}
             	}
 
@@ -6904,38 +6961,38 @@ HXLINE(4489)			this->limoCorpseTwo->set_visible(false);
 HX_DEFINE_DYNAMIC_FUNC0(PlayState_obj,resetLimoKill,(void))
 
 void PlayState_obj::destroy(){
-            	HX_STACKFRAME(&_hx_pos_af23706db05c7feb_4494_destroy)
-HXLINE(4495)		this->preventLuaRemove = true;
-HXLINE(4496)		{
-HXLINE(4496)			int _g = 0;
-HXDLIN(4496)			int _g1 = this->luaArray->length;
-HXDLIN(4496)			while((_g < _g1)){
-HXLINE(4496)				_g = (_g + 1);
-HXDLIN(4496)				int i = (_g - 1);
-HXLINE(4497)				this->luaArray->__get(i).StaticCast<  ::FunkinLua >()->call(HX_("onDestroy",9b,e5,30,fc),::cpp::VirtualArray_obj::__new(0));
-HXLINE(4498)				this->luaArray->__get(i).StaticCast<  ::FunkinLua >()->stop();
+            	HX_STACKFRAME(&_hx_pos_af23706db05c7feb_4550_destroy)
+HXLINE(4551)		this->preventLuaRemove = true;
+HXLINE(4552)		{
+HXLINE(4552)			int _g = 0;
+HXDLIN(4552)			int _g1 = this->luaArray->length;
+HXDLIN(4552)			while((_g < _g1)){
+HXLINE(4552)				_g = (_g + 1);
+HXDLIN(4552)				int i = (_g - 1);
+HXLINE(4553)				this->luaArray->__get(i).StaticCast<  ::FunkinLua >()->call(HX_("onDestroy",9b,e5,30,fc),::cpp::VirtualArray_obj::__new(0));
+HXLINE(4554)				this->luaArray->__get(i).StaticCast<  ::FunkinLua >()->stop();
             			}
             		}
-HXLINE(4500)		this->luaArray = ::Array_obj< ::Dynamic>::__new(0);
-HXLINE(4502)		if (!(::ClientPrefs_obj::controllerMode)) {
-HXLINE(4504)			::openfl::Lib_obj::get_current()->stage->removeEventListener(HX_("keyDown",a1,69,47,9c),this->onKeyPress_dyn(),null());
-HXLINE(4505)			::openfl::Lib_obj::get_current()->stage->removeEventListener(HX_("keyUp",da,b9,fe,de),this->onKeyRelease_dyn(),null());
+HXLINE(4556)		this->luaArray = ::Array_obj< ::Dynamic>::__new(0);
+HXLINE(4558)		if (!(::ClientPrefs_obj::controllerMode)) {
+HXLINE(4560)			::openfl::Lib_obj::get_current()->stage->removeEventListener(HX_("keyDown",a1,69,47,9c),this->onKeyPress_dyn(),null());
+HXLINE(4561)			::openfl::Lib_obj::get_current()->stage->removeEventListener(HX_("keyUp",da,b9,fe,de),this->onKeyRelease_dyn(),null());
             		}
-HXLINE(4507)		this->super::destroy();
+HXLINE(4563)		this->super::destroy();
             	}
 
 
 void PlayState_obj::removeLua( ::FunkinLua lua){
-            	HX_STACKFRAME(&_hx_pos_af23706db05c7feb_4518_removeLua)
-HXDLIN(4518)		bool _hx_tmp;
-HXDLIN(4518)		if (::hx::IsNotNull( this->luaArray )) {
-HXDLIN(4518)			_hx_tmp = !(this->preventLuaRemove);
+            	HX_STACKFRAME(&_hx_pos_af23706db05c7feb_4574_removeLua)
+HXDLIN(4574)		bool _hx_tmp;
+HXDLIN(4574)		if (::hx::IsNotNull( this->luaArray )) {
+HXDLIN(4574)			_hx_tmp = !(this->preventLuaRemove);
             		}
             		else {
-HXDLIN(4518)			_hx_tmp = false;
+HXDLIN(4574)			_hx_tmp = false;
             		}
-HXDLIN(4518)		if (_hx_tmp) {
-HXLINE(4519)			this->luaArray->remove(lua);
+HXDLIN(4574)		if (_hx_tmp) {
+HXLINE(4575)			this->luaArray->remove(lua);
             		}
             	}
 
@@ -6943,390 +7000,411 @@ HXLINE(4519)			this->luaArray->remove(lua);
 HX_DEFINE_DYNAMIC_FUNC1(PlayState_obj,removeLua,(void))
 
 void PlayState_obj::stepHit(){
-            	HX_STACKFRAME(&_hx_pos_af23706db05c7feb_4525_stepHit)
-HXLINE(4526)		this->super::stepHit();
-HXLINE(4527)		bool _hx_tmp;
-HXDLIN(4527)		if (!((::Math_obj::abs((::flixel::FlxG_obj::sound->music->_time - (::Conductor_obj::songPosition - ::Conductor_obj::offset))) > 20))) {
-HXLINE(4528)			if (( (bool)(::PlayState_obj::SONG->__Field(HX_("needsVoices",be,05,e9,0d),::hx::paccDynamic)) )) {
-HXLINE(4527)				_hx_tmp = (::Math_obj::abs((this->vocals->_time - (::Conductor_obj::songPosition - ::Conductor_obj::offset))) > 20);
+            	HX_STACKFRAME(&_hx_pos_af23706db05c7feb_4581_stepHit)
+HXLINE(4582)		this->super::stepHit();
+HXLINE(4583)		bool _hx_tmp;
+HXDLIN(4583)		if (!((::Math_obj::abs((::flixel::FlxG_obj::sound->music->_time - (::Conductor_obj::songPosition - ::Conductor_obj::offset))) > 20))) {
+HXLINE(4584)			if (( (bool)(::PlayState_obj::SONG->__Field(HX_("needsVoices",be,05,e9,0d),::hx::paccDynamic)) )) {
+HXLINE(4583)				_hx_tmp = (::Math_obj::abs((this->vocals->_time - (::Conductor_obj::songPosition - ::Conductor_obj::offset))) > 20);
             			}
             			else {
-HXLINE(4527)				_hx_tmp = false;
+HXLINE(4583)				_hx_tmp = false;
             			}
             		}
             		else {
-HXLINE(4527)			_hx_tmp = true;
+HXLINE(4583)			_hx_tmp = true;
             		}
-HXDLIN(4527)		if (_hx_tmp) {
-HXLINE(4530)			this->resyncVocals();
+HXDLIN(4583)		if (_hx_tmp) {
+HXLINE(4586)			this->resyncVocals();
             		}
-HXLINE(4533)		if ((this->curStep == this->lastStepHit)) {
-HXLINE(4534)			return;
+HXLINE(4589)		if ((this->curStep == this->lastStepHit)) {
+HXLINE(4590)			return;
             		}
-HXLINE(4537)		this->lastStepHit = this->curStep;
-HXLINE(4538)		this->setOnLuas(HX_("curStep",ec,58,71,b7),this->curStep);
-HXLINE(4539)		this->callOnLuas(HX_("onStepHit",08,67,ec,58),::cpp::VirtualArray_obj::__new(0));
+HXLINE(4593)		this->lastStepHit = this->curStep;
+HXLINE(4594)		this->setOnLuas(HX_("curStep",ec,58,71,b7),this->curStep);
+HXLINE(4595)		this->callOnLuas(HX_("onStepHit",08,67,ec,58),::cpp::VirtualArray_obj::__new(0));
             	}
 
 
 void PlayState_obj::beatHit(){
-            	HX_STACKFRAME(&_hx_pos_af23706db05c7feb_4551_beatHit)
-HXLINE(4552)		this->super::beatHit();
-HXLINE(4554)		if ((this->lastBeatHit >= this->curBeat)) {
-HXLINE(4556)			return;
+            	HX_STACKFRAME(&_hx_pos_af23706db05c7feb_4607_beatHit)
+HXLINE(4608)		this->super::beatHit();
+HXLINE(4610)		if ((this->lastBeatHit >= this->curBeat)) {
+HXLINE(4612)			return;
             		}
-HXLINE(4559)		if (this->generatedMusic) {
+HXLINE(4615)		if (this->generatedMusic) {
             			HX_BEGIN_LOCAL_FUNC_S2(::hx::LocalFunc,_hx_Closure_0,int,a1, ::Dynamic,_g) HXARGC(2)
             			int _hx_run( ::Note a2, ::Note a3){
-            				HX_STACKFRAME(&_hx_pos_af23706db05c7feb_4561_beatHit)
-HXLINE(4561)				return ( (int)(_g(a1,a2,a3)) );
+            				HX_STACKFRAME(&_hx_pos_af23706db05c7feb_4617_beatHit)
+HXLINE(4617)				return ( (int)(_g(a1,a2,a3)) );
             			}
             			HX_END_LOCAL_FUNC2(return)
 
-HXLINE(4561)			int Order;
-HXDLIN(4561)			if (::ClientPrefs_obj::downScroll) {
-HXLINE(4561)				Order = -1;
+HXLINE(4617)			int Order;
+HXDLIN(4617)			if (::ClientPrefs_obj::downScroll) {
+HXLINE(4617)				Order = -1;
             			}
             			else {
-HXLINE(4561)				Order = 1;
+HXLINE(4617)				Order = 1;
             			}
-HXDLIN(4561)			 ::Dynamic _g = ::flixel::util::FlxSort_obj::byY_dyn();
-HXDLIN(4561)			int a1 = Order;
-HXDLIN(4561)			 ::Dynamic _hx_tmp =  ::Dynamic(new _hx_Closure_0(a1,_g));
-HXDLIN(4561)			this->notes->members->sort(_hx_tmp);
+HXDLIN(4617)			 ::Dynamic _g = ::flixel::util::FlxSort_obj::byY_dyn();
+HXDLIN(4617)			int a1 = Order;
+HXDLIN(4617)			 ::Dynamic _hx_tmp =  ::Dynamic(new _hx_Closure_0(a1,_g));
+HXDLIN(4617)			this->notes->members->sort(_hx_tmp);
             		}
-HXLINE(4564)		if (::hx::IsNotNull(  ::Dynamic(::PlayState_obj::SONG->__Field(HX_("notes",41,dc,ca,9f),::hx::paccDynamic))->__GetItem(::Math_obj::floor((( (Float)(this->curStep) ) / ( (Float)(16) )))) )) {
-HXLINE(4566)			if (( (bool)( ::Dynamic(::PlayState_obj::SONG->__Field(HX_("notes",41,dc,ca,9f),::hx::paccDynamic))->__GetItem(::Math_obj::floor((( (Float)(this->curStep) ) / ( (Float)(16) ))))->__Field(HX_("changeBPM",4f,4f,f8,1d),::hx::paccDynamic)) )) {
-HXLINE(4568)				::Conductor_obj::changeBPM(( (Float)( ::Dynamic(::PlayState_obj::SONG->__Field(HX_("notes",41,dc,ca,9f),::hx::paccDynamic))->__GetItem(::Math_obj::floor((( (Float)(this->curStep) ) / ( (Float)(16) ))))->__Field(HX_("bpm",df,be,4a,00),::hx::paccDynamic)) ));
-HXLINE(4570)				this->setOnLuas(HX_("curBpm",3f,61,c3,3e),::Conductor_obj::bpm);
-HXLINE(4571)				this->setOnLuas(HX_("crochet",34,d5,b5,d4),::Conductor_obj::crochet);
-HXLINE(4572)				this->setOnLuas(HX_("stepCrochet",48,d7,ff,e6),::Conductor_obj::stepCrochet);
+HXLINE(4620)		if (::hx::IsNotNull(  ::Dynamic(::PlayState_obj::SONG->__Field(HX_("notes",41,dc,ca,9f),::hx::paccDynamic))->__GetItem(::Math_obj::floor((( (Float)(this->curStep) ) / ( (Float)(16) )))) )) {
+HXLINE(4622)			if (( (bool)( ::Dynamic(::PlayState_obj::SONG->__Field(HX_("notes",41,dc,ca,9f),::hx::paccDynamic))->__GetItem(::Math_obj::floor((( (Float)(this->curStep) ) / ( (Float)(16) ))))->__Field(HX_("changeBPM",4f,4f,f8,1d),::hx::paccDynamic)) )) {
+HXLINE(4624)				::Conductor_obj::changeBPM(( (Float)( ::Dynamic(::PlayState_obj::SONG->__Field(HX_("notes",41,dc,ca,9f),::hx::paccDynamic))->__GetItem(::Math_obj::floor((( (Float)(this->curStep) ) / ( (Float)(16) ))))->__Field(HX_("bpm",df,be,4a,00),::hx::paccDynamic)) ));
+HXLINE(4626)				this->setOnLuas(HX_("curBpm",3f,61,c3,3e),::Conductor_obj::bpm);
+HXLINE(4627)				this->setOnLuas(HX_("crochet",34,d5,b5,d4),::Conductor_obj::crochet);
+HXLINE(4628)				this->setOnLuas(HX_("stepCrochet",48,d7,ff,e6),::Conductor_obj::stepCrochet);
             			}
-HXLINE(4574)			this->setOnLuas(HX_("mustHitSection",3b,5f,87,62), ::Dynamic( ::Dynamic(::PlayState_obj::SONG->__Field(HX_("notes",41,dc,ca,9f),::hx::paccDynamic))->__GetItem(::Math_obj::floor((( (Float)(this->curStep) ) / ( (Float)(16) ))))->__Field(HX_("mustHitSection",3b,5f,87,62),::hx::paccDynamic)));
-HXLINE(4575)			this->setOnLuas(HX_("altAnim",da,f3,f2,e5), ::Dynamic( ::Dynamic(::PlayState_obj::SONG->__Field(HX_("notes",41,dc,ca,9f),::hx::paccDynamic))->__GetItem(::Math_obj::floor((( (Float)(this->curStep) ) / ( (Float)(16) ))))->__Field(HX_("altAnim",da,f3,f2,e5),::hx::paccDynamic)));
-HXLINE(4576)			this->setOnLuas(HX_("gfSection",86,e5,63,d4), ::Dynamic( ::Dynamic(::PlayState_obj::SONG->__Field(HX_("notes",41,dc,ca,9f),::hx::paccDynamic))->__GetItem(::Math_obj::floor((( (Float)(this->curStep) ) / ( (Float)(16) ))))->__Field(HX_("gfSection",86,e5,63,d4),::hx::paccDynamic)));
+HXLINE(4630)			this->setOnLuas(HX_("mustHitSection",3b,5f,87,62), ::Dynamic( ::Dynamic(::PlayState_obj::SONG->__Field(HX_("notes",41,dc,ca,9f),::hx::paccDynamic))->__GetItem(::Math_obj::floor((( (Float)(this->curStep) ) / ( (Float)(16) ))))->__Field(HX_("mustHitSection",3b,5f,87,62),::hx::paccDynamic)));
+HXLINE(4631)			this->setOnLuas(HX_("altAnim",da,f3,f2,e5), ::Dynamic( ::Dynamic(::PlayState_obj::SONG->__Field(HX_("notes",41,dc,ca,9f),::hx::paccDynamic))->__GetItem(::Math_obj::floor((( (Float)(this->curStep) ) / ( (Float)(16) ))))->__Field(HX_("altAnim",da,f3,f2,e5),::hx::paccDynamic)));
+HXLINE(4632)			this->setOnLuas(HX_("gfSection",86,e5,63,d4), ::Dynamic( ::Dynamic(::PlayState_obj::SONG->__Field(HX_("notes",41,dc,ca,9f),::hx::paccDynamic))->__GetItem(::Math_obj::floor((( (Float)(this->curStep) ) / ( (Float)(16) ))))->__Field(HX_("gfSection",86,e5,63,d4),::hx::paccDynamic)));
             		}
-HXLINE(4582)		bool _hx_tmp;
-HXDLIN(4582)		bool _hx_tmp1;
-HXDLIN(4582)		bool _hx_tmp2;
-HXDLIN(4582)		if (this->generatedMusic) {
-HXLINE(4582)			_hx_tmp2 = ::hx::IsNotNull(  ::Dynamic(::PlayState_obj::SONG->__Field(HX_("notes",41,dc,ca,9f),::hx::paccDynamic))->__GetItem(::Std_obj::_hx_int((( (Float)(this->curStep) ) / ( (Float)(16) )))) );
-            		}
-            		else {
-HXLINE(4582)			_hx_tmp2 = false;
-            		}
-HXDLIN(4582)		if (_hx_tmp2) {
-HXLINE(4582)			_hx_tmp1 = !(this->endingSong);
+HXLINE(4638)		bool _hx_tmp;
+HXDLIN(4638)		bool _hx_tmp1;
+HXDLIN(4638)		bool _hx_tmp2;
+HXDLIN(4638)		if (this->generatedMusic) {
+HXLINE(4638)			_hx_tmp2 = ::hx::IsNotNull(  ::Dynamic(::PlayState_obj::SONG->__Field(HX_("notes",41,dc,ca,9f),::hx::paccDynamic))->__GetItem(::Std_obj::_hx_int((( (Float)(this->curStep) ) / ( (Float)(16) )))) );
             		}
             		else {
-HXLINE(4582)			_hx_tmp1 = false;
+HXLINE(4638)			_hx_tmp2 = false;
             		}
-HXDLIN(4582)		if (_hx_tmp1) {
-HXLINE(4582)			_hx_tmp = !(this->isCameraOnForcedPos);
-            		}
-            		else {
-HXLINE(4582)			_hx_tmp = false;
-            		}
-HXDLIN(4582)		if (_hx_tmp) {
-HXLINE(4584)			this->moveCameraSection(::Std_obj::_hx_int((( (Float)(this->curStep) ) / ( (Float)(16) ))));
-            		}
-HXLINE(4586)		bool _hx_tmp3;
-HXDLIN(4586)		bool _hx_tmp4;
-HXDLIN(4586)		bool _hx_tmp5;
-HXDLIN(4586)		if (this->camZooming) {
-HXLINE(4586)			_hx_tmp5 = (::flixel::FlxG_obj::camera->zoom < ((Float)1.35));
+HXDLIN(4638)		if (_hx_tmp2) {
+HXLINE(4638)			_hx_tmp1 = !(this->endingSong);
             		}
             		else {
-HXLINE(4586)			_hx_tmp5 = false;
+HXLINE(4638)			_hx_tmp1 = false;
             		}
-HXDLIN(4586)		if (_hx_tmp5) {
-HXLINE(4586)			_hx_tmp4 = ::ClientPrefs_obj::camZooms;
-            		}
-            		else {
-HXLINE(4586)			_hx_tmp4 = false;
-            		}
-HXDLIN(4586)		if (_hx_tmp4) {
-HXLINE(4586)			_hx_tmp3 = (::hx::Mod(this->curBeat,4) == 0);
+HXDLIN(4638)		if (_hx_tmp1) {
+HXLINE(4638)			_hx_tmp = !(this->isCameraOnForcedPos);
             		}
             		else {
-HXLINE(4586)			_hx_tmp3 = false;
+HXLINE(4638)			_hx_tmp = false;
             		}
-HXDLIN(4586)		if (_hx_tmp3) {
-HXLINE(4588)			this->zoomHelper = ::flixel::FlxG_obj::camera->zoom;
-HXLINE(4589)			{
-HXLINE(4589)				 ::flixel::FlxCamera _g = ::flixel::FlxG_obj::camera;
-HXDLIN(4589)				_g->set_zoom((_g->zoom + ((Float)0.015)));
+HXDLIN(4638)		if (_hx_tmp) {
+HXLINE(4640)			this->moveCameraSection(::Std_obj::_hx_int((( (Float)(this->curStep) ) / ( (Float)(16) ))));
+            		}
+HXLINE(4642)		bool _hx_tmp3;
+HXDLIN(4642)		bool _hx_tmp4;
+HXDLIN(4642)		bool _hx_tmp5;
+HXDLIN(4642)		if (this->camZooming) {
+HXLINE(4642)			_hx_tmp5 = (::flixel::FlxG_obj::camera->zoom < ((Float)1.35));
+            		}
+            		else {
+HXLINE(4642)			_hx_tmp5 = false;
+            		}
+HXDLIN(4642)		if (_hx_tmp5) {
+HXLINE(4642)			_hx_tmp4 = ::ClientPrefs_obj::camZooms;
+            		}
+            		else {
+HXLINE(4642)			_hx_tmp4 = false;
+            		}
+HXDLIN(4642)		if (_hx_tmp4) {
+HXLINE(4642)			_hx_tmp3 = (::hx::Mod(this->curBeat,4) == 0);
+            		}
+            		else {
+HXLINE(4642)			_hx_tmp3 = false;
+            		}
+HXDLIN(4642)		if (_hx_tmp3) {
+HXLINE(4644)			this->zoomHelper = ::flixel::FlxG_obj::camera->zoom;
+HXLINE(4645)			{
+HXLINE(4645)				 ::flixel::FlxCamera _g = ::flixel::FlxG_obj::camera;
+HXDLIN(4645)				_g->set_zoom((_g->zoom + ((Float)0.015)));
             			}
-HXLINE(4590)			{
-HXLINE(4590)				 ::flixel::FlxCamera _g1 = this->camHUD;
-HXDLIN(4590)				_g1->set_zoom((_g1->zoom + ((Float)0.03)));
+HXLINE(4646)			{
+HXLINE(4646)				 ::flixel::FlxCamera _g1 = this->camHUD;
+HXDLIN(4646)				_g1->set_zoom((_g1->zoom + ((Float)0.03)));
             			}
             		}
-HXLINE(4593)		this->iconP1->scale->set(((Float)1.2),((Float)1.2));
-HXLINE(4594)		this->iconP2->scale->set(((Float)1.2),((Float)1.2));
-HXLINE(4596)		this->iconP1->updateHitbox();
-HXLINE(4597)		this->iconP2->updateHitbox();
-HXLINE(4599)		bool _hx_tmp6;
-HXDLIN(4599)		bool _hx_tmp7;
-HXDLIN(4599)		bool _hx_tmp8;
-HXDLIN(4599)		bool _hx_tmp9;
-HXDLIN(4599)		bool _hx_tmp10;
-HXDLIN(4599)		if (::hx::IsNotNull( this->gf )) {
-HXLINE(4599)			_hx_tmp10 = (::hx::Mod(this->curBeat,::Math_obj::round(( (Float)((this->gfSpeed * this->gf->danceEveryNumBeats)) ))) == 0);
+HXLINE(4649)		this->iconP1->scale->set(((Float)1.2),((Float)1.2));
+HXLINE(4650)		this->iconP2->scale->set(((Float)1.2),((Float)1.2));
+HXLINE(4652)		this->iconP1->updateHitbox();
+HXLINE(4653)		this->iconP2->updateHitbox();
+HXLINE(4655)		bool _hx_tmp6;
+HXDLIN(4655)		bool _hx_tmp7;
+HXDLIN(4655)		bool _hx_tmp8;
+HXDLIN(4655)		bool _hx_tmp9;
+HXDLIN(4655)		bool _hx_tmp10;
+HXDLIN(4655)		if (::hx::IsNotNull( this->gf )) {
+HXLINE(4655)			_hx_tmp10 = (::hx::Mod(this->curBeat,::Math_obj::round(( (Float)((this->gfSpeed * this->gf->danceEveryNumBeats)) ))) == 0);
             		}
             		else {
-HXLINE(4599)			_hx_tmp10 = false;
+HXLINE(4655)			_hx_tmp10 = false;
             		}
-HXDLIN(4599)		if (_hx_tmp10) {
-HXLINE(4599)			_hx_tmp9 = !(this->gf->stunned);
-            		}
-            		else {
-HXLINE(4599)			_hx_tmp9 = false;
-            		}
-HXDLIN(4599)		if (_hx_tmp9) {
-HXLINE(4599)			_hx_tmp8 = ::hx::IsNotNull( this->gf->animation->_curAnim->name );
+HXDLIN(4655)		if (_hx_tmp10) {
+HXLINE(4655)			_hx_tmp9 = !(this->gf->stunned);
             		}
             		else {
-HXLINE(4599)			_hx_tmp8 = false;
+HXLINE(4655)			_hx_tmp9 = false;
             		}
-HXDLIN(4599)		if (_hx_tmp8) {
-HXLINE(4599)			_hx_tmp7 = !(::StringTools_obj::startsWith(this->gf->animation->_curAnim->name,HX_("sing",4f,96,53,4c)));
-            		}
-            		else {
-HXLINE(4599)			_hx_tmp7 = false;
-            		}
-HXDLIN(4599)		if (_hx_tmp7) {
-HXLINE(4599)			_hx_tmp6 = !(this->gf->stunned);
+HXDLIN(4655)		if (_hx_tmp9) {
+HXLINE(4655)			_hx_tmp8 = ::hx::IsNotNull( this->gf->animation->_curAnim->name );
             		}
             		else {
-HXLINE(4599)			_hx_tmp6 = false;
+HXLINE(4655)			_hx_tmp8 = false;
             		}
-HXDLIN(4599)		if (_hx_tmp6) {
-HXLINE(4601)			this->gf->dance();
-            		}
-HXLINE(4603)		bool _hx_tmp11;
-HXDLIN(4603)		bool _hx_tmp12;
-HXDLIN(4603)		bool _hx_tmp13;
-HXDLIN(4603)		if ((::hx::Mod(this->curBeat,this->boyfriend->danceEveryNumBeats) == 0)) {
-HXLINE(4603)			_hx_tmp13 = ::hx::IsNotNull( this->boyfriend->animation->_curAnim );
+HXDLIN(4655)		if (_hx_tmp8) {
+HXLINE(4655)			_hx_tmp7 = !(::StringTools_obj::startsWith(this->gf->animation->_curAnim->name,HX_("sing",4f,96,53,4c)));
             		}
             		else {
-HXLINE(4603)			_hx_tmp13 = false;
+HXLINE(4655)			_hx_tmp7 = false;
             		}
-HXDLIN(4603)		if (_hx_tmp13) {
-HXLINE(4603)			_hx_tmp12 = !(::StringTools_obj::startsWith(this->boyfriend->animation->_curAnim->name,HX_("sing",4f,96,53,4c)));
-            		}
-            		else {
-HXLINE(4603)			_hx_tmp12 = false;
-            		}
-HXDLIN(4603)		if (_hx_tmp12) {
-HXLINE(4603)			_hx_tmp11 = !(this->boyfriend->stunned);
+HXDLIN(4655)		if (_hx_tmp7) {
+HXLINE(4655)			_hx_tmp6 = !(this->gf->stunned);
             		}
             		else {
-HXLINE(4603)			_hx_tmp11 = false;
+HXLINE(4655)			_hx_tmp6 = false;
             		}
-HXDLIN(4603)		if (_hx_tmp11) {
-HXLINE(4605)			this->boyfriend->dance();
+HXDLIN(4655)		if (_hx_tmp6) {
+HXLINE(4657)			this->gf->dance();
             		}
-HXLINE(4607)		bool _hx_tmp14;
-HXDLIN(4607)		bool _hx_tmp15;
-HXDLIN(4607)		bool _hx_tmp16;
-HXDLIN(4607)		if ((::hx::Mod(this->curBeat,this->dad->danceEveryNumBeats) == 0)) {
-HXLINE(4607)			_hx_tmp16 = ::hx::IsNotNull( this->dad->animation->_curAnim );
-            		}
-            		else {
-HXLINE(4607)			_hx_tmp16 = false;
-            		}
-HXDLIN(4607)		if (_hx_tmp16) {
-HXLINE(4607)			_hx_tmp15 = !(::StringTools_obj::startsWith(this->dad->animation->_curAnim->name,HX_("sing",4f,96,53,4c)));
+HXLINE(4659)		bool _hx_tmp11;
+HXDLIN(4659)		bool _hx_tmp12;
+HXDLIN(4659)		bool _hx_tmp13;
+HXDLIN(4659)		if ((::hx::Mod(this->curBeat,this->boyfriend->danceEveryNumBeats) == 0)) {
+HXLINE(4659)			_hx_tmp13 = ::hx::IsNotNull( this->boyfriend->animation->_curAnim );
             		}
             		else {
-HXLINE(4607)			_hx_tmp15 = false;
+HXLINE(4659)			_hx_tmp13 = false;
             		}
-HXDLIN(4607)		if (_hx_tmp15) {
-HXLINE(4607)			_hx_tmp14 = !(this->dad->stunned);
+HXDLIN(4659)		if (_hx_tmp13) {
+HXLINE(4659)			_hx_tmp12 = !(::StringTools_obj::startsWith(this->boyfriend->animation->_curAnim->name,HX_("sing",4f,96,53,4c)));
             		}
             		else {
-HXLINE(4607)			_hx_tmp14 = false;
+HXLINE(4659)			_hx_tmp12 = false;
             		}
-HXDLIN(4607)		if (_hx_tmp14) {
-HXLINE(4609)			this->dad->dance();
+HXDLIN(4659)		if (_hx_tmp12) {
+HXLINE(4659)			_hx_tmp11 = !(this->boyfriend->stunned);
             		}
-HXLINE(4612)		::String _hx_switch_0 = ::PlayState_obj::curStage;
+            		else {
+HXLINE(4659)			_hx_tmp11 = false;
+            		}
+HXDLIN(4659)		if (_hx_tmp11) {
+HXLINE(4661)			this->boyfriend->dance();
+            		}
+HXLINE(4663)		bool _hx_tmp14;
+HXDLIN(4663)		bool _hx_tmp15;
+HXDLIN(4663)		bool _hx_tmp16;
+HXDLIN(4663)		if ((::hx::Mod(this->curBeat,this->dad->danceEveryNumBeats) == 0)) {
+HXLINE(4663)			_hx_tmp16 = ::hx::IsNotNull( this->dad->animation->_curAnim );
+            		}
+            		else {
+HXLINE(4663)			_hx_tmp16 = false;
+            		}
+HXDLIN(4663)		if (_hx_tmp16) {
+HXLINE(4663)			_hx_tmp15 = !(::StringTools_obj::startsWith(this->dad->animation->_curAnim->name,HX_("sing",4f,96,53,4c)));
+            		}
+            		else {
+HXLINE(4663)			_hx_tmp15 = false;
+            		}
+HXDLIN(4663)		if (_hx_tmp15) {
+HXLINE(4663)			_hx_tmp14 = !(this->dad->stunned);
+            		}
+            		else {
+HXLINE(4663)			_hx_tmp14 = false;
+            		}
+HXDLIN(4663)		if (_hx_tmp14) {
+HXLINE(4665)			this->dad->dance();
+            		}
+HXLINE(4668)		::String _hx_switch_0 = ::PlayState_obj::curStage;
             		if (  (_hx_switch_0==HX_("downtown",b4,33,10,97)) ){
-HXLINE(4661)			if ((this->curSong == HX_("Imminence",59,26,98,ca))) {
-HXLINE(4662)				switch((int)(this->curBeat)){
+HXLINE(4720)			if ((::hx::Mod(this->curBeat,4) == 0)) {
+            				HX_BEGIN_LOCAL_FUNC_S0(::hx::LocalFunc,_hx_Closure_1) HXARGC(1)
+            				void _hx_run( ::BGSprite windows){
+            					HX_STACKFRAME(&_hx_pos_af23706db05c7feb_4724_beatHit)
+HXLINE(4724)					windows->set_visible(false);
+            				}
+            				HX_END_LOCAL_FUNC1((void))
+
+HXLINE(4722)				this->downtownWindows->forEach( ::Dynamic(new _hx_Closure_1()),null());
+HXLINE(4727)				::PlayState_obj::lastWindow = ::PlayState_obj::curWindow;
+HXLINE(4728)				while((::PlayState_obj::curWindow == ::PlayState_obj::lastWindow)){
+HXLINE(4731)					::PlayState_obj::curWindow = ::flixel::FlxG_obj::random->_hx_int(0,(this->downtownWindows->length - 1),null());
+            				}
+HXLINE(4733)				Dynamic( this->downtownWindows->members->__get(::PlayState_obj::curWindow)).StaticCast<  ::BGSprite >()->set_visible(true);
+            			}
+HXLINE(4735)			if ((this->curSong == HX_("Imminence",59,26,98,ca))) {
+HXLINE(4736)				switch((int)(this->curBeat)){
             					case (int)152: {
-HXLINE(4666)						::flixel::FlxG_obj::camera->flash(-5832688,((Float)0.5),null(),true);
-HXLINE(4667)						this->shadeOverlay->set_visible(true);
+HXLINE(4740)						::flixel::FlxG_obj::camera->flash(-5832688,((Float)0.5),null(),true);
+HXLINE(4741)						this->shadeOverlay->set_visible(true);
             					}
             					break;
             					case (int)216: {
-HXLINE(4672)						::flixel::FlxG_obj::camera->flash((int)-1358951257,((Float)0.5),null(),true);
-HXLINE(4673)						this->shadeOverlay->set_visible(false);
+HXLINE(4746)						::flixel::FlxG_obj::camera->flash((int)-1358951257,((Float)0.5),null(),true);
+HXLINE(4747)						this->shadeOverlay->set_visible(false);
             					}
             					break;
             					default:{
             					}
             				}
             			}
-HXLINE(4661)			goto _hx_goto_211;
+HXLINE(4716)			goto _hx_goto_211;
             		}
             		if (  (_hx_switch_0==HX_("liminalHell",3d,fa,dc,88)) ){
-HXLINE(4681)			if ((this->curBeat == 288)) {
-HXLINE(4684)				::flixel::FlxG_obj::camera->flash(-5832688,((Float)0.5),null(),true);
-HXLINE(4685)				this->liminalHill->set_visible(false);
-HXLINE(4686)				this->liminalHell->set_visible(true);
+HXLINE(4755)			if ((this->curBeat == 288)) {
+HXLINE(4758)				::flixel::FlxG_obj::camera->flash(-5832688,((Float)0.5),null(),true);
+HXLINE(4762)				this->liminalSkyNorm->set_visible(false);
+HXLINE(4763)				this->liminalHillNorm->set_visible(false);
+HXLINE(4764)				this->liminalGroundNorm->set_visible(false);
+HXLINE(4766)				this->liminalSkyHell->set_visible(true);
+HXLINE(4767)				this->liminalHillHell->set_visible(true);
+HXLINE(4768)				this->liminalGroundHell->set_visible(true);
+HXLINE(4769)				this->liminalForegroundHell->set_visible(true);
+HXLINE(4770)				this->liminalBenchHell->set_visible(true);
             			}
-HXLINE(4681)			goto _hx_goto_211;
+HXLINE(4755)			goto _hx_goto_211;
             		}
             		if (  (_hx_switch_0==HX_("limo",1f,17,b3,47)) ){
-HXLINE(4628)			if (!(::ClientPrefs_obj::lowQuality)) {
-            				HX_BEGIN_LOCAL_FUNC_S0(::hx::LocalFunc,_hx_Closure_1) HXARGC(1)
+HXLINE(4684)			if (!(::ClientPrefs_obj::lowQuality)) {
+            				HX_BEGIN_LOCAL_FUNC_S0(::hx::LocalFunc,_hx_Closure_2) HXARGC(1)
             				void _hx_run( ::BackgroundDancer dancer){
-            					HX_STACKFRAME(&_hx_pos_af23706db05c7feb_4631_beatHit)
-HXLINE(4631)					dancer->dance();
+            					HX_STACKFRAME(&_hx_pos_af23706db05c7feb_4687_beatHit)
+HXLINE(4687)					dancer->dance();
             				}
             				HX_END_LOCAL_FUNC1((void))
 
-HXLINE(4629)				this->grpLimoDancers->forEach( ::Dynamic(new _hx_Closure_1()),null());
+HXLINE(4685)				this->grpLimoDancers->forEach( ::Dynamic(new _hx_Closure_2()),null());
             			}
-HXLINE(4635)			bool _hx_tmp;
-HXDLIN(4635)			if ((::flixel::FlxG_obj::random->_hx_float(0,100,null()) < 10)) {
-HXLINE(4635)				_hx_tmp = this->fastCarCanDrive;
+HXLINE(4691)			bool _hx_tmp;
+HXDLIN(4691)			if ((::flixel::FlxG_obj::random->_hx_float(0,100,null()) < 10)) {
+HXLINE(4691)				_hx_tmp = this->fastCarCanDrive;
             			}
             			else {
-HXLINE(4635)				_hx_tmp = false;
+HXLINE(4691)				_hx_tmp = false;
             			}
-HXDLIN(4635)			if (_hx_tmp) {
-HXLINE(4636)				this->fastCarDrive();
+HXDLIN(4691)			if (_hx_tmp) {
+HXLINE(4692)				this->fastCarDrive();
             			}
-HXLINE(4627)			goto _hx_goto_211;
+HXLINE(4683)			goto _hx_goto_211;
             		}
             		if (  (_hx_switch_0==HX_("mall",d4,3a,56,48)) ){
-HXLINE(4620)			if (!(::ClientPrefs_obj::lowQuality)) {
-HXLINE(4621)				this->upperBoppers->dance(true);
+HXLINE(4676)			if (!(::ClientPrefs_obj::lowQuality)) {
+HXLINE(4677)				this->upperBoppers->dance(true);
             			}
-HXLINE(4624)			if ((this->heyTimer <= 0)) {
-HXLINE(4624)				this->bottomBoppers->dance(true);
+HXLINE(4680)			if ((this->heyTimer <= 0)) {
+HXLINE(4680)				this->bottomBoppers->dance(true);
             			}
-HXLINE(4625)			this->santa->dance(true);
-HXLINE(4619)			goto _hx_goto_211;
+HXLINE(4681)			this->santa->dance(true);
+HXLINE(4675)			goto _hx_goto_211;
             		}
             		if (  (_hx_switch_0==HX_("philly",28,77,5e,ef)) ){
-HXLINE(4638)			if (!(this->trainMoving)) {
-HXLINE(4639)				 ::PlayState _hx_tmp = ::hx::ObjectPtr<OBJ_>(this);
-HXDLIN(4639)				_hx_tmp->trainCooldown = (_hx_tmp->trainCooldown + 1);
+HXLINE(4694)			if (!(this->trainMoving)) {
+HXLINE(4695)				 ::PlayState _hx_tmp = ::hx::ObjectPtr<OBJ_>(this);
+HXDLIN(4695)				_hx_tmp->trainCooldown = (_hx_tmp->trainCooldown + 1);
             			}
-HXLINE(4641)			if ((::hx::Mod(this->curBeat,4) == 0)) {
-            				HX_BEGIN_LOCAL_FUNC_S0(::hx::LocalFunc,_hx_Closure_2) HXARGC(1)
+HXLINE(4697)			if ((::hx::Mod(this->curBeat,4) == 0)) {
+            				HX_BEGIN_LOCAL_FUNC_S0(::hx::LocalFunc,_hx_Closure_3) HXARGC(1)
             				void _hx_run( ::BGSprite light){
-            					HX_STACKFRAME(&_hx_pos_af23706db05c7feb_4645_beatHit)
-HXLINE(4645)					light->set_visible(false);
+            					HX_STACKFRAME(&_hx_pos_af23706db05c7feb_4701_beatHit)
+HXLINE(4701)					light->set_visible(false);
             				}
             				HX_END_LOCAL_FUNC1((void))
 
-HXLINE(4643)				this->phillyCityLights->forEach( ::Dynamic(new _hx_Closure_2()),null());
-HXLINE(4648)				this->curLight = ::flixel::FlxG_obj::random->_hx_int(0,(this->phillyCityLights->length - 1),::Array_obj< int >::__new(1)->init(0,this->curLight));
-HXLINE(4650)				Dynamic( this->phillyCityLights->members->__get(this->curLight)).StaticCast<  ::BGSprite >()->set_visible(true);
-HXLINE(4651)				Dynamic( this->phillyCityLights->members->__get(this->curLight)).StaticCast<  ::BGSprite >()->set_alpha(( (Float)(1) ));
+HXLINE(4699)				this->phillyCityLights->forEach( ::Dynamic(new _hx_Closure_3()),null());
+HXLINE(4704)				this->curLight = ::flixel::FlxG_obj::random->_hx_int(0,(this->phillyCityLights->length - 1),::Array_obj< int >::__new(1)->init(0,this->curLight));
+HXLINE(4706)				Dynamic( this->phillyCityLights->members->__get(this->curLight)).StaticCast<  ::BGSprite >()->set_visible(true);
+HXLINE(4707)				Dynamic( this->phillyCityLights->members->__get(this->curLight)).StaticCast<  ::BGSprite >()->set_alpha(( (Float)(1) ));
             			}
-HXLINE(4654)			bool _hx_tmp;
-HXDLIN(4654)			bool _hx_tmp1;
-HXDLIN(4654)			bool _hx_tmp2;
-HXDLIN(4654)			if ((::hx::Mod(this->curBeat,8) == 4)) {
-HXLINE(4654)				_hx_tmp2 = (::flixel::FlxG_obj::random->_hx_float(0,100,null()) < 30);
-            			}
-            			else {
-HXLINE(4654)				_hx_tmp2 = false;
-            			}
-HXDLIN(4654)			if (_hx_tmp2) {
-HXLINE(4654)				_hx_tmp1 = !(this->trainMoving);
+HXLINE(4710)			bool _hx_tmp;
+HXDLIN(4710)			bool _hx_tmp1;
+HXDLIN(4710)			bool _hx_tmp2;
+HXDLIN(4710)			if ((::hx::Mod(this->curBeat,8) == 4)) {
+HXLINE(4710)				_hx_tmp2 = (::flixel::FlxG_obj::random->_hx_float(0,100,null()) < 30);
             			}
             			else {
-HXLINE(4654)				_hx_tmp1 = false;
+HXLINE(4710)				_hx_tmp2 = false;
             			}
-HXDLIN(4654)			if (_hx_tmp1) {
-HXLINE(4654)				_hx_tmp = (this->trainCooldown > 8);
+HXDLIN(4710)			if (_hx_tmp2) {
+HXLINE(4710)				_hx_tmp1 = !(this->trainMoving);
             			}
             			else {
-HXLINE(4654)				_hx_tmp = false;
+HXLINE(4710)				_hx_tmp1 = false;
             			}
-HXDLIN(4654)			if (_hx_tmp) {
-HXLINE(4656)				this->trainCooldown = ::flixel::FlxG_obj::random->_hx_int(-4,0,null());
-HXLINE(4657)				this->trainStart();
+HXDLIN(4710)			if (_hx_tmp1) {
+HXLINE(4710)				_hx_tmp = (this->trainCooldown > 8);
             			}
-HXLINE(4637)			goto _hx_goto_211;
+            			else {
+HXLINE(4710)				_hx_tmp = false;
+            			}
+HXDLIN(4710)			if (_hx_tmp) {
+HXLINE(4712)				this->trainCooldown = ::flixel::FlxG_obj::random->_hx_int(-4,0,null());
+HXLINE(4713)				this->trainStart();
+            			}
+HXLINE(4693)			goto _hx_goto_211;
             		}
             		if (  (_hx_switch_0==HX_("school",74,b8,c8,40)) ){
-HXLINE(4615)			if (!(::ClientPrefs_obj::lowQuality)) {
-HXLINE(4616)				this->bgGirls->dance();
+HXLINE(4671)			if (!(::ClientPrefs_obj::lowQuality)) {
+HXLINE(4672)				this->bgGirls->dance();
             			}
-HXLINE(4615)			goto _hx_goto_211;
+HXLINE(4671)			goto _hx_goto_211;
             		}
             		_hx_goto_211:;
-HXLINE(4691)		bool _hx_tmp17;
-HXDLIN(4691)		bool _hx_tmp18;
-HXDLIN(4691)		if ((::PlayState_obj::curStage == HX_("spooky",eb,bd,9e,c1))) {
-HXLINE(4691)			_hx_tmp18 = (::flixel::FlxG_obj::random->_hx_float(0,100,null()) < 10);
+HXLINE(4775)		bool _hx_tmp17;
+HXDLIN(4775)		bool _hx_tmp18;
+HXDLIN(4775)		if ((::PlayState_obj::curStage == HX_("spooky",eb,bd,9e,c1))) {
+HXLINE(4775)			_hx_tmp18 = (::flixel::FlxG_obj::random->_hx_float(0,100,null()) < 10);
             		}
             		else {
-HXLINE(4691)			_hx_tmp18 = false;
+HXLINE(4775)			_hx_tmp18 = false;
             		}
-HXDLIN(4691)		if (_hx_tmp18) {
-HXLINE(4691)			_hx_tmp17 = (this->curBeat > (this->lightningStrikeBeat + this->lightningOffset));
+HXDLIN(4775)		if (_hx_tmp18) {
+HXLINE(4775)			_hx_tmp17 = (this->curBeat > (this->lightningStrikeBeat + this->lightningOffset));
             		}
             		else {
-HXLINE(4691)			_hx_tmp17 = false;
+HXLINE(4775)			_hx_tmp17 = false;
             		}
-HXDLIN(4691)		if (_hx_tmp17) {
-HXLINE(4693)			this->lightningStrikeShit();
+HXDLIN(4775)		if (_hx_tmp17) {
+HXLINE(4777)			this->lightningStrikeShit();
             		}
-HXLINE(4695)		this->lastBeatHit = this->curBeat;
-HXLINE(4697)		this->setOnLuas(HX_("curBeat",16,53,29,ac),this->curBeat);
-HXLINE(4698)		this->callOnLuas(HX_("onBeatHit",1e,a3,af,4b),::cpp::VirtualArray_obj::__new(0));
+HXLINE(4779)		this->lastBeatHit = this->curBeat;
+HXLINE(4781)		this->setOnLuas(HX_("curBeat",16,53,29,ac),this->curBeat);
+HXLINE(4782)		this->callOnLuas(HX_("onBeatHit",1e,a3,af,4b),::cpp::VirtualArray_obj::__new(0));
             	}
 
 
  ::Dynamic PlayState_obj::callOnLuas(::String event,::cpp::VirtualArray args){
-            	HX_STACKFRAME(&_hx_pos_af23706db05c7feb_4702_callOnLuas)
-HXLINE(4703)		 ::Dynamic returnVal = ::FunkinLua_obj::Function_Continue;
-HXLINE(4705)		{
-HXLINE(4705)			int _g = 0;
-HXDLIN(4705)			int _g1 = this->luaArray->length;
-HXDLIN(4705)			while((_g < _g1)){
-HXLINE(4705)				_g = (_g + 1);
-HXDLIN(4705)				int i = (_g - 1);
-HXLINE(4706)				 ::Dynamic ret = this->luaArray->__get(i).StaticCast<  ::FunkinLua >()->call(event,args);
-HXLINE(4707)				if (::hx::IsNotEq( ret,::FunkinLua_obj::Function_Continue )) {
-HXLINE(4708)					returnVal = ret;
+            	HX_STACKFRAME(&_hx_pos_af23706db05c7feb_4786_callOnLuas)
+HXLINE(4787)		 ::Dynamic returnVal = ::FunkinLua_obj::Function_Continue;
+HXLINE(4789)		{
+HXLINE(4789)			int _g = 0;
+HXDLIN(4789)			int _g1 = this->luaArray->length;
+HXDLIN(4789)			while((_g < _g1)){
+HXLINE(4789)				_g = (_g + 1);
+HXDLIN(4789)				int i = (_g - 1);
+HXLINE(4790)				 ::Dynamic ret = this->luaArray->__get(i).StaticCast<  ::FunkinLua >()->call(event,args);
+HXLINE(4791)				if (::hx::IsNotEq( ret,::FunkinLua_obj::Function_Continue )) {
+HXLINE(4792)					returnVal = ret;
             				}
             			}
             		}
-HXLINE(4712)		{
-HXLINE(4712)			int _g2 = 0;
-HXDLIN(4712)			int _g3 = this->closeLuas->length;
-HXDLIN(4712)			while((_g2 < _g3)){
-HXLINE(4712)				_g2 = (_g2 + 1);
-HXDLIN(4712)				int i = (_g2 - 1);
-HXLINE(4713)				this->luaArray->remove(this->closeLuas->__get(i).StaticCast<  ::FunkinLua >());
-HXLINE(4714)				this->closeLuas->__get(i).StaticCast<  ::FunkinLua >()->stop();
+HXLINE(4796)		{
+HXLINE(4796)			int _g2 = 0;
+HXDLIN(4796)			int _g3 = this->closeLuas->length;
+HXDLIN(4796)			while((_g2 < _g3)){
+HXLINE(4796)				_g2 = (_g2 + 1);
+HXDLIN(4796)				int i = (_g2 - 1);
+HXLINE(4797)				this->luaArray->remove(this->closeLuas->__get(i).StaticCast<  ::FunkinLua >());
+HXLINE(4798)				this->closeLuas->__get(i).StaticCast<  ::FunkinLua >()->stop();
             			}
             		}
-HXLINE(4717)		return returnVal;
+HXLINE(4801)		return returnVal;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC2(PlayState_obj,callOnLuas,return )
 
 void PlayState_obj::setOnLuas(::String variable, ::Dynamic arg){
-            	HX_STACKFRAME(&_hx_pos_af23706db05c7feb_4722_setOnLuas)
-HXDLIN(4722)		int _g = 0;
-HXDLIN(4722)		int _g1 = this->luaArray->length;
-HXDLIN(4722)		while((_g < _g1)){
-HXDLIN(4722)			_g = (_g + 1);
-HXDLIN(4722)			int i = (_g - 1);
-HXLINE(4723)			this->luaArray->__get(i).StaticCast<  ::FunkinLua >()->set(variable,arg);
+            	HX_STACKFRAME(&_hx_pos_af23706db05c7feb_4806_setOnLuas)
+HXDLIN(4806)		int _g = 0;
+HXDLIN(4806)		int _g1 = this->luaArray->length;
+HXDLIN(4806)		while((_g < _g1)){
+HXDLIN(4806)			_g = (_g + 1);
+HXDLIN(4806)			int i = (_g - 1);
+HXLINE(4807)			this->luaArray->__get(i).StaticCast<  ::FunkinLua >()->set(variable,arg);
             		}
             	}
 
@@ -7334,17 +7412,17 @@ HXLINE(4723)			this->luaArray->__get(i).StaticCast<  ::FunkinLua >()->set(variab
 HX_DEFINE_DYNAMIC_FUNC2(PlayState_obj,setOnLuas,(void))
 
 void PlayState_obj::StrumPlayAnim(bool isDad,int id,Float time){
-            	HX_STACKFRAME(&_hx_pos_af23706db05c7feb_4728_StrumPlayAnim)
-HXLINE(4729)		 ::StrumNote spr = null();
-HXLINE(4730)		if (isDad) {
-HXLINE(4731)			spr = Dynamic( this->strumLineNotes->members->__get(id)).StaticCast<  ::StrumNote >();
+            	HX_STACKFRAME(&_hx_pos_af23706db05c7feb_4812_StrumPlayAnim)
+HXLINE(4813)		 ::StrumNote spr = null();
+HXLINE(4814)		if (isDad) {
+HXLINE(4815)			spr = Dynamic( this->strumLineNotes->members->__get(id)).StaticCast<  ::StrumNote >();
             		}
             		else {
-HXLINE(4733)			spr = Dynamic( this->playerStrums->members->__get(id)).StaticCast<  ::StrumNote >();
+HXLINE(4817)			spr = Dynamic( this->playerStrums->members->__get(id)).StaticCast<  ::StrumNote >();
             		}
-HXLINE(4736)		if (::hx::IsNotNull( spr )) {
-HXLINE(4737)			spr->playAnim(HX_("confirm",00,9d,39,10),true);
-HXLINE(4738)			spr->resetAnim = time;
+HXLINE(4820)		if (::hx::IsNotNull( spr )) {
+HXLINE(4821)			spr->playAnim(HX_("confirm",00,9d,39,10),true);
+HXLINE(4822)			spr->resetAnim = time;
             		}
             	}
 
@@ -7352,321 +7430,321 @@ HXLINE(4738)			spr->resetAnim = time;
 HX_DEFINE_DYNAMIC_FUNC3(PlayState_obj,StrumPlayAnim,(void))
 
 void PlayState_obj::RecalculateRating(){
-            	HX_STACKFRAME(&_hx_pos_af23706db05c7feb_4745_RecalculateRating)
-HXLINE(4746)		this->setOnLuas(HX_("score",52,73,d9,78),this->songScore);
-HXLINE(4747)		this->setOnLuas(HX_("misses",6a,62,54,56),this->songMisses);
-HXLINE(4748)		this->setOnLuas(HX_("hits",c0,42,0e,45),this->songHits);
-HXLINE(4750)		 ::Dynamic ret = this->callOnLuas(HX_("onRecalculateRating",b1,37,6a,10),::cpp::VirtualArray_obj::__new(0));
-HXLINE(4751)		if (::hx::IsNotEq( ret,::FunkinLua_obj::Function_Stop )) {
-HXLINE(4753)			if ((this->totalPlayed < 1)) {
-HXLINE(4754)				this->ratingName = HX_("?",3f,00,00,00);
+            	HX_STACKFRAME(&_hx_pos_af23706db05c7feb_4829_RecalculateRating)
+HXLINE(4830)		this->setOnLuas(HX_("score",52,73,d9,78),this->songScore);
+HXLINE(4831)		this->setOnLuas(HX_("misses",6a,62,54,56),this->songMisses);
+HXLINE(4832)		this->setOnLuas(HX_("hits",c0,42,0e,45),this->songHits);
+HXLINE(4834)		 ::Dynamic ret = this->callOnLuas(HX_("onRecalculateRating",b1,37,6a,10),::cpp::VirtualArray_obj::__new(0));
+HXLINE(4835)		if (::hx::IsNotEq( ret,::FunkinLua_obj::Function_Stop )) {
+HXLINE(4837)			if ((this->totalPlayed < 1)) {
+HXLINE(4838)				this->ratingName = HX_("?",3f,00,00,00);
             			}
             			else {
-HXLINE(4758)				this->ratingPercent = ::Math_obj::min(( (Float)(1) ),::Math_obj::max(( (Float)(0) ),(this->totalNotesHit / ( (Float)(this->totalPlayed) ))));
-HXLINE(4762)				if ((this->ratingPercent >= 1)) {
-HXLINE(4764)					this->ratingName = ( (::String)(::PlayState_obj::ratingStuff->__get((::PlayState_obj::ratingStuff->get_length() - 1))->__GetItem(0)) );
+HXLINE(4842)				this->ratingPercent = ::Math_obj::min(( (Float)(1) ),::Math_obj::max(( (Float)(0) ),(this->totalNotesHit / ( (Float)(this->totalPlayed) ))));
+HXLINE(4846)				if ((this->ratingPercent >= 1)) {
+HXLINE(4848)					this->ratingName = ( (::String)(::PlayState_obj::ratingStuff->__get((::PlayState_obj::ratingStuff->get_length() - 1))->__GetItem(0)) );
             				}
             				else {
-HXLINE(4768)					int _g = 0;
-HXDLIN(4768)					int _g1 = (::PlayState_obj::ratingStuff->get_length() - 1);
-HXDLIN(4768)					while((_g < _g1)){
-HXLINE(4768)						_g = (_g + 1);
-HXDLIN(4768)						int i = (_g - 1);
-HXLINE(4770)						if (::hx::IsLess( this->ratingPercent,::PlayState_obj::ratingStuff->__get(i)->__GetItem(1) )) {
-HXLINE(4772)							this->ratingName = ( (::String)(::PlayState_obj::ratingStuff->__get(i)->__GetItem(0)) );
-HXLINE(4773)							goto _hx_goto_222;
+HXLINE(4852)					int _g = 0;
+HXDLIN(4852)					int _g1 = (::PlayState_obj::ratingStuff->get_length() - 1);
+HXDLIN(4852)					while((_g < _g1)){
+HXLINE(4852)						_g = (_g + 1);
+HXDLIN(4852)						int i = (_g - 1);
+HXLINE(4854)						if (::hx::IsLess( this->ratingPercent,::PlayState_obj::ratingStuff->__get(i)->__GetItem(1) )) {
+HXLINE(4856)							this->ratingName = ( (::String)(::PlayState_obj::ratingStuff->__get(i)->__GetItem(0)) );
+HXLINE(4857)							goto _hx_goto_224;
             						}
             					}
-            					_hx_goto_222:;
+            					_hx_goto_224:;
             				}
             			}
-HXLINE(4780)			this->ratingFC = HX_("",00,00,00,00);
-HXLINE(4781)			if ((this->sicks > 0)) {
-HXLINE(4781)				this->ratingFC = HX_("SFC",50,38,3f,00);
+HXLINE(4864)			this->ratingFC = HX_("",00,00,00,00);
+HXLINE(4865)			if ((this->sicks > 0)) {
+HXLINE(4865)				this->ratingFC = HX_("SFC",50,38,3f,00);
             			}
-HXLINE(4782)			if ((this->goods > 0)) {
-HXLINE(4782)				this->ratingFC = HX_("GFC",44,1d,36,00);
+HXLINE(4866)			if ((this->goods > 0)) {
+HXLINE(4866)				this->ratingFC = HX_("GFC",44,1d,36,00);
             			}
-HXLINE(4783)			bool _hx_tmp;
-HXDLIN(4783)			if ((this->bads <= 0)) {
-HXLINE(4783)				_hx_tmp = (this->shits > 0);
-            			}
-            			else {
-HXLINE(4783)				_hx_tmp = true;
-            			}
-HXDLIN(4783)			if (_hx_tmp) {
-HXLINE(4783)				this->ratingFC = HX_("FC",3d,3d,00,00);
-            			}
-HXLINE(4784)			bool _hx_tmp1;
-HXDLIN(4784)			if ((this->songMisses > 0)) {
-HXLINE(4784)				_hx_tmp1 = (this->songMisses < 10);
+HXLINE(4867)			bool _hx_tmp;
+HXDLIN(4867)			if ((this->bads <= 0)) {
+HXLINE(4867)				_hx_tmp = (this->shits > 0);
             			}
             			else {
-HXLINE(4784)				_hx_tmp1 = false;
+HXLINE(4867)				_hx_tmp = true;
             			}
-HXDLIN(4784)			if (_hx_tmp1) {
-HXLINE(4784)				this->ratingFC = HX_("SDCB",70,89,10,37);
+HXDLIN(4867)			if (_hx_tmp) {
+HXLINE(4867)				this->ratingFC = HX_("FC",3d,3d,00,00);
+            			}
+HXLINE(4868)			bool _hx_tmp1;
+HXDLIN(4868)			if ((this->songMisses > 0)) {
+HXLINE(4868)				_hx_tmp1 = (this->songMisses < 10);
             			}
             			else {
-HXLINE(4785)				if ((this->songMisses >= 10)) {
-HXLINE(4785)					this->ratingFC = HX_("Clear",6d,e1,88,db);
+HXLINE(4868)				_hx_tmp1 = false;
+            			}
+HXDLIN(4868)			if (_hx_tmp1) {
+HXLINE(4868)				this->ratingFC = HX_("SDCB",70,89,10,37);
+            			}
+            			else {
+HXLINE(4869)				if ((this->songMisses >= 10)) {
+HXLINE(4869)					this->ratingFC = HX_("Clear",6d,e1,88,db);
             				}
             			}
             		}
-HXLINE(4787)		this->setOnLuas(HX_("rating",1d,34,8a,bb),this->ratingPercent);
-HXLINE(4788)		this->setOnLuas(HX_("ratingName",08,a5,2b,05),this->ratingName);
-HXLINE(4789)		this->setOnLuas(HX_("ratingFC",9a,72,95,59),this->ratingFC);
+HXLINE(4871)		this->setOnLuas(HX_("rating",1d,34,8a,bb),this->ratingPercent);
+HXLINE(4872)		this->setOnLuas(HX_("ratingName",08,a5,2b,05),this->ratingName);
+HXLINE(4873)		this->setOnLuas(HX_("ratingFC",9a,72,95,59),this->ratingFC);
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(PlayState_obj,RecalculateRating,(void))
 
 ::String PlayState_obj::checkForAchievement(::Array< ::String > achievesToCheck){
-            	HX_STACKFRAME(&_hx_pos_af23706db05c7feb_4794_checkForAchievement)
-HXLINE(4795)		if (::PlayState_obj::chartingMode) {
-HXLINE(4795)			return null();
+            	HX_STACKFRAME(&_hx_pos_af23706db05c7feb_4878_checkForAchievement)
+HXLINE(4879)		if (::PlayState_obj::chartingMode) {
+HXLINE(4879)			return null();
             		}
-HXLINE(4797)		bool usedPractice;
-HXDLIN(4797)		 ::Dynamic usedPractice1;
-HXDLIN(4797)		if (::ClientPrefs_obj::gameplaySettings->exists(HX_("practice",bb,00,e7,a0))) {
-HXLINE(4797)			usedPractice1 = ::ClientPrefs_obj::gameplaySettings->get(HX_("practice",bb,00,e7,a0));
+HXLINE(4881)		bool usedPractice;
+HXDLIN(4881)		 ::Dynamic usedPractice1;
+HXDLIN(4881)		if (::ClientPrefs_obj::gameplaySettings->exists(HX_("practice",bb,00,e7,a0))) {
+HXLINE(4881)			usedPractice1 = ::ClientPrefs_obj::gameplaySettings->get(HX_("practice",bb,00,e7,a0));
             		}
             		else {
-HXLINE(4797)			usedPractice1 = false;
+HXLINE(4881)			usedPractice1 = false;
             		}
-HXDLIN(4797)		if (!(( (bool)(usedPractice1) ))) {
-HXLINE(4797)			if (::ClientPrefs_obj::gameplaySettings->exists(HX_("botplay",7b,fb,a9,61))) {
-HXLINE(4797)				usedPractice = ::ClientPrefs_obj::gameplaySettings->get_bool(HX_("botplay",7b,fb,a9,61));
+HXDLIN(4881)		if (!(( (bool)(usedPractice1) ))) {
+HXLINE(4881)			if (::ClientPrefs_obj::gameplaySettings->exists(HX_("botplay",7b,fb,a9,61))) {
+HXLINE(4881)				usedPractice = ::ClientPrefs_obj::gameplaySettings->get_bool(HX_("botplay",7b,fb,a9,61));
             			}
             			else {
-HXLINE(4797)				usedPractice = false;
+HXLINE(4881)				usedPractice = false;
             			}
             		}
             		else {
-HXLINE(4797)			usedPractice = true;
+HXLINE(4881)			usedPractice = true;
             		}
-HXLINE(4798)		{
-HXLINE(4798)			int _g = 0;
-HXDLIN(4798)			int _g1 = achievesToCheck->length;
-HXDLIN(4798)			while((_g < _g1)){
-HXLINE(4798)				_g = (_g + 1);
-HXDLIN(4798)				int i = (_g - 1);
-HXLINE(4799)				::String achievementName = achievesToCheck->__get(i);
-HXLINE(4800)				bool _hx_tmp;
-HXDLIN(4800)				if (!(::Achievements_obj::isAchievementUnlocked(achievementName))) {
-HXLINE(4800)					_hx_tmp = !(this->cpuControlled);
+HXLINE(4882)		{
+HXLINE(4882)			int _g = 0;
+HXDLIN(4882)			int _g1 = achievesToCheck->length;
+HXDLIN(4882)			while((_g < _g1)){
+HXLINE(4882)				_g = (_g + 1);
+HXDLIN(4882)				int i = (_g - 1);
+HXLINE(4883)				::String achievementName = achievesToCheck->__get(i);
+HXLINE(4884)				bool _hx_tmp;
+HXDLIN(4884)				if (!(::Achievements_obj::isAchievementUnlocked(achievementName))) {
+HXLINE(4884)					_hx_tmp = !(this->cpuControlled);
             				}
             				else {
-HXLINE(4800)					_hx_tmp = false;
+HXLINE(4884)					_hx_tmp = false;
             				}
-HXDLIN(4800)				if (_hx_tmp) {
-HXLINE(4801)					bool unlock = false;
-HXLINE(4802)					::String _hx_switch_0 = achievementName;
+HXDLIN(4884)				if (_hx_tmp) {
+HXLINE(4885)					bool unlock = false;
+HXLINE(4886)					::String _hx_switch_0 = achievementName;
             					if (  (_hx_switch_0==HX_("debugger",21,24,eb,90)) ){
-HXLINE(4862)						bool _hx_tmp;
-HXDLIN(4862)						if ((::StringTools_obj::replace(( (::String)(::PlayState_obj::SONG->__Field(HX_("song",d5,23,58,4c),::hx::paccDynamic)) ).toLowerCase(),HX_(" ",20,00,00,00),HX_("-",2d,00,00,00)) == HX_("test",52,c8,f9,4c))) {
-HXLINE(4862)							_hx_tmp = !(usedPractice);
+HXLINE(4946)						bool _hx_tmp;
+HXDLIN(4946)						if ((::StringTools_obj::replace(( (::String)(::PlayState_obj::SONG->__Field(HX_("song",d5,23,58,4c),::hx::paccDynamic)) ).toLowerCase(),HX_(" ",20,00,00,00),HX_("-",2d,00,00,00)) == HX_("test",52,c8,f9,4c))) {
+HXLINE(4946)							_hx_tmp = !(usedPractice);
             						}
             						else {
-HXLINE(4862)							_hx_tmp = false;
+HXLINE(4946)							_hx_tmp = false;
             						}
-HXDLIN(4862)						if (_hx_tmp) {
-HXLINE(4863)							unlock = true;
+HXDLIN(4946)						if (_hx_tmp) {
+HXLINE(4947)							unlock = true;
             						}
-HXLINE(4862)						goto _hx_goto_225;
+HXLINE(4946)						goto _hx_goto_227;
             					}
             					if (  (_hx_switch_0==HX_("hype",46,63,1a,45)) ){
-HXLINE(4843)						bool _hx_tmp;
-HXDLIN(4843)						if (!(this->boyfriendIdled)) {
-HXLINE(4843)							_hx_tmp = !(usedPractice);
+HXLINE(4927)						bool _hx_tmp;
+HXDLIN(4927)						if (!(this->boyfriendIdled)) {
+HXLINE(4927)							_hx_tmp = !(usedPractice);
             						}
             						else {
-HXLINE(4843)							_hx_tmp = false;
+HXLINE(4927)							_hx_tmp = false;
             						}
-HXDLIN(4843)						if (_hx_tmp) {
-HXLINE(4844)							unlock = true;
+HXDLIN(4927)						if (_hx_tmp) {
+HXLINE(4928)							unlock = true;
             						}
-HXLINE(4843)						goto _hx_goto_225;
+HXLINE(4927)						goto _hx_goto_227;
             					}
             					if (  (_hx_switch_0==HX_("oversinging",1f,13,8f,78)) ){
-HXLINE(4839)						bool _hx_tmp;
-HXDLIN(4839)						if ((this->boyfriend->holdTimer >= 10)) {
-HXLINE(4839)							_hx_tmp = !(usedPractice);
+HXLINE(4923)						bool _hx_tmp;
+HXDLIN(4923)						if ((this->boyfriend->holdTimer >= 10)) {
+HXLINE(4923)							_hx_tmp = !(usedPractice);
             						}
             						else {
-HXLINE(4839)							_hx_tmp = false;
+HXLINE(4923)							_hx_tmp = false;
             						}
-HXDLIN(4839)						if (_hx_tmp) {
-HXLINE(4840)							unlock = true;
+HXDLIN(4923)						if (_hx_tmp) {
+HXLINE(4924)							unlock = true;
             						}
-HXLINE(4839)						goto _hx_goto_225;
+HXLINE(4923)						goto _hx_goto_227;
             					}
             					if (  (_hx_switch_0==HX_("roadkill_enthusiast",15,e2,55,56)) ){
-HXLINE(4835)						if ((::Achievements_obj::henchmenDeath >= 100)) {
-HXLINE(4836)							unlock = true;
+HXLINE(4919)						if ((::Achievements_obj::henchmenDeath >= 100)) {
+HXLINE(4920)							unlock = true;
             						}
-HXLINE(4835)						goto _hx_goto_225;
+HXLINE(4919)						goto _hx_goto_227;
             					}
             					if (  (_hx_switch_0==HX_("toastie",43,0c,91,5f)) ){
-HXLINE(4858)						bool _hx_tmp;
-HXDLIN(4858)						bool _hx_tmp1;
-HXDLIN(4858)						if (::ClientPrefs_obj::lowQuality) {
-HXLINE(4858)							_hx_tmp1 = !(::ClientPrefs_obj::globalAntialiasing);
+HXLINE(4942)						bool _hx_tmp;
+HXDLIN(4942)						bool _hx_tmp1;
+HXDLIN(4942)						if (::ClientPrefs_obj::lowQuality) {
+HXLINE(4942)							_hx_tmp1 = !(::ClientPrefs_obj::globalAntialiasing);
             						}
             						else {
-HXLINE(4858)							_hx_tmp1 = false;
+HXLINE(4942)							_hx_tmp1 = false;
             						}
-HXDLIN(4858)						if (_hx_tmp1) {
-HXLINE(4858)							_hx_tmp = !(::ClientPrefs_obj::imagesPersist);
+HXDLIN(4942)						if (_hx_tmp1) {
+HXLINE(4942)							_hx_tmp = !(::ClientPrefs_obj::imagesPersist);
             						}
             						else {
-HXLINE(4858)							_hx_tmp = false;
+HXLINE(4942)							_hx_tmp = false;
             						}
-HXDLIN(4858)						if (_hx_tmp) {
-HXLINE(4859)							unlock = true;
+HXDLIN(4942)						if (_hx_tmp) {
+HXLINE(4943)							unlock = true;
             						}
-HXLINE(4858)						goto _hx_goto_225;
+HXLINE(4942)						goto _hx_goto_227;
             					}
             					if (  (_hx_switch_0==HX_("two_keys",c7,f4,0a,9b)) ){
-HXLINE(4847)						if (!(usedPractice)) {
-HXLINE(4848)							int howManyPresses = 0;
-HXLINE(4849)							{
-HXLINE(4849)								int _g = 0;
-HXDLIN(4849)								int _g1 = this->keysPressed->length;
-HXDLIN(4849)								while((_g < _g1)){
-HXLINE(4849)									_g = (_g + 1);
-HXDLIN(4849)									int j = (_g - 1);
-HXLINE(4850)									if (this->keysPressed->__get(j)) {
-HXLINE(4850)										howManyPresses = (howManyPresses + 1);
+HXLINE(4931)						if (!(usedPractice)) {
+HXLINE(4932)							int howManyPresses = 0;
+HXLINE(4933)							{
+HXLINE(4933)								int _g = 0;
+HXDLIN(4933)								int _g1 = this->keysPressed->length;
+HXDLIN(4933)								while((_g < _g1)){
+HXLINE(4933)									_g = (_g + 1);
+HXDLIN(4933)									int j = (_g - 1);
+HXLINE(4934)									if (this->keysPressed->__get(j)) {
+HXLINE(4934)										howManyPresses = (howManyPresses + 1);
             									}
             								}
             							}
-HXLINE(4853)							if ((howManyPresses <= 2)) {
-HXLINE(4854)								unlock = true;
+HXLINE(4937)							if ((howManyPresses <= 2)) {
+HXLINE(4938)								unlock = true;
             							}
             						}
-HXLINE(4847)						goto _hx_goto_225;
+HXLINE(4931)						goto _hx_goto_227;
             					}
             					if (  (_hx_switch_0==HX_("ur_bad",a3,4f,85,aa)) ){
-HXLINE(4827)						bool _hx_tmp;
-HXDLIN(4827)						if ((this->ratingPercent < ((Float)0.2))) {
-HXLINE(4827)							_hx_tmp = !(this->practiceMode);
+HXLINE(4911)						bool _hx_tmp;
+HXDLIN(4911)						if ((this->ratingPercent < ((Float)0.2))) {
+HXLINE(4911)							_hx_tmp = !(this->practiceMode);
             						}
             						else {
-HXLINE(4827)							_hx_tmp = false;
+HXLINE(4911)							_hx_tmp = false;
             						}
-HXDLIN(4827)						if (_hx_tmp) {
-HXLINE(4828)							unlock = true;
+HXDLIN(4911)						if (_hx_tmp) {
+HXLINE(4912)							unlock = true;
             						}
-HXLINE(4827)						goto _hx_goto_225;
+HXLINE(4911)						goto _hx_goto_227;
             					}
             					if (  (_hx_switch_0==HX_("ur_good",9f,19,79,8d)) ){
-HXLINE(4831)						bool _hx_tmp;
-HXDLIN(4831)						if ((this->ratingPercent >= 1)) {
-HXLINE(4831)							_hx_tmp = !(usedPractice);
+HXLINE(4915)						bool _hx_tmp;
+HXDLIN(4915)						if ((this->ratingPercent >= 1)) {
+HXLINE(4915)							_hx_tmp = !(usedPractice);
             						}
             						else {
-HXLINE(4831)							_hx_tmp = false;
+HXLINE(4915)							_hx_tmp = false;
             						}
-HXDLIN(4831)						if (_hx_tmp) {
-HXLINE(4832)							unlock = true;
+HXDLIN(4915)						if (_hx_tmp) {
+HXLINE(4916)							unlock = true;
             						}
-HXLINE(4831)						goto _hx_goto_225;
+HXLINE(4915)						goto _hx_goto_227;
             					}
             					if (  (_hx_switch_0==HX_("week1_nomiss",3f,c5,3b,fe)) ||  (_hx_switch_0==HX_("week2_nomiss",5e,37,6e,37)) ||  (_hx_switch_0==HX_("week3_nomiss",7d,a9,a0,70)) ||  (_hx_switch_0==HX_("week4_nomiss",9c,1b,d3,a9)) ||  (_hx_switch_0==HX_("week5_nomiss",bb,8d,05,e3)) ||  (_hx_switch_0==HX_("week6_nomiss",da,ff,37,1c)) ||  (_hx_switch_0==HX_("week7_nomiss",f9,71,6a,55)) ){
-HXLINE(4805)						bool _hx_tmp;
-HXDLIN(4805)						bool _hx_tmp1;
-HXDLIN(4805)						bool _hx_tmp2;
-HXDLIN(4805)						bool _hx_tmp3;
-HXDLIN(4805)						bool _hx_tmp4;
-HXDLIN(4805)						if (::PlayState_obj::isStoryMode) {
-HXLINE(4805)							_hx_tmp4 = ((::PlayState_obj::campaignMisses + this->songMisses) < 1);
+HXLINE(4889)						bool _hx_tmp;
+HXDLIN(4889)						bool _hx_tmp1;
+HXDLIN(4889)						bool _hx_tmp2;
+HXDLIN(4889)						bool _hx_tmp3;
+HXDLIN(4889)						bool _hx_tmp4;
+HXDLIN(4889)						if (::PlayState_obj::isStoryMode) {
+HXLINE(4889)							_hx_tmp4 = ((::PlayState_obj::campaignMisses + this->songMisses) < 1);
             						}
             						else {
-HXLINE(4805)							_hx_tmp4 = false;
+HXLINE(4889)							_hx_tmp4 = false;
             						}
-HXDLIN(4805)						if (_hx_tmp4) {
-HXLINE(4805)							_hx_tmp3 = (::CoolUtil_obj::difficultyString() == HX_("HARD",eb,f6,c8,2f));
-            						}
-            						else {
-HXLINE(4805)							_hx_tmp3 = false;
-            						}
-HXDLIN(4805)						if (_hx_tmp3) {
-HXLINE(4805)							_hx_tmp2 = (::PlayState_obj::storyPlaylist->length <= 1);
+HXDLIN(4889)						if (_hx_tmp4) {
+HXLINE(4889)							_hx_tmp3 = (::CoolUtil_obj::difficultyString() == HX_("HARD",eb,f6,c8,2f));
             						}
             						else {
-HXLINE(4805)							_hx_tmp2 = false;
+HXLINE(4889)							_hx_tmp3 = false;
             						}
-HXDLIN(4805)						if (_hx_tmp2) {
-HXLINE(4805)							_hx_tmp1 = !(::PlayState_obj::changedDifficulty);
-            						}
-            						else {
-HXLINE(4805)							_hx_tmp1 = false;
-            						}
-HXDLIN(4805)						if (_hx_tmp1) {
-HXLINE(4805)							_hx_tmp = !(usedPractice);
+HXDLIN(4889)						if (_hx_tmp3) {
+HXLINE(4889)							_hx_tmp2 = (::PlayState_obj::storyPlaylist->length <= 1);
             						}
             						else {
-HXLINE(4805)							_hx_tmp = false;
+HXLINE(4889)							_hx_tmp2 = false;
             						}
-HXDLIN(4805)						if (_hx_tmp) {
-HXLINE(4807)							::String weekName = ::WeekData_obj::getWeekFileName();
-HXLINE(4808)							::String _hx_switch_1 = weekName;
+HXDLIN(4889)						if (_hx_tmp2) {
+HXLINE(4889)							_hx_tmp1 = !(::PlayState_obj::changedDifficulty);
+            						}
+            						else {
+HXLINE(4889)							_hx_tmp1 = false;
+            						}
+HXDLIN(4889)						if (_hx_tmp1) {
+HXLINE(4889)							_hx_tmp = !(usedPractice);
+            						}
+            						else {
+HXLINE(4889)							_hx_tmp = false;
+            						}
+HXDLIN(4889)						if (_hx_tmp) {
+HXLINE(4891)							::String weekName = ::WeekData_obj::getWeekFileName();
+HXLINE(4892)							::String _hx_switch_1 = weekName;
             							if (  (_hx_switch_1==HX_("week1",bd,95,be,c7)) ){
-HXLINE(4811)								if ((achievementName == HX_("week1_nomiss",3f,c5,3b,fe))) {
-HXLINE(4811)									unlock = true;
+HXLINE(4895)								if ((achievementName == HX_("week1_nomiss",3f,c5,3b,fe))) {
+HXLINE(4895)									unlock = true;
             								}
-HXDLIN(4811)								goto _hx_goto_227;
+HXDLIN(4895)								goto _hx_goto_229;
             							}
             							if (  (_hx_switch_1==HX_("week2",be,95,be,c7)) ){
-HXLINE(4813)								if ((achievementName == HX_("week2_nomiss",5e,37,6e,37))) {
-HXLINE(4813)									unlock = true;
+HXLINE(4897)								if ((achievementName == HX_("week2_nomiss",5e,37,6e,37))) {
+HXLINE(4897)									unlock = true;
             								}
-HXDLIN(4813)								goto _hx_goto_227;
+HXDLIN(4897)								goto _hx_goto_229;
             							}
             							if (  (_hx_switch_1==HX_("week3",bf,95,be,c7)) ){
-HXLINE(4815)								if ((achievementName == HX_("week3_nomiss",7d,a9,a0,70))) {
-HXLINE(4815)									unlock = true;
+HXLINE(4899)								if ((achievementName == HX_("week3_nomiss",7d,a9,a0,70))) {
+HXLINE(4899)									unlock = true;
             								}
-HXDLIN(4815)								goto _hx_goto_227;
+HXDLIN(4899)								goto _hx_goto_229;
             							}
             							if (  (_hx_switch_1==HX_("week4",c0,95,be,c7)) ){
-HXLINE(4817)								if ((achievementName == HX_("week4_nomiss",9c,1b,d3,a9))) {
-HXLINE(4817)									unlock = true;
+HXLINE(4901)								if ((achievementName == HX_("week4_nomiss",9c,1b,d3,a9))) {
+HXLINE(4901)									unlock = true;
             								}
-HXDLIN(4817)								goto _hx_goto_227;
+HXDLIN(4901)								goto _hx_goto_229;
             							}
             							if (  (_hx_switch_1==HX_("week5",c1,95,be,c7)) ){
-HXLINE(4819)								if ((achievementName == HX_("week5_nomiss",bb,8d,05,e3))) {
-HXLINE(4819)									unlock = true;
+HXLINE(4903)								if ((achievementName == HX_("week5_nomiss",bb,8d,05,e3))) {
+HXLINE(4903)									unlock = true;
             								}
-HXDLIN(4819)								goto _hx_goto_227;
+HXDLIN(4903)								goto _hx_goto_229;
             							}
             							if (  (_hx_switch_1==HX_("week6",c2,95,be,c7)) ){
-HXLINE(4821)								if ((achievementName == HX_("week6_nomiss",da,ff,37,1c))) {
-HXLINE(4821)									unlock = true;
+HXLINE(4905)								if ((achievementName == HX_("week6_nomiss",da,ff,37,1c))) {
+HXLINE(4905)									unlock = true;
             								}
-HXDLIN(4821)								goto _hx_goto_227;
+HXDLIN(4905)								goto _hx_goto_229;
             							}
             							if (  (_hx_switch_1==HX_("week7",c3,95,be,c7)) ){
-HXLINE(4823)								if ((achievementName == HX_("week7_nomiss",f9,71,6a,55))) {
-HXLINE(4823)									unlock = true;
+HXLINE(4907)								if ((achievementName == HX_("week7_nomiss",f9,71,6a,55))) {
+HXLINE(4907)									unlock = true;
             								}
-HXDLIN(4823)								goto _hx_goto_227;
+HXDLIN(4907)								goto _hx_goto_229;
             							}
-            							_hx_goto_227:;
+            							_hx_goto_229:;
             						}
-HXLINE(4805)						goto _hx_goto_225;
+HXLINE(4889)						goto _hx_goto_227;
             					}
-            					_hx_goto_225:;
-HXLINE(4867)					if (unlock) {
-HXLINE(4868)						::Achievements_obj::unlockAchievement(achievementName);
-HXLINE(4869)						return achievementName;
+            					_hx_goto_227:;
+HXLINE(4951)					if (unlock) {
+HXLINE(4952)						::Achievements_obj::unlockAchievement(achievementName);
+HXLINE(4953)						return achievementName;
             					}
             				}
             			}
             		}
-HXLINE(4873)		return null();
+HXLINE(4957)		return null();
             	}
 
 
@@ -7700,6 +7778,10 @@ bool PlayState_obj::changedDifficulty;
 
 bool PlayState_obj::chartingMode;
 
+int PlayState_obj::curWindow;
+
+int PlayState_obj::lastWindow;
+
 int PlayState_obj::campaignScore;
 
 int PlayState_obj::campaignMisses;
@@ -7715,11 +7797,11 @@ Float PlayState_obj::daPixelZoom;
 Float PlayState_obj::startOnTime;
 
 void PlayState_obj::cancelMusicFadeTween(){
-            	HX_STACKFRAME(&_hx_pos_af23706db05c7feb_4510_cancelMusicFadeTween)
-HXLINE(4511)		if (::hx::IsNotNull( ::flixel::FlxG_obj::sound->music->fadeTween )) {
-HXLINE(4512)			::flixel::FlxG_obj::sound->music->fadeTween->cancel();
+            	HX_STACKFRAME(&_hx_pos_af23706db05c7feb_4566_cancelMusicFadeTween)
+HXLINE(4567)		if (::hx::IsNotNull( ::flixel::FlxG_obj::sound->music->fadeTween )) {
+HXLINE(4568)			::flixel::FlxG_obj::sound->music->fadeTween->cancel();
             		}
-HXLINE(4514)		::flixel::FlxG_obj::sound->music->fadeTween = null();
+HXLINE(4570)		::flixel::FlxG_obj::sound->music->fadeTween = null();
             	}
 
 
@@ -7846,6 +7928,14 @@ void PlayState_obj::__Mark(HX_MARK_PARAMS)
 	HX_MARK_MEMBER_NAME(shadeOverlay,"shadeOverlay");
 	HX_MARK_MEMBER_NAME(streetlight,"streetlight");
 	HX_MARK_MEMBER_NAME(frontBushes,"frontBushes");
+	HX_MARK_MEMBER_NAME(liminalSkyNorm,"liminalSkyNorm");
+	HX_MARK_MEMBER_NAME(liminalHillNorm,"liminalHillNorm");
+	HX_MARK_MEMBER_NAME(liminalGroundNorm,"liminalGroundNorm");
+	HX_MARK_MEMBER_NAME(liminalSkyHell,"liminalSkyHell");
+	HX_MARK_MEMBER_NAME(liminalHillHell,"liminalHillHell");
+	HX_MARK_MEMBER_NAME(liminalGroundHell,"liminalGroundHell");
+	HX_MARK_MEMBER_NAME(liminalForegroundHell,"liminalForegroundHell");
+	HX_MARK_MEMBER_NAME(liminalBenchHell,"liminalBenchHell");
 	HX_MARK_MEMBER_NAME(songScore,"songScore");
 	HX_MARK_MEMBER_NAME(songHits,"songHits");
 	HX_MARK_MEMBER_NAME(songMisses,"songMisses");
@@ -8029,6 +8119,14 @@ void PlayState_obj::__Visit(HX_VISIT_PARAMS)
 	HX_VISIT_MEMBER_NAME(shadeOverlay,"shadeOverlay");
 	HX_VISIT_MEMBER_NAME(streetlight,"streetlight");
 	HX_VISIT_MEMBER_NAME(frontBushes,"frontBushes");
+	HX_VISIT_MEMBER_NAME(liminalSkyNorm,"liminalSkyNorm");
+	HX_VISIT_MEMBER_NAME(liminalHillNorm,"liminalHillNorm");
+	HX_VISIT_MEMBER_NAME(liminalGroundNorm,"liminalGroundNorm");
+	HX_VISIT_MEMBER_NAME(liminalSkyHell,"liminalSkyHell");
+	HX_VISIT_MEMBER_NAME(liminalHillHell,"liminalHillHell");
+	HX_VISIT_MEMBER_NAME(liminalGroundHell,"liminalGroundHell");
+	HX_VISIT_MEMBER_NAME(liminalForegroundHell,"liminalForegroundHell");
+	HX_VISIT_MEMBER_NAME(liminalBenchHell,"liminalBenchHell");
 	HX_VISIT_MEMBER_NAME(songScore,"songScore");
 	HX_VISIT_MEMBER_NAME(songHits,"songHits");
 	HX_VISIT_MEMBER_NAME(songMisses,"songMisses");
@@ -8326,6 +8424,8 @@ void PlayState_obj::__Visit(HX_VISIT_PARAMS)
 		if (HX_FIELD_EQ(inName,"generatedMusic") ) { return ::hx::Val( generatedMusic ); }
 		if (HX_FIELD_EQ(inName,"halloweenWhite") ) { return ::hx::Val( halloweenWhite ); }
 		if (HX_FIELD_EQ(inName,"grpLimoDancers") ) { return ::hx::Val( grpLimoDancers ); }
+		if (HX_FIELD_EQ(inName,"liminalSkyNorm") ) { return ::hx::Val( liminalSkyNorm ); }
+		if (HX_FIELD_EQ(inName,"liminalSkyHell") ) { return ::hx::Val( liminalSkyHell ); }
 		if (HX_FIELD_EQ(inName,"defaultCamZoom") ) { return ::hx::Val( defaultCamZoom ); }
 		if (HX_FIELD_EQ(inName,"singAnimations") ) { return ::hx::Val( singAnimations ); }
 		if (HX_FIELD_EQ(inName,"boyfriendIdled") ) { return ::hx::Val( boyfriendIdled ); }
@@ -8346,6 +8446,8 @@ void PlayState_obj::__Visit(HX_VISIT_PARAMS)
 		if (HX_FIELD_EQ(inName,"grpNoteSplashes") ) { return ::hx::Val( grpNoteSplashes ); }
 		if (HX_FIELD_EQ(inName,"instakillOnMiss") ) { return ::hx::Val( instakillOnMiss ); }
 		if (HX_FIELD_EQ(inName,"downtownWindows") ) { return ::hx::Val( downtownWindows ); }
+		if (HX_FIELD_EQ(inName,"liminalHillNorm") ) { return ::hx::Val( liminalHillNorm ); }
+		if (HX_FIELD_EQ(inName,"liminalHillHell") ) { return ::hx::Val( liminalHillHell ); }
 		if (HX_FIELD_EQ(inName,"openChartEditor") ) { return ::hx::Val( openChartEditor_dyn() ); }
 		if (HX_FIELD_EQ(inName,"getKeyFromEvent") ) { return ::hx::Val( getKeyFromEvent_dyn() ); }
 		if (HX_FIELD_EQ(inName,"opponentNoteHit") ) { return ::hx::Val( opponentNoteHit_dyn() ); }
@@ -8357,6 +8459,7 @@ void PlayState_obj::__Visit(HX_VISIT_PARAMS)
 		if (HX_FIELD_EQ(inName,"phillyCityLights") ) { return ::hx::Val( phillyCityLights ); }
 		if (HX_FIELD_EQ(inName,"limoKillingState") ) { return ::hx::Val( limoKillingState ); }
 		if (HX_FIELD_EQ(inName,"grpLimoParticles") ) { return ::hx::Val( grpLimoParticles ); }
+		if (HX_FIELD_EQ(inName,"liminalBenchHell") ) { return ::hx::Val( liminalBenchHell ); }
 		if (HX_FIELD_EQ(inName,"clearNotesBefore") ) { return ::hx::Val( clearNotesBefore_dyn() ); }
 		if (HX_FIELD_EQ(inName,"startedCountdown") ) { return ::hx::Val( startedCountdown ); }
 		if (HX_FIELD_EQ(inName,"triggerEventNote") ) { return ::hx::Val( triggerEventNote_dyn() ); }
@@ -8365,6 +8468,8 @@ void PlayState_obj::__Visit(HX_VISIT_PARAMS)
 		if (HX_FIELD_EQ(inName,"preventLuaRemove") ) { return ::hx::Val( preventLuaRemove ); }
 		break;
 	case 17:
+		if (HX_FIELD_EQ(inName,"liminalGroundNorm") ) { return ::hx::Val( liminalGroundNorm ); }
+		if (HX_FIELD_EQ(inName,"liminalGroundHell") ) { return ::hx::Val( liminalGroundHell ); }
 		if (HX_FIELD_EQ(inName,"detailsPausedText") ) { return ::hx::Val( detailsPausedText ); }
 		if (HX_FIELD_EQ(inName,"boyfriendIdleTime") ) { return ::hx::Val( boyfriendIdleTime ); }
 		if (HX_FIELD_EQ(inName,"introSoundsSuffix") ) { return ::hx::Val( introSoundsSuffix ); }
@@ -8395,6 +8500,7 @@ void PlayState_obj::__Visit(HX_VISIT_PARAMS)
 		break;
 	case 21:
 		if (HX_FIELD_EQ(inName,"phillyCityLightsEvent") ) { return ::hx::Val( phillyCityLightsEvent ); }
+		if (HX_FIELD_EQ(inName,"liminalForegroundHell") ) { return ::hx::Val( liminalForegroundHell ); }
 		if (HX_FIELD_EQ(inName,"boyfriendCameraOffset") ) { return ::hx::Val( boyfriendCameraOffset ); }
 		if (HX_FIELD_EQ(inName,"reloadHealthBarColors") ) { return ::hx::Val( reloadHealthBarColors_dyn() ); }
 		if (HX_FIELD_EQ(inName,"eventNoteEarlyTrigger") ) { return ::hx::Val( eventNoteEarlyTrigger_dyn() ); }
@@ -8430,6 +8536,10 @@ bool PlayState_obj::__GetStatic(const ::String &inName, Dynamic &outValue, ::hx:
 		break;
 	case 9:
 		if (HX_FIELD_EQ(inName,"storyWeek") ) { outValue = ( storyWeek ); return true; }
+		if (HX_FIELD_EQ(inName,"curWindow") ) { outValue = ( curWindow ); return true; }
+		break;
+	case 10:
+		if (HX_FIELD_EQ(inName,"lastWindow") ) { outValue = ( lastWindow ); return true; }
 		break;
 	case 11:
 		if (HX_FIELD_EQ(inName,"ratingStuff") ) { outValue = ( ratingStuff ); return true; }
@@ -8635,6 +8745,8 @@ bool PlayState_obj::__GetStatic(const ::String &inName, Dynamic &outValue, ::hx:
 		if (HX_FIELD_EQ(inName,"generatedMusic") ) { generatedMusic=inValue.Cast< bool >(); return inValue; }
 		if (HX_FIELD_EQ(inName,"halloweenWhite") ) { halloweenWhite=inValue.Cast<  ::BGSprite >(); return inValue; }
 		if (HX_FIELD_EQ(inName,"grpLimoDancers") ) { grpLimoDancers=inValue.Cast<  ::flixel::group::FlxTypedGroup >(); return inValue; }
+		if (HX_FIELD_EQ(inName,"liminalSkyNorm") ) { liminalSkyNorm=inValue.Cast<  ::BGSprite >(); return inValue; }
+		if (HX_FIELD_EQ(inName,"liminalSkyHell") ) { liminalSkyHell=inValue.Cast<  ::BGSprite >(); return inValue; }
 		if (HX_FIELD_EQ(inName,"defaultCamZoom") ) { defaultCamZoom=inValue.Cast< Float >(); return inValue; }
 		if (HX_FIELD_EQ(inName,"singAnimations") ) { singAnimations=inValue.Cast< ::Array< ::String > >(); return inValue; }
 		if (HX_FIELD_EQ(inName,"boyfriendIdled") ) { boyfriendIdled=inValue.Cast< bool >(); return inValue; }
@@ -8649,6 +8761,8 @@ bool PlayState_obj::__GetStatic(const ::String &inName, Dynamic &outValue, ::hx:
 		if (HX_FIELD_EQ(inName,"grpNoteSplashes") ) { grpNoteSplashes=inValue.Cast<  ::flixel::group::FlxTypedGroup >(); return inValue; }
 		if (HX_FIELD_EQ(inName,"instakillOnMiss") ) { instakillOnMiss=inValue.Cast< bool >(); return inValue; }
 		if (HX_FIELD_EQ(inName,"downtownWindows") ) { downtownWindows=inValue.Cast<  ::flixel::group::FlxTypedGroup >(); return inValue; }
+		if (HX_FIELD_EQ(inName,"liminalHillNorm") ) { liminalHillNorm=inValue.Cast<  ::BGSprite >(); return inValue; }
+		if (HX_FIELD_EQ(inName,"liminalHillHell") ) { liminalHillHell=inValue.Cast<  ::BGSprite >(); return inValue; }
 		if (HX_FIELD_EQ(inName,"fastCarCanDrive") ) { fastCarCanDrive=inValue.Cast< bool >(); return inValue; }
 		if (HX_FIELD_EQ(inName,"lightningOffset") ) { lightningOffset=inValue.Cast< int >(); return inValue; }
 		break;
@@ -8656,11 +8770,14 @@ bool PlayState_obj::__GetStatic(const ::String &inName, Dynamic &outValue, ::hx:
 		if (HX_FIELD_EQ(inName,"phillyCityLights") ) { phillyCityLights=inValue.Cast<  ::flixel::group::FlxTypedGroup >(); return inValue; }
 		if (HX_FIELD_EQ(inName,"limoKillingState") ) { limoKillingState=inValue.Cast< int >(); return inValue; }
 		if (HX_FIELD_EQ(inName,"grpLimoParticles") ) { grpLimoParticles=inValue.Cast<  ::flixel::group::FlxTypedGroup >(); return inValue; }
+		if (HX_FIELD_EQ(inName,"liminalBenchHell") ) { liminalBenchHell=inValue.Cast<  ::BGSprite >(); return inValue; }
 		if (HX_FIELD_EQ(inName,"startedCountdown") ) { startedCountdown=inValue.Cast< bool >(); return inValue; }
 		if (HX_FIELD_EQ(inName,"trainFrameTiming") ) { trainFrameTiming=inValue.Cast< Float >(); return inValue; }
 		if (HX_FIELD_EQ(inName,"preventLuaRemove") ) { preventLuaRemove=inValue.Cast< bool >(); return inValue; }
 		break;
 	case 17:
+		if (HX_FIELD_EQ(inName,"liminalGroundNorm") ) { liminalGroundNorm=inValue.Cast<  ::BGSprite >(); return inValue; }
+		if (HX_FIELD_EQ(inName,"liminalGroundHell") ) { liminalGroundHell=inValue.Cast<  ::BGSprite >(); return inValue; }
 		if (HX_FIELD_EQ(inName,"detailsPausedText") ) { detailsPausedText=inValue.Cast< ::String >(); return inValue; }
 		if (HX_FIELD_EQ(inName,"boyfriendIdleTime") ) { boyfriendIdleTime=inValue.Cast< Float >(); return inValue; }
 		if (HX_FIELD_EQ(inName,"introSoundsSuffix") ) { introSoundsSuffix=inValue.Cast< ::String >(); return inValue; }
@@ -8681,6 +8798,7 @@ bool PlayState_obj::__GetStatic(const ::String &inName, Dynamic &outValue, ::hx:
 		break;
 	case 21:
 		if (HX_FIELD_EQ(inName,"phillyCityLightsEvent") ) { phillyCityLightsEvent=inValue.Cast<  ::flixel::group::FlxTypedGroup >(); return inValue; }
+		if (HX_FIELD_EQ(inName,"liminalForegroundHell") ) { liminalForegroundHell=inValue.Cast<  ::BGSprite >(); return inValue; }
 		if (HX_FIELD_EQ(inName,"boyfriendCameraOffset") ) { boyfriendCameraOffset=inValue.Cast< ::Array< Float > >(); return inValue; }
 		break;
 	case 22:
@@ -8713,6 +8831,10 @@ bool PlayState_obj::__SetStatic(const ::String &inName,Dynamic &ioValue,::hx::Pr
 		break;
 	case 9:
 		if (HX_FIELD_EQ(inName,"storyWeek") ) { storyWeek=ioValue.Cast< int >(); return true; }
+		if (HX_FIELD_EQ(inName,"curWindow") ) { curWindow=ioValue.Cast< int >(); return true; }
+		break;
+	case 10:
+		if (HX_FIELD_EQ(inName,"lastWindow") ) { lastWindow=ioValue.Cast< int >(); return true; }
 		break;
 	case 11:
 		if (HX_FIELD_EQ(inName,"ratingStuff") ) { ratingStuff=ioValue.Cast< ::cpp::VirtualArray >(); return true; }
@@ -8851,6 +8973,14 @@ void PlayState_obj::__GetFields(Array< ::String> &outFields)
 	outFields->push(HX_("shadeOverlay",63,b2,26,2d));
 	outFields->push(HX_("streetlight",f3,8d,6a,c4));
 	outFields->push(HX_("frontBushes",1f,f9,9d,e9));
+	outFields->push(HX_("liminalSkyNorm",3d,50,93,68));
+	outFields->push(HX_("liminalHillNorm",1d,7a,8c,4d));
+	outFields->push(HX_("liminalGroundNorm",e3,1b,79,4f));
+	outFields->push(HX_("liminalSkyHell",be,6c,94,64));
+	outFields->push(HX_("liminalHillHell",9e,96,8d,49));
+	outFields->push(HX_("liminalGroundHell",64,38,7a,4b));
+	outFields->push(HX_("liminalForegroundHell",a0,bc,08,b1));
+	outFields->push(HX_("liminalBenchHell",0d,b4,7a,4f));
 	outFields->push(HX_("songScore",3d,bb,53,a8));
 	outFields->push(HX_("songHits",35,a1,e6,32));
 	outFields->push(HX_("songMisses",1f,08,d9,b1));
@@ -9033,6 +9163,14 @@ static ::hx::StorageInfo PlayState_obj_sMemberStorageInfo[] = {
 	{::hx::fsObject /*  ::BGSprite */ ,(int)offsetof(PlayState_obj,shadeOverlay),HX_("shadeOverlay",63,b2,26,2d)},
 	{::hx::fsObject /*  ::BGSprite */ ,(int)offsetof(PlayState_obj,streetlight),HX_("streetlight",f3,8d,6a,c4)},
 	{::hx::fsObject /*  ::BGSprite */ ,(int)offsetof(PlayState_obj,frontBushes),HX_("frontBushes",1f,f9,9d,e9)},
+	{::hx::fsObject /*  ::BGSprite */ ,(int)offsetof(PlayState_obj,liminalSkyNorm),HX_("liminalSkyNorm",3d,50,93,68)},
+	{::hx::fsObject /*  ::BGSprite */ ,(int)offsetof(PlayState_obj,liminalHillNorm),HX_("liminalHillNorm",1d,7a,8c,4d)},
+	{::hx::fsObject /*  ::BGSprite */ ,(int)offsetof(PlayState_obj,liminalGroundNorm),HX_("liminalGroundNorm",e3,1b,79,4f)},
+	{::hx::fsObject /*  ::BGSprite */ ,(int)offsetof(PlayState_obj,liminalSkyHell),HX_("liminalSkyHell",be,6c,94,64)},
+	{::hx::fsObject /*  ::BGSprite */ ,(int)offsetof(PlayState_obj,liminalHillHell),HX_("liminalHillHell",9e,96,8d,49)},
+	{::hx::fsObject /*  ::BGSprite */ ,(int)offsetof(PlayState_obj,liminalGroundHell),HX_("liminalGroundHell",64,38,7a,4b)},
+	{::hx::fsObject /*  ::BGSprite */ ,(int)offsetof(PlayState_obj,liminalForegroundHell),HX_("liminalForegroundHell",a0,bc,08,b1)},
+	{::hx::fsObject /*  ::BGSprite */ ,(int)offsetof(PlayState_obj,liminalBenchHell),HX_("liminalBenchHell",0d,b4,7a,4f)},
 	{::hx::fsInt,(int)offsetof(PlayState_obj,songScore),HX_("songScore",3d,bb,53,a8)},
 	{::hx::fsInt,(int)offsetof(PlayState_obj,songHits),HX_("songHits",35,a1,e6,32)},
 	{::hx::fsInt,(int)offsetof(PlayState_obj,songMisses),HX_("songMisses",1f,08,d9,b1)},
@@ -9127,6 +9265,8 @@ static ::hx::StaticInfo PlayState_obj_sStaticStorageInfo[] = {
 	{::hx::fsObject /*  ::flixel::FlxObject */ ,(void *) &PlayState_obj::prevCamFollowPos,HX_("prevCamFollowPos",27,5e,2b,c8)},
 	{::hx::fsBool,(void *) &PlayState_obj::changedDifficulty,HX_("changedDifficulty",4f,3c,c6,3f)},
 	{::hx::fsBool,(void *) &PlayState_obj::chartingMode,HX_("chartingMode",47,00,06,09)},
+	{::hx::fsInt,(void *) &PlayState_obj::curWindow,HX_("curWindow",90,ad,19,c3)},
+	{::hx::fsInt,(void *) &PlayState_obj::lastWindow,HX_("lastWindow",e6,76,67,1d)},
 	{::hx::fsInt,(void *) &PlayState_obj::campaignScore,HX_("campaignScore",22,22,d6,07)},
 	{::hx::fsInt,(void *) &PlayState_obj::campaignMisses,HX_("campaignMisses",9a,a9,70,e4)},
 	{::hx::fsBool,(void *) &PlayState_obj::seenCutscene,HX_("seenCutscene",25,d1,95,b5)},
@@ -9239,6 +9379,14 @@ static ::String PlayState_obj_sMemberFields[] = {
 	HX_("shadeOverlay",63,b2,26,2d),
 	HX_("streetlight",f3,8d,6a,c4),
 	HX_("frontBushes",1f,f9,9d,e9),
+	HX_("liminalSkyNorm",3d,50,93,68),
+	HX_("liminalHillNorm",1d,7a,8c,4d),
+	HX_("liminalGroundNorm",e3,1b,79,4f),
+	HX_("liminalSkyHell",be,6c,94,64),
+	HX_("liminalHillHell",9e,96,8d,49),
+	HX_("liminalGroundHell",64,38,7a,4b),
+	HX_("liminalForegroundHell",a0,bc,08,b1),
+	HX_("liminalBenchHell",0d,b4,7a,4f),
 	HX_("songScore",3d,bb,53,a8),
 	HX_("songHits",35,a1,e6,32),
 	HX_("songMisses",1f,08,d9,b1),
@@ -9408,6 +9556,8 @@ static void PlayState_obj_sMarkStatics(HX_MARK_PARAMS) {
 	HX_MARK_MEMBER_NAME(PlayState_obj::prevCamFollowPos,"prevCamFollowPos");
 	HX_MARK_MEMBER_NAME(PlayState_obj::changedDifficulty,"changedDifficulty");
 	HX_MARK_MEMBER_NAME(PlayState_obj::chartingMode,"chartingMode");
+	HX_MARK_MEMBER_NAME(PlayState_obj::curWindow,"curWindow");
+	HX_MARK_MEMBER_NAME(PlayState_obj::lastWindow,"lastWindow");
 	HX_MARK_MEMBER_NAME(PlayState_obj::campaignScore,"campaignScore");
 	HX_MARK_MEMBER_NAME(PlayState_obj::campaignMisses,"campaignMisses");
 	HX_MARK_MEMBER_NAME(PlayState_obj::seenCutscene,"seenCutscene");
@@ -9433,6 +9583,8 @@ static void PlayState_obj_sVisitStatics(HX_VISIT_PARAMS) {
 	HX_VISIT_MEMBER_NAME(PlayState_obj::prevCamFollowPos,"prevCamFollowPos");
 	HX_VISIT_MEMBER_NAME(PlayState_obj::changedDifficulty,"changedDifficulty");
 	HX_VISIT_MEMBER_NAME(PlayState_obj::chartingMode,"chartingMode");
+	HX_VISIT_MEMBER_NAME(PlayState_obj::curWindow,"curWindow");
+	HX_VISIT_MEMBER_NAME(PlayState_obj::lastWindow,"lastWindow");
 	HX_VISIT_MEMBER_NAME(PlayState_obj::campaignScore,"campaignScore");
 	HX_VISIT_MEMBER_NAME(PlayState_obj::campaignMisses,"campaignMisses");
 	HX_VISIT_MEMBER_NAME(PlayState_obj::seenCutscene,"seenCutscene");
@@ -9461,6 +9613,8 @@ static ::String PlayState_obj_sStaticFields[] = {
 	HX_("prevCamFollowPos",27,5e,2b,c8),
 	HX_("changedDifficulty",4f,3c,c6,3f),
 	HX_("chartingMode",47,00,06,09),
+	HX_("curWindow",90,ad,19,c3),
+	HX_("lastWindow",e6,76,67,1d),
 	HX_("campaignScore",22,22,d6,07),
 	HX_("campaignMisses",9a,a9,70,e4),
 	HX_("seenCutscene",25,d1,95,b5),
@@ -9550,28 +9704,36 @@ HXDLIN( 168)		changedDifficulty = false;
 HXDLIN( 169)		chartingMode = false;
             	}
 {
-            	HX_STACKFRAME(&_hx_pos_af23706db05c7feb_236_boot)
-HXDLIN( 236)		campaignScore = 0;
+            	HX_STACKFRAME(&_hx_pos_af23706db05c7feb_227_boot)
+HXDLIN( 227)		curWindow = 0;
             	}
 {
-            	HX_STACKFRAME(&_hx_pos_af23706db05c7feb_237_boot)
-HXDLIN( 237)		campaignMisses = 0;
+            	HX_STACKFRAME(&_hx_pos_af23706db05c7feb_228_boot)
+HXDLIN( 228)		lastWindow = 0;
             	}
 {
-            	HX_STACKFRAME(&_hx_pos_af23706db05c7feb_238_boot)
-HXDLIN( 238)		seenCutscene = false;
+            	HX_STACKFRAME(&_hx_pos_af23706db05c7feb_249_boot)
+HXDLIN( 249)		campaignScore = 0;
             	}
 {
-            	HX_STACKFRAME(&_hx_pos_af23706db05c7feb_239_boot)
-HXDLIN( 239)		deathCounter = 0;
+            	HX_STACKFRAME(&_hx_pos_af23706db05c7feb_250_boot)
+HXDLIN( 250)		campaignMisses = 0;
             	}
 {
-            	HX_STACKFRAME(&_hx_pos_af23706db05c7feb_245_boot)
-HXDLIN( 245)		daPixelZoom = ((Float)6);
+            	HX_STACKFRAME(&_hx_pos_af23706db05c7feb_251_boot)
+HXDLIN( 251)		seenCutscene = false;
             	}
 {
-            	HX_STACKFRAME(&_hx_pos_af23706db05c7feb_1703_boot)
-HXDLIN(1703)		startOnTime = ((Float)0);
+            	HX_STACKFRAME(&_hx_pos_af23706db05c7feb_252_boot)
+HXDLIN( 252)		deathCounter = 0;
+            	}
+{
+            	HX_STACKFRAME(&_hx_pos_af23706db05c7feb_258_boot)
+HXDLIN( 258)		daPixelZoom = ((Float)6);
+            	}
+{
+            	HX_STACKFRAME(&_hx_pos_af23706db05c7feb_1759_boot)
+HXDLIN(1759)		startOnTime = ((Float)0);
             	}
 }
 

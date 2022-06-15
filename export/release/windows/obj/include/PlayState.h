@@ -101,6 +101,8 @@ class HXCPP_CLASS_ATTRIBUTES PlayState_obj : public  ::MusicBeatState_obj
 		static  ::flixel::FlxObject prevCamFollowPos;
 		static bool changedDifficulty;
 		static bool chartingMode;
+		static int curWindow;
+		static int lastWindow;
 		static int campaignScore;
 		static int campaignMisses;
 		static bool seenCutscene;
@@ -211,6 +213,14 @@ class HXCPP_CLASS_ATTRIBUTES PlayState_obj : public  ::MusicBeatState_obj
 		 ::BGSprite shadeOverlay;
 		 ::BGSprite streetlight;
 		 ::BGSprite frontBushes;
+		 ::BGSprite liminalSkyNorm;
+		 ::BGSprite liminalHillNorm;
+		 ::BGSprite liminalGroundNorm;
+		 ::BGSprite liminalSkyHell;
+		 ::BGSprite liminalHillHell;
+		 ::BGSprite liminalGroundHell;
+		 ::BGSprite liminalForegroundHell;
+		 ::BGSprite liminalBenchHell;
 		int songScore;
 		int songHits;
 		int songMisses;

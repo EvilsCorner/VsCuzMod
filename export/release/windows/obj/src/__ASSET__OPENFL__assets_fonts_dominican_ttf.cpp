@@ -14,12 +14,12 @@
 #include <openfl/text/Font.h>
 #endif
 
-HX_DEFINE_STACK_FRAME(_hx_pos_f55697e9fc67de1e_1255_new,"__ASSET__OPENFL__assets_fonts_dominican_ttf","new",0x6166ff10,"__ASSET__OPENFL__assets_fonts_dominican_ttf.new","ManifestResources.hx",1255,0xf77aa668)
+HX_DEFINE_STACK_FRAME(_hx_pos_f55697e9fc67de1e_1257_new,"__ASSET__OPENFL__assets_fonts_dominican_ttf","new",0x6166ff10,"__ASSET__OPENFL__assets_fonts_dominican_ttf.new","ManifestResources.hx",1257,0xf77aa668)
 
 void __ASSET__OPENFL__assets_fonts_dominican_ttf_obj::__construct(){
-            	HX_GC_STACKFRAME(&_hx_pos_f55697e9fc67de1e_1255_new)
-HXDLIN(1255)		this->_hx___fromLimeFont( ::__ASSET__assets_fonts_dominican_ttf_obj::__alloc( HX_CTX ));
-HXDLIN(1255)		super::__construct(null());
+            	HX_GC_STACKFRAME(&_hx_pos_f55697e9fc67de1e_1257_new)
+HXDLIN(1257)		this->_hx___fromLimeFont( ::__ASSET__assets_fonts_dominican_ttf_obj::__alloc( HX_CTX ));
+HXDLIN(1257)		super::__construct(null());
             	}
 
 Dynamic __ASSET__OPENFL__assets_fonts_dominican_ttf_obj::__CreateEmpty() { return new __ASSET__OPENFL__assets_fonts_dominican_ttf_obj; }

@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="liminal bench.png">
+	<!-- Created with Adobe Animate version 22.0.0.93 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Lamp and Bench0000" x="0" y="0" width="268" height="447"/>
+	<SubTexture name="Lamp and Bench0001" x="0" y="0" width="268" height="447"/>
+	<SubTexture name="Lamp and Bench0002" x="0" y="0" width="268" height="447"/>
+	<SubTexture name="Lamp and Bench0003" x="0" y="0" width="268" height="447"/>
+	<SubTexture name="Lamp and Bench0004" x="0" y="0" width="268" height="447"/>
+	<SubTexture name="Lamp and Bench0005" x="0" y="0" width="268" height="447"/>
+	<SubTexture name="Lamp and Bench0006" x="0" y="0" width="268" height="447"/>
+	<SubTexture name="Lamp and Bench0007" x="0" y="0" width="268" height="447"/>
+	<SubTexture name="Lamp and Bench0008" x="0" y="0" width="268" height="447"/>
+	<SubTexture name="Lamp and Bench0009" x="0" y="0" width="268" height="447"/>
+	<SubTexture name="Lamp and Bench0010" x="278" y="0" width="141" height="226" frameX="-72" frameY="-117" frameWidth="268" frameHeight="447"/>
+	<SubTexture name="Lamp and Bench0011" x="0" y="0" width="268" height="447"/>
+	<SubTexture name="Lamp and Bench0012" x="278" y="0" width="141" height="226" frameX="-72" frameY="-117" frameWidth="268" frameHeight="447"/>
+	<SubTexture name="Lamp and Bench0013" x="0" y="0" width="268" height="447"/>
+	<SubTexture name="Lamp and Bench0014" x="0" y="0" width="268" height="447"/>
+	<SubTexture name="Lamp and Bench0015" x="0" y="0" width="268" height="447"/>
+	<SubTexture name="Lamp and Bench0016" x="0" y="0" width="268" height="447"/>
+	<SubTexture name="Lamp and Bench0017" x="0" y="0" width="268" height="447"/>
+	<SubTexture name="Lamp and Bench0018" x="0" y="0" width="268" height="447"/>
+	<SubTexture name="Lamp and Bench0019" x="0" y="0" width="268" height="447"/>
+	<SubTexture name="Lamp and Bench0020" x="0" y="0" width="268" height="447"/>
+	<SubTexture name="Lamp and Bench0021" x="0" y="0" width="268" height="447"/>
+	<SubTexture name="Lamp and Bench0022" x="0" y="0" width="268" height="447"/>
+	<SubTexture name="Lamp and Bench0023" x="0" y="0" width="268" height="447"/>
+	<SubTexture name="Lamp and Bench0024" x="0" y="0" width="268" height="447"/>
+	<SubTexture name="Lamp and Bench0025" x="278" y="0" width="141" height="226" frameX="-72" frameY="-117" frameWidth="268" frameHeight="447"/>
+	<SubTexture name="Lamp and Bench0026" x="0" y="0" width="268" height="447"/>
+	<SubTexture name="Lamp and Bench0027" x="0" y="0" width="268" height="447"/>
+	<SubTexture name="Lamp and Bench0028" x="0" y="0" width="268" height="447"/>
+	<SubTexture name="Lamp and Bench0029" x="0" y="0" width="268" height="447"/>
+</TextureAtlas>

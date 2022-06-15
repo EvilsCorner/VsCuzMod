@@ -6011,6 +6011,13 @@
    <depend name="include/flixel/util/_FlxSignal/FlxSignal2.h"/>
    <depend name="include/flixel/util/_FlxSignal/FlxSignalHandler.h"/>
   </file>
+  <file name="src/flixel/util/_FlxSignal/FlxSignal1.cpp" >
+   <depend name="include/flixel/util/IFlxDestroyable.h"/>
+   <depend name="include/flixel/util/IFlxSignal.h"/>
+   <depend name="include/flixel/util/_FlxSignal/FlxBaseSignal.h"/>
+   <depend name="include/flixel/util/_FlxSignal/FlxSignal1.h"/>
+   <depend name="include/flixel/util/_FlxSignal/FlxSignalHandler.h"/>
+  </file>
   <file name="src/flixel/util/_FlxSignal/FlxSignal0.cpp" >
    <depend name="include/flixel/util/IFlxDestroyable.h"/>
    <depend name="include/flixel/util/IFlxSignal.h"/>
@@ -6018,20 +6025,21 @@
    <depend name="include/flixel/util/_FlxSignal/FlxSignal0.h"/>
    <depend name="include/flixel/util/_FlxSignal/FlxSignalHandler.h"/>
   </file>
-  <file name="src/flixel/util/_FlxSignal/FlxSignalHandler.cpp" >
-   <depend name="include/flixel/util/IFlxDestroyable.h"/>
-   <depend name="include/flixel/util/_FlxSignal/FlxSignalHandler.h"/>
-  </file>
-  <file name="src/flixel/util/_FlxSignal/FlxTypedSignal_Impl_.cpp" >
+  <file name="src/flixel/util/_FlxSignal/FlxBaseSignal.cpp" >
+   <depend name="include/flixel/util/FlxDestroyUtil.h"/>
    <depend name="include/flixel/util/IFlxDestroyable.h"/>
    <depend name="include/flixel/util/IFlxSignal.h"/>
    <depend name="include/flixel/util/_FlxSignal/FlxBaseSignal.h"/>
-   <depend name="include/flixel/util/_FlxSignal/FlxSignal0.h"/>
-   <depend name="include/flixel/util/_FlxSignal/FlxSignal1.h"/>
-   <depend name="include/flixel/util/_FlxSignal/FlxSignal2.h"/>
-   <depend name="include/flixel/util/_FlxSignal/FlxSignal3.h"/>
-   <depend name="include/flixel/util/_FlxSignal/FlxSignal4.h"/>
-   <depend name="include/flixel/util/_FlxSignal/FlxTypedSignal_Impl_.h"/>
+   <depend name="include/flixel/util/_FlxSignal/FlxSignalHandler.h"/>
+   <depend name="include/haxe/Exception.h"/>
+  </file>
+  <file name="src/flixel/util/IFlxSignal.cpp" >
+   <depend name="include/flixel/util/IFlxDestroyable.h"/>
+   <depend name="include/flixel/util/IFlxSignal.h"/>
+  </file>
+  <file name="src/flixel/util/_FlxSignal/FlxSignalHandler.cpp" >
+   <depend name="include/flixel/util/IFlxDestroyable.h"/>
+   <depend name="include/flixel/util/_FlxSignal/FlxSignalHandler.h"/>
   </file>
   <file name="src/flixel/util/FlxSaveStatus.cpp" >
    <depend name="include/flixel/util/FlxSaveStatus.h"/>
@@ -12322,24 +12330,16 @@
    <depend name="include/flixel/util/_FlxSignal/FlxSignal1.h"/>
    <depend name="include/haxe/Exception.h"/>
   </file>
-  <file name="src/flixel/util/_FlxSignal/FlxSignal1.cpp" >
+  <file name="src/flixel/util/_FlxSignal/FlxTypedSignal_Impl_.cpp" >
    <depend name="include/flixel/util/IFlxDestroyable.h"/>
    <depend name="include/flixel/util/IFlxSignal.h"/>
    <depend name="include/flixel/util/_FlxSignal/FlxBaseSignal.h"/>
+   <depend name="include/flixel/util/_FlxSignal/FlxSignal0.h"/>
    <depend name="include/flixel/util/_FlxSignal/FlxSignal1.h"/>
-   <depend name="include/flixel/util/_FlxSignal/FlxSignalHandler.h"/>
-  </file>
-  <file name="src/flixel/util/_FlxSignal/FlxBaseSignal.cpp" >
-   <depend name="include/flixel/util/FlxDestroyUtil.h"/>
-   <depend name="include/flixel/util/IFlxDestroyable.h"/>
-   <depend name="include/flixel/util/IFlxSignal.h"/>
-   <depend name="include/flixel/util/_FlxSignal/FlxBaseSignal.h"/>
-   <depend name="include/flixel/util/_FlxSignal/FlxSignalHandler.h"/>
-   <depend name="include/haxe/Exception.h"/>
-  </file>
-  <file name="src/flixel/util/IFlxSignal.cpp" >
-   <depend name="include/flixel/util/IFlxDestroyable.h"/>
-   <depend name="include/flixel/util/IFlxSignal.h"/>
+   <depend name="include/flixel/util/_FlxSignal/FlxSignal2.h"/>
+   <depend name="include/flixel/util/_FlxSignal/FlxSignal3.h"/>
+   <depend name="include/flixel/util/_FlxSignal/FlxSignal4.h"/>
+   <depend name="include/flixel/util/_FlxSignal/FlxTypedSignal_Impl_.h"/>
   </file>
   <file name="src/PlayState.cpp" >
    <depend name="include/AchievementObject.h"/>
@@ -14711,6 +14711,15 @@
   <file name="src/openfl/_Vector/IVector.cpp" >
    <depend name="include/openfl/_Vector/IVector.h"/>
   </file>
+  <file name="src/haxe/ds/StringMap.cpp" >
+   <depend name="include/haxe/IMap.h"/>
+   <depend name="include/haxe/ds/StringMap.h"/>
+   <depend name="include/haxe/iterators/ArrayIterator.h"/>
+   <depend name="include/haxe/iterators/MapKeyValueIterator.h"/>
+  </file>
+  <file name="src/haxe/IMap.cpp" >
+   <depend name="include/haxe/IMap.h"/>
+  </file>
   <file name="src/openfl/display/IBitmapDrawable.cpp" >
    <depend name="include/openfl/display/DisplayObject.h"/>
    <depend name="include/openfl/display/IBitmapDrawable.h"/>
@@ -15118,15 +15127,6 @@
    <depend name="include/openfl/events/EventDispatcher.h"/>
    <depend name="include/openfl/events/IEventDispatcher.h"/>
    <depend name="include/openfl/media/Sound.h"/>
-  </file>
-  <file name="src/haxe/ds/StringMap.cpp" >
-   <depend name="include/haxe/IMap.h"/>
-   <depend name="include/haxe/ds/StringMap.h"/>
-   <depend name="include/haxe/iterators/ArrayIterator.h"/>
-   <depend name="include/haxe/iterators/MapKeyValueIterator.h"/>
-  </file>
-  <file name="src/haxe/IMap.cpp" >
-   <depend name="include/haxe/IMap.h"/>
   </file>
   <file name="src/__boot__.cpp" >
    <depend name="include/openfl/display3D/_internal/_AGALConverter/RegisterUsage.h"/>

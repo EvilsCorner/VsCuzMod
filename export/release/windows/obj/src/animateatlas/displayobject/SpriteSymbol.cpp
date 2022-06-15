@@ -275,6 +275,9 @@ HXLINE( 127)							_hx_tmp = ::hx::TCast<  ::animateatlas::displayobject::Sprite
             							if (_hx_e.IsClass<  ::Dynamic >() ){
             								HX_STACK_BEGIN_CATCH
             								 ::Dynamic _g = _hx_e;
+HXLINE(   1)								{
+HXLINE(   1)									null();
+            								}
 HXLINE( 127)								_hx_tmp = null();
             							}
             							else {
@@ -345,6 +348,9 @@ HXLINE( 154)						oldSymbol = ::hx::TCast<  ::animateatlas::displayobject::Sprit
             						if (_hx_e.IsClass<  ::Dynamic >() ){
             							HX_STACK_BEGIN_CATCH
             							 ::Dynamic _g = _hx_e;
+HXLINE(   1)							{
+HXLINE(   1)								null();
+            							}
 HXLINE( 154)							oldSymbol = null();
             						}
             						else {
@@ -420,6 +426,9 @@ HXLINE( 210)						this->_library->putSymbol(oldSymbol);
             					if (_hx_e.IsClass<  ::Dynamic >() ){
             						HX_STACK_BEGIN_CATCH
             						 ::Dynamic _g = _hx_e;
+HXLINE(   1)						{
+HXLINE(   1)							null();
+            						}
             					}
             					else {
             						HX_STACK_DO_THROW(_hx_e);

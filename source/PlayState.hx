@@ -825,7 +825,7 @@ class PlayState extends MusicBeatState
 				liminalHillHell = new BGSprite('liminal/liminal-hill-hellscape',-1530,-1395,0.75,1);
 				liminalGroundHell = new BGSprite('liminal/liminal-ground-hellscape',-1497,-418,1,1);
 				liminalForegroundHell = new BGSprite('liminal/liminal-foreground-rocks',-651,-39,1,1);
-				liminalBenchHell = new BGSprite('liminal/liminal-bench-test',849,-120,0.5,1);
+				liminalBenchHell = new BGSprite('liminal/liminal-bench',849,-120,0.75,1, ['Lamp and Bench'], true);
 
 				add(liminalSkyHell);
 				add(liminalHillHell);

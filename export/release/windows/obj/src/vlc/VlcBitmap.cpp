@@ -443,7 +443,10 @@ HXDLIN( 376)							_hx_tmp->setPixels(_hx_tmp1,::openfl::utils::_ByteArray::Byte
             					if (_hx_e.IsClass<  ::Dynamic >() ){
             						HX_STACK_BEGIN_CATCH
             						 ::Dynamic _g = _hx_e;
-HXLINE(   1)						 ::Dynamic _g1 = ::haxe::Exception_obj::caught(_g)->unwrap();
+HXLINE(   1)						{
+HXLINE(   1)							null();
+            						}
+HXDLIN(   1)						 ::Dynamic _g1 = ::haxe::Exception_obj::caught(_g)->unwrap();
 HXLINE( 368)						if (::Std_obj::isOfType(_g1,::hx::ClassOf< ::openfl::errors::Error >())) {
 HXLINE(   1)							 ::openfl::errors::Error e = ( ( ::openfl::errors::Error)(_g1) );
 HXLINE( 386)							 ::Dynamic _hx_tmp = ::haxe::Log_obj::trace;

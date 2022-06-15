@@ -2881,14 +2881,20 @@
 #ifndef INCLUDED_flixel_util__FlxSignal_FlxSignal2
 #include <flixel/util/_FlxSignal/FlxSignal2.h>
 #endif
+#ifndef INCLUDED_flixel_util__FlxSignal_FlxSignal1
+#include <flixel/util/_FlxSignal/FlxSignal1.h>
+#endif
 #ifndef INCLUDED_flixel_util__FlxSignal_FlxSignal0
 #include <flixel/util/_FlxSignal/FlxSignal0.h>
 #endif
+#ifndef INCLUDED_flixel_util__FlxSignal_FlxBaseSignal
+#include <flixel/util/_FlxSignal/FlxBaseSignal.h>
+#endif
+#ifndef INCLUDED_flixel_util_IFlxSignal
+#include <flixel/util/IFlxSignal.h>
+#endif
 #ifndef INCLUDED_flixel_util__FlxSignal_FlxSignalHandler
 #include <flixel/util/_FlxSignal/FlxSignalHandler.h>
-#endif
-#ifndef INCLUDED_flixel_util__FlxSignal_FlxTypedSignal_Impl_
-#include <flixel/util/_FlxSignal/FlxTypedSignal_Impl_.h>
 #endif
 #ifndef INCLUDED_flixel_util_FlxPool_flixel_util_LabelValuePair
 #include <flixel/util/FlxPool_flixel_util_LabelValuePair.h>
@@ -3523,14 +3529,8 @@
 #ifndef INCLUDED_Prompt
 #include <Prompt.h>
 #endif
-#ifndef INCLUDED_flixel_util__FlxSignal_FlxSignal1
-#include <flixel/util/_FlxSignal/FlxSignal1.h>
-#endif
-#ifndef INCLUDED_flixel_util__FlxSignal_FlxBaseSignal
-#include <flixel/util/_FlxSignal/FlxBaseSignal.h>
-#endif
-#ifndef INCLUDED_flixel_util_IFlxSignal
-#include <flixel/util/IFlxSignal.h>
+#ifndef INCLUDED_flixel_util__FlxSignal_FlxTypedSignal_Impl_
+#include <flixel/util/_FlxSignal/FlxTypedSignal_Impl_.h>
 #endif
 #ifndef INCLUDED_NoteSplash
 #include <NoteSplash.h>
@@ -3718,6 +3718,12 @@
 #ifndef INCLUDED_lime_utils_ObjectPool
 #include <lime/utils/ObjectPool.h>
 #endif
+#ifndef INCLUDED_haxe_ds_StringMap
+#include <haxe/ds/StringMap.h>
+#endif
+#ifndef INCLUDED_haxe_IMap
+#include <haxe/IMap.h>
+#endif
 #ifndef INCLUDED_openfl_display_IBitmapDrawable
 #include <openfl/display/IBitmapDrawable.h>
 #endif
@@ -3771,12 +3777,6 @@
 #endif
 #ifndef INCLUDED_flixel_util_IFlxDestroyable
 #include <flixel/util/IFlxDestroyable.h>
-#endif
-#ifndef INCLUDED_haxe_ds_StringMap
-#include <haxe/ds/StringMap.h>
-#endif
-#ifndef INCLUDED_haxe_IMap
-#include <haxe/IMap.h>
 #endif
 
 void __files__boot();
@@ -4745,9 +4745,11 @@ __files__boot();
 ::flixel::util::_FlxSignal::FlxSignal4_obj::__register();
 ::flixel::util::_FlxSignal::FlxSignal3_obj::__register();
 ::flixel::util::_FlxSignal::FlxSignal2_obj::__register();
+::flixel::util::_FlxSignal::FlxSignal1_obj::__register();
 ::flixel::util::_FlxSignal::FlxSignal0_obj::__register();
+::flixel::util::_FlxSignal::FlxBaseSignal_obj::__register();
+::flixel::util::IFlxSignal_obj::__register();
 ::flixel::util::_FlxSignal::FlxSignalHandler_obj::__register();
-::flixel::util::_FlxSignal::FlxTypedSignal_Impl__obj::__register();
 ::flixel::util::FlxPool_flixel_util_LabelValuePair_obj::__register();
 ::flixel::util::FlxPool_obj::__register();
 ::flixel::util::FlxGradient_obj::__register();
@@ -4959,9 +4961,7 @@ __files__boot();
 ::ResetScoreSubState_obj::__register();
 ::Reflect_obj::__register();
 ::Prompt_obj::__register();
-::flixel::util::_FlxSignal::FlxSignal1_obj::__register();
-::flixel::util::_FlxSignal::FlxBaseSignal_obj::__register();
-::flixel::util::IFlxSignal_obj::__register();
+::flixel::util::_FlxSignal::FlxTypedSignal_Impl__obj::__register();
 ::NoteSplash_obj::__register();
 ::MenuItem_obj::__register();
 ::__ASSET__OPENFL__flixel_fonts_monsterrat_ttf_obj::__register();
@@ -5024,6 +5024,8 @@ __files__boot();
 ::haxe::ds::List_obj::__register();
 ::haxe::ds::ObjectMap_obj::__register();
 ::lime::utils::ObjectPool_obj::__register();
+::haxe::ds::StringMap_obj::__register();
+::haxe::IMap_obj::__register();
 ::openfl::display::IBitmapDrawable_obj::__register();
 ::openfl::events::EventDispatcher_obj::__register();
 ::openfl::events::IEventDispatcher_obj::__register();
@@ -5042,8 +5044,6 @@ __files__boot();
 ::flixel::util::IFlxPool_obj::__register();
 ::flixel::util::IFlxPooled_obj::__register();
 ::flixel::util::IFlxDestroyable_obj::__register();
-::haxe::ds::StringMap_obj::__register();
-::haxe::IMap_obj::__register();
 ::openfl::display3D::_internal::_AGALConverter::RegisterUsage_obj::__boot();
 ::openfl::display3D::_internal::_AGALConverter::ProgramType_obj::__boot();
 ::openfl::display::_internal::DrawCommandType_obj::__boot();

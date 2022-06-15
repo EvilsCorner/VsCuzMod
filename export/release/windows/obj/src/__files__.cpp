@@ -1756,7 +1756,6 @@ const char *__hxcpp_all_files_fullpath[] = {
 
 const char *__hxcpp_all_classes[] = {
 #ifdef HXCPP_DEBUGGER
-"haxe.ds.StringMap",
 "Achievements",
 "flixel.FlxBasic",
 "flixel.util.FlxPool_flixel_math_FlxRect",
@@ -1779,6 +1778,7 @@ const char *__hxcpp_all_classes[] = {
 "lime.app.Application",
 "ApplicationMain",
 "openfl.events.EventDispatcher",
+"haxe.ds.StringMap",
 "openfl._Vector.ObjectVector",
 "lime.utils.ObjectPool",
 "haxe.ds.ObjectMap",
@@ -1903,8 +1903,7 @@ const char *__hxcpp_all_classes[] = {
 "Paths",
 "PauseSubState",
 "PlayState",
-"flixel.util._FlxSignal.FlxBaseSignal",
-"flixel.util._FlxSignal.FlxSignal1",
+"flixel.util._FlxSignal.FlxTypedSignal_Impl_",
 "PlayerSettings",
 "Prompt",
 "Reflect",
@@ -2242,9 +2241,10 @@ const char *__hxcpp_all_classes[] = {
 "flixel.util.FlxPath",
 "flixel.util.FlxPool",
 "flixel.util.FlxPool_flixel_util_LabelValuePair",
-"flixel.util._FlxSignal.FlxTypedSignal_Impl_",
 "flixel.util._FlxSignal.FlxSignalHandler",
+"flixel.util._FlxSignal.FlxBaseSignal",
 "flixel.util._FlxSignal.FlxSignal0",
+"flixel.util._FlxSignal.FlxSignal1",
 "flixel.util._FlxSignal.FlxSignal2",
 "flixel.util._FlxSignal.FlxSignal3",
 "flixel.util._FlxSignal.FlxSignal4",

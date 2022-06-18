@@ -226,6 +226,7 @@ class PlayState extends MusicBeatState
 	var frontBushes:BGSprite;
 	private static var curWindow:Int = 0;
 	private static var lastWindow:Int = 0;
+	var cuzScreamReact:Bool = true; // temp!!
 
 	//liminal cuz
 	var liminalSkyNorm:BGSprite;
@@ -237,6 +238,7 @@ class PlayState extends MusicBeatState
 	var liminalGroundHell:BGSprite;
 	var liminalForegroundHell:BGSprite;
 	var liminalBenchHell:BGSprite;
+
 
 
 	public var songScore:Int = 0;
@@ -4305,13 +4307,19 @@ class PlayState extends MusicBeatState
 					case 'Scream Note':
 						boyfriend.playAnim('screamSolo', true);
 						boyfriend.specialAnim = true;
-						dad.playAnim("screamReact", true);
+						if(cuzScreamReact)
+							dad.playAnim("screamReact", false);
 						FlxG.camera.shake(0.01, 0.1, null, true);
 						//screamIdle = true;
 						boyfriend.idleSuffix = 'Scary';
 
 					case 'Stab Note':
 						if(dad.animation.getByName('stab' + stabcounter) != null) {
+							// if cuz isn't already stabbing, reset the counter
+							if(!dad.animation.curAnim.name.startsWith('stab1')){
+								stabcounter = 1;
+							}
+
 							dad.playAnim('stab'+stabcounter, true);
 							isStabbing = true;
 							dad.specialAnim = true;
@@ -4778,6 +4786,9 @@ class PlayState extends MusicBeatState
 						liminalGroundHell.visible = true;
 						liminalForegroundHell.visible = true;
 						liminalBenchHell.visible = true;
+					case 382:
+						cuzScreamReact = false;
+
 				}
 
 		}

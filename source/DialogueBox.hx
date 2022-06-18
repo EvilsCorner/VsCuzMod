@@ -18,6 +18,7 @@ class DialogueBox extends FlxSpriteGroup
 	var box:FlxSprite;
 
 	var curCharacter:String = '';
+	var prevCharacter:String = '';
 	var curPosition:String = '';
 	var curEmote:String = '';
 
@@ -82,7 +83,7 @@ class DialogueBox extends FlxSpriteGroup
 		*/
 
 		// dialog box sprite
-		box = new FlxSprite(-20, 45);
+		box = new FlxSprite(0, 425);
 		
 		var hasDialog = false;
 		hasDialog = true;
@@ -92,10 +93,6 @@ class DialogueBox extends FlxSpriteGroup
 		box.frames = Paths.getSparrowAtlas('speech_bubble_talkingALT', 'shared');
 		box.animation.addByPrefix('normalOpen', 'Speech Bubble Normal Open', 24, false);
 		box.animation.addByPrefix('normal', 'speech bubble normal', 24, true);
-		box.width = 200;
-		box.height = 200;
-		box.x = 100;
-		box.y = 425;
 
 		swagDialogue = new FlxTypeText(200, 465, Std.int(FlxG.width * 0.7), "", 32);
 		swagDialogue.setFormat(Paths.font("Dominican.TTF"), 60);
@@ -120,12 +117,13 @@ class DialogueBox extends FlxSpriteGroup
 		add(tempPortrait); // tempPortrait
 		tempPortrait.visible = false;
 
-		box.animation.play('normalOpen');
-		box.setGraphicSize(Std.int(box.width * PlayState.daPixelZoom * 0.9));
+		box.setGraphicSize(Std.int(box.width * 0.825),Std.int(box.height * 0.9));
 		box.updateHitbox();
-		add(box);
 		box.screenCenter(X);
 		box.x += 25;
+		box.animation.play('normal'); // temp!!! remove when open animation is fixed
+		add(box);
+		box.visible = false;
 
 		//handSelect = new FlxSprite(FlxG.width * 0.9, FlxG.height * 0.9).loadGraphic(Paths.image('weeb/pixelUI/hand_textbox'));
 		//add(handSelect);
@@ -148,6 +146,7 @@ class DialogueBox extends FlxSpriteGroup
 
 		///RESTRUCTURE THIS
 		// need it to open when the dialouge is actually present
+		
 		if (box.animation.curAnim != null)
 		{
 			if (box.animation.curAnim.name == 'normalOpen' && box.animation.curAnim.finished)
@@ -156,9 +155,10 @@ class DialogueBox extends FlxSpriteGroup
 				dialogueOpened = true;
 			}
 		}
+		
 
 		// if the dialouge box opens, start the dialogue
-		if (dialogueOpened && !dialogueStarted)
+		if (!dialogueStarted)
 		{
 			startDialogue();
 			dialogueStarted = true;
@@ -273,14 +273,19 @@ class DialogueBox extends FlxSpriteGroup
 			case 'r':
 				tempPortrait.flipX = false;
 				tempPortrait.setPosition(675, -65);
+				box.flipX = false;
 			case 'l':
 				tempPortrait.flipX = true;
 				tempPortrait.setPosition(80, -65); // this Y value should be changed lmaog?
+				box.flipX = true;
 		}
-
-		tempPortrait.animation.play('enter');
-
+		if(curCharacter != prevCharacter){
+			//box.animation.play('normalOpen');
+			// not yet!
+			tempPortrait.animation.play('enter');
+		}
 		swagDialogue.resetText(dialogueList[0]); // pop the text off
+		//if(dialogueOpened)
 		swagDialogue.start(0.04, true); // present
 
 	}
@@ -305,66 +310,81 @@ class DialogueBox extends FlxSpriteGroup
 
 		// this works pretty decently
 		if(splits[1] == 'SCENE')
-			{
+		{
+			try { 
 				cutSceneBG.loadGraphic(Paths.image('scenes/'+splits[2], 'weekCuz'));
-				//cutSceneBG.setGraphicSize(FlxG.width);
 				cutSceneBG.setGraphicSize(Std.int(cutSceneBG.width * 1)); // ??!
-				dialogueList[0] = ' '; // makes it not null
 				cutSceneBG.visible = true;
-				tempPortrait.visible = false;
-				box.visible = false;
+			}
+			catch(e) {
+				// no scene found :(
+				trace(e.message);
+				FlxG.log.add(e.message);
+				cutSceneBG.visible = false;
+			}
 
-				// name of sound effect
-				//trace("splits[3] =" + splits[3]);
-				if(splits[3] != null) {
-					var sound_ = new FlxSound().loadEmbedded(Paths.sound(splits[3]));
-					sound_.play();
-					//trace("sound = " + sound);
-					//trace("path = " + Paths.sound(splits[3]));
-					
-				}
-				// transition
-				// format:
-				// SCENE:1:sound:flash:0xFFFFFFFF:1.0
-				// SCENE:1::fade:0xFF000000:1.0:in // example with no sound
+			dialogueList[0] = ' '; // makes it not null
+			tempPortrait.visible = false;
+			box.visible = false;
+			prevCharacter = ''; // reset so box opens again
 
-				///this works, but all the effects are BEHIND the fucking cutscene sprite
-				/// how tf did this layering issue happen??
-				/// why are the camera effects behind everything in this damn class?
-				//// DONT USE FlxG.camera (non plural) FOR EFFECTS!
-				//// WORST MISTAKE OF MY LIFE!!!!!
-				if(splits[4] != null) {
-					var colour:FlxColor = new FlxColor(FlxColor.fromString(splits[5]));
-					var time:Float = Std.parseFloat(splits[6]);
-					trace("colour = " + colour);
-					trace("time = " + time);
-					switch(splits[4]){
-						case 'flash':
-						{
-							trace("---in flash");
-							FlxG.cameras.flash(colour, time);
-						}
+			// name of sound effect
+			//trace("splits[3] =" + splits[3]);
+			if(splits[3] != null) {
+				var sound_ = new FlxSound().loadEmbedded(Paths.sound(splits[3]));
+				sound_.play();
+				//trace("sound = " + sound);
+				//trace("path = " + Paths.sound(splits[3]));
+				
+			}
+			// transition
+			// format:
+			// SCENE:1:sound:flash:0xFFFFFFFF:1.0
+			// example with no sound
+			// SCENE:1::fade:0xFF000000:1.0:in 
 
-						case 'fade':
-						{
-							trace("---in fade");
-							var type = splits[7];
-							var fade = false;
-								switch(type){
-									case 'in':
-										fade = true;
-									case 'out':
-										fade = false;
-								}
-							FlxG.cameras.fade(colour, time, fade);
-						}
+			///this works, but all the effects are BEHIND the fucking cutscene sprite
+			/// how tf did this layering issue happen??
+			/// why are the camera effects behind everything in this damn class?
+			//// DONT USE FlxG.camera (non plural) FOR EFFECTS!
+			//// WORST MISTAKE OF MY LIFE!!!!!
+			if(splits[4] != null) {
+				var data:FlxColor = new FlxColor(FlxColor.fromString(splits[5]));
+				var time:Float = Std.parseFloat(splits[6]);
+				//trace("colour = " + colour);
+				//trace("time = " + time);
+				switch(splits[4]){
+					case 'flash':
+					{
+						//trace("---in flash");
+						FlxG.cameras.flash(data, time);
+					}
+
+					case 'fade':
+					{
+						//trace("---in fade");
+						var type = splits[7];
+						var fade = false;
+							switch(type){
+								case 'in':
+									fade = true;
+								case 'out':
+									fade = false;
+							}
+						FlxG.cameras.fade(data, time, fade);
+					}
+					case 'shake':
+					{
+						FlxG.cameras.shake(data, time);
 					}
 				}
 			}
+		}
 		else {
 			// normal dialogue
 			tempPortrait.visible = true;
 			box.visible = true; // temp
+			prevCharacter = curCharacter;
 			curCharacter = splits[1];
 			curPosition = splits[2];
 			curEmote = splits[3];
@@ -373,7 +393,7 @@ class DialogueBox extends FlxSpriteGroup
 				FlxG.sound.play(Paths.sound(splits[5]), 0.8);
 			}
 			
-			dialogueList[0] = splits[4];
+			dialogueList[0] = splits[4]; // pass actual dialogue
 		}
 	}
 }

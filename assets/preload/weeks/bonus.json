@@ -13,7 +13,7 @@
 	"storyName": "CRASH WRITE SOME DIALOGUE HERE",
 	"weekBefore": "weekCuz",
 	"weekName": "Bonus",
-	"startUnlocked": false,
+	"startUnlocked": true,
 
 	"hideStoryMode": false,
 	"hideFreeplay": false

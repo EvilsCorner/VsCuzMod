@@ -228,6 +228,11 @@ class PlayState extends MusicBeatState
 	private static var lastWindow:Int = 0;
 	var cuzScreamReact:Bool = true; // temp!!
 
+	var gfFloatTarget:Float;
+	var floatState:Int = -10;
+	var gfFloatSpeed:Int;
+	var floatTrigger:Bool = true;
+
 	//liminal cuz
 	var liminalSkyNorm:BGSprite;
 	var liminalHillNorm:BGSprite;
@@ -1380,6 +1385,23 @@ class PlayState extends MusicBeatState
 
 		Paths.clearUnusedMemory();
 		CustomFadeTransition.nextCamera = camOther;
+
+		gfFloatTarget= boyfriend.positionArray[1] + floatState;
+
+		switch(daSong)
+		{
+			case 'grappler':
+				boyfriend.danceEveryNumBeats = 2;
+				dad.danceEveryNumBeats = 2;
+			case 'imminence': 
+				boyfriend.danceEveryNumBeats = 1;
+				dad.danceEveryNumBeats = 1;
+			case 'equivocation':
+				boyfriend.danceEveryNumBeats = 1;
+				dad.danceEveryNumBeats = 1;
+			case 'exertion':
+				//meh
+		}
 	}
 
 	function set_songSpeed(value:Float):Float
@@ -2917,6 +2939,20 @@ class PlayState extends MusicBeatState
 		setOnLuas('cameraY', camFollowPos.y);
 		setOnLuas('botPlay', cpuControlled);
 		callOnLuas('onUpdatePost', [elapsed]);
+
+		if(boyfriend.curCharacter.startsWith('demongf')) {	
+			gfFloatSpeed = 2;
+			if(floatTrigger) {
+				floatTrigger = false;
+				FlxTween.tween(boyfriend, {y : gfFloatTarget}, (60 / Conductor.bpm)*gfFloatSpeed, {ease: FlxEase.sineInOut, onComplete:
+					function (twn:FlxTween) {
+						floatState*=-1;
+						floatTrigger = true;
+						gfFloatTarget= boyfriend.positionArray[1] + floatState;
+					}
+				});
+			}
+		}
 	}
 
 	function openChartEditor()
@@ -2936,6 +2972,27 @@ class PlayState extends MusicBeatState
 	function doDeathCheck(?skipHealthCheck:Bool = false) {
 		if (((skipHealthCheck && instakillOnMiss) || health <= 0) && !practiceMode && !isDead)
 		{
+			var songName:String = Paths.formatToSongPath(SONG.song);
+			var suffix:String = '';
+			switch (songName)
+			{
+				case 'grappler':
+					//GameOverSubstate.deathSoundName = 'fnf_loss_sfx-pixel';
+					suffix = '_song1';
+
+				case 'imminence':
+					suffix = '_song2';
+
+				case 'equivocation':
+					suffix = '_song3';
+
+				case 'exertion':
+					suffix = '_song4';
+			}
+
+			GameOverSubstate.loopSoundName = 'gameOver'+suffix;
+			GameOverSubstate.endSoundName = 'gameOverEnd'+suffix;
+
 			var ret:Dynamic = callOnLuas('onGameOver', []);
 			if(ret != FunkinLua.Function_Stop) {
 				boyfriend.stunned = true;
@@ -2954,7 +3011,7 @@ class PlayState extends MusicBeatState
 				for (timer in modchartTimers) {
 					timer.active = true;
 				}
-				openSubState(new GameOverSubstate(boyfriend.getScreenPosition().x - boyfriend.positionArray[0], boyfriend.getScreenPosition().y - boyfriend.positionArray[1], camFollowPos.x, camFollowPos.y));
+				openSubState(new GameOverSubstate(boyfriend.getScreenPosition().x - boyfriend.positionArray[0], boyfriend.getScreenPosition().y - boyfriend.positionArray[1], camFollowPos.x, camFollowPos.y, boyfriend.curCharacter));
 
 				// MusicBeatState.switchState(new GameOverState(boyfriend.getScreenPosition().x, boyfriend.getScreenPosition().y));
 				

@@ -48,6 +48,12 @@ class StoryMenuState extends MusicBeatState
 	var rightArrow:FlxSprite;
 
 	var loadedWeeks:Array<WeekData> = [];
+	
+	var dad:MenuCharacter;
+	var boyfriend:MenuCharacter;
+	var gf:MenuCharacter;
+
+	public var gfSpeed:Int = 1;
 
 	override function create()
 	{
@@ -196,6 +202,10 @@ class StoryMenuState extends MusicBeatState
 
 	override function update(elapsed:Float)
 	{
+		if (FlxG.sound.music != null)
+			Conductor.songPosition = FlxG.sound.music.time;
+
+		//trace("bitch2 " + curBeat);
 		// scoreText.setFormat('VCR OSD Mono', 32);
 		lerpScore = Math.floor(FlxMath.lerp(lerpScore, intendedScore, CoolUtil.boundTo(elapsed * 30, 0, 1)));
 		if(Math.abs(intendedScore - lerpScore) < 10) lerpScore = intendedScore;
@@ -268,6 +278,7 @@ class StoryMenuState extends MusicBeatState
 			lock.y = grpWeekText.members[lock.ID].y;
 			lock.visible = (lock.y > FlxG.height / 2);
 		});
+
 	}
 
 	var movedBack:Bool = false;
@@ -438,6 +449,11 @@ class StoryMenuState extends MusicBeatState
 			curDifficulty = newPos;
 		}
 		updateText();
+
+		dad = grpWeekCharacters.members[0];
+		boyfriend = grpWeekCharacters.members[1];
+		gf = grpWeekCharacters.members[2];
+		gf.recalculateDanceIdle();
 	}
 
 	function weekIsLocked(name:String):Bool {
@@ -473,4 +489,25 @@ class StoryMenuState extends MusicBeatState
 		intendedScore = Highscore.getWeekScore(loadedWeeks[curWeek].fileName, curDifficulty);
 		#end
 	}
+	override function beatHit()
+	{
+		super.beatHit();
+		trace("--- OI!! DANCE!" + curBeat);
+		if (gf != null)
+		{
+			gf.dance();
+		}
+		if (boyfriend != null)
+		{
+			//boyfriend.animation.play('idle');
+			boyfriend.dance();
+		}
+		if (dad != null)
+		{
+			//dad.animation.play('idle');
+			dad.dance();
+		}
+	}
+
+
 }

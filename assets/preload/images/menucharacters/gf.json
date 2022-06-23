@@ -6,6 +6,7 @@
 		-25
 	],
 	"scale": 1,
-	"idle_anim": "M GF Idle",
+	"idle_anim": "M GF IdleL",
+	"idle_anim2": "M GF IdleR",
 	"confirm_anim": "M GF Idle"
 }

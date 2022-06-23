@@ -83,7 +83,7 @@ class DialogueBox extends FlxSpriteGroup
 		*/
 
 		// dialog box sprite
-		box = new FlxSprite(0, 425);
+		box = new FlxSprite(0, 395);
 		
 		var hasDialog = false;
 		hasDialog = true;
@@ -121,7 +121,7 @@ class DialogueBox extends FlxSpriteGroup
 		box.updateHitbox();
 		box.screenCenter(X);
 		box.x += 25;
-		box.animation.play('normal'); // temp!!! remove when open animation is fixed
+		//box.animation.play('normal'); // temp!!! remove when open animation is fixed
 		add(box);
 		box.visible = false;
 
@@ -280,7 +280,7 @@ class DialogueBox extends FlxSpriteGroup
 				box.flipX = true;
 		}
 		if(curCharacter != prevCharacter){
-			//box.animation.play('normalOpen');
+			box.animation.play('normalOpen');
 			// not yet!
 			tempPortrait.animation.play('enter');
 		}
@@ -375,6 +375,7 @@ class DialogueBox extends FlxSpriteGroup
 					}
 					case 'shake':
 					{
+						//nfg
 						FlxG.cameras.shake(data, time);
 					}
 				}

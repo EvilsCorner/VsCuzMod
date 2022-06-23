@@ -22,7 +22,7 @@
 :GF:l:Flirty:Mmhmm~...
 :BF:r:Cheeky:Damn, that's, like, a way better plan. Let's hurry back and-
 :SCENE:2:whoosh:flash:0xFFFFFFFF:0.5
-:SCENE:3:knifeHitWall:flash:0xFFFFFFFF:0.5
+:SCENE:3:knifeHitWall:0xFFFFFFFF:0.5
 :GF:l:Shocked:...
 :BF:r:Shocked:...
 :Cuz:l:Default:You gotta be kidding me- 
@@ -38,7 +38,7 @@
 :GF:r:Annoyed:Listen, can you move or what? I don't have time for this tonight, I'm trying to get home.
 :Cuz:l:Enraged:Yeah, like hell you are-
 :SCENE:6::flash:0xFFFFFFFF:0.5
-:BF:r:Shocked:Wait, wait, wait-!
+:BF:r:Shocked:Wait, wait, wait-!:wait
 :SCENE:7::flash:0xFFFFFFFF:0.5
 :Cuz:l:Shocked:Wh-...Boyfriend? What the hell are you doing here?
 :GF:r:Surprised:Hold on, you know him? 

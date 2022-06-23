@@ -19,7 +19,7 @@ class GameOverSubstate extends MusicBeatSubstate
 
 	var stageSuffix:String = "";
 
-	public static var characterName:String = 'bf';
+	public static var characterName:String = '';
 	public static var deathSoundName:String = 'fnf_loss_sfx';
 	public static var loopSoundName:String = 'gameOver';
 	public static var endSoundName:String = 'gameOverEnd';
@@ -41,13 +41,15 @@ class GameOverSubstate extends MusicBeatSubstate
 		super.create();
 	}
 
-	public function new(x:Float, y:Float, camX:Float, camY:Float)
+	public function new(x:Float, y:Float, camX:Float, camY:Float, characterName_:String)
 	{
 		super();
 
 		PlayState.instance.setOnLuas('inGameOver', true);
 
 		Conductor.songPosition = 0;
+
+		characterName = characterName_;
 
 		boyfriend = new Boyfriend(x, y, characterName);
 		boyfriend.x += boyfriend.positionArray[0];

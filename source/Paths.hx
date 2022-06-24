@@ -357,7 +357,7 @@ class Paths
 			return currentTrackedAssets.get(path);
 		}
 		trace('oh no its returning null NOOOO');
-		trace('path was:' +key + ' , ' + library);
+		trace('path was:' +key + ', ' + library);
 		return null;
 	}
 

@@ -180,7 +180,7 @@ class CreditsMenu extends MusicBeatState
 			}
 			if(FlxG.keys.justPressed.RIGHT)
 				{
-					consoleBox.alpha = 0;
+					FlxG.switchState(new GalleryState());
 				}
 			if(FlxG.keys.justPressed.LEFT)
 				{

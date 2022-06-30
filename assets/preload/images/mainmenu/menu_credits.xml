@@ -1,14 +1,15 @@
-﻿<TextureAtlas imagePath="menu_credits.png">
-	<SubTexture name="credit basic0000" x="3" y="3" w="441" h="106"/>
-	<SubTexture name="credit basic0001" x="3" y="3" w="441" h="106"/>
-	<SubTexture name="credit basic0002" x="3" y="3" w="441" h="106"/>
-	<SubTexture name="credit basic0003" x="459" y="3" w="441" h="106"/>
-	<SubTexture name="credit basic0004" x="459" y="3" w="441" h="106"/>
-	<SubTexture name="credit basic0005" x="459" y="3" w="441" h="106"/>
-	<SubTexture name="credit basic0006" x="3" y="124" w="441" h="106"/>
-	<SubTexture name="credit basic0007" x="3" y="124" w="441" h="106"/>
-	<SubTexture name="credit basic0008" x="3" y="124" w="441" h="106"/>
-	<SubTexture name="credit white0000" x="3" y="245" w="659" h="166"/>
-	<SubTexture name="credit white0001" x="3" y="426" w="659" h="166"/>
-	<SubTexture name="credit white0002" x="3" y="607" w="659" h="166"/>
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="menu_credits.png">
+	<SubTexture name="credits basic0000" x="3" y="3" width="441" height="106"/>
+	<SubTexture name="credits basic0001" x="3" y="3" width="441" height="106"/>
+	<SubTexture name="credits basic0002" x="3" y="3" width="441" height="106"/>
+	<SubTexture name="credits basic0003" x="459" y="3" width="441" height="106"/>
+	<SubTexture name="credits basic0004" x="459" y="3" width="441" height="106"/>
+	<SubTexture name="credits basic0005" x="459" y="3" width="441" height="106"/>
+	<SubTexture name="credits basic0006" x="3" y="124" width="441" height="106"/>
+	<SubTexture name="credits basic0007" x="3" y="124" width="441" height="106"/>
+	<SubTexture name="credits basic0008" x="3" y="124" width="441" height="106"/>
+	<SubTexture name="credits white0000" x="3" y="245" width="659" height="166"/>
+	<SubTexture name="credits white0001" x="3" y="426" width="659" height="166"/>
+	<SubTexture name="credits white0002" x="3" y="607" width="659" height="166"/>
 </TextureAtlas>

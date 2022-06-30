@@ -1,4 +1,4 @@
 ﻿<TextureAtlas imagePath="menu_gallery.png">
-	<SubTexture name="gallery basic0000" x="3" y="3" w="451" h="98"/>
-	<SubTexture name="gallery selected0000" x="3" y="116" w="604" h="130"/>
+	<SubTexture name="gallery basic0000" x="3" y="3" width="451" height="98"/>
+	<SubTexture name="gallery white0000" x="3" y="116" width="604" height="130"/>
 </TextureAtlas>

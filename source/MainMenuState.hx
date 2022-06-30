@@ -37,10 +37,10 @@ class MainMenuState extends MusicBeatState
 		'freeplay',
 		//#if MODS_ALLOWED 'mods', #end
 		//#if ACHIEVEMENTS_ALLOWED 'awards', #end
-		'gallery',
 		'credits',
 		//#if !switch 'donate', #end
-		'options'
+		'options',
+		'gallery'
 	];
 
 	var magenta:FlxSprite;

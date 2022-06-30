@@ -1,0 +1,3 @@
+﻿<TextureAtlas imagePath="malakaiLock.png">
+	<SubTexture name="malakailock instance 10000" x="3" y="3" w="78" h="104"/>
+</TextureAtlas>

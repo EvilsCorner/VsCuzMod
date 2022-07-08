@@ -48,7 +48,7 @@ class MainMenuState extends MusicBeatState
 	var camFollowPos:FlxObject;
 	var debugKeys:Array<FlxKey>;
 
-	var canGallery:Bool = false; //FlxG.save.data.gallery;
+	var canGallery:Bool = FlxG.save.data.gallery;
 	var galleryLock:FlxSprite;
 	var malakaiHand:FlxSprite;
 

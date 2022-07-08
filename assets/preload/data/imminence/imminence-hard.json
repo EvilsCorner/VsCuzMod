@@ -3,6 +3,16 @@
 		"player1": "bf-dressed",
 		"events": [
 			[
+				91200,
+				[
+					[
+						"Change Character",
+						"gf",
+						"gf-bushes-gleam"
+					]
+				]
+			],
+			[
 				99600,
 				[
 					[
@@ -169,6 +179,11 @@
 						"Add Camera Zoom",
 						"",
 						""
+					],
+					[
+						"Change Character",
+						"gf",
+						"gf-bushes"
 					]
 				]
 			],
@@ -4342,6 +4357,56 @@
 				"mustHitSection": true
 			},
 			{
+				"lengthInSteps": 16,
+				"typeOfSection": 0,
+				"sectionNotes": [],
+				"altAnim": false,
+				"gfSection": false,
+				"bpm": 100,
+				"changeBPM": false,
+				"mustHitSection": true
+			},
+			{
+				"sectionNotes": [],
+				"typeOfSection": 0,
+				"lengthInSteps": 16,
+				"gfSection": false,
+				"altAnim": false,
+				"mustHitSection": true,
+				"changeBPM": false,
+				"bpm": 100
+			},
+			{
+				"sectionNotes": [],
+				"typeOfSection": 0,
+				"lengthInSteps": 16,
+				"gfSection": false,
+				"altAnim": false,
+				"mustHitSection": true,
+				"changeBPM": false,
+				"bpm": 100
+			},
+			{
+				"gfSection": false,
+				"lengthInSteps": 16,
+				"altAnim": false,
+				"typeOfSection": 0,
+				"sectionNotes": [],
+				"bpm": 100,
+				"changeBPM": false,
+				"mustHitSection": true
+			},
+			{
+				"gfSection": false,
+				"lengthInSteps": 16,
+				"altAnim": false,
+				"typeOfSection": 0,
+				"sectionNotes": [],
+				"bpm": 100,
+				"changeBPM": false,
+				"mustHitSection": true
+			},
+			{
 				"gfSection": false,
 				"lengthInSteps": 16,
 				"altAnim": false,
@@ -4355,9 +4420,9 @@
 		"gfVersion": "gf-bushes",
 		"player2": "cuz2",
 		"song": "Imminence",
-		"validScore": true,
 		"needsVoices": true,
 		"stage": "downtown",
+		"validScore": true,
 		"bpm": 100,
 		"speed": 2.4
 	}

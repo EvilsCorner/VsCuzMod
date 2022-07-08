@@ -48,6 +48,10 @@ class MainMenuState extends MusicBeatState
 	var camFollowPos:FlxObject;
 	var debugKeys:Array<FlxKey>;
 
+	var canGallery:Bool = false; //FlxG.save.data.gallery;
+	var galleryLock:FlxSprite;
+	var malakaiHand:FlxSprite;
+
 	override function create()
 	{
 		WeekData.loadTheFirstEnabledMod();
@@ -118,9 +122,28 @@ class MainMenuState extends MusicBeatState
 			menuItem.ID = i;
 			menuItem.screenCenter(X);
 			menuItems.add(menuItem);
-			var scr:Float = (optionShit.length - 4) * 0.135;
-			if(optionShit.length < 6) scr = 0;
+			var scr:Float = (optionShit.length - 3) * 0.135;
+			if(optionShit.length < 5) scr = 0;
 			menuItem.scrollFactor.set(0, scr);
+			if(i == 4) 
+			{
+				if(!canGallery)
+				{
+					//menuItem.alpha = 0.7;
+					galleryLock = new FlxSprite(menuItem.x + menuItem.width, menuItem.y).loadGraphic(Paths.image('mainmenu/malakaiLock'));
+					galleryLock.scrollFactor.set(0, scr);
+					add(galleryLock);
+					galleryLock.updateHitbox();
+				}
+				{
+					malakaiHand = new FlxSprite(200,200);
+					malakaiHand.frames = Paths.getSparrowAtlas('mainmenu/Malakai Hand Bop');
+					malakaiHand.animation.addByPrefix('idle', "malakaiarm instance 1", 24);
+					malakaiHand.animation.play('idle');
+					malakaiHand.scrollFactor.set(0, scr);
+					add(malakaiHand);
+				}
+			} 
 			menuItem.antialiasing = ClientPrefs.globalAntialiasing;
 			//menuItem.setGraphicSize(Std.int(menuItem.width * 0.58));
 			menuItem.updateHitbox();
@@ -170,6 +193,7 @@ class MainMenuState extends MusicBeatState
 
 	override function update(elapsed:Float)
 	{
+	
 		if (FlxG.sound.music.volume < 0.8)
 		{
 			FlxG.sound.music.volume += 0.5 * FlxG.elapsed;
@@ -205,6 +229,10 @@ class MainMenuState extends MusicBeatState
 				{
 					CoolUtil.browserLoad('https://ninja-muffin24.itch.io/funkin');
 				}
+				else if (optionShit[curSelected] == 'gallery' && !canGallery)
+				{
+					// do nothing
+				}
 				else
 				{
 					selectedSomethin = true;
@@ -216,6 +244,8 @@ class MainMenuState extends MusicBeatState
 					{
 						if (curSelected != spr.ID)
 						{
+							if(spr.ID == 4 && !canGallery) galleryLock.alpha = 0; malakaiHand.alpha = 0;
+							
 							FlxTween.tween(spr, {alpha: 0}, 0.4, {
 								ease: FlxEase.quadOut,
 								onComplete: function(twn:FlxTween)
@@ -261,12 +291,29 @@ class MainMenuState extends MusicBeatState
 			#end
 		}
 
-		super.update(elapsed);
-
 		menuItems.forEach(function(spr:FlxSprite)
 		{
+			if(spr.ID == 4) 
+			{
+				spr.updateHitbox();
+				spr.screenCenter(X); /// Gahhh
+				if(!canGallery)
+				{
+					galleryLock.x = spr.x + spr.width;
+					galleryLock.y = spr.y;
+					malakaiHand.x = spr.x + spr.width + galleryLock.width;
+					malakaiHand.y = spr.y;
+				}
+				else
+				{
+					malakaiHand.x = spr.x + spr.width;
+					malakaiHand.y = spr.y;
+				}
+			}
 			spr.screenCenter(X);
 		});
+
+		super.update(elapsed);
 	}
 
 	function changeItem(huh:Int = 0)

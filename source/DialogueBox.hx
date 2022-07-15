@@ -54,18 +54,18 @@ class DialogueBox extends FlxSpriteGroup
 		// decides what song is playing during dialouge
 		switch (PlayState.SONG.song.toLowerCase())
 		{
-			/*
-			case 'senpai':
-				sound = new FlxSound().loadEmbedded(Paths.music('Lunchbox'),true);
+			
+			case 'grappler':
+				sound = new FlxSound().loadEmbedded(Paths.sound('downtownAmbience'),true);
 				sound.volume = 0;
 				FlxG.sound.list.add(sound);
 				sound.fadeIn(1, 0, 0.8);
-			case 'thorns':
-				sound = new FlxSound().loadEmbedded(Paths.music('LunchboxScary'),true);
+			case 'exertion':
+				sound = new FlxSound().loadEmbedded(Paths.sound('parkAmbience'),true);
 				sound.volume = 0;
 				FlxG.sound.list.add(sound);
 				sound.fadeIn(1, 0, 0.8);
-				*/
+				
 		}
 
 		// add bg colour sprite
@@ -197,12 +197,9 @@ class DialogueBox extends FlxSpriteGroup
 				tempPortrait.visible = false;
 				//cutSceneBG.visible = false;
 
-				//fade out of background music thats hardcoded
-				//lol
-				/*
-				if (PlayState.SONG.song.toLowerCase() == 'senpai' || PlayState.SONG.song.toLowerCase() == 'thorns')
-					sound.fadeOut(2.2, 0);
-				*/
+				//fade out of background music
+				if (sound != null) sound.fadeOut(2.2, 0);
+				
 
 				// fade out graphics
 				new FlxTimer().start(0.01, function(tmr:FlxTimer)

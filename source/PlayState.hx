@@ -3011,7 +3011,11 @@ class PlayState extends MusicBeatState
 				for (timer in modchartTimers) {
 					timer.active = true;
 				}
-				openSubState(new GameOverSubstate(boyfriend.getScreenPosition().x - boyfriend.positionArray[0], boyfriend.getScreenPosition().y - boyfriend.positionArray[1], camFollowPos.x, camFollowPos.y, boyfriend.curCharacter));
+				var gameOverChar = boyfriend.curCharacter;
+				//if(boyfriend.curCharacter.startsWith('demongf4')) gameOverChar = "demongf";
+
+				openSubState(new GameOverSubstate(boyfriend.getScreenPosition().x - boyfriend.positionArray[0], boyfriend.getScreenPosition().y - boyfriend.positionArray[1], 
+							camFollowPos.x, camFollowPos.y, gameOverChar));
 
 				// MusicBeatState.switchState(new GameOverState(boyfriend.getScreenPosition().x, boyfriend.getScreenPosition().y));
 				
@@ -4166,7 +4170,8 @@ class PlayState extends MusicBeatState
 			}
 		}
 
-		gf.playAnim('sad', true);
+		if(gf.animation.getByName('sad') != null) 
+			gf.playAnim('sad', true);
 
 		health -= daNote.missHealth * healthLoss;
 		if(instakillOnMiss)
@@ -4838,6 +4843,7 @@ class PlayState extends MusicBeatState
 				{
 					case 288:
 						FlxG.camera.flash(0xFFA70010, 0.5, true); //red flash
+						FlxG.sound.play(Paths.sound('exertionEchoes5'));
 						//liminalHill.visible = false;
 						//liminalHell.visible = true;
 

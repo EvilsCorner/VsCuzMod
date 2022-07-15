@@ -1,0 +1,4 @@
+﻿<TextureAtlas imagePath="GalleryContraband.png">
+	<SubTexture name="contraband_basic0000" x="5" y="5" width="576" height="275"/>
+	<SubTexture name="contraband_selected0000" x="5" y="295" width="734" height="350"/>
+</TextureAtlas>

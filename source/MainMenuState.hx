@@ -51,6 +51,7 @@ class MainMenuState extends MusicBeatState
 	var canGallery:Bool = FlxG.save.data.gallery;
 	var galleryLock:FlxSprite;
 	var malakaiHand:FlxSprite;
+	var malakaiMove:Bool = false;
 
 	override function create()
 	{
@@ -231,7 +232,7 @@ class MainMenuState extends MusicBeatState
 				}
 				else if (optionShit[curSelected] == 'gallery' && !canGallery)
 				{
-					// do nothing
+					// do nothing if you cant access the gallery
 				}
 				else
 				{
@@ -244,7 +245,10 @@ class MainMenuState extends MusicBeatState
 					{
 						if (curSelected != spr.ID)
 						{
-							if(spr.ID == 4 && !canGallery) galleryLock.alpha = 0; malakaiHand.alpha = 0;
+							if(spr.ID == 4) {
+								if(!canGallery) galleryLock.alpha = 0; 
+								malakaiHand.alpha = 0;
+							}
 							
 							FlxTween.tween(spr, {alpha: 0}, 0.4, {
 								ease: FlxEase.quadOut,
@@ -256,6 +260,17 @@ class MainMenuState extends MusicBeatState
 						}
 						else
 						{
+							if(spr.ID == 4) { 
+								malakaiMove = true;
+								var tempY = malakaiHand.y;
+								FlxTween.tween(malakaiHand, {y: tempY-50}, 0.2, {ease: FlxEase.cubeInOut,
+									 onComplete: function(twn:FlxTween)
+										{
+											FlxTween.tween(malakaiHand, {y: FlxG.height*1.5}, 0.3, {ease: FlxEase.quadOut});
+										}
+									}); 
+							}
+
 							FlxFlicker.flicker(spr, 1, 0.06, false, false, function(flick:FlxFlicker)
 							{
 								var daChoice:String = optionShit[curSelected];
@@ -306,8 +321,10 @@ class MainMenuState extends MusicBeatState
 				}
 				else
 				{
-					malakaiHand.x = spr.x + spr.width;
-					malakaiHand.y = spr.y;
+					if(!malakaiMove) {
+						malakaiHand.x = spr.x + spr.width;
+						malakaiHand.y = spr.y;
+					}
 				}
 			}
 			spr.screenCenter(X);

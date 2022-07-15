@@ -320,27 +320,26 @@
 	<SubTexture name="GF Game Over Dies0034" x="6633" y="2623" width="653" height="644"/>
 	<SubTexture name="GF Game Over Dies0035" x="6633" y="2623" width="653" height="644"/>
 	<SubTexture name="GF Game Over Dies0036" x="6633" y="2623" width="653" height="644"/>
-	<SubTexture name="GF Game Over Dies0037" x="7296" y="2623" width="653" height="644"/>
-	<SubTexture name="GF Game Over Dies0038" x="6633" y="2623" width="653" height="644"/>
-	<SubTexture name="GF Game Over Dies0039" x="7296" y="2623" width="653" height="644"/>
-	<SubTexture name="GF Game Over Dies0040" x="7296" y="2623" width="653" height="644"/>
-	<SubTexture name="GF Game Over Dies0041" x="7296" y="2623" width="653" height="644"/>
-	<SubTexture name="GF Game Over Dies0042" x="7296" y="2623" width="653" height="644"/>
-	<SubTexture name="GF Game Over Dies0043" x="7296" y="2623" width="653" height="644"/>
-	<SubTexture name="GF Game Over Dies0044" x="7296" y="2623" width="653" height="644"/>
-	<SubTexture name="GF Game Over Dies0045" x="7296" y="2623" width="653" height="644"/>
-	<SubTexture name="GF Game Over Dies0046" x="7296" y="2623" width="653" height="644"/>
-	<SubTexture name="GF Game Over Dies0047" x="7296" y="2623" width="653" height="644"/>
-	<SubTexture name="GF Game Over Dies0048" x="3" y="3277" width="653" height="644"/>
-	<SubTexture name="GF Game Over Dies0049" x="7296" y="2623" width="653" height="644"/>
-	<SubTexture name="GF Game Over Dies0050" x="3" y="3277" width="653" height="644"/>
-	<SubTexture name="GF Game Over Dies0051" x="3" y="3277" width="653" height="644"/>
-	<SubTexture name="GF Game Over Dies0052" x="3" y="3277" width="653" height="644"/>
-	<SubTexture name="GF Game Over Dies0053" x="3" y="3277" width="653" height="644"/>
-	<SubTexture name="GF Game Over Dies0054" x="3" y="3277" width="653" height="644"/>
-	<SubTexture name="GF Game Over Dies0055" x="3" y="3277" width="653" height="644"/>
-	<SubTexture name="GF Game Over Dies0056" x="666" y="3277" width="653" height="644"/>
-	<SubTexture name="GF Game Over Dies0057" x="666" y="3277" width="653" height="644"/>
+	<SubTexture name="GF Game Over Dies0031" x="0" y="5000" width="653" height="643"/> <!--fade start-->
+	<SubTexture name="GF Game Over Dies0032" x="653" y="5000" width="653" height="643"/>
+	<SubTexture name="GF Game Over Dies0033" x="1306" y="5000" width="653" height="643"/>
+	<SubTexture name="GF Game Over Dies0034" x="1959" y="5000" width="653" height="643"/>
+	<SubTexture name="GF Game Over Dies0035" x="2612" y="5000" width="653" height="643"/>
+	<SubTexture name="GF Game Over Dies0036" x="3265" y="5000" width="653" height="643"/>
+	<SubTexture name="GF Game Over Dies0037" x="3918" y="5000" width="653" height="643"/>
+	<SubTexture name="GF Game Over Dies0038" x="4571" y="5000" width="653" height="643"/>
+	<SubTexture name="GF Game Over Dies0039" x="5224" y="5000" width="653" height="643"/>
+	<SubTexture name="GF Game Over Dies0040" x="5877" y="5000" width="653" height="643"/>
+	<SubTexture name="GF Game Over Dies0041" x="6530" y="5000" width="653" height="643"/>
+	<SubTexture name="GF Game Over Dies0042" x="7183" y="5000" width="653" height="643"/>
+	<SubTexture name="GF Game Over Dies0043" x="0" y="5654" width="653" height="643"/>
+	<SubTexture name="GF Game Over Dies0044" x="653" y="5654" width="653" height="643"/>
+	<SubTexture name="GF Game Over Dies0045" x="2612" y="5654" width="653" height="643"/>
+	<SubTexture name="GF Game Over Dies0046" x="3265" y="5654" width="653" height="643"/>
+	<SubTexture name="GF Game Over Dies0047" x="3918" y="5654" width="653" height="643"/>
+	<SubTexture name="GF Game Over Dies0048" x="4571" y="5654" width="653" height="644"/>
+	<SubTexture name="GF Game Over Dies0049" x="5224" y="5654" width="653" height="644"/>
+	<SubTexture name="GF Game Over Dies0050" x="5224" y="5654" width="653" height="644"/> <!--fade end-->
 	<SubTexture name="GF SCREAM FULL0000" x="1329" y="3277" width="814" height="804"/>
 	<SubTexture name="GF SCREAM FULL0001" x="1329" y="3277" width="814" height="804"/>
 	<SubTexture name="GF SCREAM FULL0002" x="2153" y="3277" width="814" height="804"/>

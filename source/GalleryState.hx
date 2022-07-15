@@ -25,14 +25,14 @@ class GalleryState extends MusicBeatState
 
 	var curSelected:Int = -1;
 	public var exhibits = new FlxTypedGroup<FlxSprite>();
-	var exhibitTotal = 24;
+	var exhibitTotal = 25;
 
 	public var contraBand = new FlxTypedGroup<FlxSprite>();
 	var contraBandTotal = 11;
 
 	var currGalleryTotal = 0;
 
-	var galleryToggle:Bool = false;
+	var contraToggle:Bool = false;
 
 	public var acceptInput:Bool = true;
 
@@ -71,7 +71,8 @@ class GalleryState extends MusicBeatState
 		'No Furries',
 		'Overcalculation',
 		'Reeheehee',
-		'Them Flustered'
+		'Them Flustered',
+		"PRIVATE!! Do NOT Press ENTER. Don't!! DON'T PRESS IT!!!"
 	];
 
 	private static var contrabandDesc:Array<String> 
@@ -229,7 +230,7 @@ class GalleryState extends MusicBeatState
 
 	override function update(elapsed:Float)
 	{
-		if(!galleryToggle){
+		if(!contraToggle){
 			currGalleryTotal = exhibitTotal;
 			menuBG.color = FlxColor.WHITE;
 		}
@@ -275,8 +276,14 @@ class GalleryState extends MusicBeatState
 			}
 			if (controls.ACCEPT)
 			{
-				galleryToggle = !galleryToggle;
-				changeItem(0,true);
+				if(curSelected == currGalleryTotal-1 && !contraToggle)
+				{
+					contraToggle = !contraToggle;
+					changeItem(0,true);
+				} else if (contraToggle) {
+					contraToggle = !contraToggle;
+					changeItem(0,true);
+				}
 			}
 
 			// animation
@@ -297,7 +304,10 @@ class GalleryState extends MusicBeatState
 		if(curSelected == -1)
 			changeItem(1);
 
-		FlxG.save.flush();
+		if(!contraToggle)
+			titleText.text = 'Gallery   ' + (curSelected+1) + '/' + (currGalleryTotal);
+		else
+			titleText.text = 'Contraband   ' + (curSelected+1) + '/' + (currGalleryTotal);
 
 		super.update(elapsed);
 	}
@@ -315,7 +325,7 @@ class GalleryState extends MusicBeatState
 
 		if(curSelected >= 0 && curSelected <= currGalleryTotal-1)
 		{
-			if(!galleryToggle)
+			if(!contraToggle)
 			{	descText.text = galleryDesc[curSelected];
 				exhibits.visible = true;
 				contraBand.visible = false;
@@ -332,7 +342,7 @@ class GalleryState extends MusicBeatState
 
 		// update sprites
 		//var loop:Int = 0;
-		if(!galleryToggle)
+		if(!contraToggle)
 		{
 			exhibits.forEach(function(spr:FlxSprite)
 			{
@@ -367,9 +377,5 @@ class GalleryState extends MusicBeatState
 					//loop++;
 				});
 		}
-		if(!galleryToggle)
-			titleText.text = 'Gallery   ' + (curSelected+1) + '/' + (currGalleryTotal);
-		else
-			titleText.text = 'Contraband   ' + (curSelected+1) + '/' + (currGalleryTotal);
 	}
 }

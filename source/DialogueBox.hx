@@ -56,10 +56,13 @@ class DialogueBox extends FlxSpriteGroup
 		{
 			
 			case 'grappler':
-				sound = new FlxSound().loadEmbedded(Paths.sound('downtownAmbience'),true);
+				sound = new FlxSound().loadEmbedded(Paths.sound('bfgf'),true);
 				sound.volume = 0;
 				FlxG.sound.list.add(sound);
-				sound.fadeIn(1, 0, 0.8);
+				new FlxTimer().start(1, function(timer) 
+				{
+					sound.fadeIn(0.1, 0, 0.8);
+				});
 			case 'exertion':
 				sound = new FlxSound().loadEmbedded(Paths.sound('parkAmbience'),true);
 				sound.volume = 0;
@@ -136,6 +139,7 @@ class DialogueBox extends FlxSpriteGroup
 
 	var dialogueOpened:Bool = false;
 	var dialogueStarted:Bool = false;
+	var tempBool:Bool = true;
 
 	override function update(elapsed:Float)
 	{
@@ -153,6 +157,7 @@ class DialogueBox extends FlxSpriteGroup
 			{
 				box.animation.play('normal');
 				dialogueOpened = true;
+				tempBool = true;
 			}
 		}
 		
@@ -180,6 +185,8 @@ class DialogueBox extends FlxSpriteGroup
 			}
 			else
 			{
+
+					
 				// if the dialogue is not NULL,
 				// delete the first character (which is the first ':')
 				// use the startDialouge function to draw the text
@@ -190,64 +197,57 @@ class DialogueBox extends FlxSpriteGroup
 
 		}
 		if (isEnding)
+		{
+			isEnding = false; // run this code more than once at your peril
+			noAdvance = true;
+
+			tempPortrait.visible = false;
+			//cutSceneBG.visible = false;
+
+			//fade out of background music
+			if (sound != null) sound.fadeOut(2.2, 0);
+			
+
+			// fade out graphics
+			new FlxTimer().start(0.01, function(tmr:FlxTimer)
 			{
-				isEnding = false; // run this code more than once at your peril
-				noAdvance = true;
-
-				tempPortrait.visible = false;
-				//cutSceneBG.visible = false;
-
-				//fade out of background music
-				if (sound != null) sound.fadeOut(2.2, 0);
+				box.alpha -= 1 / 100;
+				//bgFade.alpha -= 1 / 10;
+				cutSceneBG.alpha -= 1 / 100;
+				//portraitLeft.visible = false;
+				//portraitRight.visible = false;
 				
-
-				// fade out graphics
-				new FlxTimer().start(0.01, function(tmr:FlxTimer)
+				swagDialogue.alpha -= 1 / 100;
+				dropText.alpha = swagDialogue.alpha;
+			}, 100);
+			
+			/*
+			if (PlayState.SONG.song.toLowerCase() == 'song4') 
+			{
+				new FlxTimer().start(1, 
+				function(tmr:FlxTimer)
 				{
-					box.alpha -= 1 / 100;
-					//bgFade.alpha -= 1 / 10;
-					cutSceneBG.alpha -= 1 / 100;
-					//portraitLeft.visible = false;
-					//portraitRight.visible = false;
-					
-					swagDialogue.alpha -= 1 / 100;
-					dropText.alpha = swagDialogue.alpha;
-				}, 100);
-				
-				/*
-				if (PlayState.SONG.song.toLowerCase() == 'song4') 
-				{
-					new FlxTimer().start(1, 
-					function(tmr:FlxTimer)
-					{
-						PlayState.Stage.swagBacks['Hill'].visible = false; // bastard
-						PlayState.Stage.swagBacks['Hell'].visible = true;
-						FlxG.camera.flash(FlxColor.RED, 2);
-					});
-				}
-				*/
-
-				// wait a few moments before destroying the instance
-				new FlxTimer().start(1.2, function(tmr:FlxTimer)
-				{
-					finishThing(); // you can pass a function here, whatever you want.
-					kill();
+					PlayState.Stage.swagBacks['Hill'].visible = false; // bastard
+					PlayState.Stage.swagBacks['Hell'].visible = true;
+					FlxG.camera.flash(FlxColor.RED, 2);
 				});
 			}
+			*/
+
+			// wait a few moments before destroying the instance
+			new FlxTimer().start(1.2, function(tmr:FlxTimer)
+			{
+				finishThing(); // you can pass a function here, whatever you want.
+				kill();
+			});
+		}
+		if(dialogueOpened && !isEnding && tempBool) {
+			swagDialogue.start(0.04, true); // present
+			tempBool = false;
+		}
 		super.update(elapsed);
 	}
 
-	/*
-		TO DO LIST
-		- add gf portrait to list of selectable portriats for each stage
-		- add new tag to each dialouge line to specify which portait for that character
-			- EX: :bf:angry: :bf:sad: :bf:scared: :bf:cocky:
-		--- Done ---
-		- fix positioning of all portraits
-		- fix position of text box in scenes
-
-		
-	*/
 	function startDialogue():Void
 	{
 		cleanDialog(); // sets curCharacter
@@ -281,9 +281,10 @@ class DialogueBox extends FlxSpriteGroup
 			// not yet!
 			tempPortrait.animation.play('enter');
 		}
+		else{
+			tempBool = true;
+		}
 		swagDialogue.resetText(dialogueList[0]); // pop the text off
-		//if(dialogueOpened)
-		swagDialogue.start(0.04, true); // present
 
 	}
 

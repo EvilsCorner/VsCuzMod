@@ -1,4 +1,4 @@
-:SCENE:1::fade:0xFF000000:2.0:in
+:SCENE:1:downtownIntro:fade:0xFF000000:2.0:in
 :GF:l:Pleased:I had a fun time tonight, I think you picked a great place to eat.
 :BF:r:Default:Yeah, the food was awesome. 
 :BF:r:Default:I was hoping we could maybe go and see a movie or somethin' afterwards, 

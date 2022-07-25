@@ -10,6 +10,8 @@ import flixel.input.FlxKeyManager;
 import flixel.text.FlxText;
 import flixel.util.FlxColor;
 import flixel.util.FlxTimer;
+import flixel.tweens.FlxEase;
+import flixel.tweens.FlxTween;
 
 using StringTools;
 
@@ -45,6 +47,9 @@ class DialogueBox extends FlxSpriteGroup
 	
 	var isEnding:Bool = false;
 	var noAdvance:Bool = false;
+	var doublePop:Bool = false;
+
+	var instruct:FlxText;
 
 	public function new(talkingRight:Bool = true, ?dialogueList:Array<String>)
 	{
@@ -52,11 +57,12 @@ class DialogueBox extends FlxSpriteGroup
 
 		// music switch
 		// decides what song is playing during dialouge
+		sound = new FlxSound();
 		switch (PlayState.SONG.song.toLowerCase())
 		{
 			
 			case 'grappler':
-				sound = new FlxSound().loadEmbedded(Paths.sound('bfgf'),true);
+				sound.loadEmbedded(Paths.sound('bfgf'),true);
 				sound.volume = 0;
 				FlxG.sound.list.add(sound);
 				new FlxTimer().start(1, function(timer) 
@@ -64,7 +70,7 @@ class DialogueBox extends FlxSpriteGroup
 					sound.fadeIn(0.1, 0, 0.8);
 				});
 			case 'exertion':
-				sound = new FlxSound().loadEmbedded(Paths.sound('parkAmbience'),true);
+				sound.loadEmbedded(Paths.sound('parkAmbience'),true);
 				sound.volume = 0;
 				FlxG.sound.list.add(sound);
 				sound.fadeIn(1, 0, 0.8);
@@ -133,7 +139,16 @@ class DialogueBox extends FlxSpriteGroup
 			
 		//add(dropText); // copy of actual dialouge for drop shadow
 		add(swagDialogue); // actual dialouge
+		
+		instruct = new FlxText(FlxG.width*7/8-50, FlxG.height*15/16, 0, '[ESC] to Skip' , 24);
+		instruct.alpha = 0;
+		instruct.setFormat("VCR OSD Mono", 24, FlxColor.WHITE, CENTER, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
+		add(instruct);
 
+		new FlxTimer().start(5, function(timer) 
+		{
+			FlxTween.tween(instruct, {alpha: 1}, 0.4, {ease: FlxEase.quadIn});
+		});
 
 	}
 
@@ -192,6 +207,7 @@ class DialogueBox extends FlxSpriteGroup
 				// use the startDialouge function to draw the text
 				// repeat until not null
 				dialogueList.remove(dialogueList[0]);
+				if(doublePop) dialogueList.remove(dialogueList[0]); doublePop = false;
 				startDialogue();
 			}
 
@@ -303,8 +319,24 @@ class DialogueBox extends FlxSpriteGroup
 		//MAKE ROOM FOR CUTSCENE IMAGES
 
 		var splits:Array<String> = dialogueList[0].split(":");
+		var future:Array<String> = dialogueList[1].split(":");
 		FlxG.log.add("curr");
 		FlxG.log.add(dialogueList[0]);
+
+		if(future[1] == 'MUSIC')
+		{
+			doublePop = true;
+			if(sound != null) sound.destroy();
+			try { 
+				sound.loadEmbedded(Paths.sound(future[2]),true);
+				sound.play();
+			}
+			catch(e) {
+				// no sound found :(
+				trace(e.message);
+				FlxG.log.add(e.message);
+			}
+		}
 
 		// this works pretty decently
 		if(splits[1] == 'SCENE')

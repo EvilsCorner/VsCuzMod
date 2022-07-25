@@ -1,4 +1,5 @@
-:SCENE:8
+:SCENE:8::fade:0xFF000000:0.5:in
+:MUSIC:bfgf
 :GF:l:Pleased:Nice.
 :Cuz:l:Pout:Urgh. I forgot how good you are at this.
 :BF:r:Knowitall:Wouldn't've challendged you if I thought I'd lose!

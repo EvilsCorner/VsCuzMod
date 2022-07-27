@@ -331,14 +331,17 @@ class StoryMenuState extends MusicBeatState
 	}
 
 	var tweenDifficulty:FlxTween;
-	function changeDifficulty(change:Int = 0):Void
+	function changeDifficulty(change:Int = 0, ?redirect:Bool = false):Void
 	{
-		curDifficulty += change;
+		if(redirect) curDifficulty = change;
+		else curDifficulty += change;
 
 		if (curDifficulty < 0)
 			curDifficulty = CoolUtil.difficulties.length-1;
 		if (curDifficulty >= CoolUtil.difficulties.length)
 			curDifficulty = 0;
+
+		if(loadedWeeks[curWeek].weekName == 'Bonus') curDifficulty = 2;
 
 		WeekData.setDirectoryFromWeek(loadedWeeks[curWeek]);
 
@@ -385,6 +388,8 @@ class StoryMenuState extends MusicBeatState
 		var leName:String = leWeek.storyName;
 		txtWeekTitle.text = leName.toUpperCase();
 		txtWeekTitle.x = FlxG.width - (txtWeekTitle.width + 10);
+
+		if(leWeek.weekName == 'Bonus') changeDifficulty(2,true); 
 
 		var bullShit:Int = 0;
 

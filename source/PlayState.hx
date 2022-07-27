@@ -120,6 +120,7 @@ class PlayState extends MusicBeatState
 	public static var storyDifficulty:Int = 1;
 
 	public var vocals:FlxSound;
+	public var stabs:FlxSound; // STABBYS
 
 	public var dad:Character = null;
 	public var gf:Character = null;
@@ -130,6 +131,8 @@ class PlayState extends MusicBeatState
 	public var eventNotes:Array<EventNote> = [];
 
 	private var strumLine:FlxSprite;
+
+	var doof:DialogueBox;
 
 	//Handles the new epic mega sexy cam code that i've done
 	private var camFollow:FlxPoint;
@@ -1032,24 +1035,6 @@ class PlayState extends MusicBeatState
 		}
 		*/
 
-		// better dialouge check
-		try { 
-			dialogue = CoolUtil.coolTextFile(Paths.txt(songName + '/dialogue'));
-		}
-		catch(e) {
-			// no dialouge found :(
-			trace(e.message);
-			FlxG.log.add(e.message);
-		}
-
-		var doof:DialogueBox = new DialogueBox(false, dialogue);
-		// doof.x += 70;
-		// doof.y = FlxG.height * 0.5;
-		doof.scrollFactor.set();
-		doof.finishThing = startCountdown;
-		//doof.nextDialogueThing = startNextDialogue;
-		//doof.skipDialogueThing = skipDialogue;
-
 		Conductor.songPosition = -5000;
 
 		strumLine = new FlxSprite(ClientPrefs.middleScroll ? STRUM_X_MIDDLESCROLL : STRUM_X, 50).makeGraphic(FlxG.width, 10);
@@ -1242,7 +1227,6 @@ class PlayState extends MusicBeatState
 		timeBar.cameras = [camHUD];
 		timeBarBG.cameras = [camHUD];
 		timeTxt.cameras = [camHUD];
-		doof.cameras = [camHUD];
 
 		// if (SONG.song == 'South')
 		// FlxG.camera.alpha = 0.7;
@@ -1281,68 +1265,24 @@ class PlayState extends MusicBeatState
 		var daSong:String = Paths.formatToSongPath(curSong);
 		if (isStoryMode && !seenCutscene)
 		{
+			// better dialouge check
+			try { 
+				dialogue = CoolUtil.coolTextFile(Paths.txt(songName + '/dialogue'));
+			}
+			catch(e) {
+				// no dialouge found :(
+				trace(e.message);
+				FlxG.log.add(e.message);
+			}
+			doof = new DialogueBox(false, dialogue);
+			doof.scrollFactor.set();
+			doof.finishThing = startCountdown;
+			doof.cameras = [camHUD];
+
 			switch (daSong)
 			{
-				case "monster":
-					var whiteScreen:FlxSprite = new FlxSprite(0, 0).makeGraphic(Std.int(FlxG.width * 2), Std.int(FlxG.height * 2), FlxColor.WHITE);
-					add(whiteScreen);
-					whiteScreen.scrollFactor.set();
-					whiteScreen.blend = ADD;
-					camHUD.visible = false;
-					snapCamFollowToPos(dad.getMidpoint().x + 150, dad.getMidpoint().y - 100);
-					inCutscene = true;
-
-					FlxTween.tween(whiteScreen, {alpha: 0}, 1, {
-						startDelay: 0.1,
-						ease: FlxEase.linear,
-						onComplete: function(twn:FlxTween)
-						{
-							camHUD.visible = true;
-							remove(whiteScreen);
-							startCountdown();
-						}
-					});
-					FlxG.sound.play(Paths.soundRandom('thunder_', 1, 2));
-					if(gf != null) gf.playAnim('scared', true);
-					boyfriend.playAnim('scared', true);
-
-				case "winter-horrorland":
-					var blackScreen:FlxSprite = new FlxSprite().makeGraphic(Std.int(FlxG.width * 2), Std.int(FlxG.height * 2), FlxColor.BLACK);
-					add(blackScreen);
-					blackScreen.scrollFactor.set();
-					camHUD.visible = false;
-					inCutscene = true;
-
-					FlxTween.tween(blackScreen, {alpha: 0}, 0.7, {
-						ease: FlxEase.linear,
-						onComplete: function(twn:FlxTween) {
-							remove(blackScreen);
-						}
-					});
-					FlxG.sound.play(Paths.sound('Lights_Turn_On'));
-					snapCamFollowToPos(400, -2050);
-					FlxG.camera.focusOn(camFollow);
-					FlxG.camera.zoom = 1.5;
-
-					new FlxTimer().start(0.8, function(tmr:FlxTimer)
-					{
-						camHUD.visible = true;
-						remove(blackScreen);
-						FlxTween.tween(FlxG.camera, {zoom: defaultCamZoom}, 2.5, {
-							ease: FlxEase.quadInOut,
-							onComplete: function(twn:FlxTween)
-							{
-								startCountdown();
-							}
-						});
-					});
-				case 'senpai' | 'roses' | 'thorns':
-					if(daSong == 'roses') FlxG.sound.play(Paths.sound('ANGRY'));
-					schoolIntro(doof);
-
 				case 'grappler' | 'imminence' | 'equivocation' | 'exertion':
 					cuzIntros(doof);
-
 
 				default:
 					startCountdown();
@@ -1986,12 +1926,14 @@ class PlayState extends MusicBeatState
 
 		FlxG.sound.music.pause();
 		vocals.pause();
+		stabs.pause();
 
 		FlxG.sound.music.time = time;
 		FlxG.sound.music.play();
 
 		vocals.time = time;
 		vocals.play();
+		stabs.play();
 		Conductor.songPosition = time;
 	}
 
@@ -2018,6 +1960,7 @@ class PlayState extends MusicBeatState
 		FlxG.sound.playMusic(Paths.inst(PlayState.SONG.song), 1, false);
 		FlxG.sound.music.onComplete = onSongComplete;
 		vocals.play();
+		stabs.play();
 
 		if(startOnTime > 0)
 		{
@@ -2029,6 +1972,7 @@ class PlayState extends MusicBeatState
 			//trace('Oopsie doopsie! Paused sound');
 			FlxG.sound.music.pause();
 			vocals.pause();
+			stabs.pause();
 		}
 
 		// Song duration in a float, useful for the time left feature
@@ -2070,7 +2014,15 @@ class PlayState extends MusicBeatState
 		else
 			vocals = new FlxSound();
 
+		if((Paths.formatToSongPath(SONG.song) == 'equivocation' || Paths.formatToSongPath(SONG.song) == 'exertion') && storyDifficulty == 2)
+		{
+			stabs = new FlxSound().loadEmbedded(Paths.stabs(PlayState.SONG.song));
+		} 
+		else
+			stabs = new FlxSound(); 
+
 		FlxG.sound.list.add(vocals);
+		FlxG.sound.list.add(stabs);
 		FlxG.sound.list.add(new FlxSound().loadEmbedded(Paths.inst(PlayState.SONG.song)));
 
 		notes = new FlxTypedGroup<Note>();
@@ -2317,6 +2269,7 @@ class PlayState extends MusicBeatState
 			{
 				FlxG.sound.music.pause();
 				vocals.pause();
+				stabs.pause();
 			}
 
 			if (startTimer != null && !startTimer.finished)
@@ -2441,11 +2394,14 @@ class PlayState extends MusicBeatState
 		if(finishTimer != null) return;
 
 		vocals.pause();
+		stabs.pause();
 
 		FlxG.sound.music.play();
 		Conductor.songPosition = FlxG.sound.music.time;
 		vocals.time = Conductor.songPosition;
+		stabs.time = Conductor.songPosition;
 		vocals.play();
+		stabs.play();
 	}
 
 	public var paused:Bool = false;
@@ -2661,6 +2617,7 @@ class PlayState extends MusicBeatState
 				if(FlxG.sound.music != null) {
 					FlxG.sound.music.pause();
 					vocals.pause();
+					stabs.pause();
 				}
 				openSubState(new PauseSubState(boyfriend.getScreenPosition().x, boyfriend.getScreenPosition().y));
 				//}
@@ -3001,6 +2958,7 @@ class PlayState extends MusicBeatState
 				paused = true;
 
 				vocals.stop();
+				stabs.stop();
 				FlxG.sound.music.stop();
 
 				persistentUpdate = false;
@@ -3542,7 +3500,9 @@ class PlayState extends MusicBeatState
 		updateTime = false;
 		FlxG.sound.music.volume = 0;
 		vocals.volume = 0;
+		stabs.volume = 0;
 		vocals.pause();
+		stabs.pause();
 		if(ClientPrefs.noteOffset <= 0 || ignoreNoteOffset) {
 			finishCallback();
 		} else {
@@ -3759,6 +3719,7 @@ class PlayState extends MusicBeatState
 
 		// boyfriend.playAnim('hey');
 		vocals.volume = 1;
+		stabs.volume = 1;
 
 		var placement:String = Std.string(combo);
 

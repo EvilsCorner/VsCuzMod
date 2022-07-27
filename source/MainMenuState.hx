@@ -78,8 +78,10 @@ class MainMenuState extends MusicBeatState
 
 		var yScroll:Float = Math.max(0.25 - (0.05 * (optionShit.length - 4)), 0.1);
 		var bg:FlxSprite = new FlxSprite(-80).loadGraphic(Paths.image('menuBG'));
-		bg.scrollFactor.set(0, yScroll);
-		bg.setGraphicSize(Std.int(bg.width * 1.175));
+		var menuBGScale = 1;
+		//bg.scrollFactor.set(0, yScroll);
+		bg.scrollFactor.set(0, 0);
+		bg.setGraphicSize(Std.int(bg.width * menuBGScale));
 		bg.updateHitbox();
 		bg.screenCenter();
 		bg.antialiasing = ClientPrefs.globalAntialiasing;
@@ -92,7 +94,7 @@ class MainMenuState extends MusicBeatState
 
 		magenta = new FlxSprite(-80).loadGraphic(Paths.image('menuDesat'));
 		magenta.scrollFactor.set(0, yScroll);
-		magenta.setGraphicSize(Std.int(magenta.width * 1.175));
+		magenta.setGraphicSize(Std.int(magenta.width * menuBGScale));
 		magenta.updateHitbox();
 		magenta.screenCenter();
 		magenta.visible = false;
@@ -136,10 +138,11 @@ class MainMenuState extends MusicBeatState
 					add(galleryLock);
 					galleryLock.updateHitbox();
 				}
+
 				{
 					malakaiHand = new FlxSprite(200,200);
 					malakaiHand.frames = Paths.getSparrowAtlas('mainmenu/Malakai Hand Bop');
-					malakaiHand.animation.addByPrefix('idle', "malakaiarm instance 1", 24);
+					malakaiHand.animation.addByPrefix('idle', "malakaiarm instance 1", 24, false);
 					malakaiHand.animation.play('idle');
 					malakaiHand.scrollFactor.set(0, scr);
 					add(malakaiHand);
@@ -194,6 +197,8 @@ class MainMenuState extends MusicBeatState
 
 	override function update(elapsed:Float)
 	{
+		if (FlxG.sound.music != null)
+			Conductor.songPosition = FlxG.sound.music.time;
 	
 		if (FlxG.sound.music.volume < 0.8)
 		{
@@ -358,5 +363,15 @@ class MainMenuState extends MusicBeatState
 				spr.centerOffsets();
 			}
 		});
+	}
+
+	override function beatHit()
+	{
+		super.beatHit();
+		//trace("--- OI!! DANCE!" + curBeat);
+		if (malakaiHand != null)
+		{
+			malakaiHand.animation.play('idle', true);
+		}
 	}
 }

@@ -256,7 +256,7 @@
 				"sectionNotes": [
 					[
 						24000,
-						3,
+						1,
 						2250
 					]
 				],
@@ -2381,11 +2381,6 @@
 						0
 					],
 					[
-						98550,
-						3,
-						0
-					],
-					[
 						98625,
 						1,
 						0
@@ -2565,6 +2560,11 @@
 						5,
 						0,
 						"Stab Note"
+					],
+					[
+						98550,
+						3,
+						0
 					]
 				],
 				"lengthInSteps": 16,
@@ -2790,11 +2790,6 @@
 						0
 					],
 					[
-						103500,
-						1,
-						0
-					],
-					[
 						103575,
 						0,
 						0
@@ -2939,6 +2934,11 @@
 						2,
 						0,
 						"Stab Note"
+					],
+					[
+						103500,
+						1,
+						0
 					]
 				],
 				"lengthInSteps": 16,
@@ -3635,16 +3635,6 @@
 						0
 					],
 					[
-						117000,
-						0,
-						0
-					],
-					[
-						117150,
-						1,
-						0
-					],
-					[
 						117300,
 						2,
 						0
@@ -3659,6 +3649,16 @@
 						4,
 						0,
 						"Stab Note"
+					],
+					[
+						117000,
+						1,
+						0
+					],
+					[
+						117150,
+						0,
+						0
 					]
 				],
 				"lengthInSteps": 16,
@@ -3839,22 +3839,22 @@
 						0
 					],
 					[
-						121800,
-						3,
-						0
-					],
-					[
-						121950,
+						122100,
 						2,
 						0
 					],
 					[
-						122100,
+						122250,
+						3,
+						0
+					],
+					[
+						121800,
 						1,
 						0
 					],
 					[
-						122250,
+						121950,
 						0,
 						0
 					],
@@ -4033,16 +4033,6 @@
 						0
 					],
 					[
-						126600,
-						0,
-						0
-					],
-					[
-						126750,
-						1,
-						0
-					],
-					[
 						126900,
 						2,
 						0
@@ -4057,6 +4047,16 @@
 						3,
 						0,
 						"Stab Note"
+					],
+					[
+						126750,
+						0,
+						0
+					],
+					[
+						126600,
+						1,
+						0
 					]
 				],
 				"lengthInSteps": 16,
@@ -4227,30 +4227,30 @@
 						0
 					],
 					[
-						131400,
-						3,
-						0
-					],
-					[
-						131550,
-						2,
-						0
-					],
-					[
-						131700,
-						1,
-						0
-					],
-					[
-						131850,
-						0,
-						0
-					],
-					[
 						129600,
 						3,
 						0,
 						"Stab Note"
+					],
+					[
+						131400,
+						1,
+						0
+					],
+					[
+						131550,
+						3,
+						0
+					],
+					[
+						131700,
+						2,
+						0
+					],
+					[
+						131850,
+						1,
+						0
 					]
 				],
 				"lengthInSteps": 16,
@@ -4290,7 +4290,7 @@
 					],
 					[
 						132000,
-						5,
+						4,
 						0,
 						"Stab Note"
 					]
@@ -4537,7 +4537,7 @@
 					[
 						149250,
 						3,
-						450
+						300
 					],
 					[
 						149700,
@@ -4730,7 +4730,7 @@
 					[
 						153600,
 						2,
-						900
+						750
 					],
 					[
 						153750,
@@ -5717,14 +5717,104 @@
 				"bpm": 100
 			},
 			{
-				"gfSection": false,
 				"lengthInSteps": 16,
-				"altAnim": false,
 				"typeOfSection": 0,
 				"sectionNotes": [],
+				"altAnim": false,
+				"gfSection": false,
 				"bpm": 100,
 				"changeBPM": false,
 				"mustHitSection": true
+			},
+			{
+				"lengthInSteps": 16,
+				"typeOfSection": 0,
+				"sectionNotes": [],
+				"altAnim": false,
+				"gfSection": false,
+				"bpm": 100,
+				"changeBPM": false,
+				"mustHitSection": true
+			},
+			{
+				"lengthInSteps": 16,
+				"typeOfSection": 0,
+				"sectionNotes": [],
+				"altAnim": false,
+				"gfSection": false,
+				"bpm": 100,
+				"changeBPM": false,
+				"mustHitSection": true
+			},
+			{
+				"sectionNotes": [],
+				"typeOfSection": 0,
+				"lengthInSteps": 16,
+				"gfSection": false,
+				"altAnim": false,
+				"mustHitSection": true,
+				"changeBPM": false,
+				"bpm": 100
+			},
+			{
+				"sectionNotes": [],
+				"typeOfSection": 0,
+				"lengthInSteps": 16,
+				"gfSection": false,
+				"altAnim": false,
+				"mustHitSection": true,
+				"changeBPM": false,
+				"bpm": 100
+			},
+			{
+				"sectionNotes": [],
+				"typeOfSection": 0,
+				"lengthInSteps": 16,
+				"gfSection": false,
+				"altAnim": false,
+				"mustHitSection": true,
+				"changeBPM": false,
+				"bpm": 100
+			},
+			{
+				"sectionNotes": [],
+				"typeOfSection": 0,
+				"lengthInSteps": 16,
+				"gfSection": false,
+				"altAnim": false,
+				"mustHitSection": true,
+				"changeBPM": false,
+				"bpm": 100
+			},
+			{
+				"sectionNotes": [],
+				"typeOfSection": 0,
+				"lengthInSteps": 16,
+				"gfSection": false,
+				"altAnim": false,
+				"mustHitSection": true,
+				"changeBPM": false,
+				"bpm": 100
+			},
+			{
+				"sectionNotes": [],
+				"typeOfSection": 0,
+				"lengthInSteps": 16,
+				"gfSection": false,
+				"altAnim": false,
+				"mustHitSection": true,
+				"changeBPM": false,
+				"bpm": 100
+			},
+			{
+				"sectionNotes": [],
+				"typeOfSection": 0,
+				"lengthInSteps": 16,
+				"gfSection": false,
+				"altAnim": false,
+				"mustHitSection": true,
+				"changeBPM": false,
+				"bpm": 100
 			},
 			{
 				"gfSection": false,
@@ -5750,10 +5840,10 @@
 		"player2": "cuzmad",
 		"gfVersion": "gf-bf",
 		"song": "Equivocation",
-		"needsVoices": true,
 		"stage": "downtown",
 		"validScore": true,
+		"needsVoices": true,
 		"bpm": 100,
-		"speed": 2.4
+		"speed": 3
 	}
 }

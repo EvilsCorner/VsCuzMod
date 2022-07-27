@@ -403,14 +403,17 @@ class FreeplayState extends MusicBeatState
 		vocals = null;
 	}
 
-	function changeDiff(change:Int = 0)
+	function changeDiff(change:Int = 0,  ?redirect:Bool = false)
 	{
-		curDifficulty += change;
+		if(redirect) curDifficulty = change;
+		else curDifficulty += change;
 
 		if (curDifficulty < 0)
 			curDifficulty = CoolUtil.difficulties.length-1;
 		if (curDifficulty >= CoolUtil.difficulties.length)
 			curDifficulty = 0;
+
+		if(Paths.formatToSongPath(songs[curSelected].songName) == 'exertion') curDifficulty = 2;
 
 		lastDifficultyName = CoolUtil.difficulties[curDifficulty];
 
@@ -447,6 +450,7 @@ class FreeplayState extends MusicBeatState
 				}
 			});
 		}
+		if(Paths.formatToSongPath(songs[curSelected].songName) == 'exertion') changeDiff(2,true); 
 
 		// selector.y = (70 * curSelected) + 30;
 

@@ -296,7 +296,7 @@ class StoryMenuState extends MusicBeatState
 				grpWeekText.members[curWeek].startFlashing();
 
 				var bf:MenuCharacter = grpWeekCharacters.members[1];
-				if(bf.character != '' && bf.hasConfirmAnimation) grpWeekCharacters.members[1].animation.play('confirm');
+				if(bf.character != '' && bf.hasConfirmAnimation) grpWeekCharacters.members[1].animation.play('confirm', true);
 				stopspamming = true;
 			}
 
@@ -492,12 +492,12 @@ class StoryMenuState extends MusicBeatState
 	override function beatHit()
 	{
 		super.beatHit();
-		trace("--- OI!! DANCE!" + curBeat);
+		//trace("--- OI!! DANCE!" + curBeat);
 		if (gf != null)
 		{
 			gf.dance();
 		}
-		if (boyfriend != null)
+		if (boyfriend != null && !stopspamming)
 		{
 			//boyfriend.animation.play('idle');
 			boyfriend.dance();

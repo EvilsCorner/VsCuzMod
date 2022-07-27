@@ -104,12 +104,12 @@ class DialogueBox extends FlxSpriteGroup
 		box.animation.addByPrefix('normal', 'speech bubble normal', 24, true);
 
 		swagDialogue = new FlxTypeText(200, 465, Std.int(FlxG.width * 0.7), "", 32);
-		swagDialogue.setFormat(Paths.font("Dominican.TTF"), 60);
+		swagDialogue.setFormat(Paths.font("Dom Casual.TTF"), 60);
 		swagDialogue.color = 0xFF000000;
 		swagDialogue.sounds = [FlxG.sound.load(Paths.sound('pixelText'), 0.6)];
 
 		dropText = new FlxText(swagDialogue.x+2, swagDialogue.y+2, Std.int(FlxG.width * 0.6), "", 32);
-		dropText.setFormat(Paths.font("Dominican.TTF"), 60);
+		dropText.setFormat(Paths.font("Dom Casual.TTF"), 60);
 		dropText.color = 0xFF000000;
 		
 		this.dialogueList = dialogueList;

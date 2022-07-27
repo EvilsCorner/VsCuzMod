@@ -233,7 +233,7 @@ class GalleryState extends MusicBeatState
 
 		/*
 		subGallery = new FlxText(0, FlxG.height*4/8 -150, "Gallery", 96);
-		subGallery.setFormat(Paths.font("Dominican.TTF"), 96, FlxColor.WHITE, CENTER, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
+		subGallery.setFormat(Paths.font("Dom Casual.TTF"), 96, FlxColor.WHITE, CENTER, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
 		subGallery.screenCenter(X);
 		*/
 		subGallery = new FlxSprite(0, FlxG.height*4/8 -200);
@@ -248,7 +248,7 @@ class GalleryState extends MusicBeatState
 
 		/*
 		subContra = new FlxText(0, FlxG.height*4/8 , "Contraband", 96);
-		subContra.setFormat(Paths.font("Dominican.TTF"), 96, FlxColor.RED, CENTER, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
+		subContra.setFormat(Paths.font("Dom Casual.TTF"), 96, FlxColor.RED, CENTER, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
 		subContra.screenCenter(X);
 		subContra.alpha = 0.3;
 		*/

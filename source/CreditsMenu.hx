@@ -77,7 +77,7 @@ class CreditsMenu extends MusicBeatState
 			var offsetY = FlxG.height/9;
 			var staffIcon_:FlxSprite = new FlxSprite(0, 0);
 
-			staffIcon_.loadGraphic(Paths.image('credits/credits' + (i)), true, 148, 189);
+			staffIcon_.loadGraphic(Paths.image('Credits/credits' + (i)), true, 148, 189); /// fuCk off
 			staffIcon_.animation.add('icon', [0, 1], 0, false);
 			staffIcon_.animation.play('icon');
 			if(i > 0)

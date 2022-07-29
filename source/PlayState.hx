@@ -4369,7 +4369,7 @@ class PlayState extends MusicBeatState
 							gf.heyTimer = 0.6;
 						}
 					default:
-						boyfriend.idleSuffix = '';
+						if(curSong != "Imminence") boyfriend.idleSuffix = '';
 				}
 			}
 		}
@@ -4787,12 +4787,16 @@ class PlayState extends MusicBeatState
 						{
 							FlxG.camera.flash(0xFFA70010, 0.5, true); //red flash
 							shadeOverlay.visible = true;
+							boyfriend.idleSuffix = 'Smug';
+							dad.idleSuffix = 'Scared';
 							//gleam activate
 						}
 						case 216:
 						{
 							FlxG.camera.flash(0xAF000CA7, 0.5, true); // blue flash
 							shadeOverlay.visible = false;
+							boyfriend.idleSuffix = '';
+							dad.idleSuffix = '';
 							//gleam deactivate
 						}
 						default:

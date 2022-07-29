@@ -13,6 +13,17 @@
 		},
 		{
 			"offsets": [
+				-5,
+				0
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "idleSmug",
+			"indices": [],
+			"name": "BF Key Change Idle"
+		},
+		{
+			"offsets": [
 				5,
 				-6
 			],

@@ -15,6 +15,16 @@
 			"offsets": [
 				0,0
 			],
+			"anim": "idleScared",
+			"fps": 24,
+			"name": "Cuz Key Change Idle",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,0
+			],
 			"anim": "singLEFT",
 			"fps": 24,
 			"name": "Cuz Left",

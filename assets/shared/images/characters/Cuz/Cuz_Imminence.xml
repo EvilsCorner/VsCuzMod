@@ -1,0 +1,74 @@
+﻿<TextureAtlas imagePath="Cuz Imminence.png">
+	<SubTexture name="Cuz Down instance 10000" x="3" y="3" w="519" h="836"/>
+	<SubTexture name="Cuz Down instance 10001" x="3" y="3" w="519" h="836"/>
+	<SubTexture name="Cuz Down instance 10002" x="547" y="3" w="519" h="836"/>
+	<SubTexture name="Cuz Down instance 10003" x="547" y="3" w="519" h="836"/>
+	<SubTexture name="Cuz Down instance 10004" x="547" y="3" w="519" h="836"/>
+	<SubTexture name="Cuz Down instance 10005" x="547" y="3" w="519" h="836"/>
+	<SubTexture name="Cuz Down instance 10006" x="547" y="3" w="519" h="836"/>
+	<SubTexture name="Cuz Down instance 10007" x="547" y="3" w="519" h="836"/>
+	<SubTexture name="Cuz Down instance 10008" x="547" y="3" w="519" h="836"/>
+	<SubTexture name="Cuz Down instance 10009" x="547" y="3" w="519" h="836"/>
+	<SubTexture name="Cuz Down instance 10010" x="547" y="3" w="519" h="836"/>
+	<SubTexture name="Cuz Down instance 10011" x="547" y="3" w="519" h="836"/>
+	<SubTexture name="Cuz Idle instance 10000" x="1091" y="3" w="519" h="836"/>
+	<SubTexture name="Cuz Idle instance 10001" x="1091" y="3" w="519" h="836"/>
+	<SubTexture name="Cuz Idle instance 10002" x="1635" y="3" w="519" h="836"/>
+	<SubTexture name="Cuz Idle instance 10003" x="1635" y="3" w="519" h="836"/>
+	<SubTexture name="Cuz Idle instance 10004" x="2179" y="3" w="519" h="836"/>
+	<SubTexture name="Cuz Idle instance 10005" x="2179" y="3" w="519" h="836"/>
+	<SubTexture name="Cuz Idle instance 10006" x="2723" y="3" w="519" h="836"/>
+	<SubTexture name="Cuz Idle instance 10007" x="2723" y="3" w="519" h="836"/>
+	<SubTexture name="Cuz Idle instance 10008" x="2723" y="3" w="519" h="836"/>
+	<SubTexture name="Cuz Idle instance 10009" x="2723" y="3" w="519" h="836"/>
+	<SubTexture name="Cuz Idle instance 10010" x="2723" y="3" w="519" h="836"/>
+	<SubTexture name="Cuz Idle instance 10011" x="2723" y="3" w="519" h="836"/>
+	<SubTexture name="Cuz Key Change Idle instance 10000" x="3267" y="3" w="518" h="836"/>
+	<SubTexture name="Cuz Key Change Idle instance 10001" x="3267" y="3" w="518" h="836"/>
+	<SubTexture name="Cuz Key Change Idle instance 10002" x="3" y="864" w="518" h="836"/>
+	<SubTexture name="Cuz Key Change Idle instance 10003" x="3" y="864" w="518" h="836"/>
+	<SubTexture name="Cuz Key Change Idle instance 10004" x="546" y="864" w="518" h="836"/>
+	<SubTexture name="Cuz Key Change Idle instance 10005" x="546" y="864" w="518" h="836"/>
+	<SubTexture name="Cuz Key Change Idle instance 10006" x="1089" y="864" w="518" h="836"/>
+	<SubTexture name="Cuz Key Change Idle instance 10007" x="1089" y="864" w="518" h="836"/>
+	<SubTexture name="Cuz Key Change Idle instance 10008" x="1089" y="864" w="518" h="836"/>
+	<SubTexture name="Cuz Key Change Idle instance 10009" x="1089" y="864" w="518" h="836"/>
+	<SubTexture name="Cuz Key Change Idle instance 10010" x="1089" y="864" w="518" h="836"/>
+	<SubTexture name="Cuz Key Change Idle instance 10011" x="1089" y="864" w="518" h="836"/>
+	<SubTexture name="Cuz Left instance 10000" x="1632" y="864" w="519" h="836"/>
+	<SubTexture name="Cuz Left instance 10001" x="1632" y="864" w="519" h="836"/>
+	<SubTexture name="Cuz Left instance 10002" x="2176" y="864" w="519" h="836"/>
+	<SubTexture name="Cuz Left instance 10003" x="2176" y="864" w="519" h="836"/>
+	<SubTexture name="Cuz Left instance 10004" x="2176" y="864" w="519" h="836"/>
+	<SubTexture name="Cuz Left instance 10005" x="2176" y="864" w="519" h="836"/>
+	<SubTexture name="Cuz Left instance 10006" x="2176" y="864" w="519" h="836"/>
+	<SubTexture name="Cuz Left instance 10007" x="2176" y="864" w="519" h="836"/>
+	<SubTexture name="Cuz Left instance 10008" x="2176" y="864" w="519" h="836"/>
+	<SubTexture name="Cuz Left instance 10009" x="2176" y="864" w="519" h="836"/>
+	<SubTexture name="Cuz Left instance 10010" x="2176" y="864" w="519" h="836"/>
+	<SubTexture name="Cuz Left instance 10011" x="2176" y="864" w="519" h="836"/>
+	<SubTexture name="Cuz Right instance 10000" x="2720" y="864" w="519" h="836"/>
+	<SubTexture name="Cuz Right instance 10001" x="2720" y="864" w="519" h="836"/>
+	<SubTexture name="Cuz Right instance 10002" x="3264" y="864" w="519" h="836"/>
+	<SubTexture name="Cuz Right instance 10003" x="3264" y="864" w="519" h="836"/>
+	<SubTexture name="Cuz Right instance 10004" x="3264" y="864" w="519" h="836"/>
+	<SubTexture name="Cuz Right instance 10005" x="3264" y="864" w="519" h="836"/>
+	<SubTexture name="Cuz Right instance 10006" x="3264" y="864" w="519" h="836"/>
+	<SubTexture name="Cuz Right instance 10007" x="3264" y="864" w="519" h="836"/>
+	<SubTexture name="Cuz Right instance 10008" x="3264" y="864" w="519" h="836"/>
+	<SubTexture name="Cuz Right instance 10009" x="3264" y="864" w="519" h="836"/>
+	<SubTexture name="Cuz Right instance 10010" x="3264" y="864" w="519" h="836"/>
+	<SubTexture name="Cuz Right instance 10011" x="3264" y="864" w="519" h="836"/>
+	<SubTexture name="Cuz Up instance 10000" x="3" y="1725" w="519" h="836"/>
+	<SubTexture name="Cuz Up instance 10001" x="3" y="1725" w="519" h="836"/>
+	<SubTexture name="Cuz Up instance 10002" x="547" y="1725" w="519" h="836"/>
+	<SubTexture name="Cuz Up instance 10003" x="547" y="1725" w="519" h="836"/>
+	<SubTexture name="Cuz Up instance 10004" x="547" y="1725" w="519" h="836"/>
+	<SubTexture name="Cuz Up instance 10005" x="547" y="1725" w="519" h="836"/>
+	<SubTexture name="Cuz Up instance 10006" x="547" y="1725" w="519" h="836"/>
+	<SubTexture name="Cuz Up instance 10007" x="547" y="1725" w="519" h="836"/>
+	<SubTexture name="Cuz Up instance 10008" x="547" y="1725" w="519" h="836"/>
+	<SubTexture name="Cuz Up instance 10009" x="547" y="1725" w="519" h="836"/>
+	<SubTexture name="Cuz Up instance 10010" x="547" y="1725" w="519" h="836"/>
+	<SubTexture name="Cuz Up instance 10011" x="547" y="1725" w="519" h="836"/>
+</TextureAtlas>

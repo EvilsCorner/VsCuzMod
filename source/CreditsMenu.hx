@@ -77,7 +77,7 @@ class CreditsMenu extends MusicBeatState
 			var offsetY = FlxG.height/9;
 			var staffIcon_:FlxSprite = new FlxSprite(0, 0);
 
-			staffIcon_.loadGraphic(Paths.image('Credits/credits' + (i)), true, 148, 189); /// fuCk off
+			staffIcon_.loadGraphic(Paths.image('Credits/credits' + (i)), true, 225, 280); /// fuCk off
 			staffIcon_.animation.add('icon', [0, 1], 0, false);
 			staffIcon_.animation.play('icon');
 			if(i > 0)
@@ -89,6 +89,7 @@ class CreditsMenu extends MusicBeatState
 			staffIcon_.y = (offsetY * (i+1)) - staffIcon_.height/2;
 			staffIcon_.updateHitbox();
 			staffIcon_.antialiasing = FlxG.save.data.antialiasing;
+			if(i %2 == 0) staffIcon_.y += 25; /// kept separate cause fuck
 
 			staffIcons.add(staffIcon_);
 
@@ -180,11 +181,11 @@ class CreditsMenu extends MusicBeatState
 			}
 			if(FlxG.keys.justPressed.RIGHT)
 				{
-					FlxG.switchState(new GalleryState());
+					Unlockables.clearUnlocks();
 				}
 			if(FlxG.keys.justPressed.LEFT)
 				{
-					consoleBox.alpha = 0.6;
+					Unlockables.unlockAll();
 				}
 
 			var gamepad:FlxGamepad = FlxG.gamepads.lastActive;
@@ -208,22 +209,23 @@ class CreditsMenu extends MusicBeatState
 			staffIcons.forEach(function(spr:FlxSprite)
 			{
 				//spr.animation.play('idle');
+				spr.centerOrigin();
 	
 				if (spr.ID == curSelected)
 				{
 					spr.animation.curAnim.curFrame = 1;
 					//spr.scale = FlxPoint.get(1, 1);
-					spr.setGraphicSize(Std.int(scaleHelper*1.1));
+					spr.setGraphicSize(Std.int(scaleHelper*1.0));
 					// nudge the sprite over so its nice and centered?
 					// or just do this is the sprite files lmoa
 				} else {
 					spr.animation.curAnim.curFrame = 0;
-					spr.setGraphicSize(Std.int(scaleHelper*1.0));
+					spr.setGraphicSize(Std.int(scaleHelper*0.9));
 					//spr.scale = FlxPoint.get(1, 1);
 					//spr.scale.set(Std.int(1.1));
 				}
 	
-				spr.updateHitbox();
+				//spr.updateHitbox();
 			});
 			
 		}

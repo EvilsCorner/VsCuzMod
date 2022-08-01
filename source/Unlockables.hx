@@ -29,4 +29,18 @@ class Unlockables {
 		}
 	}
 
+	public static function clearUnlocks() {
+		song4 = false;
+		gallery = false;
+		FlxG.log.add("Cleared Unlockables");
+		saveUnlocks();
+	}
+
+	public static function unlockAll() {
+		song4 = true;
+		gallery = true;
+		FlxG.log.add("Unlocked all Unlockables");
+		saveUnlocks();
+	}
+
 }

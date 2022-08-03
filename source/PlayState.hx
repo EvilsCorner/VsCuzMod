@@ -263,6 +263,8 @@ class PlayState extends MusicBeatState
 
 	public var defaultCamZoom:Float = 1.05;
 	public var zoomHelper:Float;
+	public var beatHitZoomAmt:Float = 0.015;
+	public var beatHitZoomFreq:Float = 4;
 
 	// how big to stretch the pixel art assets
 	public static var daPixelZoom:Float = 6;
@@ -4687,11 +4689,11 @@ class PlayState extends MusicBeatState
 		{
 			moveCameraSection(Std.int(curStep / 16));
 		}
-		if (camZooming && FlxG.camera.zoom < 1.35 && ClientPrefs.camZooms && curBeat % 4 == 0)
+		if (camZooming && FlxG.camera.zoom < 1.35 && ClientPrefs.camZooms && (curBeat % beatHitZoomFreq) == 0)
 		{
-			zoomHelper = FlxG.camera.zoom;
-			FlxG.camera.zoom += 0.015;
-			camHUD.zoom += 0.03;
+			//zoomHelper = FlxG.camera.zoom;
+			FlxG.camera.zoom += beatHitZoomAmt;
+			camHUD.zoom += beatHitZoomAmt*2;
 		}
 
 		iconP1.scale.set(1.2, 1.2);
@@ -4823,7 +4825,18 @@ class PlayState extends MusicBeatState
 						liminalBenchHell.visible = true;
 					case 382:
 						cuzScreamReact = false;
-
+					case 420:
+						beatHitZoomAmt = 0.025;
+						beatHitZoomFreq = 2;
+					case 512:
+						beatHitZoomAmt = 0.03;
+						beatHitZoomFreq = 1;
+					case 544:
+						beatHitZoomAmt = 0.025;
+						beatHitZoomFreq = 2;
+					case 576:
+						beatHitZoomAmt = 0.015;
+						beatHitZoomFreq = 4;
 				}
 
 		}

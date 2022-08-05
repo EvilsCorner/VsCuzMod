@@ -3,6 +3,46 @@
 		"player1": "bf-dressed",
 		"events": [
 			[
+				52800,
+				[
+					[
+						"Set Camera Zoom",
+						"0.8",
+						"quadInOut:1"
+					]
+				]
+			],
+			[
+				61650,
+				[
+					[
+						"Set Camera Zoom",
+						"0.7",
+						"quadInOut:1"
+					]
+				]
+			],
+			[
+				62400,
+				[
+					[
+						"Set Camera Zoom",
+						"0.8",
+						"quadInOut:1"
+					]
+				]
+			],
+			[
+				71400,
+				[
+					[
+						"Set Camera Zoom",
+						"0.7",
+						"quadInOut:1"
+					]
+				]
+			],
+			[
 				91200,
 				[
 					[
@@ -17,7 +57,7 @@
 				[
 					[
 						"Add Camera Zoom",
-						"",
+						"0.015",
 						""
 					]
 				]
@@ -27,7 +67,7 @@
 				[
 					[
 						"Add Camera Zoom",
-						"",
+						"0.02",
 						""
 					]
 				]
@@ -37,7 +77,7 @@
 				[
 					[
 						"Add Camera Zoom",
-						"",
+						"0.025",
 						""
 					]
 				]
@@ -47,7 +87,7 @@
 				[
 					[
 						"Add Camera Zoom",
-						"",
+						"0.03 ",
 						""
 					]
 				]
@@ -57,7 +97,7 @@
 				[
 					[
 						"Add Camera Zoom",
-						"",
+						"0.015",
 						""
 					]
 				]
@@ -67,7 +107,7 @@
 				[
 					[
 						"Add Camera Zoom",
-						"",
+						"0.02",
 						""
 					]
 				]
@@ -77,7 +117,7 @@
 				[
 					[
 						"Add Camera Zoom",
-						"",
+						"0.025",
 						""
 					]
 				]
@@ -87,7 +127,7 @@
 				[
 					[
 						"Add Camera Zoom",
-						"",
+						"0.03",
 						""
 					]
 				]
@@ -97,7 +137,7 @@
 				[
 					[
 						"Add Camera Zoom",
-						"",
+						"0.02",
 						""
 					]
 				]
@@ -107,7 +147,7 @@
 				[
 					[
 						"Add Camera Zoom",
-						"",
+						"0.025",
 						""
 					]
 				]
@@ -117,7 +157,7 @@
 				[
 					[
 						"Add Camera Zoom",
-						"",
+						"0.03",
 						""
 					]
 				]
@@ -127,7 +167,7 @@
 				[
 					[
 						"Add Camera Zoom",
-						"",
+						"0.035",
 						""
 					]
 				]
@@ -137,7 +177,7 @@
 				[
 					[
 						"Add Camera Zoom",
-						"",
+						"0.02",
 						""
 					]
 				]
@@ -147,7 +187,7 @@
 				[
 					[
 						"Add Camera Zoom",
-						"",
+						"0.025",
 						""
 					]
 				]
@@ -157,7 +197,7 @@
 				[
 					[
 						"Add Camera Zoom",
-						"",
+						"0.03",
 						""
 					]
 				]
@@ -167,7 +207,7 @@
 				[
 					[
 						"Add Camera Zoom",
-						"",
+						"0.035",
 						""
 					]
 				]
@@ -177,43 +217,13 @@
 				[
 					[
 						"Add Camera Zoom",
-						"",
+						"0.04",
 						""
 					],
 					[
 						"Change Character",
 						"gf",
-						"gf-bushes"
-					]
-				]
-			],
-			[
-				132000,
-				[
-					[
-						"Add Camera Zoom",
-						"",
-						""
-					]
-				]
-			],
-			[
-				134400,
-				[
-					[
-						"Add Camera Zoom",
-						"",
-						""
-					]
-				]
-			],
-			[
-				136800,
-				[
-					[
-						"Add Camera Zoom",
-						"",
-						""
+						"gf-bushes-wink"
 					]
 				]
 			]
@@ -3328,6 +3338,16 @@
 						119700,
 						2,
 						150
+					],
+					[
+						119700,
+						0,
+						0
+					],
+					[
+						119700,
+						4,
+						0
 					]
 				],
 				"lengthInSteps": 16,
@@ -4387,24 +4407,84 @@
 				"bpm": 100
 			},
 			{
-				"gfSection": false,
 				"lengthInSteps": 16,
-				"altAnim": false,
 				"typeOfSection": 0,
 				"sectionNotes": [],
+				"altAnim": false,
+				"gfSection": false,
 				"bpm": 100,
 				"changeBPM": false,
 				"mustHitSection": true
 			},
 			{
-				"gfSection": false,
 				"lengthInSteps": 16,
-				"altAnim": false,
 				"typeOfSection": 0,
 				"sectionNotes": [],
+				"altAnim": false,
+				"gfSection": false,
 				"bpm": 100,
 				"changeBPM": false,
 				"mustHitSection": true
+			},
+			{
+				"lengthInSteps": 16,
+				"typeOfSection": 0,
+				"sectionNotes": [],
+				"altAnim": false,
+				"gfSection": false,
+				"bpm": 100,
+				"changeBPM": false,
+				"mustHitSection": true
+			},
+			{
+				"sectionNotes": [],
+				"typeOfSection": 0,
+				"lengthInSteps": 16,
+				"gfSection": false,
+				"altAnim": false,
+				"mustHitSection": true,
+				"changeBPM": false,
+				"bpm": 100
+			},
+			{
+				"sectionNotes": [],
+				"typeOfSection": 0,
+				"lengthInSteps": 16,
+				"gfSection": false,
+				"altAnim": false,
+				"mustHitSection": true,
+				"changeBPM": false,
+				"bpm": 100
+			},
+			{
+				"sectionNotes": [],
+				"typeOfSection": 0,
+				"lengthInSteps": 16,
+				"gfSection": false,
+				"altAnim": false,
+				"mustHitSection": true,
+				"changeBPM": false,
+				"bpm": 100
+			},
+			{
+				"lengthInSteps": 16,
+				"typeOfSection": 0,
+				"sectionNotes": [],
+				"altAnim": false,
+				"gfSection": false,
+				"bpm": 100,
+				"changeBPM": false,
+				"mustHitSection": true
+			},
+			{
+				"sectionNotes": [],
+				"typeOfSection": 0,
+				"lengthInSteps": 16,
+				"gfSection": false,
+				"altAnim": false,
+				"mustHitSection": true,
+				"changeBPM": false,
+				"bpm": 100
 			},
 			{
 				"gfSection": false,
@@ -4420,9 +4500,9 @@
 		"gfVersion": "gf-bushes",
 		"player2": "cuz2",
 		"song": "Imminence",
+		"validScore": true,
 		"needsVoices": true,
 		"stage": "downtown",
-		"validScore": true,
 		"bpm": 100,
 		"speed": 2.4
 	}

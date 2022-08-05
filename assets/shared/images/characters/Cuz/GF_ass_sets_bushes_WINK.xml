@@ -1,4 +1,4 @@
-﻿<TextureAtlas imagePath="GF_ass_sets bushes.png">
+﻿<TextureAtlas imagePath="GF_ass_sets_bushes_WINK.png">
 	<SubTexture name="GF Dancing Beat0000" x="3" y="3" width="703" height="727"/>
 	<SubTexture name="GF Dancing Beat0001" x="731" y="3" width="703" height="727"/>
 	<SubTexture name="GF Dancing Beat0002" x="1459" y="3" width="703" height="727"/>

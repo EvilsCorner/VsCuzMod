@@ -4791,6 +4791,7 @@ class PlayState extends MusicBeatState
 							shadeOverlay.visible = true;
 							boyfriend.idleSuffix = 'Smug';
 							dad.idleSuffix = 'Scared';
+							beatHitZoomAmt = 0.03;
 							//gleam activate
 						}
 						case 216:
@@ -4800,6 +4801,12 @@ class PlayState extends MusicBeatState
 							boyfriend.idleSuffix = '';
 							dad.idleSuffix = '';
 							//gleam deactivate
+						}
+						case 232:
+						{
+							beatHitZoomAmt = 0.015;
+							//gf.idleSuffix = 'Wink';
+							//FlxGgf.recalculateDanceIdle();
 						}
 						default:
 							//meh

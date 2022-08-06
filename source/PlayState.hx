@@ -4785,6 +4785,9 @@ class PlayState extends MusicBeatState
 				if(curSong == "Imminence") {
 					switch (curBeat)
 					{
+						case 151:
+							gf.idleSuffix = 'Gleam';
+							gf.recalculateDanceIdle();
 						case 152:
 						{
 							FlxG.camera.flash(0xFFA70010, 0.5, true); //red flash
@@ -4793,20 +4796,25 @@ class PlayState extends MusicBeatState
 							dad.idleSuffix = 'Scared';
 							beatHitZoomAmt = 0.03;
 							//gleam activate
+							
 						}
+						case 215:
+							gf.idleSuffix = 'Wink';
+							gf.recalculateDanceIdle();
 						case 216:
 						{
 							FlxG.camera.flash(0xAF000CA7, 0.5, true); // blue flash
 							shadeOverlay.visible = false;
 							boyfriend.idleSuffix = '';
 							dad.idleSuffix = '';
-							//gleam deactivate
+
 						}
+						case 218:
+							gf.idleSuffix = '';
+							gf.recalculateDanceIdle();
 						case 232:
 						{
 							beatHitZoomAmt = 0.015;
-							//gf.idleSuffix = 'Wink';
-							//FlxGgf.recalculateDanceIdle();
 						}
 						default:
 							//meh

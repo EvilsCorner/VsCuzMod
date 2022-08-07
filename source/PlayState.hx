@@ -3439,7 +3439,7 @@ class PlayState extends MusicBeatState
 
 	function customCamZoom(target:Float, motionData:String)
 	{
-		//camZooming = false;
+		camZooming = false;
 		if (cameraTwn == null && FlxG.camera.zoom != 1.3) {
 			//expoInOut nah
 			//linear nah
@@ -4774,10 +4774,11 @@ class PlayState extends MusicBeatState
 						windows.visible = false;
 					});
 					
+					// prevents the same window being shown twice
 					lastWindow = curWindow;
 					while(curWindow == lastWindow)
 					{
-						// prevents the same window being shown
+						
 						curWindow = FlxG.random.int(0, downtownWindows.length - 1);
 					}
 					downtownWindows.members[curWindow].visible = true;
@@ -4807,7 +4808,6 @@ class PlayState extends MusicBeatState
 							shadeOverlay.visible = false;
 							boyfriend.idleSuffix = '';
 							dad.idleSuffix = '';
-
 						}
 						case 218:
 							gf.idleSuffix = '';
@@ -4820,6 +4820,29 @@ class PlayState extends MusicBeatState
 							//meh
 					}
 				}
+				if(curSong == "Equivocation") {
+					switch (curBeat)
+					{
+						case 44:
+							beatHitZoomAmt = 0.025;
+						case 76:
+							beatHitZoomAmt = 0.02;
+							beatHitZoomFreq = 2;
+						case 88:
+							beatHitZoomAmt = 0.02;
+							beatHitZoomFreq = 1;
+						case 92:
+							beatHitZoomAmt = 0.03;
+							beatHitZoomFreq = 4;
+						case 156:
+							beatHitZoomAmt = 0.02;
+						case 188:
+							beatHitZoomAmt = 0.04;
+						case 220:
+							beatHitZoomAmt = 0.02;
+					}
+				}
+
 			case "liminalHell":
 				switch (curBeat)
 				{

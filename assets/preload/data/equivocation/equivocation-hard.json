@@ -5723,56 +5723,6 @@
 				"bpm": 100,
 				"changeBPM": false,
 				"mustHitSection": true
-			},
-			{
-				"gfSection": false,
-				"lengthInSteps": 16,
-				"altAnim": false,
-				"typeOfSection": 0,
-				"sectionNotes": [],
-				"bpm": 100,
-				"changeBPM": false,
-				"mustHitSection": true
-			},
-			{
-				"gfSection": false,
-				"lengthInSteps": 16,
-				"altAnim": false,
-				"typeOfSection": 0,
-				"sectionNotes": [],
-				"bpm": 100,
-				"changeBPM": false,
-				"mustHitSection": true
-			},
-			{
-				"gfSection": false,
-				"lengthInSteps": 16,
-				"altAnim": false,
-				"typeOfSection": 0,
-				"sectionNotes": [],
-				"bpm": 100,
-				"changeBPM": false,
-				"mustHitSection": true
-			},
-			{
-				"gfSection": false,
-				"lengthInSteps": 16,
-				"altAnim": false,
-				"typeOfSection": 0,
-				"sectionNotes": [],
-				"bpm": 100,
-				"changeBPM": false,
-				"mustHitSection": true
-			},
-			{
-				"gfSection": false,
-				"lengthInSteps": 16,
-				"altAnim": false,
-				"typeOfSection": 0,
-				"sectionNotes": [],
-				"bpm": 100,
-				"changeBPM": false,
-				"mustHitSection": true
 			}
 		],
 		"events": [
@@ -5781,7 +5731,7 @@
 				[
 					[
 						"Set Camera Zoom",
-						"0.55",
+						"0.6",
 						"smoothStepInOut:8"
 					]
 				]
@@ -5791,18 +5741,8 @@
 				[
 					[
 						"Set Camera Zoom",
-						"0.7",
-						"smoothStepInOut:2"
-					]
-				]
-			],
-			[
-				26250,
-				[
-					[
-						"Set Camera Zoom",
 						"0.75",
-						"cubeInOut:1"
+						"smoothStepInOut:2"
 					]
 				]
 			],
@@ -5811,7 +5751,7 @@
 				[
 					[
 						"Add Camera Zoom",
-						"",
+						"0.02",
 						""
 					]
 				]
@@ -5821,7 +5761,7 @@
 				[
 					[
 						"Add Camera Zoom",
-						"",
+						"0.03",
 						""
 					]
 				]
@@ -5831,7 +5771,7 @@
 				[
 					[
 						"Add Camera Zoom",
-						"",
+						"0.035",
 						""
 					]
 				]
@@ -5841,7 +5781,7 @@
 				[
 					[
 						"Add Camera Zoom",
-						"",
+						"0.04",
 						""
 					]
 				]
@@ -5851,7 +5791,7 @@
 				[
 					[
 						"Add Camera Zoom",
-						"",
+						"0.02",
 						""
 					]
 				]
@@ -5861,7 +5801,7 @@
 				[
 					[
 						"Add Camera Zoom",
-						"",
+						"0.03",
 						""
 					]
 				]
@@ -5871,7 +5811,7 @@
 				[
 					[
 						"Add Camera Zoom",
-						"",
+						"0.035",
 						""
 					]
 				]
@@ -5881,7 +5821,7 @@
 				[
 					[
 						"Add Camera Zoom",
-						"",
+						"0.04",
 						""
 					]
 				],

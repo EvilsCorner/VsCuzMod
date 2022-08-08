@@ -1624,6 +1624,7 @@ class ChartingState extends MusicBeatState
 				//if(onMasterEditor) {
 					MusicBeatState.switchState(new editors.MasterEditorMenu());
 					FlxG.sound.playMusic(Paths.music('freakyMenu'));
+					Conductor.changeBPM(102);
 				//}
 				FlxG.mouse.visible = false;
 				return;

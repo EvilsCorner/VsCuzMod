@@ -3608,7 +3608,138 @@
 				"mustHitSection": true
 			}
 		],
-		"events": [],
+		"events": [
+			[
+				0,
+				[
+					[
+						"Set Camera Zoom",
+						"0.6",
+						"smoothStepInOut:8"
+					]
+				]
+			],
+			[
+				9600,
+				[
+					[
+						"Set Camera Zoom",
+						"0.75",
+						"smoothStepInOut:2"
+					]
+				]
+			],
+			[
+				63600,
+				[
+					[
+						"Add Camera Zoom",
+						"0.02",
+						""
+					]
+				]
+			],
+			[
+				63900,
+				[
+					[
+						"Add Camera Zoom",
+						"0.03",
+						""
+					]
+				]
+			],
+			[
+				64200,
+				[
+					[
+						"Add Camera Zoom",
+						"0.035",
+						""
+					]
+				]
+			],
+			[
+				64500,
+				[
+					[
+						"Add Camera Zoom",
+						"0.04",
+						""
+					]
+				]
+			],
+			[
+				73200,
+				[
+					[
+						"Add Camera Zoom",
+						"0.02",
+						""
+					]
+				]
+			],
+			[
+				73500,
+				[
+					[
+						"Add Camera Zoom",
+						"0.03",
+						""
+					]
+				]
+			],
+			[
+				73800,
+				[
+					[
+						"Add Camera Zoom",
+						"0.035",
+						""
+					]
+				]
+			],
+			[
+				74100,
+				[
+					[
+						"Add Camera Zoom",
+						"0.04",
+						""
+					]
+				]
+			],
+			[
+				93600,
+				[
+					[
+						"Set Camera Zoom",
+						"0.75",
+						"smoothStepInOut:2"
+					]
+				]
+			],
+			[
+				103200,
+				[
+					[
+						"Set Camera Zoom",
+						"0.8",
+						"smoothStepInOut:2"
+					]
+				]
+			],
+			[
+				112800,
+				[
+					[
+						"Set Camera Zoom",
+						"0.7",
+						"smoothStepInOut:2"
+					]
+				]
+			]
+		],
 		"song": "Equivocation",
 		"needsVoices": true,
 		"validScore": true,

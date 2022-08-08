@@ -37,6 +37,7 @@ class PauseSubState extends MusicBeatSubstate
 	{
 		super();
 		if(CoolUtil.difficulties.length < 2) menuItemsOG.remove('Change Difficulty'); //No need to change difficulty if there is only one!
+		if(Paths.formatToSongPath(PlayState.SONG.song) == 'exertion') menuItemsOG.remove('Change Difficulty');
 
 		if(PlayState.chartingMode)
 		{
@@ -257,6 +258,7 @@ class PauseSubState extends MusicBeatSubstate
 						MusicBeatState.switchState(new FreeplayState());
 					}
 					FlxG.sound.playMusic(Paths.music('freakyMenu'));
+					Conductor.changeBPM(102);
 					PlayState.changedDifficulty = false;
 					PlayState.chartingMode = false;
 			}

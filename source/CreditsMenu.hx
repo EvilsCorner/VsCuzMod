@@ -165,7 +165,7 @@ class CreditsMenu extends MusicBeatState
 				switch(curSelected) 
 				{
 					case 0:
-						CoolUtil.browserLoad("https://twitter.com/acrylicpoppy");
+						CoolUtil.browserLoad("https://twitter.com/acrylicqueen");
 					case 1:
 						CoolUtil.browserLoad("https://twitter.com/EvilsCorner");
 					case 2:

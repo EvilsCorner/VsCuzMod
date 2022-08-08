@@ -376,7 +376,7 @@ class AlphaCharacter extends FlxSprite
 
 	public static var numbers:String = "1234567890";
 
-	public static var symbols:String = "|~#$%()*+-:;<=>@[]^_.,'!?";
+	public static var symbols:String = "|~#$%()*+-:;<=>@[]^_.,'!?/";
 
 	public var row:Int = 0;
 
@@ -412,6 +412,8 @@ class AlphaCharacter extends FlxSprite
 	{
 		switch (letter)
 		{
+			case '/':
+				animation.addByPrefix(letter, 'forward slash', 24);
 			case '.':
 				animation.addByPrefix(letter, 'PERIOD bold', 24);
 			case "'":
@@ -486,6 +488,8 @@ class AlphaCharacter extends FlxSprite
 				animation.addByPrefix(letter, 'hashtag', 24);
 			case '.':
 				animation.addByPrefix(letter, 'period', 24);
+			case '/':
+				animation.addByPrefix(letter, 'forward slash', 24);
 			case "'":
 				animation.addByPrefix(letter, 'apostraphie', 24);
 				y -= 50;

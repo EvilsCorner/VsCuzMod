@@ -1763,7 +1763,28 @@
 				"mustHitSection": true
 			}
 		],
-		"events": [],
+		"events": [
+			[
+				6923.07692307692,
+				[
+					[
+						"Hey!",
+						"bf",
+						""
+					]
+				]
+			],
+			[
+				102923.076923077,
+				[
+					[
+						"Hey!",
+						"bf",
+						""
+					]
+				]
+			]
+		],
 		"song": "Grappler",
 		"stage": "downtown",
 		"validScore": true,

@@ -24,16 +24,6 @@ class GalleryState extends MusicBeatState
 	public static var instance:GalleryState;
 
 	var curSelected:Int = -1;
-	public var exhibits = new FlxTypedGroup<FlxSprite>();
-	var exhibitTotal = 25;
-
-	public var contraBand = new FlxTypedGroup<FlxSprite>();
-	var contraBandTotal = 11;
-
-	var currGalleryTotal = 0;
-
-	var contraToggle:Bool = false;
-
 	public var acceptInput:Bool = true;
 
 	var consoleBox:FlxSprite;
@@ -47,6 +37,7 @@ class GalleryState extends MusicBeatState
 
 	var menuBG:FlxSprite;
 
+	// these are pretty dumb, i could just use a txt file.
 	private static var galleryDesc:Array<String> 
 	= [ 'Cuz First Drawing', 
 		'Cuz First Design',
@@ -72,6 +63,18 @@ class GalleryState extends MusicBeatState
 		'Overcalculation',
 		'Reeheehee',
 		'Them Flustered',
+		'Cutscene 1 Stroll',
+		'Cutscene 2 Throw',
+		'Cutscene 3 Stab',
+		'Cutscene 4 Stranger',
+		'Cutscene 5 Friendly Conversation',
+		'Cutscene 6 Lunge',
+		'Cutscene 7 Meat Shield',
+		'Cutscene 8 Tense Conversation',
+		'Cutscene 9 Dire Situation',
+		'Week Bonus Background Sketch',
+		'Week Cuz Background First Sketch',
+		'Week Cuz Background Refined Sketch',
 		"PRIVATE!! Do NOT Press ENTER. Don't!! DON'T PRESS IT!!!"
 	];
 
@@ -89,6 +92,12 @@ class GalleryState extends MusicBeatState
 		'WEINER'
 	];
 	private var descText:FlxText;
+	public var exhibits = new FlxTypedGroup<FlxSprite>();
+	public var contraBand = new FlxTypedGroup<FlxSprite>();
+	var currGalleryTotal = 0;
+	var contraToggle:Bool = false;
+	var exhibitTotal = galleryDesc.length;
+	var contraBandTotal = contrabandDesc.length;
 
 	override function create()
 	{

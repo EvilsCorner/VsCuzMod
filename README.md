@@ -34,8 +34,6 @@ _____________________________________
 
 # Features
 
-## oh yknow:
-
 Unlockable Gallery!
 ![Unlockable Gallery](art/readme/GalleryMenu.png)
 
@@ -44,6 +42,9 @@ Cutscenes + Custom music!
 ![Cutscenes Number Two](art/readme/CutsceneTwo.png)
 ![Cutscenes Number Three](art/readme/CutsceneThree.png)
 
+Stab Note Mechanic!
+![CStabby Stabby](art/readme/StabMechanic.png)
+
 And More!
 
 
@@ -51,5 +52,5 @@ And More!
 ### Week Cuz:
 ![Week Cuz Game Play](art/readme/GamePlay.png)
 
-### Bonus:
+### Week Bonus:
   * Playable after beating Week Cuz!

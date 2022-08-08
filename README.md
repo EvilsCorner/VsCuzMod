@@ -1,11 +1,20 @@
-# Friday Night Funkin' - Vs Cuz
-This is our sick ass mod!! WOO!
+# Friday Night Funkin' - Kick Ass Kin
+While coming home from a late night date, BF and GF run into BF's cousin Cuz, a seasoned demon hunter who's been after GF for a long time - and they won't let her leave without a battle.
+![Title Screen](art/readme/TitleScreen.png)
 
 ## Installation:
-Download the files for the exe :D
+Just download the files for the .exe!
 
 heres this page for da source :)
 placeholder
+
+## Vs. Cuz Team:
+* Acrylicqueen - Director, Sprite Artist, Writer, Background Artist
+* EvilsCorner - Director, Sprite Animator, Background Artist
+* Splootulu - Cutscene Artist
+* Crashtroid - Composer, Charting
+* Damonj17_ - Composer, Charting
+* Sikowny - Coder
 
 ## Psyche Engine Credits:
 * Shadow Mario - Coding
@@ -27,16 +36,20 @@ _____________________________________
 
 ## oh yknow:
 
-![](https://user-images.githubusercontent.com/44785097/127706669-71cd5cdb-5c2a-4ecc-871b-98a276ae8070.gif)
+Unlockable Gallery!
+![Unlockable Gallery](art/readme/GalleryMenu.png)
 
+Cutscenes + Custom music!
+![Cutscenes Number One](art/readme/CutsceneOne.png)
+![Cutscenes Number Two](art/readme/CutsceneTwo.png)
+![Cutscenes Number Three](art/readme/CutsceneThree.png)
 
-## Mod Support
-* Probably one of the main points of this engine, you can code in .lua files outside of the source code, making your own weeks without even messing with the source!
-* Comes with a Mod Organizing/Disabling Menu. 
+And More!
 
 
 ## Heres da stuff:
 ### Week Cuz:
-  * ye
+![Week Cuz Game Play](art/readme/GamePlay.png)
+
 ### Bonus:
-  * ye also
+  * Playable after beating Week Cuz!
